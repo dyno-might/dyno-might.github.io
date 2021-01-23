@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DYNO MIGHT
+title: Subscribe
 subtitle: 
 image: /img/deathvalleysky_nps_big.jpg
 hero_image: /img/deathvalleysky_nps_big.jpg
