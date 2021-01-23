@@ -1,0 +1,52 @@
+---
+layout:   page
+title:    Tags
+image: /img/deathvalleysky_nps_big.jpg
+---
+{% comment%}
+this code originally based on https://raw.githubusercontent.com/codinfox/codinfox-lanyon/master/blog/tag.html
+Here we generate all the tags.
+{% endcomment%}
+
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+{% if tag != "" %}
+
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<div class="content">
+<p>
+{% for tag in tags %}
+<a href="#{{ tag | slugify }}" class="codinfox-tag-mark"> {{ tag }} </a> &nbsp;&nbsp;
+{% endfor %}
+
+<p>
+
+{% for tag in tags %}
+<h3 id="{{ tag | slugify }}">{{ tag }}</h3>
+  {% for post in site.posts %}
+  {% if post.tags contains tag %}
+  <br><a href="{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
+
+</div>
+

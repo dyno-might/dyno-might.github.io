@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+{% include head.html %}
+<body onload="onLoad()">
+{% include navbar.html %}
+{% unless page.hide_hero %}
+    {% include hero.html %}
+{% endunless %}
+   
+<section class="section">
+    <div class="container">
+        {{ content }}
+    </div>
+</section>
+
+<!-- <section class="section">
+    <div class="container" style="text-align: right;">
+           <a href="https://dyno-might.github.io/feed.xml">RSS</a> | <a href="https://twitter.com/dynomight7">@dynomight7</a>
+    </div>
+</section> -->
+    
+
+</body>
+</html>
+

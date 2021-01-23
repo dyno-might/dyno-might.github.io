@@ -1,0 +1,54 @@
+# Site Settings
+title: DYNOMIGHT
+tagline: a blog
+email: email@email.com
+description: "a blog on economics, statistics, rationalism, philosophy, math, science, game theory, and DIY air purifiers"
+baseurl: "/"
+url: "https://dynomight.net"
+permalink: pretty
+
+paginate: 20
+paginate_path: "/page:num"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude:
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "dynomight"
+      layout: post
+      image: /img/home.jpg
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+      #image: /img/deathvalleysky_nps_big.jpg

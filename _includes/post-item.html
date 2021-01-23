@@ -1,0 +1,37 @@
+<a href="{{ site.baseurl }}{{ post.url }}">
+<!-- <div class="card"> -->
+    <div class="card-image">
+        <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" width="100%" position:relative>
+        <div style="position:absolute; top:50px; margin:16px;">
+        {% comment %}
+        <div style="position:absolute; top:0; left:0; right:0; bottom:0; margin:auto;">
+        {% endcomment %}
+          <p class="title is-4" style="color:white; text-align:center; text-shadow:0 0 5px rgba(0,0,0,1.0);">
+            {{post.title}}
+          </p>
+        </div>
+        <div style="position:absolute;  bottom: 8px; right: 16px;">
+          <p class="subtitle is-6" style="color:white; text-align:center; text-shadow:0 0 5px rgba(0,0,0,1.0);">
+                {{ post.date | date: "%b %-d, %Y" }}
+          </p>
+        </div>
+<!--    </div> -->
+    {% comment %}
+    <div class="card-content">
+        <div class="content">
+            {% comment %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <p class="title is-4">{{ post.title}}</p>
+            </a>
+            <!-- <p class="subtitle is-6">Published {{ post.date | date: "%b %-d, %Y" }} by {{ post.author }}</p> -->
+            <p class="subtitle is-6"><font size=-1>{{ post.date | date: "%b %-d, %Y" }}</font></p>
+            <!-- <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p> -->
+            {% endcomment %}
+        </div>
+        <!-- <div class="has-text-centered">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="button is-dark is-fullwidth">Read more</a>
+        </div> -->
+    </div>
+    {% endcomment %}
+</div>
+</a>
