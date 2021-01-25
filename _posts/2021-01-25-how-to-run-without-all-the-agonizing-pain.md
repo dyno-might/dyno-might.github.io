@@ -3,7 +3,7 @@
 layout: post
 title: "How to run without all the pesky agonizing pain"
 image: /img/running/running.jpg
-tags: explainer policy
+tags: selfImprovement
 hero_light: true
 
 ---
