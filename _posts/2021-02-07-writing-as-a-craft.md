@@ -9,8 +9,6 @@ last_updated: 2021-02-07
 
 ---
 
-# Writing as a craft: Branching, rulesets, stress, and value
-
 Writing is hard. How can we do it better?
 
 The [standard advice](https://archive.org/stream/pdfy-2_qp8jQ61OI6NHwa/Strunk+&+White+-+The+Elements+of+Style,+4th+Edition_djvu.txt) is to use the active voice, be clear, minimize extra words and qualifiers. That's all fine. But isn't it a bit... superficial? It's mostly a list of things *not* to do. No one reads a book because it's *clear*.
