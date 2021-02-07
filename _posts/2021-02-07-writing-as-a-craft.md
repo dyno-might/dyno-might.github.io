@@ -85,9 +85,9 @@ According to Pinker, the second is better because of *the algorithm your brain u
 
 **Principle 1: Avoid left-branching.**
 
-![left branching parse](/img/writing/left_branching_cropped.jpg)
+![left branching parse](/img/writing/left_branching_small.jpg)
 
-![right branching parse](/img/writing/right_branching_cropped.jpg)
+![right branching parse](/img/writing/right_branching_small.jpg)
 
 These [syntax trees](http://nlpviz.bpodgursky.com/) show the problem. The first sentence has lots of **left-branching**. This is harder to parse since there's less context. Picture your brain partway through the first sentence. It will be deep in left part of the first tree above, with no idea what's on all the right branches. While parsing the second sentence, you never have more than a few "open branches".
 
