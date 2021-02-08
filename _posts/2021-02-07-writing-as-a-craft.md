@@ -6,6 +6,7 @@ image: /img/writing/typewriter.jpg
 tags: writing
 hero_light: true
 last_updated: 2021-02-07
+reddit: "https://old.reddit.com/r/dynomight/comments/lfi7gu/writing_is_hard_branching_rulesets_stress_and/"
 
 ---
 
@@ -126,13 +127,13 @@ When style guides tell you not to use the passive voice, this is why. Usually th
 For related issues, I recommend *The Science of Scientific Writing*, an article by Gopen and Swan from 1990 now [freely available online](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing).
 
 
-# Benjamin Dreyer: We Got Some Rules
+# Benjamin Dreyer
 
 (*Dreyer's English: An Utterly Correct Guide to Clarity and Style, 2019*) This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
 
 All the same, I'd like to do as he says, but there are a *lot* of rules. My unavoidable takeaway is that I'll never remember or obey half of them. Unless you're an aspiring editor, I'm not sure I'd recommend this book. The fact that I still enjoyed all three hundred pages is a testament to Dreyer's outlandishly compelling style.
 
-# Matthew Yglesias: Write a Damn Thesis 
+# Matthew Yglesias
 
 This was just a tweet, not a book.
 

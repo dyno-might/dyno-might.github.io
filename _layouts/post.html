@@ -46,8 +46,13 @@ layout: default
         {% if author %}
         {% include author-media.html %}
         {% endif %}
+
+        {% if page.reddit %}
+        <div align="right"><font size=-1><a href="{{page.reddit}}">(comment on reddit)</a></font></div>
+        {% endif %}
     </div>
 </div>
+
 
 <section class="section">
 <div class="container" style="text-align: center; border-style:solid; border-width:1px; padding:10px; border-color:#555555" id="form"> 
