@@ -109,9 +109,9 @@ While classic style guides call to *omit needless words*, this is not always goo
 
 > Light cranes lead us right to bass.
 
-In context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right* and *bass* are intended. But why make them do that?
-
 > Light-colored cranes then lead us to the right, to some bass.
+
+If the first sentence is read in context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right* and *bass* are intended. But why make them do that?
 
 Sometimes longer text is faster to read.
 
@@ -121,17 +121,17 @@ Sometimes longer text is faster to read.
 
 This is hard to read because it starts out with details, and only gives you the context later. If we put the old information first, it becomes much easier to read.
 
-> In this site's post on air purifiers, the concerns about pressure barriers got a discussion about turbulent airflow.
-
-This is why style guides tell you not to use the passive voice. Yet, that's not *always* the right conclusion. Sometimes, when the passive voice puts the context first, it's better.
+> In this site's post on air purifiers, the concerns about pressure barriers led to a discussion about turbulent airflow.
 
 When style guides tell you not to use the passive voice, this is why. Usually the passive voice puts the wrong information at the wrong part of the sentence. But not always:
 
-> That some people eat whole-wheat pasta shocks me.
+> Whole wheat pasta frightens me.
 
-> I am shocked that some people eat whole-wheat pasta.
+> I am frightened by whole wheat pasta.
 
 *I* am old news. The pasta is new. Pasta is better at the end.
+
+For related issues, I recommend *The Science of Scientific Writing*, an article by Gopen and Swan from 1990 now [freely available online](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing).
 
 
 # Benjamin Dreyer: We Got Some Rules
