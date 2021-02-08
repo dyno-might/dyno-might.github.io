@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Writing as a craft: Branching, rulesets, stress, and value"
+title: "Writing is hard: Branching, rulesets, stress, and value"
 image: /img/writing/typewriter.jpg
 tags: writing
 hero_light: true
@@ -9,37 +9,29 @@ last_updated: 2021-02-07
 
 ---
 
-Writing is hard. How can we do it better?
+[Standard advice](https://archive.org/stream/pdfy-2_qp8jQ61OI6NHwa/Strunk+&+White+-+The+Elements+of+Style,+4th+Edition_djvu.txt) on writing is to use the active voice, be clear, minimize extra words. That's all fine, but isn't it a bit... superficial? No one reads a book because it's *clear*.
 
-The [standard advice](https://archive.org/stream/pdfy-2_qp8jQ61OI6NHwa/Strunk+&+White+-+The+Elements+of+Style,+4th+Edition_djvu.txt) is to use the active voice, be clear, minimize extra words and qualifiers. That's all fine. But isn't it a bit... superficial? It's mostly a list of things *not* to do. No one reads a book because it's *clear*.
+Hoping for deeper advice, I read the experts. Here's some of what I learned: Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parsing heuristics.  It's impossible to follow all the conventions. Write a thesis statement. Value value.
 
-Hoping for deeper advice, I read the experts. Sure enough, they have lots to say about different "levels" of writing.
+# Stephen King
 
-Here's some of the things I learned: Have a consistent ruleset. Titles are a black art. Consider how human brains parse language. It's impossible to follow all the rules. Write a thesis statement even if you hate it. Obsess about value.
-
-# Stephen King: Relax About Plot
-
-(*On Writing, A Memoir of the Craft, 2000*)
-
-Here's how Stephen King writes a novel:
+(*On Writing: A Memoir of the Craft, 2000*) Here's how Stephen King writes a novel:
 
 - He has a vague story idea.
 - He creates some characters.
 - He places those characters in a situation.
 - He writes the novel from beginning to end.
 
-Here's how he writes *well*: He lets the characters do what they want. He warns against plot. If a rigid set of events must happen, characters become unreal and robotic. Let them breathe and accept if thing stray from your original vision.
+Here's how he writes *well*: He lets the characters do what they want. He warns against plot. If a rigid set of events must happen, characters become unreal and robotic. Let them breathe and accept things may stray from your original vision.
 
 There's an analogy to science fiction, where the cardinal sin is unclear rulesets. Good science fiction states the rules of the game and then follows them. It's OK to have faster-than-light travel or telepathic aliens, but explain what's possible and stick with it. There's no stakes if the characters are always rescued by their robot butler revealing some previously unknown superpower.
 
 Both King's formula and good science fiction are based on the same principle: Set up a system with a ruleset and then let it go.  The fun is in watching how things evolve from the initial conditions.
 
 
-# Stein Sol: Start Strong
+# Stein Sol
 
-(*Stein on Writing, 1995*)
-
-Sol liked to spy on people at bookstores. He gives a brutal picture:
+(*Stein on Writing, 1995*) Sol liked to spy on people at bookstores. He gives a brutal picture:
 
 * For 99% of books, they scan the title and move on.
 * If they pick up a book, they usually just skim the cover or first page.
@@ -63,7 +55,7 @@ For titles, he gives examples of what the author wanted versus what was publishe
 
 There's no formula. The takeaway is that these choices are important, some people are good at making them, Stein Sol is one of those people, and all the authors who refused to listen to him did so at their peril.
 
-# Stephen Pinker: Empathy for Parser
+# Stephen Pinker
 
 (*The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century, 2014*)
 
@@ -136,9 +128,7 @@ For related issues, I recommend *The Science of Scientific Writing*, an article 
 
 # Benjamin Dreyer: We Got Some Rules
 
-(*Dreyer's English: An Utterly Correct Guide to Clarity and Style, 2019*)
-
-This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
+(*Dreyer's English: An Utterly Correct Guide to Clarity and Style, 2019*) This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
 
 All the same, I'd like to do as he says, but there are a *lot* of rules. My unavoidable takeaway is that I'll never remember or obey half of them. Unless you're an aspiring editor, I'm not sure I'd recommend this book. The fact that I still enjoyed all three hundred pages is a testament to Dreyer's outlandishly compelling style.
 
