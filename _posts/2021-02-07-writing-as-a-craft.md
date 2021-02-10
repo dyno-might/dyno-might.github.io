@@ -23,9 +23,9 @@ Hoping for deeper advice, I read the experts. Here's some of what I learned: Hav
 - He places those characters in a situation.
 - He writes the novel from beginning to end.
 
-Here's how he writes *well*: He lets the characters do what they want. He warns against plot. If a rigid set of events must happen, characters become unreal and robotic. Let them breathe and accept things may stray from your original vision.
+Here's how he writes *well*: He lets the characters do what they want. He warns against plot. If a rigid set of events must happen, characters become unreal and robotic. Let them breathe and accept things might stray from your original vision.
 
-There's an analogy to science fiction, where the cardinal sin is unclear rulesets. Good science fiction states the rules of the game and then follows them. It's OK to have faster-than-light travel or telepathic aliens, but explain what's possible and stick with it. There's no stakes if the characters are always rescued by their robot butler revealing some previously unknown superpower.
+There's an analogy to science fiction, where the cardinal sin is unclear rulesets. Good science fiction states the rules of the game and then follows them. It's OK to have faster-than-light travel or telepathic aliens, but explain what's possible and stick with it. There are no stakes if the characters are always rescued by their robot butler revealing some previously unknown superpower.
 
 Both King's formula and good science fiction are based on the same principle: Set up a system with a ruleset and then let it go.  The fun is in watching how things evolve from the initial conditions.
 
@@ -40,7 +40,7 @@ Both King's formula and good science fiction are based on the same principle: Se
 
 He stresses: Unless you're famous, the title and introduction are what determine if anyone reads you. <!-- (He's talking about books in physical stores, but I'm sure it's even more true for articles on the internet today.) -->
 
-For introductions he says to give a surprising personality or action so the reader will hunger for more. Here's some great first sentences.
+For introductions he says to give a surprising personality or action so the reader will hunger for more. Here are some great first sentences.
 
 * "You must not tell anyone", my mother said, "what I am about to tell you."
 * At exactly 10:19 A.M. yesterday, a grandmother's purse on a conveyor belt at Orange County airport set off an alarm that caused two security guards to rush to the scene.
@@ -66,7 +66,7 @@ There's no formula. The takeaway is that these choices are important, some peopl
 
 The first quote above is a monstrosity, the second merely bad. Why?
 
-You may suspect a simple trick. But look look at the transformation. We've basically permuted chunks <font color="blue">A</font><font color="purple">B</font><font color="red">C</font><font color="#996600">D</font><font color="#669933">E</font> into <font color="#669933">E</font><font color="#996600">D</font><font color="blue">A</font><font color="purple">B</font><font color="red">C</font>.
+You may suspect a simple trick. But look at the transformation. We've permuted chunks <font color="blue">A</font><font color="purple">B</font><font color="red">C</font><font color="#996600">D</font><font color="#669933">E</font> into <font color="#669933">E</font><font color="#996600">D</font><font color="blue">A</font><font color="purple">B</font><font color="red">C</font>.
 
 > The view that <font color="blue">beating a third-rate Serbian military</font> that <font color="purple">for the third time in a decade</font> is <font color="red">brutally targeting civilians</font> is <font color="#996600">hardly worth the effort</font> is not based on <font color="#669933">a lack of understanding of what is occurring on the ground</font>.
 
@@ -90,7 +90,7 @@ Even worse than left-branching is multiple valid parses. (Who lacks qualificatio
 
 > The man who hunts ducks out on weekends. 
 
-More common than ambiguous sentences are **garden paths**. These have *local* ambiguities so reader starts to build one tree, then has to backtrack when later information arrives. This sentence only has one parse, yet it's confusing because your brain knows that "hunts ducks" usually bind together and it's expecting something like "...out on the lake."
+More common than ambiguous sentences are **garden paths**. These have *local* ambiguities so the reader starts to build one tree, then has to backtrack when later information arrives. This sentence only has one parse, yet it's confusing because your brain knows that "hunts ducks" usually bind together and it's expecting something like "...out on the lake."
 
 >  The man who hunts goes out on weekends. 
 
@@ -104,19 +104,19 @@ While classic style guides call to *omit needless words*, this is not always goo
 
 > Light-colored cranes then lead us to the right, to some bass.
 
-If the first sentence is read in context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right* and *bass* are intended. But why make them do that?
+If the first sentence is read in context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right*, and *bass* are intended. But why make them do that?
 
 Sometimes longer text is faster to read.
 
 **Principle 3: Context first**
 
-> A discussion on turbulent airflow added to the concerns about pressure in the air purifier post in this site.
+> A discussion on turbulent airflow added to the concerns about pressure in the air purifier post on this site.
 
 This is hard to read because it starts out with details, and only gives you the context later. If we put the old information first, it becomes much easier to read.
 
 > In this site's post on air purifiers, the concerns about pressure barriers led to a discussion about turbulent airflow.
 
-When style guides tell you not to use the passive voice, this is why. Usually the passive voice puts the wrong information at the wrong part of the sentence. But not always:
+When style guides tell you not to use the passive voice, this is why. The passive voice usually puts the wrong information at the wrong part of the sentence. But not always:
 
 > Whole wheat pasta frightens me.
 
@@ -153,9 +153,9 @@ Sure, he says, these are kind of interesting, but the real answer is:
 
 1. Valuable
 
-The only thing that matters is if the reader gets something they want. Why have a thesis statement? Because life is short, and people shouldn't waste time reading something they don't care about. Do arcane stye guidelines matter? Only if it matters to your readers. Is beauty or clarity more important? It depends on if people are reading for aesthetics or information.
+The only thing that matters is if the reader gets something they want. Why have a thesis statement? Because life is short, and people shouldn't waste time reading something they don't care about. Do arcane style guidelines matter? Only if it matters to your readers. Is beauty or clarity more important? It depends on if people are reading for aesthetics or information.
 
-He also stresses to avoid perfection. Very, *very* little non-fiction from 100 years is still read today. Writing is less ephemeral than talking, but it's still a conversation. It will be forgotten. It won't make you immortal– nothing will. Once you've said what you want to say, move on.
+He also stresses to avoid perfectionism. Very, *very* little non-fiction from 100 years is still read today. Writing is less ephemeral than talking, but it's still a conversation. It will be forgotten. It won't make you immortal– nothing will. Once you've said what you want to say, move on.
 
 <!--
 emphasize value
