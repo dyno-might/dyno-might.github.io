@@ -155,7 +155,7 @@ Sure, he says, these are kind of interesting, but the real answer is:
 
 The only thing that matters is if the reader gets something they want. Why have a thesis statement? Because life is short, and people shouldn't waste time reading something they don't care about. Do arcane style guidelines matter? Only if it matters to your readers. Is beauty or clarity more important? It depends on if people are reading for aesthetics or information.
 
-He also stresses to avoid perfectionism. Very, *very* little non-fiction from 100 years is still read today. Writing is less ephemeral than talking, but it's still a conversation. It will be forgotten. It won't make you immortal– nothing will. Once you've said what you want to say, move on.
+He also stresses to avoid perfectionism. Very, *very* little non-fiction from 100 years is still read today. Writing is less ephemeral than talking, but it's still a conversation. It will be forgotten. It won't make you immortal--- nothing will. Once you've said what you want to say, move on.
 
 <!--
 emphasize value
