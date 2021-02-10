@@ -4,20 +4,23 @@ layout: post
 title: "The veil of darkness"
 image: /img/police/court_light_cropped.jpg
 tags: statistics policy
+last_updated: 2021-02-09
 
 ---
 
 Measuring police bias using simple ratios [doesn't work](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). You can never cleanly separate the impact of race from other associated factors.
 
-Instead, I want augmented-reality goggles that make race invisible. Then we could run the following experiment:
+But imagine we had augmented-reality goggles that made race invisible. Suppose we ran the following experiment:
 
 * Have half of police wear race-invisibility goggles for a year.
 * Have the other half wear non-invisibility goggles.
-* Look at the *difference* of the two groups.
+* Look at the difference of the two groups.
 
-The police with invisibility goggles would [*not*](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#a-thought-experiment) have equal statistics with respect to race, because race is correlated with many things other than how people appear. However, since the only difference between the two groups is if police can see race, the difference reveals exactly the impact of police bias.
+The police with invisibility goggles would [*not*](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#a-thought-experiment) have equal statistics with respect to race. That's because race is correlated with many things other than how people look.
 
-We can't do this experiment, but we can do kind of low-tech approximation. Instead of augmented reality goggles we use the geometry of the earth and sun. This idea is called the "veil of darkness": Take all cars stopped by police in some area around 7:15pm. Depending on the time of year, it may be light or dark. When dark, it's harder to tell a driver's race. So let's look at how the racial mix of stopped drivers changes throughout the year.
+However, the only difference between the two groups of police is if they can see race. Thus, their *difference* would reveals exactly the impact of police bias.
+
+We haven't done this experiment, of course. But we've done a kind of low-tech approximation, called the "veil of darkness". Instead of augmented reality goggles, we use the geometry of the earth and sun. Here's the idea: Take all cars stopped by police in some around around 7:15. It will be light in summer, but dark in winter, meaning it's harder to tell the race of the driver. So we ask, does the racial mix of stopped drivers change throughout the year?
 
 # Stopping data
 
