@@ -2,7 +2,7 @@
 layout: post
 title: "Doing discourse better: Stuff I wish I knew"
 image: /img/discourse/forum_romanum.jpg
-tags: policy community
+tags: policy communication
 
 ---
 

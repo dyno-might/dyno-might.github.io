@@ -122,21 +122,25 @@ If the first sentence is read in context, a reader might be able to figure out w
 
 **Principle 3: Context first**
 
-> A discussion on turbulent airflow added to the concerns about pressure in the air purifier post on this site.
+What is it that's so annoying about this sentence?
 
-This is hard to read because it starts out with details, and only gives you the context later. If we put the old information first, it becomes much easier to read.
+> Noise pollution is one the downsides of using a box fans mentioned in the DIY air purifier post on this site.
 
-> In this site's post on air purifiers, the concerns about pressure barriers led to a discussion about turbulent airflow.
+It's hard to read because it starts straight-away with the details, and only gives you context later. If we put the old information first, it becomes much easier to read.
 
-When style guides tell you not to use the passive voice, this is why. The passive voice usually puts the wrong information at the wrong part of the sentence. But not always:
+> This site's post of DIY air purifiers using a box fans mentions that one downside is noise pollution.
 
-> People who claim whole wheat pasta is suitable for human consumption frighten me.
+When style guides tell you not to use the passive voice, this is why. The passive voice usually puts the wrong information at the wrong part of the sentence. But not always. Here's an example of a sentence written with the active voice:
 
-> I am frightened by people who claim whole wheat pasta is suitable for human consumption.
+> Several people with theories about laminar airflow and pressure gradients commented on my article about DIY air purifiers.
 
-*I* am old news. Human consumption is new. It's better at the end.
+If we swap in the passive voice, there's a clear improvement:
 
-For related issues, I recommend *The Science of Scientific Writing*, a <a href="https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing">wonderful article</a> by Gopen and Swan from 1990.
+> My article about DIY air purifiers was commented on by several people with theories about laminar airflow and pressure gradients. 
+
+*I* am old news. Pressure gradients are new. They belong at the end, and the passive voice is a perfectly legit way of putting them there.
+
+For related issues, I recommend <a href="https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing">The Science of Scientific Writing</a>, a wonderful article from 1990 by Gopen and Swan.
 
 
 # Benjamin Dreyer (Dreyer's English, 2019)
