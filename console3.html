@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+let global_where = 0;
+let Q = [-1]
+function getrow(where,choice,border){
+  if(border){
+    //row = "<tr><td align=\"right\">"+qs[where][0]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
+    row = "<tr style=\"outline: thin solid black\"><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
+  } else
+    row = "<tr><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
+
+  for(var i=1; i<= 5; i++){
+    if(choice != i)
+      row += "<font color=\"gray\">"+i+"</font>";
+    else
+      row += "<b><font color=\"red\">"+i+"</font></b>";
+    }
+    row += "</tt></td><td>"+q_hi[where]+"</td></tr>";
+    return row;
+}
+
+function choose_from_range(score,stuff){
+    if(score <= .3)
+        return stuff[0]
+    else if(score < .45)
+        return stuff[1]
+    else if(score < .55)
+        return stuff[2]
+    else if(score < .7)
+        return stuff[3]
+    return stuff[4]
+}
+
+function getscores(){
+    IE = 30-Q[3]-Q[7]-Q[11]+Q[15]-Q[19]+Q[23]+Q[27]-Q[31]; //8 40
+    SN = 12+Q[4]+Q[8]+Q[12]+Q[16]+Q[20]-Q[24]-Q[28]+Q[32]; //8 40
+    FT = 30-Q[2]+Q[6]+Q[10]-Q[14]-Q[18]+Q[22]-Q[26]-Q[30];
+    JP = 18+Q[1]+Q[5]-Q[9]+Q[13]-Q[17]+Q[21]-Q[25]+Q[29];
+
+    IE = (IE-8)/32
+    SN = (SN-8)/32
+    FT = (FT-8)/32
+    JP = (JP-8)/32
+    
+    IE_lab = choose_from_range(IE,['I','i','x','e','E'])
+    SN_lab = choose_from_range(SN,['S','s','x','n','N'])
+    FT_lab = choose_from_range(FT,['F','f','x','t','T'])
+    JP_lab = choose_from_range(JP,['J','j','x','p','P'])
+
+    $("table").last().after("<br>You are:"+IE_lab + SN_lab + FT_lab + JP_lab+"<br>IE: "+IE+"<br>SN:"+" "+SN+"<br>FT:"+FT+"<br>JP:"+JP)
+}
+
+function maketable(){
+    // draw the initial table
+    //text = '<table style="border-collapse:separate; border-spacing:5px;"><tr><td style="width:20%; min-width:100px;"></td><td style="max-width:50px;"></td><td style="width:20%;"></td></tr>'
+        text = '<table style="border-collapse:separate; border-spacing:5px;"><tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
+    for(var j=0; j<q_lo.length; j++){
+        text += getrow(j,-1,j==0);
+    }
+    text += "</table>"
+    $("p").last().after(text)
+}
+
+$(function(){
+    $(document).on('keypress', function(e){
+        // zero key indicates we want to delete
+        if (e.which==48){
+            // replace current line with blank
+            row = getrow(global_where,0,false);
+            $("tr")[global_where+1].outerHTML = row;
+
+            // go up one row
+            if(global_where>0)
+                Q.pop()
+            global_where = Math.max(0,global_where-1)
+            row = getrow(global_where,0,true);
+            $("tr")[global_where+1].outerHTML = row;
+        }
+
+        // what to do if a new number is entered
+        if (e.which >= 49 && e.which <= 53){
+            choice = e.which - 48
+            Q.push(choice)
+        
+            // replace current line with choice
+            lastrow = getrow(global_where,choice,false);
+            $("tr")[global_where+1].outerHTML = lastrow;
+
+            global_where += 1
+
+            if(global_where==q_lo.length){
+                getscores()
+            }else{
+                // draw current line with box
+                newrow = getrow(global_where,0,true);
+                $("tr")[global_where+1].outerHTML = newrow;
+            }
+        }
+    });
+});
+
+let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as they are','keeps a clean room','thinks "robotic" is an insult','energetic','prefer to take multiple choice test','chaotic','easily hurt','works best in groups','focused on the present','plans far ahead', 'wants people\'s respect', 'gets worn out by parties', 'fits in', 'keeps options open', 'wants to be good at fixing things', 'talks more','when describing an event,<br> will tell people what happened','gets work done right away', 'follows the heart', 'stays at home', 'wants the big picture', 'improvises', 'bases morality on justice', 'finds it difficult to yell very loudly','theoretical', 'works hard', 'uncomfortable with emotions', 'likes to perform in front of other people','likes to know "who?", "what?"']
+let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event,<br> will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away<br> comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know "why"']
+</script>
+</head>
+<body onload="maketable();">
+
+<center>
+<p>USE YOUR KEYBOARD
+    <br>1-5 TO CHOOSE, 0 TO GO BACK
+    <br>SCORES DISPLAY IMMEDIATELY WHEN DONE
+
+</center>
+  
+</body>
+</html>
