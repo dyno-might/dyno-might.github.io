@@ -176,7 +176,11 @@ function setup(){
 }
 
 function register_choice(choice,clicked){
-    buttons = clicked;
+    if(clicked){
+        $('#buttons').show()
+    }
+    
+    //buttons = clicked;
     if (choice==0){
         // replace current line with blank
         row = getrow(global_where,0,false);
@@ -223,7 +227,7 @@ $(function(){
             register_choice(choice,false)
             num_keyboard += 1
             if(num_keyboard==4)
-                $("#buttons").remove()
+                $("#buttons").hide()
         }
     });
 });
@@ -267,7 +271,7 @@ let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfie
 <div id="resultgraph"></div>
 
 </center>
-<div style="position:fixed; z-index:100; bottom: 0; left:0; width:100%; border-top:solid; background-color:white;" id="buttons">
+<div style="position:fixed; z-index:100; bottom: 0; left:0; width:100%; border-top:solid gray; background-color:white; opacity:.85;" id="buttons">
 <a href="javascript:register_choice(1,true)"><div class=button>1</div></a><a href="javascript:register_choice(2,true)"><div class=button>2</div></a><a href="javascript:register_choice(3,true)"><div class=button>3</div></a><a href="javascript:register_choice(4,true)"><div class=button>4</div></a><a href="javascript:register_choice(5,true)"><div class=button>5</div></a><a href="javascript:register_choice(0,true)"><div class=button>↑</div></a></div>
 
 </body>
