@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 let global_where = 0;
@@ -104,7 +105,7 @@ function maketable(){
         text += getrow(j,-1,j==0);
     }
     text += "</table>"
-    $("p").last().after(text)
+    $("br").last().after(text)
 }
 
 $(function(){
@@ -152,9 +153,10 @@ let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfie
 <body onload="maketable();">
 
 <center>
-<p>USE YOUR KEYBOARD
-    <br>1-5 TO CHOOSE, 0 TO GO BACK
-    <br>SCORES DISPLAY IMMEDIATELY WHEN DONE
+<br>NO BULLSHIT MBTI QUIZ
+<br>RESULTS DISPLAY IMMEDIATELY WHEN DONE
+<br>USE YOUR KEYBOARD
+<br>1-5 TO CHOOSE, 0 TO GO BACK</br>
 
 </center>
   

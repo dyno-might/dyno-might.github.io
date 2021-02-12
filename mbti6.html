@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body {
+            font-size: 1.2em; /* 14px/16=0.875em */
+            font-family: Garamond
+          }
+          table td{
+              padding: 5px;
+          }
+    </style>
+    
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 let global_where = 0;
 let Q = [-1]
+
+function drawbar(a,size){
+    r = ""
+    needbar=true
+    for(i=0; i<size;i++){
+        b=i/size
+        if(b>a && needbar){
+            r += "|"
+            needbar=false
+        } else{
+            r += "-"
+        }
+    }
+    return r
+}
+
 function getrow(where,choice,border){
   if(border){
     //row = "<tr><td align=\"right\">"+qs[where][0]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
-    row = "<tr style=\"outline: thin solid black\"><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
+    //row = "<tr style=\"outline: thin solid black\"><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
+        row = '<tr style="background-color:#eee; border-collapse: collapse;"><td align="right">'+q_lo[where]+'</td><td align="center"><tt>';
   } else
     row = "<tr><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
 
+   row+="   "
   for(var i=1; i<= 5; i++){
     if(choice != i)
-      row += "<font color=\"gray\">"+i+"</font>";
+      row += '<font color="#cccccc">'+i+'</font>';
     else
-      row += "<b><font color=\"red\">"+i+"</font></b>";
+      row += '<b><font color="blue">'+i+'</font></b>';
     }
+    row+=" "
     row += "</tt></td><td>"+q_hi[where]+"</td></tr>";
     return row;
 }
@@ -50,18 +79,45 @@ function getscores(){
     FT_lab = choose_from_range(FT,['F','f','x','t','T'])
     JP_lab = choose_from_range(JP,['J','j','x','p','P'])
 
-    $("table").last().after("<br>You are:"+IE_lab + SN_lab + FT_lab + JP_lab+"<br>IE: "+IE+"<br>SN:"+" "+SN+"<br>FT:"+FT+"<br>JP:"+JP)
+    size = 40
+    txt = "<br>"
+    txt += "<h1><font size=+5>You are1: <tt>"+IE_lab + SN_lab + FT_lab + JP_lab+"</tt></font></h1>";
+    txt += "<tt>"
+
+    txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
+    num_before = Math.floor(IE*size)+2
+    num_after = size+8-num_before-9
+    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + IE.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+
+    txt += "<br>S=0 " + drawbar(SN,size) + " N=1 " //+ SN.toFixed(3);
+    num_before = Math.floor(SN*size)+2
+    num_after = size+8-num_before-9
+    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + SN.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+
+    txt += "<br>F=0 " + drawbar(FT,size) + " T=1 "
+    num_before = Math.floor(FT*size)+2
+    num_after = size+8-num_before-9
+    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + FT.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+
+    txt += "<br>J=0 " + drawbar(JP,size) + " P=1 "
+    num_before = Math.floor(JP*size)+2
+    num_after = size+8-num_before-9
+    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + JP.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+
+    txt += "</tt>"
+    $("table").last().after(txt)
+    //$("table").last().after(+"<br>IE: "+IE+"<br>SN:"+" "+SN+"<br>FT:"+FT+"<br>JP:"+JP)
 }
 
 function maketable(){
     // draw the initial table
     //text = '<table style="border-collapse:separate; border-spacing:5px;"><tr><td style="width:20%; min-width:100px;"></td><td style="max-width:50px;"></td><td style="width:20%;"></td></tr>'
-        text = '<table style="border-collapse:separate; border-spacing:5px;"><tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
+        text = '<table style="border-collapse:separate; border-spacing:0px 8px;" ><tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
     for(var j=0; j<q_lo.length; j++){
         text += getrow(j,-1,j==0);
     }
     text += "</table>"
-    $("p").last().after(text)
+    $("br").last().after(text)
 }
 
 $(function(){
@@ -81,7 +137,7 @@ $(function(){
         }
 
         // what to do if a new number is entered
-        if (e.which >= 49 && e.which <= 53){
+        if (e.which >= 49 && e.which <= 53 && global_where < q_lo.length){
             choice = e.which - 48
             Q.push(choice)
         
@@ -109,9 +165,10 @@ let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfie
 <body onload="maketable();">
 
 <center>
-<p>USE YOUR KEYBOARD
-    <br>1-5 TO CHOOSE, 0 TO GO BACK
-    <br>SCORES DISPLAY IMMEDIATELY WHEN DONE
+<br>NO BULLSHIT MBTI QUIZ
+<br>RESULTS DISPLAY IMMEDIATELY WHEN DONE
+<br>USE YOUR KEYBOARD
+<br>1-5 TO CHOOSE, 0 TO GO BACK</br>
 
 </center>
   
