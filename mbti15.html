@@ -23,13 +23,21 @@
           a:hover {
               color: blue;
           }
+          div.button{
+            display:inline-block;
+            width:16.5%;
+            margin:0 auto important;
+            font-family: "Courier";
+            font-size: 3em;
+            text-align: center;
+          }
     </style>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 let global_where = 0;
 let Q = [-1];
-let buttons = true;
+let num_keyboard = 0;
 
 function updateprogress(done){
     txt = "[" + done + "/" + q_lo.length + "]"
@@ -53,16 +61,6 @@ function drawbar(a,size){
 }
 
 function getrow(where,choice,border){
-    // if border, color row gray but otherwise leave identical
-//   if(border){
-//         row = '<tr style="background-color:#eee; border-collapse: collapse; height:100px;"><td align="right">'+q_lo[where]+'</td><td align="center" style="font-size:3em;"><tt>';
-//         for (var i=1; i<=5; i++){
-//             row += '<font color="#cccccc"><a href="javascript:register_choice('+i+')">'+i+'</a></font>';
-//         }
-//         row += "</tt></td><td>"+q_hi[where]+'</td>'
-//         row += '<td style="cursor:default; font-size:2em;"><a href="javascript:register_choice(0)">↑</a></td></tr>';
-//         return row
-//     } 
     if(border)
         row = '<tr style="background-color:#eeeeee" id="row'+where+'"">';
     else
@@ -83,27 +81,6 @@ function getrow(where,choice,border){
     row += "</tt></td><td>"+q_hi[where]+"</td>"
     row += '<td></td>';
     row += "</tr>";
-
-    // if border, put extra row of clickable buttons
-    if(border && buttons){ // only make if user is using
-        //row += '<tr style="background-color:#eeeeee"><td colspan=4 align="center">'
-        row += '<tr id="buttons"><td colspan=4 align="center">'
-        for (var i=1; i<=5; i++){
-            row += '<a href="javascript:register_choice('+i+',true)">'
-            row += '<div style="display:inline-block; width:16.6%; margin 0 auto">'
-            row += '<tt style="font-size:5em">'
-            row += i
-            row += '</tt></div></a>'
-            //row += '<font color="#cccccc" style="font-size:8em;"><a href="javascript:register_choice('+i+')">'+i+'</a></font>';
-        }
-        row += '<a href="javascript:register_choice(0,true)">'
-        row += '<div style="display:inline-block; width:16.6%; margin 0 auto">'
-        row += '<tt style="font-size:5em">'
-        row += '↑'
-        row += '</tt></div></a>'
-            
-        row += '</td></tr>'
-    }
 
     return row;
 }
@@ -204,8 +181,6 @@ function register_choice(choice,clicked){
         // replace current line with blank
         row = getrow(global_where,0,false);
         $("#row"+global_where).replaceWith(row);
-        // kill off current buttons if any
-        $('#buttons').remove();
 
         // go up one row
         if(global_where>0)
@@ -224,8 +199,6 @@ function register_choice(choice,clicked){
         // replace current line with choice
         lastrow = getrow(global_where,choice,false);
         $("#row"+global_where).replaceWith(lastrow);
-        // kill off current buttons if any
-        $('#buttons').remove();
 
         global_where += 1
         updateprogress(global_where)
@@ -248,6 +221,9 @@ $(function(){
         if((e.which >= 48 && e.which <= 53) && global_where < q_lo.length){
             choice = e.which-48;
             register_choice(choice,false)
+            num_keyboard += 1
+            if(num_keyboard==4)
+                $("#buttons").remove()
         }
     });
 });
@@ -291,7 +267,8 @@ let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfie
 <div id="resultgraph"></div>
 
 </center>
-
+<div style="position:fixed; z-index:100; bottom: 0; left:0; width:100%; border-top:solid; background-color:white;" id="buttons">
+<a href="javascript:register_choice(1,true)"><div class=button>1</div></a><a href="javascript:register_choice(2,true)"><div class=button>2</div></a><a href="javascript:register_choice(3,true)"><div class=button>3</div></a><a href="javascript:register_choice(4,true)"><div class=button>4</div></a><a href="javascript:register_choice(5,true)"><div class=button>5</div></a><a href="javascript:register_choice(0,true)"><div class=button>↑</div></a></div>
 
 </body>
 </html>
