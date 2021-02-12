@@ -76,9 +76,9 @@ We can understand the difference between the two sentences if we draw [syntax tr
 
 ![left branching parse](/img/writing/left_branching_cropped.jpg)
 
-As you can see, there's a rather deep tree, with branching on both sides.
+As you can see, there's a rather deep tree with branching on both sides.
 
-Meanwhile, here's the second sentence:
+Meanwhile, the second sentence forms an extremely *imbalanced* tree. This is good, provided it all goes to the right.
 
 ![right branching parse](/img/writing/right_branching_cropped.jpg)
 
