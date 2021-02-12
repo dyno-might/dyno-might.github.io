@@ -9,6 +9,9 @@
           table td{
               padding: 5px;
           }
+          tt{
+              font-size: 1.3em
+          }
     </style>
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -25,7 +28,7 @@ function drawbar(a,size){
             r += "|"
             needbar=false
         } else{
-            r += "-"
+            r += "─"
         }
     }
     return r
@@ -63,6 +66,13 @@ function choose_from_range(score,stuff){
     return stuff[4]
 }
 
+    
+function choose_from_range2(score,stuff){
+    if(score <= .5)
+        return stuff[0]
+    return stuff[1]
+}
+
 function getscores(){
     IE = 30-Q[3]-Q[7]-Q[11]+Q[15]-Q[19]+Q[23]+Q[27]-Q[31]; //8 40
     SN = 12+Q[4]+Q[8]+Q[12]+Q[16]+Q[20]-Q[24]-Q[28]+Q[32]; //8 40
@@ -82,7 +92,14 @@ function getscores(){
     size = 40
     txt = "<br>"
     txt += "<h1><font size=+5>You are: <tt>"+IE_lab + SN_lab + FT_lab + JP_lab+"</tt></font></h1>";
-    txt += "<tt>"
+    
+
+    IE_lab = choose_from_range2(IE,['I','E'])
+    SN_lab = choose_from_range2(SN,['S','N'])
+    FT_lab = choose_from_range2(FT,['F','T'])
+    JP_lab = choose_from_range2(JP,['J','P'])
+    txt += "<br>(or " + IE_lab + SN_lab + FT_lab + JP_lab+" if you abhor nuance)"
+    txt += "<p><tt>"
 
     txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
     num_before = Math.floor(IE*size)+2
