@@ -1,22 +1,20 @@
 ---
 
 layout: post
-title: "Writing is hard: Branching, rulesets, stress, and value"
+title: "What I learned from reading about writing"
 image: /img/writing/typewriter.jpg
 tags: writing
 hero_light: true
 last_updated: 2021-02-07
-reddit: "https://old.reddit.com/r/dynomight/comments/lfi7gu/writing_is_hard_branching_rulesets_stress_and/"
+tags: communication
 
 ---
 
-[Standard advice](https://archive.org/stream/pdfy-2_qp8jQ61OI6NHwa/Strunk+&+White+-+The+Elements+of+Style,+4th+Edition_djvu.txt) on writing is to use the active voice, be clear, minimize extra words. That's all fine, but isn't it a bit... superficial? No one reads a book because it's *clear*.
+Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parser. It's impossible to follow all the conventions. Write a thesis statement even if you hate it
 
-Hoping for deeper advice, I read the experts. Here's some of what I learned: Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parsing heuristics.  It's impossible to follow all the conventions. Write a thesis statement. Value value.
+# Stephen King (On Writing, 2000)
 
-# Stephen King
-
-(*On Writing: A Memoir of the Craft, 2000*) Here's how Stephen King writes a novel:
+Here's how Stephen King writes a novel:
 
 - He has a vague story idea.
 - He creates some characters.
@@ -30,9 +28,9 @@ There's an analogy to science fiction, where the cardinal sin is unclear ruleset
 Both King's formula and good science fiction are based on the same principle: Set up a system with a ruleset and then let it go.  The fun is in watching how things evolve from the initial conditions.
 
 
-# Stein Sol
+# Stein Sol (Stein on Writing, 1995)
 
-(*Stein on Writing, 1995*) Sol liked to spy on people at bookstores. He gives a brutal picture:
+Sol liked to spy on people at bookstores. He gives a brutal picture:
 
 * For 99% of books, they scan the title and move on.
 * If they pick up a book, they usually just skim the cover or first page.
@@ -56,9 +54,7 @@ For titles, he gives examples of what the author wanted versus what was publishe
 
 There's no formula. The takeaway is that these choices are important, some people are good at making them, Stein Sol is one of those people, and all the authors who refused to listen to him did so at their peril.
 
-# Stephen Pinker
-
-(*The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century, 2014*)
+# Stephen Pinker (The Sense of Style, 2014)
 
 > The view that beating a third-rate Serbian military that for the third time in a decade is brutally targeting civilians is hardly worth the effort is not based on a lack of understanding of what is occurring on the ground.
 
@@ -76,25 +72,43 @@ According to Pinker, the second is better because of *the algorithm your brain u
 
 **Principle 1: Avoid left-branching.**
 
+We can understand the difference between the two sentences if we draw [syntax trees](http://nlpviz.bpodgursky.com/). Here's the first sentence:
+
 ![left branching parse](/img/writing/left_branching_cropped.jpg)
+
+As you can see, there's a rather deep tree, with branching on both sides.
+
+Meanwhile, here's the second sentence:
 
 ![right branching parse](/img/writing/right_branching_cropped.jpg)
 
-These [syntax trees](http://nlpviz.bpodgursky.com/) show the problem. The first sentence has lots of **left-branching**. This is harder to parse since there's less context. Picture your brain partway through the first sentence. It will be deep in left part of the first tree above, with no idea what's on all the right branches. While parsing the second sentence, you never have more than a few "open branches".
+The first sentence has lots of **left-branching**. This is harder to parse since there's less context. Picture your brain partway through the first sentence. It will be deep in left part of the first tree above, with no idea what's on all the right branches. While parsing the second sentence, you never have more than a few "open branches".
+
+Say you've got a long sentence, and you wonder if it's hard to read. How would you use this insight? This suggests the following procedure.
+
+1. Draw a parse tree for it.
+2. Are there long left-branches in the tree? If so, it's probably hard to read. You should rewrite to eliminate them.
+3. Are there long right-branches? Then it might be OK.
+
+This is a much more nuanced way of looking at things than the typical advice that sentences shouldn't be longer than 25 words or whatever.
 
 **Principle 2: Avoid Garden Paths.**
 
+Even worse than left-branching is multiple valid parses.
+
 > I enthusiastically recommend this candidate with no qualifications whatsoever. 
 
-Even worse than left-branching is multiple valid parses. (Who lacks qualifications, the candidate or the recommendation?) 
+(Who lacks qualifications, the candidate or the recommendation?) 
+
+Ambiguous sentences are relatively rare. Given their humorous value, they are probably a net-positive for humanity. More common and problematic are **garden paths**. These have *local* ambiguities so the reader starts to build one tree, then has to backtrack when later information arrives. 
 
 > The man who hunts ducks out on weekends. 
 
-More common than ambiguous sentences are **garden paths**. These have *local* ambiguities so the reader starts to build one tree, then has to backtrack when later information arrives. This sentence only has one parse, yet it's confusing because your brain knows that "hunts ducks" usually bind together and it's expecting something like "...out on the lake."
+This sentence only has one parse, yet it's confusing because your brain knows that "hunts ducks" usually bind together. Near the end of the sentence you expect something like "...on the lake." When you see "...on weekends", you need to start over.
 
 >  The man who hunts goes out on weekends. 
 
-This is much easier to understand because "hunts goes" doesn't mean anything.
+This is easy to understand because "hunts goes" doesn't mean anything.
 
 Garden paths are easy to write, yet are rare in spoken language. Speakers naturally use tone and rhythm to clarify meaning. Be careful not to imagine these clues when writing, since readers only get bare words.
 
@@ -104,9 +118,7 @@ While classic style guides call to *omit needless words*, this is not always goo
 
 > Light-colored cranes then lead us to the right, to some bass.
 
-If the first sentence is read in context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right*, and *bass* are intended. But why make them do that?
-
-Sometimes longer text is faster to read.
+If the first sentence is read in context, a reader might be able to figure out what which meaning of *light*, *crane*, *lead*, *right*, and *bass* are intended. But why make them do that? Sometimes longer text is faster to read.
 
 **Principle 3: Context first**
 
@@ -118,18 +130,18 @@ This is hard to read because it starts out with details, and only gives you the 
 
 When style guides tell you not to use the passive voice, this is why. The passive voice usually puts the wrong information at the wrong part of the sentence. But not always:
 
-> Whole wheat pasta frightens me.
+> People who claim whole wheat pasta is suitable for human consumption frighten me.
 
-> I am frightened by whole wheat pasta.
+> I am frightened by people who claim whole wheat pasta is suitable for human consumption.
 
-*I* am old news. The pasta is new. Pasta is better at the end.
+*I* am old news. Human consumption is new. It's better at the end.
 
-For related issues, I recommend *The Science of Scientific Writing*, an article by Gopen and Swan from 1990 now [freely available online](https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing).
+For related issues, I recommend *The Science of Scientific Writing*, a <a href="https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing">wonderful article</a> by Gopen and Swan from 1990.
 
 
-# Benjamin Dreyer
+# Benjamin Dreyer (Dreyer's English, 2019)
 
-(*Dreyer's English: An Utterly Correct Guide to Clarity and Style, 2019*) This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
+This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
 
 All the same, I'd like to do as he says, but there are a *lot* of rules. My unavoidable takeaway is that I'll never remember or obey half of them. Unless you're an aspiring editor, I'm not sure I'd recommend this book. The fact that I still enjoyed all three hundred pages is a testament to Dreyer's outlandishly compelling style.
 
