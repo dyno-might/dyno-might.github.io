@@ -246,19 +246,19 @@ function register_choice(rownum,choice,clicked){
         clear_row(rownum)
         for(i=1; i<=5; i++)
             $("#"+rownum+'_'+i).css("color","#ffffff")
-        $("#"+rownum+'_'+choice).css("color","blue")
+        $("#"+rownum+'_'+choice).css("color","#0000aa")
         rownum=find_next_unanswered()
 
         // if done, show results
 
-        // if(global_where==q_lo.length){
-        //     getscores();
-        //     $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-        // }else{
-        //     // draw current line with box
-        //     newrow = getrow(global_where,0,true);
-        //     $("#row"+global_where).replaceWith(newrow);
-        // }
+        if(rownum==q_lo.length){
+            getscores();
+            $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+        }else{
+            // draw current line with box
+            newrow = getrow(global_where,0,true);
+            $("#row"+global_where).replaceWith(newrow);
+        }
 
         // if not done, gray next line
         $("#row"+(rownum)).css("background-color","#eeeeee")
