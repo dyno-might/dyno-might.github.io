@@ -54,7 +54,7 @@ For titles, he gives examples of what the author wanted versus what was publishe
 
 There's no formula. The takeaway is that these choices are important, some people are good at making them, Stein Sol is one of those people, and all the authors who refused to listen to him did so at their peril.
 
-# Stephen Pinker (The Sense of Style, 2014)
+# Steven Pinker (The Sense of Style, 2014)
 
 > The view that beating a third-rate Serbian military that for the third time in a decade is brutally targeting civilians is hardly worth the effort is not based on a lack of understanding of what is occurring on the ground.
 
