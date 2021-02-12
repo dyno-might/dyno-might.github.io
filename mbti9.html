@@ -19,6 +19,12 @@
 let global_where = 0;
 let Q = [-1]
 
+function updateprogress(done){
+    txt = "[" + done + "/" + q_lo.length + "]"
+    $("#progress1").html(txt)
+    $("#progress2").html(txt)
+}
+
 function drawbar(a,size){
     r = ""
     needbar=true
@@ -36,13 +42,15 @@ function drawbar(a,size){
 
 function getrow(where,choice,border){
   if(border){
-    //row = "<tr><td align=\"right\">"+qs[where][0]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
-    //row = "<tr style=\"outline: thin solid black\"><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
         row = '<tr style="background-color:#eee; border-collapse: collapse;"><td align="right">'+q_lo[where]+'</td><td align="center"><tt>';
-  } else
+        for (var i=1; i<=5; i++){
+            row += '<font color="#cccccc" onclick="register_choice('+i+')">'+i+'</font>';
+        }
+        row += "</tt></td><td>"+q_hi[where]+'<span style="float:right" onclick="register_choice(0)">↑</span></td></tr>';
+        return row
+  } 
     row = "<tr><td align=\"right\">"+q_lo[where]+"</td><td align=\"center\"><tt>"; //id=\"" + where + "\"
 
-   row+="   "
   for(var i=1; i<= 5; i++){
     if(choice != i)
       row += '<font color="#cccccc">'+i+'</font>';
@@ -73,6 +81,36 @@ function choose_from_range2(score,stuff){
     return stuff[1]
 }
 
+function get_you_string(val,startphase3,size){
+    if(startphase3){
+        return "<br>"
+    } else{
+        num_before = Math.floor(val*size)+2
+        num_after = size+8-num_before-9
+        return "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + val.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+    }
+}
+
+function resultgraph(IE,SN,FT,JP,phaze){
+    var size = 40
+    var txt = "<p><tt>"
+
+    txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
+    txt += get_you_string(IE,phaze,size)
+
+    txt += "<br>S=0 " + drawbar(SN,size) + " N=1 " //+ SN.toFixed(3);
+    txt += get_you_string(SN,phaze,size)
+
+    txt += "<br>F=0 " + drawbar(FT,size) + " T=1 "
+    txt += get_you_string(FT,phaze,size)
+
+    txt += "<br>J=0 " + drawbar(JP,size) + " P=1 "
+    txt += get_you_string(JP,phaze,size)
+
+    txt += "</tt>"
+    return txt
+}
+
 function getscores(){
     IE = 30-Q[3]-Q[7]-Q[11]+Q[15]-Q[19]+Q[23]+Q[27]-Q[31]; //8 40
     SN = 12+Q[4]+Q[8]+Q[12]+Q[16]+Q[20]-Q[24]-Q[28]+Q[32]; //8 40
@@ -89,88 +127,74 @@ function getscores(){
     FT_lab = choose_from_range(FT,['F','f','x','t','T'])
     JP_lab = choose_from_range(JP,['J','j','x','p','P'])
 
-    size = 40
-    txt = "<br>"
-    txt += "<h1><font size=+5>You are: <tt>"+IE_lab + SN_lab + FT_lab + JP_lab+"</tt></font>";
-    
+    $("#mbtisubtype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);    
 
     IE_lab = choose_from_range2(IE,['I','E'])
     SN_lab = choose_from_range2(SN,['S','N'])
     FT_lab = choose_from_range2(FT,['F','T'])
     JP_lab = choose_from_range2(JP,['J','P'])
-    txt += "<tt>(" + IE_lab + SN_lab + FT_lab + JP_lab+")</tt></h1>"
-    txt += "<p><tt>"
 
-    txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
-    num_before = Math.floor(IE*size)+2
-    num_after = size+8-num_before-9
-    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + IE.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
-
-    txt += "<br>S=0 " + drawbar(SN,size) + " N=1 " //+ SN.toFixed(3);
-    num_before = Math.floor(SN*size)+2
-    num_after = size+8-num_before-9
-    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + SN.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
-
-    txt += "<br>F=0 " + drawbar(FT,size) + " T=1 "
-    num_before = Math.floor(FT*size)+2
-    num_after = size+8-num_before-9
-    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + FT.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
-
-    txt += "<br>J=0 " + drawbar(JP,size) + " P=1 "
-    num_before = Math.floor(JP*size)+2
-    num_after = size+8-num_before-9
-    txt += "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + JP.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
-
-    txt += "</tt>"
-    $("table").last().after(txt)
-    //$("table").last().after(+"<br>IE: "+IE+"<br>SN:"+" "+SN+"<br>FT:"+FT+"<br>JP:"+JP)
+    $("#mbtitype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);
 }
 
 function maketable(){
-    // draw the initial table
-    //text = '<table style="border-collapse:separate; border-spacing:5px;"><tr><td style="width:20%; min-width:100px;"></td><td style="max-width:50px;"></td><td style="width:20%;"></td></tr>'
-        text = '<table style="border-collapse:separate; border-spacing:0px 8px;" ><tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
+    text = '<tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
     for(var j=0; j<q_lo.length; j++){
         text += getrow(j,-1,j==0);
     }
-    text += "</table>"
-    $("br").last().after(text)
+    $("#questions").html(text)
+}
+
+function setup(){
+    maketable();
+    $("#resultgraph").last().html(resultgraph(.5,.5,.5,.5,true));
+    updateprogress(0)
+}
+
+function register_choice(choice){
+    if (choice==0){
+        // replace current line with blank
+        row = getrow(global_where,0,false);
+        $("tr")[global_where+1].outerHTML = row;
+
+        // go up one row
+        if(global_where>0)
+            Q.pop()
+        global_where = Math.max(0,global_where-1)
+        row = getrow(global_where,0,true);
+        $("tr")[global_where+1].outerHTML = row;
+        updateprogress(global_where)
+    }
+
+    // what to do if a new number is entered
+    else{
+        Q.push(choice)
+    
+        // replace current line with choice
+        lastrow = getrow(global_where,choice,false);
+        $("tr")[global_where+1].outerHTML = lastrow;
+
+        global_where += 1
+        updateprogress(global_where)
+
+        if(global_where==q_lo.length){
+            getscores();
+            $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+        }else{
+            // draw current line with box
+            newrow = getrow(global_where,0,true);
+            $("tr")[global_where+1].outerHTML = newrow;
+        }
+    }
+
 }
 
 $(function(){
     $(document).on('keypress', function(e){
         // zero key indicates we want to delete
-        if (e.which==48){
-            // replace current line with blank
-            row = getrow(global_where,0,false);
-            $("tr")[global_where+1].outerHTML = row;
-
-            // go up one row
-            if(global_where>0)
-                Q.pop()
-            global_where = Math.max(0,global_where-1)
-            row = getrow(global_where,0,true);
-            $("tr")[global_where+1].outerHTML = row;
-        }
-
-        // what to do if a new number is entered
-        if (e.which >= 49 && e.which <= 53 && global_where < q_lo.length){
-            choice = e.which - 48
-            Q.push(choice)
-        
-            // replace current line with choice
-            lastrow = getrow(global_where,choice,false);
-            $("tr")[global_where+1].outerHTML = lastrow;
-
-            global_where += 1
-
-            if(global_where==q_lo.length){
-                getscores()
-            }else{
-                // draw current line with box
-                newrow = getrow(global_where,0,true);
-                $("tr")[global_where+1].outerHTML = newrow;
-            }
+        if((e.which >= 48 && e.which <= 53) && global_where < q_lo.length){
+            choice = e.which-48;
+            register_choice(choice)
         }
     });
 });
@@ -179,13 +203,35 @@ let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as 
 let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event,<br> will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away<br> comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know "why"']
 </script>
 </head>
-<body onload="maketable();">
+<body onload="setup();">
 
 <center>
-<br>NO BULLSHIT MBTI QUIZ
+<br>MBTI QUIZ
 <br>results display immediately when done
-<br>use your keyboard
-<br>1-5 to choose, 0 to go back</br>
+<br>keyboard: 1-5 to choose, 0 to go back
+<br>mouse: click to choose, last row to go back
+<div align="right" id="progress1"></div>
+<br>
+
+<table style="border-collapse:separate; border-spacing:0px 8px;" id="questions"></table>
+
+<div align="right" id="progress2"></div>
+<p>
+<font size=+10>You are:</font>
+<font size=+5>
+    <tt>
+        <span id="mbtitype">
+            ****
+        </span>
+    </tt>
+</font>
+<p>
+(Or <tt><span id="mbtisubtype">
+    **** 
+    </span></tt>
+    <font size=-1>in <a href="https://dynomight.home.blog/2020/06/12/in-defense-of-meyers-briggs/">Dynomight MBTI notation</a></font>)
+
+<div id="resultgraph"></div>
 
 </center>
   
