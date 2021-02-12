@@ -84,11 +84,7 @@ function drawbar(a,size){
 }
 
 function getrow(where,choice,border){
-    //if(border)
-    //    row = '<tr style="background-color:#eeeeee" id="row'+where+'"">';
-    //else
     row = '<tr id="row'+where+'">'
-
     row += '<td align="right">'+q_lo[where]+"</td><td>"
     for(var i=1; i<= 5; i++)
             row += '<a id="'+where+'_'+i+'"href="javascript:register_choice('+where+','+i+',true)">'+i+'</a>'
@@ -96,7 +92,6 @@ function getrow(where,choice,border){
     row += "</tt></td><td>"+q_hi[where]+"</td>"
     row += '<td></td>';
     row += "</tr>";
-
     return row;
 }
 
@@ -197,6 +192,7 @@ function clear_row(rownum){
 }
 
 function find_next_unanswered(){
+    return 5
     for(i=0; i<q_lo.length; i++)
         if(Q[i]==0)
             return(i)
@@ -204,6 +200,7 @@ function find_next_unanswered(){
 }
 
 function find_last_answered(){
+    return 5
     for(i=q_lo.length-1; i>=0; i--)
         if(Q[i]!=0)
             return i
@@ -255,7 +252,6 @@ function register_choice(rownum,choice,clicked){
             getscores();
             $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
         }
-        
         // if not done, gray next line
         $("#row"+(rownum)).css("background-color","#eeeeee")
     }
