@@ -254,12 +254,8 @@ function register_choice(rownum,choice,clicked){
         if(rownum==q_lo.length){
             getscores();
             $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-        }else{
-            // draw current line with box
-            newrow = getrow(global_where,0,true);
-            $("#row"+global_where).replaceWith(newrow);
         }
-
+        
         // if not done, gray next line
         $("#row"+(rownum)).css("background-color","#eeeeee")
     }
