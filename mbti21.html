@@ -12,7 +12,8 @@
           table {
             border-collapse:separate;
             border-spacing:0px 20px;
-            max-width:1000px;
+            width:700px;
+            max-width:100%;
             padding:50px 0px;
           }
           tt{
@@ -179,7 +180,7 @@ function getscores(){
 }
 
 function maketable(){
-    text = '<tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
+    text = '<tr><td></td><td style="white-space:nowrap;"></td><td></td></tr>'
     for(var j=0; j<q_lo.length; j++){
         text += getrow(j,-1,j==0);
     }
