@@ -60,8 +60,10 @@
 <script>
 //let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as they are','keeps a clean room','thinks "robotic" is an insult','energetic','prefer to take multiple choice test','chaotic','easily hurt','works best in groups','focused on the present','plans far ahead', 'wants people\'s respect', 'gets worn out by parties', 'fits in', 'keeps options open', 'wants to be good at fixing things', 'talks more','when describing an event,<br> will tell people what happened','gets work done right away', 'follows the heart', 'stays at home', 'wants the big picture', 'improvises', 'bases morality on justice', 'finds it difficult to yell very loudly','theoretical', 'works hard', 'uncomfortable with emotions', 'likes to perform in front of other people','likes to know "who?", "what?"']
 //let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event,<br> will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away<br> comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know "why"']
-let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as they are','keeps a clean room','thinks "robotic" is an insult','energetic','prefer to take multiple choice test','chaotic','easily hurt','works best in groups','focused on the present','plans far ahead', 'wants people\'s respect', 'gets worn out by parties', 'fits in', 'keeps options open', 'wants to be good at fixing things', 'talks more','when describing an event, will tell people what happened','gets work done right away', 'follows the heart', 'stays at home', 'wants the big picture', 'improvises', 'bases morality on justice', 'finds it difficult to yell very loudly','theoretical', 'works hard', 'uncomfortable with emotions', 'likes to perform in front of other people','likes to know "who?", "what?"']
-let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event, will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away<br> comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know "why"']
+//let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as they are','keeps a clean room','thinks "robotic" is an insult','energetic','prefer to take multiple choice test','chaotic','easily hurt','works best in groups','focused on the present','plans far ahead', 'wants people\'s respect', 'gets worn out by parties', 'fits in', 'keeps options open', 'wants to be good at fixing things', 'talks more','when describing an event, will tell people what happened','gets work done right away', 'follows the heart', 'stays at home', 'wants the big picture', 'improvises', 'bases morality on justice', 'finds it difficult to yell very loudly','theoretical', 'works hard', 'uncomfortable with emotions', 'likes to perform in front of other people','likes to know "who?", "what?"']
+//let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event, will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know "why"']
+let q_lo = ['makes lists','sceptical',' bored by time alone','accepts things as they are','keeps a clean room','thinks "robotic" is an insult','energetic','prefer multiple choice test','chaotic','easily hurt','works best in groups','focused on the present','plans far ahead', 'wants people\'s respect', 'gets worn out by parties', 'fits in', 'keeps options open', 'wants to be good at fixing things', 'talks more','when describing an event, will tell people what happened','gets work done right away', 'follows the heart', 'stays at home', 'wants the big picture', 'improvises', 'bases morality on justice', 'finds it difficult to yell very loudly','theoretical', 'works hard', 'uncomfortable with emotions', 'likes to perform in front of other people','likes to know: who? what?']
+let q_hi = ['relies on memory','wants to believe','needs time alone','unsatisfied with the ways things are','just puts stuff where ever','strives to have a mechanical mind','mellow','prefer essay answers','organized','thick-skinned','works best alone','focused on the future','plans at the last minute','wants their love','gets fired up by parties','stands out','commits','wants to be good at fixing people','listens more','when describing an event, will tell people what it meant','procrastinates','follows the head','goes out on the town','wants the details','prepares','bases morality on compassion','yelling to others when they are far away comes naturally','empirical','plays hard','values emotions','avoids public speaking','likes to know: why']
 
 
 let global_where = 0;
@@ -96,7 +98,6 @@ function getrow(where,choice,border){
             row += '<a id="'+where+'_'+i+'"href="javascript:register_choice('+where+','+i+',true)">'+i+'</a>'
     row+=" "
     row += "</tt></td><td>"+q_hi[where]+"</td>"
-    row += '<td></td>';
     row += "</tr>";
     return row;
 }
@@ -177,7 +178,7 @@ function getscores(){
 }
 
 function maketable(){
-    text = '<tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td><td></td></tr>'
+    text = '<tr><td style="max-width:300px;"></td><td style="white-space:nowrap;"></td><td style="max-width:300px;"></td></tr>'
     for(var j=0; j<q_lo.length; j++){
         text += getrow(j,-1,j==0);
     }
@@ -307,7 +308,7 @@ $(function(){
 (Or <tt><span id="mbtisubtype">
     **** 
     </span></tt>
-    <font size=-1>in <a href="https://dynomight.home.blog/2020/06/12/in-defense-of-meyers-briggs/">Dynomight MBTI notation</a></font>)
+    <font size=-1>in <a href="https://dynomight.home.blog/2020/06/12/in-defense-of-meyers-briggs/">dynomight MBTI notation</a></font>)
 
 <div id="resultgraph"></div>
 
