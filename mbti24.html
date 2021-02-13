@@ -49,16 +49,24 @@
           a:hover {
               color: blue;
           }
+          div.backbutton{
+            position:fixed;
+            z-index:100;
+            top: 0;
+            right:0;
+            width:20%;
+          }
           div.buttonrow{
             position:fixed;
             z-index:100;
             bottom: 0;
             left:0;
             width:100%;
+            /*background-color:blue;*/
           }
           div.button{
             display:inline-block;
-            width:16.0%;
+            width:20%;
             margin:0 auto;
             font-family: "Courier";
             border: none;
@@ -356,8 +364,14 @@ $(function(){
 <div id="aftergraph"></div>
 
 <div class="buttonrow" id="buttons">
-<a href="javascript:register_next(1,true)"><div class=button>1</div></a><a href="javascript:register_next(2,true)"><div class=button>2</div></a><a href="javascript:register_next(3,true)"><div class=button>3</div></a><a href="javascript:register_next(4,true)"><div class=button>4</div></a><a href="javascript:register_next(5,true)"><div class=button>5</div></a><a href="javascript:register_next(0,true)"><div class=button>↑</div></a></div>
+<a href="javascript:register_next(1,true)"><div class=button>1</div></a><a href="javascript:register_next(2,true)"><div class=button>2</div></a><a href="javascript:register_next(3,true)"><div class=button>3</div></a><a href="javascript:register_next(4,true)"><div class=button>4</div></a><a href="javascript:register_next(5,true)"><div class=button>5</div></a></div>
 
+<div class="backbutton">
+    <a href="javascript:register_next(0,true)">
+        <div class="button" style="width:100.0%">↑</div>
+    </a>
+</div>
+    
 
 </body>
 </html>
