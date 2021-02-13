@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         #top{
-            width: 100%;
+            width:95%;
             border: 5px solid orange;
             text-align: center;
+            border-collapse: separate;
         }
         #questions{
             display:table;
-            border-spacing: 10px;
+            /*border-spacing: 0px 20px;*/
+            margin: 0px 0px;
         }
         html {
             width: 100%;
@@ -19,7 +21,7 @@
             border:5px solid blue;
         }
         body {
-            width: 100%;
+            width: 95%;
             margin: 0;
             border: 5px solid pink;
         }
@@ -27,31 +29,23 @@
             font-size: 1.2em;
             font-family: Garamond;
         }
-        .cell{
-            width:50%;
-            float:right;
-            vertical-align: center;
-            }
-          /*
-          table {
-            border-collapse:separate; 
-            border-spacing:0px 20px;
-            width:100%;
-            padding:50px 0px;
-          }*/
+        div.row{
+            display:table-row;
+        }
+        div.cell{
+            display: table-cell;
+            vertical-align: middle;
+            padding:5px;
+        }
           tt{
               font-size: 1.3em;
           }
-          /*
-          td{
-            vertical-align: middle;
-            padding: 0 5px;
-          }
-          */
+
           a:link{
               color: gray;
               text-decoration: none;
               font-family: "Courier";
+              font-size:0.8em;
           }
           a:hover {
               color: blue;
@@ -74,9 +68,6 @@
             background-color:white;
             opacity:.9;
             visibility: visible;
-          }
-          div.row{
-            display:table-row;
           }
     /*
     @media (max-width:550px) {
@@ -131,11 +122,11 @@ function getrow(where,choice,border){
     // row += "</tr>";
     // return row;
     row = '<div id="row'+where+'" class="row">'
-    row += '<div style="display:table-cell; text-align:right; vertical-align: middle;">'+q_lo[where]+'</div><div style="display:table-cell; vertical-align: middle;">'
+    row += '<div style="display:table-cell; text-align:right;" class="cell">'+q_lo[where]+'</div><div style="display:table-cell;" class="cell">'
     for(var i=1; i<= 5; i++)
             row += '<a id="'+where+'_'+i+'"href="javascript:register_choice('+where+','+i+',true)">'+i+'</a>'
     row+=" "
-    row += '</div><div style="display: table-cell; vertical-align: middle;">'+q_hi[where]+"</div>"
+    row += '</div><div class="cell">'+q_hi[where]+"</div>"
     row += "</div>";
     return row;
 
