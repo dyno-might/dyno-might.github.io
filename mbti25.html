@@ -72,7 +72,9 @@
             border: none;
             font-size: 5vh;
             text-align: center;
-            background-color:white;
+            background-color:gray;
+            outline: black 1px solid;
+            color:white;
             opacity:.9;
             visibility: visible;
             vertical-align: middle;
@@ -145,12 +147,15 @@ function getrow(where,choice,border){
     row = '<div id="row'+where+'" class="row">'
     row += '<div style="display:table-cell; text-align:right;" class="cell">'+q_lo[where]+'</div><div style="display:table-cell;" class="cell">'
     for(var i=1; i<= 5; i++)
-            row += '<a id="'+where+'_'+i+'"href="javascript:register_choice('+where+','+i+',true)">'+i+'</a>'
+            row += '<a id="'+where+'_'+i+'"href="javascript:register_choice('+where+','+i+',true);">'+i+'</a>'
     row+=" "
     row += '</div><div class="cell">'+q_hi[where]+"</div>"
     row += "</div>";
     return row;
+}
 
+function miniclick(where,i,clicked){
+    register_choice(where,i,clicked);
 }
 
 function choose_from_range(score,stuff){
@@ -316,7 +321,8 @@ function register_choice(rownum,choice,clicked){
         if(rownum==q_lo.length){
             getscores();
             $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-            $("#buttons").hide()
+            $("#buttons").hide();
+            $("#goback").hide();
         }
     }
 }
@@ -328,8 +334,10 @@ $(function(){
             choice = e.which-48;
             register_choice(find_next_unanswered(),choice,false)
             num_keyboard += 1
-            if(num_keyboard==4)
+            if(num_keyboard==4){
                 $("#buttons").hide()
+                $("#goback").hide();
+            }
         }
     });
 });
@@ -374,10 +382,10 @@ $(function(){
 </div>
 
 <div class="buttonrow" id="buttons">
-<a href="javascript:register_next(1,true)"><div class=button>1</div></a><a href="javascript:register_next(2,true)"><div class=button>2</div></a><a href="javascript:register_next(3,true)"><div class=button>3</div></a><a href="javascript:register_next(4,true)"><div class=button>4</div></a><a href="javascript:register_next(5,true)"><div class=button>5</div></a></div>
+<a href="javascript:register_next(1,true)"><div class=button id="button1">1</div></a><a href="javascript:register_next(2,true)"><div class=button>2</div></a><a href="javascript:register_next(3,true)"><div class=button>3</div></a><a href="javascript:register_next(4,true)"><div class=button>4</div></a><a href="javascript:register_next(5,true)"><div class=button>5</div></a></div>
 
 <div class="backbutton"><div style="width:100.0%; display:inline-block; text-align:right; z-index:100;" id="progress"></div></div>
-<div class="backbutton"><a href="javascript:register_next(0,true)"><div class="button" style="width:100.0%; opacity:.6; z-index:90;">↑</div></a></div>
+<div class="backbutton" id="goback"><a href="javascript:register_next(0,true)"><div class="button" style="width:100.0%; opacity:.6; z-index:90;">↑</div></a></div>
     
 
 </body>
