@@ -4,6 +4,7 @@ title: "Making the Monty Hall problem weirder but obvious"
 image: /img/monty-hall/monty.jpg
 description: The Monty Hall problem's solution is obvious if you start with a weird version of it.
 tags: explainer statistics math
+last_updated: 2021-02-16
 ---
 
 <head>
@@ -21,6 +22,8 @@ margin-right: auto;
 }
 </style>
 </head>
+
+<div align="right" style="font-size:70%">(Also available in <a href="https://www.youtube.com/watch?v=LCBTUtApvU8">video form</a>.)</div>
 
 The [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is famously unintuitive. This post starts with an extreme version where the solution is blindingly obvious. We then go through a series of small changes. It will be clear that these don't affect the solution. At the end, we arrive at the classic Monty Hall problem.
 
