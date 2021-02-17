@@ -4,6 +4,7 @@ layout: post
 title: "Are ethics all a lie?"
 image: /img/ethics/clouds.jpg
 tags: philosophy
+last_updated: 2021-02-16
 
 ---
 
@@ -33,7 +34,7 @@ Our skeptic might make a second offensive:
 
 > Still, why try to *codify* right and wrong? Our ethical intuitions are a bunch of random hacks and gobbledygook cobbled together by evolution. Why expect these to have a simple core? Why expect them to even be *consistent*?
 
-Again, a lot if the is right. Our intuitive ethics are a mess. But our skeptic draws exactly the wrong conclusion from that.
+Again, a lot of this right. Our intuitive ethics are a mess. But our skeptic draws exactly the wrong conclusion from that.
 
 It's precisely *because* our intuitions are so inconsistent that formal ethics are interesting. It's boring to ask *is it wrong to randomly torture people?*
  But it's interesting to ask *is it ever ok to do risky experiments on people to save others?* What if the people are informed volunteers? What if the risks are small? What if the number of saved people is much greater? What if there historical precedents are disturbing? People clearly arrive at [different conclusions](https://en.wikipedia.org/wiki/Human_challenge_study).
