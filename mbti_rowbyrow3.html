@@ -123,7 +123,8 @@ function updateprogress(done){
     if(rownum == find_last_answered()+1){
         // try to keep a few questions ahead
         where2scroll = rownum+3
-        if(where2scroll<q_lo.length){
+        //if(where2scroll<q_lo.length){
+        if(rownum+2<q_lo.length){
             document.getElementById("row"+where2scroll).scrollIntoView(false); 
         } else{ // if near end, show results
             document.getElementById("aftergraph").scrollIntoView(false); 
