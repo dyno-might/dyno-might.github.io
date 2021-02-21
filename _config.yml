@@ -52,3 +52,6 @@ defaults:
       layout: "author"
 
       #image: /img/deathvalleysky_nps_big.jpg
+
+feed:
+  posts_limit: 30
