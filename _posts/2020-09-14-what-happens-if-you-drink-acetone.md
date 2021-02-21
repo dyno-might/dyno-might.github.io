@@ -18,7 +18,7 @@ But, out of interest, what if you did? This question is asked repeatedly on the 
 
 Certainly, this doesn’t *look* like something you'd want to put in your body:
 
-![acetone barrels](https://dyno-might.github.io/img/acetone/acetone.jpg)
+![acetone barrels](/img/acetone/acetone.jpg)
 
 ---
 

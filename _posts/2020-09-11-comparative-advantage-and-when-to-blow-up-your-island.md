@@ -24,7 +24,7 @@ This is sometimes considered an arcane part of economics. ([Wikipedia](https://e
 
 # I Islands
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/you.png" alt="you on an island" max-width="75%" min-width="50%" /></div>
+<div class="figure"><img src="/img/comparative-advantage/you.png" alt="you on an island" max-width="75%" min-width="50%" /></div>
 
 Say you live alone on an island. 
 
@@ -40,7 +40,7 @@ Each week you gather and eat 10  coconuts and 10 bananas. It takes you five minu
 
 I live on a nearby island.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/me.png" alt="both of us on islands" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/me.png" alt="both of us on islands" width="65%"/></div>
 
 Just like you I eat 10 coconuts and 10 bananas per day. But *unlike* you, I'm terrible at everything.
 
@@ -57,7 +57,7 @@ Since I'm so incompetent, I need to work a lot more than you -- six times as muc
 
 Thus, we live our lives until one day a bridge appears between the islands.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/bridge.png" alt="a bridge appears" max-width="75%" min-width="50%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/bridge.png" alt="a bridge appears" max-width="75%" min-width="50%"/></div>
 
 We are both peaceful. We will not coerce each other, but are otherwise completely selfish. What will happen?
 
@@ -122,22 +122,22 @@ Of course, this would be great for me, and worse for you than our original trade
 
 Now, what possible banana/coconut exchange rates could we arrive at?  I’d be happiest paying you nearly zero bananas for each coconut. On the other hand, I'd never agree to pay you three bananas per coconut -- it would be "cheaper" for me to just make the coconuts myself. I'd never agree to trade more than two.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/im_happy.png" alt="bananas per coconut" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/im_happy.png" alt="bananas per coconut" width="65%"/></div>
 
 Thus, I benefit from any trade where I pay you between 0 and 2 bananas for one coconut. These are the only trades I'd ever agree to.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/my_range.png" alt="my range" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/my_range.png" alt="my range" width="65%"/></div>
 
 
 Of course, I’d prefer to pay you fewer bananas! So I’d prefer a rate to the left end of this range.
 
 Conversely, it takes you twice as long to make banana as a coconut. You’d be thrilled if I paid you 4 bananas per coconut, but you’d never accept less than 1/2 a banana for one coconut.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/youre_happy.png" alt="bananas per coconut for you" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/youre_happy.png" alt="bananas per coconut for you" width="65%"/></div>
 
 Thus, you benefit from any trade where I give you more than 1/2 a banana for a coconut.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/your_range.png" alt="your range" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/your_range.png" alt="your range" width="65%"/></div>
 
 You’d like me to pay you as many bananas as possible. So you’d prefer a rate as far to the right as possible.
 
@@ -145,7 +145,7 @@ Now, the big question is: What rate do we agree on? Simple economics does not te
 
 This range of (.5 to 2) is the [Zone of Possible Agreement](https://en.wikipedia.org/wiki/Zone_of_possible_agreement) (ZOPA) in negotiation theory.
 
-<div class="figure"><img src="https://raw.githubusercontent.com/dyno-might/dyno-might.github.io/master/img/comparative-advantage/zopa4.png" alt="zone of potential agreement" width="65%"/></div>
+<div class="figure"><img src="/img/comparative-advantage/zopa4.png" alt="zone of potential agreement" width="65%"/></div>
 
 
 # V Perverse Behavior

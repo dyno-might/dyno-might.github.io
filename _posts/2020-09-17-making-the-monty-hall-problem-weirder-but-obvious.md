@@ -33,7 +33,7 @@ For reference, the [classic formulation](https://en.wikipedia.org/wiki/Monty_Hal
 
 Intuitively, many people guess it doesn't matter if you switch. But it does. You get the car 2/3 of the time if you switch, and 1/3 of the time if you don't. Why?
 
-# Game 1 (Dyno Might™ Monty Hall)
+# Game 1 (Dynomight™ Monty Hall)
 
 Here's our first game.
 
@@ -44,7 +44,7 @@ Here's our first game.
   * Option B: You get whatever is behind all of the other 9 doors.
 
 <div class="myfigure">
- <img src="https://dyno-might.github.io/img/monty-hall/game1.png">
+ <img src="/img/monty-hall/game1.png">
 </div>
 
 There's nothing mysterious here. You should choose option B. There’s only a 10% chance you picked the right door, so there’s a 90% chance the car is behind one of the others.
@@ -61,7 +61,7 @@ Now, we slightly update the game (new part in bold).
   * Option B: You get whatever is behind all of the other 9 doors.
 
 <div class="myfigure">
- <img src="https://dyno-might.github.io/img/monty-hall/game2.png">
+ <img src="/img/monty-hall/game2.png">
 </div>
 
 Monty’s statement changes nothing. You don’t need to rely on his [trustworthy looks](https://en.wikipedia.org/wiki/Monty_Hall#/media/File:Monty_hall_abc_tv.JPG). You already *knew* there were at least 8 goats! Option B still gets you the car 90% of the time.
@@ -78,7 +78,7 @@ Let's update the game again (new part in bold).
   * Option B: You get whatever is behind all of the other 9 doors.
 
 <div class="myfigure">
- <img src="https://dyno-might.github.io/img/monty-hall/game3.png">
+ <img src="/img/monty-hall/game3.png">
 </div>
 
 The key insight is this: When Monty shows you that 8 of the 9 other doors contain goats, you haven't learned anything relevant to your decision. You *already knew there were at least 8 goats behind the other doors*! So this is just like game 2. Option B still gets you the car 90% of the time.
@@ -97,7 +97,7 @@ Let's make another change. Finally, we arrive at a game very similar to Monty Ha
   * Option B: You get whatever is behind **the other closed door**.
 
 <div class="myfigure">
- <img src="https://dyno-might.github.io/img/monty-hall/game4.png">
+ <img src="/img/monty-hall/game4.png">
 </div>
 
 The only difference with Game 3 is that option B doesn’t get you the 8 visible goats. Since you don’t care about goats, this makes no difference. This is still just like the game 3. You get the car 90% of the time by switching.
@@ -114,14 +114,14 @@ Here is the last game. We just change the number of doors from 10 to 3.
   * Option B: You get whatever is behind the other closed door.
   
 <div class="myfigure">
- <img src="https://dyno-might.github.io/img/monty-hall/game5.png">
+ <img src="/img/monty-hall/game5.png">
 </div>
   
 Of course, you still want to choose option B. The chance of success is now 2/3 instead of 9/10. This game is exactly Monty Hall, so we're done.
 
 # Side Notes
 
-  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive. Many people intuitively think it doen't matter if you switch. And that *would be correct* if the door had been opened at random!
+  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive. Many people intuitively think it doesn't matter if you switch. And that *would be correct* if the door had been opened at random!
 
   * It might be helpful to draw a diagram of the relationship of the different games, starting with classic Monty Hall and ending with the extreme version.
 
@@ -139,9 +139,9 @@ Game 3
  ↓  
 Game 2  
  ↓  
- ↓ (Monty doesn't bother promsising.)  
+ ↓ (Monty doesn't bother promising.)  
  ↓  
-Game 1 (Dyno Might™ Monty Hall) 
+Game 1 (Dynomight™ Monty Hall) 
 
   * There are [some](https://marginalrevolution.com/marginalrevolution/2019/09/the-intuitive-monty-hall-problem.html) [other](https://twitter.com/jben0/status/1174180200072011776) [attempts](https://statmodeling.stat.columbia.edu/2019/09/19/alternative-more-intuitive-formulation-of-monte-hall-problem/) at [variants](https://math.stackexchange.com/questions/96826/the-monty-hall-problem/3360686#3360686) of the Monty Hall problem, also intended to be more intuitive. These involve switching the doors for "boxers".
 

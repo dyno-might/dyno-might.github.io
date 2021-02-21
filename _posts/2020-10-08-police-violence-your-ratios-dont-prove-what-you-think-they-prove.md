@@ -8,10 +8,6 @@ usemathjax: true
 
 ---
 
-<!--
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
--->
-
 Watching people discuss police bias statistics, I despair. Some claim simple calculations prove police bias, some claim the opposite. Who is right?
 
 No one. Frankly, nobody has any clue what they are talking about. It's not that the statistics are *wrong* exactly. They just don’t prove what they’re being used to prove. In this post, I want to explain why, and give you the tools to dissect these kinds of claims.
