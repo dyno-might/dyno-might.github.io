@@ -40,7 +40,7 @@ Again, schools are just a hypothetical. What's not hypothetical is *healthcare*.
 
 This would never work. Say we stop subsidizing healthcare and just give people money. No matter what you do, some won't save and won't buy health insurance. (If you doubt this, you've met a different species than I have.) Then, you have this difficult question: When one of these people gets sick and shows up at a hospital, do you let them die?
 
-Intellectually, this is a question I take seriously. Think about it like this: Suppose you can choose to be born into Safeland where everyone is secure but bored, or Dangerland where people have fun but risk getting killed. It's totally reasonable for someone to choose Dangerland. A tough-love "buy insurance or risk death" policy allows people to optimize for their own [utility function](https://dyno-might.github.io/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/).
+Intellectually, this is a question I take seriously. Think about it like this: Suppose you can choose to be born into Safeland where everyone is secure but bored, or Dangerland where people have fun but risk getting killed. It's totally reasonable for someone to choose Dangerland. A tough-love "buy insurance or risk death" policy allows people to optimize for their own [utility function](https://dynomight.net/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/).
 
 *Practically*, though, there is no question. Society has decided: It's not acceptable to let people die, and we need some kind of emergency backstop program. But now we've gotten back into the healthcare subsidy business. We've also abandoned *just giving people money*, since any funding for the backstop could have been an unrestricted grant.
 
@@ -58,7 +58,7 @@ I have three responses to this.
 
 **First**, there isn't plenty of money, yet. Giving 256 million adults the average truck driver salary of $67 thousand per year would cost $17 trillion. For reference, that's 4 times the entire [current federal budget](https://www.cbo.gov/system/files/2020-04/56324-CBO-2019-budget-infographic.pdf):
 
-![the current US federal budget](https://dyno-might.github.io/img/skeptical_ubi/budget_small.png)
+![the current US federal budget](/img/skeptical_ubi/budget_small.png)
 
 It's almost as large as the entire *economy* ($21 trillion). Giving everyone $12k per year would cost $3 trillion. That's more than all benefit programs combined, but not impossible. Suppose we make some difficult cuts, add some new taxes and make it happen. Do we expect anyone who previously had a good job to be content with $12 thousand? I'm sure it's *helpful*, but it's no *substitute* for a job.
 
@@ -82,17 +82,17 @@ I agree. We don't have a stop button to stop the world shifting under our feet. 
 
 Here's a plot of the unemployment rate going back to 1950:
 
-![the unemployment rate over the past few decades](https://dyno-might.github.io/img/skeptical_ubi/unemployment.png)
+![the unemployment rate over the past few decades](/img/skeptical_ubi/unemployment.png)
 
 I don't see any clear trend. Of course, the unemployment rate only counts people who are *trying* to get a job. Here's a plot of the labor force participation rate (the fraction of 16-64 year olds who are either working or trying to get a job.)
 
-![the labor force participation rate over the past few decades](https://dyno-might.github.io/img/skeptical_ubi/labor.png)
+![the labor force participation rate over the past few decades](/img/skeptical_ubi/labor.png)
 
-This strange curve makes a bit more sense when broken down. (The [strata](https://dyno-might.github.io/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/) refuse to be ignored.) If you dig into the data you'll find [participation from men](https://fred.stlouisfed.org/series/LNS11300001) has decreased but [participation from women](https://fred.stlouisfed.org/series/LNS11300002) has increased. Is that technological or sociological change? I'm not sure.
+This strange curve makes a bit more sense when broken down. (The [strata](https://dynomight.net/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/) refuse to be ignored.) If you dig into the data you'll find [participation from men](https://fred.stlouisfed.org/series/LNS11300001) has decreased but [participation from women](https://fred.stlouisfed.org/series/LNS11300002) has increased. Is that technological or sociological change? I'm not sure.
 
 As another view, here's a plot of the [percentage of national income](https://fred.stlouisfed.org/series/LABSHPUSA156NRUG) that goes to labor. If jobs are becoming increasingly irrelevant to the economy, this should be in decline.
 
-![the percentage of national income going to labor over the past few decades](https://dyno-might.github.io/img/skeptical_ubi/labor_frac.png)
+![the percentage of national income going to labor over the past few decades](/img/skeptical_ubi/labor_frac.png)
 
 There's a decline from around 64% to 60%. But the biggest decline was between 1970 and 1985. It's actually rising slowly over the past 10 years and is currently only 0.5% less than in 1984. It's not obvious that AI is the culprit here.
 
@@ -112,7 +112,7 @@ I think this is the "real" UBI. We can't eliminate targeted programs, and we can
 
 There's a few possibilities:
 
-**First**, maybe Andrew Yang's proposal is about technological change because that is what Andrew Yang believes. Call me [wide-eyed and naive](https://dyno-might.github.io/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/), but I guess this is the answer. More broadly, the Silicon Valley UBI argument is *really* appealing to a minority of people. It's doubtful that milquetoast "more redistribution!" would have grabbed enough attention to propel a presidential campaign. 
+**First**, maybe Andrew Yang's proposal is about technological change because that is what Andrew Yang believes. Call me [wide-eyed and naive](https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/), but I guess this is the answer. More broadly, the Silicon Valley UBI argument is *really* appealing to a minority of people. It's doubtful that milquetoast "more redistribution!" would have grabbed enough attention to propel a presidential campaign. 
 
 **Second** (and more cynically) maybe it's a "trick" to get people to support redistribution without realizing it. This is hard to reconcile with the data. It's not emphasized enough that redistribution is *really popular*. Recently, 53% of *Republicans* [agreed](https://www.ipsos.com/en-us/news-polls/reuters-ipsos-economy-poll-10-01-2020) that "The very rich should contribute an extra share of their wealth each year to support public programs," while 40% disagreed. Yang's campaign raised [$40 million](https://en.wikipedia.org/wiki/Andrew_Yang_2020_presidential_campaign#Fundraising). The odds they are unaware of these polls is zero.
 

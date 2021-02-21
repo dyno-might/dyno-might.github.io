@@ -9,7 +9,7 @@ This is a new way to convert temperatures between Celsius and Fahrenheit. It's *
 
 If you want a little bit of a puzzle, here is the system as a plot:
 
-![conversion as lines](https://dyno-might.github.io/img/convert/convert.png)
+![conversion as lines](/img/convert/convert.png)
 
 Did you figure it out? Here's the system in words:
 
@@ -17,7 +17,7 @@ Did you figure it out? Here's the system in words:
 
 If you want even more explanation, here's the system as a diagram:
 
-![conversion as transposition](https://dyno-might.github.io/img/convert/transpose.png)
+![conversion as transposition](/img/convert/transpose.png)
 
 It's a coincidence that these conversion points exist. It's an even greater coincidence that they divide the range of temperatures in a convenient way.
 

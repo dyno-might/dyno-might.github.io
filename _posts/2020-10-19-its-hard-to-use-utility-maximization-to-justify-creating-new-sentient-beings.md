@@ -7,7 +7,9 @@ tags: philosophy math
 
 ---
 
+<!--
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
 
 Cedric and Bertrand want to see a movie. Bertrand wants to see *Muscled Duded Blow Stuff Up*. Cedric wants to see *Quiet Remembrances: Time as Allegory*. There's also *Middlebrow Space Fantasy*. They are rational but not selfish - they care about the other's happiness as much as their own. What should they see?
 

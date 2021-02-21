@@ -27,7 +27,7 @@ It's common to build DIY air purifiers by basically strapping a filter to a fan.
 
 If you're in a hurry, this post says that if you strap two HEPA filters to a box fan, it will clear the air of basically all the particles we can measure, and it will do it faster than a commercial filter that costs twice as much.
 
-![in a large room the DIY filter does slightly better than the commercial filter](https://dyno-might.github.io/img/purifier/smallroom_log.jpg)
+![in a large room the DIY filter does slightly better than the commercial filter](/img/purifier/smallroom_log.jpg)
 
 # The experiment
 
@@ -41,7 +41,7 @@ My DIY purifier was *very* simple. (I don't want to promote any particular brand
 
 Assembly takes about 30s. You put the filters on the intake side of the fan and strap them on with the bungie cord. Here's a picture:
 
-<div class="figure"><img src="https://dyno-might.github.io/img/purifier/filter_notape.jpg" alt="DIY purifier" max-width="60%" min-width="35%" /></div>
+<div class="figure"><img src="/img/purifier/filter_notape.jpg" alt="DIY purifier" max-width="60%" min-width="35%" /></div>
 
 Timeless elegance and grace, it is not. I get the shakes just looking at that bit of crinkled filter.
 
@@ -80,11 +80,11 @@ Since the air quality monitor doesn't log data, I used an ultra-hacky alternativ
 
 I ran a first experiment in a tiny room of around 8 ㎥. Due to worries that wind from the purifiers might change the speed the incense burned, I placed it on the opposite side of a wall, with a gap of around 20 cm near the ceiling.
 
-<div class="figure"><img src="https://dyno-might.github.io/img/purifier/setup_tinyroom.jpg" alt="tiny room setup" /></div>
+<div class="figure"><img src="/img/purifier/setup_tinyroom.jpg" alt="tiny room setup" /></div>
 
 I repeated the experiment once with no filter, once with a commercial filter, and once with the DIY filter. Here are the results:
 
-![smallroom measurements in linear space](https://dyno-might.github.io/img/purifier/smallroom_linear.jpg)
+![smallroom measurements in linear space](/img/purifier/smallroom_linear.jpg)
 
 Things are a bit random around the beginning, probably due to the drifting of the smoke before it's equalized in the room. With no filter at all, this spikes all the way to 1000 μg/m³, the maximum the instrument can show.
 
@@ -98,11 +98,11 @@ If we take the EPA's threshold of 12 μg/m³, the DIY filter gets there in aroun
 
 Thankfully, I don't spend most of my time in an 8 ㎥ room. Thus, I repeated the experiment in a large room of around 100 ㎥. Here there was no wall between incense and purifier. Instead I left around a meter of distance between the incense and purifier and the purifier and the monitor.
 
-<div class="figure"><img src="https://dyno-might.github.io/img/purifier/setup_largeroom.jpg" alt="large room setup" /></div>
+<div class="figure"><img src="/img/purifier/setup_largeroom.jpg" alt="large room setup" /></div>
 
 Here are the results:
 
-![large room measurements in linear space](https://dyno-might.github.io/img/purifier/largeroom_linear.jpg)
+![large room measurements in linear space](/img/purifier/largeroom_linear.jpg)
 
 There's even more randomness around the beginning, probably just due to how the smoke drifts around. Based on the room volume we'd expect a peak concentration with no filter of around 80 μg/m³ = 1000 μg/m³ * (8/100). Reassuringly, this is pretty close to what we see.
 
@@ -116,11 +116,11 @@ It's common advice for DIY purifiers like this to seal around the edges of the f
 
 In this case at least, experiment is easier than theory. I took packing tape and carefully sealed around the intake side.
 
-<div class="figure"><img src="https://dyno-might.github.io/img/purifier/filter_tape.jpg" alt="DIY purifier with tape" max-width="60%" min-width="35%" /></div>
+<div class="figure"><img src="/img/purifier/filter_tape.jpg" alt="DIY purifier with tape" max-width="60%" min-width="35%" /></div>
 
 And the results are...
 
-![taping around the filter has no effect](https://dyno-might.github.io/img/purifier/taping.jpg)
+![taping around the filter has no effect](/img/purifier/taping.jpg)
 
 ...nothing!?
 

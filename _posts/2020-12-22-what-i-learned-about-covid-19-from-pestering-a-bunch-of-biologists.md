@@ -59,7 +59,7 @@ Cells have many receptors that bind to specific molecules and transport them ins
 It protrudes from the surface of the virus like a spike. 
 
 <a href="https://www.cdc.gov/media/subtopic/images.htm">
-![covid spikes](https://dyno-might.github.io/img/covid/covid_spikes.jpg)
+![covid spikes](/img/covid/covid_spikes.jpg)
 </a>
 
 **OK, the viral RNA is now in the cytoplasm of the cell. What happens next?**

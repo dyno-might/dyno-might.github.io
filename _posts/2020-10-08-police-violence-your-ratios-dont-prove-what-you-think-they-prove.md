@@ -7,13 +7,15 @@ tags: statistics policy
 
 ---
 
+<!--
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+-->
 
 Watching people discuss police bias statistics, I despair. Some claim simple calculations prove police bias, some claim the opposite. Who is right?
 
 No one. Frankly, nobody has any clue what they are talking about. It's not that the statistics are *wrong* exactly. They just don’t prove what they’re being used to prove. In this post, I want to explain why, and give you the tools to dissect these kinds of claims.
 
-I've made every effort to avoid politics, due to my [naive dream](https://dyno-might.github.io/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/) where well-meaning people can agree on facts even if they don't agree on policy.
+I've made every effort to avoid politics, due to my [naive dream](https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/) where well-meaning people can agree on facts even if they don't agree on policy.
 
 # Population size
 

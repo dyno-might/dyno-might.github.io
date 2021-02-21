@@ -11,13 +11,13 @@ Here's a "low-brow" take on ethics that's worth taking seriously.
 
 > Ethics isn't going to save the world. We don't need more "calculations" about the right thing to do. We need people to stop doing *obviously* wrong stuff. Ethics is boring and irrelevant to everyday life. Stop the obsessive navel-gazing and go engage with the real world.
 
-There's a lot that's correct about this: In practice our decisions aren't usually influenced by ethics, but by *habits* and *incentives*.
+There's a lot that's right about this: In practice our decisions aren't usually influenced by ethics, but by *habits* and *incentives*.
 
-Imagine while walking across a park you consider a shortcut. You ask: Will this hurt the grass? Are there insects? Will you hurt them? What is the moral weight of an insect's life? How does it compare against a small convenience for you? Living like this would be paralyzing. Almost all the time, we use habits or heuristics to make decisions, not ethics.
+Imagine while walking across a park you consider taking a shortcut. You ask: Will this hurt the grass? Are there insects? Will you hurt them? What is the moral weight of an insect's life? How does it compare against a small convenience for you? Will other people follow you through the shortcut? Are you responsible if they do? Living like this would be paralyzing. Almost all the time, we use habits or heuristics to make decisions, not ethics.
 
 Even when people *do* use ethics, that time is often inefficiently spent. I mourn the hours I've spent on which plastics are recyclable. (It turns out: none!) It's easy to get sucked into an argument about how some corporation named a product. We often spend our limited ethical reasoning budget on problems that just aren't that important.
 
-And of course, people often simply don't care about ethics. Most of the time, ethics don't have much influence on behavior.
+And of course, people often just don't care about ethics. Most of the time, ethics don't much influence behavior.
 
 What really matters is *incentives*. We are bad at reasoning, but good at taking care of ourselves. That's because it doesn't hurt (you) when you get ethics wrong. If you want to solve climate change or animal welfare or whatever, don't preach at people -- make it so no one *needs to think* about ethics. Apply a tax, put up a fence, create legal penalties. Let everyone follow the ever-present scent of what's good for us instead of futilely hoping people will both figure out what's best and actually do it.
 
@@ -26,7 +26,7 @@ If you have to choose between living in
 1. a society with a mediocre theory of ethics but well-crafted incentives, and
 2. a society with an enlightened theory of ethics but poor incentives,
 
-then I'd suggest you choose society #1.
+then I'd suggest you choose society #1. I am all in
 
 # Ethics are sometimes the cause of disagreements
 

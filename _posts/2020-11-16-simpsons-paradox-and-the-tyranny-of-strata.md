@@ -29,13 +29,13 @@ How does Simpson's paradox work? What is this deeper issue? You don't need to be
 
 Imagine that you are a mortal shephard living near Olympus with a flock of sheep and [goats](https://dyno-might.github.io/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/).  Your neighbor, the thunder god Zeus, is a jerk. He has started zapping your animals with lightning bolts.
 
-![zeus](https://dyno-might.github.io/img/simpson/zeus.png)
+![zeus](/img/simpson/zeus.png)
 
 He's not trying to kill them; He's just bored. (Transforming into animals to [seduce love interests](https://en.wikipedia.org/wiki/Zeus#Transformation_of_Zeus) gets old eventually.)
 
 Anyway, you wonder: Does Zeus have a preference for shooting sheep or goats? You decide to keep records for a year. You have 25 sheep and 25 goats, so you use a 5x5 grid with one cell for each animal.
 
-![sheep v goats 1](https://dyno-might.github.io/img/simpson/sheep_v_goats1.png)
+![sheep v goats 1](/img/simpson/sheep_v_goats1.png)
 
 At first glance, it seems like Zeus dislikes goats more than He dislikes sheep. (If you're worried about the difference being due to random chance, feel free to multiply the number of animals by a million.)
 
@@ -43,11 +43,11 @@ At first glance, it seems like Zeus dislikes goats more than He dislikes sheep. 
 
 Thinking about it, it occurs to you that some animals have darker fur than others. You go back to your records and mark each animal accordingly.
 
-![sheep v goats 2](https://dyno-might.github.io/img/simpson/sheep_v_goats2.png)
+![sheep v goats 2](/img/simpson/sheep_v_goats2.png)
 
 You re-do the analysis, splitting the animals into dark and light groups.
 
-![sheep v goats 3](https://dyno-might.github.io/img/simpson/sheep_v_goats3.png)
+![sheep v goats 3](/img/simpson/sheep_v_goats3.png)
 
 Overall, sheep are zapped less often than goats. But dark sheep are zapped *more* often than dark goats (7⁄11 > 10⁄16) *and* light sheep are zapped more often than light goats (5⁄14 > 3⁄9). This is the usual *paradox*: The conclusion changes when you switch from analyzing everyone to analyzing subgroups.
 
@@ -59,11 +59,11 @@ If you just want to understand Simpson's paradox you're done! This probably seem
 
 Thinking even more, you notice that many of your (apparently mutant) animals have stripes. You prepare the data again, marking each animal according to stripes, rather than color.
 
-![sheep v goats 4](https://dyno-might.github.io/img/simpson/sheep_v_goats4.png)
+![sheep v goats 4](/img/simpson/sheep_v_goats4.png)
 
 You wonder, naturally, what happens if you analyze these groups.
 
-![sheep v goats 5](https://dyno-might.github.io/img/simpson/sheep_v_goats5.png)
+![sheep v goats 5](/img/simpson/sheep_v_goats5.png)
 
 The results are similar to those with color. Though sheep are zapped less often than goats overall (12⁄25 < 13⁄25), plain sheep are zapped more often than plain goats (5⁄14 > 3⁄9), and striped sheep are zapped more often than striped goats (7⁄11 > 10⁄16).
 
@@ -71,11 +71,11 @@ The results are similar to those with color. Though sheep are zapped less often 
 
 Of course, instead of just considering either color or stripes, nothing stops you from considering both.
 
-![sheep v goats 6](https://dyno-might.github.io/img/simpson/sheep_v_goats6.png)
+![sheep v goats 6](/img/simpson/sheep_v_goats6.png)
 
 You decide to consider all four subgroups separately.
 
-![sheep v goats 7](https://dyno-might.github.io/img/simpson/sheep_v_goats7.png)
+![sheep v goats 7](/img/simpson/sheep_v_goats7.png)
 
 Now sheep are zapped *less* often in each subgroup. (1⁄4 < 2⁄7, 6⁄7 < 8⁄9, etc.)
 
@@ -105,7 +105,7 @@ So far, this all seems like a lesson about finding the right way to analyze data
 
 But in other cases, the lesson should be just the opposite: There *is* no "right" way to analyze data. Often the real world looks like this:
 
-![sheep v goats 8](https://dyno-might.github.io/img/simpson/sheep_v_goats8.png)
+![sheep v goats 8](/img/simpson/sheep_v_goats8.png)
 
 There's no clear dividing line between "dark" and "light" animals. Stripes can be dense or sparse, thick or thin, light or dark. There can be many dark spots or few light spots. This list can go on forever. In the real world, individuals often vary in so many ways that there's no obvious definition of subgroups. In these cases, you can't beat the paradox. To get answers, you have to make arbitrary choices, even though the answers will depend on the choices you make.
 

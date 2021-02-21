@@ -11,7 +11,7 @@ It turns out that sales tax has a huge, gigantic, terrible flaw: It punishes spe
 
 The US has sales tax. Most of the planet has VAT. 
 
-![VAT map](https://dyno-might.github.io/img/vat/VAT_map_updated.png)
+![VAT map](/img/vat/VAT_map_updated.png)
 
 Maybe it's not the most important issue in the world, but it's just so *clear*. Sales tax is dumb and VAT is better.
 
@@ -23,17 +23,17 @@ I emphasize that the explanation below is a toy, intended to illustrate in the s
 
 # The Decorative Coconut Model
 
-Say you decide to get into the decorative [coconut]((https://dyno-might.github.io/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)) manufacturing business.
+Say you decide to get into the decorative [coconut]((https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)) manufacturing business.
 
 You're good at painting coconuts. You find a friend who is good at picking them, and another who's good at making coconut paint. You find a third friend who's a genius with applying finishing lacquer and a fourth who runs a store.
 
 You buy coconuts and paint, apply the paint, then sell to the finisher. He applies lacquer and sells to a retailer.
 
-![supply chain](https://dyno-might.github.io/img/vat/supply_chain.jpg)
+![supply chain](/img/vat/supply_chain.jpg)
 
 After negotiating prices, you settle on $1 for a raw coconut, $1 for a coconut's worth of paint, $3 for a painted coconut, $4 for a finished coconut, and $5 retail. This works out to everyone making $1 of profit.
 
-![market](https://dyno-might.github.io/img/vat/market.jpg)
+![market](/img/vat/market.jpg)
 
 Here's a table showing the accounts:
 
@@ -53,7 +53,7 @@ You talk it over. Everyone feels they still deserve to make the same $1 profit a
 
 After everyone marks up their prices in this way, here are the results:
 
-![sales tax](https://dyno-might.github.io/img/vat/sales_tax.jpg)
+![sales tax](/img/vat/sales_tax.jpg)
 
 Item | Cost of inputs | Profit | Price | Price after tax
 -|-|-|-|-
@@ -69,7 +69,7 @@ Your customers aren't thrilled about the increase in price, but what are they go
 
 A few months later, your unscrupulous  cousin hears about your business. He's the jealous type and decides to try stealing your customers. He opens a store and finds four friends to help make coconuts. Unlike you, however, he hires everyone as *employees*. He sells the coconuts for $6 ($5 plus tax) and gives everyone $1 per coconut in wages.
 
-![integrated](https://dyno-might.github.io/img/vat/integrated.jpg)
+![integrated](/img/vat/integrated.jpg)
 
 Your cousin and friends don't appreciate the subtle art of coconut decoration. Everyone agrees yours are better but they start to complain: Why are you charging $8.52 when a slightly worse product is available for only $6? Slowly, your loyal customers drift away and you go out of business.
 
@@ -83,7 +83,7 @@ Suppose the government had instead announced a 20% VAT. With a VAT, whenever you
 
 Here are the final prices as they go through through the system. Everyone is making a profit of $1, so everyone pays a tax of $0.20.
 
-![vat](https://dyno-might.github.io/img/vat/vat.jpg)
+![vat](/img/vat/vat.jpg)
 
 Item | Cost of inputs | Profit | Price | Price after tax
 -|-|-|-|-
@@ -113,7 +113,7 @@ Of course, people know sales tax is distortionary. Many exceptions exist to mini
 
 I think there are two major reasons to oppose replacing sales tax with VAT. The first is a Leninist "worse is better" attitude. If you think *all taxes are bad* then you'd want to keep them painful and visible so people will be maximally annoyed by them. The second is that VAT is complicated to administer, particularly when sales tax can be different in each local area. This might be true, but I find it a bit hard to believe. VAT is more self-enforcing and sales taxes are *already* a nightmare, particularly for anyone selling to different cities/states. If we're keeping the sales tax to keep things simple, where's the payoff?
 
-![lenin](https://dyno-might.github.io/img/vat/lenin_text_small.png)
+![lenin](/img/vat/lenin_text_small.png)
 
 ### Notes
 

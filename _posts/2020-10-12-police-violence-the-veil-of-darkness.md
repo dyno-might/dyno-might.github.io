@@ -8,7 +8,7 @@ last_updated: 2021-02-09
 
 ---
 
-Measuring police bias using simple ratios [doesn't work](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). You can never cleanly separate the impact of race from other associated factors.
+Measuring police bias using simple ratios [doesn't work](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). You can never cleanly separate the impact of race from other associated factors.
 
 But imagine we had augmented-reality goggles that made race invisible. Suppose we ran the following experiment:
 
@@ -16,7 +16,7 @@ But imagine we had augmented-reality goggles that made race invisible. Suppose w
 * Have the other half wear non-invisibility goggles.
 * Look at the difference of the two groups.
 
-The police with invisibility goggles would [*not*](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#a-thought-experiment) have equal statistics with respect to race. That's because race is correlated with many things other than how people look.
+The police with invisibility goggles would [*not*](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#a-thought-experiment) have equal statistics with respect to race. That's because race is correlated with many things other than how people look.
 
 However, the only difference between the two groups of police is if they can see race. Thus, their *difference* would reveals exactly the impact of police bias.
 
@@ -126,7 +126,7 @@ My response is this: We are making progress. I give *zero* weight to things like
 
 As for what it takes, there's some more data that could help a *lot* with understanding the impact of confounders here. That would be to repeat the analysis with different groupings of people other than race. Does the fraction stopped of drivers who are male change when it's dark? What about the fraction of the old? Those in poverty? Those who are politically conservative? Pick any group that police can't see or don't have a bias around.
 
-If we verified that the fraction of stopped drivers who were old/male/poor/educated/conservative did *not* change with darkness but the fraction who were black *did*, then the confounders probably aren't too much of a problem. (It's possible in principle that race is confound but not these other groups. But since [race is correlated with everything](https://dyno-might.github.io/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#population-size) I doubt it.)
+If we verified that the fraction of stopped drivers who were old/male/poor/educated/conservative did *not* change with darkness but the fraction who were black *did*, then the confounders probably aren't too much of a problem. (It's possible in principle that race is confound but not these other groups. But since [race is correlated with everything](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/#population-size) I doubt it.)
 
 Of course, analyzing some data is easy! The hard part will be assembling a database of millions of police stops with tags for these other driver attributes. Good luck with that.
 
