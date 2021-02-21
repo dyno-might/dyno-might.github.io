@@ -4,6 +4,7 @@ layout: post
 title: "It's hard to use utility maximization to justify creating new sentient beings"
 image: /img/utility/cliff.jpg
 tags: philosophy math
+usemathjax: true
 
 ---
 

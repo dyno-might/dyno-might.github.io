@@ -4,6 +4,7 @@ layout: post
 title: "Your ratios don't prove what you think they prove"
 image: /img/police/court_light_cropped.jpg
 tags: statistics policy
+usemathjax: true
 
 ---
 
