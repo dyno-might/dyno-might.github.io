@@ -3,6 +3,7 @@ layout: post
 title: "Comparative advantage and when to blow up your island"
 image: /img/comparative-advantage/island.jpg
 tags: explainer economics gameTheory
+permalink: /:year/:month/:day/:title/
 ---
 
 <head>
