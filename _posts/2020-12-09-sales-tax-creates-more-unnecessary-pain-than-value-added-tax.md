@@ -1,10 +1,9 @@
 ---
-
 layout: post
 title: "Sales tax creates more unnecessary pain than value added tax"
 image: /img/vat/books.jpg
 tags: explainer economics policy
-
+permalink: /:year/:month/:day/:title/
 ---
 
 It turns out that sales tax has a huge, gigantic, terrible flaw: It punishes specialized businesses. A value added tax (VAT) has no such problems.

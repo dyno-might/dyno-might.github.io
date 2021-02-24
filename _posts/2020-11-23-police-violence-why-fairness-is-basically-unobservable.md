@@ -1,9 +1,8 @@
 ---
-
 layout: post
 title: "Why fairness is basically unobservable"
 image: /img/police/court_light_cropped.jpg
-
+permalink: /:year/:month/:day/:title/
 ---
 
 We want to know if things are fair. Do some groups of people tend to get a raw deal in company hiring or university admissions or court sentences?

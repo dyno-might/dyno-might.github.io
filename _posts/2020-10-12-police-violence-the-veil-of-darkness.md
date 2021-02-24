@@ -5,7 +5,7 @@ title: "The veil of darkness"
 image: /img/police/court_light_cropped.jpg
 tags: statistics policy
 last_updated: 2021-02-09
-
+permalink: /:year/:month/:day/:title/
 ---
 
 Measuring police bias using simple ratios [doesn't work](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). You can never cleanly separate the impact of race from other associated factors.

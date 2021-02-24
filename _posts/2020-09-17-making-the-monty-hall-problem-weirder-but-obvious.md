@@ -5,6 +5,7 @@ image: /img/monty-hall/monty.jpg
 description: The Monty Hall problem's solution is obvious if you start with a weird version of it.
 tags: explainer statistics math
 last_updated: 2021-02-16
+permalink: /:year/:month/:day/:title/
 ---
 
 <head>

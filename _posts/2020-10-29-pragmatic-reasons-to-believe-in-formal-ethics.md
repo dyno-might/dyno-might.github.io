@@ -4,6 +4,7 @@ layout: post
 title: "Pragmatic reasons to believe in formal ethics"
 image: /img/ethics/plane.jpg
 tags: philosophy
+permalink: /:year/:month/:day/:title/
 
 ---
 

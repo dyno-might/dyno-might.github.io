@@ -5,6 +5,7 @@ title: "It's hard to use utility maximization to justify creating new sentient b
 image: /img/utility/cliff.jpg
 tags: philosophy math
 usemathjax: true
+permalink: /:year/:month/:day/:title/
 
 ---
 

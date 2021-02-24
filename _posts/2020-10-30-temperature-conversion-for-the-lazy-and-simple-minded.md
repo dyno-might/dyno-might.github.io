@@ -3,6 +3,7 @@ layout: post
 title: "Temperature conversion for the lazy and simple-minded"
 image: /img/convert/thermometer.jpg
 tags: science math
+permalink: /:year/:month/:day/:title/
 ---
 
 This is a new way to convert temperatures between Celsius and Fahrenheit. It's *bad*. You shouldn't use it if you have any other option.

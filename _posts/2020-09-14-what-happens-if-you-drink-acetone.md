@@ -4,6 +4,7 @@ title: "What happens if you drink acetone?"
 image: /img/acetone/whiskey.jpg
 description: It's not wise to drink acetone, but how dangerous is it?
 tags: science
+permalink: /:year/:month/:day/:title/
 ---
 
 **Question**: Should you drink acetone?

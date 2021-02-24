@@ -5,7 +5,7 @@ title: "Experiments on a $50 DIY air purifier you can make in 30s"
 image: /img/purifier/smoke.jpg
 description: You can make a DIY air purifier in 30s. To test if it works, I generated smoke, and measured how well it removes tiny particles.
 tags: science
-
+permalink: /:year/:month/:day/:title/
 ---
 
 <head>

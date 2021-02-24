@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "Are ethics all a lie?"
 image: /img/ethics/clouds.jpg
 tags: philosophy
 last_updated: 2021-02-16
-
+permalink: /:year/:month/:day/:title/
 ---
 
 Some people claim ethics aren't [practical](https://dynomight.net/2020/10/29/pragmatic-reasons-to-believe-in-formal-ethics/). Others make a grim philosophical argument:

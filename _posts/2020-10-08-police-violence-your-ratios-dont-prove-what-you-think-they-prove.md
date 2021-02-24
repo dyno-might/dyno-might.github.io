@@ -5,7 +5,7 @@ title: "Your ratios don't prove what you think they prove"
 image: /img/police/court_light_cropped.jpg
 tags: statistics policy
 usemathjax: true
-
+permalink: /:year/:month/:day/:title/
 ---
 
 Watching people discuss police bias statistics, I despair. Some claim simple calculations prove police bias, some claim the opposite. Who is right?

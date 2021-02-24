@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "What I learned from reading about writing"
 image: /img/writing/typewriter.jpg
@@ -7,7 +6,7 @@ tags: writing
 hero_light: true
 last_updated: 2021-02-07
 tags: communication
-
+permalink: /:year/:month/:day/:title/
 ---
 
 Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parser. It's impossible to follow all the conventions. Write a thesis statement even if you hate it

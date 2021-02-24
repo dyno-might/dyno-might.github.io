@@ -5,7 +5,7 @@ title: "Why I'm skeptical of universal basic income"
 image: /img/skeptical_ubi/dog.jpg
 tags: economics
 description: Common arguments for universal basic income are about liberty or automation of jobs. The "real" argument is probably far more mundane.
-
+permalink: /:year/:month/:day/:title/
 ---
 
 # Why I'm skeptical of universal basic income

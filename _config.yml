@@ -5,7 +5,8 @@ email: email@email.com
 description: "a blog on economics, statistics, rationalism, philosophy, math, science, game theory, and DIY air purifiers"
 baseurl: "/"
 url: "https://dynomight.net"
-permalink: pretty
+#permalink: pretty
+permalink: none
 
 paginate: 20
 paginate_path: "/page:num"

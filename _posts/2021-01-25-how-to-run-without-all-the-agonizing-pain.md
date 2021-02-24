@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "How to run without all the pesky agonizing pain"
 image: /img/running/running.jpg
 tags: selfImprovement
 hero_light: true
-
+permalink: /:year/:month/:day/:title/
 ---
 
 I used to think the people I saw running were insane. They were confused about life. Whatever the benefits of running, nothing could justify that much suffering. Runners were cut from a different cloth. They had a strength of will I lacked. I would never be one of them.

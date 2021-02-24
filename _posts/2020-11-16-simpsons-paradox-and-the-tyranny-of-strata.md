@@ -1,10 +1,9 @@
 ---
-
 layout: post
 title: "Simpson's paradox and the tyranny of strata"
 image: /img/simpson/statue.jpg
 tags: statistics math
-
+permalink: /:year/:month/:day/:title/
 ---
 It's hard to get into Oxford. Is it easier if your parents are rich?
 

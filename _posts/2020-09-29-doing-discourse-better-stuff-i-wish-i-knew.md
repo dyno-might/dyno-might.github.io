@@ -3,7 +3,7 @@ layout: post
 title: "Doing discourse better: Stuff I wish I knew"
 image: /img/discourse/forum_romanum.jpg
 tags: policy communication
-
+permalink: /:year/:month/:day/:title/
 ---
 
 <head>
