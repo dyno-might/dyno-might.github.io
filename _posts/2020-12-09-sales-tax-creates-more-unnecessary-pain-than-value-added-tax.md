@@ -3,6 +3,7 @@ layout: post
 title: "Sales tax creates more unnecessary pain than value added tax"
 image: /img/vat/books.jpg
 tags: explainer economics policy
+description: Explains through a model of selling coconuts while value added taxes distort the economy less than sales taxes.
 permalink: /:year/:month/:day/:title/
 ---
 

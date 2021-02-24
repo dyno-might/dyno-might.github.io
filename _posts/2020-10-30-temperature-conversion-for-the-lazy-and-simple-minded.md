@@ -2,6 +2,7 @@
 layout: post
 title: "Temperature conversion for the lazy and simple-minded"
 image: /img/convert/thermometer.jpg
+description: A hack to convert Celsius to Fahrenheit.
 tags: science math
 permalink: /:year/:month/:day/:title/
 ---

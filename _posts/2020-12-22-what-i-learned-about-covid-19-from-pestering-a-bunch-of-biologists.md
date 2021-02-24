@@ -3,6 +3,7 @@ layout: post
 title: "Napoleon's failure in Russia as an analogy for T-cell based viral immunity"
 image: /img/covid/covid_tem.jpg
 tags: science
+description: How the immune system's memory cells are like the Russian strategy for resisting Napoleon's invasion.
 hero_light: true
 permalink: /:year/:month/:day/:title/
 ---

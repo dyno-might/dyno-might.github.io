@@ -3,6 +3,7 @@
 layout: post
 title: "Your ratios don't prove what you think they prove"
 image: /img/police/court_light_cropped.jpg
+description: Why trying to measure police violence though ratios is totally and utterly meaningless.
 tags: statistics policy
 usemathjax: true
 permalink: /:year/:month/:day/:title/

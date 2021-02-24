@@ -3,6 +3,7 @@
 layout: post
 title: "Policy proposals and what we don't know about them"
 image: /img/police/court_light_cropped.jpg
+description: There's many suggested policies to address police violence. What do we know about if they actually work?
 tags: statistics policy
 permalink: /:year/:month/:day/:title/
 ---

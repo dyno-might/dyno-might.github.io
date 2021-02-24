@@ -2,6 +2,7 @@
 layout: post
 title: "Simpson's paradox and the tyranny of strata"
 image: /img/simpson/statue.jpg
+description: Visualizes Simpson's paradox, and shows how it's a deeper problem than many people realize.
 tags: statistics math
 permalink: /:year/:month/:day/:title/
 ---

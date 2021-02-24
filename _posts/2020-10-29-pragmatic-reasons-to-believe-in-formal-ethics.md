@@ -4,6 +4,7 @@ layout: post
 title: "Pragmatic reasons to believe in formal ethics"
 image: /img/ethics/plane.jpg
 tags: philosophy
+description: Some situations where formal ethics are really needed for practical problems in real life.
 permalink: /:year/:month/:day/:title/
 
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Are ethics all a lie?"
 image: /img/ethics/clouds.jpg
 tags: philosophy
+description: If we only believe in ethics because of evolution, does that mean ethics are a lie?
 last_updated: 2021-02-16
 permalink: /:year/:month/:day/:title/
 ---

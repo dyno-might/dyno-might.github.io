@@ -3,6 +3,7 @@ layout: post
 title: "How to run without all the pesky agonizing pain"
 image: /img/running/running.jpg
 tags: selfImprovement
+description: Why you shouldn't torture yourself when training to run.
 hero_light: true
 permalink: /:year/:month/:day/:title/
 ---

@@ -2,6 +2,8 @@
 layout: post
 title: "Why fairness is basically unobservable"
 image: /img/police/court_light_cropped.jpg
+description: Why it's basically impossible to determine fairness from observational data.
+tags: statistics policy
 permalink: /:year/:month/:day/:title/
 ---
 

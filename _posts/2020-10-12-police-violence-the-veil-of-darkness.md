@@ -4,6 +4,7 @@ layout: post
 title: "The veil of darkness"
 image: /img/police/court_light_cropped.jpg
 tags: statistics policy
+description: Explores some natural experiments that try to measure police violence.
 last_updated: 2021-02-09
 permalink: /:year/:month/:day/:title/
 ---
