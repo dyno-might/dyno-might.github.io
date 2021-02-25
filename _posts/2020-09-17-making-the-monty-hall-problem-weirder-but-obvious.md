@@ -34,7 +34,7 @@ For reference, the [classic formulation](https://en.wikipedia.org/wiki/Monty_Hal
 
 Intuitively, many people guess it doesn't matter if you switch. But it does. You get the car 2/3 of the time if you switch, and 1/3 of the time if you don't. Why?
 
-# Game 1 (Dynomight™ Monty Hall)
+## Game 1 (Dynomight™ Monty Hall)
 
 Here's our first game.
 
@@ -50,7 +50,7 @@ Here's our first game.
 
 There's nothing mysterious here. You should choose option B. There’s only a 10% chance you picked the right door, so there’s a 90% chance the car is behind one of the others.
 
-# Game 2
+## Game 2
 
 Now, we slightly update the game (new part in bold).
 
@@ -86,7 +86,7 @@ The key insight is this: When Monty shows you that 8 of the 9 other doors contai
 
 Want more intuition? Suppose you picked door 3. Imagne Monty walking past the doors, opening doors 1, 2, 4, 5, 6, **skipping 7**, then opening 8, 9, and 10. Doesn't door 7 seem special?
 
-# Game 4
+## Game 4
 
 Let's make another change. Finally, we arrive at a game very similar to Monty Hall.
 
@@ -103,7 +103,7 @@ Let's make another change. Finally, we arrive at a game very similar to Monty Ha
 
 The only difference with Game 3 is that option B doesn’t get you the 8 visible goats. Since you don’t care about goats, this makes no difference. This is still just like the game 3. You get the car 90% of the time by switching.
 
-# Game 5 (Classic Monty Hall)
+## Game 5 (Classic Monty Hall)
 
 Here is the last game. We just change the number of doors from 10 to 3.
 
@@ -120,7 +120,7 @@ Here is the last game. We just change the number of doors from 10 to 3.
   
 Of course, you still want to choose option B. The chance of success is now 2/3 instead of 9/10. This game is exactly Monty Hall, so we're done.
 
-# Side Notes
+## Side Notes
 
   * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive. Many people intuitively think it doesn't matter if you switch. And that *would be correct* if the door had been opened at random!
 
