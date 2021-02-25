@@ -8,15 +8,13 @@ description: Common arguments for universal basic income are about liberty or au
 permalink: /:year/:month/:day/:title/
 ---
 
-# Why I'm skeptical of universal basic income
-
 Universal basic income (UBI) is an odd duck. Proponents range from futurists to libertarians to social democrats. Why this weird range of people?
 
 There are different versions of UBI, with different motivations. People don't get how *contradictory* these are. Libertarians and social democrats might both support a fuzzy idea of "UBI" but they'd never agree on specifics.
 
 I don't think it matters though. I'm deeply skeptical of these *interesting* versions of UBI. The only realistic option is another, *boring* version. Why isn't it discussed more? The more you think about it, the more of a riddle that is.
 
-# The libertarian argument
+## The libertarian argument for UBI
 
 A libertarian argument for Universal Basic Income might go something like this:
 
@@ -48,7 +46,7 @@ To avoid this problem, Murray suggests that $3000 of the $12,000 must be spent o
 
 If you want to do UBI, it mostly has to come *on top* of targeted programs. That's *increasing* the scope of government, not decreasing it. That might be a good idea, but it's *not* the libertarian dream. If that's what you want, you need a different argument.
 
-# The Silicon Valley Argument
+## The Silicon Valley Argument for UBI
 
 Here's a different argument for basic income.
 
@@ -100,7 +98,7 @@ For some problems, we need to think ahead. Climate change is a good example: We 
 
 Maybe the jobless future is coming, but it's not here yet. I just don't see the argument for massively restructuring the economy *now* in order to try to address it. So I don't buy the Silicon Valley argument for UBI now.
 
-# The populist argument
+## The populist argument for UBI
 
 There's one more argument for UBI. It has a charming simplicity.
 
