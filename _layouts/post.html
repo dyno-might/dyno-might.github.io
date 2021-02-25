@@ -79,8 +79,9 @@ layout: default
 <center>
 <h2>Related</h2>
 {% assign maxRelated = 4 %}
-{% assign minCommonTags =  1 %}
-{% assign maxRelatedCounter = 0 %}
+{% assign numPrinted = 0 %}
+{% for negCommonTags in (1..4) %}
+  {% assign minCommonTags = 5 | minus: negCommonTags %}
   {% for post in site.posts %}
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
@@ -93,7 +94,7 @@ layout: default
         {% endif %}
       {% endif %}
     {% endfor %}
-    {% if sameTagCount >= minCommonTags %}
+    {% if sameTagCount == minCommonTags %}
       <div>
       <p style="margin-bottom:3px;">
       <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
@@ -104,8 +105,10 @@ layout: default
       {% endif %}
     {% endif %}
   {% endfor %}
+{% endfor %}
     </center>
     </div>
 </section>
+
 
 
