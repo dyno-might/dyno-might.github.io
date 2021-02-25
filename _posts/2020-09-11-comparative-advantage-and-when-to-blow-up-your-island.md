@@ -24,7 +24,7 @@ Economists say free trade is good because of "comparative advantage". But what i
 
 This is sometimes considered an arcane part of economics. ([Wikipedia](https://en.wikipedia.org/wiki/Comparative_advantage#Ricardo's_example) defines it using "autarky".) But it's really a very simple idea. Anyone can use it to understand the world and make decisions.
 
-# I Islands
+## I Islands
 
 <div class="figure"><img src="/img/comparative-advantage/you.png" alt="you on an island" max-width="75%" min-width="50%" /></div>
 
@@ -55,7 +55,7 @@ Just like you I eat 10 coconuts and 10 bananas per day. But *unlike* you, I'm te
 
 Since I'm so incompetent, I need to work a lot more than you -- six times as much.
 
-# II The Bridge
+## II The Bridge
 
 Thus, we live our lives until one day a bridge appears between the islands.
 
@@ -85,7 +85,7 @@ This is why economists like free trade. If different producers have different re
 
 Beyond trade, this is an important lesson for life. Choosing your career path? Dividing up chores with your partner? Think about comparative advantage!
 
-# III Complexities
+## III Complexities
 
 The real world, of course, is more complex. For example:
 
@@ -101,7 +101,7 @@ In this case, introducing trade can make *individual people* worse off: Suppose 
 
 In this subtlety, Politics emerges. In principle, one can always use free trade plus a set of wealth transfers to make every individual better off. But that's a nightmare in practice: It would require a central authority to predict what set of trades the market will decide on. So we're left with a mess.
 
-# IV ZOPA
+## IV ZOPA
 
 But even in this toy model of two people on two islands, I skipped an important step. How did we decide to trade 10 coconuts for 10 bananas? I might say: “I’ll trade 7 bananas for 10 of coconuts. Take it or leave it!”
 
@@ -150,7 +150,7 @@ This range of (.5 to 2) is the [Zone of Possible Agreement](https://en.wikipedia
 <div class="figure"><img src="/img/comparative-advantage/zopa4.png" alt="zone of potential agreement" width="65%"/></div>
 
 
-# V Perverse Behavior
+## V Perverse Behavior
 
 There's no simple simple math to decide what point in the ZOPA we settle on. This can lead to strange and perverse behaviors.
 

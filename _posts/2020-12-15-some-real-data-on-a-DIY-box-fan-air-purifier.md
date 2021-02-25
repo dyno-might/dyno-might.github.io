@@ -4,7 +4,7 @@ layout: post
 title: "Experiments on a $50 DIY air purifier you can make in 30s"
 image: /img/purifier/smoke.jpg
 description: You can make a DIY air purifier in 30s. To test if it works, I generated smoke, and measured how well it removes tiny particles.
-tags: science
+tags: cleanAir science
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -23,13 +23,13 @@ Bad air is bad for you. The air purifier market, though, is a mess. Every purifi
 
 It's common to build DIY air purifiers by basically strapping a filter to a fan. I like the idea of these, but again, it's hard to be confident they really work. There's a few experiments out there, but not enough to make me comfortable. So I decided to do some experimenting of my own. I made a purifier, generated smoke, and measured how well it removes tiny particles.
 
-# TL;DR: YES IT WORKS
+## TL;DR: YES IT WORKS
 
 If you're in a hurry, this post says that if you strap two HEPA filters to a box fan, it will clear the air of basically all the particles we can measure, and it will do it faster than a commercial filter that costs twice as much.
 
 ![in a large room the DIY filter does slightly better than the commercial filter](/img/purifier/smallroom_log.jpg)
 
-# The experiment
+## The experiment
 
 ### DIY purifier
 
@@ -76,7 +76,7 @@ Here are some ways to interpret these numbers:
 
 Since the air quality monitor doesn't log data, I used an ultra-hacky alternative: I set the monitor next to a laptop running a stopwatch. I then aimed a tabet at both of those screens and took a timelapse video. Finally, I manually transcribed the data by going to each minute marker in the data. (This was even more tedious than it sounds.)
 
-# Results in a Tiny Room
+## Results in a Tiny Room
 
 I ran a first experiment in a tiny room of around 8 ㎥. Due to worries that wind from the purifiers might change the speed the incense burned, I placed it on the opposite side of a wall, with a gap of around 20 cm near the ceiling.
 
@@ -94,7 +94,7 @@ If we make the y-axis logarithmic, it becomes quite clear that the DIY filter is
 
 If we take the EPA's threshold of 12 μg/m³, the DIY filter gets there in around 15 minutes, while the commercial filter take around 25 minutes.
 
-# Results in a Large Room
+## Results in a Large Room
 
 Thankfully, I don't spend most of my time in an 8 ㎥ room. Thus, I repeated the experiment in a large room of around 100 ㎥. Here there was no wall between incense and purifier. Instead I left around a meter of distance between the incense and purifier and the purifier and the monitor.
 
@@ -110,7 +110,7 @@ The DIY purifier looks a bit better. If we plot in log space, it's more clear th
 
 ![large room measurements in log space](https://dyno-might.github.io/img/purifier/largeroom_log.jpg)
 
-# Taping
+## Taping
 
 It's common advice for DIY purifiers like this to seal around the edges of the filter so that all air must pass through it.  I share the intuition that this would help, but it's hard to be sure: If you block airflow, you slow down the fan. This could be counterproductive.
 
@@ -128,7 +128,7 @@ This was unexpected. I thought the tape would help, but I wouldn't have been sur
 
 There could be some weird quirk in how I ran this experiment. This doesn't necessarily mean that all the advice to tape around the filter is *wrong*. However, I've never seen any experriments that show taping helps either.
 
-# Thoughts
+## Thoughts
 
 **Cost.** The DIY purifier isn't dramatically cheaper than the commercial one, but I expect the filters would need to be replaced much less often. The commercial purifier uses a single filter with an area of 300 cm², whereas the DIY purifier uses two filters with a total area of around 1400 cm², and also slightly thicker. It's reasonable to assume the DIY filters could remove ~4 times as many particles before replacement.
 
