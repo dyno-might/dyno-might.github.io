@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Cuboid: A DIY air purifier that's better than a box-fan"
-image: /img/cuboid_purifier/smoke3.jpg
+image: /img/cuboid_purifier/smoke3b.jpg
 tags: cleanAir science
 hero_light: false
 dark_title: false
@@ -210,7 +210,7 @@ Take the four filters, and assemble them into a vertical structure. Be careful t
 
 
 <div class="center highwidth">
-<img class="center max100" src="/img/cuboid_purifier/step1.jpg" alt="Step 1 of construction" />
+<img class="center max100" src="/img/cuboid_purifier/step1.jpg" alt="Step 1 of construction" loading="lazy" />
 </div>
 
 This column is somewhat unstable, but we'll deal with that.
@@ -220,7 +220,7 @@ This column is somewhat unstable, but we'll deal with that.
 Cut one piece of foam to the size of the square at the bottom of the filter column (I taped over a hole in the foam I used.) Place it at the bottom.
 
 <div class="center highwidth">
-<img class="center max100" src="/img/cuboid_purifier/step2.jpg" alt="Step 2 of construction" />
+<img class="center max100" src="/img/cuboid_purifier/step2.jpg" alt="Step 2 of construction" loading="lazy" />
 </div>
 
 I did this by setting the filters on top of the foam, tracing out the shape with a pencil, and then cutting the foam with scissors. You probably want to err on the side of making it larger and trim if necessary. It should fit firmly so that it's held in place by the filters.
@@ -232,7 +232,7 @@ Strictly speaking, you could also probably skip this step. I did that in an earl
 Cut another piece of foam so that it supports the fan from below while holding the fan in place. This should be large enough so that that the piece will sit on top of the filters.
 
 <div class="center highwidth">
-<img class="center max100" src="/img/cuboid_purifier/step3.jpg" alt="Step 3 of construction" />
+<img class="center max100" src="/img/cuboid_purifier/step3.jpg" alt="Step 3 of construction" loading="lazy" />
 </div>
 
 As you can see, the foam was missing a corner, which I solved inelegantly by gluing on a piece of cardboard.
@@ -242,7 +242,7 @@ As you can see, the foam was missing a corner, which I solved inelegantly by glu
 Set the fan+foam on top of the filters, oriented so it will blow air upward.
 
 <div class="center medwidth">
-<img class="center max100" src="/img/cuboid_purifier/step4.jpg" alt="Step 4 of construction" />
+<img class="center max100" src="/img/cuboid_purifier/step4.jpg" alt="Step 4 of construction" loading="lazy" />
 </div>
 
 That's it, you're done. The top is only held on by gravity, plus pressure if it's on. You could obviously make this more stable or beautiful, but I wanted to focus on a design that's *really* easy to build.
@@ -260,7 +260,7 @@ I did experiments in a room with a volume of around 31 m³. To generate smoke, I
 The purifier (box fan or cuboid) was on the ground around a meter from the particle counter.
 
 <div class="center medwidth">
-<img class="center max80" src="/img/cuboid_purifier/setup.jpg" alt="setup for measuring air purification performance" />
+<img class="center max80" src="/img/cuboid_purifier/setup.jpg" alt="setup for measuring air purification performance" loading="lazy" />
 </div>
 
 ### Results
@@ -284,7 +284,7 @@ Here are the results with the cuboid. Note that the y-axis is logarithmic. The s
 Here are the results of the box fan.
 
 <div class="center highwidth">
-<img class="center" src="/img/cuboid_purifier/boxfan_performance_cropped.svg" alt="performance of the box fan on different fan speeds" />
+<img class="center" src="/img/cuboid_purifier/boxfan_performance_cropped.svg" alt="performance of the box fan on different fan speeds" loading="lazy" />
 </div>
 
 
