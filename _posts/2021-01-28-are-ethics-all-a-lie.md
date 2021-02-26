@@ -10,7 +10,7 @@ permalink: /:year/:month/:day/:title/
 
 Some people claim ethics aren't [practical](https://dynomight.net/2020/10/29/pragmatic-reasons-to-believe-in-formal-ethics/). Others make a grim philosophical argument:
 
- > Ethics are an illusion. There's no "right and wrong" written in the fabric of the universe. It's all a fiction that exists because it *improves reproductive fitness*. If someone hits you, it feels OK to hit them back. Why? Because if you always get revenge, it's unwise to mess with you. "Morality" is just a hack evolution came up with to win at the remorseless game of reproduction. First this was genetic evolution, now cultural evolution. Either way, beliefs that aid reproduction get transmitted more. Stare reality in the face, and look at ethics for what they is: A thin veneer on top of game theory.
+ > Ethics are an illusion. There's no "right and wrong" written in the fabric of the universe. It's all a fiction that exists because it *improves reproductive fitness*. If someone hits you, it feels OK to hit them back. Why? Because if you always get revenge, it's unwise to mess with you. "Morality" is just a hack evolution came up with to win at the remorseless game of reproduction. First this was genetic evolution, now cultural evolution. Either way, beliefs that aid reproduction get transmitted more. Stare reality in the face, and look at ethics for what they are: A thin veneer on top of game theory.
 
 In terms of where our sense of justice comes from, this is correct. Right and wrong don't "really" exist. When we talk about them, we're talking about our *preferences*. We have those preferences because we're programmed to have them. We're programmed that way because they were effective for our (genetic and cultural) ancestors.
 
