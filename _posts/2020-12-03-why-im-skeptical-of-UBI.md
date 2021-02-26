@@ -6,6 +6,8 @@ image: /img/skeptical_ubi/dog.jpg
 tags: economics
 description: Common arguments for universal basic income are about liberty or automation of jobs. The "real" argument is much more mundane.
 permalink: /:year/:month/:day/:title/
+last_updated: 2021-02-26
+
 ---
 
 Universal basic income (UBI) is an odd duck. Proponents range from futurists to libertarians to social democrats. Why this weird range of people?
@@ -18,13 +20,13 @@ I don't think it matters though. I'm deeply skeptical of these *interesting* ver
 
 A libertarian argument for Universal Basic Income might go something like this:
 
-> The government is stupid and inefficient. There's medicare, medicaid, social security, food stamps, "other food stamps" (WIC), welfare, "other welfare" (SSI), and unemployment benefits, each with a bureaucracy. Did you know that each item in a supermarket has been classified as buyable with food stamps or not? ([Energy drinks are usually OK](https://ask.usda.gov/s/article/Are-energy-drinks-eligible-for-purchase-with-Supplemental-Nutrition-Assistance-Program-benefits), [toothpaste is not](https://www.fns.usda.gov/snap/facts).) And there's a *different* classification for the "other" food stamps? (No [spices or drinkable yogurt](https://www.fns.usda.gov/wic/wic-food-packages-regulatory-requirements-wic-eligible-foods).) And that if you lose your job you need to provide evidence each month that you spent 80 hours looking for a new one? These expensive programs are often miserable for the people they're supposed to help. Let's stop micromanaging people's lives, cut the fat, and **just give people money**?
+> The government is stupid and inefficient. There's medicare, medicaid, social security, food stamps, "other food stamps" (WIC), welfare, "other welfare" (SSI), and unemployment benefits, each with a bureaucracy. Did you know that each item in a supermarket has been classified as buyable with food stamps or not? ([Energy drinks are usually OK](https://ask.usda.gov/s/article/Are-energy-drinks-eligible-for-purchase-with-Supplemental-Nutrition-Assistance-Program-benefits), [toothpaste is not](https://www.fns.usda.gov/snap/facts).) And there's a *different* classification for the "other" food stamps? (No [spices or drinkable yogurt](https://www.fns.usda.gov/wic/wic-food-packages-regulatory-requirements-wic-eligible-foods).) And that if you lose your job you need to provide evidence each month that you spent 80 hours looking for a new one? These expensive programs are often miserable for the people they're supposed to help. Let's stop micromanaging people's lives, cut the fat, and **just give people money**.
 
-I see the appeal, and if you want to reorganize cash transfers like social security and call them "UBI", that's fine with me! But it's very unlikely UBI can replace medicaid.
+I see the appeal, and if you want to reorganize cash transfers like social security and call them "UBI", that's fine with me! But it's unlikely UBI can replace medicaid.
 
 To see why, consider schools. Sometimes the government runs them. Sometimes the government merely pays for privately run "charter" schools. Sometimes the government pays for "vouchers" that subsidize a fraction of expensive private school.
 
-Why do things this way? Why not give parents (or kids!?) the money and let them spend it however they want?
+Why do things this way? Why not give parents (or kids?) the money and let them spend it however they want?
 
 The answer is obvious, even if we don't usually say it explicitly: We don't trust people and we want to control them. Educating kids is an investment that benefits everyone in the future. If we just gave parents cash, I'm sure many would arrange for a better education than the government does now. But I'm also sure many would spend it on wacky religions schools, or crystal healing seminars, or beer.
 
@@ -36,13 +38,13 @@ To be clear, no real UBI proposals would change funding for schools! But that's 
 
 Again, schools are just a hypothetical. What's not hypothetical is *healthcare*. For example, [Charles Murray](https://www.wsj.com/articles/a-guaranteed-income-for-every-american-1464969586) suggests rolling all government entitlements and healthcare expenditures together into a grant of $12,000, with no tax increase.
 
-This would never work. Say we stop subsidizing healthcare and just give people money. No matter what you do, some won't save and won't buy health insurance. (If you doubt this, you've met a different species than I have.) Then, you have this difficult question: When one of these people gets sick and shows up at a hospital, do you let them die?
+This would never work. Say we stop subsidizing healthcare and just give people money. No matter what you do, some won't save and won't buy health insurance. (If you doubt this, you've met a different species of human than I have.) Then, you have this difficult question: When one of these people gets sick and shows up at a hospital, do you let them die?
 
-Intellectually, this is a question I take seriously. Think about it like this: Suppose you can choose to be born into Safeland where everyone is secure but bored, or Dangerland where people have fun but risk getting killed. It's totally reasonable for someone to choose Dangerland. A tough-love "buy insurance or risk death" policy allows people to optimize for their own [utility function](https://dynomight.net/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/).
+Intellectually, I take this question seriously. Think about it like this: Suppose you can choose to be born into Safeland where everyone is secure but bored, or Dangerland where people have fun but risk getting killed. It's totally reasonable for someone to choose Dangerland. A tough-love "buy insurance or risk death" policy allows people to optimize for their own [utility function](https://dynomight.net/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/).
 
-*Practically*, though, there is no question. Society has decided: It's not acceptable to let people die, and we need some kind of emergency backstop program. But now we've gotten back into the healthcare subsidy business. We've also abandoned *just giving people money*, since any funding for the backstop could have been an unrestricted grant.
+*Practically*, though, there is no question. Society has decided: It's not acceptable to let people die, and we need some kind of emergency backstop program. But that gets you right back into the healthcare subsidy business, and moves you away from *just giving people money*. Any funding for the backstop could have been an unrestricted payout to someone.
 
-To avoid this problem, Murray suggests that $3000 of the $12,000 must be spent on health insurance. This is a compromise on the dream of *just giving people money*. It also reduces, but doesn't eliminate the underlying problem. What if people need a treatment that wasn't included in their insurance? Do you have "death panels" to decide what "essential" procedures need to be included? What happens if these can't be offered for $3000? (The average person in the US uses [$11,000](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NHE-Fact-Sheet) worth of healthcare.)
+To avoid this problem, Murray suggests that $3000 of the $12,000 must be spent on health insurance. This is a compromise on the dream of just giving people money. It also reduces, but doesn't eliminate the underlying problem. What if people need a treatment that wasn't included in their insurance? Do you have "death panels" to decide what "essential" procedures need to be included? What happens if these can't be offered for $3000? The average person in the US uses [$11,000](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NHE-Fact-Sheet) worth of healthcare.
 
 If you want to do UBI, it mostly has to come *on top* of targeted programs. That's *increasing* the scope of government, not decreasing it. That might be a good idea, but it's *not* the libertarian dream. If that's what you want, you need a different argument.
 
@@ -50,33 +52,33 @@ If you want to do UBI, it mostly has to come *on top* of targeted programs. That
 
 Here's a different argument for basic income.
 
-> Artificial intelligence is coming, and jobs going extinct. Without action, soon all income will go to the wealthy or to the rare people who work on robots/AIs. But jobs getting automated should be good news! There will be plenty of money. In a sane world, when an AI replaces a truck driver, we'd keep paying them without asking them to come to work. For all of history, people have spent their lives mostly scrambling to survive. It's time for us to be liberated, to spend our time on art, science, politics, whatever. Let the human spirit soar."
+> Artificial intelligence is coming, and jobs going extinct. Without action, soon all income will go to the wealthy or to the rare people who work on robots/AIs. But jobs getting automated should be good news! There will be plenty of money. In a sane world, when an AI replaces a truck driver, we'd keep paying them without asking them to come to work. For all of history, people have spent their lives mostly scrambling to survive. It's time for us to be liberated, to spend our time on art, science, politics, whatever. Let the human spirit soar.
 
 I have three responses to this.
 
-**First**, there isn't plenty of money, yet. Giving 256 million adults the average truck driver salary of $67 thousand per year would cost $17 trillion. For reference, that's 4 times the entire [current federal budget](https://www.cbo.gov/system/files/2020-04/56324-CBO-2019-budget-infographic.pdf):
+**First**, there isn't plenty of money, not yet. Giving 256 million adults the average truck driver salary of $67,000 per year would cost $17 trillion. For reference, that's 4 times the entire [current federal budget](https://www.cbo.gov/system/files/2020-04/56324-CBO-2019-budget-infographic.pdf):
 
 ![the current US federal budget](/img/skeptical_ubi/budget_small.png)
 
-It's almost as large as the entire *economy* ($21 trillion). Giving everyone $12k per year would cost $3 trillion. That's more than all benefit programs combined, but not impossible. Suppose we make some difficult cuts, add some new taxes and make it happen. Do we expect anyone who previously had a good job to be content with $12 thousand? I'm sure it's *helpful*, but it's no *substitute* for a job.
+It's almost as large as the entire *economy* ($21 trillion). Giving everyone $12k per year would cost $3 trillion. That's more than all benefit programs combined, but not impossible. Suppose we make some difficult cuts, add some new taxes and make it happen. Do we expect anyone who previously had a good job to be happy with $12 thousand? I'm sure it's *helpful*, but it's no *substitute* for a job.
 
-**Second**, this isn't how economic revolutions worked in the past. Everyone knows the story: We moved from farms to manufacturing and services as each sector got automated. Keynes famously predicted 90 years ago that we would soon only need to work 15 hours a week. Why didn't that happen? He was right that existing jobs would mostly disappear. What he missed was that we'd invent so much new stuff and then decide we couldn't live without it. Are we *really sure* this time is different? A counter-response from a UBI fan would be that "every trend continues until it stops". Previously, there were obvious productive things for people to shift their effort to. Now, that's not clear. My counter counter-reply is: Are you *sure*?
+**Second**, this isn't how economic revolutions worked in the past. Everyone knows the story: We moved from farms to manufacturing to services as each sector got automated. Keynes famously predicted 90 years ago that we would soon only need to work 15 hours a week. Why didn't that happen? He was right that existing jobs would mostly disappear. What he missed was that we'd invent so much new stuff and then decide we couldn't live without it. Are we *really sure* this time is different? A counter-response from a UBI fan would be that "every trend continues until it stops". Previously, there were obvious productive things for people to shift their effort to. Now, that's not clear. My counter counter-response is: Are you *sure*?
 
 Both of these responses boil down to "your argument for UBI is premised on some future that's not here yet". If 30 years from now the economy is 50x bigger and all the jobs are gone, these responses are moot.
 
 A **third** response is that this argument for UBI assumes jobs are all about money. Joe and Jill Biden are worth around $10 million. So why is Jill Biden teaching English at Northern Virginia Community College? People get much of their identity and meaning in life from their jobs. We are sort of like border collies: Without a role to play, we go crazy. Most people don't want a handout, they want to feel that they've *earned* what they have.
 
-To be sure, *some* people, if their current job was replaced with a UBI, would devote themselves to other passions. (Can anyone doubt that a million rationalist-adjacent blogs would bloom?) But others would get bored and depressed. Don't believe me? Check out fire Financial Independence / Early Retirement (FIRE) forums. There are tons of people who worked hard, saved money, and retired young. They find that relaxation and "fun" get old quickly. Some people occupy themselves volunteer work or creative projects. For others this doesn't work and they spiral into depression until they eventually decide to take another job.
+To be sure, *some* people, if their current job was replaced with a UBI, would devote themselves to other passions. (Can anyone doubt that a thousand rationalist-adjacent blogs would bloom?) But others would get bored and depressed. Don't believe me? Check out fire Financial Independence / Early Retirement (FIRE) forums. There are tons of people who worked hard, saved money, and retired young. They find that relaxation and "fun" get old quickly. Some people occupy themselves volunteer work or creative projects. For others this doesn't work and they spiral into depression until they eventually decide to take another job.
 
 Maybe society shouldn't be like this. I don't really *like* this connection between work and value. Maybe social norms just need to adjust. Maybe FIRE folks would love retirement if their friends were also free to hang out in the middle of the day. Perhaps, but I think we also need to prepare for the possibility that this doesn't work.
 
-Here, a UBI proponent might object. "Well, look! Suppose this jobless world comes as predicted. What then? At least I'm proposing a solution! All you're doing is claiming the solution won't work. What would you actually suggest we do? Keeping the current world is not an option."
+Here, a UBI proponent might object. "Well, look! Suppose this jobless world comes as I predict. What then? At least I'm proposing a solution! All you're doing is claiming the solution won't work. What do you suggest we do instead? Keeping the current world is not an option."
 
-I agree. We don't have a stop button to stop the world shifting under our feet. If jobs really do go obsolete, we'll have to figure something out. I'd support also experimenting with UBI. But I'd suggest we *also* experimenting with how to make jobs stick around. It's easy to open a building downtown with a "fake jobs for insecure people" sign, but this wouldn't work. We'd probably need to really believe our jobs are valuable.
+I agree. We don't have a button to stop the world shifting under our feet. If jobs really do go obsolete, we'll have to figure something out. I'd support also experimenting with UBI. But I'd suggest we *also* experiment with how to make jobs stick around. It's easy to open a building downtown with a "fake jobs for insecure people" sign, but this wouldn't work. We'd probably need to really believe our jobs are valuable.
 
 (As an aside: How to create jobs that look useful? In a future where AI is so powerful that normal human jobs are gone, shouldn't we be worried about AI risk? Can we create bottlenecks in processes that have to be filled by humans? How to do this in a way that *actually* reduces AI risk is a hard problem. For our purposes, all that matters is it seems plausible.)
 
-*Is* the world changing under our feet, though? *Are* jobs going obsolete? Sure, the future is unknowable, we can't rule it out, etc. But is it a pressing issue we need to address now, or a long-term concern?  If the latter, what's the hurry?
+*Is* the world changing under our feet, though? *Are* jobs going obsolete? Sure, the future is unknowable, we can't rule it out, blah blah blah. But is it a pressing issue we need to address now, or a long-term concern?  If the latter, what's the hurry?
 
 Here's a plot of the unemployment rate going back to 1950:
 
@@ -100,7 +102,7 @@ Maybe the jobless future is coming, but it's not here yet. I just don't see the 
 
 ## The populist argument for UBI
 
-There's one more argument for UBI. It has a charming simplicity.
+There's one more argument for UBI, one with a charming simplicity.
 
 > We should increase redistribution and make it less conditional.
 
@@ -121,7 +123,7 @@ Policy|Support|Opposed
 Universal health care | 56% | 33%
 Socialized medicine | 52% | 34%
 
-Turns out, people aren't all complete idiots! They understand that "socialized medicine" is a valid description "universal health care", and are fine with that.
+Turns out, people aren't all complete idiots! They understand that "socialized medicine" is a valid description "universal health care," and are totally fine with that.
 
 (So why don't politicians who support redistribution win every election, you ask? Because those politicians bundle redistribution with other policies and cultural values that are much less popular.)
 

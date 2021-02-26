@@ -5,9 +5,10 @@ image: /img/convert/thermometer.jpg
 description: A hack to convert Celsius to Fahrenheit.
 tags: science math
 permalink: /:year/:month/:day/:title/
+last_updated: 2021-02-26
 ---
 
-This is a new way to convert temperatures between Celsius and Fahrenheit. It's *bad*. You shouldn't use it if you have any other option.
+This is a new way to convert temperatures between Celsius and Fahrenheit. It's not the most accurate method, but it might be the easiest.
 
 If you want a little bit of a puzzle, here is the system as a plot:
 
@@ -44,11 +45,8 @@ As an example, suppose you are familiar with Celsius and don't know how to inter
 
 **Question:** Isn't this a bad system for me, smart person who can easily calculate F=(9/5)C + 32 and C=(5/9)(F - 32) in my head?
 
-**Answer:** Yes.
+**Answer:** Probably yes.
 
 **Question:** How do I use this system to convert other temperatures?
 
-**Answer:** You don't.
-
-
-
+**Answer:** You can mentally interpolate: For example, 7°C is 1/4 of the way from 4°C to 16°C, so it converts to around 45°F, 1/4 of the way from 40°F and 61°F.
