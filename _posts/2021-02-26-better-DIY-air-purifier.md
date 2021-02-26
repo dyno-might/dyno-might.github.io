@@ -493,9 +493,9 @@ The fan I used is rated to push 12 m³/min of air. However, the CADR is only aro
 
 ### Should you bother building a Cuboid?
 
-Box fans have four advantages over the Cuboid. First, they're even easier to build. Second, work with a larger range of filters. Third, their upfront cost is lower. Fourth, you might already have a box fan lying around, or find one on the street or something. It's unlikely that an extra inline duct booster fan will just fall into your lap.
+Box fans have four advantages over the Cuboid. They're even easier to build. They work with a larger range of filters. Their upfront cost is lower. Finally, you might already have a box fan lying around, or find one on the street or something. It's unlikely that an extra inline duct booster fan will just fall into your lap.
 
-So when is a Cuboid worth it? I think a box fan is probably fine if you're just going to run it for short periods of time and don't mind the noise. But a Cuboid is much better if you're planning to run it for long periods.
+So when is a Cuboid worth it? I think a box fan is probably fine if you're just going to run it for short periods of time and don't mind the noise. But a Cuboid is much better if you will run it for long periods.
 
 One way to measure the quality of a purifier is the amount of air it cleans per unit of power consumed. We can do this by dividing the CADR by the power usage. This gives the following results:
 
