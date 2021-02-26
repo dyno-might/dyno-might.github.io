@@ -431,7 +431,7 @@ I measured the dimensions of the room where I did these measurements. I estimate
 </div>
 <br>
 
-A recent [study](https://www.cbc.ca/news/business/portable-air-purifier-tests-marketplace-1.5900782g) from the University of Toronto also measured the CADR of a similar box-fan purifier. They measure around 92 ft³/min. (They don't give numbers, but there's a [graph](https://i.cbc.ca/1.5902727.1612545406!/fileImage/httpImage/image.png_gen/derivatives/original_1180/air-purifiers-graph.png) CADR=100 is 130 pixels high and the box fan is 100 pixels high.) This is reassuringly close to my estimate of 76.6. I'd put a confidence band of around 20% on my numbers due to the crude measurement of room volume. Also, I use 3 HEPA filters rather than a single MERV 13 filter, so there's no reason to think true performance is exactly the same.
+A recent [study](https://www.cbc.ca/1.5900782) from the University of Toronto also measured the CADR of a similar box-fan purifier. They measure around 92 ft³/min. (They don't give numbers, but there's a [graph](https://i.cbc.ca/1.5902727.1612545406!/fileImage/httpImage/image.png_gen/derivatives/original_1180/air-purifiers-graph.png) CADR=100 is 130 pixels high and the box fan is 100 pixels high.) This is reassuringly close to my estimate of 76.6. I'd put a confidence band of around 20% on my numbers due to the crude measurement of room volume. Also, I use 3 HEPA filters rather than a single MERV 13 filter, so there's no reason to think true performance is exactly the same.
 
 ## Measuring noise
 
