@@ -51,7 +51,7 @@ You re-do the analysis, splitting the animals into dark and light groups.
 
 Overall, sheep are zapped less often than goats. But dark sheep are zapped *more* often than dark goats (7⁄11 > 10⁄16) *and* light sheep are zapped more often than light goats (5⁄14 > 3⁄9). This is the usual *paradox*: The conclusion changes when you switch from analyzing everyone to analyzing subgroups.
 
-How does that reversal happen? It's simple: For both sheep and goats, dark animals get zapped more often, and there are more dark goats than dark sheep. Dark sheep are zapped slightly more than dark goats, and light sheep are capped more than light goats. But dumping all the animals together changes the conclusion because there are so many *more* dark goats. This is an example of Simpson's paradox. Group-level differences can be totally different than subgroup differences when the ratio of subgroups varies.
+How does that reversal happen? It's simple: For both sheep and goats, dark animals get zapped more often, and there are more dark goats than dark sheep. Dark sheep are zapped slightly more than dark goats, and light sheep are zapped more than light goats. But dumping all the animals together changes the conclusion because there are so many *more* dark goats. This is an example of Simpson's paradox. Group-level differences can be totally different than subgroup differences when the ratio of subgroups varies.
 
 If you just want to understand Simpson's paradox you're done! This probably seems like a weird little edge case so far. But let's continue.
 

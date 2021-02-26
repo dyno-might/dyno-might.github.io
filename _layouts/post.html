@@ -77,7 +77,7 @@ layout: default
 {% endcomment %}
 <div class="container">
 <center>
-<h2>Related</h2>
+<div class="headerfont">Related</div>
 {% assign maxRelated = 4 %}
 {% assign numPrinted = 0 %}
 {% for negCommonTags in (1..4) %}
@@ -95,9 +95,9 @@ layout: default
       {% endif %}
     {% endfor %}
     {% if sameTagCount == minCommonTags %}
-      <div>
-      <p style="margin-bottom:3px;">
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+      <div class="headerfont">
+      <p style="margin-top:8px;">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
