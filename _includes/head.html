@@ -17,6 +17,7 @@
     {%- endif -%}
     {%- include head-scripts.html -%}
 
+
     <!-- for mathjax support -->
     {% if page.usemathjax %}
       {% include mathjax.html %}
@@ -53,5 +54,9 @@ var text = options[index];
 document.getElementById("form").innerHTML=text;
 }
 </script>
+
+{% if page.head %}
+{{page.head}}
+{% endif %}
 
 </head>
