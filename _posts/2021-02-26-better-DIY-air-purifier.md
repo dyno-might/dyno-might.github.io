@@ -568,7 +568,7 @@ Why don't manufacturers publish tests to show their products work? It's not that
 
 **If the outdoor air is clean where you live**, I suggest you put a purifier in your kitchen and run it on high while cooking (or any other activities that create smoke). If you're only running it for short periods, electricity consumption is a minor concern. If random noises annoy you, it's probably not worth running a *loud* purifier all the time. If you have a purifier that's quiet and efficient (did I mention I have a DIY design?) it's probably still a net benefit to run it all the time.
 
-**If the outdoor air is dirty where you live**, I suggest you run a purifier constantly year-round. In fact, you might need to run multiple purifiers in different parts of your home. The health benefits are really quite immense and you should take whatever measures are necessary. Here, electricity costs will add up quickly, and noise will be a significant quality-of-life issue. You 
+**If the outdoor air is dirty where you live**, I suggest you run a purifier constantly year-round. In fact, you might need to run multiple purifiers in different parts of your home. The health benefits are really quite immense and you should take whatever measures are necessary. Here, electricity costs will add up quickly, and noise will be a significant quality-of-life issue.
 
 Either way, reducing indoor air pollution might be the most effective health intervention you can make. Making up a number, [Running](https://dynomight.net/2021/01/25/how-to-run-without-all-the-agonizing-pain/) might provide 5x as large a benefit, but it's something like 25x as much effort. All the stuff you put in your body matters, but clean air can be had at low cost and with near-zero willpower.
 
