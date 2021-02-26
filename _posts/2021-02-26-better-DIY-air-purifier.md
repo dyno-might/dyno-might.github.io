@@ -239,7 +239,7 @@ As you can see, the foam was missing a corner, which I solved inelegantly by glu
 
 ### Step 4: Set the fan on the filter column
 
-Set the fan+foam on top of the filters, oriented so it will blow air upward.
+Set the fan+foam on top of the filters, oriented so it will blow air *upward*, and pull air through the filters.
 
 <div class="center medwidth">
 <img class="center max100" src="/img/cuboid_purifier/step4.jpg" alt="Step 4 of construction" loading="lazy" />
