@@ -49,4 +49,4 @@ As an example, suppose you are familiar with Celsius and don't know how to inter
 
 **Question:** How do I use this system to convert other temperatures?
 
-**Answer:** You can mentally interpolate: For example, 7°C is 1/4 of the way from 4°C to 16°C, so it converts to around 45°F, 1/4 of the way from 40°F and 61°F.
+**Answer:** You can mentally interpolate: For example, 7°C is ¼ of the way from 4°C to 16°C, so it converts to around 45°F, ¼ of the way from 40°F and 61°F.

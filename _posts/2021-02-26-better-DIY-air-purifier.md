@@ -5,6 +5,7 @@ image: /img/cuboid_purifier/smoke3b.jpg
 tags: cleanAir science
 hero_light: false
 dark_title: false
+description: Designs for a quieter, more energy efficient purifier, and data proving it really works.
 last_updated: 2021-02-07
 head: "<style>
 .center {
