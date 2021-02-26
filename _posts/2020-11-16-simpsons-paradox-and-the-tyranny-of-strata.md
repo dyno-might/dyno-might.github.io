@@ -15,7 +15,7 @@ It's hard to get into Oxford. Is it easier if your parents are rich?
 
 In 2013, [The Guardian](https://www.theguardian.com/education/2013/aug/14/oxford-university-private-a-level) showed that students from expensive independent schools were accepted more often than students from state schools. If you limit things to just students with strong grades (3 A* at A-level) the bias reduces, but doesn't disappear.
 
-[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later checked noticed something important: It's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to Classics (45% accepted) rather than Medicine (21%). If *each department* admits at equal rates, you'll still have the appearance of an *overall* bias, if state students are more likely to apply to Medicine.
+[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later noticed something important: It's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to Classics (45% accepted) rather than Medicine (21%). If *each department* admits at equal rates, you'll still have the appearance of an *overall* bias, if state students are more likely to apply to Medicine.
 
 ---
 
@@ -25,7 +25,7 @@ But you shouldn't see Simpson's paradox like that. Rather than a little quirk, i
 
 How does Simpson's paradox work? What is this deeper issue? You don't need to be a data scientist to understand all this. In this post, I'll illustrate both Simpson's paradox and the issues beneath it using a little cartoon about lighting bolts and farm animals. This will use no statistics and (basically) no math.
 
-# I Zeus
+## I Zeus
 
 Imagine that you are a mortal shephard living near Olympus with a flock of sheep and [goats](https://dyno-might.github.io/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/).  Your neighbor, the thunder god Zeus, is a jerk. He has started zapping your animals with lightning bolts.
 
@@ -39,7 +39,7 @@ Anyway, you wonder: Does Zeus have a preference for shooting sheep or goats? You
 
 At first glance, it seems like Zeus dislikes goats more than He dislikes sheep. (If you're worried about the difference being due to random chance, feel free to multiply the number of animals by a million.)
 
-# II Colors
+## II Colors
 
 Thinking about it, it occurs to you that some animals have darker fur than others. You go back to your records and mark each animal accordingly.
 
@@ -55,7 +55,7 @@ How does that reversal happen? It's simple: For both sheep and goats, dark anima
 
 If you just want to understand Simpson's paradox you're done! This probably seems like a weird little edge case so far. But let's continue.
 
-# III Stripes
+## III Stripes
 
 Thinking even more, you notice that many of your (apparently mutant) animals have stripes. You prepare the data again, marking each animal according to stripes, rather than color.
 
@@ -67,7 +67,7 @@ You wonder, naturally, what happens if you analyze these groups.
 
 The results are similar to those with color. Though sheep are zapped less often than goats overall (12⁄25 < 13⁄25), plain sheep are zapped more often than plain goats (5⁄14 > 3⁄9), and striped sheep are zapped more often than striped goats (7⁄11 > 10⁄16).
 
-# IV Colors and stripes
+## IV Colors and stripes
 
 Of course, instead of just considering either color or stripes, nothing stops you from considering both.
 
@@ -99,7 +99,7 @@ To answer that, it's important to realize that *anything can happen*. When you s
 
 But *how*, you ask? *How* can this happen? I think this is the wrong question. Instead we should ask if there is anything to *prevent* this from happening. There are a huge variety of possible datasets, with all sorts of different group averages. Unless there is some special structure forcing things to be "orderly", essentially arbitrary stuff can happen. There is no special force here.
 
-# V Individuals
+## V Individuals
 
 So far, this all seems like a lesson about finding the right way to analyze data. In some cases, that's probably true. Suppose read that Prestige Airways is more often delayed than GreatValue Skybus. Looking closer, you notice that Prestige flies mostly between snowy cities while Skybus mostly flies between warm dry cities. Prestige may have a better track record for *all* individual routes, but a worse track record overall, simply because they fly difficult routes more often. In this case, it's probably correct to say because Prestige is better for any flight you might take, Prestige is more reliable. 
 
