@@ -80,11 +80,6 @@ I think I've found such a design. Behold, the Cuboid:
 <img class="center" style="max-width:300pt" src="/img/cuboid_purifier/cuboid.jpg" alt="Cuboid DIY purifier" />
 </div>
 
-## Contents
-
-* auto-gen TOC:
-{:toc}
-
 ## Performance summary
 
 I've done some experiments comparing this to a [box-fan based purifier](https://dynomight.net/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/), using the same filters.  Here's a summary.
@@ -175,6 +170,11 @@ I've done some experiments comparing this to a [box-fan based purifier](https://
 Less is better for everything except the clean air delivery rate (CADR). The half-life is calculated in a 31 m³ room. Electricity costs assume operation 24 hours/day at 1 kWh = $0.13.
 
 As you can see, the cuboid gives major improvements in noise and electricity consumption, with small regressions in cost, difficulty of construction, and IED resemblance. Particularly on low, the cuboid is very quiet and energy-efficient. Somewhat accidentally, it's also better at removing particles.
+
+## Contents
+
+* auto-gen TOC:
+{:toc}
 
 ## The fan/filter tradeoff
 
