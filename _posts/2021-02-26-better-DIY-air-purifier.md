@@ -181,10 +181,10 @@ As you can see, the cuboid gives major improvements in noise and electricity con
 Air purifiers push air through filters. If you've ever built a box-fan-based air purifier, you noticed that once you attach HEPA filters, throughput decreases dramatically. If you use a weak fan, it will barely push any air at all.
 
 Fundamentally, if you want to increase purification, you have two options:
-* **Big fan**: Keep the same amount of filter, but run a bigger/faster motor that to push air through it faster.
-* **Big filter**: Keep the same fan, but install more filters in parallel. This will decrease the pressure gradient at each of them, meaning more total airflow.
+* **Big fan**: Keep the same amount of filter, but run a bigger/faster motor to push air through it faster.
+* **Big filter**: Keep the same fan, but install more filters in parallel. This will decrease the pressure on each of them, meaning more total airflow.
 
-If we want to be quiet and energy-efficient, the choice is clear: Use a relatively weak fan, but with a filter large surface area.
+If we want to be quiet and energy-efficient, the choice is clear: Use a relatively weak fan, but with a large a filter surface area.
 
 Using more filters has a higher upfront cost --- filters aren't free. However, that extra cost disappears over time. If each filter can remove a fixed amount of particulates before it needs to be replaced, then doubling the number of filters means also doubling the replacement interval.
 
