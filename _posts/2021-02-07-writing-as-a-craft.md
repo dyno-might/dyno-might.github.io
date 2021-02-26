@@ -11,7 +11,7 @@ permalink: /:year/:month/:day/:title/
 
 Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parser. It's impossible to follow all the conventions. Write a thesis statement even if you hate it
 
-# Stephen King (On Writing, 2000)
+## Stephen King (On Writing, 2000)
 
 Here's how Stephen King writes a novel:
 
@@ -27,7 +27,7 @@ There's an analogy to science fiction, where the cardinal sin is unclear ruleset
 Both King's formula and good science fiction are based on the same principle: Set up a system with a ruleset and then let it go.  The fun is in watching how things evolve from the initial conditions.
 
 
-# Stein Sol (Stein on Writing, 1995)
+## Stein Sol (Stein on Writing, 1995)
 
 Sol liked to spy on people at bookstores. He gives a brutal picture:
 
@@ -53,7 +53,7 @@ For titles, he gives examples of what the author wanted versus what was publishe
 
 There's no formula. The takeaway is that these choices are important, some people are good at making them, Stein Sol is one of those people, and all the authors who refused to listen to him did so at their peril.
 
-# Steven Pinker (The Sense of Style, 2014)
+## Steven Pinker (The Sense of Style, 2014)
 
 > The view that beating a third-rate Serbian military that for the third time in a decade is brutally targeting civilians is hardly worth the effort is not based on a lack of understanding of what is occurring on the ground.
 
@@ -142,13 +142,13 @@ If we swap in the passive voice, there's a clear improvement:
 For related issues, I recommend <a href="https://www.americanscientist.org/blog/the-long-view/the-science-of-scientific-writing">The Science of Scientific Writing</a>, a wonderful article from 1990 by Gopen and Swan.
 
 
-# Benjamin Dreyer (Dreyer's English, 2019)
+## Benjamin Dreyer (Dreyer's English, 2019)
 
 This explains punctuation, commonly misspelled words, when to write out a number, how long dashes should be, and how to (not) borrow words from other languages. He disparages some common advice, such as to avoid sentence fragments or that you can't start a sentence with *but*. On the other hand, he *insists* on other rules such as that terminal periods "are always set inside." It's hard to tell the difference between the arbitrary illogical rules that we should happily ignore and the arbitrary illogical rules that only a simpleton would ever break.
 
 All the same, I'd like to do as he says, but there are a *lot* of rules. My unavoidable takeaway is that I'll never remember or obey half of them. Unless you're an aspiring editor, I'm not sure I'd recommend this book. The fact that I still enjoyed all three hundred pages is a testament to Dreyer's outlandishly compelling style.
 
-# Matthew Yglesias
+## Matthew Yglesias
 
 This was just a tweet, not a book.
 
@@ -156,7 +156,7 @@ This was just a tweet, not a book.
 
 This might be bad advice for the New Yorker. Still, if you're unsure if it applies to you, it probably does. It's easy to fantasize about readers savoring each subtle turn of your masterpiece. In reality, it's *very* hard to make even your highest-level message clear.
 
-# Bonus: Larry McEnerney
+## Bonus: Larry McEnerney
 
 This isn't even a piece of writing. It's a [lecture](https://www.youtube.com/watch?v=vtIzMaLkCaM). Still, it changed how I look at writing, and to some degree life. He asks the audience what makes good non-fiction writing. They give answers like:
 
@@ -171,8 +171,3 @@ Sure, he says, these are kind of interesting, but the real answer is:
 The only thing that matters is if the reader gets something they want. Why have a thesis statement? Because life is short, and people shouldn't waste time reading something they don't care about. Do arcane style guidelines matter? Only if it matters to your readers. Is beauty or clarity more important? It depends on if people are reading for aesthetics or information.
 
 He also stresses to avoid perfectionism. Very, *very* little non-fiction from 100 years is still read today. Writing is less ephemeral than talking, but it's still a conversation. It will be forgotten. It won't make you immortal--- nothing will. Once you've said what you want to say, move on.
-
-<!--
-emphasize value
-don't worry about things that don't interfere with value
--->
