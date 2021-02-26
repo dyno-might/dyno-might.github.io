@@ -295,7 +295,7 @@ You'll notice two things. First and most importantly, the slopes for the cuboid 
 
 Second, the particles peak at higher values with the cuboid. I believe this is because the incense was near the particle counter on a table, while the purifiers were sitting on the floor 2m away. If the air isn't disturbed, it takes a while before smoke drifts over the purifier and it actually starts doing anything. However, the box fan creates so much wind that the smoke immediately diffuses around the room and the box-fan purifier essentially gets a "head start".
 
-While wind seems to help here, it could be harmful in other cases. I discuss this move [below](#when-is-airflow-helpful).
+While wind seems to help here, it could be harmful in other cases. I discuss this more [below](#when-is-airflow-helpful).
 
 ### Fitting exponential curves
 
@@ -335,6 +335,8 @@ We can convert a fit of this type to a half-life: The number of minutes the puri
 </tbody>
 </table>
 </div>
+
+<br>
 
 <div class="fixed">
 <table>
