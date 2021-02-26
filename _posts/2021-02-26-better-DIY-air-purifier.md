@@ -560,7 +560,7 @@ There are lots of commercial purifiers out there. Some of these have a similar "
 
 However, the tests I've seen don't inspire confidence. Every time some organization runs a bunch of tests, they find that some of the purifiers work well, some work badly, and almost none of them meet the specs they are claimed to meet. If you take the top pick from the Wirecutter and read user reviews carefully, you'll see that roughly one person a week reporting that their unit exploded.
 
-Why don't manufacturers publish tests to show their products work? It's not that hard -- I, random internet person, did it here as a hobby. I think the reality is that people are suckers, and assume that if they give $600, they'll get something in return that works better than a janky DIY device. They are wrong. I say: Until manufacturers provide evidence, give no quarter.
+Why don't manufacturers publish tests to show their products work? It's not that hard -- I, random internet person, did it here as a hobby. I think the reality is that people are suckers, and assume that if they give Dyson $600, they'll get something in return that works better than a janky DIY device. They are wrong. I say: Until manufacturers provide evidence, give no quarter.
 
 ### Advice
 
