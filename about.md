@@ -7,6 +7,7 @@ hero_image: /img/deathvalleysky_nps_big.jpg
 hero_height: is-large
 ---
 
+
 When every person has a DIY air purifier and every economics concept a coconut-based model, this website will be at peace.
 
 Until then, here's what I suggest:
