@@ -4,6 +4,7 @@ title: "Simpson's paradox and the tyranny of strata"
 image: /img/simpson/statue.jpg
 description: Visualizes Simpson's paradox, and shows how it's a deeper problem than many people realize.
 tags: statistics math
+background_color: black
 permalink: /:year/:month/:day/:title/
 ---
 It's hard to get into Oxford. Is it easier if your parents are rich?
