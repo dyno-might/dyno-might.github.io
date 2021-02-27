@@ -16,7 +16,7 @@ Until then, here's what I suggest:
 * Second priority: *Reasonable* financial security. (No food → no way to do anything else.)
 * Third priority: Good relationships with friends and family. (Lonely and depressed → no way to do anything else.)
 
-After that you can do whatever. I'd like it if you didn't worry about being weird, but it's up to you.
+After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win. I'd like it if you didn't worry about being weird, but it's up to you.
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
