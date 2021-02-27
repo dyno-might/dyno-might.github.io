@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "What happens if you drink acetone?"
-image: /img/acetone/whiskey.jpg
+image: /img/acetone/whiskey2.jpg
 description: It's not wise to drink acetone, but how dangerous is it?
 tags: science
+background_color: black
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -19,7 +20,11 @@ But, out of interest, what if you did? This question is asked repeatedly on the 
 
 Certainly, this doesn’t *look* like something you'd want to put in your body:
 
+<!--
 ![acetone barrels](/img/acetone/acetone.jpg)
+-->
+
+<img src="/img/acetone/acetone3.jpg" loading="lazy" alt="acetone barrels">
 
 ---
 
