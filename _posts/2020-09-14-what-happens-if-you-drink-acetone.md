@@ -24,7 +24,7 @@ Certainly, this doesn’t *look* like something you'd want to put in your body:
 ![acetone barrels](/img/acetone/acetone.jpg)
 -->
 
-<img src="/img/acetone/acetone3.jpg" loading="lazy" alt="acetone barrels">
+<img src="/img/acetone/acetone3.jpg" loading="lazy" alt="acetone barrels" width="542" height="723">
 
 ---
 
