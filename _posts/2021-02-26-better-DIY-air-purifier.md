@@ -5,6 +5,7 @@ image: /img/cuboid_purifier/smoke3b.jpg
 tags: cleanAir science
 hero_light: false
 dark_title: false
+background_color: black
 description: Designs for a quieter, more energy efficient purifier, and data proving it really works.
 last_updated: 2021-02-07
 head: "<style>
@@ -78,7 +79,7 @@ The design should also fix the worst parts of using a box fan:
 I think I've found such a design. Behold, the Cuboid:
 
 <div class="center medwidth">
-<img class="center" style="max-width:300pt" src="/img/cuboid_purifier/cuboid.jpg" alt="Cuboid DIY purifier" />
+<img class="center max80" src="/img/cuboid_purifier/cuboid.jpg" alt="Cuboid DIY purifier" />
 </div>
 
 ## Performance summary
@@ -269,7 +270,7 @@ The purifier (box fan or cuboid) was on the ground around a meter from the parti
 As a comparison, I attached three of the same filters to a box fan (Literally the *same* filters).
 
 <div class="center medwidth">
-<img class="center max80" src="/img/cuboid_purifier/boxfan.jpg" alt="DIY box fan compared to" style="max-width:300pt" />
+<img class="center max80" src="/img/cuboid_purifier/boxfan.jpg" alt="DIY box fan compared to" />
 </div>
 <br>
 
@@ -386,11 +387,11 @@ Here's how I calculated the CADR. Note that that if the purifier delivered **(cl
 per minute. We can solve this to find that equation to get that
 
 <div style="text-align:center;">
-<b>(cleaned air) = (all air)×(b-1).</b>
+<b>(cleaned air) = (all air)×(1-b).</b>
 </div>
 <br>
 
-I measured the dimensions of the room where I did these measurements. I estimated it was 31m³. From this, I computed the CADR for each purifier and speed as **CADR = 31×(b-1)**. This gives the following table of CADR rates.
+I measured the dimensions of the room where I did these measurements. I estimated it was 31m³. From this, I computed the CADR for each purifier and speed as **CADR = 31×(1-b)**. This gives the following table of CADR rates.
 
 <div class="fixed">
 <table>
