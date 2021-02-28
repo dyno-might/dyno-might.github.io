@@ -5,7 +5,7 @@ title: "In defense of Myers Briggs"
 image: /img/mbti/myers-briggs.jpg
 tags: writing
 hero_light: true
-last_updated: 2021-02-28
+last_updated: 2021-02-25
 tags: science
 ---
 
