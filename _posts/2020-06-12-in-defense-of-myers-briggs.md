@@ -76,7 +76,7 @@ The Myers-Briggs foundation [grasps at an image of scientific seriousness](https
 
 Of course someone can be borderline. *Most* people are borderline along at least one axis.  Early versions of the MBTI actually gave an “x” for someone near the middle. Let’s bring this back! In fact, let’s go further.
 
-Behold: Dynomight™ MBTI notation:
+Behold: **Dynomight™ MBTI notation**:
 * Strong preference: Capital letter
 * Weak preference: Lower-case letter
 * Borderline: x
