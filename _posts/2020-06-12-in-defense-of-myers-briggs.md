@@ -32,7 +32,7 @@ The Myers-Briggs Personality Indicator (MBTI) gets a lot of scorn:
 
 It would seem that the the MBTI is nonsense, but the Big Five is a *real, scientifically valid* test. To be sure, there's nothing wrong with the Big Five. But these haughty claims that it's dramatically better than the MBTI have got to end.
 
-# Claims Against the MBTI
+## Claims Against the MBTI
 
 **MYERS AND BRIGGS JUST, LIKE, MADE IT UP**
 
@@ -68,7 +68,7 @@ Well, maybe.
 
 The Myers-Briggs foundation [grasps at an image of scientific seriousness](https://mbtitraininginstitute.myersbriggs.org/what-you-will-learn/the-mbti-assessment/) in a way that's a little ridiculous. It grates on me, and I’m not a psychologist. Probably should probably stop spending money on the official version. People should *definitely* stop paying [$2,500](https://mbtitraininginstitute.myersbriggs.org/mbti-training/schedule/) to get certified to administer that official version.
 
-# In defense of the MBTI
+## In defense of the MBTI
 
 **YOU DON’T HAVE TO BINARIZE THE AXES**
 
@@ -153,7 +153,7 @@ JP|.87|.86
 
 The Big Five measures neuroticism, while the MBTI. does not. This is, no doubt, a very important trait. Some MBTI variants add extra axes. For example, one can introduce an axis that measures *turbulence* vs. *assertiveness*. This is a measure of neuroticism in all but name.
 
-# Why go with the MBTI
+## Why go with the MBTI
 
 Everything above just says the MBTI isn’t too much worse than the Big Five. So why not just use the Big Five? Well, you just try it.
 
@@ -187,7 +187,7 @@ With the MBTI, you have the *option* of a coarse summary by saying something lik
 
 I think that we could also sort of make this work with my suggested notation by modulating the sound of your voice. (If you get eNxJ, you say "I'm an e **en** ex **jay**").
 
-# Summary
+## Summary
 
 You don't have to discretize the MBTI axes. The MBTI measures similar stuff as the Big Five with similar repeatability, but it is more appealing and dramatically easier to talk about. Don’t feel guilty about using it.
 
