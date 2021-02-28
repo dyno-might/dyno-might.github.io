@@ -29,7 +29,7 @@ layout: default
     <div class="column is-8-desktop is-10-tablet">
         <div class="content">
             {% if daysSince < 30000 %}
-            <p><strong>{{ page.date | date: "%b %-d, %Y" }}</strong></p>
+            <p><strong>{{ page.date | date: "%b %-d, %Y" }} {% if page.last_updated %} / Last updated: {{page.last_updated | date : "%b %-d, %Y" }} {% endif %} </strong></p>
             {% endif %}
             {{ content }}
         </div>
