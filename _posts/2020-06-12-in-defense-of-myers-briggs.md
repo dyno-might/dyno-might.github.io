@@ -87,7 +87,7 @@ I think this is true. It’s hard to read the Big Five and conclude that neuroti
 
 Well, maybe.
 
-The Myers-Briggs foundation [grasps at an image of scientific seriousness](https://mbtitraininginstitute.myersbriggs.org/what-you-will-learn/the-mbti-assessment/) in a way that's a little ridiculous. It grates on me, and I’m not a psychologist. Probably should probably stop spending money on the official version. People should *definitely* stop paying [$2,500](https://mbtitraininginstitute.myersbriggs.org/mbti-training/schedule/) to get certified to administer that official version.
+The Myers-Briggs foundation [grasps at an image of scientific seriousness](https://mbtitraininginstitute.myersbriggs.org/what-you-will-learn/the-mbti-assessment/) in a way that's a little ridiculous. It grates on me, and I’m not a psychologist. People should probably stop spending money on the official test. People should *definitely* stop paying [$2,500](https://mbtitraininginstitute.myersbriggs.org/mbti-training/schedule/) to get certified to administer that test.
 
 ## In defense of the MBTI
 
@@ -180,9 +180,9 @@ JP|.87|.86
 
 **YOU CAN ADD AN AXIS IF YOU WANT**
 
-The Big Five measures neuroticism, while the MBTI. does not. This is, no doubt, a very important trait. Some MBTI variants add extra axes. For example, one can introduce an axis that measures *turbulence* vs. *assertiveness*. This is a measure of neuroticism in all but name.
+The Big Five measures neuroticism, while the MBTI does not. This is, no doubt, a very important trait. Some MBTI variants add extra axes. For example, one can introduce an axis that measures *turbulence* vs. *assertiveness*. This is a measure of neuroticism in all but name.
 
-## Why go with the MBTI
+## Why go with the MBTI?
 
 Everything above just says the MBTI isn’t too much worse than the Big Five. So why not just use the Big Five? Well, you just try it.
 
@@ -195,7 +195,7 @@ If that seems cherry-picked, let’s go through all the attributes:
 * *How extroverted are you?* This is fine.
 * *How neurotic are you?* Uncomfortable.
 * *How agreeable are you?* Uncomfortable.
-* *How conscientious are you?* Uncomfortable.
+* *How conscientious are you?* Somewhat uncomfortable.
 * *How open are you to experience?* This *seems* fine, but isn’t.
 
 Only one of the five is OK. And --- as you surely noticed--- that same attribute exists in the MBTI.
