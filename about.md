@@ -2,8 +2,8 @@
 layout: page
 title: DYNOMIGHT INTERNET WEBSITE
 subtitle: 
-image: /img/deathvalleysky_nps_big.jpg
-hero_image: /img/deathvalleysky_nps_big.jpg
+image: /img/deathvalleysky_prog.jpg
+hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
 ---
 
@@ -25,7 +25,7 @@ Atom (RSS): [https://dynomight.net/feed.xml](https://dynomight.net/feed.xml)
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
 <input type="text" name="text" placeholder="your@email.com" style="font-family:monospace;" /> 
-<input type="hidden" name="_next" value="https://dynomight.net/subscribe_success/" /> 
+<input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_url" value="https://dynomight.net/"> 
 <button type="submit" class="headerfont">SUBSCRIBE AND DONE</button> 
