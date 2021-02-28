@@ -1,12 +1,31 @@
 ---
 
 layout: post
-title: "In defense of Myers Briggs"
+title: "In defense of Myers-Briggs"
 image: /img/mbti/myers-briggs.jpg
 tags: writing
 hero_light: true
 last_updated: 2021-02-25
 tags: science
+head: "<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.highwidth{
+    max-width:600pt;
+}
+.medwidth{
+    max-width:400pt;
+}
+.max80{
+    max-width:80%;
+}
+.max100{
+    max-width:100%;
+}
+</style>"
 ---
 
 The Myers-Briggs Personality Indicator (MBTI) gets a lot of scorn:
@@ -44,7 +63,9 @@ Also true!  There is no switch in your brain set to T or F. We will probably nev
 
 This complaint is understandable. Some early MBTI proponents really did defend binary outcomes, claiming each attribute was “theoretically dichotomous”. There was even some now-debunked research that claimed to prove that empirically. It’s now clear that the population has a standard bell-shaped distribution for each trait. For example, this is a histogram of the E-I axis (other axes look similar):
 
-![histogram of extroversion / introversion scores](/img/mbti/hist-ei.png)
+<div class="center highwidth">
+<img class="center max80" src="/img/mbti/hist-ei.png" alt="histogram of extroversion / introversion scores" loading="lazy" />
+</div>
 
 This is from [Bimodal Score Distributions and the Myers–Briggs Type Indicator: Fact or Artifact?](https://doi.org/10.1207/s15327752jpa7801_11) (Answer: Artifact)
 
@@ -97,19 +118,29 @@ To claim it’s never useful to discretize denies human nature. You might as wel
 
 If you’d like a test that gives the scores as continuous attributes, may I recommend… any test? For example, here’s the results of me randomly clicking answers on two popular websites:
 
-![first test](/img/mbti/test1-official.png)
+<div class="center highwidth">
+<img class="center max80" src="/img/mbti/test3-psychcentral.png" alt="third test" loading="lazy" />
+</div>
 
-![second test](/img/mbti/test2-16personalities.png)
+<div class="center highwidth">
+<img class="center max80" src="/img/mbti/test2-16personalities.png" alt="second test" loading="lazy" />
+</div>
 
 Not convinced? You can even check the "official" results that gullible people pay money for. They look like this:
 
-![third test](/img/mbti/test3-psychcentral.png)
+<div class="center highwidth">
+<img class="center max100" src="/img/mbti/test1-official.png" alt="first test" loading="lazy" />
+</div>
+<br>
 
 **THE MBTI MIGHT AS WELL BE CALLED THE “BIG FOUR”**
 
 And what happens if you don’t discretize the axes? If you take continuous measurements (like *every Myers-Briggs test ever* gives you) they correlate strongly with four of the five big five measurements.
 
-![correlations between MBTI and big five](/img/mbti/correlations.png)
+<div class="center highwidth">
+<img class="center max100" src="/img/mbti/correlations.jpg" alt="correlations between MBTI and big five" loading="lazy" />
+</div>
+<br>
 
 The rows show the four MBTI axes, while the columns show the Big Five (B5) axes. This shows that:
 
@@ -120,9 +151,7 @@ The rows show the four MBTI axes, while the columns show the Big Five (B5) axes.
 
 To interpret these numbers, note that 74/69 is what you get when the axis is *exactly the same thing with exactly the same name*. These correlations are strong.
 
-But don't blame all the journalists for not knowing about this. After all this groundbreaking research is hot off the presses having only been published in [1989](https://doi.org/10.1111/j.1467-6494.1989.tb00759.x).
-
-[Other research](https://doi.org/10.1016/0191-8869(96)00033-5) supports the same basic conclusion.
+But don't blame all the journalists for not knowing about this. After all this groundbreaking research is hot off the presses having only been published in [1989](https://doi.org/10.1111/j.1467-6494.1989.tb00759.x). Other research supports the [same basic conclusion](https://doi.org/10.1016/0191-8869(96)00033-5).
 
 What does this mean? If you believe the MBTI is meaningless, fine. But you must also therefore believe the Big Five is meaningless!
 
