@@ -5,8 +5,9 @@ title: "In defense of Myers-Briggs"
 image: /img/mbti/myers-briggs.jpg
 tags: writing
 hero_light: true
-last_updated: 2021-02-25
+last_updated: 2021-03-01
 tags: science
+description: examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator
 head: "<style>
 .center {
   display: block;
@@ -59,7 +60,7 @@ It’s true. Myers and Briggs were enthusiasts of Carl Jung’s theories who cre
 
 **THERE AREN’T 16 DISCRETE TYPES OF PEOPLE**
 
-Also true!  There is no switch in your brain set to T or F. We will probably never find the “judging” gene. These traits *are* probably heritable --- [everything is](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739500/) --- but polygenic. So we should expect varying strengths even if we disregard “nurture” influences.
+Also true!  There is no switch in your brain set to T or F. We will probably never find the “judging” gene. These traits *are* probably heritable &#8212; [everything is](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739500/) &#8212; but polygenic. So we should expect varying strengths even if we disregard “nurture” influences.
 
 This complaint is understandable. Some early MBTI proponents really did defend binary outcomes, claiming each attribute was “theoretically dichotomous”. There was even some now-debunked research that claimed to prove that empirically. It’s now clear that the population has a standard bell-shaped distribution for each trait. For example, this is a histogram of the E-I axis (other axes look similar):
 
@@ -93,7 +94,7 @@ The Myers-Briggs foundation [grasps at an image of scientific seriousness](https
 
 **YOU DON’T HAVE TO BINARIZE THE AXES**
 
-90% of the complaints about MBTI come down to: *you can’t split people into two groups along these axes!* Yeah, OK, then how about we don’t do that?
+90% of the complaints about MBTI come down to: *you can’t split people into two groups along these axes*! Yeah, OK, then how about we don’t do that?
 
 Of course someone can be borderline. *Most* people are borderline along at least one axis.  Early versions of the MBTI actually gave an “x” for someone near the middle. Let’s bring this back! In fact, let’s go further.
 
@@ -142,7 +143,7 @@ And what happens if you don’t discretize the axes? If you take continuous meas
 </div>
 <br>
 
-The rows show the four MBTI axes, while the columns show the Big Five (B5) axes. This shows that:
+The rows show the four MBTI axes, while the columns show the Big Five axes. This shows that:
 
 * The MBTI E-I axis is strongly correlated with the Big Five extraversion axis. (duh)
 * The MBTI S-N axis is strongly correlated with the Big Five openness axis.
@@ -159,9 +160,9 @@ What does this mean? If you believe the MBTI is meaningless, fine. But you must 
 
 If someone is near the middle, a small change can land them on the other side. This is why 35-50% of people fall into a different one of the 16 buckets when they re-test. The most common score for all axes is near the middle. There are 4 different axes. If some small measurement noise puts you over the middle on *any* axis, then you fall into a different bucket.
 
-This is not something to worry about. We aren't binarizing the axes. Instead, we should just ask: How repeatable are the continuous measurements? For reference, here's [Cronbach’s alpha](https://en.wikipedia.org/wiki/Cronbach%27s_alpha) for the Big Five (measured for an [Arabic version](https://doi.org/10.1016/j.eurpsy.2016.01.500)). Higher numbers indicate better repeatability.
+ Since *we* aren't binarizing the axes, this is not something to worry about. Instead, we should just ask: How repeatable are the continuous measurements? For reference, here's [Cronbach’s alpha](https://en.wikipedia.org/wiki/Cronbach%27s_alpha) for the Big Five, measured for an [Arabic version](https://doi.org/10.1016/j.eurpsy.2016.01.500). Higher numbers indicate better repeatability.
 
-.|Men|Women
+Trait|Men|Women
 -|-|-
 Neuroticism	| .83 | .74
 Extroversion | .82 | .83
@@ -171,7 +172,7 @@ Conscientiousness | .90 | .92
 
 And here's the [results](https://doi.org/10.1177/0013164402062004004) for Myers Briggs:
 
-.|Men|Women
+Trait|Men|Women
 -|-|-
 EI|.82|.83
 SN|.83|.85
@@ -184,7 +185,7 @@ The Big Five measures neuroticism, while the MBTI does not. This is, no doubt, a
 
 ## Why go with the MBTI?
 
-Everything above just says the MBTI isn’t too much worse than the Big Five. So why not just use the Big Five? Well, you just try it.
+Everything above just says the MBTI isn’t much worse than the Big Five. So why not just use the Big Five? Well, you just try it.
 
 **THE MBTI IS COMFORTABLE TO TALK ABOUT**
 
@@ -200,11 +201,11 @@ If that seems cherry-picked, let’s go through all the attributes:
 
 Only one of the five is OK. And --- as you surely noticed--- that same attribute exists in the MBTI.
 
-The advantage of the the MBTI is precisely that it *makes everyone feel like a beautiful snowflake*. The axes are chosen and named ingeniously so as to make them easy to reveal.
-
-Can I tell you a secret? The MBTI's names for the S-I axes are *sensing* and *intuition*. These don't make any sense. The Big Five "openness to experience" is much more descriptive. And yet, I claim, the MBTI names are better *because* they are meaningless. Everyone claims to be open! But since no one has any idea what "sensing" is, they'll happily admit to it. Deliberate or accidental, this subterfuge is extremely useful.
+Can I tell you a secret? The MBTI's names for the S-I axes are *sensing* and *intuition*. These don't make any sense. The Big Five *openness to experience* is much more descriptive. And yet, I claim, the MBTI names are often better *because* they are meaningless. Everyone claims to be open! But since no one has any idea what "sensing" is, they'll happily admit to it. Deliberate or accidental, this subterfuge is extremely useful.
 
 For similar reasons, the MBTI’s omission of neuroticism is sometimes good. The alternative to four axes is often zero, not five.
+
+The advantage of the the MBTI is precisely that it *makes everyone feel like a beautiful snowflake*. The axes are chosen and named ingeniously so as to make them easy to reveal.
 
 **THE MBTI IS POSSIBLE TO TALK ABOUT**
 
@@ -212,7 +213,7 @@ Binarization is the key criticism of the MBTI. Still, we must confront the fact 
 
 Say you’re a weirdo who is happy to tell your date your Big Five. How do you actually say it out loud? In fact, I am such a weirdo, and I end up saying something like “My neuroticism is low, my conscientiousness is high, my extroversion is moderate, and… ummm, what are the other axes?”
 
-With the MBTI, you have the *option* of a coarse summary by saying something like “ESFP”. It's at least *possible*! Of course, more precise measurements are better, but option value is a positive thing.
+A big part of what makes the MBTI easier to talk about is that it has names for *both ends* of the axes. With the MBTI, you have the *option* of a coarse summary by saying something like “ESFP”. It's at least *possible*! Of course, more precise measurements are better, but having options is a positive thing.
 
 I think that we could also sort of make this work with my suggested notation by modulating the sound of your voice. (If you get eNxJ, you say "I'm an e **en** ex **jay**").
 
@@ -220,4 +221,4 @@ I think that we could also sort of make this work with my suggested notation by 
 
 You don't have to discretize the MBTI axes. The MBTI measures similar stuff as the Big Five with similar repeatability, but it is more appealing and dramatically easier to talk about. Don’t feel guilty about using it.
 
-In theory the Big Five might could the advantages of the MBTI. (Not that I’m advising this!) I think they'd need two things. First, they need different names for some of the axes that sound more neutral, so that people are happy to discuss them. Second, they'd need different names for different *ends* of the axes, so that an "optional discretization" is possible. But honestly, at that point, why bother? The MBTI is good enough.
+In theory the Big Five could adopt the advantages of the MBTI by doing two thing. (Not that I’m advising this!) First, create names for the axes that sound more neutral, so that people are happy to discuss them. Second, create different names for different *ends* of the axes, so that an easy optional discretization is possible. But honestly, why bother? If you did that, you'd have basically invented the MBTI.
