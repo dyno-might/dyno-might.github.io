@@ -4,7 +4,6 @@ title: "What I learned from reading about writing"
 image: /img/writing/typewriter.jpg
 tags: writing
 hero_light: true
-last_updated: 2021-02-07
 tags: communication
 permalink: /:year/:month/:day/:title/
 ---

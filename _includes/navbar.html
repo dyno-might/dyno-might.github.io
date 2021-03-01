@@ -3,9 +3,11 @@
         <div class="navbar-brand">
             <a class="navbar-item" href="{{ site.baseurl }}/">DYNOMIGHT</a>
 
+            {% comment %}
             <a class="navbar-item" href="{{ site.baseurl }}/tags/">
                 <font size=-1>TAGS</font>
             </a>
+            {% endcomment %}
             
             {% comment %}
             <a class="navbar-item" href="{{ site.baseurl }}/subscribe/">
@@ -13,6 +15,10 @@
             </a>
             {% endcomment %}
             
+            <a class="navbar-item" href="{{ site.baseurl }}/about.html">
+                <font size=-1>ABOUT</font>
+            </a>
+
             <a class="navbar-item" href="{{ site.baseurl }}/feed.xml">
                 <font size=-1>FEED</font>
             </a>
@@ -22,10 +28,6 @@
                 <font size=-1>TWITTER</font>                
             </a>
             {% endcomment %}
-
-            <a class="navbar-item" href="{{ site.baseurl }}/about.html">
-                <font size=-1>ABOUT</font>
-            </a>
 
             {% comment%}
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
