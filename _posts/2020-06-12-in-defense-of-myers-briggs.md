@@ -59,7 +59,7 @@ It’s true. Myers and Briggs were enthusiasts of Carl Jung’s theories who cre
 
 **THERE AREN’T 16 DISCRETE TYPES OF PEOPLE**
 
-Also true!  There is no switch in your brain set to T or F. We will probably never find the “judging” gene. These traits *are* probably heritable —-- [everything is](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739500/) —-- but polygenic. So we should expect varying strengths even if we disregard “nurture” influences.
+Also true!  There is no switch in your brain set to T or F. We will probably never find the “judging” gene. These traits *are* probably heritable --- [everything is](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739500/) --- but polygenic. So we should expect varying strengths even if we disregard “nurture” influences.
 
 This complaint is understandable. Some early MBTI proponents really did defend binary outcomes, claiming each attribute was “theoretically dichotomous”. There was even some now-debunked research that claimed to prove that empirically. It’s now clear that the population has a standard bell-shaped distribution for each trait. For example, this is a histogram of the E-I axis (other axes look similar):
 
