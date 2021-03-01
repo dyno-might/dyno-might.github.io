@@ -17,6 +17,8 @@ Until then, here's what I suggest:
 
 After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win. I'd like it if you didn't worry about being weird, but it's up to you.
 
+---
+
 All posts, organized by topics: [tags](/tags)
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
