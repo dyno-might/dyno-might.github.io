@@ -7,7 +7,7 @@ hero_light: false
 dark_title: false
 background_color: black
 description: Designs for a quieter, more energy efficient purifier, and data proving it really works.
-last_updated: 2021-02-07
+last_updated: 2021-03-02
 head: "<style>
 .center {
   display: block;
@@ -259,7 +259,7 @@ The only significant cost is the fan (\$30) and the filters (\$70 for 4). This i
 
 I did experiments in a room with a volume of around 31 m³. To generate smoke, I cut 5 credit-card length sticks of incense and placed them on one end of a table. On the other end of the table, I placed a tablet that took a time-lapse video of a particle counter and a stopwatch. I then manually transcribed the measurements from this video.
 
-The purifier (box fan or cuboid) was on the ground around a meter from the particle counter.
+The purifier (box fan or cuboid) was on the ground around two meters from the particle counter.
 
 <div class="center medwidth">
 <img class="center max80" src="/img/cuboid_purifier/setup.jpg" alt="setup for measuring air purification performance" loading="lazy" />
@@ -305,7 +305,7 @@ The y-axes in the plots above are logarithmic. As you can see from the dotted li
 
 The dotted lines for each curve show a fit of the form **y=a×bᵐ**, where **y** is the level of particulates, **m** is the number of minutes, and **a** and **b** are constants.
 
-We can convert a fit of this type to a half-life: The number of minutes the purifier needs to eliminate half the particles from the air when running in a 31 m³ room.  That would be the number of minutes **m** such that **bᵐ = .5**. We can solve this equation as **b = log(.5) / log(b)**.
+We can convert a fit of this type to a half-life: The number of minutes the purifier needs to eliminate half the particles from the air when running in a 31 m³ room.  That would be the number of minutes **m** such that **bᵐ = .5**. We can solve this equation as **m = log(.5) / log(b)**.
 
 <div class="fixed">
 <table>
@@ -378,7 +378,7 @@ One common way of estimating the performance of purifiers is the clean air deliv
 
 The fits above were of the form **y=a×bᵐ**. This means that the number of particulates drops by a factor of **b** each minute.
 
-Here's how I calculated the CADR. Note that that if the purifier delivered **(cleaned air) m³** of clean air in a single minute in a room with a total volume of **(all air) m³**, then the particulates in a room would drop by a factor of
+Here's how I calculated the CADR. If the purifier delivered **(cleaned air) m³** of clean air in a single minute in a room with a total volume of **(all air) m³**, then the particulates in a room would drop by a factor of
 
 <div style="text-align:center;">
 <b>b=(uncleaned air)/(all air)= 1 - (cleaned air) / (all air)</b>
@@ -391,7 +391,7 @@ per minute. We can solve this to find that equation to get that
 </div>
 <br>
 
-I measured the dimensions of the room where I did these measurements. I estimated it was 31m³. From this, I computed the CADR for each purifier and speed as **CADR = 31×(1-b)**. This gives the following table of CADR rates.
+I measured the dimensions of the room where I did these measurements, arriving at an estimated volume of 31m³. From this, I computed the CADR for each purifier and speed as **CADR = 31×(1-b)**. This gives the following table of CADR rates.
 
 <div class="fixed">
 <table>
@@ -435,7 +435,7 @@ I measured the dimensions of the room where I did these measurements. I estimate
 </div>
 <br>
 
-A recent [study](https://www.cbc.ca/1.5900782) from the University of Toronto also measured the CADR of a similar box-fan purifier. They measure around 92 ft³/min. (They don't give numbers, but there's a [graph](https://i.cbc.ca/1.5902727.1612545406!/fileImage/httpImage/image.png_gen/derivatives/original_1180/air-purifiers-graph.png) CADR=100 is 130 pixels high and the box fan is 100 pixels high.) This is reassuringly close to my estimate of 76.6. I'd put a confidence band of around 20% on my numbers due to the crude measurement of room volume. Also, I use 3 HEPA filters rather than a single MERV 13 filter, so there's no reason to think true performance is exactly the same.
+A recent [study](https://www.cbc.ca/1.5900782) from the University of Toronto also measured the CADR of a similar box-fan purifier. They measure around 92 ft³/min. (They don't give numbers, but there's a [graph](https://i.cbc.ca/1.5902727.1612545406!/fileImage/httpImage/image.png_gen/derivatives/original_1180/air-purifiers-graph.png) where a CADR of 100 ft³/min would be 130 pixels high and the box fan is 100 pixels high.) This is reassuringly close to my estimate of 76.6. I'd put a confidence band of around 20% on my numbers due to the crude measurement of room volume. Also, I used 3 HEPA filters rather than a single MERV 13 filter, so there's no reason to think true performance is exactly the same.
 
 ## Measuring noise
 
@@ -473,16 +473,16 @@ I measured noise using the excellent [phyphox](https://phyphox.org/) app on my p
 </table>
 </div>
 
-It's quieter across the board (4 dB is noticeable) but the real advantage comes when running it on low. The Cuboid is just above the threshold where it's noticeable across the room, similar to a quiet refrigerator. A Box fan even on low is enough to make conversation or listening to music somewhat less pleasant.
+It's quieter across the board (4 dB is noticeable) but the real advantage comes when running on low. The Cuboid is just above the threshold where it's noticeable across the room, similar to a quiet refrigerator. A Box fan even on low is enough to make conversation or listening to music somewhat less pleasant.
 
 ## Measuring energy usage
 
-I measured the electricity consumption of each purifier on each fan speed using a standard wattmeter. I estimated the yearly electricity cost by using the average US electricity cost of $0.13 / kWh, and assuming the purifier is run around the clock. Costs [around the world](https://www.globalpetrolprices.com/electricity_prices/) vary from around 1/3 as much (Egypt) to around 3x as much (Germany).
+I measured the electricity consumption of each purifier on each fan speed using a standard wattmeter. I estimated the yearly electricity cost by using the average US electricity cost of $0.13 / kWh, and assuming the purifier is run around the clock. Costs [around the world](https://www.globalpetrolprices.com/electricity_prices/) vary from around  ⅓ as much (Egypt) to around 3× as much (Germany).
 
 Incidentally, I never noticed this before: If a device consumes **X** watts then running it constantly for a year costs a bit more than **\$X** at average US electricity prices. This coincidence happens because
 
 <div style="text-align:center;">
-<b>24(h/d) × 365(d/y) × 0.13(\$/kWh) × .0001(kWh/Wh) = 1.135(\$/W)</b>.
+<b>24(h/d) × 365(d/y) × 0.13($/kWh) × .0001(kWh/Wh) = 1.135($/W)</b>.
 </div>
 <br>
 
@@ -491,7 +491,7 @@ Incidentally, I never noticed this before: If a device consumes **X** watts then
 
 ### The upper limit
 
-The fan I used is rated to push 12 m³/min of air. However, the CADR is only around ¼ that. In principle this suggests that adding more filters (perhaps a *lot* more filters) could increase the filtering performance by up to a factor of four. 
+The fan I used is rated to push 12 m³/min of air. However, the CADR is only around ¼ that. In principle this suggests that adding more filters (perhaps a *lot* more filters) could increase the filtering performance by up to a factor of four, with no extra electricity cost. (I checked: The power usage does not change significantly when the filters are there to slow down the fan.) 
 
 ### Should you bother building a Cuboid?
 
@@ -534,27 +534,27 @@ One way to measure the quality of a purifier is the amount of air it cleans per 
 </div>
 <br>
 
-The Cuboid does at least 2.4x better everywhere but is **3.5x** better when running on low. This is the same setting where the box fan produces 27 dB (~500 times) more noise.
+The Cuboid does at least 2.4× better everywhere but is **3.5×** better when running on low. This is the same setting where the cuboid produces 27 dB (~500 times) less noise.
 
 ### When is airflow helpful?
 
 A box fan generates much more airflow than the cuboid while having marginally worse filtering performance. That's because lots of the air it pushes doesn't go through the filters. Is this is good thing? 
 
-We might look at this question more generally. Suppose you have some air purifier. Would it be helpful to add a high-velocity fan in the same room?
+We might look at this question more generally. Suppose you have some air purifier. Is it be helpful to add a high-velocity fan in the same room?
 
 To answer that, we have to consider two questions: (1) how close the purifier is to the source of smoke and (2) how close you are to the source of smoke.
 
-* If the smoke is near the purifier but far from you, then you want to minimize extra airflow. That makes the purifier most effective, and keeps the particles away from you as long as possible.
+* If the smoke is *near the purifier* but *far from you*, then you want to minimize extra airflow. That makes the purifier most effective, and keeps the particles away from you as long as possible.
 
-* If the smoke is near you but far from the purifier, you want lots of airflow. That reduces the concentration of smoke near you, and gets the purifier doing something as soon as possible. (This is the situation I accidentally created in these experiments.) 
+* If the smoke is *near you* but *far from the purifier*, you want lots of airflow. That reduces the concentration of smoke near you, and gets the purifier doing something as soon as possible. (This is the situation I accidentally created in these experiments.) 
 
 In the other situations, it's really not clear. (Let me know if you have a convincing argument.)
 
-* If the smoke is near both you and the purifier, the benefit is airflow is unclear. My instinct is that airflow is good because it reduces the peak concentration of particles you breathe. However, it also makes the air purifier less effective. Perhaps it doesn't really matter?
+* If the smoke is *near both you and the purifier*, the benefit is airflow is unclear. My instinct is that airflow is good because it reduces the peak concentration of particles you breathe. However, it also makes the air purifier less effective. Perhaps it doesn't really matter?
 
-* If the smoke is far from both you and the purifier, but *you're close to the purifier*, then reducing airflow means the purifier can create a kind of protective bubble around you. This feels good?
+* If the smoke is *far from both you and the purifier*, but *you're close to the purifier*, then reducing airflow means the purifier can create a kind of protective bubble around you. This seems good?
 
-* If the smoke is far from you but you're far from the purifier, I guess it doesn't matter? Adding a fan makes the purifier start working faster, but also means you get exposed to the particles faster. In this case the airflow seems to just "push time forward" a bit.
+* If the smoke is *far from you* but you're *far from the purifier*, I guess it doesn't matter? Adding a fan makes the purifier start working faster, but also means you get exposed to the particles faster. In this case the airflow seems to just "push time forward" a bit.
 
 Long-story short, airflow is sometimes helpful and sometimes harmful. The best thing is to have a separate fan that you can turn on or off when the situation dictates.
 
@@ -564,15 +564,15 @@ There are lots of commercial purifiers out there. Some of these have a similar "
 
 However, the tests I've seen don't inspire confidence. Every time some organization runs a bunch of tests, they find that some of the purifiers work well, some work badly, and almost none of them meet the specs they are claimed to meet. If you take the top pick from the Wirecutter and read user reviews carefully, you'll see that roughly one person a week reporting that their unit exploded.
 
-Why don't manufacturers publish tests to show their products work? It's not that hard -- I, random internet person, did it here as a hobby. I think the reality is that people are suckers, and assume that if they give Dyson $600, they'll get something in return that works better than a janky DIY device. They are wrong. I say: Until manufacturers provide evidence, give no quarter.
+Why don't manufacturers publish tests to show their products work? It's not that hard -- I, random internet person, did it here as a hobby. I think the reality is that people are suckers, and assume (incorrectly) that if they give Dyson $600, they'll get something in return that works better than a janky DIY device.) I say: Until manufacturers provide evidence, give no quarter.
 
 ### Advice
 
-**If the outdoor air is clean where you live**, I suggest you put a purifier in your kitchen and run it on high while cooking (or any other activities that create smoke). If you're only running it for short periods, electricity consumption is a minor concern. If random noises annoy you, it's probably not worth running a *loud* purifier all the time. If you have a purifier that's quiet and efficient (did I mention I have a DIY design?) it's probably still a net benefit to run it all the time.
+**If the outdoor air is clean where you live**, I suggest you put a purifier in your kitchen and run it on high while cooking (or any other activities that create smoke). If you're only running it for short periods, electricity consumption is a minor concern. If random noises annoy you, it's probably not worth running a *loud* purifier all the time. If you have a purifier that's quiet and efficient (did I mention I have a design for that?) it's probably still a net benefit to run it all the time.
 
-**If the outdoor air is dirty where you live**, I suggest you run a purifier constantly year-round. In fact, you might need to run multiple purifiers in different parts of your home. The health benefits are really quite immense and you should take whatever measures are necessary. Here, electricity costs will add up quickly, and noise will be a significant quality-of-life issue.
+**If the outdoor air is dirty where you live**, I suggest you run a purifier constantly year-round. In fact, you might need to run multiple purifiers in different parts of your home. The health benefits are really quite large and you should take whatever measures are necessary. Here, electricity costs will add up quickly, and noise will be a significant quality-of-life issue. Get purifiers that are quiet and efficient.
 
-Either way, reducing indoor air pollution might be the most effective health intervention you can make. Making up a number, [Running](https://dynomight.net/2021/01/25/how-to-run-without-all-the-agonizing-pain/) might provide 5x as large a benefit, but it's something like 25x as much effort. All the stuff you put in your body matters, but clean air can be had at low cost and with near-zero willpower.
+Either way, reducing indoor air pollution might be the most effective health intervention you can make. Making up numbers, [running](https://dynomight.net/2021/01/25/how-to-run-without-all-the-agonizing-pain/) might provide 5× the benefit, but it's at least 25× the effort. All the stuff you put in your body matters, but clean air can be had at low cost and with near-zero willpower. Don't miss out.
 
 ### You might ask
 
