@@ -1,19 +1,15 @@
 @charset "utf-8";
 
-// Fonts
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous&display=swap');
-// $family-sans-serif: 'Open Sans', sans-serif;
-// $family-serif: 'Righteous', cursive;
-// $family-primary: $family-sans-serif;
-// $family-secondary: $family-serif;
-// $title-family: $family-secondary;
-// h1, h2, h3, h4, h5, h6 {
-//   font-family: $family-secondary;
-// }
-//$family-sans-serif: 'Kumbh Sans';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Marcellus|Righteous|Kumbh+Sans|Judson|Montserrat|Playfair+Display&display=swap');
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans|Marcellus|Righteous|Kumbh+Sans|Judson|Montserrat|Playfair+Display&display=swap');
 $family-sans-serif: 'Montserrat';
-$family-serif: 'Judson';
+$family-serif: 'Palatino';
+//$family-serif: 'Judson';
+//$family-serif: 'Kumbh Sans';
 $family-primary: $family-serif;
 $family-secondary: $family-sans-serif;
 $title-family: $family-sans-serif;
@@ -23,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 .headerfont{
   font-family: $title-family;
 }
-
 
 
 
