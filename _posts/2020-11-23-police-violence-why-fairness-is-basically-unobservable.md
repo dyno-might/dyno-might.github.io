@@ -5,6 +5,49 @@ image: /img/police/court_light_cropped.jpg
 description: Why it's basically impossible to determine fairness from observational data.
 tags: statistics policy
 permalink: /:year/:month/:day/:title/
+last_updated: 2021-03-14
+head: "<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+    border: 1px solid black;
+    cellspacing:0;
+    border-spacing:0;
+}
+table tr{
+    border-style: hidden;
+    text-align:center;
+}
+@media (min-width:501px){
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 90%;
+}
+}
+@media (max-width:500px) and (min-width:301px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 3.2vw;
+}
+}
+@media (max-width:300px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 0.5em;
+}
+.fixed{
+    max-width:100;
+    max-width:100%;
+    overflow:scroll;
+}
+}
+</style>"
 ---
 
 We want to know if things are fair. Do some groups of people tend to get a raw deal in company hiring or university admissions or court sentences?
@@ -21,9 +64,37 @@ Let's do a thought experiment. You live in a city inhabited by blue people and r
 
 So you run the experiment, and these are the results:
 
+<div class="fixed">
+<table>
+<thead>
+<tr>
+    <th colspan="2">total</th>
+    <th colspan="2"># arrested</th>
+    <th colspan="2">% arrested</th>
+</tr>
+<tr>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1024</td><td>1024</td><td>232</td><td>280</td><td>22.7</td><td>27.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+<!--
 blue total|red total|blue arrested|red arrested|% blue arrested|% red arrested
 :-:|:-:|:-:|:-:|:-:|:-:|
 1024 | 1024 | 232 | 280 | 22.7 | 27.3
+-->
 
 More reds were arrested than blues. Does this show police bias against reds?
 
@@ -38,10 +109,35 @@ young | 384 | 640 |
 
 She re-does your analysis separately for young and old men. The results are as follows:
 
-age|blue total|red total|blue arrested|red arrested|% blue arrested|% red arrested
-:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-old | 640 | 384 | 84 | 44 | 13.1 | 11.5
-young | 384 | 640 | 148 | 236 | 38.5 | 36.9
+<div class="fixed">
+<table>
+<thead>
+<tr>
+    <th>age</th>
+    <th colspan="2">total</th>
+    <th colspan="2"># arrested</th>
+    <th colspan="2">% arrested</th>
+</tr>
+<tr>
+    <th></th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>old</td><td>640</td><td>384</td><td>84</td><td>44</td><td>13.1</td><td>11.5</td>
+</tr>
+<tr>
+<td>young</td><td>384</td><td>640</td><td>148</td><td>236</td><td>38.5</td><td>36.9</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Now this suggests a bias against *blue* men. The police arrest young blue men more often than young red men, and similarly for the old. The reason the previous analysis suggested a bias against red men is that more of them are young.
 
@@ -51,7 +147,7 @@ Does this now show that the police are biased against blues?
 
 Your friend pokes at the data some more. She points out that reds are more likely to live in Riverview, while blues are more likely to live in Pineway. Specifically, you have these demographics:
 
-neighborhood|age|blue total|red total|
+where|age|blue total|red total|
 :-:|:-:|:-:|:-:|
 Pineway | old | 384 | 128 | 
 Pineway | young | 256 | 256 | 
@@ -61,12 +157,44 @@ Riverview | young | 128 | 384 |
 
 She re-does the analysis for each location / age group. These are the results:
 
+<!--
 neighborhood|age|blue total|red total|blue arrested|red arrested|% blue arrested|% red arrested
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 Pineway | old | 384 | 128 | 70 | 26 | 18.2 | 20.3
 Pineway | young | 256 | 256 | 110 | 114 | 43.0 | 44.5
 Riverview | old | 256 | 256 | 14 | 18 | 5.5 | 7.0
 Riverview | young | 128 | 384 | 38 | 122 | 29.7 | 31.8
+-->
+
+<div style="overflow-x: scroll;">
+<table>
+<thead>
+<tr>
+    <th>where</th>
+    <th>age</th>
+    <th colspan="2">total</th>
+    <th colspan="2"># arrested</th>
+    <th colspan="2">% arrested</th>
+</tr>
+<tr>
+    <th></th>
+    <th></th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Pway</td><td>old</td><td>384</td><td>128</td><td>70</td><td>26</td><td>18.2</td><td>20.3</td></tr>
+<tr><td>Pway</td><td>young</td><td>256</td><td>256</td><td>110</td><td>114</td><td>43.0</td><td>44.5</td></tr>
+<tr><td>Rview</td><td>old</td><td>256</td><td>256</td><td>14</td><td>18</td><td>5.5</td><td>7.0</td></tr>
+<tr><td>Rview</td><td>young</td><td>128</td><td>384</td><td>38</td><td>122</td><td>29.7</td><td>31.8</td></tr>
+</tbody>
+</table>
+</div>
 
 In each age-location group, reds were more often arrested than blues. The difference from the previous analysis is that blues tend to live in Pineway, and police more often arrest people in Pineway.
 
@@ -78,8 +206,9 @@ Sweating, you ask your friend, "*Now* are we done?"
 
 She says, "Almost! I just noticed that clothing seems to be a factor! Reds tend to wear joggers while blues tend to wear shorts. Just give me a second..."
 
-She re-does the analysis yet again, with the following results.
+She re-does the analysis yet again, with the following results. (You may need to scroll the table horizontally.)
 
+<!--
 attire|neighborhood|age|blue total|red total|blue arrested|red arrested|% blue arrested|% red arrested
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 shorts | Pineway | old | 224 | 32 | 35 | 5 | 15.6 | 15.6
@@ -90,6 +219,43 @@ joggers | Pineway | old | 160 | 96 | 35 | 21 | 21.9 | 21.9
 joggers | Pineway | young | 96 | 160 | 45 | 75 | 46.9 | 46.9
 joggers | Riverview | old | 96 | 160 | 9 | 15 | 9.4 | 9.4
 joggers | Riverview | young | 32 | 224 | 11 | 77 | 34.4 | 34.4
+-->
+
+<div style="overflow-x: scroll;">
+<table>
+<thead>
+<tr>
+    <th>attire</th>
+    <th>where</th>
+    <th>age</th>
+    <th colspan="2">total</th>
+    <th colspan="2"># arrested</th>
+    <th colspan="2">% arrested</th>
+</tr>
+<tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+    <th>blue</th>
+    <th>red</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>shorts</td><td>Pway</td><td>old</td><td>224</td><td>32</td><td>35</td><td>5</td><td>15.6</td><td>15.6</td></tr>
+<tr><td>shorts</td><td>Pway</td><td>young</td><td>160</td><td>95</td><td>65</td><td>39</td><td>40.6</td><td>40.6</td></tr>
+<tr><td>shorts</td><td>Rview</td><td>old</td><td>160</td><td>96</td><td>5</td><td>3</td><td>3.1</td><td>3.1</td></tr>
+<tr><td>shorts</td><td>Rview</td><td>young</td><td>96</td><td>160</td><td>27</td><td>45</td><td>28.1</td><td>28.1</td></tr>
+<tr><td>joggers</td><td>Pway</td><td>old</td><td>160</td><td>96</td><td>35</td><td>21</td><td>21.9</td><td>21.9</td></tr>
+<tr><td>joggers</td><td>Pway</td><td>young</td><td>96</td><td>160</td><td>45</td><td>75</td><td>46.9</td><td>46.9</td></tr>
+<tr><td>joggers</td><td>Rview</td><td>old</td><td>96</td><td>160</td><td>9</td><td>15</td><td>9.4</td><td>9.4</td></tr>
+<tr><td>joggers</td><td>Rview</td><td>young</td><td>32</td><td>224</td><td>11</td><td>77</td><td>34.4</td><td>34.4</td></tr>
+</tbody>
+</table>
+</div>
 
 Now, the percentages are exactly the same in each group. The police tend to arrest young men in Pineway wearing joggers. They tend not to arrest old men in Riverview wearing shorts. All the racial differences you saw before might be due to correlations between race and age, neighborhood, and attire, not because of race *itself*.
 
