@@ -1,12 +1,10 @@
 @charset "utf-8";
 
-// @font-face {
-//   font-family: "Montserrat";
-//   src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
-//   font-display: swap;
-// }
-
-
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
+  font-display: swap;
+}
 
 //@import url('https://fonts.googleapis.com/css?family=Open+Sans|Marcellus|Righteous|Kumbh+Sans|Judson|Montserrat|Playfair+Display&display=swap');
 $family-sans-serif: 'Montserrat', sans-serif;
