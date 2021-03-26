@@ -1,11 +1,15 @@
 <head>
+
+  <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Light.ttf" as="font" type="font/ttf" crossorigin />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     {% comment %}
     <title>{{ page.title }} - {{ site.title }}</title>
     {% endcomment %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    {% comment %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">{% endcomment %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css" defer />
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/favicon.png" />
     <link rel="alternate"  type="application/atom+xml"     href="/feed.xml" />
     {% comment %}
@@ -23,6 +27,7 @@
       {% include mathjax.html %}
     {% endif %}
 
+{% comment %}
 <script type="text/javascript">
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
@@ -53,6 +58,7 @@ var text = options[index];
 document.getElementById("form").innerHTML=text;
 }
 </script>
+{% endcomment %}
 
 {% if page.head %}
 {{page.head}}

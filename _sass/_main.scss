@@ -1,12 +1,16 @@
 @charset "utf-8";
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
-}
+// @font-face {
+//   font-family: "Montserrat";
+//   src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
+//   font-display: swap;
+// }
+
+
 
 //@import url('https://fonts.googleapis.com/css?family=Open+Sans|Marcellus|Righteous|Kumbh+Sans|Judson|Montserrat|Playfair+Display&display=swap');
-$family-sans-serif: 'Montserrat';
+$family-sans-serif: 'Montserrat', sans-serif;
+//$family-sans-serif: 'Open Sans', sans-serif;
 $family-serif: 'Palatino';
 //$family-serif: 'Judson';
 //$family-serif: 'Kumbh Sans';
@@ -15,9 +19,11 @@ $family-secondary: $family-sans-serif;
 $title-family: $family-sans-serif;
 h1, h2, h3, h4, h5, h6 {
   font-family: $title-family;
+  font-weight: 100;
 }
 .headerfont{
   font-family: $title-family;
+  font-weight: 100;
 }
 
 
