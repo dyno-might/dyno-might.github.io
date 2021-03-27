@@ -5,6 +5,7 @@ image: /img/ethics/clouds.jpg
 tags: philosophy
 description: If we only believe in ethics because of evolution, does that mean ethics are a lie?
 last_updated: 2021-02-16
+background_color: rgb(120, 145, 172)
 permalink: /:year/:month/:day/:title/
 ---
 

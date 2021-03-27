@@ -5,6 +5,7 @@ image: /img/running/running.jpg
 tags: selfImprovement
 description: Why you shouldn't torture yourself when training to run.
 hero_light: true
+background_color: rgb(228, 228, 228)
 permalink: /:year/:month/:day/:title/
 ---
 
