@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fix your air"
+title: "Air quality is the easiest way to live longer"
 image: /img/air/fires3.jpg
 tags: cleanAir science
 hero_light: false
