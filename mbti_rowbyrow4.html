@@ -118,6 +118,34 @@ let global_where = 0;
 let Q = new Array(q_lo.length).fill(0)
 let num_keyboard = 0;
 
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
+function load_from_url(){
+    answers = getUrlParameter('a') + getUrlParameter('b');
+    alert(answers);
+    for(var i=0; i<answers.length; i++){
+        register_choice(i,Number(answers[i]));
+    }
+    //updateprogress();
+    //getscores();
+    //$("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+    //describe_letters(IE,SN,FT,JP);
+}
+
 function updateprogress(done){
     // find last unupdated line
     rownum = find_next_unanswered()
@@ -145,7 +173,16 @@ function updateprogress(done){
     txt = ((done/q_lo.length)*100).toFixed(0)+"%"
     $("#progress").html(txt)
     //$("#progress2").html(txt)
-    return rownum;
+    //return rownum;
+
+    // if done, show results
+    if(rownum==q_lo.length){
+        getscores();
+        $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+        describe_letters(IE,SN,FT,JP);
+        $("#buttons").hide();
+        $("#goback").hide();
+    }
 }
 
 function drawbar(a,size){
@@ -278,7 +315,8 @@ function maketable(){
 function setup(){
     maketable();
     $("#resultgraph").last().html(resultgraph(.5,.5,.5,.5,true));
-    updateprogress()
+    updateprogress();
+    load_from_url();
 }
 
 function clear_row(rownum){

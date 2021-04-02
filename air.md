@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your health: Put air first"
+title: "Air quality is the easiest way not to die"
 image: /img/air/sat-prog.jpg
 tags: cleanAir science
 hero_light: false
