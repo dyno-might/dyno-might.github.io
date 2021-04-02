@@ -7,7 +7,7 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "Fixing the air you breathe has a higher return on investment than anything else you might do."
-permalink: /fix-your-air/
+permalink: /air/
 background_color: rgb(40, 58, 34)
 head: "<style>
 details{
