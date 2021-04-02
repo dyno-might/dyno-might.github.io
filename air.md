@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Air quality is the easiest way to live longer"
-image: /img/air/fires3.jpg
+title: "Your health: Put air first"
+image: /img/air/sat-prog.jpg
 tags: cleanAir science
 hero_light: false
 dark_title: false
 background_color: black
 description: "Fixing the air you breathe has a higher return on investment than anything else you might do."
 permalink: /air/
-background_color: rgb(40, 58, 34)
+background_color: rgb(10, 10, 10)
 head: "<style>
 details{
     }
