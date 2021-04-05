@@ -74,13 +74,11 @@ layout: default
           <details><summary class="headerfont">RESPOND</summary>
           <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
             <input type="hidden" name="_subject" value="RESPONSE" /> 
-            <textarea type="text" name="text" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:10px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
-            <span class="headerfont" style="font-size:70%; ">(for a response, optional)</span>
-            <input type="email" name="email" class="headerfont" placeholder="your@email.com" style="margin-bottom:10px; padding:10px;"/> 
-            <!--
-            <br>
-            <span class="headerfont" style="font-size:70%; ">Also subscribe?</span>
-            <input type="checkbox" value="1" id="checkboxOneInput"/>-->
+            <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:10px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+            <span class="headerfont" style="font-size:70%; ">optional</span>
+            <input type="email" name="email" class="headerfont" placeholder="email (for response)" style="margin-bottom:10px; padding:10px;"/> 
+            <span class="headerfont" style="font-size:70%; ">subscribe?</span>
+            <input type="checkbox" value="1" id="checkboxOneInput" style="padding:10pt;" />
             <input type="text" name="_honey" style="display:none"> 
             <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
             <input type="hidden" name="_captcha" value="false"> 
@@ -93,7 +91,7 @@ layout: default
           </div>
           
 
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#888888" id="form"> 
+<div class="container"style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#888888" id="form"> 
   <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
     <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:130%;">Get new posts by email</div> 
     <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="margin-bottom:8px; padding:10px; border:0;" required> 
@@ -124,7 +122,7 @@ layout: default
 {% endcomment %}
 <div class="container">
 <center>
-<div class="headerfont"><span style="font-size:130%;">RELATED</span>
+<div class="headerfont" ><span style="font-size:130%;">RELATED</span>
 {% assign maxRelated = 4 %}
 {% assign numPrinted = 0 %}
 {% for negCommonTags in (1..4) %}
