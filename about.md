@@ -45,9 +45,9 @@ Popular:
 * [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
 
-Not popular but I wish they were:
+Not popular but I think they should be:
 * [What I learned from reading about writing](2021/02/07/writing-as-a-craft/)
 * [Why I'm skeptical of universal basic income](2020/12/03/why-im-skeptical-of-UBI/)
 
-Most hated (they're all wrong I tell you):
+Most hated (they're wrong I tell you, all wrong):
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
