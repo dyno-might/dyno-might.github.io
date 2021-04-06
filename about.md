@@ -7,7 +7,7 @@ hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
 ---
 
-When every person has a DIY air purifier and every economics concept a coconut-based model, this website will be at peace.
+When every person has a DIY air purifier and every economics concept a coconut-based model, this site will be at peace.
 
 Until then, here's what I suggest:
 
@@ -15,11 +15,11 @@ Until then, here's what I suggest:
 * Second priority: *Reasonable* financial security. (No food → no health.)
 * Third priority: Good relationships with friends and family. (Lonely and depressed → no mental health.)
 
-After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win. I'd like it if you didn't worry about being weird, but it's up to you.
+After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win. I suggest you be a bit weird, but it's up to you.
 
 ---
 
-All posts, organized by topics: [tags](/tags)
+Posts organized by topics: [tags](/tags)
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
@@ -36,7 +36,7 @@ Atom (RSS) feed: [https://dynomight.net/feed.xml](https://dynomight.net/feed.xml
 
 ---
 
-Popular:
+Most popular:
 * [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
 * [What happens if you don't fill out that ethnicity form?](2021/01/15/eeo/)
