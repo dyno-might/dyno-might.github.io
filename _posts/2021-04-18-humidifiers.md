@@ -93,9 +93,7 @@ Evaporative and steam humidifiers seem to create almost no particles. (See [Park
 
 If the purifier is perfectly clean and you use distilled water, then there's no dissolved solids, and almost no particles are produced. This is basically what the [EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) recommends: Use distilled water, and completely clean and dry the humidifier after every usage.
 
-This is a bad strategy. For one thing, come on. You're going to use distilled water? Filtered water isn't good enough -- it still creates lots of particles, although less than tap water. For another, have you ever tried to clean a humidifier? Bacteria build up quickly. Do you have time to do that every day? How will you know when you've removed them all?
-
-Bacteria build-up seem to start within one day and once bacteria have taken hold appears to be almost impossible to fully remove them [(Grieble et al., 1970)](https://doi.org/10.1056/nejm197003052821003). The [NIH](https://idsa.confex.com/idsa/2014/webprogram/Paper45731.html) recommends only using an ultrasonic humidifier for *three days with distilled water*, after which the humidifier should be *thrown away*.
+This is a bad strategy. For one thing, come on. You're going to use distilled water? Filtered water isn't good enough -- it still creates lots of particles, although less than tap water. For another, have you ever tried to clean a humidifier? Bacteria build-up seem to start within one day and once bacteria have taken hold appears to be almost impossible to fully remove them [(Grieble et al., 1970)](https://doi.org/10.1056/nejm197003052821003). The [NIH](https://idsa.confex.com/idsa/2014/webprogram/Paper45731.html) recommends only using an ultrasonic humidifier for *three days with distilled water*, after which the humidifier should be *thrown away*.
 
 It just doesn't make sense to start with a fundamentally unsafe design and then go to crazy lengths to try to make it safe.
 
