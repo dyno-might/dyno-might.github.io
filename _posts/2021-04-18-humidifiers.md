@@ -61,9 +61,9 @@ The current science says there's a serious chance that using an ultrasonic humid
 >
 > [(Yao et al., 2020)](https://doi.org/10.1016/j.wroa.2020.100060)
 
-
-
 Still not convinced? You can read [Wang et al., 2020](https://doi.org/10.1016/j.buildenv.2020.106654) or [Fleisch et al., 2018](https://doi.org/10.1038/s41370-019-0151-4) or [Baxter et al., 2007](https://doi.org/10.1038/sj.jes.7500532) or [Umezawa et al., 2013](https://doi.org/10.1186/1743-8977-10-64) or [Highsmith et al., 1988](https://doi.org/10.1021/es00174a019) or [Richard Saint Cyr](https://www.myhealthbeijing.com/pollution/ultrasonic-humidifiers-in-beijing-an-unnecessary-risk/) or [Stack Exchange](https://chemistry.stackexchange.com/questions/105154/why-does-humidifier-put-measurable-pm2-5-in-the-air) or [Awair](https://blog.getawair.com/awair-investigates-how-your-humidifiers-water-affects-your-health). It isn't controversial. This is a thing that happens.
+
+
 
 # Particles cause serious health problems
 
@@ -83,7 +83,9 @@ Now, maybe you *really* hate dry air. You might decide that it's worth risking 3
 
 You aren't choosing between risking 3 years of life and having dry air. You are choosing between risking three years of life and *getting a different kind of humidifier*. Buy a steam humidifier or an evaporative humidifier. It will cost $20-100, and it will humidify the air just as well. There's no plausible calculation that it's worth risking even a small fraction of 3 years to save that amount of money.
 
-The reason people don't want to kill their ultrasonic humidifier is because they're operating from the perspective that *they will be considered safe until there is irrefutable proof they aren't*. That's incredibly misguided. When there's a possibility of an extremely large harm, it's wiser to *assume the danger is real until there's proof it's safe*. So kill your damn ultrasonic humidifier.
+The reason people don't want to kill their ultrasonic humidifier is because they're operating from the perspective that *they will be considered safe until there is irrefutable proof they aren't*. That's incredibly misguided. When there's a possibility of an extremely large harm, it's wiser to *assume the danger is real until there's proof it's safe*.
+
+Evaporative and steam humidifiers seem to create almost no particles. (See [Park et al. (2020)](https://doi.org/10.3390/ijerph17228638) or [Paschold et al. (2003)](https://doi.org/10.1016/S1352-2310(02)00969-X) or [Highsmith et al. (1988)](https://doi.org/10.1021/es00174a019) or [the EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) or [public health Ontario](https://www.publichealthontario.ca/-/media/documents/e/2017/eb-humidifier-hc.pdf?la=en).) The VA [prohibits](https://www.va.gov/vhapublications/ViewPublication.asp?pub_ID=9181) ultrasonic humidifiers but allows steam.  So kill your damn ultrasonic humidifier.
 
 # Epilogue: Counter-claims and why they're wrong
 
@@ -92,6 +94,8 @@ The reason people don't want to kill their ultrasonic humidifier is because they
 If the purifier is perfectly clean and you use distilled water, then there's no dissolved solids, and almost no particles are produced. This is basically what the [EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) recommends: Use distilled water, and completely clean and dry the humidifier after every usage.
 
 This is a bad strategy. For one thing, come on. You're going to use distilled water? Filtered water isn't good enough -- it still creates lots of particles, although less than tap water. For another, have you ever tried to clean a humidifier? Bacteria build up quickly. Do you have time to do that every day? How will you know when you've removed them all?
+
+Bacteria build-up seem to start within one day and once bacteria have taken hold appears to be almost impossible to fully remove them [(Grieble et al., 1970)](https://doi.org/10.1056/nejm197003052821003). The [NIH](https://idsa.confex.com/idsa/2014/webprogram/Paper45731.html) recommends only using an ultrasonic humidifier for *three days with distilled water*, after which the humidifier should be *thrown away*.
 
 It just doesn't make sense to start with a fundamentally unsafe design and then go to crazy lengths to try to make it safe.
 
