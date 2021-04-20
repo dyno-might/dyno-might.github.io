@@ -79,18 +79,18 @@ Still not convinced? You can also read [Wang et al., 2020](https://doi.org/10.10
 
 # The risk-reward ratio is insane
 
-These calculations are uncertain. Our estimates for the harms particles cause are based on observational statistics, not randomized trials. Also, different types of particles surely cause amounts of trouble, and we don't know how harmful the kind humidifiers make are. But this uncertainty goes in both directions. The harms could be less than we estimate, or they could be even worse.
+These calculations are uncertain. Our estimates for the harms particles cause are based on observational statistics, not randomized trials. Also, different types of particles surely cause different amounts of trouble, and we don't know how bad the kind humidifiers make are. But this uncertainty goes in both directions. The harms could be less than we estimate, or they could be even worse.
 
-Still, you might calculate the odds differently. Say you're 75% sure that ultrasonic humidifiers are harmless. Then you still have to ask yourself if using an ultrasonic humidifier if worth the risk. Even a relatively small probability of losing three years is something to take seriously.
+You might calculate the odds differently. Say you're 75% sure that ultrasonic humidifiers are harmless. Still, you still have to ask yourself if using an ultrasonic humidifier is worth the risk. Even a small probability of losing three years is something to take seriously.
 
-Alternatively, you might *really* hate dry air. The good news is that you can just get a steam humidifier or an evaporative humidifier will cost $20-100, and will humidify the air just as well. These seem to create almost no particles. (See [Park et al. (2020)](https://doi.org/10.3390/ijerph17228638) or [Paschold et al. (2003)](https://doi.org/10.1016/S1352-2310(02)00969-X) or [Highsmith et al. (1988)](https://doi.org/10.1021/es00174a019) or [the EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) or [public health Ontario](https://www.publichealthontario.ca/-/media/documents/e/2017/eb-humidifier-hc.pdf?la=en) or the [VA's](https://www.va.gov/vhapublications/ViewPublication.asp?pub_ID=9181) policy to prohibit ultrasonic humidifiers but allow steam.)
+Alternatively, you might *really* hate dry air. The good news is that steam or evaporative humidifiers cost $20-100, humidify the air just as well, and seem to create almost no particles. (See [Park et al. (2020)](https://doi.org/10.3390/ijerph17228638) or [Paschold et al. (2003)](https://doi.org/10.1016/S1352-2310(02)00969-X) or [Highsmith et al. (1988)](https://doi.org/10.1021/es00174a019) or [the EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) or [public health Ontario](https://www.publichealthontario.ca/-/media/documents/e/2017/eb-humidifier-hc.pdf?la=en) or the [VA's](https://www.va.gov/vhapublications/ViewPublication.asp?pub_ID=9181) policy to prohibit ultrasonic humidifiers but allow steam.)
 
 When there's a possibility of a large harm, you have to be *very* confident that the danger is not real to justify ignoring the issue.
 
 
 # Epilogue: Counter-Claims
 
-**Deionized water and keeping the humidifier clean**
+**Using deionized water and keeping the humidifier clean**
 
 In principle, this could work. If there are absolutely no dissolved solids in the water, then no solid particles can be produced. This is basically what the [EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) recommends: Use distilled water, and completely clean and dry the humidifier after every usage.
 
@@ -104,4 +104,4 @@ Why start with a fundamentally unsafe design, and then go to such lengths to try
 
 Some types of particles are surely more dangerous than others. Maybe we evolved some robustness to particles that are naturally occurring like those from dust or sea spray, since our ancestors have been breathing those long before humans existed.
 
-Maybe, but are you *sure*? We never breathed particles at the concentrations or for the amount of time that a humidifier next to your bed represents. In any case, the bigger problem is still the insanely imbalanced risk-reward tradeoff.
+Maybe, but are you *sure*? We never breathed particles at the concentrations or for the amount of time that a humidifier next to your bed represents. In any case, the bigger problem is still the insanely imbalanced risk-reward tradeoff. Unless you're *very* confident, you can't ignore the risk.
