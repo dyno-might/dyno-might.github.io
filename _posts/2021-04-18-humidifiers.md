@@ -106,5 +106,3 @@ Why start with a fundamentally unsafe design, and then go to such lengths to try
 Some types of particles are surely more dangerous than others. Maybe we evolved some robustness to particles that are naturally occurring like those from dust or sea spray, since our ancestors have been breathing those long before humans existed.
 
 Maybe, but are you *sure*? We never breathed particles at the concentrations or for the amount of time that a humidifier next to your bed represents. In any case, the bigger problem is still the insanely imbalanced risk-reward tradeoff. Unless you're *very* confident, you can't ignore the risk.
-
-[You can discuss this post on Reddit.](https://old.reddit.com/r/dynomight/comments/mv0qkb/avoid_ultrasonic_humidifiers/)
