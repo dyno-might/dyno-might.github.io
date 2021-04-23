@@ -52,7 +52,7 @@ Sounds serious! Except, oh wait, I made a “mistake”. That was the list of ef
 
 Remind you of anything?
 
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#999999" id="form"> 
+<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#666666; border-radius: 5px;" id="form"> 
   <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
     <div class="headerfont" style="color:white; margin-bottom:2px; padding:5px; font-size:80%;">GET MORE?</div> 
     <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:10px; border:0;" required> 
