@@ -14,20 +14,7 @@ permalink: /:year/:month/:day/:title/
 
 But, out of interest, what if you did? This question is asked repeatedly on the web, with with many answers smugly stating that even tiny amounts of acetone will instantly kill you, *you idiot*. But they provide no evidence.
 
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#999999" id="form"> 
-  <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-    <div class="headerfont" style="color:white; margin-bottom:2px; padding:5px; font-size:80%;">GET MORE?</div> 
-    <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:10px; border:0;" required> 
-    <input type="hidden" name="_subject" value="SUBSCRIBE DEFAULT" /> 
-    <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-    <input type="hidden" name="_captcha" value="false" /> 
-    <input type="hidden" name="_url" value="https://dynomight.net/" />
-    <span style="max-width: 50%; border-color:white; border-width:1.5px; border-style:solid; padding-top:7px; padding-bottom:7px; padding-left:5px; padding-right:5px;">
-    <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent;">OK FINE</button> 
-    </span>
-  </form>
-</div>   
-<br>
+---
 
 **Fact #1:** Acetone bottles are scary looking
 
@@ -65,7 +52,20 @@ Sounds serious! Except, oh wait, I made a “mistake”. That was the list of ef
 
 Remind you of anything?
 
----
+<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#999999" id="form"> 
+  <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+    <div class="headerfont" style="color:white; margin-bottom:2px; padding:5px; font-size:80%;">GET MORE?</div> 
+    <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:10px; border:0;" required> 
+    <input type="hidden" name="_subject" value="SUBSCRIBE DEFAULT" /> 
+    <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+    <input type="hidden" name="_captcha" value="false" /> 
+    <input type="hidden" name="_url" value="https://dynomight.net/" />
+    <span style="max-width: 50%; border-color:white; border-width:1.5px; border-style:solid; padding-top:7px; padding-bottom:7px; padding-left:5px; padding-right:5px;">
+    <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent;">OK FINE</button> 
+    </span>
+  </form>
+</div>   
+<br>
 
 **Fact #5:** Acetone is probably marginally more toxic than ethanol.
 
