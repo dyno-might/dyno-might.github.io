@@ -75,8 +75,7 @@ You can expand this to read direct quotes from a bunch of papers.
 </details>
 
 <br>
-Still not convinced? You can also read [Wang et al., 2020](https://doi.org/10.1016/j.buildenv.2020.106654) or [Fleisch et al., 2018](https://doi.org/10.1038/s41370-019-0151-4) or [Baxter et al., 2007](https://doi.org/10.1038/sj.jes.7500532) or [Umezawa et al., 2013](https://doi.org/10.1186/1743-8977-10-64) or [Highsmith et al., 1988](https://doi.org/10.1021/es00174a019) or [Richard Saint Cyr](https://www.myhealthbeijing.com/pollution/ultrasonic-humidifiers-in-beijing-an-unnecessary-risk/) or [Stack Exchange](https://chemistry.stackexchange.com/questions/105154/why-does-humidifier-put-measurable-pm2-5-in-the-air) or [Awair](https://blog.getawair.com/awair-investigates-how-your-humidifiers-water-affects-your-health). It isn't controversial. This is a thing that happens.
-
+Still not convinced? You can also read [Wang et al. (2020)](https://doi.org/10.1016/j.buildenv.2020.106654) or [Fleisch et al. (2018)](https://doi.org/10.1038/s41370-019-0151-4) or [Baxter et al. (2007)](https://doi.org/10.1038/sj.jes.7500532) or [Umezawa et al. (2013)](https://doi.org/10.1186/1743-8977-10-64) or [Highsmith et al. (1988)](https://doi.org/10.1021/es00174a019) or [Richard Saint Cyr](https://www.myhealthbeijing.com/pollution/ultrasonic-humidifiers-in-beijing-an-unnecessary-risk/) or [Stack Exchange](https://chemistry.stackexchange.com/questions/105154/why-does-humidifier-put-measurable-pm2-5-in-the-air) or [Awair](https://blog.getawair.com/awair-investigates-how-your-humidifiers-water-affects-your-health). It isn't controversial. This is a thing that happens.
 
 ## The risk-reward ratio is insane
 
