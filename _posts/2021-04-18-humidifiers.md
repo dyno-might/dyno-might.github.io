@@ -19,7 +19,7 @@ Kill your ultrasonic humidifier. I know this *seems* ridiculous, but the case is
 
 That's it. The current science says there's a real chance that using an ultrasonic humidifier could cut years from your life. It's not a sure thing, but it's a real risk. Use an evaporative or steam humidifier instead.
 
-# Particles cause serious health problems
+## Particles cause serious health problems
 
 The evidence for this is [strong](https://dynomight.net/air/). Outdoor particle levels vary throughout the world and statistics link these levels to health problems including heart disease, strokes, kidney disease, respiratory infections, and lung cancer. The mechanism appears to be that tiny particles make their way through the lungs into the bloodstream and thus other parts of the body. These foreign particles then activate the immune system causing all sorts of havoc.
 
@@ -78,7 +78,7 @@ You can expand this to read direct quotes from a bunch of papers.
 Still not convinced? You can also read [Wang et al., 2020](https://doi.org/10.1016/j.buildenv.2020.106654) or [Fleisch et al., 2018](https://doi.org/10.1038/s41370-019-0151-4) or [Baxter et al., 2007](https://doi.org/10.1038/sj.jes.7500532) or [Umezawa et al., 2013](https://doi.org/10.1186/1743-8977-10-64) or [Highsmith et al., 1988](https://doi.org/10.1021/es00174a019) or [Richard Saint Cyr](https://www.myhealthbeijing.com/pollution/ultrasonic-humidifiers-in-beijing-an-unnecessary-risk/) or [Stack Exchange](https://chemistry.stackexchange.com/questions/105154/why-does-humidifier-put-measurable-pm2-5-in-the-air) or [Awair](https://blog.getawair.com/awair-investigates-how-your-humidifiers-water-affects-your-health). It isn't controversial. This is a thing that happens.
 
 
-# The risk-reward ratio is insane
+## The risk-reward ratio is insane
 
 These calculations are uncertain. Our estimates for the harms particles cause are based on observational statistics, not randomized trials. Also, different types of particles surely cause different amounts of trouble, and we don't know how bad the kind humidifiers make are. But this uncertainty goes in both directions. The harms could be less than we estimate, or they could be even worse.
 
@@ -89,7 +89,7 @@ Alternatively, you might *really* hate dry air. The good news is that steam or e
 When there's a possibility of a large harm, you have to be *very* confident that the danger is not real to justify ignoring the issue.
 
 
-# Epilogue: Counter-Claims
+## Epilogue: Counter-Claims
 
 **Using deionized water and keeping the humidifier clean**
 
