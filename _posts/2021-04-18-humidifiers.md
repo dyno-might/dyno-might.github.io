@@ -29,6 +29,15 @@ A good heuristic is that that an increase of 33.3 PM<sub>2.5</sub> μg/m³ costs
 
 Ultrasonic humidifiers create tiny particles of water, including any dissolved solids. The water quickly evaporates, leaving the solids in the air. Tap water contains lots of minerals, but even if you use distilled or deionized water, you still have the problem that humidifiers are warm moist environments. Bacteria grow quickly in them, again ending up as tiny particles.
 
+Here's a test I did, running a humidifier for one minute near a particle counter.
+
+<video width="480" height="270" autoplay style="margin-left: auto; margin-right: auto; display: block;">
+  <source src="/img/humidifiers/exp.mp4" type="video/mp4">
+  <source src="/img/humidifiers/exp.mov" type="video/mov">
+  <source src="/img/humidifiers/exp.webm" type="video/webm">
+</video> 
+<br>
+
 Ultrasonic humidifiers can easily push levels to several **hundred** μg/m³. If you used one for 8 hours a night and it created a level of 300 μg/m³, this would raise your average exposure by 100 μg/m³, meaning an expected cost of 3 disability adjusted life years.
 
 <details markdown="1">
