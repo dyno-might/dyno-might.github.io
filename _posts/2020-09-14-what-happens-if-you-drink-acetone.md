@@ -56,7 +56,7 @@ Remind you of anything?
   <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
     <div class="headerfont" style="color:white; margin-bottom:2px; padding:5px; font-size:80%;">GET MORE?</div> 
     <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:10px; border:0;" required> 
-    <input type="hidden" name="_subject" value="SUBSCRIBE DEFAULT" /> 
+    <input type="hidden" name="_subject" value="SUBSCRIBE ACETONE" /> 
     <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
     <input type="hidden" name="_captcha" value="false" /> 
     <input type="hidden" name="_url" value="https://dynomight.net/" />
