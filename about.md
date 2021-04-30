@@ -13,7 +13,7 @@ When every person has a DIY air purifier and every economics concept a coconut-b
 * Second priority: *Reasonable* financial security. (No food → no health.)
 * Third priority: Good relationships with friends and family. (Depressed → no mental health.)
 
-After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win. I suggest you be weird, but it's up to you.
+After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win.
 
 ---
 
