@@ -31,7 +31,7 @@ Ultrasonic humidifiers create tiny particles of water, including any dissolved s
 
 Here's a test I did, running a humidifier for one minute near a particle counter.
 
-<video width="480" height="270" autoplay style="margin-left: auto; margin-right: auto; display: block;">
+<video width="480" height="270" autoplay muted loop style="margin-left: auto; margin-right: auto; display: block;">
   <source src="/img/humidifiers/exp.mp4" type="video/mp4">
   <source src="/img/humidifiers/exp.mov" type="video/mov">
   <source src="/img/humidifiers/exp.webm" type="video/webm">
