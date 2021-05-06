@@ -25,9 +25,7 @@ img{
 
 I don't know if you like parties. I don't know if you're organized or punctual. But I bet you don't like rotting smells or long swims in freezing water.
 
-That is to say: People are different, but only in certain ways. What's the difference? Hypothermia enthusiasts have few kids, so their genes tend to disappear. If introverts were worse at breeding than extraverts, then the same thing would have happened. Since extraversion varies widely, we can infer that there's no real advantage either way.
-
-How would this happen? If *everyone* was a strong introvert, then extraverts might have an advantage in spreading their genes and habits. (Personality traits are around [40% genetic](https://emilkirkegaard.dk/en/wp-content/uploads/Heritability-of-Personality-A-Meta-Analysis-of-Behavior-Genetic-Studies.pdf).) If everyone was an extravert, the opposite would happen.  At some equilibrium point, no one has an advantage. That's why we vary the way we vary.
+That is to say: People are different, but only in certain ways. What's the difference? Hypothermia enthusiasts have few kids, so their genes tend to disappear. If introverts were worse at breeding than extraverts, then the same thing would have happened. Since extraversion varies widely, we can infer that we're at an equilibrium point with no real advantage either way. (Personality traits are around [40% genetic](https://emilkirkegaard.dk/en/wp-content/uploads/Heritability-of-Personality-A-Meta-Analysis-of-Behavior-Genetic-Studies.pdf).) 
 
 So, no personality is *better* than any other. Instead, there must be intricate tradeoffs, with each personality occupying a different kind of niche.
 
@@ -37,24 +35,21 @@ That's what I thought, anyway. Then I read a few dozen papers and made this tabl
 
 This shows correlations between the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality traits and various personal characteristics. To make this easier to understand, I reversed some "bad" traits (r). I also used  *Emotional Stability*, which is the opposite of *Neuroticism*.
 
-So, uhh, where are the tradeoffs? People who are extroverted, agreeable, conscientious, emotionally stable and open seem to do better at basically *everything*. Let's call these people **all-blues**. Broadly speaking, they are more happy, successful, intelligent, creative, and popular. They have fewer addictions and less of every mental disorder. The one real tradeoffs are agreeableness against income and intelligence and also extraversion and conscientiousness against math scores.
+So, uhh, where are the tradeoffs? People who are extroverted, agreeable, conscientious, emotionally stable and open seem to do better at basically everything. Let's call these people **all-blues**. Broadly speaking, they are more happy, successful, intelligent, creative, and popular. They have fewer addictions and less of every mental disorder. The one real tradeoffs are agreeableness against income and intelligence and extraversion and conscientiousness against math scores.
 
-I'd like to give a list of famous all-blues as examples, but this doesn't seem to exist. As a proxy, we can look to [Myers-Briggs](https://dynomight.net/in-defense-of-myers-briggs.html), where all-blues are similar to emotionally stable ENFJs. The internet claims that examples of ENFJs are Michael Jordan, Oprah, Pope John Paul II, Martin Luther King Jr., Pericles, and Barack Obama.
-
- For the opposite type, famous ISTPs supposedly include the Dalai Lama, Ernest Hemingway, Snoop Dogg, Melania Trump, and Vladimir Putin. 
- (Personally, I assume the Dalai Lama has high emotional stability, but judge for thyself.)
+I'd like to give a list of famous all-blues as examples, but this doesn't seem to exist. As a proxy, we can look to [Myers-Briggs](https://dynomight.net/in-defense-of-myers-briggs.html), where all-blues are similar to emotionally stable ENFJs. The internet claims that examples of ENFJs are Michael Jordan, Oprah, Pope John Paul II, Martin Luther King Jr., Pericles, and Barack Obama. For the opposite type, famous ISTPs supposedly include the Dalai Lama, Ernest Hemingway, Snoop Dogg, Melania Trump, and Vladimir Putin. (Personally, I assume the Dalai Lama has high emotional stability, but judge for thyself.)
 
 Anyway, what's the deal here? Why don't we see more tradeoffs? Is the idea of a population equilibrium mistaken?
 
 ## Evolution don't care
 
-Evolution doesn't care if you're happy. Evolution only wants you to pass on your genes. [Berg et al. (2014)](https://doi.org/10.1016/j.evolhumbehav.2014.07.006) took data from 10.7k representative Americans born between 1900 and 1947 and did a regression to predict the number of grandchildren someone has from their personality traits. Here are the regression coefficients.
+Evolution doesn't care if you're happy. Evolution only wants you to pass on your genes. [Berg et al. (2014)](https://doi.org/10.1016/j.evolhumbehav.2014.07.006) took data from 10.7k representative Americans born between 1900 and 1947 and did a regression to predict the number of grandchildren someone has from their personality traits. Here are the regression coefficients:
 
 ![regression of number of grandkids on personality traits](/img/personalities/model1.svg)
 
-The personality characteristics are standardized so Extraversion = 0 for someone who is average, and Extraversion = -2 for someone 2 standard deviations below average. They focus on grandchildren to reflect the influence of a parent's personality on a child's survival, but just predicting children gives similar results.
+The personality characteristics are standardized so Extraversion = 0 for someone who is average, and Extraversion = -2 for someone 2 standard deviations below average, etc. They focus on grandchildren to reflect the influence of a parent's personality on a child's survival, but just using children gives similar results.
 
-(If you're wondering, this suggests the ESFP as the most fecund [MBTI](https://dynomight.net/in-defense-of-myers-briggs.html) type (Ronald Reagan, Bill Clinton, Hugh Hefner).)
+If you're wondering, this suggests the ESFP as the most fecund [MBTI](https://dynomight.net/in-defense-of-myers-briggs.html) type (Ronald Reagan, Bill Clinton, Hugh Hefner).
 
 On the one hand, this would explain why everyone isn't an all-blue: If you want to dominate the personality landscape, you need to reproduce more. On the other hand, it creates a bigger puzzle: If we were in population equilibrium, all the coefficients would be zero! Instead, there are huge effects like extroverted men having 0.8 more grandchildren than introverted men. If that's true, then we are *way* out of equilibrium, and future generations will look different from us.
 
@@ -102,7 +97,7 @@ Forget about evolution for a second. Do successful people still tend to be all-b
 
 It's *very* hard to become president. If an all-blue personality was better, we'd see that here. Instead, among recent presidents, we see high extraversion, low agreeableness, and no clear trend otherwise. (Most US households gained radios around 1930 before the election of Franklin Roosevelt.)
 
-If being all-blue doesn't help you *become* president, does it make you a good one? It happens that the closest there's been to an all-blue president was Lincoln, often considered the best of all. (He scores low on emotional stability due to his lifelong struggles with depression.) To be more data-driven, the paper also finds correlations between personality factors and how *great* a president is rated to be.
+If being all-blue doesn't help you *become* president, does it make you a good one? It happens that the closest there's been to an all-blue president was Lincoln, often considered the best of all. (He scores low on emotional stability due to his lifelong struggles with depression.) To be more data-driven, the paper finds correlations between personality factors and how *great* a president is rated to be.
 
 ![correlations between big five personality traits and presidential greatness](/img/personalities/model2.svg)
 
@@ -116,7 +111,7 @@ Why are recent presidents usually extraverted and low agreeableness, but otherwi
 
 ![relationships of the big five with darker traits](/img/personalities/badvals.svg)
 
-This isn't to say that presidents are all narcissists or psychopaths. (Though who are we kidding, some obviously are.) It's widely agreed now that "narcissism" and "psychopathy" aren't discrete categories. Rather, they are "spectrum traits" that we all have to some degree.
+This isn't to say that presidents are all narcissists or psychopaths. (Though who are we kidding, some are.) It's widely agreed now that "narcissism" and "psychopathy" aren't discrete categories. Rather, they are "spectrum traits" that we all have to some degree.
 
 How do we arrive at a spectrum of psychopathy? It's the same equilibrium process. If there were no psychopaths, the first one to show up would probably manipulate everyone and have a thousand kids. As we get more psychopaths, everyone's defenses go up, and the strategy becomes less useful. It's not shocking that these traits might be useful in politics.
 
