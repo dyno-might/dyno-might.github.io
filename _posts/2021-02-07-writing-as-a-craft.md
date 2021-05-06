@@ -2,7 +2,7 @@
 layout: post
 title: "What I learned from reading about writing"
 image: /img/writing/typewriter.jpg
-tags: writing, communication
+tags: writing communication
 background_color: rgb(57, 61, 70)
 permalink: /:year/:month/:day/:title/
 ---
