@@ -33,7 +33,9 @@ That's what I thought, anyway. Then I read a few dozen papers and made this tabl
 
 ![correlations of various things with the big five](/img/personalities/vals.svg)
 
-This shows correlations between the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality traits and various personal characteristics. To make this easier to understand, I reversed some "bad" traits (r). I also used  *Emotional Stability*, which is the opposite of *Neuroticism*.
+This shows correlations between the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality traits and various personal characteristics. Blue shows positive correlations, while red shows negative. For example, the blue upper-left cell shows that life satisfaction is associated with extraversion and the red cell on the right in the second-to-last row shows that openness is negatively associated with political conservatism.
+
+To make this easier to understand, I reversed some "bad" traits (r). I also used  *Emotional Stability*, which is the opposite of *Neuroticism*.
 
 So, uhh, where are the tradeoffs? People who are extroverted, agreeable, conscientious, emotionally stable and open seem to do better at basically everything. Let's call these people **all-blues**. Broadly speaking, they are more happy, successful, intelligent, creative, and popular. They have fewer addictions and less of every mental disorder. The one real tradeoffs are agreeableness against income/intelligence and extraversion/conscientiousness against math scores.
 
