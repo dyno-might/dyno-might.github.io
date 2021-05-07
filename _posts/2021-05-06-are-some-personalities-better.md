@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "A review of correlations between personality traits and life outcomes"
+title: "Are some personalities just better?"
 image: /img/personalities/shadows.jpg
 tags: personality statistics
 hero_light: false
 dark_title: false
 background_color: black
-description: "A review of correlations between personality traits and various life outcomes"
+description: "A review of correlations between big five personality traits and various life outcomes"
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
 head: "<style>
