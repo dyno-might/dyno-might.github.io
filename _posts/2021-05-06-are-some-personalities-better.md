@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Are some personalities just better?"
+title: "A review of correlations between personality traits and life outcomes"
 image: /img/personalities/shadows.jpg
 tags: personality statistics
 hero_light: false
