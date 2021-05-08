@@ -199,7 +199,7 @@ If that seems cherry-picked, let’s go through all the attributes:
 
 Only one of the five is OK. And --- as you surely noticed--- that same attribute exists in the MBTI.
 
-Can I tell you a secret? The MBTI's names for the S-I axes are *sensing* and *intuition*. These don't make any sense. The Big Five *openness to experience* is much more descriptive. And yet, I claim, the MBTI names are often better *because* they are meaningless. Everyone claims to be open! But since no one has any idea what "sensing" is, they'll happily admit to it. Deliberate or accidental, this subterfuge is extremely useful.
+Can I tell you a secret? The MBTI's names for the S-N axes are *sensing* and *intuition*. These don't make any sense. The Big Five *openness to experience* is much more descriptive. And yet, I claim, the MBTI names are often better *because* they are meaningless. Everyone claims to be open! But since no one has any idea what "sensing" is, they'll happily admit to it. Deliberate or accidental, this subterfuge is extremely useful.
 
 For similar reasons, the MBTI’s omission of neuroticism is sometimes good. The alternative to four axes is often zero, not five.
 
