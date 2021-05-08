@@ -31,7 +31,7 @@ So, no personality is *better* than any other. Instead, there must be intricate 
 
 That's what I thought, anyway. Then I read a few dozen papers and made this table:
 
-![correlations of various things with the big five](/img/personalities/vals_nor2.svg)
+![correlations of various things with the big five](/img/personalities/vals_nor.svg)
 
 This shows correlations between the [Big Five](https://en.wikipedia.org/wiki/Big_Five_personality_traits) personality traits and various personal characteristics. Blue shows positive correlations, while red shows negative. For example, the blue upper-left cell shows that extraversion is associated with life satisfaction, whereas the red lower-left cell shows that extraversion is *negatively* associated with autism. {% comment %}To make this easier to understand, I reversed some "bad" traits (r). Thus, the fifth row shows that emotionally stable people are *less* likely to have schizophrenia.{% endcomment %}
  {% comment %} I also used  *Emotional Stability*, which is the opposite of *Neuroticism*. {% endcomment %}
