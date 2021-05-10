@@ -173,4 +173,5 @@ The Presidential Big Five data is from *Personality, Character, and Leadership I
 
 </details>
 
-*Update: The "all-blue" personality is essentially the [General Factor](https://en.wikipedia.org/wiki/Hierarchical_structure_of_the_Big_Five#General_factor_of_personality) or* Big One *in psychology, and has been debated since it was proposed by [Musek (2007)](https://doi.org/10.1016%2Fj.jrp.2007.02.003). Thanks to arctor_bob for pointing this out.*
+<span style="font-size:80%">
+Update: The "all-blue" personality is essentially the [General Factor](https://en.wikipedia.org/wiki/Hierarchical_structure_of_the_Big_Five#General_factor_of_personality) or *Big One* in psychology, and has been debated since it was proposed by [Musek (2007)](https://doi.org/10.1016%2Fj.jrp.2007.02.003). Thanks to arctor_bob for pointing this out.</span>
