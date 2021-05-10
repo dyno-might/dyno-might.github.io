@@ -172,3 +172,5 @@ Narcissism, Machiavellianism, Psychopathy - [Muris et al, 2017](https://doi.org/
 The Presidential Big Five data is from *Personality, Character, and Leadership In The White House: Psychologists Assess the Presidents* by Rubenzer and Faschingbauer, 2004. It was quite an effort to extract these numbers from the book and get them into a useable form. Since they might be useful to others, I've uploaded the raw CSV data here: [presidents.csv](/assets/data/presidents.csv) [names.csv](/assets/data/names.csv)
 
 </details>
+
+*Update: The "all-blue" personality is essentially the [General Factor](https://en.wikipedia.org/wiki/Hierarchical_structure_of_the_Big_Five#General_factor_of_personality) or* Big One *in psychology, and has been debated since it was proposed by [Musek (2007)](https://doi.org/10.1016%2Fj.jrp.2007.02.003). Thanks to arctor_bob for pointing this out.*
