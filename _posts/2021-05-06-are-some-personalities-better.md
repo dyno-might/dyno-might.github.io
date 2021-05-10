@@ -77,7 +77,7 @@ Lieu [pointed out](https://twitter.com/lieuZhengHong/status/1389972790334435337)
 
 Fortunately for us, correlations alone are enough to generate the normalized variables (z-scores) that we need to plug into the above regression. I generated a bunch of "random people" either sampling from either an independent multivariate Normal distribution, or a multivariate Normal distribution with the above table as a covariance matrix. I then plugged those people into the regression model and computed a histogram for each.
 
-<img src="/img/personalities/hist.svg">
+<img src="/img/personalities/hist.svg" alt="histogram of grandkids with and without accounting for correlations" loading="lazy">
 
 Sure enough, the standard deviation is less if we account for the correlations. But it's only a *bit* less. In any case, the grandkids model is a *regression*. Correlations among with inputs don't change the fact that certain people (high openness introverts) have fewer grandkids than others (low openness extraverts).
 
