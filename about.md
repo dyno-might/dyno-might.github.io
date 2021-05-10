@@ -21,7 +21,7 @@ Posts organized by topics: [tags](/tags)
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Atom / RSS feed: [https://dynomight.net/feed.xml](https://dynomight.net/feed.xml)
+Atom / RSS feed: <https://dynomight.net/feed.xml>
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
