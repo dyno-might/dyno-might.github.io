@@ -21,7 +21,7 @@ Posts organized by topics: [tags](/tags)
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Atom / RSS feed: <https://dynomight.net/feed.xml>
+RSS feed: <https://dynomight.net/feed.xml>
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
@@ -34,7 +34,26 @@ Atom / RSS feed: <https://dynomight.net/feed.xml>
 
 ---
 
-Most popular:
+Not sure where to get started?
+
+**Air quality**
+* [Better air is the easiest way not to die](/air)
+* [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
+
+**Economics**
+* [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
+
+**Personal Improvement**
+* [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
+
+**Psychology**
+* [Are some personalities just better](/better-personalities)
+* [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
+
+**Made the internet really mad** (they're wrong I tell you, all wrong)
+* [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
+
+<!-- Most popular:
 * [Better air is the easiest way not to die](/air)
 * [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
@@ -49,4 +68,4 @@ Not popular, but I wish they were:
 * [Why I'm skeptical of universal basic income](2020/12/03/why-im-skeptical-of-UBI/)
 
 Most hated (they're wrong I tell you, all wrong):
-* [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
+* [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->

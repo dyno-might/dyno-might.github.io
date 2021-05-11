@@ -7,7 +7,7 @@ hero_image: /img/deathvalleysky_nps_big.jpg
 hero_height: is-large
 ---
 
-You can subscribe here to directly get new articles. Typically there will be 1-3 per month, owing to the fantastical amount of time each takes to create.
+You can subscribe here to get new articles. Owing to the fantastical amount of time each takes to create, there will typically be 1-3 per month.
 
 There's just the one step to subscribe, no second form or confirmation link to deal with.
 
