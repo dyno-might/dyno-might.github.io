@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NOW YOU'VE DONE IT
+title: SUBSCRIBE SUCCESS
 subtitle: 
 image: /img/deathvalleysky_prog.jpg
 hero_image: /img/deathvalleysky_prog.jpg
