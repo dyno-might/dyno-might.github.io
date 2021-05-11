@@ -7,7 +7,7 @@ hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
 ---
 
-When every person has a DIY air purifier and every economics concept a coconut-based model, I'll be at peace. Until then, here's what I suggest:
+When every person has a DIY air purifier and every economics concept a coconut-based model, this site will be at peace. Until then, here's what I suggest:
 
 * First priority in life: Your physical health. (No health → no life.)
 * Second priority: *Reasonable* financial security. (No food → no health.)
@@ -67,7 +67,7 @@ Not sure where to get started?
 * [Are some personalities just better](/better-personalities)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
 
-**Made the internet really mad** (they're wrong I tell you, all wrong)
+**Made the internet oddly mad** (they're wrong I tell you, all wrong)
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
 
 <!-- Most popular:
