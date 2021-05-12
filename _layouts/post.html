@@ -142,8 +142,6 @@ layout: default
     {% endcomment %}
 
 
-  </div></div></div>
-
     <!--
 </section>
 -->
@@ -153,7 +151,7 @@ layout: default
 {% endcomment %}
 
 <div class="columns is-multiline">
-  {% assign maxRelated = 4 %}
+  {% assign maxRelated = 2 %}
   {% assign numPrinted = 0 %}
   {% for negCommonTags in (1..4) %}
     {% assign minCommonTags = 5 | minus: negCommonTags %}
@@ -182,7 +180,8 @@ layout: default
     {% endfor %}
   {% endfor %}
       </div>
-  
+
+
       <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
@@ -204,3 +203,6 @@ layout: default
         <br>
         <!-- </details> -->
         </div> 
+
+
+      </div></div></div>
