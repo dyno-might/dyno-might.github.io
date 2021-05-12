@@ -17,7 +17,7 @@ After that you can do whatever. The game you're playing doesn't have any rules, 
 
 ---
 
-You can subscribe here to get new articles. Owing to the fantastical amount of time articles take me to create, there will typically be 1-3 per month. Sometimes there's extra content I don't feel comfortable sharing with the internet.
+You can subscribe here to get new articles. Owing to the fantastical amount of time they take me to create, there will typically be 1-3 per month. Occasionally there's also extra content I don't feel comfortable sharing with the internet.
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
