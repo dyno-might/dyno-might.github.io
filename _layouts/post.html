@@ -148,7 +148,9 @@ layout: default
 </section>
 -->
 
+{% comment %}
 <div class="headerfont" style="font-size:130%; text-align:center;">RELATED</div>
+{% endcomment %}
 
 <div class="columns is-multiline">
   {% assign maxRelated = 4 %}
@@ -169,7 +171,8 @@ layout: default
       {% endfor %}
       {% if sameTagCount == minCommonTags %}
         <div class="column is-6">
-          {% include post-item.html %}
+          {% assign nodate=1 %}
+          {% include post-item.html%}
       </div>
         {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
         {% if maxRelatedCounter >= maxRelated %}

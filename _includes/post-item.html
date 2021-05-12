@@ -12,11 +12,14 @@
             {{post.title}}
           </p>
     </div>
+    {% if nodate %}
+    {% else %}
     <div style="position:absolute;  bottom: 10px; right: 10px; font-family:Montserrat;">
       <p class="subtitle is-6" style="color:white; text-shadow:0 0 5px rgba(0,0,0,1.0);">
         {{ post.date | date: "%b %-d, %Y" }}
       </p>
     </div>
+    {% endif %}
 <!--    </div> -->
     {% comment %}
     <div class="card-content">
