@@ -42,6 +42,8 @@ Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
 RSS feed: <https://dynomight.net/feed.xml>
 
+Email: Use the form at the bottom of this page.
+
 <!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
 <input type="text" name="text" placeholder="your@email.com" style="font-family:monospace;" /> 
@@ -66,8 +68,11 @@ Not sure where to get started?
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
 
 **Psychology**
-* [Are some personalities just better](/better-personalities)
+* [Are some personalities just better?](/better-personalities)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
+
+**Things to never do**
+* [What happens if you drink acetone?](2020/09/14/what-happens-if-you-drink-acetone/)
 
 **Made the internet oddly mad** (they're wrong I tell you, all wrong)
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
@@ -88,3 +93,29 @@ Not popular, but I wish they were:
 
 Most hated (they're wrong I tell you, all wrong):
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->
+
+---
+
+Feedback? Questions? Help with my ever-proliferating collection of typos?
+
+<div style="text-align:left;">
+        <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
+        <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+          <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
+          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+          <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
+          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply only)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          {% comment %}
+          <span class="headerfont" style="font-size:70%; ">subscribe?</span>
+          <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
+          {% endcomment %}
+          <input type="text" name="_honey" style="display:none"> 
+          <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+          <input type="hidden" name="_captcha" value="false"> 
+          <input type="hidden" name="_url" value="https://dynomight.net/">
+          <button type="submit" class="headerfont" style="padding:10px;">SEND</button> 
+        </form>
+        <!-- <span class="headerfont" style="font-size:60%;">Help with my ever-proliferating collection of typos, please.</span> -->
+        <br>
+        <!-- </details> -->
+        </div> 
