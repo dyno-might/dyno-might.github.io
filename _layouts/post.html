@@ -65,31 +65,6 @@ layout: default
 <section class="section">
   -->
 
-  <div class="columns is-centered">
-    <div class="column is-8-desktop is-10-tablet">
-        <div class="content">
-
-{% comment %}
-  <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#666666; border-radius: 5px;" id="form"> 
-{% endcomment %}
-  <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-  <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-    <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:130%;">get more dynomight</div> 
-    <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:8px; border:0;" required> 
-    <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-    <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-    <input type="hidden" name="_captcha" value="false" /> 
-    <input type="hidden" name="_url" value="https://dynomight.net/" />
-    {% comment %}<span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:rgba(204, 146, 37, 0.5);">{% endcomment %}
-    <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-    <span style="max-width: 50%; border-style:none; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-    <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">SUBSCRIBE/DONE</button> 
-    </span>
-    <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-  </form>
-</div>
-
-
 
 <!-- <div style="background-image:url('/img/deathvalleysky_prog.jpg')"> -->
 
@@ -150,6 +125,8 @@ layout: default
 <div class="headerfont" style="font-size:130%; text-align:center;">RELATED</div>
 {% endcomment %}
 
+<div class="columns is-centered">
+  <div class="column is-8-desktop is-10-tablet">
 <div class="columns is-multiline">
   {% assign maxRelated = 2 %}
   {% assign numPrinted = 0 %}
@@ -178,10 +155,16 @@ layout: default
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% if maxRelatedCounter >= maxRelated %}
+      {% break %}
+      {% endif %}
   {% endfor %}
       </div>
+    </div>
+  </div>
 
 
+      {% comment %}
       <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
@@ -203,6 +186,30 @@ layout: default
         <br>
         <!-- </details> -->
         </div> 
+        {% endcomment %}
 
 
-      </div></div></div>
+        <div class="columns is-centered">
+          <div class="column is-8-desktop is-10-tablet">
+              <div class="content">
+      {% comment %}
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#666666; border-radius: 5px;" id="form"> 
+      {% endcomment %}
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
+        <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+          <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:130%;">get more dynomight</div> 
+          <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:8px; border:0;" required> 
+          <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
+          <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+          <input type="hidden" name="_captcha" value="false" /> 
+          <input type="hidden" name="_url" value="https://dynomight.net/" />
+          {% comment %}<span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:rgba(204, 146, 37, 0.5);">{% endcomment %}
+          <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
+          <span style="max-width: 50%; border-style:none; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
+          <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">SUBSCRIBE/DONE</button> 
+          </span>
+          <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
+        </form>
+      </div>
+
+</div></div></div>
