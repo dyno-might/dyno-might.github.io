@@ -108,7 +108,7 @@ There's also value in looking at sub-traits. In particular, *Agreeableness* has 
 
 ## The darkness hypothesis
 
-Why are recent presidents usually extraverted and low agreeableness, but otherwise so mixed? Here's my guess:
+Why are recent presidents usually extraverted and low in agreeableness, but otherwise so mixed? Here's my guess:
 
 ![relationships of the big five with darker traits](/img/personalities/badvals.svg)
 
@@ -118,7 +118,7 @@ How do we arrive at a spectrum of psychopathy? It's the same equilibrium process
 
 ## Summary
 
-All-blues might really be happier and healthier. If so, it could a result of late modernity, or it might have always been true. Still, that doesn't mean that evolution will favor all-blues, or that all-blues are "more successful".
+All-blues might really be happier and healthier. If so, it could be a result of late modernity, or it might have always been true. Still, that doesn't mean that evolution will favor all-blues, or that all-blues are "more successful".
 
 What about the rest of us, who aren't all-blue? (Market research suggests my median reader is high openness and conscientiousness, but low extraversion and agreeableness.)
 
