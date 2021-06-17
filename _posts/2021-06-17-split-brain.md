@@ -25,7 +25,7 @@ img{
 
 What happens if you cut your cortex in half? When this was first tried on animals, the answer amazingly seemed to be *not much*. But starting in the late 1950s, a series of [split-brain](https://en.wikipedia.org/wiki/Split-brain) experiments found that very weird things happen under careful testing. This was done first in cats, then monkeys, and eventually humans.
 
-These experiments are fascinating for their implications into the mind, consciousness, and selfhood. However, existing presentations of these experiments tend to have a strong interpretive narrative. When I went back and actually read the original papers, I concluded these narratives are dangerous. It's way to see to explain away inconvenient results everywhere to tell whatever story you want to tell.
+These experiments are fascinating for their implications into the mind, consciousness, and selfhood. However, existing presentations of these experiments tend to have a strong interpretive narrative. When I went back and actually read the original papers, I concluded these narratives are dangerous. It's way too easy to explain away inconvenient results everywhere to tell whatever story you want.
 
 These experiments are just *so* weird, and their implications *so* fascinating, that the only way to make sure you're getting an accurate picture is to focus on the facts: What was actually done, and what was observed?
 
