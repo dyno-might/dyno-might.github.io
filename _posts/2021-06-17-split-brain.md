@@ -2,7 +2,7 @@
 layout: post
 title: "A review of early split-brain animal experiments"
 image: /img/split-brain/cat.jpg
-tags: selfImprovement science
+tags: science
 hero_light: false
 dark_title: false
 background_color: black
