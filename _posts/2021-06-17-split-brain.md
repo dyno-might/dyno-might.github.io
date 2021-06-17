@@ -186,7 +186,7 @@ I don't understand in what order Chr and Myn did the easy and hard tasks. I gues
 
 ![Trevarthen 1962 title](/img/split-brain/trevarthen1962title.jpg)
 
-C. B Trevarthen, [Science, 1962](https://doi.org/10.1126/science.136.3512.258). (Although since that paper has few details, the actual data below is from Trevarthen's [PhD thesis](https://thesis.library.caltech.edu/6603/1/Trevarthen_cb_1962.pdf).)
+[Science, 1962](https://doi.org/10.1126/science.136.3512.258). (Although the actual data below is from Trevarthen's [PhD thesis](https://thesis.library.caltech.edu/6603/1/Trevarthen_cb_1962.pdf).)
 
 **WHAT HE WANTED TO TEST.** The previous experiments train one hemisphere and then test on the other. What if we take a monkey, sever the hemispheres as much as possible, and then show the two hemispheres contradictory things *simultaneously*? Will these monkeys get less confused than monkeys with intact brains?
 
