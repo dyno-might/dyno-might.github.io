@@ -8,7 +8,7 @@ dark_title: false
 background_color: black
 description: "What happens if you cut your brain in half?"
 permalink: /split-brain/
-background_color: rgb(165, 157, 138)
+background_color: rgb(199, 198, 229)
 head: "<style>
 details{
     }
