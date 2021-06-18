@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A review of early split-brain animal experiments"
+title: "A review of early split-brain experiments"
 image: /img/split-brain/cat.jpg
 tags: science
 hero_light: false
@@ -23,13 +23,11 @@ img{
 </style>"
 ---
 
-What happens if you cut your cortex in half? When this was first tried on animals, the answer amazingly seemed to be *not much*. But starting in the late 1950s, a series of [split-brain](https://en.wikipedia.org/wiki/Split-brain) experiments found that very weird things happen under careful testing. This was done first in cats, then monkeys, and eventually humans.
+What happens if you cut your cortex in half? When this was first tried on animals, the answer seemed to be *not much*. But starting in the late 1950s, a series of experiments found that very weird things happen under careful testing. These experiments are fascinating for their implications into the mind, consciousness, and selfhood.
 
-These experiments are fascinating for their implications into the mind, consciousness, and selfhood. However, existing presentations of these experiments tend to have a strong interpretive narrative. When I went back and actually read the original papers, I concluded these narratives are dangerous. It's way too easy to explain away inconvenient results everywhere to tell whatever story you want.
+Existing presentations of these experiments have a lot of <strike>philosophical rambling</strike> interpretive narrative. This is dangerous. When I actually read the original papers, I was shocked how much they diverged from what I'd read before. If you have a story for what's happening, it's way too easy to explain away inconvenient results everywhere.
 
-These experiments are just *so* weird, and their implications *so* fascinating, that the only way to make sure you're getting an accurate picture is to focus on the facts: What was actually done, and what was observed?
-
-Here I'll review early animal experiments, particularly those that set the stage for [Roger Sperry's](https://en.wikipedia.org/wiki/Roger_Wolcott_Sperry) later research on humans.
+These experiments are just *so* weird, and their implications *so* fascinating, that the only way to make sure you're getting an accurate picture is to focus on the facts: What was actually done, and what was observed? Here I'll review early animal experiments, particularly those that set the stage for [Roger Sperry's](https://en.wikipedia.org/wiki/Roger_Wolcott_Sperry) later research on humans.
 
 ## A Reminder About Mammal Brains
 
