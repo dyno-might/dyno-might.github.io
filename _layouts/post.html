@@ -109,12 +109,10 @@ layout: default
     <span style="max-width: 50%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
     <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
     </span>
-    {% comment %}
     <br>
     <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.9);">
     <label for="guide" class="headerfont" style="color:white; margin-top:5px; padding:0px; font-size:65%;">also send dynomight guide to life</label>
     <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-    {% endcomment %}
   </form>
   </div>
 
@@ -223,16 +221,15 @@ layout: default
       {% endif %}
   {% endfor %}
       </div>
-    </div>
-  </div>
-
 
       {% comment %}
+      <div class="headerfont" style="font-size:130%; text-align:center;">RESPOND</div>
+      {% endcomment %}
       <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+          <textarea type="text" name="text" class="headerfont" placeholder="Comments?" style="margin-bottom:10px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all; border-radius: 5px;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
           <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply only)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
@@ -249,6 +246,7 @@ layout: default
         <br>
         <!-- </details> -->
         </div> 
-        {% endcomment %}
 
- 
+      </div>
+    </div>
+  
