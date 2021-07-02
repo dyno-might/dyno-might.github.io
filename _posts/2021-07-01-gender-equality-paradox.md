@@ -53,7 +53,7 @@ table{
 </style>"
 ---
 
-The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. It turns out that the debate in the scientific literature is largely about *causality*, despite that there's no agreement about a more basic question: Does the paradox actually *exist*, or is it just an illusion caused by a contrived way of analyzing the data?
+The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. It turns out that the debate in the scientific literature is largely about *causality*, despite that there's no agreement about a more basic question: Does the paradox even *exist*, or is it just an illusion caused by a contrived data analysis?
 
 {% comment %}
 To answer that, let's check how robust the paradox is. Does it stand up if we change how we measure *gender equality* or *women in STEM careers*?
