@@ -2,7 +2,7 @@
 layout: post
 title: "Does the gender-equality paradox actually exist?"
 image: /img/gender-equality-paradox/sign3.jpg
-tags: science
+tags: policy statistics personality
 hero_light: false
 dark_title: false
 background_color: black
