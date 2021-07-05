@@ -225,7 +225,7 @@ A third alternative is BIGI, as suggested by Richardson et al. Be *very* careful
 
 The more women are favored, the more non-STEM degrees they earn. With STEM degrees, women earn the smallest share for BIGI ≈ -.02, where women are *just slightly* favored. The fraction increases when there's more inequality in either direction. Comparing BIGI to propensities gives a <a href="/img/gender-equality-paradox/bigi_vs_female_propensity.pdf">stronger, but less symmetric, effect</a>.
 
-While we're on the subject... The red dots in the above graph show the same data as in Richardson et al.'s commentary [above](#act-iii), which they used to claim that there was no gender-equality-paradox. (You can see them by themselves with country labels [here](https://dynomight.net/img/gender-equality-paradox/bigi_vs_female_share.pdf). What's going on?
+While we're on the subject... The red dots in the above graph show the same data as in Richardson et al.'s commentary [above](#act-iii), which they used to claim that there was no gender-equality-paradox. (You can see them by themselves with country labels [here](https://dynomight.net/img/gender-equality-paradox/bigi_vs_female_share.pdf).) What's going on?
 
 <details>
 <summary>
