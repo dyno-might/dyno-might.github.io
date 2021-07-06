@@ -1,6 +1,10 @@
 <head>
 
   <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Light.ttf" as="font" type="font/ttf" crossorigin />
+  
+  {% if page.image %}
+  <link rel="preload" as="image" href="{{page.image}}" />
+  {% endif %}
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
