@@ -1,18 +1,9 @@
----
-layout: none
-sitemap: false
-permalink: /mbti/
----
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Fastest Meyers-Briggs quiz (2 minutes)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Get MBTI peronality results
-immediately, for free, with no ads, signups, or other tricks. Designed
-to be taken quickly on a phone in a loud bar."></head>
-<style>
+    <style>
         #top{
             /*width:95%;*/
             /*border: 5px solid orange;*/
@@ -39,7 +30,7 @@ to be taken quickly on a phone in a loud bar."></head>
             margin: 0;
             /* border: 5px solid pink;*/
             font-size: 1.5em;
-            font-family: Garamond;
+            font-family: Helvetica;
         }
         div.row{
             display:table-row;
@@ -165,9 +156,8 @@ function updateprogress(done){
         // try to keep a few questions ahead
         where2scroll = rownum+3
         //if(where2scroll<q_lo.length){
-        if(rownum+3<q_lo.length){
-            myid = "row"+where2scroll;
-            document.getElementById(myid).scrollIntoView(false);
+        if(rownum+2<q_lo.length){
+            document.getElementById("row"+where2scroll).scrollIntoView(false); 
         } else{ // if near end, show results
             document.getElementById("aftergraph").scrollIntoView(false); 
         }
@@ -175,7 +165,7 @@ function updateprogress(done){
 
     done = find_num_answered()
     //txt = "" + done + "/" + q_lo.length+" "
-    txt = ((done/q_lo.length)*100).toFixed(0)+"% done"
+    txt = ((done/q_lo.length)*100).toFixed(0)+"%"
     $("#progress").html(txt)
     //$("#progress2").html(txt)
     //return rownum;
@@ -485,12 +475,10 @@ function describe_letters(IE,SN,FT,JP){
 <body onload="setup();">
 
 <div id="top">
-  <br>2-MINUTE MBTI QUIZ
-  <br><span style="font-size:80%;">Get your Myers-Briggs results immediately when done.</span>
-  <br><span style="font-size:80%;">Free. Absolutely no signup or other tricks.</span>
+<br>MBTI QUIZ
 <!--<br>click to choose, ↑ to go back
 <br>keyboard: 1-5 to choose, 0 to go back-->
-<p>keyboard: 1-5 to choose ⌫ to go back
+<br>keyboard: 1-5 to choose ⌫ to go back
 <!--<br>results display immediately when done-->
 <p>
 </div>

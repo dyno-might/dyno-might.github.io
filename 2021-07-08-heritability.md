@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "It’s perfectly valid for a trait to be more than 100% heritable."
-image: /img/heritability/eggs.jpg
+image: /img/heritability/eggs3.jpg
 tags: statistics personality
 hero_light: false
 dark_title: false
@@ -272,7 +272,7 @@ It doesn't matter if more equal education is a good idea, or even if we truly ar
 
 2. Heritability depends on the amount of genetic variance in the population. If people have similar genes, heritability goes down. You don't need anything dramatic like new mutations.
 
-3. If genetics are correlated with the environment, surprising things can happen. For example, heritability can be higher than 100%.
+3. If genetics are correlated with the environment, weird things can happen. If environmental correlations decrease variance, then total variance might be lower then genetic variance. If so, heritability is greater than 100%!
 
 Heritability is really just a ratio of variances. You'll mislead yourself thinking about it any other way.
 
