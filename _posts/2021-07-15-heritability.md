@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "It’s perfectly valid for a trait to be more than 100% heritable."
-image: /img/heritability/eggs3.jpg
+image: /img/heritability/birds.jpg
 tags: statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "Explains the true definition of heritability, how heritability depends on society, and it is always changing."
+description: "What heritability really is: It's a fluid statistic that changes when society changes."
 permalink: /heritability/
 background_color: rgb(3,4,8)
 head: "<style>
@@ -53,15 +53,15 @@ table{
 </style>"
 ---
 
-All psychological traits are heritable. This is [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Here's some recent numbers:
+All psychological traits are heritable. This is [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:
 
 * Religiosity: [44%](https://doi.org/10.1111%2Fj.1467-6494.2005.00316.x)
 * Schizophrenia: [79%](https://doi.org/10.1016/j.biopsych.2017.08.017)
 * [Big five](https://dynomight.net/better-personalities/) personality traits: [~50%](https://doi.org/10.1111/j.1467-6494.2005.00316.x)
 
-But what, precisely, does "heritability" mean?
+But what, exactly, does "heritability" mean?
 
-I used to have a mental model where each person has some number of religiosity points that comes from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured something like this:
+I used to have a mental model something like this:  Each person has some number of religiosity points that comes from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
 
 <div style="font-size:100%;" markdown="1">
 ```
@@ -71,14 +71,14 @@ I used to have a mental model where each person has some number of religiosity p
 ```
 </div>
 
-The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the [number of chromosomes](https://en.wikipedia.org/wiki/Chromosome#Number_in_various_organisms) in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant).
+The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant).
 
 So what *is* heritability? It's the ratio of the *genetic variance* of a trait with the *total variance*, including all causes. Since the environment is always changing, so is heritability.
 
 Let's explore this definition. We'll see that it leads to several puzzles:
-* Why is heritability often higher for traits that seem less important? Why, for example, is pig back-fat thickness fourteen times more heritable than litter size?
+* Why is heritability often higher for traits that seem less important? Why, for example, is pig back-fat thickness 14× more heritable than pig litter size?
 * How, even when there are large environmental effects, can a trait still be 100% heritable?
-* How it's perfectly valid for a trait to be *more than* 100% heritable.
+* How, when there are correlations between genes and the environment, traits can be *more than* 100% heritable.
 
 The only math we'll use is the concept of [variance](https://en.wikipedia.org/wiki/Variance). If you're not familiar with that, just think of it as "how variable" something is. Humans have high variance in how much we like folk music, but low variance in our number of fingers.
 
@@ -167,9 +167,11 @@ If the two groups are fed equally, then height is 100% heritable. If the feast g
 
 #### Example: Changing the heritability of IQ
 
-Research suggests that childhood lead exposure can decrease IQ by [5-10 points](https://doi.org/10.1289%2Fehp.7688) and heavy prenatal [alcohol](https://dynomight.net/alcohol) exposure can decrease IQ by [15-20 points](https://doi.org/10.1016/S0022-3476(97)70099-4). Current estimates are that intelligence is [40-80%](https://dx.doi.org/10.1038%2Fmp.2014.105) heritable. But suppose society managed to eliminate lead and alcohol exposure. Environmental variance would decrease, and heritability would go up. If we wanted to go to extreme lengths, it's possible to push the heritability of *all* traits to 100%. Just make sure each person is exposed to *completely identical environments*.
+Research suggests that childhood lead exposure can decrease IQ by [5-10 points](https://doi.org/10.1289%2Fehp.7688) and heavy prenatal [alcohol](https://dynomight.net/alcohol) exposure can decrease IQ by [15-20 points](https://doi.org/10.1016/S0022-3476(97)70099-4). Current estimates are that intelligence is [40-80%](https://dx.doi.org/10.1038%2Fmp.2014.105) heritable. But suppose society managed to eliminate lead and alcohol exposure. Environmental variance would decrease, and heritability would go up.
 
-In principle, one could decrease the heritability of IQ by doing the opposite: Take half of kids and make it illegal to teach them to read or whatever. Take the other half of kids and give them private tutors. Environmental variance would increase, and heritability would go down.
+In theory, it's possible to push the heritability of *all* traits to 100%. Just make sure each person is exposed to *completely identical environments*. (You can argue that free will or quantum mechanics or the butterfly effect means there is no such thing as two identical environments, but let's not get distracted.)
+
+One could decrease the heritability by doing the opposite: Take half of kids and make it illegal to teach them to read or whatever. Then, take the other half of kids and give them private tutors. Environmental variance would increase, and heritability would go down.
 
 
 ## The purge
@@ -266,9 +268,9 @@ Now, imagine that society is reformed to remove correlations between genetic int
 
 It doesn't matter if more equal education is a good idea, or even if we truly are in a "starve the short" regime now. The point is that *heritability depends on society*.
 
-## Three Takeaways
+## Three key takeaways
 
-1. Heritability depends on society. Less random environments lead to higher heritability. If everyone had completely equal environments, the heritability of every trait would be 100%.
+1. Less random environments lead to higher heritability. If everyone had completely equal environments, every trait would be 100% heritable.
 
 2. Heritability depends on the amount of genetic variance in the population. If people have similar genes, heritability goes down. You don't need anything dramatic like new mutations.
 
