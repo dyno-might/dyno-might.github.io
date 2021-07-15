@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On Heritability"
+title: "It’s perfectly valid for a trait to be more than 100% heritable."
 image: /img/heritability/eggs.jpg
 tags: statistics personality
 hero_light: false
