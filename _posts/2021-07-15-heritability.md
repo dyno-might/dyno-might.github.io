@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "It’s perfectly valid for a trait to be more than 100% heritable."
+title: "It’s perfectly valid for a trait to be more than 100% heritable"
 image: /img/heritability/birds.jpg
 tags: statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "What heritability really is: It's a fluid statistic that changes when society changes."
+description: "What heritability really is: A fluid statistic that changes whenever society changes."
 permalink: /heritability/
-background_color: rgb(3,4,8)
+background_color: rgb(60,64,50)
 head: "<style>
 details{
     }
@@ -118,8 +118,8 @@ With all these assumptions, can we calculate heritability? Not yet! We need the 
 
 | population distribution | diet | feast |
 | ----------------------- | ---- | ----- |
-| **short**               | .25  | .25   |
-| **tall**                | .25  | .25   |
+| **short**               | ¼  | ¼   |
+| **tall**                | ¼  | ¼   |
 
 ## The definition of heritability
 
