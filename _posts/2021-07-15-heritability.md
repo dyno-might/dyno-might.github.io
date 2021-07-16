@@ -78,7 +78,7 @@ So what *is* heritability? It's the ratio of the *genetic variance* of a trait w
 Let's explore this definition. We'll see that it leads to several puzzles:
 * Why is heritability often higher for traits that seem less important? Why, for example, is pig back-fat thickness 14× more heritable than pig litter size?
 * How, even when there are large environmental effects, can a trait still be 100% heritable?
-* How, when there are correlations between genes and the environment, traits can be *more than* 100% heritable.
+* How, when there are correlations between genes and the environment, can traits can be *more than* 100% heritable?
 
 The only math we'll use is the concept of [variance](https://en.wikipedia.org/wiki/Variance). If you're not familiar with that, just think of it as "how variable" something is. Humans have high variance in how much we like folk music, but low variance in our number of fingers.
 
@@ -92,14 +92,14 @@ One note on terminology: Biologists use "phenotype" to refer to what actually ha
 
 ## Simplest example
 
-Say that people's height depends on only one gene, which can be either **short** or **tall**. The genetic contribution to height is 2m is they get the short gene, and 4m if they get the tall gene. (The math is easier if we make everyone giants.)
+Say that people's height depends on only one gene, which can be either **short** or **tall**. The genetic contribution to height is 2m if they get the short gene, and 4m if they get the tall gene. (The math is easier if we make everyone giants.)
 
 | **genes** | Genetic value |
 | --------- | ------------- |
 | short     | 2             |
 | tall      | 4             |
 
-The only thing that matters in the environment is food. At birth, people are assigned to either be on a **diet** or to **feast**. If on a diet, they lose 1m of height compared to their genetic baseline. If on a feast, they gain 1m of height.
+The only thing that matters in the environment is food. At birth, people are assigned either to **diet** or to **feast**. If on a diet, they lose 1m of height compared to their genetic baseline. If on a feast, they gain 1m of height.
 
 | **env** | Environmental value |
 | ------- | ------------------- |
@@ -132,9 +132,9 @@ Given any trait with P=G+E, the (broad-sense) heritability is
 </div>
 
 
-Heritability is how much the *genetic* contribution to the trait varies as compared to how much does that trait varies *overall*. These variances are computed with respect to random people from the population.  
+Heritability is how much the *genetic* contribution to the trait varies as compared to how much that trait varies *overall*. These variances are computed with respect to random people from the population.  
 
-In the above example, the variance of E is one, since it is -1 half the time, and +1 the other half. For similar reasons, the variance of G is one. Since the genes and the environment are independent, the [variance of their sum](https://en.wikipedia.org/wiki/Variance#Sum_of_uncorrelated_variables_(Bienaym%C3%A9_formula)) is **var(P)=var(G)+var(E)**. This tells us that
+In the above example, the variance of E is one, since it is -1 half the time, and +1 the other half. Similarly, G is always one off from its mean of three, so the variance of G is also one. Since the genes and the environment are independent, the [variance of their sum](https://en.wikipedia.org/wiki/Variance#Sum_of_uncorrelated_variables_(Bienaym%C3%A9_formula)) is **var(P)=var(G)+var(E)**. This tells us that
 
 <div style="text-align:center; padding-bottom:10pt;" markdown="1">
 

@@ -91,160 +91,57 @@ layout: default
 </section>
 -->
 
+{% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
 <div class="columns is-centered">
   <div class="column is-8-desktop is-10-tablet">
       <div class="content">
 
-{% comment %}
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-  <a href="/about.html"><div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:220%;">ABOUT</div></a>
-</div>
-{% endcomment %}
+        {% comment %} RELATED BLOCK {% endcomment %}
+        <div class="container">
+        <center>
+        <div class="headerfont" ><span style="font-size:130%;">RELATED</span>
+        {%- assign maxRelated = 4 -%}
+        {%- assign numPrinted = 0 -%}
+        {%- for negCommonTags in (1..4) -%}
+          {% assign minCommonTags = 5 | minus: negCommonTags %}
+          {%- for post in site.posts -%}
+            {%- assign sameTagCount = 0 -%}
+            {%- assign commonTags = '' -%}
+            {%- for tag in post.tags -%}
+              {%- if post.url != page.url -%}
+                {%- if page.tags contains tag -%}
+                  {% assign sameTagCount = sameTagCount | plus: 1 %}
+                  {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+                  {% assign commonTags = commonTags | append: tagmarkup %}
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+            {%- if sameTagCount == minCommonTags -%}
+              <p style="margin-top:8px;">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+              {%- if maxRelatedCounter >= maxRelated -%}
+                {% break %}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+        </div>
+            </center>
+            </div>
 
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-  <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-    <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div> 
-    <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:8px; border:0;" required> 
-    <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-    <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-    <input type="hidden" name="_captcha" value="false" /> 
-    <input type="hidden" name="_url" value="https://dynomight.net/" />
-    {% comment %}<span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:rgba(204, 146, 37, 0.5);">{% endcomment %}
-    <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-    <span style="max-width: 50%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-    <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
-    </span>
-    <br>
-    <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.9);">
-    <label for="guide" class="headerfont" style="color:white; margin-top:5px; padding:0px; font-size:65%;">also send dynomight guide to life</label>
-    <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-  </form>
-  </div>
+            <p>
 
-  {% comment %}
-<a href="/about.html">
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-    <div class="headerfont" style="color:white; margin-bottom:2px; padding:30px; font-size:200%;">ABOUT DYNOMIGHT INTERNET WEBSITE</div> 
-  </div>
-</a>
-{% endcomment %}
 
-<br>
-<div class="container">
-<center>
-<div class="headerfont" ><span style="font-size:130%;">RELATED</span>
-{% assign maxRelated = 4 %}
-{% assign numPrinted = 0 %}
-{% for negCommonTags in (1..4) %}
-  {% assign minCommonTags = 5 | minus: negCommonTags %}
-  {% for post in site.posts %}
-    {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
-    {% for tag in post.tags %}
-      {% if post.url != page.url %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% assign commonTags = commonTags | append: tagmarkup %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% if sameTagCount == minCommonTags %}
-      <p style="margin-top:8px;">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</div>
-    </center>
-    </div>
-
-</div></div></div>
-
-{% comment %}
-<div class="columns is-centered">
-  <div class="column is-8-desktop is-10-tablet">
-      <div class="content">
-{% comment %}
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-color:#666666; border-radius: 5px;" id="form"> 
-{% endcomment %}
-<div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-<form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-  <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:130%;">get more dynomight</div> 
-  <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:8px; border:0;" required> 
-  <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-  <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-  <input type="hidden" name="_captcha" value="false" /> 
-  <input type="hidden" name="_url" value="https://dynomight.net/" />
-  {% comment %}<span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:rgba(204, 146, 37, 0.5);">{% endcomment %}
-  <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-  <span style="max-width: 50%; border-style:none; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-  <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">SUBSCRIBE</button> 
-  </span>
   <br>
-  <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.9);">
-  <label for="guide" class="headerfont" style="color:white; margin-top:5px; padding:0px; font-size:65%;">also send dynomight guide to life</label>
-  <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-</form>
-</div>
-
-</div></div></div>
-{% endcomment %}
-
-{% comment %}
-<div class="headerfont" style="font-size:130%; text-align:center;">RELATED</div>
-{% endcomment %}
-
-<div class="columns is-centered">
-  <div class="column is-8-desktop is-10-tablet">
-<div class="columns is-multiline">
-  {% assign maxRelated = 2 %}
-  {% assign numPrinted = 0 %}
-  {% for negCommonTags in (1..4) %}
-    {% assign minCommonTags = 5 | minus: negCommonTags %}
-    {% for post in site.posts %}
-      {% assign sameTagCount = 0 %}
-      {% assign commonTags = '' %}
-      {% for tag in post.tags %}
-        {% if post.url != page.url %}
-          {% if page.tags contains tag %}
-            {% assign sameTagCount = sameTagCount | plus: 1 %}
-            {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-            {% assign commonTags = commonTags | append: tagmarkup %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% if sameTagCount == minCommonTags %}
-        <div class="column is-6">
-          {% assign nodate=1 %}
-          {% include post-item.html%}
-      </div>
-        {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-        {% if maxRelatedCounter >= maxRelated %}
-          {% break %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% if maxRelatedCounter >= maxRelated %}
-      {% break %}
-      {% endif %}
-  {% endfor %}
-      </div>
-
-      {% comment %}
-      <div class="headerfont" style="font-size:130%; text-align:center;">RESPOND</div>
-      {% endcomment %}
+      {% comment %}RESPOND BLOCK{% endcomment %}
+      <div class="headerfont" style="font-size:130%; text-align:center;">RESPOND / SUBSCRIBE</div>
       <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all; border-radius: 5px; padding:5px;"></textarea>
+          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:0px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all; border-radius: 5px; padding:5px;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply only)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
@@ -253,6 +150,12 @@ layout: default
           <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
           <input type="hidden" name="_captcha" value="false"> 
           <input type="hidden" name="_url" value="https://dynomight.net/">
+          <input type="checkbox" id="sub" name="sub" value="sub" style="transform: scale(.9);">
+          <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:65%;">subscribe</label>
+          <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.9);">
+          <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:65%;">also get dynomight guide to life</label>
+          <br>
+          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply or sub)" style="margin-bottom:10px; padding:10px; min-width:30ch;"/> 
           <button type="submit" class="headerfont" style="padding:10px;">SEND</button> 
         </form>
         <!-- <span class="headerfont" style="font-size:60%;">Help with my ever-proliferating collection of typos, please.</span> -->
@@ -260,6 +163,42 @@ layout: default
         <!-- </details> -->
         </div> 
 
+
+        {% comment %} SIGNUP BLOCK {% endcomment %}
+        {% comment %}
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
+          <a href="/about.html"><div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:220%;">ABOUT</div></a>
+        </div>
+        {% endcomment %}
+        {% comment %}
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
+          <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+            <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div> 
+            <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 50%; margin-bottom:8px; padding:8px; border:0;" required> 
+            <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
+            <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+            <input type="hidden" name="_captcha" value="false" /> 
+            <input type="hidden" name="_url" value="https://dynomight.net/" />
+            <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
+            <span style="max-width: 50%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
+            <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
+            </span>
+            <br>
+            <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.9);">
+            <label for="guide" class="headerfont" style="color:white; margin-top:5px; padding:0px; font-size:65%;">also send dynomight guide to life</label>
+            <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
+          </form>
+          </div>
+          {% endcomment %}
+          {% comment %}
+        <a href="/about.html">
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
+            <div class="headerfont" style="color:white; margin-bottom:2px; padding:30px; font-size:200%;">ABOUT DYNOMIGHT INTERNET WEBSITE</div> 
+          </div>
+        </a>
+        {% endcomment %}
+
+      </div> {% comment %} ends content div {% endcomment %}
       </div>
     </div>
   
