@@ -135,7 +135,12 @@ layout: default
 
   <br>
       {% comment %}RESPOND BLOCK{% endcomment %}
-      <div class="headerfont" style="font-size:130%; text-align:center;">RESPOND / SUBSCRIBE</div>
+      
+      
+      <div class="headerfont" style="font-size:130%; text-align:center;">
+        
+        {% comment %}
+        RESPOND / SUBSCRIBE</div>
       <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
@@ -163,7 +168,7 @@ layout: default
         <br>
         <!-- </details> -->
         </div> 
-
+        {% endcomment %}
 
         {% comment %} SIGNUP BLOCK {% endcomment %}
         {% comment %}
@@ -199,8 +204,22 @@ layout: default
         </a>
         {% endcomment %}
 
-
-      </div> {% comment %} ends content div {% endcomment %}
+        <a href="https://dynomight.substack.com/">
+        <div style="font-family:system-ui; font-size:140%; color:black; font-weight:bold; display:block; text-align: center;">dynomight</div>
+      </a>
+      <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="text-align: center;"> 
+        <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
+        <input type="text" name="_honey" style="display:none"> 
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="hidden" name="_captcha" value="false"> 
+        <input type="hidden" name="_url" value="https://dynomight.net/">
+        <input type="email" name="email" class="headerfont" placeholder="Type your email..." style="position:relative; min-width:29ch; color:black; border: 1px solid #CC5A25; margin-right:none; height:40pt; vertical-align:top; padding-left:7pt; border-top-left-radius: 3pt; border-bottom-left-radius: 3pt;"/><button type="submit" style="position:relative; height:40pt; color:white; background-color:#CC5A25; border: 1px solid #CC5A25; font-size:80%; font-weight:700; font-family:system-ui; vertical-align:top; padding-left:20pt; padding-right:20pt; border-top-right-radius: 3pt; border-bottom-right-radius: 3pt;">Subscribe</button> 
+        <br>
+      
+        {% comment %}
+        <iframe src="https://dynomight.substack.com/embed" width="100%" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no" loading="lazy"></iframe>
+        {% endcomment %}
+      </div> 
       </div>
     </div>
   
