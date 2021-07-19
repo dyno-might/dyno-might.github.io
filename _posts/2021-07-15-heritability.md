@@ -194,7 +194,7 @@ Heritability decreases hugely if the population gets really imbalanced in either
 
 #### Example: Hair in Japan
 
-How heritable is hair color in Japan, before anyone goes grey? Say 99% of people have genes for black hair, so **var(G)** is very low. Yet, lots of people have (artificially) non-black hair, so **var(P)** will be reasonably high. Assume that the choice to dye your hair isn't genetically determined. Then, hair color in Japan has low heritability. (Lower, for example, than the US, which has more genetic diversity in hair color.) At the same time, we know that genes pretty much 100% determine what color hair grows on your head. Heritability is not a measure of importance.
+How heritable is hair color in Japan, before anyone goes grey? Say 99% of people have genes for black hair, so **var(G)** is very low. Yet, lots of people have (artificially) non-black hair, so **var(P)** will be reasonably high. Assume that the choice to dye your hair isn't genetically determined. Then, hair color in Japan has low heritability. (Lower, for example, than the US, which has more genetic diversity in hair color.) At the same time, we know that genes pretty much 100% determine what color hair grows on your head. Heritability is not a measure of how genes are in their effects.
 
 #### Example: Heritability in different species
 
