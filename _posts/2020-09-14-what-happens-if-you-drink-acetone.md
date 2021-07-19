@@ -75,6 +75,10 @@ Remind you of anything?
 
 In animals, the [Oral LD50](https://en.wikipedia.org/wiki/Acetone) for acetone ranges from 3 g/kg in mice to 5.8 g/kg in rats. For ethanol it is around 7.3 g/kg for both mice and rats.
 
+This suggests you'd need to drink something like an entire bottle of nail-polish remover to be at risk of dying: If the mice numbers translate to humans, someone who weighs 80kg (180lb) would need to drink 240g of acetone to have a 50% chance of death. Standard nail-polish remover bottles contain around 200ml and are 98% acetone.
+
+The same person would need to consume around 584 ml of grain alcohol to have the same risk.
+
 ---
 
 **Fact #6:** Acetone is Generally Recognized as Safe (GRAS) by the FDA.
