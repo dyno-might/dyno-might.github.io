@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2021-07-19T15:56:58.317162</dc:date>
+    <dc:date>2021-07-21T13:39:32.286244</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,8 +37,8 @@ L 214.83 26.640762
 z
 " style="fill:none;"/>
    </g>
-   <g clip-path="url(#pe4632967f3)">
-    <image height="333.36" id="image3d0458f064" transform="scale(1 -1)translate(0 -333.36)" width="333.36" x="214.83" xlink:href="data:image/png;base64,
+   <g clip-path="url(#p8d347ba60c)">
+    <image height="333.36" id="imagef303b8af65" transform="scale(1 -1)translate(0 -333.36)" width="333.36" x="214.83" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAc8AAAHPCAYAAAA1eFErAAALk0lEQVR4nO3XvYtldx3H8e+de2bm3nnYiRsWFnxgUUkKIVoJGjeVhWBhZaGIWGoREBQJ6SIoQSIELEwlKYIWVgEFC1HYJSpWEhFJsFiTmKwmm2R3dubeuY/+DZ/qi/h6/QMfzj3n3Pf5jV64sdlWk5ODVdd0/evO0La92zfdZr7o2/7o1WXb9sVqp217urtu2+60aPzNu+73cjVq2a2qunO3b/vnP73Rtt33lAHA/yjxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIDfNF3/iVS5u27cle23TNLnp21+ue3aqq6aRve39YtW3PFvtt2+vNqG37gcm8bfuN86O27c22Z/e1203DVfXi8zfbtr/6rcfatp08ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAoeHy8aZtfDKs2rZPDsdt25O9nm+W7bZltqqqxo2fadPxsm17Pem78FH13fDVpu+6Tw767vdy3XPdLz7/h5bdqqovfeNzbdsPnvQ9406eABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSA0PCPN0Zt428dHLRtv31n1bZ97YM9v/m797Ytu1VVly/1PWe33j1u27571nfdH786b9t+9fZh2/ab/163bf/mFy+17D751Gdbdquq7s/7nvFh3Pef5uQJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIDcPQN77XuD2d9H03rDc9u/t7o57hqlqu2qbr5LDpB6+q1Xrctt3p2pV52/bPnv1z2/YXvvJoy+7ueN2yW1W1M+p7xveHvnfbyRMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBIDT63V/Ptl3j54vdruka77Rddj2wP2vZ3daoZbeqarXp+067d7Hftr073rRtX9qbt21/53t/adv+/g8+3bZ96+1Jy+5DV89adquqhp2+Z/x00fduO3kCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBCw93ZXtv41aOztu3X3z9u2z7ZH7XsztdDy25V1XI9btueL/u+EU9nfdf91NN/atv+8Y8+1bZ9tmybrmtX5i27i8b36/6iryHjnW3btpMnAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgNMwXff3853vHbdtvvtM2XVVHLauns1HLbreD/W3b9k+evtm2/fgT19u27y2Wbdv/ubvXtn0279n92NWLnuGqmi/Hbds7O33vtpMnAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgNHSOf+Bw2bZ9Nt9r2x7Gm5bd42nLbLtnf3izbfvxJ663be8O27bt5brvu/xoum7bHsY91320e9GyW1U13un5P6uqulj1JczJEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBpeubVuG3/42m7b9t9fnbVtj0ajlt3pdNyyW1X121/+sW37209eb9s+nfXc66qqDx0t27anQ9/2K28dtm3vDj27r79/3DNcvc/4fNE27eQJACnxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIDdNJXz/Hjene3x+3bd95+7xl96VfvdyyW1X1+S9/pm37/9XueN22Pexs2rYXq7bpOj3ftuzuP9gyW1VVs3nf9nTSt+3kCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACA2Xjvr6eTRZtm0fHIzbtn9/8+WW3UeuP9KyW1U1m63btodx370+nrZN12S8atse1bZte7LXNl2Hk1HL7mjU93s3vl6tnDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELDrdfmbeOj0aRt+9cv3Gjb/uLXHm3ZPT9ft+xWVV1c9G2/d7/vG/Hu/W3bdtVR2/LxdNW2/c57m7bt2bxn+5MPjVp2q6qm++O27fmibdrJEwBS4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBo+8dCkbfy5Z260bX/98cfatj9yZdmye3++27JbVbXe9G1fPlq0bR9O+q77ww+ctm3fmR20bV8+6TsTLA57ti8fnLfsVlUd7A1t24tV37128gSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAISG55650Tb+ze8+1rb9t1fnbdvb7aRl9979TctuVdVs3rf98LXdtu1Ot+8ftm2fTBdt26fn47bt1apn985Zz39KVdW7p31nsMle27STJwCkxBMAQuIJACHxBICQeAJASDwBICSeABASTwAIiScAhMQTAELiCQAh8QSAkHgCQEg8ASAkngAQEk8ACIknAITEEwBC4gkAIfEEgJB4AkBIPAEgJJ4AEBJPAAiJJwCExBMAQuIJACHxBICQeAJASDwBIPRfzQ0uD8oCsHMAAAAASUVORK5CYII=" y="-25.920763"/>
    </g>
    <g id="matplotlib.axis_1">
@@ -46,7 +46,7 @@ iVBORw0KGgoAAAANSUhEUgAAAc8AAAHPCAYAAAA1eFErAAALk0lEQVR4nO3XvYtldx3H8e+de2bm3nnY
      <g id="line2d_1"/>
      <g id="text_1">
       <!-- 1 -->
-      <g transform="translate(220.913156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(220.913156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 2384 0 
 L 1822 0 
@@ -69,7 +69,7 @@ z
      <g id="line2d_2"/>
      <g id="text_2">
       <!-- 2 -->
-      <g transform="translate(243.089156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(243.089156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3222 541 
 L 3222 0 
@@ -105,7 +105,7 @@ z
      <g id="line2d_3"/>
      <g id="text_3">
       <!-- 3 -->
-      <g transform="translate(265.265156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(265.265156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 269 1209 
 L 831 1284 
@@ -149,7 +149,7 @@ z
      <g id="line2d_4"/>
      <g id="text_4">
       <!-- 4 -->
-      <g style="fill:#55a868;" transform="translate(287.441156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(287.441156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 2069 0 
 L 2069 1097 
@@ -179,7 +179,7 @@ z
      <g id="line2d_5"/>
      <g id="text_5">
       <!-- 5 -->
-      <g style="fill:#55a868;" transform="translate(309.617156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(309.617156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 266 1200 
 L 856 1250 
@@ -215,7 +215,7 @@ z
      <g id="line2d_6"/>
      <g id="text_6">
       <!-- 6 -->
-      <g style="fill:#55a868;" transform="translate(331.793156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(331.793156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3184 3459 
 L 2625 3416 
@@ -259,7 +259,7 @@ z
      <g id="line2d_7"/>
      <g id="text_7">
       <!-- 7 -->
-      <g style="fill:#c44e52;" transform="translate(353.969156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(353.969156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 303 3981 
 L 303 4522 
@@ -284,7 +284,7 @@ z
      <g id="line2d_8"/>
      <g id="text_8">
       <!-- 8 -->
-      <g style="fill:#c44e52;" transform="translate(376.145156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(376.145156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 1131 2484 
 Q 781 2613 612 2850 
@@ -335,7 +335,7 @@ z
      <g id="line2d_9"/>
      <g id="text_9">
       <!-- 9 -->
-      <g style="fill:#c44e52;" transform="translate(398.321156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(398.321156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 350 1059 
 L 891 1109 
@@ -381,7 +381,7 @@ z
      <g id="line2d_10"/>
      <g id="text_10">
       <!-- A -->
-      <g style="fill:#8172b2;" transform="translate(419.498719 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(419.498719 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M -9 0 
 L 1750 4581 
@@ -410,7 +410,7 @@ z
      <g id="line2d_11"/>
      <g id="text_11">
       <!-- B -->
-      <g style="fill:#8172b2;" transform="translate(441.674719 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(441.674719 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 469 0 
 L 469 4581 
@@ -461,7 +461,7 @@ z
      <g id="line2d_12"/>
      <g id="text_12">
       <!-- C -->
-      <g style="fill:#8172b2;" transform="translate(463.354313 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(463.354313 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3763 1606 
 L 4369 1453 
@@ -497,7 +497,7 @@ z
      <g id="line2d_13"/>
      <g id="text_13">
       <!-- D -->
-      <g style="fill:#ccb974;" transform="translate(485.530312 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(485.530312 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 494 0 
 L 494 4581 
@@ -535,7 +535,7 @@ z
      <g id="line2d_14"/>
      <g id="text_14">
       <!-- E -->
-      <g style="fill:#ccb974;" transform="translate(508.202719 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(508.202719 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 506 0 
 L 506 4581 
@@ -561,7 +561,7 @@ z
      <g id="line2d_15"/>
      <g id="text_15">
       <!-- F -->
-      <g style="fill:#ccb974;" transform="translate(530.884969 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(530.884969 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 525 0 
 L 525 4581 
@@ -587,7 +587,7 @@ z
      <g id="line2d_16"/>
      <g id="text_16">
       <!-- Letter sets  1 -->
-      <g transform="translate(103.784375 44.170794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(103.784375 44.170794)scale(0.18 -0.18)">
        <defs>
         <path d="M 469 0 
 L 469 4581 
@@ -721,7 +721,7 @@ z
      <g id="line2d_17"/>
      <g id="text_17">
       <!-- Figure classification  2 -->
-      <g transform="translate(29.765 66.456481)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(29.765 66.456481)scale(0.18 -0.18)">
        <defs>
         <path d="M 425 3934 
 L 425 4581 
@@ -960,7 +960,7 @@ z
      <g id="line2d_18"/>
      <g id="text_18">
       <!-- Calendar test  3 -->
-      <g transform="translate(80.766875 88.522794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(80.766875 88.522794)scale(0.18 -0.18)">
        <defs>
         <path d="M 2575 0 
 L 2575 419 
@@ -1013,7 +1013,7 @@ z
      <g id="line2d_19"/>
      <g id="text_19">
       <!-- Vocabulary  4 -->
-      <g style="fill:#55a868;" transform="translate(98.76125 110.698794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(98.76125 110.698794)scale(0.18 -0.18)">
        <defs>
         <path d="M 1803 0 
 L 28 4581 
@@ -1095,7 +1095,7 @@ z
      <g id="line2d_20"/>
      <g id="text_20">
       <!-- Analogies  5 -->
-      <g style="fill:#55a868;" transform="translate(108.765312 132.874794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(108.765312 132.874794)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-41"/>
        <use x="66.699219" xlink:href="#ArialMT-6e"/>
        <use x="122.314453" xlink:href="#ArialMT-61"/>
@@ -1115,7 +1115,7 @@ z
      <g id="line2d_21"/>
      <g id="text_21">
       <!-- Sentence completion  6 -->
-      <g style="fill:#55a868;" transform="translate(19.721563 155.160481)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(19.721563 155.160481)scale(0.18 -0.18)">
        <defs>
         <path d="M 288 1472 
 L 859 1522 
@@ -1244,7 +1244,7 @@ z
      <g id="line2d_22"/>
      <g id="text_22">
       <!-- Math aptitude  7 -->
-      <g style="fill:#c44e52;" transform="translate(78.755937 177.226794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(78.755937 177.226794)scale(0.18 -0.18)">
        <defs>
         <path d="M 475 0 
 L 475 4581 
@@ -1308,7 +1308,7 @@ z
      <g id="line2d_23"/>
      <g id="text_23">
       <!-- Math operations  8 -->
-      <g style="fill:#c44e52;" transform="translate(58.753437 199.429513)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(58.753437 199.429513)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-4d"/>
        <use x="83.300781" xlink:href="#ArialMT-61"/>
        <use x="138.916016" xlink:href="#ArialMT-74"/>
@@ -1334,7 +1334,7 @@ z
      <g id="line2d_24"/>
      <g id="text_24">
       <!-- Submult  9 -->
-      <g style="fill:#c44e52;" transform="translate(121.79 221.578794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(121.79 221.578794)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-53"/>
        <use x="66.699219" xlink:href="#ArialMT-75"/>
        <use x="122.314453" xlink:href="#ArialMT-62"/>
@@ -1352,7 +1352,7 @@ z
      <g id="line2d_25"/>
      <g id="text_25">
       <!-- Cube comparison  A -->
-      <g style="fill:#8172b2;" transform="translate(45.748437 243.864481)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(45.748437 243.864481)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-43"/>
        <use x="72.216797" xlink:href="#ArialMT-75"/>
        <use x="127.832031" xlink:href="#ArialMT-62"/>
@@ -1378,7 +1378,7 @@ z
      <g id="line2d_26"/>
      <g id="text_26">
       <!-- Hidden patterns  B -->
-      <g style="fill:#8172b2;" transform="translate(58.750625 265.930794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(58.750625 265.930794)scale(0.18 -0.18)">
        <defs>
         <path d="M 513 0 
 L 513 4581 
@@ -1421,7 +1421,7 @@ z
      <g id="line2d_27"/>
      <g id="text_27">
       <!-- Surface development  C -->
-      <g style="fill:#8172b2;" transform="translate(14.737812 288.216481)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(14.737812 288.216481)scale(0.18 -0.18)">
        <defs>
         <path d="M 1344 0 
 L 81 3319 
@@ -1465,7 +1465,7 @@ z
      <g id="line2d_28"/>
      <g id="text_28">
       <!-- Word endings  D -->
-      <g style="fill:#ccb974;" transform="translate(74.092812 310.282794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(74.092812 310.282794)scale(0.18 -0.18)">
        <defs>
         <path d="M 1294 0 
 L 78 4581 
@@ -1512,7 +1512,7 @@ z
      <g id="line2d_29"/>
      <g id="text_29">
       <!-- Word beginnings  E -->
-      <g style="fill:#ccb974;" transform="translate(51.066875 332.458794)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(51.066875 332.458794)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-57"/>
        <use x="92.634766" xlink:href="#ArialMT-6f"/>
        <use x="148.25" xlink:href="#ArialMT-72"/>
@@ -1538,7 +1538,7 @@ z
      <g id="line2d_30"/>
      <g id="text_30">
       <!-- Opposites  F -->
-      <g style="fill:#ccb974;" transform="translate(105.795312 354.750106)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(105.795312 354.750106)scale(0.18 -0.18)">
        <defs>
         <path d="M 309 2231 
 Q 309 3372 921 4017 
@@ -1613,7 +1613,7 @@ z
 " style="fill:none;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#p59e3b19547)" d="M 234.675 394.718263 
+    <path clip-path="url(#p7ef3ba6cc6)" d="M 234.675 394.718263 
 L 235.819336 394.718263 
 L 526.480664 394.718263 
 L 527.625 394.718263 
@@ -1722,7 +1722,7 @@ z
     </g>
    </g>
    <g id="matplotlib.axis_4"/>
-   <image height="14.4" id="imagea95e701a20" transform="scale(1 -1)translate(0 -14.4)" width="293.04" x="234.72" xlink:href="data:image/png;base64,
+   <image height="14.4" id="image98d488599b" transform="scale(1 -1)translate(0 -14.4)" width="293.04" x="234.72" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAZcAAAAUCAYAAABBNXDPAAABoklEQVR4nO3VO5bsMAhF0YtcPZWef9DjgxdYHyQ/V0R4dlIsQEgOamF/n9+QJPsxtY/pjluKbYslqX1MdvX4Mlnr9as9cu1avdZa/zW1mbPX/DizYtvyj/uP3meuSfa9vp0f77JnXbnXWs/t3yJr211qbc7K52VN+jJLtt4iy9+SelM8Z6a7cu+Mt3p+y1E/ZkXO99946ZV012zEq57jVU+9srvnqEd6f6Tex3ytd4W1vWfM0pe67Ih7PdL8cUa2xaPvv/Uw+bfeI5Yk3+61LZYkj2NWqJ9LvT0XMvmIj97RN++N/dwjF5JHPqfZ85h/nDtz7m/1WHf5+/nwSPdK7rH13m/tOV9z18x03iO9K2Y9fNwb6Xxsb5j1cc73ufOubW68n8+9vu6N/nDfcpFm+CN3z/Ltrgg/3nrU3bdef8mvu+64/0sBAKjDcgEAlGO5AADKsVwAAOVYLgCAciwXAEA5lgsAoBzLBQBQjuUCACjHcgEAlGO5AADKsVwAAOVYLgCAciwXAEA5lgsAoBzLBQBQjuUCACjHcgEAlGO5AADK/QN1Mzx98/E4zwAAAABJRU5ErkJggg==" y="-379.44"/>
    <g id="LineCollection_1"/>
    <g id="patch_9">
@@ -2550,10 +2550,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pe4632967f3">
+  <clipPath id="p8d347ba60c">
    <rect height="332.64" width="332.64" x="214.83" y="26.640762"/>
   </clipPath>
-  <clipPath id="p59e3b19547">
+  <clipPath id="p7ef3ba6cc6">
    <rect height="14.6475" width="292.95" x="234.675" y="380.070763"/>
   </clipPath>
  </defs>

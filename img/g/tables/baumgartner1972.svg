@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2021-07-19T15:56:56.269086</dc:date>
+    <dc:date>2021-07-21T13:39:27.792381</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -37,8 +37,8 @@ L 214.83 26.640762
 z
 " style="fill:none;"/>
    </g>
-   <g clip-path="url(#p71def5fd96)">
-    <image height="333.36" id="image26474aa05e" transform="scale(1 -1)translate(0 -333.36)" width="333.36" x="214.83" xlink:href="data:image/png;base64,
+   <g clip-path="url(#p035c2da837)">
+    <image height="333.36" id="image1887751ba6" transform="scale(1 -1)translate(0 -333.36)" width="333.36" x="214.83" xlink:href="data:image/png;base64,
 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" y="-25.920763"/>
    </g>
    <g id="matplotlib.axis_1">
@@ -46,7 +46,7 @@ iVBORw0KGgoAAAANSUhEUgAAAc8AAAHPCAYAAAA1eFErAAALKElEQVR4nO3XTatdZx3G4f2y9j4vSXqi
      <g id="line2d_1"/>
      <g id="text_1">
       <!-- 1 -->
-      <g transform="translate(222.619002 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(222.619002 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 2384 0 
 L 1822 0 
@@ -69,7 +69,7 @@ z
      <g id="line2d_2"/>
      <g id="text_2">
       <!-- 2 -->
-      <g transform="translate(248.206695 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(248.206695 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3222 541 
 L 3222 0 
@@ -105,7 +105,7 @@ z
      <g id="line2d_3"/>
      <g id="text_3">
       <!-- 3 -->
-      <g transform="translate(273.794387 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(273.794387 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 269 1209 
 L 831 1284 
@@ -149,7 +149,7 @@ z
      <g id="line2d_4"/>
      <g id="text_4">
       <!-- 4 -->
-      <g transform="translate(299.382079 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(299.382079 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 2069 0 
 L 2069 1097 
@@ -179,7 +179,7 @@ z
      <g id="line2d_5"/>
      <g id="text_5">
       <!-- 5 -->
-      <g style="fill:#55a868;" transform="translate(324.969772 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(324.969772 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 266 1200 
 L 856 1250 
@@ -215,7 +215,7 @@ z
      <g id="line2d_6"/>
      <g id="text_6">
       <!-- 6 -->
-      <g style="fill:#55a868;" transform="translate(350.557464 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(350.557464 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3184 3459 
 L 2625 3416 
@@ -259,7 +259,7 @@ z
      <g id="line2d_7"/>
      <g id="text_7">
       <!-- 7 -->
-      <g style="fill:#55a868;" transform="translate(376.145156 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(376.145156 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 303 3981 
 L 303 4522 
@@ -284,7 +284,7 @@ z
      <g id="line2d_8"/>
      <g id="text_8">
       <!-- 8 -->
-      <g style="fill:#55a868;" transform="translate(401.732849 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(401.732849 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 1131 2484 
 Q 781 2613 612 2850 
@@ -335,7 +335,7 @@ z
      <g id="line2d_9"/>
      <g id="text_9">
       <!-- 9 -->
-      <g style="fill:#c44e52;" transform="translate(427.320541 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(427.320541 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 350 1059 
 L 891 1109 
@@ -381,7 +381,7 @@ z
      <g id="line2d_10"/>
      <g id="text_10">
       <!-- A -->
-      <g style="fill:#c44e52;" transform="translate(451.909796 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(451.909796 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M -9 0 
 L 1750 4581 
@@ -410,7 +410,7 @@ z
      <g id="line2d_11"/>
      <g id="text_11">
       <!-- B -->
-      <g style="fill:#64b5cd;" transform="translate(477.497488 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(477.497488 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 469 0 
 L 469 4581 
@@ -461,7 +461,7 @@ z
      <g id="line2d_12"/>
      <g id="text_12">
       <!-- C -->
-      <g style="fill:#64b5cd;" transform="translate(502.588774 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(502.588774 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 3763 1606 
 L 4369 1453 
@@ -497,7 +497,7 @@ z
      <g id="line2d_13"/>
      <g id="text_13">
       <!-- D -->
-      <g style="fill:#64b5cd;" transform="translate(528.176466 20.084063)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(528.176466 20.084063)scale(0.18 -0.18)">
        <defs>
         <path d="M 494 0 
 L 494 4581 
@@ -537,7 +537,7 @@ z
      <g id="line2d_14"/>
      <g id="text_14">
       <!-- Hand grip  1 -->
-      <g transform="translate(109.777812 45.903359)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(109.777812 45.903359)scale(0.18 -0.18)">
        <defs>
         <path d="M 513 0 
 L 513 4581 
@@ -756,7 +756,7 @@ z
      <g id="line2d_15"/>
      <g id="text_15">
       <!-- Push-ups  2 -->
-      <g transform="translate(111.780312 71.491051)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(111.780312 71.491051)scale(0.18 -0.18)">
        <defs>
         <path d="M 494 0 
 L 494 4581 
@@ -886,7 +886,7 @@ z
      <g id="line2d_16"/>
      <g id="text_16">
       <!-- Pull-ups  3 -->
-      <g transform="translate(122.79125 97.078743)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(122.79125 97.078743)scale(0.18 -0.18)">
        <defs>
         <path d="M 409 0 
 L 409 4581 
@@ -914,7 +914,7 @@ z
      <g id="line2d_17"/>
      <g id="text_17">
       <!-- Chin-ups  4 -->
-      <g transform="translate(115.788125 122.749404)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(115.788125 122.749404)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-43"/>
        <use x="72.216797" xlink:href="#ArialMT-68"/>
        <use x="127.832031" xlink:href="#ArialMT-69"/>
@@ -933,7 +933,7 @@ z
      <g id="line2d_18"/>
      <g id="text_18">
       <!-- Sit-ups  5 -->
-      <g style="fill:#55a868;" transform="translate(131.799688 148.337097)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(131.799688 148.337097)scale(0.18 -0.18)">
        <defs>
         <path d="M 288 1472 
 L 859 1522 
@@ -1014,7 +1014,7 @@ z
      <g id="line2d_19"/>
      <g id="text_19">
       <!-- Squat thrusts  6 -->
-      <g style="fill:#55a868;" transform="translate(81.768125 173.924789)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(81.768125 173.924789)scale(0.18 -0.18)">
        <defs>
         <path d="M 2538 -1272 
 L 2538 353 
@@ -1066,7 +1066,7 @@ z
      <g id="line2d_20"/>
      <g id="text_20">
       <!-- Half-hold sit-up  7 -->
-      <g style="fill:#55a868;" transform="translate(66.774687 199.512481)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(66.774687 199.512481)scale(0.18 -0.18)">
        <defs>
         <path d="M 556 0 
 L 556 2881 
@@ -1139,7 +1139,7 @@ z
      <g id="line2d_21"/>
      <g id="text_21">
       <!-- Leg raises  8 -->
-      <g style="fill:#55a868;" transform="translate(104.777187 225.017205)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(104.777187 225.017205)scale(0.18 -0.18)">
        <defs>
         <path d="M 469 0 
 L 469 4581 
@@ -1196,7 +1196,7 @@ z
      <g id="line2d_22"/>
      <g id="text_22">
       <!-- Standing broad jump  9 -->
-      <g style="fill:#c44e52;" transform="translate(21.718437 250.687866)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(21.718437 250.687866)scale(0.18 -0.18)">
        <defs>
         <path d="M 941 0 
 L 419 0 
@@ -1304,7 +1304,7 @@ z
      <g id="line2d_23"/>
      <g id="text_23">
       <!-- 75-yd. dash  A -->
-      <g style="fill:#c44e52;" transform="translate(92.759375 276.165871)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(92.759375 276.165871)scale(0.18 -0.18)">
        <defs>
         <path d="M 397 -1278 
 L 334 -750 
@@ -1356,7 +1356,7 @@ z
      <g id="line2d_24"/>
      <g id="text_24">
       <!-- 12-min. run  B -->
-      <g style="fill:#64b5cd;" transform="translate(94.792812 301.753563)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(94.792812 301.753563)scale(0.18 -0.18)">
        <use xlink:href="#ArialMT-31"/>
        <use x="55.615234" xlink:href="#ArialMT-32"/>
        <use x="111.230469" xlink:href="#ArialMT-2d"/>
@@ -1378,7 +1378,7 @@ z
      <g id="line2d_25"/>
      <g id="text_25">
       <!-- 880-yd. run-walk  C -->
-      <g style="fill:#64b5cd;" transform="translate(51.78125 327.450943)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(51.78125 327.450943)scale(0.18 -0.18)">
        <defs>
         <path d="M 266 2259 
 Q 266 3072 433 3567 
@@ -1468,7 +1468,7 @@ z
      <g id="line2d_26"/>
      <g id="text_26">
       <!-- Harvard step test  D -->
-      <g style="fill:#64b5cd;" transform="translate(47.781875 352.928948)scale(0.18 -0.18)">
+      <g style="fill:#262626;" transform="translate(47.781875 352.928948)scale(0.18 -0.18)">
        <defs>
         <path d="M 1344 0 
 L 81 3319 
@@ -1538,7 +1538,7 @@ z
 " style="fill:none;"/>
    </g>
    <g id="patch_8">
-    <path clip-path="url(#pb21d298c0d)" d="M 234.675 394.718263 
+    <path clip-path="url(#pa6bd3017b5)" d="M 234.675 394.718263 
 L 235.819336 394.718263 
 L 526.480664 394.718263 
 L 527.625 394.718263 
@@ -1604,7 +1604,7 @@ z
     </g>
    </g>
    <g id="matplotlib.axis_4"/>
-   <image height="14.4" id="image2084e7c57b" transform="scale(1 -1)translate(0 -14.4)" width="293.04" x="234.72" xlink:href="data:image/png;base64,
+   <image height="14.4" id="image64c7ab6fbb" transform="scale(1 -1)translate(0 -14.4)" width="293.04" x="234.72" xlink:href="data:image/png;base64,
 iVBORw0KGgoAAAANSUhEUgAAAZcAAAAUCAYAAABBNXDPAAABoklEQVR4nO3VO5bsMAhF0YtcPZWef9DjgxdYHyQ/V0R4dlIsQEgOamF/n9+QJPsxtY/pjluKbYslqX1MdvX4Mlnr9as9cu1avdZa/zW1mbPX/DizYtvyj/uP3meuSfa9vp0f77JnXbnXWs/t3yJr211qbc7K52VN+jJLtt4iy9+SelM8Z6a7cu+Mt3p+y1E/ZkXO99946ZV012zEq57jVU+9srvnqEd6f6Tex3ytd4W1vWfM0pe67Ih7PdL8cUa2xaPvv/Uw+bfeI5Yk3+61LZYkj2NWqJ9LvT0XMvmIj97RN++N/dwjF5JHPqfZ85h/nDtz7m/1WHf5+/nwSPdK7rH13m/tOV9z18x03iO9K2Y9fNwb6Xxsb5j1cc73ufOubW68n8+9vu6N/nDfcpFm+CN3z/Ltrgg/3nrU3bdef8mvu+64/0sBAKjDcgEAlGO5AADKsVwAAOVYLgCAciwXAEA5lgsAoBzLBQBQjuUCACjHcgEAlGO5AADKsVwAAOVYLgCAciwXAEA5lgsAoBzLBQBQjuUCACjHcgEAlGO5AADK/QN1Mzx98/E4zwAAAABJRU5ErkJggg==" y="-379.44"/>
    <g id="LineCollection_1"/>
    <g id="patch_9">
@@ -2419,10 +2419,10 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p71def5fd96">
+  <clipPath id="p035c2da837">
    <rect height="332.64" width="332.64" x="214.83" y="26.640762"/>
   </clipPath>
-  <clipPath id="pb21d298c0d">
+  <clipPath id="pa6bd3017b5">
    <rect height="14.6475" width="292.95" x="234.675" y="380.070763"/>
   </clipPath>
  </defs>
