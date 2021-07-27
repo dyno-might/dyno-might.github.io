@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heritability is a ratio, not a measure of determinism"
+title: "It’s perfectly valid for a trait to be more than 100% heritable"
 image: /img/heritability/birds.jpg
 tags: statistics personality
 hero_light: false
