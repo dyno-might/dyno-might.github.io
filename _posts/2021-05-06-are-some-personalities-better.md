@@ -6,7 +6,7 @@ tags: personality statistics
 hero_light: false
 dark_title: false
 background_color: black
-description: "A review of correlations between big five personality traits and various life outcomes"
+description: "Correlations between life outcomes and big five personality traits. How good/bad American presidents score. And, are human personalities evolving?"
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
 head: "<style>
