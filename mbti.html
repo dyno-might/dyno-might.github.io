@@ -196,30 +196,6 @@ function drawbar(a,size){
     return r
 }
 
-
-// -moz-border-radius-bottomleft: 5px;
-// -webkit-border-top-left-radius: 5px;
-// -webkit-border-bottom-left-radius: 5px;
-
-
-function getrow(where,choice,border){
-    row = '<tr id="row'+where+'">'
-
-    row += '<td style="text-align:left; border-top-left-radius: 10px;">'+q_lo[where]+'</td>'
-    row += '<td width="3%"></td>'
-    row += '<td style="text-align:right; border-top-right-radius: 10px;">'+q_hi[where]+"</td>"
-    row += '</tr>'
-    row += '<tr id="rowB'+where+'"><td colspan="3" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">'
-    for(var i=1; i<= 5; i++)
-        row += '<a href="javascript:register_choice('+where+','+i+',true);"><div class=button id="'+where+'_'+i+'">☐</div></a>'
-        //row += '<a href="javascript:register_choice('+where+','+i+',true);"><div class=button id="'+where+'_'+i+'">'+i+'</div></a>'
-    row += '</td></tr>'
-    row += '<tr><td colspan=3><p></td></tr>'
-    return row; /* ☑ */
-}
-
-//border-bottom-right-radius:10px;
-
 function miniclick(where,i,clicked){
     register_choice(where,i,clicked);
 }
@@ -269,7 +245,7 @@ function resultgraph(IE,SN,FT,JP,phaze){
     txt += "<br>J=0 " + drawbar(JP,size) + " P=1 "
     txt += get_you_string(JP,phaze,size)
 
-    txt += "</tt>"
+    txt += "\<\/tt>"
     return txt
 }
 
@@ -297,15 +273,6 @@ function getscores(){
     JP_lab = choose_from_range2(JP,['J','P'])
 
     $("#mbtitype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);
-}
-
-function maketable(){
-    //text = '<tr><td></td><td style="white-space:nowrap;"></td><td></td></tr>'
-    text = ''
-    for(var j=0; j<q_lo_length; j++){
-        text += getrow(j,-1,j==0);
-    }
-    $("#questions").html(text)
 }
 
 function setup(){
@@ -1066,6 +1033,7 @@ Result: <tt><span id="mbtisubtype">****</span></tt>
             ****
         </span>
 </tt>
+</font>
 <br>
 <font size=-2>
 (This divides every axis in two, which you <a href="https://dynomight.net/in-defense-of-myers-briggs.html">really shouldn't do</a>.)
