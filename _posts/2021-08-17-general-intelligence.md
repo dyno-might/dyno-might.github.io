@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Avoiding the general intelligence trap"
+title: "Factors of mental and physical abilities - a statistical analysis"
 image: /img/g/cigar.jpg
 tags: statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "A review of correlations between human performance on physical and mental tasks, plus an analysis of how factor analysis is like a cigar"
+description: "A review of correlations between human performance on physical and mental tasks, plus an description   of how factor analysis is like a cigar"
 permalink: /general-intelligence/
-background_color: rgb(60,64,50)
+background_color: rgb(148,134,121)
 head: "<style>
 video{
   display: block;
@@ -83,7 +83,7 @@ Is there a general factor of intelligence?
 
 This question is a trap. If you try to answer it, you’ll find yourself beset by semantic questions. What’s *intelligence*? What’s a *factor*? And if you get past those, you'll then find a bleak valley of statistical arcana. What do the eigenvalues look like? Do they imply causality?
 
-This is all backwards. If your goal is to understand the external world, you can skip the hand wringing and start by looking at the damn data. So let's do that. 
+This is all backward. If your goal is to understand the external world, you can skip the hand wringing and start by looking at the damn data. So let's do that. 
 
 {% comment %}
 The facts are pretty simple. People who are good at one physical task also tend to be good at others. Faster runners tend to be able to do more push-ups. For mental tasks, the same positive correlations exist: People who are good at arithmetic also tend to have good memories.
@@ -198,7 +198,7 @@ For one thing, the discussion sometimes ascends into meta-controversy. There are
 
 On the lower planes of argument, the main issue is if the tests are *just correlated* or if there's something deeper going on underneath of them. Here, the burden of proof falls on whoever claims there is something deeper.
 
-*Aside*: The mental correlations are somewhat stronger than the physical ones, but don't take that too seriously. The mental tests used more diverse populations than the physical tests. Imagine doing physical tests on a group of 20 year olds. If you throw in a bunch of 80 year olds, they'll be worse at everything and correlations will shoot up.
+*Aside*: The mental correlations are somewhat stronger than the physical ones, but don't take that too seriously. The mental tests used more diverse populations than the physical tests. Imagine doing physical tests on a group of 20-year-olds. If you throw in a bunch of 80-year-olds, they'll be worse at everything and correlations will shoot up.
 
 {% comment %}
 One way to approach this is to ask how many numbers you need to describe someone. Suppose you've tested people on four physical tasks:
@@ -416,7 +416,7 @@ Do these look exactly like what factor analysis can produce? No. But it's a reas
 
 ## Directions of variation
 
-Here's another way of visualizing things. For any dataset, we can take the principal direction of variation (the blue line) and look at its length along each of the tests. This says, essentially, how much each of the tests contribute to the main direction of variation. Here's what we get if we do that for Alderton et al.:
+Here's another way of visualizing things. For any dataset, we can take the principal direction of variation (the blue line) and look at its length along each of the tests. This says, essentially, how much each of the tests contributes to the main direction of variation. Here's what we get if we do that for Alderton et al.:
 
 [![alderton 1997 g loadings](/img/g/tables/alderton1997_g.svg)](/img/g/tables/alderton1997_g.pdf)
 
@@ -462,9 +462,19 @@ Factor analysis is a decent but not perfect model of mental tests. What does thi
 
 No. A perfect fit would only mean that, across a population, a single number would *describe* how people do on tests (except for the "noise"). It does not mean that number *causes* test performance to be correlated.
 
-This is a point that often comes up in "refutations" of the existence of *g*. People argue, essentially, that even though tests are correlated, it's possible that many *independent causes* combine to produce them. I'd go further---we *know* there are many causes. While intelligence is strongly [heritable](/heritability), it's highly polygenic. [Dozens of genes](https://doi.org/10.1038/ng.3869) are already known to be linked to it, and more are likely to be discovered. It's harder to quantify environmental influences, but there are surely many that matter there, too.
+This is a point that often comes up in "refutations" of the existence of *g*. People argue, essentially, that even though tests are correlated, they might be produced by many *independent causes*. I'd go further---we *know* there are many causes. While intelligence is strongly [heritable](/heritability), it's highly polygenic. [Dozens of genes](https://doi.org/10.1038/ng.3869) are already known to be linked to it, and more are likely to be discovered. It's harder to quantify environmental influences, but there are surely many that matter there, too.
 
 So, no, there's no magical number **g** hidden in our brains, just like there's no single number in our bodies that says how good we are at running, balancing, or throwing stuff. But that doesn't change the fact that a single number provides a good *description* of how good we are at various mental tasks.
+
+Suppose you're hiring someone for a job that requires a few different mental tasks. (Arithmetic, sequential memory, whatever.) If you knew someone's **g**, you could guess how well they'd do at each task. But it would only be a guess! To really know, you still need to test the skills individually. That's the key word: *Individually*. It's not that **g** tells you everything---it doesn't---it's just that once you know **g**, how good someone is at one task doesn't tell you anything about how good they'll be at another.
+
+Again, that's assuming factor analysis were a perfect fit. Which it isn't. Though it's close.
+
+## Takeaways
+
+1. Skill at mental and physical tasks are positively correlated. More similar stuff is more correlated.
+3. A factor analysis model tries to model data with a "cigar" shape. These models fit mental and physical tests reasonably well, but not perfectly.
+5. Call the position along the "long axis" of the cigar **g**. A perfect fit wouldn't mean that **g** contains all the information about how good someone is at different tasks---only that it contains all *shared* information.
 
 {% comment %}
 Here's an analogy: What determines how quickly an air purifier can clean the air? Lots of things: The quality of the filters, the number of filters, the strength of the fan, etc. Yet, if you tell me the [clean-air delivery rate](https://en.wikipedia.org/wiki/Clean_air_delivery_rate), that's all I need to know to predict how it will work. There's lots of *causes*, but they can be summarized by a single number.
