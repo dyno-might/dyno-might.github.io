@@ -6,7 +6,7 @@ tags: statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "A review of correlations between human performance on physical and mental tasks, plus an description   of how factor analysis is like a cigar"
+description: "A review of correlations between human performance on physical and mental tasks, plus a description of how factor analysis is like a cigar"
 permalink: /general-intelligence/
 background_color: rgb(148,134,121)
 head: "<style>
