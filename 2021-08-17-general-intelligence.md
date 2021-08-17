@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Physical tests, mental tests, and factor analysis as a cigar"
+title: "Avoiding the general intelligence trap"
 image: /img/g/cigar.jpg
 tags: statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "What heritability really is: A fluid statistic that changes whenever society changes."
-permalink: /g/
+description: "A review of correlations between human performance on physical and mental tasks, plus an analysis of how factor analysis is like a cigar"
+permalink: /general-intelligence/
 background_color: rgb(60,64,50)
 head: "<style>
 video{
@@ -19,7 +19,7 @@ details{
     margin-bottom: 10pt;
     border-left: solid 1px gray;
     }
-details summary{
+details > summary{
   padding-bottom: 0pt;
   padding: 5pt;
   padding-left: 5pt;
@@ -81,9 +81,9 @@ table{
 
 Is there a general factor of intelligence?
 
-This question is a trap. If you try to answer it, you'll find yourself beset by semantic questions. What's *intelligence*? What's a *factor*? And if that doesn't derail you, you then enter a bleak valley of statistical arcana. Do the eigenvalues imply a causal relationship?
+This question is a trap. If you try to answer it, you’ll find yourself beset by semantic questions. What’s *intelligence*? What’s a *factor*? And if you get past those, you'll then find a bleak valley of statistical arcana. What do the eigenvalues look like? Do they imply causality?
 
-This is all backwards. If your goal is to understand the external world, you can skip the handwringing and start by looking at the damn data. So let's do that. 
+This is all backwards. If your goal is to understand the external world, you can skip the hand wringing and start by looking at the damn data. So let's do that. 
 
 {% comment %}
 The facts are pretty simple. People who are good at one physical task also tend to be good at others. Faster runners tend to be able to do more push-ups. For mental tasks, the same positive correlations exist: People who are good at arithmetic also tend to have good memories.
@@ -139,7 +139,7 @@ This is males, with tests grouped by color. (Females are similar, except with lo
 [![ibrahim 2011 physical fitness correlations](/img/g/tables/ibrahim2011.svg)](/img/g/tables/ibrahim2011.pdf)
 </details>
 
-Almost everything is positively correlated. Is this surprising? I don't know. For our purposes, we mostly just want this as a point of comparison.
+Most tests are positively correlated, and none are negative. Is this surprising? I don't know. For our purposes, we just want this as a point of comparison.
 
 ## Mental tests are correlated
 
@@ -192,13 +192,13 @@ Second, **more similar stuff is more correlated**. It's natural that chin-ups ar
 
 Third, **the results are robust**. The tests span several decades, different countries, and many different test batteries. The basic pattern doesn't change.
 
-Things are correlated. No one seems to seriously dispute these. So why all the controversy?
+Things are correlated. No one seems to seriously dispute this. So why all the debates?
 
-For one thing, the discussion sometimes ascends into meta-controversy. There are many arguments to be had about the definition of "general intelligence". Some people debate [if there is anything controversial](https://doi.org/10.1007/s10519-014-9646-x)! (I take no position here, but note that the "not surprising" camp don't seem to agree on *why* it's not surprising...)
+For one thing, the discussion sometimes ascends into meta-controversy. There are many arguments to be had about the definition of "general intelligence". Some people even debate [if there is anything controversial](https://doi.org/10.1007/s10519-014-9646-x)! (I take no position here, but note that the "not surprising" camp doesn't seem to agree on *why* it's not surprising...)
 
-On the lower planes of argument, the main issue is if the tests are *just correlated* or if there's something deeper happening. Here, the burden of proof falls on whoever claims there is something deeper.
+On the lower planes of argument, the main issue is if the tests are *just correlated* or if there's something deeper going on underneath of them. Here, the burden of proof falls on whoever claims there is something deeper.
 
-*Aside*: The mental correlations are somewhat stronger than the physical ones, but don't take that too seriously. The mental tests used more diverse populations than the physical tests. Imagine doing physical tests on a group of 20 year olds. If you throw in a bunch of 80 year olds, they'll be be worse at everything and correlations will shoot up.
+*Aside*: The mental correlations are somewhat stronger than the physical ones, but don't take that too seriously. The mental tests used more diverse populations than the physical tests. Imagine doing physical tests on a group of 20 year olds. If you throw in a bunch of 80 year olds, they'll be worse at everything and correlations will shoot up.
 
 {% comment %}
 One way to approach this is to ask how many numbers you need to describe someone. Suppose you've tested people on four physical tasks:
@@ -262,9 +262,9 @@ Of course, real data would never exactly look like this. It would have noise! To
 ### Simulations
 {:.no_toc}
 
-The simplest simulator would be to just generate people along a line. Formally, let **w** be a vector, representing the direction of variation, as a vector. To generate a person (i.e., a set of test scores), draw a random number **g** from a standard [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution) and then multiply it with **w**.
+The simplest simulator would be to just generate people along a line. First, pick some direction of variation. Then, to simulate a person (i.e. a set of test scores), draw a random number **g** from a standard "bell curve" [Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution) to represent their position along the main direction.
 
-Here's an example. Since we have three tests, you need three numbers to specify a direction. If you use the direction **w = (1, -1, 1.5)**, you'll get a dataset that looks like this:
+Here's an example, where we choose a direction of variation similar to the dataset above. If you simulate a bunch of people, you'll get a dataset that looks like this:
 
 <!--
 ![factor analysis with no noise](/img/g/3dplot/line.gif)
@@ -280,10 +280,9 @@ Of course, real data will never look like that---there will always be "noise". T
 
 {% include video.html where="/img/g/3dplot/cigar-nolines" title="factor analysis with noise" %}
 
-
 The critical thing here is that cigars are rotationally symmetric. If you "roll" the point cloud along the main axis of variation, it still looks basically the same.
 
-Now we can finally say what factor analysis is. It's an algorithm that takes a real dataset and adjusts the shape of the cigar so that the simulated data will look as much like the real data as possible. It can modify the direction of variation, and how "thick" the cigar is, but that's it. (Note: All this describes the *simplest possible* variant of factor analysis, which is all we need here.)
+Now we can finally say what factor analysis is. It's an algorithm that takes a real dataset and adjusts the shape of the cigar so that the simulated data will look as much like the real data as possible. It can modify the direction of variation, and how "thick" the cigar is, but that's it. (Note: all this describes the *simplest* possible variant of factor analysis, which is all we need here.)
 
 If your dataset looks like a cigar, factor analysis will fit well. If not, it will fit poorly. Here's an example of the kind of data factor analysis can't represent:
 
@@ -305,7 +304,7 @@ Now, suppose that in addition to **g**, you learn that Bob did well on paragraph
 
 In a cigar distribution, once you know **g**, everything else is just random noise---one test no longer tells you anything about any other. (Mathematically, once you control for **g**, the partial correlations of the tests are zero.)
 
-In a *non*-cigar distribution, this doesn't happen. There's no single number that will make all the tests uncorrelated. There's interesting structure that would remain unexplained.
+In a *non*-cigar distribution, this doesn't happen. There's no single number that will make all the tests uncorrelated. Some interesting structure would remain unexplained.
 
 ## Mental tests aren't not cigars
 
@@ -333,7 +332,7 @@ Here, the shorter green and red lines are different lengths, reflecting that the
 cut this?
 {% endcomment %}
 
-OK, I lied. I didn't draw the lines manually. For any dataset, you can automatically compute these by doing a [singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) of the covariance matrix of the data. If you don't understand, don't worry. It's still just fitting lines that span a point cloud. The point is just that we can do this in automatically, which will be important when we move beyond three dimensions.
+OK, I lied. I didn't draw the lines manually. There's a simple algorithm that can automatically compute these for any dataset. (By computing a [singular value decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) of the covariance matrix, if those words mean anything to you.) The details don't particularly matter, just that we can automatically find lines that span a point cloud. This will be important when we move beyond three dimensions.
 
 So now we have a plan: We will take a real dataset, compute these lines, and see how long they are. If we have one long line and a bunch of equal-length short lines, then the data is cigar-like, meaning that a single variable explains all the "interesting" latent structure. If we have a bunch of lines of random lengths, then the data isn't cigar-like, meaning that we can't summarize things with one number.
 
@@ -349,7 +348,7 @@ Here are the first three tests of Alderton et al.'s (Paragraph comprehension, wo
 
 {% include video.html where="/img/g/3dplot/alderton" %}
 
-It's not a perfect cigar, but it's not exactly *not* a cigar either. Here are the relative lengths of the three directions:
+It's not a perfect cigar, but it's not exactly *not* a cigar either. Here are the relative lengths of the three directions in decreasing order:
 
 ```
 1st direction (blue line):   0.890
@@ -417,13 +416,13 @@ Do these look exactly like what factor analysis can produce? No. But it's a reas
 
 ## Directions of variation
 
-Here's another way of visualizing things. For each dataset, we can compute the principal direction of variation, and plot it as a function of the tests. Here's what we get if we do that for Alderton et al.:
+Here's another way of visualizing things. For any dataset, we can take the principal direction of variation (the blue line) and look at its length along each of the tests. This says, essentially, how much each of the tests contribute to the main direction of variation. Here's what we get if we do that for Alderton et al.:
 
 [![alderton 1997 g loadings](/img/g/tables/alderton1997_g.svg)](/img/g/tables/alderton1997_g.pdf)
 
-Calculating *g* is similar to taking a simple average of the test scores, though the weights are *slightly* higher on some tasks than others.
+Calculating **g** is similar to taking a simple average of the test scores, though the weights are *slightly* higher on some tasks than others.
 
-If we calculate *g* like this for each person, we can then compute the *partial* correlations. These are the correlations once you control for *g*. Here's what that gives, again for Alderton et al.:
+If we calculate **g** like this for each person, we can then compute the *partial* correlations. These are the correlations once you control for **g**. Here's what that gives for Alderton et al.:
 
 [![alderton 1997 correlations](/img/g/tables/alderton1997_partials.svg)](/img/g/tables/alderton1997_partials.pdf)
 
@@ -457,15 +456,15 @@ And here's the *g* loadings and partial correlations for the other studies:
 
 If factor analysis was a perfect fit, these would all be zero, which they aren't. But they are pretty small, meaning that in each case, the single number *g* captures most of the interesting correlations.
 
-## What would *g* look like?
+## What would **g** look like?
 
-Factor analysis is a decent but not perfect model of mental tests. What does this tell us about how intelligence works? Well, suppose that factor analysis was a *perfect* model. Would that mean that we're all born with some single number *g* that determines how good we are at thinking?
+Factor analysis is a decent but not perfect model of mental tests. What does this tell us about how intelligence works? Well, suppose that factor analysis was a *perfect* model. Would that mean that we're all born with some single number **g** that determines how good we are at thinking?
 
-No. A perfect fit would only mean that, across a population, a single number would *describe* how people do on tests (except for the "noise"). It does not mean that there's a single number or switch that *causes* test performance to be correlated.
+No. A perfect fit would only mean that, across a population, a single number would *describe* how people do on tests (except for the "noise"). It does not mean that number *causes* test performance to be correlated.
 
 This is a point that often comes up in "refutations" of the existence of *g*. People argue, essentially, that even though tests are correlated, it's possible that many *independent causes* combine to produce them. I'd go further---we *know* there are many causes. While intelligence is strongly [heritable](/heritability), it's highly polygenic. [Dozens of genes](https://doi.org/10.1038/ng.3869) are already known to be linked to it, and more are likely to be discovered. It's harder to quantify environmental influences, but there are surely many that matter there, too.
 
-So, is there a magical number *g* somewhere in our brains that determines how good we are at thinking? No, just like there's no single number that says how good we are at running or balancing. That doesn't change the empirical fact that a single number provides a good *summary* of how good we are at various mental tasks.
+So, no, there's no magical number **g** hidden in our brains, just like there's no single number in our bodies that says how good we are at running, balancing, or throwing stuff. But that doesn't change the fact that a single number provides a good *description* of how good we are at various mental tasks.
 
 {% comment %}
 Here's an analogy: What determines how quickly an air purifier can clean the air? Lots of things: The quality of the filters, the number of filters, the strength of the fan, etc. Yet, if you tell me the [clean-air delivery rate](https://en.wikipedia.org/wiki/Clean_air_delivery_rate), that's all I need to know to predict how it will work. There's lots of *causes*, but they can be summarized by a single number.
