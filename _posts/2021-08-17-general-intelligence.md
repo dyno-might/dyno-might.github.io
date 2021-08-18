@@ -111,7 +111,7 @@ Paper | Population
 - | - 
 [Baumgartner and Zuidema, 1972](https://doi.org/10.1080/10671188.1972.10615157) | 283 male and 336 female college students in Michigan
 [Marsh and Redmaye, 1994](https://doi.org/10.1123/jsep.16.1.43) | 105 students at two private girls' schools in Sydney
-[Ibrahim et al., 2011]((https://doi.org/10.2466/03.06.19.25.pms.113.5.491-508)) | 330 Malaysian students aged 12-15
+[Ibrahim et al., 2011](https://doi.org/10.2466/03.06.19.25.pms.113.5.491-508) | 330 Malaysian students aged 12-15
 
 Here are the correlations among the different tests (click to open/close). The columns are the same as the rows---so the 3rd square in the first row is the correlation between hand grip and pull-ups.
 
@@ -126,7 +126,7 @@ And here are the other studies (click to open/close):
 <details markdown="1" open="1">
 <summary><b>Baumgartner and Zuidema</b></summary>
 [![baumgartner 1973 physical fitness correlations](/img/g/tables/baumgartner1972.svg)](/img/g/tables/baumgartner1972.pdf)
-This is males, with tests grouped by color. (Females are similar, except with lower correlations in upper-body strength.)
+This is males. (Females are similar, except with lower correlations in upper-body strength.)
 </details>
 
 <details markdown="1">
@@ -272,7 +272,7 @@ Here's an example, where we choose a direction of variation similar to the datas
 
 {% include video.html where="/img/g/3dplot/line" title="factor analysis with no noise" %}
 
-Of course, real data will never look like that---there will always be "noise". To account for this, let's update our simulator, by adding some random noise to each point. This produces data that looks like a cigar.
+Of course, real data will never look like that---there will always be "noise", either from measurement error, or from certain people randomly being good/bad at certain tasks. To account for this, let's update our simulator, by adding some random noise to each point. This produces data that looks like a cigar.
 
 <!--
 ![factor analysis with noise](/img/g/3dplot/cigar.gif)
@@ -462,9 +462,9 @@ Factor analysis is a decent but not perfect model of mental tests. What does thi
 
 No. A perfect fit would only mean that, across a population, a single number would *describe* how people do on tests (except for the "noise"). It does not mean that number *causes* test performance to be correlated.
 
-This is a point that often comes up in "refutations" of the existence of *g*. People argue, essentially, that even though tests are correlated, they might be produced by many *independent causes*. I'd go further---we *know* there are many causes. While intelligence is strongly [heritable](/heritability), it's highly polygenic. [Dozens of genes](https://doi.org/10.1038/ng.3869) are already known to be linked to it, and more are likely to be discovered. It's harder to quantify environmental influences, but there are surely many that matter there, too.
+This is a point that often comes up in "refutations" of the existence of *g*. People argue, essentially, that even though tests are correlated, they might be produced by many *independent causes*. I'd go further---we *know* there are many causes. While intelligence is strongly [heritable](/heritability), it's highly polygenic. [Dozens of genes](https://doi.org/10.1038/ng.3869) are already known to be linked to it, and more are likely to be discovered. How "broad" the effects of individual genes are is an active research topic. It's harder to quantify environmental influences, but there are surely many that matter there, too.
 
-So, no, there's no magical number **g** hidden in our brains, just like there's no single number in our bodies that says how good we are at running, balancing, or throwing stuff. But that doesn't change the fact that a single number provides a good *description* of how good we are at various mental tasks.
+So, no, the above data doesn't imply that there's no magical number **g** hidden in our brains, just like it doesn't imply that there's single number in our bodies that says how good we are at running, balancing, or throwing stuff. But that doesn't change the fact that a single number provides a good *description* of how good we are at various mental tasks.
 
 Suppose you're hiring someone for a job that requires a few different mental tasks. (Arithmetic, sequential memory, whatever.) If you knew someone's **g**, you could guess how well they'd do at each task. But it would only be a guess! To really know, you still need to test the skills individually. That's the key word: *Individually*. It's not that **g** tells you everything---it doesn't---it's just that once you know **g**, how good someone is at one task doesn't tell you anything about how good they'll be at another.
 
