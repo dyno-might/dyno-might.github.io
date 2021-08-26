@@ -70,7 +70,7 @@ Even well-publicized bills can proceed with some sanity, provided they aren't cu
 
 For issues that become culture-war signifiers, forget it. In politically diverse institutions (the US Senate) everything stops. Even if someone is convinced by an opposing argument, they can't change their position because it's terrible politics to give the other side a "win". Bringing more attention doesn't create a healthy debate, it makes debate impossible.
 
-Or take a politically homogenous institution, like a university. If everyone is "on the same side" on an issue, that often leads people to support *every possible measure* regardless of effectiveness. Witness the [attempted censure](https://www.theatlantic.com/ideas/archive/2020/07/steven-pinker-will-be-just-fine/614323/) of Steven Pinker for misdeeds like writing an equivocal [review article](https://newrepublic.com/article/77727/groups-and-genes) about the intelligence of Ashkenazi Jews or suggesting it was a bad idea to abolish the police.  My best guess for what's happening here is that once there's a "correct" opinion, a sort of moral superiority arms race starts. Eventually, even people who agree with the general opinion can't question any evidence or mentioning any downsides, lest they look heretical.
+Or take a politically homogenous institution, like a university. If everyone is "on the same side" on an issue, that often leads people to support *every possible measure* regardless of effectiveness. Witness the [attempted censure](https://www.theatlantic.com/ideas/archive/2020/07/steven-pinker-will-be-just-fine/614323/) of Steven Pinker for misdeeds like writing an equivocal [review article](https://newrepublic.com/article/77727/groups-and-genes) about the intelligence of Ashkenazi Jews or suggesting it was a bad idea to abolish the police.  My best guess for what's happening here is that once there's a "correct" opinion, a sort of moral superiority arms race starts. Eventually, even people who agree with the general opinion can't question any evidence or mention any downsides, lest they look heretical.
 
 As far as I can see, you don't "win" culture war. If you tell the people who disagree with you that they are horrible and evil, they'll probably just dig in. And if you tell your allies that anyone who disagrees is a monster, you won't have a very nuanced internal discussion. We aren't finding any consensus, we're just yelling past each other.
 
@@ -105,7 +105,7 @@ A third advantage of interventions is that it's **easier to convince someone** a
 * Mandate implicit bias training.
 * Require officers to de-escalate or exhaust alternatives before resorting to force.
 
-You don't need to resolve if police are biased to talk about these policies. Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might agree to that policy if it's phrased as an *evidence-based policy tune-up* rather than a win for *Team Police Are Bad*.
+Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might agree to that policy if it's phrased as an *evidence-based policy tune-up* rather than a win for *Team Police Are Bad*.
 
 If we can resist the urge to talk about grander themes and stick to the effects of what we can *do*, we'd have a better chance of good policies.
 
@@ -135,7 +135,7 @@ I see two major counterarguments. The first is that it assumes that you view pol
 
 The second is that maybe "nature finds a way". My assumption is that culture war is intractable because it focuses on controversial questions that are beyond the reach of evidence. The other possibility is that culture war is intractable because... we just love intractable arguments. Maybe it's human nature to see what's in the news and then line up for trench warfare. The human drive towards tribalism and group cohesion certainly seems stronger than the drive towards cold-blooded analysis.
 
-This second counterargument worries me a lot. One response is that, sure, maybe most people won't do this, but *you* can, and if it's a good idea you'll help on the margin.
+This second counterargument worries me. One response is that, sure, maybe most people won't do this, but *you* can, and if it's a good idea you'll help on the margin.
 
 But is it a good idea? If everyone focused on the effects of interventions, would we get people across the political spectrum high-fiving in the streets and cheering the benefits of fixing [particulate levels in subways](/air/#particles-while-commuting)? Or would we get "You don't want the Fed to do inflation targeting---What are you, *a fascist?*"
 
@@ -143,4 +143,4 @@ I think this would happen to some degree. But the discourse just isn't big enoug
 
 ## Too long didn't read
 
-Broad culture war questions are irresolvable mind-killers, but we can't simply give up rational discussion of huge realms of human life. Statistics might not be able to answer those questions. What is *can* do is find the effect of interventions: What happens after you do something? We should skip the broad culture-war, and ask "if we push this policy lever, what are the effects". At the same time, we should try to deflate the culture-war by skeptically evaluating all broad claims. Studying interventions is less controversial, more grounded in evidence, and must happen eventually anyway. Directly fighting the culture war is like attempting a frontal assault on Rabaul.
+Broad culture war questions are irresolvable mind-killers, but we can't simply give up rational discussion of huge realms of human life. Statistics might not be able to answer those questions. What is *can* do is find the effect of interventions: What happens after you do something? We should skip the broad culture-war, and ask "if we push this policy lever, what are the effects". At the same time, we should try to deflate the culture-war by skeptically evaluating all broad claims. Studying interventions is less controversial, more grounded in evidence, and must happen eventually anyway. Directly fighting the culture war is like a frontal assault on Rabaul.
