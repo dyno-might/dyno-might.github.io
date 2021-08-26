@@ -6,9 +6,9 @@ tags: statistics policy
 hero_light: false
 dark_title: false
 background_color: black
-description: ""
+description: "If culture war is intractable, what should we do instead?"
 permalink: /culture-war-island-hopping/
-background_color: rgb(143,177,189)
+background_color: rgb(165,165,165)
 head: "<style>
 img{
     display:block;
