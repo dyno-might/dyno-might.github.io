@@ -36,7 +36,7 @@ So, here's a theory: If you want to make the world better, culture-war debates a
 {:toc}
 
 
-## So much statistical nihilism
+## Statistical nihilism
 
 I spend a lot of time sort of arguing that nothing means anything. For example:
 
@@ -141,6 +141,6 @@ But is it a good idea? If everyone focused on the effects of interventions, woul
 
 I think this would happen to some degree. But the discourse just isn't big enough to support hundreds of policies. Already today, both Republicans and Democrats give [idiosyncratic answers](/polarization-sample-bias/) when asked about specific issues. Maybe some high-profile issues become super polarized, but I doubt it could happen everywhere.
 
-## Too long didn't read
+## TLDR
 
 Broad culture war questions are irresolvable mind-killers, but we can't simply give up rational discussion of huge realms of human life. Statistics might not be able to answer those questions. What is *can* do is find the effect of interventions: What happens after you do something? We should skip the broad culture-war, and ask "if we push this policy lever, what are the effects". At the same time, we should try to deflate the culture-war by skeptically evaluating all broad claims. Studying interventions is less controversial, more grounded in evidence, and must happen eventually anyway. Directly fighting the culture war is like a frontal assault on Rabaul.
