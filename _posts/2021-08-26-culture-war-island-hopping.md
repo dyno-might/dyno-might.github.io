@@ -26,7 +26,7 @@ When this campaign ended in 1943, Japan's major forward base in the South Pacifi
 
 ![rabaul](/img/culture-war-island-hopping/rabaul.jpg)
 
-Eventually, the allies settled on a strategy of *island-hopping*: With air and naval supremacy, it was decided to simply avoid heavily fortified areas like Rabaul. Instead, the Allies took only the fewest and most weakly defended points necessary to establish supply lines towards the Japanese mainland.
+Eventually, the Allies settled on a strategy of *island-hopping*: With air and naval supremacy, it was decided to simply avoid heavily fortified areas like Rabaul. Instead, the Allies took only the fewest and most weakly defended points necessary to establish supply lines towards the Japanese mainland.
 
 So, here's a theory: If you want to make the world better, culture-war debates are often like attacking Rabaul.
 
@@ -54,7 +54,7 @@ I spend a lot of time sort of arguing that nothing means anything. For example:
 
    Statements like "intelligence is 60% heritable" aren't as consequential as people often think. Many people suggest that we should just "fix" the technical definition of heritability to better correspond to the everyday meaning of the word, but it's not clear that's possible. Like most words, the way people actually use "heritable" is probably inconsistent and impossible to formalize.
 
-What's the point of all this? Why spend so much effort just to point out that, whatever the subject, there are no implications for what we actually care about? Partly, it's a personal fixation that statistical arguments should be careful and not over-claim. That is perfectly valid! But there's a deeper reason, too.
+What's the point of all this? Why spend so much effort just to point out that, whatever the subject, there's no implications for what we actually care about? Partly, it's a personal fixation that statistical arguments should be careful and not over-claim. That is perfectly valid! But there's a deeper reason, too.
 
 ## We argue a lot
 
