@@ -131,13 +131,13 @@ A more gentle approach would be more effective. Treat all arguments with the sam
 
 ## Counterarguments
 
-I see two major counterarguments. The first is that it assumes that you view policies in consequentialist terms, where what matters is effects. If you truly think that what's important in policies is the spirit behind them, then I'll reluctantly concede that culture war might be the right choice for you. Also, for some issues---say creating a new national holiday---the symbolism is the whole point.
+I see two major counterarguments. The first is that it assumes that you view policies in consequentialist terms, where what matters is effects. If you truly think that what's important in policies is the spirit behind them, then I'll reluctantly concede that culture war might be the right choice for you. Also, for some issues---say creating a new national holiday---symbolism is the whole point.
 
-The second is that maybe "nature finds a way". My assumption is that culture war is intractable because it focuses on controversial questions that are beyond the reach of evidence. The other possibility is that culture war is intractable because... we just love intractable arguments. Maybe it's human nature to see what's in the news and then line up for trench warfare. The human drive towards tribalism and group cohesion certainly seems stronger than the drive towards cold-blooded analysis.
+The second is that maybe "nature finds a way". My assumption is that culture war is intractable because it focuses on controversial questions that are beyond the reach of evidence. The other possibility is that culture war is intractable because... we just love intractable arguments. Maybe it's human nature to see what's in the news and then line up for trench warfare. The drive towards tribalism and group cohesion seems stronger than the drive towards cold-blooded analysis.
 
 This second counterargument worries me. One response is that, sure, maybe most people won't do this, but *you* can, and if it's a good idea you'll help on the margin.
 
-But is it a good idea? If everyone focused on the effects of interventions, would we get people across the political spectrum high-fiving in the streets and cheering the benefits of fixing [particulate levels in subways](/air/#particles-while-commuting)? Or would we get "You don't want the Fed to do inflation targeting---What are you, *a fascist?*"
+But is it a good idea? If everyone focused on the effects of interventions, would we get people across the political spectrum high-fiving in the streets and cheering the benefits of fixing [particulate levels in subways](/air/#particles-while-commuting)? Or would we get "You don't want the Fed to do inflation targeting---what are you, *a fascist?*"
 
 I think this would happen to some degree. But the discourse just isn't big enough to support hundreds of policies. Already today, both Republicans and Democrats give [idiosyncratic answers](/polarization-sample-bias/) when asked about specific issues. Maybe some high-profile issues become super polarized, but I doubt it could happen everywhere.
 
