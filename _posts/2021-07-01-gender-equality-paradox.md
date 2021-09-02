@@ -9,6 +9,7 @@ background_color: black
 description: "Testing the claim that more feminist countries have fewer women in STEM."
 permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
+last_updated: 2021-09-02
 head: "<style>
 details{
     }
@@ -53,7 +54,7 @@ table{
 </style>"
 ---
 
-The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. It turns out that the debate in the scientific literature is largely about *causality*, despite that there's no agreement about a more basic question: Does the paradox even *exist*, or is it just an illusion caused by a contrived data analysis?
+The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. While there's lots of debate in the scientific literature about the *causal implications* of this paradox, there's no agreement about a more basic question: Does the paradox even *exist*, or is it just an illusion caused by a contrived data analysis?
 
 {% comment %}
 To answer that, let's check how robust the paradox is. Does it stand up if we change how we measure *gender equality* or *women in STEM careers*?
@@ -76,14 +77,16 @@ In 2018, [Stoet and Geary](https://doi.org/10.1177%2F0956797617741719) had one o
 
 Finland has high equality but few women in STEM, while Algeria is the opposite. That's the trend.
 
-*Why* this would be true is unclear, but the result seems hard to dispute. It's obvious from the graph that GGGI is measuring *something*, and you don't need to trust any fancy statistics. You can just look at the data.
+*Why* this would be true is unclear, but the result seems hard to dispute. It's obvious that GGGI is measuring *something*, just look at the countries that are high or low on the graph. And you don't need to trust any fancy statistics, you can see the trend in the data.
 
-This was picked up by [The Atlantic](https://www.theatlantic.com/science/archive/2018/02/the-more-gender-equality-the-fewer-women-in-stem/553592/), [The American Enterprise Institute](https://www.aei.org/carpe-diem/the-global-educational-gender-equality-paradox-the-more-gender-equality-in-a-country-the-fewer-women-in-stem/), [Ars Technica](https://arstechnica.com/science/2018/02/globally-women-tend-to-avoid-science-careers-even-when-theyre-good-at-it/), [MacLean's](https://www.macleans.ca/society/could-helping-boys-be-the-key-to-closing-the-stem-gap/), and [Jordan Peterson](https://www.jordanbpeterson.com/political-correctness/the-gender-scandal-part-one-scandinavia-and-part-two-canada/). Stoet and Geary themselves published an article at [Quillette](https://quillette.com/2018/02/15/sex-stem-stubborn-facts-stubborn-ideologies/), where they suggest their graph is partly due to different levels of interest in STEM and partly to [comparative advantage](https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)—in places like Finland, girls perform similarly to boys in science but much better in reading, meaning fewer girls have science as their personal best subject.
+This was picked up by [The Atlantic](https://www.theatlantic.com/science/archive/2018/02/the-more-gender-equality-the-fewer-women-in-stem/553592/), [The American Enterprise Institute](https://www.aei.org/carpe-diem/the-global-educational-gender-equality-paradox-the-more-gender-equality-in-a-country-the-fewer-women-in-stem/), [Ars Technica](https://arstechnica.com/science/2018/02/globally-women-tend-to-avoid-science-careers-even-when-theyre-good-at-it/), [MacLean's](https://www.macleans.ca/society/could-helping-boys-be-the-key-to-closing-the-stem-gap/), and [Jordan Peterson](https://www.jordanbpeterson.com/political-correctness/the-gender-scandal-part-one-scandinavia-and-part-two-canada/). Stoet and Geary themselves published an article at [Quillette](https://quillette.com/2018/02/15/sex-stem-stubborn-facts-stubborn-ideologies/), where they suggest their graph is partly due to different levels of interest in STEM and partly to [comparative advantage](https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)—in places like Finland, girls perform similarly to boys in science but much better in reading.
+
+Wait, did I just say this was hard to dispute? Hahaha, no.
 
 ### Act II
 {:.no_toc}
 
-Inevitably, this was disputed. Richardson and colleagues took the same data and found that the percentage of women among STEM graduates was completely different. They—I think—contacted the journal, which led to a [corrigendum](https://doi.org/10.1177%2F0956797619892892) from Stoet and Geary in late 2019. This clarified what's on the x-axis in the above graph:
+Suspicious of these results, Richardson and colleagues took the same data, calculated the percentage of women among STEM graduates, and got completely different numbers. They—I think—contacted the journal, which led to a [corrigendum](https://doi.org/10.1177%2F0956797619892892) from Stoet and Geary in late 2019. This clarified what's on the x-axis in the above graph:
 
 > The propensity of women to graduate with STEM degrees was *a*/(*a + b*), where *a* is the percentage of women who graduate with STEM degrees (relative to all women graduating) and *b* is the percentage of men who graduate with STEM degrees (relative to all men graduating). 
 
@@ -94,18 +97,18 @@ Get that? Take a country with the following graduates each year:
 **STEM degrees**|100|5
 **All degrees**|1000|50
 
-Women make up 5/105 or around 4.8% of STEM graduates.  However, their formula gives 50%, since the fraction of women who do STEM is the same as the fraction of men who do STEM, i.e. *a*=5/50 is equal to *b*=100/1000.
+Women make up 4.8% (5/105) of STEM graduates.  However, their formula gives 50%, since the fraction of women who do STEM is the same as the fraction of men who do STEM. That is, *a*=5/50 is equal to *b*=100/1000.
 
-There's a good argument for this. The most salient fact about the above country is that few women get degrees, rather than anything STEM-specific. Stoet and Geary's formula is invariant to this kind of imbalance.
+There's a good argument for this. The most salient fact about the above country isn't anything STEM-specific, it's just that few women get degrees. Stoet and Geary's formula is invariant to this kind of imbalance.
 
-There's also a good argument against this formula. Maybe you think that this imbalance is really important, and you don't *want* to be invariant to it.
+There's also a good argument against this formula. Maybe you think that this imbalances in the total number of degrees are important, and you don't *want* to be invariant to them.
 
-What there's *not* a good argument for is calling this quantity "Women Among STEM Graduates (%)"! It's not clear how this happened. In any case, Stoet and Geary don't change much about their paper other than adding the quote above and inserting the word "propensity" everywhere.
+What there's *not* a good argument for is calling this quantity "Women Among STEM Graduates (%)" like the above graph does. In their corrigendum, Stoet and Geary don't really explain how this happened. In fact, they really don't change much about their paper at all, other than adding above quote and inserting "propensity" everywhere.
 
 ### Act III
 {:.no_toc}
 
-Simultaneously with Stoet and Geary's corrigendum, Richardson and colleagues published a [commentary](https://doi.org/10.1177%2F0956797619872762) on the corrected paper. They argue:
+Simultaneously with Stoet and Geary's corrigendum in 2019, Richardson and colleagues published a [commentary](https://doi.org/10.1177%2F0956797619872762) on the corrected paper. They argue:
 
 1. Propensities are bad.
 2. It's not cool to use GGGI because it "measures achieved outcomes, not propensities" and "is not intended to be used to causally explain outcomes".
@@ -114,14 +117,14 @@ Simultaneously with Stoet and Geary's corrigendum, Richardson and colleagues pub
 
 <img src="/img/gender-equality-paradox/richardson-reply-graph.svg" alt="richardson reply graph" loading="lazy">
 
-They also published articles in [Slate](https://slate.com/technology/2020/02/women-stem-innate-disinterest-debunked.html) and on [their blog](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction). This was picked up by [Buzzfeed](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction) and [The Scientist](https://www.the-scientist.com/news-opinion/scholars-debate-causes-of-womens-underrepresentation-in-stem-67117), but doesn't seem to have gotten as much publicity as the original article.
+They also published articles in [Slate](https://slate.com/technology/2020/02/women-stem-innate-disinterest-debunked.html) and on [their blog](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction). This was picked up by [Buzzfeed](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction) and [The Scientist](https://www.the-scientist.com/news-opinion/scholars-debate-causes-of-womens-underrepresentation-in-stem-67117).
 
 ### Act IV
 {:.no_toc}
 
-In 2020, Breda and colleagues joined the party. They published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary use. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
+In 2020, Breda and colleagues published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary use. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
 
-Their first observation that the propensities aren't just correlated with GGGI, but with all sorts of other stuff as well:
+Their first observation that the propensities aren't just correlated with GGGI. They are also correlated with:
 * GDP per capita.
 * The [human development index](https://en.wikipedia.org/wiki/Human_Development_Index).
 * Income inequality, measured via the [Gini index](https://en.wikipedia.org/wiki/Gini_coefficient).
@@ -133,17 +136,15 @@ They do a regression to predict propensities from each of these variables (one v
 <img src="/img/gender-equality-paradox/breda_model.svg" alt="regression of STEM propensities on different country variables" loading="lazy">
 </a>
 
-Everything "good" is associated with fewer women in STEM, be it more GDP, more development, less income/human inequality, or more gender equality.
+Everything "good" is associated with lower propensities, be it more GDP, more development, less income/human inequality, or more gender equality.
 
-Their goal was to test how all this relates to gender stereotypes. They took the [PISA 2012](https://www.oecd.org/pisa/pisaproducts/pisa2012database-downloadabledata.htm) data, and looked at how boys and girls felt about these two statements:
+Their goal was to test how all this relates to gender stereotypes. They took the [PISA 2012](https://www.oecd.org/pisa/pisaproducts/pisa2012database-downloadabledata.htm) data, and looked at how boys and girls felt about these two statements. These were chosen because they don't directly mention gender, reducing the risk of social desirability bias.
 
 > "Whether or not I do well in mathematics is completely up to me."
 >
 > "My parents believe it’s important for me to study mathematics."
 
-These were chosen because they don't directly mention gender, reducing the risk of social desirability bias.
-
-Their *stereotype score* for each country reflects how much boys vs. girls agree with the above statements. If a boy (girl) of equal math ability is more likely to agree, the stereotype score is positive (negative).
+Their *stereotype score* for each country reflects how much boys vs. girls agree with the above statements. If a boy of equal math ability is more likely to agree than a girl, the stereotype score is positive. If a girl is more likely to agree, the stereotype score is negative.
 
 Their main result is a second regression to predict STEM propensities, now controlling for the stereotype scores in each country:
 
@@ -157,25 +158,30 @@ This paper is often summarized (e.g. on [Wikipedia](https://en.wikipedia.org/wik
 
 > The stereotype associating math to men is stronger in more egalitarian and developed countries. It is also strongly associated with various measures of female underrepresentation in math-intensive fields and can therefore *entirely explain* the gender-equality paradox.
 
-However, most of their paper is about predicting other things (e.g., the *intention* to study STEM) where controlling for stereotypes has a stronger effect. I think it's misleading to take them as claiming to *entirely explain* Stoet and Geary's paradox, when the reduction for GGGI coefficient above is so modest.
-
 ## New Analysis
 
 ### Paradox dissolved?
 
-After reading these follow-up papers, I had the impression the original study was debunked. But notice three things:
+After first reading these follow-up papers, I had the impression the original study was debunked. But notice three things:
 
-<u>First</u>, causality isn't everything. Richardson et al. think that BIGI is better than GGGI for establishing causality. I don't understand their reasoning in the slightest, but it doesn't matter. *None* of these analyses prove causality.
+First, causality isn't everything. Richardson et al. think that BIGI is better than GGGI for establishing causality. I don't understand their reasoning in the slightest, but it doesn't matter. *None* of these analyses prove causality.
 
-Still, **does the paradox actually exist**? It can't simultaneously be *false* (as Richardson et al. seem to claim) and *true but explained by gender stereotypes* (as Breda et al. claim.) Which is it?
+Still, does the paradox actually exist? It can't simultaneously be *false* (as Richardson et al. seem to claim) and *true but explained by gender stereotypes* (as Breda et al. claim.) Which is it?
 
-<u>Second</u>, stereotypes don't solve the paradox. Suppose that the paradox was entirely explained by gender stereotypes. That's valuable but leaves the mystery of why more gender-equal countries should have stronger stereotypes!
+Second stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading. Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
+
+But suppose that the paradox were entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes!
+
+{% comment %}
 
 * It could be cultural. Maybe in rich, gender-equal countries, The Patriarchy has more spare resources to spend indoctrinating everyone.
 * It could be intrinsic interest. Maybe women are less likely to have STEM as their #1 choice, but in *un*equal countries they have few other options and so they conclude math is important for them.
 * It could be some impossible-to-disentangle combination. Maybe parents in gender-unequal countries know that their daughters have fewer opportunities, and so they constantly tell them how amazing math is, resulting in those girls liking math.
+{% endcomment %}
 
-<u>Third</u>, it's unclear how fragile the result is. Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Certainly, if the paradox only appears after torturing the data in one way, we shouldn't trust it. But their evidence is... what happened when they tortured the data in one *other* way. Shouldn't we try a *bunch* of analyses, and see how robust things are?
+Third, it's unclear how fragile the result is. Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Of course, I agree that if the paradox only appears after torturing the data in one particular way, then we shouldn't trust it. But their evidence is... what happened when they tortured the data in one *other* particular way.
+
+Shouldn't we try a *bunch* of analyses, and just check how robust things are?
 
 ### A bunch of analyses
 
@@ -197,7 +203,7 @@ This the same as the original Stoet and Geary figure, with three small changes:
 
 The above figure uses propensities, which is a major point of contention. Personally, I think this debate is silly. Propensities give one view of the data, while the raw fraction of women in STEM gives another. They both have value.
 
-So, what if Stoet and Geary had just switched to using the *actual* percentage of women among people who earn STEM degrees, as Richardson et al. suggest they should have? They'd have gotten the following curve, where I've included non-STEM degrees for context.
+So, what if Stoet and Geary had just switched to using the *actual* percentage of women among people who earn STEM degrees, as Richardson et al. suggest they should have? They'd have gotten the following curves. (I added non-STEM degrees for context.)
 
 <a href="/img/gender-equality-paradox/gggi_vs_female_share_nonstem_and_female_share.pdf">
 ![gggi vs female STEM and non-STEM fractions](/img/gender-equality-paradox/gggi_vs_female_share_nonstem_and_female_share.svg)
@@ -217,19 +223,19 @@ Be careful interpreting this graph: While more equality meant *more* GGGI, it me
 
 Again, the most gender-equal countries have a smaller fraction of women in STEM, but not non-STEM. With propensities, this effect is <a href="/img/gender-equality-paradox/gii_vs_female_propensity.pdf">even stronger</a>.
 
-A third alternative is BIGI, as suggested by Richardson et al. Be *very* careful here. BIGI is negative when women are favored and positive when men are favored. Equality occurs around zero.
+A third alternative is BIGI, as suggested by Richardson et al. Be very careful here: BIGI is negative when women are favored and positive when men are favored. Equality occurs around zero.
 
 <a href="/img/gender-equality-paradox/bigi_vs_female_share_nonstem_and_female_share.pdf" alt="bigi vs female STEM and non-STEM fractions">
 <img src="/img/gender-equality-paradox/bigi_vs_female_share_nonstem_and_female_share.svg" alt="bigi vs female STEM and non-STEM fractions" loading="lazy">
 </a>
 
-The more women are favored, the more non-STEM degrees they earn. With STEM degrees, women earn the smallest share for BIGI ≈ -.02, where women are *just slightly* favored. The fraction increases when there's more inequality in either direction. Comparing BIGI to propensities gives a <a href="/img/gender-equality-paradox/bigi_vs_female_propensity.pdf">stronger, but less symmetric, effect</a>.
+For non-STEM degrees, the trend is simple---the more women are favored, the more degrees they earn. But for STEM degrees, there's a U-shaped curve where women earn the smallest share around BIGI ≈ -.02, where women are *just slightly* favored. Comparing BIGI to propensities gives a <a href="/img/gender-equality-paradox/bigi_vs_female_propensity.pdf">stronger, but less symmetric, effect</a>.
 
 While we're on the subject... The red dots in the above graph show the same data as in Richardson et al.'s commentary [above](#act-iii), which they used to claim that there was no gender-equality-paradox. (You can also see them [by themselves with country labels](https://dynomight.net/img/gender-equality-paradox/bigi_vs_female_share.pdf).) What's going on?
 
 <details>
 <summary>
-For one thing, I made the graph <strike>better</strike> differently, switching the axes and using smaller markers so you can see the density of countries.
+Well for one thing, I made the graph <strike>better</strike> differently, switching the axes and using smaller markers so you can see the density of countries.
 </summary>
 Don't believe me? Here's what you get if you take their graph, rotate right by 90 degrees, flip the vertical axis, and change the aspect ratio:
 
@@ -241,7 +247,7 @@ For another thing, they did a *linear regression* and found no significant resul
 
 ### Against BIGI
 
-We have three different measures of gender inequality, GGI, GII, and BIGI. Here's a plot of GGGI against GII:
+I think BIGI is a terrible measure of gender-equality and we shouldn't be using it. For context here's a plot comparing the other two measures we've looked at, GGGI and GII:
 
 <a href="/img/gender-equality-paradox/gggi_vs_gii.pdf" alt="gggi vs gii graph">
 <img src="/img/gender-equality-paradox/gggi_vs_gii.svg" alt="gggi vs gii" loading="lazy">
