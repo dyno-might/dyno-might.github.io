@@ -263,7 +263,7 @@ On the other hand, here's a plot of GGGI against BIGI:
 
 According to BIGI, Saudi Arabia—where women can only show their [hands and eyes in public](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Hijab_and_dress_code) and must have a [legal male guardian](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Male_guardians)—is basically the same as Switzerland. Lesotho—the tiny country inside South Africa—is by far the most women-favored place in the entire world. Ooohkaaay.
 
-This isn't to say that BIGI is *bad*—they [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper—but that it doesn't capture what we have in mind when thinking about a gender-equality paradox.
+This isn't to say that BIGI is *bad* exactly. They [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper. My point is that it doesn't capture what we have in mind in this context.
 
 ### Other measures of women in STEM
 
@@ -277,13 +277,13 @@ For variety, I looked at the [female share of researchers in engineering and tec
 
 If you look at <a href="/img/gender-equality-paradox/gggi_vs_natsci_researchers.pdf">natural science</a> researchers instead of engineering, you again see no paradox.
 
-On the other hand, if you compare to GII instead of GGI, you do see an effect in the most gender-equal countries:
+On the other hand, if you use GII instead of GGGI, you do see an effect in the most gender-equal countries:
 
 <a href="/img/gender-equality-paradox/gii_vs_researchers.pdf">
 ![GII vs. female share of engineering researchers](/img/gender-equality-paradox/gii_vs_researchers.svg)
 </a>
 
-Comparing GII to the <a href="/img/gender-equality-paradox/gii_vs_natsci_researchers.pdf">natural sciences</a> shows more of a leveling off than a full reversal. I'm not sure if that's a "paradox" but it's not something I'd have predicted.
+Comparing GII to the <a href="/img/gender-equality-paradox/gii_vs_natsci_researchers.pdf">natural sciences</a> shows more of a leveling off than a full reversal. I'm not sure if that's a "paradox" exactly but it's not something I'd have predicted.
 
 ## Takeaways
 
@@ -291,7 +291,7 @@ So, is there a gender-equality paradox? Three points.
 
 First, Stoet and Geary's original paradox is **robust.** It doesn't matter how you measure gender inequality and or if you use propensities or raw fractions to measure women's fraction of STEM degrees. It's not fair to imply that they cherry-picked the details of their analysis to support some pre-determined conclusion.
 
-Second, the paradox is **somewhat limited.** It appears with STEM degrees no matter how you define "equality" and how you torture the data. For STEM researchers, the effect depends on the definition of gender equality, and it is more modest when it does appear. This is weird, and I don't understand it. Still, it shows that we need more nuance than "more gender equality → fewer women in STEM".
+Second, the paradox is **somewhat limited.** It appears with STEM degrees no matter how you define "equality" and how you torture the data. For STEM researchers, the effect is more modest and only appears for certain definitions of gender equality. This is weird, and I don't understand it other than that it suggests we need more nuance than "more gender equality → fewer women in STEM".
 
 Third, **resist simplistic causal explanations!** People choose degrees for lots of reasons: Economics,  working conditions, family influences, cultural/media influences, intrinsic interest, and simply what degree programs are accessible. Most of these operate in feedback loops with each other. My love for scatterplots is vaster than the seas, but they're at most *vaguely suggestive* of any single cause.
 
