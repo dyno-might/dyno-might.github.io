@@ -7,6 +7,7 @@ description: You can make a DIY air purifier in 30s. To test if it works, I gene
 background_color: black
 tags: cleanAir science
 permalink: /:year/:month/:day/:title/
+last_updated: 2021-09-03
 ---
 
 <head>
@@ -133,7 +134,7 @@ There could be some weird quirk in how I ran this experiment. This doesn't neces
 
 **Cost.** The DIY purifier isn't dramatically cheaper than the commercial one, but I expect the filters would need to be replaced much less often. The commercial purifier uses a single filter with an area of 300 cm², whereas the DIY purifier uses two filters with a total area of around 1400 cm², and also slightly thicker. It's reasonable to assume the DIY filters could remove ~4 times as many particles before replacement.
 
-**Durability.** One concern is that box fans aren't meant to be used with filters attached and could wear out. This is reasonable. However, box fans are much cheaper than commercial purifiers, and I've been using this particular fan with various filters attached for several years now without issue.
+**Durability.** One concern is that box fans aren't meant to be used with filters attached and could wear out. This is reasonable. However, box fans are much cheaper than commercial purifiers, and I've been using this particular fan with various filters attached for several years now without issue. The bigger concern here is probably that heat build-up could in principle cause a fire, which could be dangerous. Also, there are some suggestions that heat buildup on the electrical components could create toxic particles, which might be dangerous for birds. I don't know how serious this danger is.
 
 **Electricity.** The cost of electricity is another factor. Typical box fans seem to use around 55W, whereas commercial purifiers typically use 30-45W. If electricity costs $0.13 / kWh, the box fan would cost around $62 to operate 24 hours a day for a year, while a 30-watt purifier would cost around $34. Obviously, these numbers decrease if you run the purifier less. Some (more expensive) commercial purifiers have air quality sensors built in and automatically turn on only when needed.
 

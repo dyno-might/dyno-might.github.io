@@ -9,16 +9,23 @@ background_color: black
 description: "Correlations between life outcomes and big five personality traits. How good/bad American presidents score. And, are human personalities evolving?"
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
+last_updated: 2021-09-03
 head: "<style>
-details{
-    }
-details summary{
-  padding-bottom: 8pt;
-}
 img{
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+details{
+    padding-left: 10pt;
+    margin-bottom: 10pt;
+    border-left: solid 1px gray;
+    }
+details > summary{
+  padding-bottom: 0pt;
+  padding: 5pt;
+  padding-left: 5pt;
+  cursor: pointer;
 }
 </style>"
 ---
@@ -57,12 +64,12 @@ On the one hand, this would explain why everyone isn't an all-blue: If you want 
 It's tempting to make up post-hoc stories for those coefficients. ("High openness people spend too much time on rationalist-adjacent blogs," har-har, yes, very good.) But it's not that simple. You've got to do one of two things.
 
 * You might reject the idea of a population equilibrium. If so, you should explain why the rules of natural selection don't apply here.
-* You might claim that humans *used* to be in equilibrium, but there's been some recent change to reproductive fitness that evolution hasn't caught up to yet. If so, what's the change?
+* You might claim that humans *used* to be in equilibrium, but there's been some recent change to reproductive fitness that evolution hasn't caught up to yet.
 
-What changes could have thrown us out of equilibrium? It can't be the dawn of agriculture -- there's been too many generations for effects this strong to persist. It would need to be more recent like the industrial revolution or the invention of birth control. Intelligence isn't exactly a personality trait, but [Udry (1978)](http://dx.doi.org/10.1080/19485565.1978.9988313) surveyed 225 women on birth control. After three years, the percentage of low, medium, and high-IQ women who accidentally had a baby was 11.1%, 8.2%, and 3.4%, respectively. This paper is old and I couldn't find any replications, so I wouldn't put too much faith in it. Still, it's plausible that conscientiousness could have a similar role.
+What changes could have thrown us out of equilibrium? It can't be the dawn of agriculture---there's been too many generations for effects this strong to persist. It would need to be more recent like the industrial revolution or the invention of birth control. Intelligence isn't exactly a personality trait, but [Udry (1978)](http://dx.doi.org/10.1080/19485565.1978.9988313) surveyed 225 women on birth control. After three years, the percentage of low, medium, and high-IQ women who accidentally had a baby was 11.1%, 8.2%, and 3.4%, respectively. This paper is old and I couldn't find any replications, so I wouldn't put too much faith in it. Still, it's plausible that conscientiousness could have a similar role.
 
 <details markdown="1">
-<summary>Aside: Personality traits are correlated. For example, extraversion is correlated with openness. If we account for this, there's still tons of variability in how many grandkids different personalities should expect.
+<summary>Aside: Personality traits are correlated. For example, extraversion is correlated with openness. But if we account for this, there's still tons of variability in how many grandkids different personalities should expect.
 </summary>
 
 Lieu [pointed out](https://twitter.com/lieuZhengHong/status/1389972790334435337) that there are correlations between personality traits. [Vukasović and Bratko (2015)](https://dx.doi.org/10.1037/bul0000017) do a meta-analysis, arriving at the following correlations.
@@ -80,8 +87,6 @@ Fortunately for us, correlations alone are enough to generate the normalized var
 <img src="/img/personalities/hist.svg" alt="histogram of grandkids with and without accounting for correlations" loading="lazy">
 
 Sure enough, the standard deviation is less if we account for the correlations. But it's only a *bit* less. In any case, the grandkids model is a *regression*. Correlations among with inputs don't change the fact that certain people (high openness introverts) have fewer grandkids than others (low openness extraverts).
-
-<br>
 </details>
 
 I suspect we really are out of equilibrium. Modern lives are very different than even 5-10 generations ago, and it would be strange if this didn't impact how much different people reproduce. But there's no reason to think we're evolving in an all-blue direction.
@@ -96,15 +101,15 @@ Forget about evolution for a second. Do successful people still tend to be all-b
 
  Washington is a 98.6% on Conscientiousness. Nixon is a 0.02% on Agreeableness.
 
-It's *very* hard to become president. If an all-blue personality was better, we'd see that here. Instead, among recent presidents, we see high extraversion, low agreeableness, and no clear trend otherwise. (Most US households gained radios around 1930 before the election of Franklin Roosevelt.)
+It's *very* hard to become president. If an all-blue personality was better, we'd see that here. Instead, among recent presidents, we see high extraversion, low agreeableness, and no clear trend otherwise. (Most US households gained radios around 1930 before the election of Franklin Roosevelt, so that's a reasonable place to think of the "modern" era starting.)
 
-If being all-blue doesn't help you *become* president, does it make you a good one? It happens that the closest there's been to an all-blue president was Lincoln, often considered the best of all. (He scores low on emotional stability due to his lifelong struggles with depression.) To be more data-driven, the paper finds correlations between personality factors and how *great* a president is rated to be.
+If being all-blue doesn't help you *become* president, does it make you a good one? It happens that the closest there's been to an all-blue president was Lincoln, often considered greatest president. (He scores low on emotional stability due to his lifelong struggles with depression.) But that could be a random coincidence. To be more data-driven, the paper finds correlations between personality factors and how *great* a president is rated to be.
 
 ![correlations between big five personality traits and presidential greatness](/img/personalities/model2.svg)
 
 This is similar to the profile of an all-blue, except that agreeableness is bad, and emotional stability doesn't matter. Teddy Roosevelt probably fits this profile best.
 
-There's also value in looking at sub-traits. In particular, *Agreeableness* has different facets: *Tender-mindedness* is correlated with greatness, while *compliance* and *straightforwardness* are anti-correlated.
+You might also learn things from looking at sub-traits. For example, *Agreeableness* has different facets: *Tender-mindedness* is correlated with greatness, while *compliance* and *straightforwardness* are anti-correlated.
 
 ## The darkness hypothesis
 
@@ -112,9 +117,9 @@ Why are recent presidents usually extraverted and low in agreeableness, but othe
 
 ![relationships of the big five with darker traits](/img/personalities/badvals.svg)
 
-This isn't to say that presidents are all narcissists or psychopaths. (Though who are we kidding, some are.) It's widely agreed now that "narcissism" and "psychopathy" aren't discrete categories. Rather, they are "spectrum traits" that we all have to some degree.
+This isn't to say that presidents are all narcissists or psychopaths. (Though, who are we kidding, some are.) It's widely agreed now that "narcissism" and "psychopathy" aren't discrete categories. Rather, they are "spectrum traits" that we all have to some degree.
 
-How do we arrive at a spectrum of psychopathy? It's the same equilibrium process. If there were no psychopaths, the first one to show up would probably manipulate everyone and have a thousand kids. As we get more psychopaths, everyone's defenses go up, and the strategy becomes less useful. It's not shocking that these traits might be useful in politics.
+How do we arrive at a spectrum of psychopathy? It's another equilibrium process. If there were no psychopaths, maybe the first one to show up would probably manipulate everyone and have a thousand kids. As psychopaths became more common, everyone's defenses go up, and the strategy becomes less useful. It's not shocking that these traits might be useful in politics.
 
 ## Summary
 
