@@ -12,35 +12,35 @@ In June of 1812 Napoleon assembled the largest European army in history and inva
 
 It turns out that the body fights viruses using a similar tactic.
 
-You've probably heard that T-cells are important to immunity to COVID-19. But what exactly do T-cells do? How do you get immunity? What's the difference in what happens after exposure to the virus in an immune person?
+You've probably heard that T-cells are important for immunity to COVID-19. But what exactly do T-cells do? How do you get immunity? What's the difference in what happens after exposure to the virus when someone is immune?
 
-It's debated if the Russians intended to completely destroy Moscow, but never mind. Imagine you wanted to implement "destroy our cities ahead of the French" as a deliberate strategy. If so, you'd want to be *very careful* that the French were actually coming before burning one down.  Information moves slowly, scouts can be unreliable, and you aren't totally sure what the French army looks like from a distance. You'd probably require the city authorities vote unanimously before going ahead. It's better to risk the French capturing a city than to risk a false alarm.
+It's debated if the Russians intended to completely destroy Moscow, but never mind. Imagine you wanted to implement "destroy your cities ahead of the French" as a deliberate strategy. If so, you'd want to be *very* careful that the French were actually coming before burning one down. Scouts can be unreliable, and who knows what the French army really looks like? (It's 1812, photography hasn't really been [invented](https://en.wikipedia.org/wiki/History_of_photography) yet.) You'd probably require the city authorities vote unanimously before going ahead. It's better to risk the French capturing a city than to risk burning one down unnecessarily.
 
-But suppose you have a unit that fought the French for a month and captured some uniforms and equipment. You could distribute these soldiers and detritus to different cities, with orders that cities be immediately burned when they say so. Since they are familiar with the French they will burn a city only when needed.
+But suppose you have a unit that fought the French for a month and captured some uniforms and equipment. You could distribute these soldiers and detritus to different cities, with orders that cities be immediately burned when they say so. Since they are familiar with the French, false alarms are much less likely.
 
-That's kind of how the immune system works. All our cells are built with a "self-destruct" mechanism built in. When there is a viral infection, our T-cells activate this mechanism on all the nearby cells to deny the virus any place to replicate. The body doesn't want this to happen by mistake. (That's how you get autoimmune disease.) For that reason, T-cells require a lot of signal that there's an invasion before they activate, meaning a long ramp-up period. However, when activated, some T-cells will store specific patterns from the virus, become "memory" T-cells. These move around the body and are programmed to activate very quickly, but *only when they see the specific pattern they have stored*.
+That's kind of how the immune system works. All our cells are built with a self-destruct mechanism called [apoptosis](https://en.wikipedia.org/wiki/Apoptosis) built in. When there is a viral infection, our T-cells activate this mechanism on all the nearby cells to deny the virus any place to replicate. But the body doesn't want this to happen by mistake---that's how you get autoimmune disease. Thus, T-cells require a lot of signal that there's an invasion before they activate, meaning a long ramp-up period. However, once activated, some T-cells will store specific patterns from the virus, and become "memory" T-cells. These move around the body and are programmed to activate very quickly, but only when they see the specific pattern they have stored.
 
 ---
 
-I came to this strange analogy after pestering my biologist friends to explain COVID-19 to me. My logic was that articles for experts assume a Biologist Mental Toolkit that I lack, but it should be possible to give more detail to someone like me with a Generic Science Background. With their *enormous* forbearance, I was able to extract an explanation that could fit into my tiny non-biologist brain. This post gives that explanation in the form of a fictional interview.
+I came to this strange analogy after pestering my biologist friends to explain COVID-19 to me. My feeling was that journal articles for experts assume a Biologist Mental Toolkit that I lack. Still, I felt it should be possible to give more detail to someone like me with a Generic Science Background. With their *enormous* forbearance, I was able to extract an explanation that could fit into my tiny non-biologist brain. This post gives that explanation in the form of a fictional interview.
 
-Here are some of the other most surprising things I learned:
+Here are some of the most surprising things I learned:
 
-1. **So much signaling.** The immune system is mostly a madhouse of everything signaling everything else, and rarely "doing" anything. Maybe this is a deep strategy to counter autoiommune disorders or parasites or cancer? It's hard to say.
+1. **Signaling.** The immune system is mostly a madhouse of everything signaling everything else, and rarely "doing" anything. Maybe this is a deep strategy to counter autoimmune disorders or parasites or cancer.
 
-2. **A machine that makes a machine make a machine that makes a machine.** Everyone knows that viruses use cells to make proteins. But the COVID-19 virus is a bunch of proteins, *plus RNA that says how to make all the proteins*. How does the virus make copies of the RNA itself? The virus builds an enzyme inside the cell that makes copies the RNA.
+2. **A machine that makes a machine make a machine that makes a machine.** Everyone knows that viruses use cells to make proteins. But the COVID-19 virus is a bunch of proteins, *plus RNA that says how to make all the proteins*. How does the virus make copies of the RNA itself? The virus builds an enzyme inside the cell that makes copies of the RNA!
 
 3. **Immunity and memory cells.**  Immunity isn't really about antibodies. It's about memory B-cells which make antibodies (and do other stuff) and memory T-cells which trigger other cells' suicide program (and do other stuff).
 
-4. **Why we need memory cells.** Memory B-cells remember how to make virus-specific antibodies. But T-cells just sort of kill everything nearby. Regular T-cells can already sense foreign proteins and can already do their job, so why do we need memory T-cells? It seems to be an issue of *tuning*. Regular T-cells need a lot of signals to activate. (It's a good idea to be sure before handing out suicide orders.) Memory T-cells activate faster, but only for specific patterns they remember.
+4. **Why we need memory cells.** Memory B-cells remember how to make virus-specific antibodies. But T-cells just sort of tell everything nearby to kill itself (apoptosis). Regular T-cells can *already* sense foreign proteins and can already trigger apoptosis, so why do we need memory T-cells at all? It seems to be an issue of *tuning*. Regular T-cells need a lot of signal to activate. (It's a good idea to be sure before handing out suicide orders.) Memory T-cells activate faster, but only for specific patterns they remember. Memory cells are how the body knows this virus is something to take seriously.
 
-5. **Immunity and cell death.** It's well-known that RNA vaccines use your cells to make proteins and thus stimulate an immune response. But how do those proteins get out of the cells? You basically just wait until these cells die and break apart.
+5. **Immunity and cell death.** It's well-known that RNA vaccines use your cells to make proteins that are part of the virus. When those proteins float around in the body, they will immune response. But they proteins are made *inside* cells. How do they get out? You basically just wait until the cells die and break apart.
 
 Two notes about the content below:
 
-* I focus on the rare cases where something actually does any "work". The biologists agree the explanation below is correct, but are *pained* by the details not included. ("Interferon types (I/II/III) are the foundation of the entire immune system!")
+* I focus on the rare cases where something actually does any "work". My biologist friends agree that the explanation below is correct, but are *pained* by the details not included. ("Interferon types (I/II/III) are the foundation of the entire immune system!")
 
-* There are a few things the biologists seem to believe, but were unwilling to endorse. I give them as clearly marked asides.
+* There are a few things the biologists seemed to believe, but were unwilling to endorse. I give these as clearly marked asides.
 
 ---
 
@@ -56,7 +56,7 @@ Cells have many receptors that bind to specific molecules and transport them ins
 
 **Why is this called a "spike" protein?**
 
-It protrudes from the surface of the virus like a spike. 
+It protrudes from the surface of the virus and looks like a spike. 
 
 <a href="https://www.cdc.gov/media/subtopic/images.htm">
 ![covid spikes](/img/covid/covid_spikes.jpg)
@@ -163,6 +163,8 @@ The cells will naturally present fragments of the protein on their surface. This
 **If I take the Moderna or Pfizer vaccine, what's the risk that something goes wrong and I end up getting a serious COVID-19 infection?**
 
 The risk of getting COVID-19 from the vaccine is zero. You are only putting the sequence for the spike protein into your body. The rest of the virus isn't present in any form. There is no "inactivated" virus like in a traditional vaccine, and there's nothing to code for the rest of the virus. It's impossible. These are probably the safest types of vaccines ever created. Even our flu vaccines are basically inactivated flu virus cocktails, and we don't worry about those.
+
+*Update (Aug. 2021)*: I chatting recently with the biologist who made this "safest vaccine ever created" remark. They wouldn't make that claim at this point, and in fact don't remember saying it. (Though they did!) They still believe the risk from these vaccines is miniscule compared to the risk posed by getting COVID. They got vaccinated as soon as they possibly could, and still recommend the same for everyone else.
 
 ---
 
