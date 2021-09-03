@@ -29,10 +29,12 @@ Eventually, the Allies settled on a strategy of *island-hopping*: With air and n
 
 So, here's a theory: If you want to make the world better, culture-war debates are often like attacking Rabaul.
 
+{% comment %}
 ## Contents
 {:.no_toc}
 * auto-gen TOC:
 {:toc}
+{% endcomment %}
 
 
 ## Statistical nihilism
