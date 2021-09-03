@@ -29,7 +29,7 @@ img{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    max-width:300pt;
+    max-width:min(100%,300pt);
 }
 table{
   display:block;
@@ -41,26 +41,22 @@ table tr{
 @media (min-width:501px){
 table{
   margin-left: 15pt;
-  max-width:100;
   max-width:100%;
   font-size: 90%;
 }
 }
 @media (max-width:500px) and (min-width:301px) {
 table{
-  max-width:100;
   max-width:100%;
   font-size: 3.2vw;
 }
 }
 @media (max-width:300px) {
 table{
-  max-width:100;
   max-width:100%;
   font-size: 0.5em;
 }
 .fixed{
-    max-width:100;
     max-width:100%;
     overflow:scroll;
 }
@@ -81,13 +77,13 @@ To better understand what people think, I found the [2020 Cooperative Election S
 
 It asks boring questions like if people approve of Trump or Congress or whatever. But it also asks if people approve of a ton of different policies. I picked seven that I thought were representative. Here they are, along with their exact wording:
 
-|**Immigration amnesty** | Grant legal status to all illegal immigrants who have held jobs and paid taxes for at least 3 years, and not been convicted of any felony crimes.|
-| **EPA CO2 regulation** | Give the Environmental Protection Agency power to regulate Carbon Dioxide emissions |
-| **Medicare for all** | Expand Medicare to a single comprehensive public health care coverage program that would cover all Americans. |
-| **Ban assault rifles** | Ban assault rifles |
-| **Abortion on demand** | Always allow a woman to obtain an abortion as a matter of choice |
-| **10% more police** | Increase the number of police on the street by 10 percent, even if it means fewer funds for other public services. |
-| **Border security & wall** | Increase spending on border security by $25 billion, including building a wall between the U.S. and Mexico. |
+|**Immigration amnesty** | "Grant legal status to all illegal immigrants who have held jobs and paid taxes for at least 3 years, and not been convicted of any felony crimes."|
+| **EPA CO2 regulation** | "Give the Environmental Protection Agency power to regulate Carbon Dioxide emissions." |
+| **Medicare for all** | "Expand Medicare to a single comprehensive public health care coverage program that would cover all Americans." |
+| **Ban assault rifles** | "Ban assault rifles" |
+| **Abortion on demand** | "Always allow a woman to obtain an abortion as a matter of choice" |
+| **10% more police** | "Increase the number of police on the street by 10 percent, even if it means fewer funds for other public services." |
+| **Border security & wall** | "Increase spending on border security by $25 billion, including building a wall between the U.S. and Mexico." |
 
 We have every answer from each person, along with their political party, education level, race, income, and so on.
 
