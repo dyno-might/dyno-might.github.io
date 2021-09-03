@@ -5,6 +5,7 @@ image: /img/covid/covid_tem.jpg
 tags: science
 description: How the immune system's memory cells are like the Russian strategy for resisting Napoleon's invasion.
 hero_light: true
+last_updated: 2021-09-03
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -164,7 +165,7 @@ The cells will naturally present fragments of the protein on their surface. This
 
 The risk of getting COVID-19 from the vaccine is zero. You are only putting the sequence for the spike protein into your body. The rest of the virus isn't present in any form. There is no "inactivated" virus like in a traditional vaccine, and there's nothing to code for the rest of the virus. It's impossible. These are probably the safest types of vaccines ever created. Even our flu vaccines are basically inactivated flu virus cocktails, and we don't worry about those.
 
-*Update (Aug. 2021)*: I chatting recently with the biologist who made this "safest vaccine ever created" remark. They wouldn't make that claim at this point, and in fact don't remember saying it. (Though they did!) They still believe the risk from these vaccines is miniscule compared to the risk posed by getting COVID. They got vaccinated as soon as they possibly could, and still recommend the same for everyone else.
+*Update (Sep. 2021)*: I chatting recently with the biologist who made this "safest vaccine ever created" remark. They wouldn't make that claim at this point, and in fact don't remember saying it. (Though they did!) They still believe the risk from these vaccines is miniscule compared to the risk posed by getting COVID. They got vaccinated as soon as they possibly could, and still recommend the same for everyone else.
 
 ---
 
