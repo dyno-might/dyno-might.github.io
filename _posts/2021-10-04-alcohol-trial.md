@@ -538,7 +538,7 @@ So that's what I guess happened at the NIAAA. The staffers are used to bending t
 
 There are lots of quotes from Mukamal where he appears to be promising to deliver a positive result. At first glance, these might look like red flags, but I don't think they're as bad as they seem.
 
-For one thing, Mukamal didn't start claiming alcohol was safe as a cynical ploy to get his hands on grant money. He had been publishing on the health effects of alcohol for years. There no reason to doubt that he sincerely believed that moderate drinking had cardiovascular and diabetes benefits. (And he may well be correct about that!)
+For one thing, Mukamal didn't start claiming alcohol was safe as a cynical ploy to get his hands on grant money. He had been publishing on the health effects of alcohol for years. There is no reason to doubt that he sincerely believed that moderate drinking had cardiovascular and diabetes benefits. (And he may well be correct!)
 
 Can Mukamal be trusted? We can look at his track record. In 2007, he was first author on a [paper](https://doi.org/10.1016/j.ahj.2007.07.008) that randomly assigned patients to consume black tea or not. They looked at tons of different biomarkers and found that the tea did... basically nothing. This is the kind of case where it would be easy to p-hack your way to force some conclusion, but they straightforwardly state they found no evidence.
 
