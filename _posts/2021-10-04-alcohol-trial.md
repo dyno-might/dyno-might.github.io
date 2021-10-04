@@ -17,15 +17,17 @@ img{
     max-width: 400pt;
 }
 details{
-    padding-left: 10pt;
     margin-bottom: 10pt;
-    border-left: solid 1px gray;
+    background: #eeeeee;
     }
 details > summary{
   padding-bottom: 0pt;
-  padding: 5pt;
-  padding-left: 5pt;
   cursor: pointer;
+  background: #ffffff;
+  padding-bottom: 1pt;
+}
+details > *:not(summary){
+  margin-left: 5pt;
 }
 </style>
 "
@@ -70,12 +72,12 @@ This is the story of a trial that came close to answering this question and then
 
 # We need an RCT
 
-You might be thinking, "what we need to do is compare the health of people who drink different amounts, while controlling for income, diet, education, exercise, etc." The problem is---and statisticians don't like to admit this---that to a first approximation, "controlling" for things doesn't work. It requires tons of different assumptions, like what you control for, how you code stuff, and how you model everything. Reasonable people can disagree about those assumptions. For alcohol, reasonable people *do* disagree, and so they get estimates that are  [all over the place](https://doi.org/10.1007/s11886-018-0962-2).
+You might be thinking, "what we need to do is compare the health of people who drink different amounts, while controlling for income, diet, education, exercise, etc." The problem is that to a first approximation, "controlling" for things doesn't work. It requires tons of different assumptions, like what you control for, how you code stuff, and how you model everything. Reasonable people can disagree about those assumptions. For alcohol, reasonable people *do* disagree, and so they get estimates that are [all over the place](https://doi.org/10.1007/s11886-018-0962-2).
 
 So what do we do? We take the long, slow, hard path:
 
-1. Take a large group of people.
-2. Get some of them to drink moderately, get the others not to drink at all.
+1. Get a large group of people.
+2. Tell some of them to drink moderately, tell the others not to drink at all.
 3. Wait years, monitoring people to make sure they are actually drinking (or not) like they're supposed to.
 4. Follow up and see which group is healthier.
 
