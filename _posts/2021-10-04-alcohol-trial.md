@@ -52,11 +52,11 @@ Or, maybe alcohol doesn't help diabetes and heart disease at all. [Mathews et al
 
 <img src="/img/alcohol-trial/pathways.png" alt="pathways between alcohol and heart disease" loading="lazy">
 
-Alcohol does a *lot* of different things and interacts with a *lot* of other factors. It's great to try to unravel all this, but I don't trust anyone who says they understand all this with confidence.
+Alcohol does a *lot* of different things and interacts with a *lot* of other factors. It's great to try to unravel all this, but I don't trust anyone who says they understand everything with confidence.
 
 If alcohol doesn't improve heart health, then why the dip? Well, it could just be that the same people who drink moderately also tend to exercise and eat well.
 
-So we don't know if moderate drinking is bad for you. It almost certainly causes harms like cancer, but it might help the heart disease enough to offset those harms. In the US, around 20% of adults drink 1-2 drinks per day. Even if the effects are modest, the collective impact is huge. Second perhaps to caffeine, alcohol is humanity's favorite drug. We need to know what it does.
+So we don't know if moderate drinking is bad for you. It almost certainly causes harms like cancer, but it might help heart disease enough to offset those harms. In the US, around 20% of adults drink 1-2 drinks per day. Even if the effects are modest, the collective impact is huge. Second perhaps to caffeine, alcohol is humanity's favorite drug. We need to know what it does.
 
 This is the story of a trial that came close to answering this question and then exploded. At first, this looks like a story of simple corruption but when you look closely it's a *very complicated* story of corruption. {% comment %}Also, many of us have been shaken recently by the seemingly inexplicable things that happen when the government and scientific community interact. This is a peek behind the curtain---a case study of how things can go wrong despite so many people behaving rationally.{% endcomment %}
 
@@ -106,7 +106,7 @@ What happened? You might imagine banal corruption, with cocaine and overseas ban
 
 The real story is a much more interesting cocktail of science, academia, bureaucratic maneuvering, ambition, politics, capitalism, the "deep state", secret emails, and slippery ethical slopes. It's particularly interesting because it's a huge stroke of luck that we know about any of this. You have to ask how often similar things happen and *don't* blow up.
 
-If you're brave, you can read the [165-page report](https://acd.od.nih.gov/documents/presentations/06152018Tabak-B.pdf) the NIH prepared before canceling the program. But I warn you: It's mostly out-of-order redacted emails written by people who wanted to conceal what was happening. There's an executive summary, but it's written in a frustratingly "government" style. There are newspaper stories, but they don't try to reconstruct everything.
+If you're brave, you can read the [165-page report](https://acd.od.nih.gov/documents/presentations/06152018Tabak-B.pdf) the NIH prepared before canceling the program. But I warn you: It's mostly out-of-order redacted emails written by people who wanted to conceal what was happening. There's an executive summary, but it's written in a frustratingly "government" style. There are also newspaper stories, but they don't try to reconstruct everything.
 
 After spending way too much time reconstructing things, here's the story as best as I can tell.
 
@@ -140,7 +140,7 @@ During a similar period, John Krystal also published [many papers on alcohol](ht
 
 </details>
 
-**Early 2013.** Some NIAAA staff are convinced that moderate drinking is good for you, and an RCT could prove it conclusively enough that doctors might recommend it to patients like they do with aspirin now. (We don't know who these staff were, but Margaret Murray was probably among them.) They have the idea of getting the alcohol industry to fund the study but face two problems. First, the alcohol industry wants lots of details before forking over any cash. Second, the NIAAA is strictly prohibited from soliciting from industry. They try to get around these problems by having outside researchers (including Mukamal and Krystal) meet with industry to give details on how such a trial might work. This creates a dynamic where everyone (the NIAAA, the alcohol industry, Mukamal) wants to coordinate with each other, but maintain a pretense of being isolated. There's lots of scheming about how information should flow to maintain this pretense.
+**Early 2013.** Some NIAAA staff are convinced that moderate drinking is good for you, and an RCT could prove it conclusively enough that doctors might recommend it to patients like they do with aspirin now. (We don't know who these staff were, but Margaret Murray was probably among them.) They have the idea of getting the alcohol industry to fund the study but face two problems. First, the alcohol industry wants lots of details before forking over any cash. Second, the NIAAA isn't allowed to solicit from industry. They try to get around these problems by having outside researchers (including Mukamal and Krystal) meet with industry to give details on how such a trial might work. This creates a dynamic where everyone (the NIAAA, the alcohol industry, Mukamal) wants to coordinate with each other, but maintain a pretense of being isolated. There's lots of scheming about how information should flow to maintain this pretense.
 
 <details markdown="1"><summary>(more)</summary>
 
@@ -180,7 +180,7 @@ Who were these NIAAA staff? Thanks to all the redaction, for the most part we do
 
 </details>
 
-**July 12, 2013.** After getting some positive feedback from the industry, NIAAA staff decide to create a "planning grant". This was supposed to be open to anyone, but the NIAAA staff conspire to steer the money Mukamal by having a super-short deadline (overruled by NIH-central) requiring pre-approval (also overruled, sort of), and asking for a very specific clinical trial. Two staff go as far as to take fake "personal vacations" to travel to Boston and help Mukamal write the grant. When the window to apply for the grant closes on November 1, Mukamal is the only applicant.
+**July 12, 2013.** After getting some positive feedback from the industry, NIAAA staff decide to create a "planning grant". This was supposed to be open to anyone, but the staff conspire to steer the money to Mukamal by having a super-short deadline (overruled by NIH-central) requiring pre-approval (also overruled, sort of), and asking for a very specific clinical trial. Two staff go as far as to take fake "personal vacations" to travel to Boston and help Mukamal write the grant. When the window to apply for the grant closes on November 1, Mukamal is the only applicant.
 
 <details markdown="1"><summary>(more)</summary>
 
@@ -422,7 +422,7 @@ There's also this:
 
 **June 8, 2018.** Anheuser-Bush [pulls its funding](https://www.nytimes.com/2018/06/08/well/anheuser-busch-to-pull-funding-from-major-alcohol-study.html).
 
-**June 15, 2018.** Based on a [recommendation](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) from an NIH working group Francis Collins [terminates](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) the study.
+**June 15, 2018.** Based on a [recommendation](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) from an NIH working group, Collins [terminates](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) the study.
 
 # Skepticism
 
@@ -488,7 +488,7 @@ Imagine that the trial was done and that it showed little overall effect on heal
 
 But do you trust journalists to understand these subtleties and convey them to the general public? Or would we just end up with headlines like "Gold-standard trial shows that moderate alcohol consumption is safe"?
 
-This worries me, but less than you might think. For one thing, don't most people *already* think moderate drinking is safe? The [CDC](https://www.cdc.gov/alcohol/fact-sheets/moderate-drinking.htm) just says not to drink more than 1-2 drinks a day. [Tyler Cowen](https://marginalrevolution.com/marginalrevolution/author/tyler-cowen)---the Internet's greatest teetotaler---often points out the massive harms alcohol does. Yet he's stated that he believes that by refusing to drink at all, he's sacrificing a small amount of health.
+This worries me, but less than you might think. For one thing, don't most people *already* think moderate drinking is safe? The [CDC](https://www.cdc.gov/alcohol/fact-sheets/moderate-drinking.htm) just says not to drink more than 1-2 drinks a day. [Tyler Cowen](https://marginalrevolution.com/marginalrevolution/author/tyler-cowen)---the Internet's greatest teetotaler---often points out the massive harms of alcohol. Yet he's stated that he believes that by refusing to drink at all, he's sacrificing a small amount of health.
 
 Put that aside, though. Let's make the logic more explicit: This is suggesting that because journalists might do something dumb, we should *not run a trial* that could give knowledge humanity has needed for generations.
 
@@ -564,7 +564,7 @@ Third, slippery slopes aren't much of an excuse. Yes, we all face them, but that
 
 Fourth, many people are complicit in silence. Maybe the alcohol industry really didn't think anything underhanded was happening. Well, they knew on July 7, 2017, when the first New York Times [story](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) came out, including untrue or misleading statements from Mukamal and the NIAAA. They had months to correct the record, but they did nothing. The same is true for many of the other researchers involved.
 
-Fifth, the general idea of industry funding with a firewall could be tremendously valuable but was tarnished by everyone here. Take nutritional supplements. Every time someone actually checks, we find out what's in them bears little resemblance to what's on the label (e.g. [melatonin off by a factor of 10](https://dx.doi.org/10.5664%2Fjcsm.6434), or ["ginkgo biloba extract" containing *zero* ginko biloba](https://dx.doi.org/10.5664%2Fjcsm.6434) or [tons of supplements containing heavy metals](https://doi.org/10.1371/journal.pone.0049676).) Some rare companies publish lab tests, but these always seem to be a test of some batch from 3 years ago by an unknown lab with no reputation who only tests three things and labels them as "within spec".
+Fifth, the general idea of industry funding with a firewall could be tremendously valuable but was tarnished by everyone here. Take nutritional supplements. Every time someone actually checks, we find out what's in them bears little resemblance to what's on the label (e.g. [melatonin off by a factor of 10](https://dx.doi.org/10.5664%2Fjcsm.6434), or ["ginkgo biloba extract" containing *zero* ginko biloba](https://dx.doi.org/10.5664%2Fjcsm.6434) or [tons of supplements containing heavy metals](https://doi.org/10.1371/journal.pone.0049676).) Some rare companies publish lab tests, but these always seem to be a test of some batch from 3 years ago by an unknown lab with no reputation who only tests three things and are labeled as "within spec".
 
 In principle, firewalled research could be the solution here. Supplement companies could pay to have tests done by independent researchers. Consumers would have a quality signal for what products to trust, and the companies that make good stuff would make more money. Everyone would win (except the people selling crap products). 
 
@@ -582,7 +582,7 @@ Hahahaha, no. Here's what actually happened:
 
 1. Mukamal stated, "We stand fully and forcefully behind the scientific integrity” and “Every design consideration was carefully and deliberately vetted with no input or direction whatsoever from private sponsors.” (Yes, these are real quotes from [*after* the study was canceled](https://doi.org/10.1136/bmj.k2689).)
 2. As far as we know, there were no investigations by Harvard, Beth Israel, or any of the other researchers' institutions. No one faced any penalty of any kind.
-3. In 2020, in what might be the most brazen display of academic shamelessness in world history, the researchers published a [paper on how awesome the study would have been](https://doi.org/10.1177/2047487320912376). Here's a quote from that paper's "sponsorship" section:
+3. In 2020, in what might be the most brazen display of academic shamelessness in history, the researchers published a [paper on how awesome the study would have been](https://doi.org/10.1177/2047487320912376). Here's a quote from that paper's "sponsorship" section:
 
 > The Foundation for the National Institutes of Health (FNIH) supported the trial financially and managed contact between public and private organizations on behalf of NIH. The funds provided by FNIH for this project were contributed to FNIH by the brewing and distilling industries following contract negotiations that established an intellectual and financial firewall between MACH15 investigators and private contributors. The corporations providing support agreed to have, and had, no contact with trial investigators about any aspect of the study **after their commitment of funding**, and they agreed to receive no data or updates until they became publicly available. Ultimately, however, the most important safeguard for impartiality lies in the execution of a rigorous, transparent protocol following independent, expert peer review, and in the conduct of the statistical analyses as described in the protocol.
 
