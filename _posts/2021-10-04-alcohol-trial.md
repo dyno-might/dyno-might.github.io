@@ -2,13 +2,13 @@
 layout: post
 title: "The big alcohol study that didn't happen: My primal scream of rage"
 image: /img/alcohol-trial/bottles.jpg
-tags: statistics policy
+tags: science policy
 hero_light: false
 dark_title: false
 background_color: black
 description: "Why did a huge alcohol RCT get cancelled? A strange story of science, academia, bureaucratic maneuvering, ambition, politics, capitalism, the deep state, secret emails, and slippery ethical slopes."
 permalink: /alcohol-trial/
-background_color: rgb(165,165,165)
+background_color: rgb(182,182,182)
 head: "<style>
 img{
     display:block;
