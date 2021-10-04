@@ -70,9 +70,9 @@ This is the story of a trial that came close to answering this question and then
 
 # We need an RCT
 
-You might be thinking, "what we need to do is compare the health of people who drink different amounts, while controlling for income, diet, education, exercise, etc." The problem is---and statisticians don't like to admit this---that to a first approximation, "controlling" for things doesn't work. It requires tons of different assumptions, like what you control for, how you code stuff, and how you model everything. Reasonable people can disagree about those assumptions. For alcohol, reasonable people *do* disagree, and so they get estimates of the health impact of moderate drinking that are  [all over the place](https://doi.org/10.1007/s11886-018-0962-2).
+You might be thinking, "what we need to do is compare the health of people who drink different amounts, while controlling for income, diet, education, exercise, etc." The problem is---and statisticians don't like to admit this---that to a first approximation, "controlling" for things doesn't work. It requires tons of different assumptions, like what you control for, how you code stuff, and how you model everything. Reasonable people can disagree about those assumptions. For alcohol, reasonable people *do* disagree, and so they get estimates that are  [all over the place](https://doi.org/10.1007/s11886-018-0962-2).
 
-So what do we do? we take the long, slow, hard path:
+So what do we do? We take the long, slow, hard path:
 
 1. Take a large group of people.
 2. Get some of them to drink moderately, get the others not to drink at all.
@@ -112,7 +112,7 @@ After spending way too much time reconstructing things, here's the story as best
 
 # Timeline
 
-If you want an even-more-obsessive amount of information about the timeline, you can click on "(more)" after each of the bits.
+If you want an even-more-obsessive amount of information about the timeline, you can click on (more) after each of the sections.
 
 **2001 - 2013.** Kenneth Mukamal, a physician at [Beth Israel](https://en.wikipedia.org/wiki/Beth_Israel_Deaconess_Medical_Center) medical center and faculty member at Harvard Medical School, publishes many papers that argue that moderate alcohol consumption has health benefits, usually for heart disease or diabetes. During the same period, John Krystal, a psychiatrist and professor at Yale publishes many papers on alcohol, mostly focusing on addiction and mental health. (Many other researchers will be involved in this study, but these two are most prominent.)
 
