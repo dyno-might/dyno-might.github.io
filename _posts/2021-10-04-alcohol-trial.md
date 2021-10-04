@@ -474,7 +474,7 @@ Another concern is that the study population maximizes the chances for alcohol t
 
 If you want a final verdict on if moderate drinking is safe, I agree this seems like stacking the deck. I'd prefer a random sample of all adults. You can call this a "bias". But you can also call it "refusing to take the sampling scheme into account when interpreting results". There's still value in knowing how alcohol affects a restricted population. And we can extrapolate---a neutral result in this study population would suggest alcohol is harmful to the average person.
 
-You might also argue that it's ethically *required* to exclude people who are at higher risk for being harmed by alcohol. I don't really agree, but I'd imagine many people would. If I had to make this concession to make the study happen, it's an easy choice.
+You might also argue that it's ethically *required* to exclude people who are at higher risk for being harmed by alcohol. I don't really agree, but I'd imagine many people would.
 
 **The premise of the study is flawed: Recent evidence says alcohol is harmful to cardiovascular health.**
 
@@ -496,7 +496,7 @@ Sure, I agree journalists might oversimplify things and confuse people. (Can any
 
 **It just looks bad.**
 
-The final NIH report notes that the researchers do not have "equipoise". You could interpret this two ways. One, you might say, the whole thing seems rotten and damn the logic of it. The other is that it looks bad *for the NIH*---that even if useful, it needs to be canceled to preserve trust in the institution. I understand this. But if that's the reason to cancel, it makes me sad.
+The final NIH report notes that the researchers do not have "equipoise". You could interpret this two ways. One, you might say the whole thing seems rotten and damn the logic of it. The other is that it looks bad *for the NIH*---that even if useful, it needs to be canceled to preserve trust in the institution. I understand this. But if that's the reason to cancel, it makes me sad.
 
 # A defense of the main characters
 
@@ -506,11 +506,11 @@ Before criticizing people, it's good to try to imagine the strongest defense of 
 
 **The alcohol industry**
 
-I mean, OK, this is an industry entirely devoted to selling an addictive substance that kills, by [WHO estimates](https://www.who.int/publications/i/item/9789241565639), three million people per year. Something like [75% of alcohol is sold to raging alcoholics](https://www.washingtonpost.com/news/wonk/wp/2014/09/25/think-you-drink-a-lot-this-chart-will-tell-you/). This industry isn't a nonprofit organic vegetable farm. But we live in a capitalist system. We expect companies to try to make money, and selling alcohol is *legal*. Let's not conflate this particular trial with general objections to the alcohol industry's existence.
+I mean, OK, this is an industry entirely devoted to selling an addictive substance that kills, by [WHO estimates](https://www.who.int/publications/i/item/9789241565639), three million people per year. Something like [75% of alcohol is sold to raging alcoholics](https://www.washingtonpost.com/news/wonk/wp/2014/09/25/think-you-drink-a-lot-this-chart-will-tell-you/). This isn't a nonprofit organic vegetable farm. But we live in a capitalist system. We expect companies to try to make money, and selling alcohol is *legal*. Let's not conflate this particular trial with general objections to the alcohol industry's existence.
 
 Think about their perspective. The NIAAA *came to them* and said, "We think moderate alcohol consumption is good for you! You should fund a trial to prove this. Win-win for everyone!" The NIAAA sent fancy researchers from fancy places to present to them. Those researchers told them, "I, fancy person, am sure moderate drinking is good! Give me money to prove it!"
 
-The alcohol industry was straightforward they wouldn't fund anything without knowing what would happen in the trial. The NIAAA could have given up at that point, but they bent the rules instead. The industry was worried, "won't it look bad that we're funding this?" Again, they were told, "Nah, it's fine! There will be a firewall!"
+The alcohol industry was straightforward they wouldn't fund anything without knowing what would happen in the trial. The NIAAA could have given up at that point, but they bent the rules instead. The industry was worried, "Won't it look bad that we're funding this?" Again, they were told, "Nah, it's fine! There will be a firewall!"
 
 They were told by well-credentialed people that they could make money and do good at the same time. Is it so terrible that they believed them?
 
@@ -528,15 +528,15 @@ Here's an example. Say you're a scientist and you want to send a grant to the Na
 
 Everyone involved knows that this is happening! The grant reviewers aren't fooled. The people at NSF aren't fooled. (Though if they've been around for a while, they might not notice the doublethink anymore.) When Congress set up the NSF, they had a mental model of how research works. When that model doesn't fit, people do the best thing they can: They collectively follow a parallel set of slightly different rules while simultaneously going through the motions of the rules as written. Congress didn't *mean* to set up a system like this. Bending the rules allows their spirit to be followed as closely as possible.
 
-At the NIAAA, The Rules say that you can't solicit grants from industry. But what exactly is "soliciting"? You might imagine there's some oracle somewhere ready to lend definitive answers, but I doubt it. Instead, what you probably see is some people doing things that are a *little* like soliciting, and it's fine. Other people do things that look slightly more like soliciting, and again it's fine. Eventually, someone pushes things slightly too far (or is just unlucky) and gets into trouble. The rules get clarified a bit then, but without acknowledging the institutional incentives that made everyone bend the rules in the first place. The person who got in trouble probably feels like a duck that got shot out of a flock.
+At the NIAAA, The Rules say that you can't solicit grants from industry. But what exactly is "soliciting"? You might imagine there's some oracle somewhere ready to lend definitive answers, but I doubt it. Instead, what you probably see is some people doing things that are a *little* like soliciting, and it's fine. Other people do things that look slightly more like soliciting, and again it's fine. Eventually, someone pushes things slightly too far (or is just unlucky) and gets into trouble. The rules get clarified a bit then, but without acknowledging the institutional incentives that made everyone bend the rules in the first place. The person who got in trouble probably feels like a duck shot out of a flock.
 
-So that's what I guess happened at the NIAAA. The staffers are used to bending the rules because that's what everyone does all the time because it's the only way to get things done. They think that the alcohol study would be beneficial, and go for it, and over time things sort of spiral out of control.
+So that's what I guess happened at the NIAAA. The staffers are used to bending the rules because that's what everyone does all the time because it's the only way to do anything. They think that the alcohol study would be beneficial, and go for it, and over time things sort of spiral out of control.
 
 **Mukamal**
 
 There are lots of quotes from Mukamal where he appears to be promising to deliver a positive result. At first glance, these might look like red flags, but I don't think they're as bad as they seem.
 
-For one thing, Mukamal didn't start claiming alcohol was safe as a cynical ploy to get his hands on grant money. He had been publishing on the health effects of alcohol for years. There no reason to doubt that he sincerely believed that moderate drinking had cardiovascular benefits. (And he may well be correct about that!)
+For one thing, Mukamal didn't start claiming alcohol was safe as a cynical ploy to get his hands on grant money. He had been publishing on the health effects of alcohol for years. There no reason to doubt that he sincerely believed that moderate drinking had cardiovascular and diabetes benefits. (And he may well be correct about that!)
 
 Can Mukamal be trusted? We can look at his track record. In 2007, he was first author on a [paper](https://doi.org/10.1016/j.ahj.2007.07.008) that randomly assigned patients to consume black tea or not. They looked at tons of different biomarkers and found that the tea did... basically nothing. This is the kind of case where it would be easy to p-hack your way to force some conclusion, but they straightforwardly state they found no evidence.
 
@@ -548,15 +548,15 @@ Would this "late firewall" have meant anything? Maybe so! The biggest question i
 
 So why did he hide the earlier meetings? Likely, Mukamal felt the public couldn't handle it. Take a look at the first [New York Times](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) story on the subject. It is dripping with implications that the study is totally compromised when the only thing known (at the time) was that industry had funded things. It's understandable that Mukamal might have felt that the media was out to get him.
 
-So my guess is that Mukamal was basically a well-intentioned researcher, who happened to have pro-alcohol views. He took an opportunity to try to prove his pet theory, and then kind of fell down a slippery slope where he was making gradually larger and larger ethical compromises in pursuit of a goal that he thought was worthy.
+So my guess is that Mukamal was basically a well-intentioned researcher who happened to have pro-alcohol views. He took an opportunity to try to prove his pet theory, and then kind of fell down a slippery slope where he was making gradually larger and larger ethical compromises in pursuit of a goal that he thought was worthy.
 
 # Rage
 
 Having written that defense, I'd now like to explain why it's wrong and I'm furious about every aspect of this story.
 
-First, we can only compensate for biases if we know about them. I'm open to industry-funded research. I don't *necessarily* mind a lead researcher who was chosen because they believe what industry likes. I can even live with industry having influence on the study design. I stubbornly hold all this even when the study has a goal of proving it's safe to use [humanity's most harmful drug](https://www.economist.com/graphic-detail/2019/06/25/what-is-the-most-dangerous-drug).
+First, we can only compensate for biases if we know about them. I'm open to industry-funded research. I don't *necessarily* mind a lead researcher who was chosen because they believe what industry likes. I can even live with industry having influence on the study design. I stubbornly hold all this even when the study has a goal of proving it's safe to use humanity's [most harmful drug](https://www.economist.com/graphic-detail/2019/06/25/what-is-the-most-dangerous-drug).
 
-But my (possibly delusional) open-mindedness is based on the idea that it's possible to compensate for the biases these issues create. That's not possible if the issues have been concealed. If you think research still has value despite these issues, fine, but you need to make that argument openly, not pretend the issues don't exist.
+But my (possibly delusional) open-mindedness is based on the idea that it's possible to compensate for the biases these issues create. That's not possible if we don't know about them. If you think research still has value despite these issues, fine, but you need to make that argument openly, not pretend the issues don't exist.
 
 Second, the firewall was fake. Say you're OK with a "late firewall" where there's tons of contact with industry early on, but no influence after the trial starts. This didn't happen. How do I know? Well, did you notice the part where Anheuser-Bush pulled its funding? Having the power to shut down the entire trial whenever you want qualifies as *influence*.
 
@@ -564,11 +564,11 @@ Third, slippery slopes aren't much of an excuse. Yes, we all face them, but that
 
 Fourth, many people are complicit in silence. Maybe the alcohol industry really didn't think anything underhanded was happening. Well, they knew on July 7, 2017, when the first New York Times [story](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) came out, including untrue or misleading statements from Mukamal and the NIAAA. They had months to correct the record, but they did nothing. The same is true for many of the other researchers involved.
 
-Fifth, the general idea of industry funding with a firewall could be tremendously valuable but was tarnished by everyone here. Take nutritional supplements. Every time someone actually checks, we find out what's in them bears little resemblance to what's on the label (e.g. [melatonin off by a factor of 10](https://dx.doi.org/10.5664%2Fjcsm.6434), or ["ginkgo biloba extract" containing *zero* ginko biloba](https://dx.doi.org/10.5664%2Fjcsm.6434) or [tons of supplements containing heavy metals](https://doi.org/10.1371/journal.pone.0049676).) Some rare companies publish lab tests, but these always seem to be a test of some batch from 3 years ago by an unknown lab with no reputation who only tests three things and are labeled as "within spec".
+Fifth, the general idea of industry funding with a firewall could be tremendously valuable but was tarnished by everyone here. Take nutritional supplements. Every time someone actually checks, we find out what's in them bears little resemblance to what's on the label (e.g. [melatonin off by a factor of 10](https://dx.doi.org/10.5664%2Fjcsm.6434), or ["ginkgo biloba extract" containing *zero* ginko biloba](https://dx.doi.org/10.5664%2Fjcsm.6434) or [tons of supplements containing heavy metals](https://doi.org/10.1371/journal.pone.0049676).) Some rare companies publish lab tests, but these always seem to be a test of some batch from two years ago by an unknown lab with no reputation who only tests three things and labels them "within spec".
 
-In principle, firewalled research could be the solution here. Supplement companies could pay to have tests done by independent researchers. Consumers would have a quality signal for what products to trust, and the companies that make good stuff would make more money. Everyone would win (except the people selling crap products). 
+In principle, firewalled research could be the solution. Supplement companies could pay to have tests done by independent researchers. Consumers would have a quality signal for what products to trust, and the companies that make good stuff would make more money. Everyone would win (except the people selling crap products). 
 
-This trial has discredited this idea. Obviously, I blame the main characters, but the media is also part of this. Take the first [New York Times article](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) again. Remember that when this was written, the firewall was valid, as far as anyone knew. But the article is almost an editorial disguised as journalism. Besides mentioning that the study exists and is funded by industry (which is totally legit) it's largely a collection of whatever random suspicious connections they could dig up between anyone even vaguely connected to the study and the alcohol industry. There are also quotes about how industry funding skews research, but it doesn't engage with the fact that that's why the firewall was invented.
+This trial has discredited this idea. Obviously, I blame the main characters, but the media is also part of this. Take the first [New York Times article](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) again. Remember that when this was written, the firewall was valid, as far as anyone knew. But the article is almost an editorial disguised as journalism. Besides mentioning that the study exists and is funded by industry (which is totally legit) it's largely a collection of whatever random suspicious connections they could dig up between anyone even vaguely connected to the study and the alcohol industry. There are also quotes about how industry funding skews research, but it doesn't engage with the fact that that's why there was supposed to be a firewall in this case.
 
 Obviously, I'm glad the New York Times followed up on this story and revealed holes in the firewall. I just wish there was a more nuanced tone that engaged with the premise that the problems with industry funding are possible to overcome, at least in principle.
 
