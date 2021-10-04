@@ -524,7 +524,7 @@ You can also criticize them for stretching the rules and misleading the public. 
 
 Think about the NIAAA staff who took "personal vacations" to visit Mukamal to help him write the original planning grant. When they did this, I bet they saw themselves as heroes. This is what you see in movies: There's a big problem in the world. People in power *know* there's a problem, but for institutional reasons, it's hard to fix. Most of the people in power are [blankfaces](https://www.scottaaronson.com/blog/?p=5675), more concerned with covering their asses than helping people. The heroes are the ones who are willing to bend the rules to solve the problem---even if that means taking on personal risks.
 
-If you think that no one in government should bend any rules, then I bet you haven't interacted with the government much. Often, the rules were made by people so removed from what's actually happening that the abstractions in the rules don't even make sense. Sometimes rule-bending is the only reason anything works at all.
+If you think that no one in government should bend any rules, then I bet you haven't interacted with the government much. Often, the rules were made by people so removed from what's actually happening that the abstractions in the rules don't even make sense.
 
 Here's an example. Say you're a scientist and you want to send a grant to the National Science Foundation (NSF). According to The Rules, you will propose a detailed plan of *future* work. In some (more theoretical) fields this is absurd: You have to do half the work in order to write that plan! And in other (less theoretical) fields, your grant will be reviewed by other scientists who will expect to see "preliminary work" to show your idea has promise. This leads to a funny situation where people do much of the research and then "propose" it afterward.
 
@@ -542,7 +542,7 @@ For one thing, Mukamal didn't start claiming alcohol was safe as a cynical ploy 
 
 Can Mukamal be trusted? We can look at his track record. In 2007, he was first author on a [paper](https://doi.org/10.1016/j.ahj.2007.07.008) that randomly assigned patients to consume black tea or not. They looked at tons of different biomarkers and found that the tea did... basically nothing. This is the kind of case where it would be easy to p-hack your way to force some conclusion, but they straightforwardly state they found no evidence.
 
-So I don't think these quotes represent a promise to falsify data but rather his confidence for what the study really would showany when honestly performed.
+So I don't think these quotes represent a promise to falsify data but rather his confidence for what the study really would show when honestly performed.
 
 Then there's the lying. Mukamal said there was *no communication* with industry and that he had *no idea* industry funding was even involved. Lying is bad, but still: When Mukamal was describing a "firewall" between industry and research, he was probably thinking of a firewall that started existing sometime after industry committed to funding the study. As far as we know, such a firewall *did actually exist*: Mukamal wrote the final study plan without (further) interference from industry, and the trial would have run without any industry contact.
 
