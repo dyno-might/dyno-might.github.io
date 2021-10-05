@@ -2,7 +2,7 @@
 layout: post
 title: "The big alcohol study that didn't happen: My primal scream of rage"
 image: /img/alcohol-trial/bottles.jpg
-tags: science policy
+tags: alcohol science policy
 hero_light: false
 dark_title: false
 background_color: black
