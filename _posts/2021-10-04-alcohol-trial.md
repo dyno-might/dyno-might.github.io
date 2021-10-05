@@ -14,7 +14,6 @@ img{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 400pt;
 }
 details{
     margin-bottom: 10pt;
@@ -52,7 +51,8 @@ The second caveat is the little dip for diabetes and heart disease around 1-2 dr
 
 Or, maybe alcohol doesn't help diabetes and heart disease at all. [Mathews et al. (2015)](https://doi.org/10.1186/s12937-015-0011-6) try to model how alcohol affects the heart, ending up with this terrifying figure:
 
-<img src="/img/alcohol-trial/pathways.png" alt="pathways between alcohol and heart disease" loading="lazy">
+
+<img src="/img/alcohol-trial/pathways.png" alt="pathways between alcohol and heart disease" style="width:400pt" loading="lazy">
 
 Alcohol does a *lot* of different things and interacts with a *lot* of other factors. It's great to try to unravel all this, but I don't trust anyone who says they understand everything with confidence.
 
