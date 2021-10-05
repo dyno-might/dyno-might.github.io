@@ -172,7 +172,7 @@ They settled on the strategy of having the industry make a "gift" to [FNIH](http
 
 At the same time, they decided that they could get rid of the appearance of soliciting by getting an external researcher to make the case. They settled on... Kenneth Mukamal. (Here BI appears to refer to Beth Israel, a medical center affiliated with Harvard where Mukamal holds an appointment.)
 
-The record is silent on exactly *why* they chose Mukamal. My guess is that it's partly because of Mukamal's pro-alcohol research record, and partly because it helped to overcome some wierd inscrutable issues regarding collaborations between Harvard and Beth Israel.
+The record is silent on exactly *why* they chose Mukamal. My guess is that it's partly because of Mukamal's pro-alcohol research record, and partly because it helped to overcome some weird inscrutable issues regarding collaborations between Harvard and Beth Israel.
 
 ![image-20210901172140639](/img/alcohol-trial/image-20210901172140639.png)
 
@@ -296,7 +296,7 @@ Eventually the furor about the article all seems to die down, though it's unclea
 
 </details>
 
-**June 21, 2014.** There's a meeting in Seattle, led by Mukamal, and including NIAAA staff and the alcohol industry. Afterward, representatives from industry send Mukamal a list of technical concerns about the design of the RCT, including what outcomes to measure, the treatment population, adherence, dropouts, monitoring, using beer vs. spirits, and incentives to participate. Mukamal sends back a [detailed response](mukamal-response.pdf), sort of saying "well, this is what *I* would do *if* I happened to win the grant..." and then giving some reasonable answers.
+**June 21, 2014.** There's a meeting in Seattle, led by Mukamal, and including NIAAA staff and the alcohol industry. Afterward, representatives from industry send Mukamal a list of technical concerns about the design of the RCT, including what outcomes to measure, the treatment population, adherence, dropouts, monitoring, using beer vs. spirits, and incentives to participate. Mukamal sends back a [detailed response](/img/alcohol-trial/mukamal-response.pdf), sort of saying "well, this is what *I* would do *if* I happened to win the grant..." and then giving some reasonable answers.
 
 <details markdown="1"><summary>(more)</summary>
 
@@ -450,7 +450,7 @@ But OK, say you don't trust the research team. What do you think they are going 
 
 This isn't some excel spreadsheet stored on one grad student's laptop. You'd need a big conspiracy.
 
-Or maybe you don't think they'd falsify data, but that for publication they would use some tortured data analysis to spin the results. The thing is, it's not unusual to have researchers who want to find a given result---that's every researcher everywhere! We have a system for this, which is that studies pre-register their statistical analysis. This study did that, and the plan seems fine (although, see below). There just aren't many places to hide the bodies.
+Or maybe you don't think they'd falsify data, but that for publication they would use some tortured data analysis to spin the results. The thing is, it's not unusual to have researchers who want to find a given result---that's every researcher everywhere! We have a system for this, which is that studies pre-register their statistical analysis. This study did that, and the plan seems fine (although, see below). There just aren't many places to hide the bodies.
 
 <details markdown="1"><summary>If the full data would have been public, that would be another major safeguard against selective data analysis, and made it even harder for anyone to fake things. I can't tell exactly what would have been public. Mukamal mentions making it public when planning the grant with industry. But then the actual grant proposal says nothing about it.
 </summary>
