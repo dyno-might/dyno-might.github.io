@@ -60,7 +60,7 @@ If alcohol doesn't improve heart health, then why the dip? Well, it could just b
 
 So we don't know if moderate drinking is bad for you. It almost certainly causes harms like cancer, but it might help heart disease enough to offset those harms. In the US, around 20% of adults drink 1-2 drinks per day. Even if the effects are modest, the collective impact is huge. Second perhaps to caffeine, alcohol is humanity's favorite drug. We need to know what it does.
 
-This is the story of a trial that came close to answering this question and then exploded. At first, this looks like a story of simple corruption but when you look closely it's a *very complicated* story of corruption. {% comment %}Also, many of us have been shaken recently by the seemingly inexplicable things that happen when the government and scientific community interact. This is a peek behind the curtain---a case study of how things can go wrong despite so many people behaving rationally.{% endcomment %}
+This is the story of a trial that came close to answering this question and then exploded. At first, this looks like a simple story of corruption but when you look closely it's a *very complicated* story of corruption. {% comment %}Also, many of us have been shaken recently by the seemingly inexplicable things that happen when the government and scientific community interact. This is a peek behind the curtain---a case study of how things can go wrong despite so many people behaving rationally.{% endcomment %}
 
 <div style="font-size:90%" markdown="1">
 
@@ -322,7 +322,7 @@ It's not clear how to judge this. Did industry really believe that any investiga
 
 <details markdown="1"><summary>(more)</summary>
 
-The purpose of this call is to "an opportunity to understand more about the protocol that is currently under development". This call takes place on December 8, 2014. Here's some quotes from the minutes of this meeting:
+The purpose of this call is "an opportunity to understand more about the protocol that is currently under development". This call takes place on December 8, 2014. Here's some quotes from the minutes of this meeting:
 
 Regarding the overall trial:
 
