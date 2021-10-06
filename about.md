@@ -7,9 +7,9 @@ hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
 ---
 
-When every person has a DIY air purifier and every economics concept a coconut-based model, this site will be at peace. Until then, here's what I suggest:
+Wondering what to do with your life? Here's what I suggest:
 
-* First priority in life: Your physical health. (No health → no life.)
+* First priority: Your physical health. (No health → no life.)
 * Second priority: *Reasonable* financial security. (No food → no health.)
 * Third priority: Good relationships with friends and family. (Depressed → no mental health.)
 
@@ -30,9 +30,7 @@ You can subscribe here to get new articles. Owing to the fantastical amount of t
 
 <br>
 
-There's just the one step to subscribe, no second form or confirmation link.
-
-(Of course, I don't share your email with anyone and you can unsubscribe whenever.)
+There's just the one step to subscribe, no second form or confirmation link. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
 
 ---
 
@@ -61,23 +59,31 @@ Not sure where to get started?
 * [Better air is the easiest way not to die](/air)
 * [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
 
-**Economics**
-* [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
+**Alcohol**
+* [The big alcohol study that didn't happen: My primal scream of rage](/alcohol-trial/)
+* [Alcohol, health, and the ruthless logic of the Asian flush](alcohol/)
 
-**Personal Improvement**
-* [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
+**Economics**
+* [Why I'm skeptical of universal basic income](2020/12/03/why-im-skeptical-of-UBI/)
+* [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
 
 **Psychology**
 * [Are some personalities just better?](/better-personalities)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
 
+**Personal improvement**
+* [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
+
 **Things to never do**
 * [What happens if you drink acetone?](2020/09/14/what-happens-if-you-drink-acetone/)
 
+{% comment %}
 **Made the internet oddly mad** (they're wrong I tell you, all wrong)
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
+{% endcomment %}
 
-<!-- Most popular:
+{% comment %}
+Most popular:
 * [Better air is the easiest way not to die](/air)
 * [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
@@ -93,6 +99,7 @@ Not popular, but I wish they were:
 
 Most hated (they're wrong I tell you, all wrong):
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->
+{% endcomment %}
 
 ---
 
