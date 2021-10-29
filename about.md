@@ -21,11 +21,11 @@ You can subscribe here to get new articles. Owing to the fantastical amount of t
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
-<input type="email" name="text" placeholder="your@email.com" /> 
+<input type="email" name="text" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_url" value="https://dynomight.net/"> 
-<button type="submit" style="cursor:pointer;">subscribe</button> 
+<button type="submit" style="cursor:pointer; padding:4px;">subscribe</button> 
 </form>
 
 <br>
@@ -40,7 +40,7 @@ Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
 RSS feed: <https://dynomight.net/feed.xml>
 
-Email: Use the form at the bottom of this page.
+Email: Use the form at the bottom of this page. (Anonymously if you want.)
 
 <!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
@@ -103,7 +103,7 @@ Most hated (they're wrong I tell you, all wrong):
 
 ---
 
-Feedback? Questions? Help with my ever-proliferating collection of typos?
+Thoughts? Questions? Help with my ever-proliferating collection of typos?
 
 <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
@@ -126,3 +126,5 @@ Feedback? Questions? Help with my ever-proliferating collection of typos?
         <br>
         <!-- </details> -->
         </div> 
+
+*FEEDBACK IS A GIFT*.
