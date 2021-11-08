@@ -570,7 +570,7 @@ Fifth, the general idea of industry funding with a firewall could be tremendousl
 
 In principle, firewalled research could be the solution. Supplement companies could pay to have tests done by independent researchers. Consumers would have a quality signal for what products to trust, and the companies that make good stuff would make more money. Everyone would win (except the people selling crap products). 
 
-This trial has discredited this idea. Obviously, I blame the main characters, but the media is also part of this. Take the first [New York Times article](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) again. Remember that when this was written, the firewall was valid, as far as anyone knew. But the article is almost an editorial disguised as journalism. Besides mentioning that the study exists and is funded by industry (which is totally legit) it's largely a collection of whatever random suspicious connections they could dig up between anyone even vaguely connected to the study and the alcohol industry. There are also quotes about how industry funding skews research, but it doesn't engage with the fact that that's why there was supposed to be a firewall in this case.
+This trial has discredited this idea. Obviously, I blame the main characters, but the media is also part of this. Take the first [New York Times article](https://www.nytimes.com/2017/07/03/well/eat/alcohol-national-institutes-of-health-clinical-trial.html) again. Remember that when this was written, the firewall was valid, as far as anyone knew. But the article is almost an editorial disguised as journalism. Besides mentioning that the study exists and is funded by industry (which is totally legit) it's largely a collection of whatever random suspicious connections they could dig up between anyone even vaguely connected to the study and the alcohol industry. There are also quotes about how industry funding skews research, but it doesn't address that *that's why* there was supposed to be a firewall.
 
 Obviously, I'm glad the New York Times followed up on this story and revealed holes in the firewall. I just wish there was a more nuanced tone that engaged with the premise that the problems with industry funding are possible to overcome, at least in principle.
 
@@ -578,7 +578,7 @@ Sixth, in the final review, the NIH made no attempt at cost/benefit analysis. Th
 
 Finally, why have there been so few consequences? [Collins says](grassley-response.pdf) that "three individuals are no longer employed" at the NIH, and they made process changes to avoid similar problems in the future.
 
-That's something, but what about the researchers? To their credit, Harvard and Beth Israel did do an investigation of Mukamal, which led to him formally apologizing, and them putting in additional safeguards to make sure no future employees would do anything similar.
+That's something, but what about the researchers? To their credit, Harvard and Beth Israel did do an investigation of Mukamal, which led to him formally apologizing and them creating safeguards to make sure no future employees would do anything similar.
 
 Hahahaha, no. Here's what actually happened:
 
