@@ -87,7 +87,7 @@ Finland has high equality but few women in STEM, while Algeria is the opposite. 
 
 This was picked up by [The Atlantic](https://www.theatlantic.com/science/archive/2018/02/the-more-gender-equality-the-fewer-women-in-stem/553592/), [The American Enterprise Institute](https://www.aei.org/carpe-diem/the-global-educational-gender-equality-paradox-the-more-gender-equality-in-a-country-the-fewer-women-in-stem/), [Ars Technica](https://arstechnica.com/science/2018/02/globally-women-tend-to-avoid-science-careers-even-when-theyre-good-at-it/), [MacLean's](https://www.macleans.ca/society/could-helping-boys-be-the-key-to-closing-the-stem-gap/), and [Jordan Peterson](https://www.jordanbpeterson.com/political-correctness/the-gender-scandal-part-one-scandinavia-and-part-two-canada/). Stoet and Geary themselves published an article at [Quillette](https://quillette.com/2018/02/15/sex-stem-stubborn-facts-stubborn-ideologies/), where they suggest their graph is partly due to different levels of interest in STEM and partly to [comparative advantage](https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)—in places like Finland, girls perform similarly to boys in science but much better in reading.
 
-Wait, did I just say this was hard to dispute? Hahaha, no.
+Wait, did I just say this was hard to dispute? {% comment %} Hahaha, no. {% endcomment %}
 
 ### Act II
 
