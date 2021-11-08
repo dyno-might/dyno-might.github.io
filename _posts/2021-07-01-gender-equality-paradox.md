@@ -60,16 +60,22 @@ The gender-equality paradox is the (disputed) idea that countries with more gend
 To answer that, let's check how robust the paradox is. Does it stand up if we change how we measure *gender equality* or *women in STEM careers*?
 {% endcomment %}
 
+{% comment %}
 ## Contents
 {:.no_toc}
+{% endcomment %}
+
+<div style="font-size:90%; line-height:110%;" markdown="1">
 
 * auto-gen TOC:
 {:toc}
 
+</div>
+
+
 ## The debate so far
 
 ### Act I
-{:.no_toc}
 
 In 2018, [Stoet and Geary](https://doi.org/10.1177%2F0956797617741719) had one of the most surprising results in social science in a decade. They took the [Global Gender Gap Index](https://en.wikipedia.org/wiki/Global_Gender_Gap_Report) (GGGI), which measures gender equality, and plotted it against the percentage of women among STEM graduates.
 
@@ -84,7 +90,6 @@ This was picked up by [The Atlantic](https://www.theatlantic.com/science/archive
 Wait, did I just say this was hard to dispute? Hahaha, no.
 
 ### Act II
-{:.no_toc}
 
 Suspicious of these results, Richardson and colleagues took the same data, calculated the percentage of women among STEM graduates, and got completely different numbers. They—I think—contacted the journal, which led to a [corrigendum](https://doi.org/10.1177%2F0956797619892892) from Stoet and Geary in late 2019. This clarified what's on the x-axis in the above graph:
 
@@ -106,7 +111,6 @@ There's also a good argument against this formula. Maybe you think that this imb
 What there's *not* a good argument for is calling this quantity "Women Among STEM Graduates (%)" like the above graph does. In their corrigendum, Stoet and Geary don't really explain how this happened. In fact, they really don't change much about their paper at all, other than adding above quote and inserting "propensity" everywhere.
 
 ### Act III
-{:.no_toc}
 
 Simultaneously with Stoet and Geary's corrigendum in 2019, Richardson and colleagues published a [commentary](https://doi.org/10.1177%2F0956797619872762) on the corrected paper. They argue:
 
@@ -120,7 +124,6 @@ Simultaneously with Stoet and Geary's corrigendum in 2019, Richardson and collea
 They also published articles in [Slate](https://slate.com/technology/2020/02/women-stem-innate-disinterest-debunked.html) and on [their blog](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction). This was picked up by [Buzzfeed](https://www.buzzfeednews.com/article/stephaniemlee/women-stem-gender-equality-paradox-correction) and [The Scientist](https://www.the-scientist.com/news-opinion/scholars-debate-causes-of-womens-underrepresentation-in-stem-67117).
 
 ### Act IV
-{:.no_toc}
 
 In 2020, Breda and colleagues published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary use. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
 
