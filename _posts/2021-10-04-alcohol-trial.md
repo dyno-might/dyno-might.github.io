@@ -108,13 +108,13 @@ What happened? You might imagine banal corruption, with cocaine and overseas ban
 
 The real story is a much more interesting cocktail of science, academia, bureaucratic maneuvering, ambition, politics, capitalism, the "deep state", secret emails, and slippery ethical slopes. It's particularly interesting because it's a huge stroke of luck that we know about any of this. You have to ask how often similar things happen and *don't* blow up.
 
-If you're brave, you can read the [165-page report](https://acd.od.nih.gov/documents/presentations/06152018Tabak-B.pdf) the NIH prepared before canceling the program. But I warn you: It's mostly out-of-order redacted emails written by people who wanted to conceal what was happening. There's an executive summary, but it's written in a frustratingly "government" style. There are also newspaper stories, but they don't try to reconstruct everything.
+If you're brave, you can read the [165-page report](https://acd.od.nih.gov/documents/presentations/06152018Tabak-B.pdf) the NIH prepared before canceling the program. But I warn you: It's mostly out-of-order redacted emails written by people who wanted to conceal what was happening. There's an executive summary, but it's written in a frustratingly "government" style. There are also newspaper stories, but they don't try to give the full timeline.
 
-After spending way too much time reconstructing things, here's the story as best as I can tell.
+After spending way too much time reconstructing things, here's the full story as best as I can tell.
 
 # Timeline
 
-If you want an even-more-obsessive amount of information about the timeline, you can click on (more) after each of the sections.
+(If you want an even-more-obsessive amount of information about the timeline, you can click on (more) after each of the sections.)
 
 **2001 - 2013.** Kenneth Mukamal, a physician at [Beth Israel](https://en.wikipedia.org/wiki/Beth_Israel_Deaconess_Medical_Center) medical center and faculty member at Harvard Medical School, publishes many papers that argue that moderate alcohol consumption has health benefits, usually for heart disease or diabetes. During the same period, John Krystal, a psychiatrist and professor at Yale publishes many papers on alcohol, mostly focusing on addiction and mental health. (Many other researchers will be involved in this study, but these two are most prominent.)
 
@@ -133,7 +133,7 @@ Here's a small sample of Mukamal's papers:
 >
 > Secondary analysis of mortality from all causes showed lower risk for drinkers compared with non-drinkers [(2011)](https://doi.org/10.1136/bmj.d671)
 >
-> Long-term moderate alcohol consumption is inversely associated with  all-cause and cardiovascular mortality among men who survived a first myocardial infarction. [(2012)](https://doi.org/10.1093/eurheartj/ehs047):
+> Long-term moderate alcohol consumption is inversely associated with  all-cause and cardiovascular mortality among men who survived a first myocardial infarction. [(2012)](https://doi.org/10.1093/eurheartj/ehs047)
 
 I'm not joking about this being a small sample. [His list of publications](https://scholar.google.com/citations?user=cROjkDcAAAAJ&hl=en) (up to the present day) has **185** hits for "alcohol". I didn't read all them, but after randomly sampling 20 or so, I found that almost all have a positive spin on the health effects of alcohol. The only exception I found was [this paper from 2010](https://doi.org/10.1161/STROKEAHA.110.580092) that suggests stroke risk goes up while alcohol is in your system. On that paper, Mukamal was the 4th author out of 6. (In academic publications, the people with the most influence on the paper are typically either first (actually did the work) or last (most senior/famous muckety-muck).)
 
@@ -504,7 +504,7 @@ The final NIH report notes that the researchers do not have "equipoise". You cou
 
 When I first read about this trial blowing up, I was stupefied---how could everyone have been so shameless? What were they thinking?
 
-Before criticizing people, it's good to try to imagine the strongest defense of their actions. So let me try to do that here.
+Before criticizing people, it's good to try to imagine the strongest defense of their actions. So let me try to do that.
 
 **The alcohol industry**
 
