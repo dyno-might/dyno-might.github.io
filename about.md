@@ -40,7 +40,9 @@ Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
 RSS feed: <https://dynomight.net/feed.xml>
 
-Email: Use the form at the bottom of this page. (Anonymously if you want.)
+Email: Use the form at the bottom of this page.
+
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) (I find it calming to solipsistically post links for no one to read.)
 
 <!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
