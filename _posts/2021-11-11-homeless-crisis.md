@@ -6,7 +6,7 @@ tags: policy statistics
 hero_light: false
 dark_title: false
 background_color: black
-description: "What's the data about homelessness?"
+description: "Many people think so, but what does the data say?"
 permalink: /homeless-crisis/
 background_color: rgb(132,134,131)
 head: "<style>
