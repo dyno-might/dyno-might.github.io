@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Is there a homelessness crisis?"
+title: "A breakdown of the data on homeless populations across the U.S."
 image: /img/homeless-crisis/no.jpg
 tags: policy statistics
 hero_light: false
 dark_title: false
 background_color: black
-description: "Many people think so, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
+description: "Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
 permalink: /homeless-crisis/
 background_color: rgb(190,190,190)
 head: "<style>
@@ -58,7 +58,7 @@ The rate of homelessness varies hugely between different states. Here's the perc
 
 <img src="/img/homeless-crisis/map-overall-comp.svg" alt="overall states map" loading="lazy">
 
-In Mississippi it is 1 in 2500 (0.04%), while in New York state it is 1 in 210 (0.47%). That's a huge difference.
+In Mississippi it is 1 in 2500 (0.04%), while in New York State it is 1 in 210 (0.47%). That's a huge difference.
 
 Now, when we talk about a crisis, there's an implication that things are getting worse. (You don't hear much about the *everyone you love will die and be forgotten "crisis"*...) We already saw that things are pretty stable at the national level. How are things changing in individual states?
 
@@ -86,7 +86,7 @@ We'll look at two attributes that people get during this count. First, people ar
 
 *Aside*: Technically---because nothing can be simple---the definition of "chronically homeless" is [much more complex](https://www.hudexchange.info/resource/4847/hearth-defining-chronically-homeless-final-rule/). You also qualify if you've been homeless for a total of a year in the last three years, plus that happened in at least four episodes, plus those episodes were separated by at least a week. Yes, that means that someone homeless their entire life except the first week of each year is "non-chronic", and yes that is crazy, but probably it never happens and anyway these categorizations are done by random people around the country who may not much care about the legalistic definition anyway. Oh, and also, this changed in 2016.
 
-So, what does American homelessness look like?
+So, what types of homelessness does the US have?
 
 **Most homeless are non-chronic, and most non-chronic homeless are sheltered. But the chronic homeless are usually unsheltered.**
 
@@ -139,7 +139,7 @@ OK, but how do things look in different places?
 
 **Chronic and unsheltered homelessness is much more common in some places than others.**
 
-Beyond just having different *amounts* of homelessness, different places also have different *kinds*. For example, let's compare New York and California:
+Let's compare New York and California:
 
 ![NY_CA_2020](/img/homeless-crisis/NY-2020.svg)
 
@@ -147,7 +147,7 @@ Beyond just having different *amounts* of homelessness, different places also ha
 
 Homelessness overall is similarly high in both places---0.47% in New York and 0.41% in California. But California has *much* more unsheltered and chronic homelessness.
 
-*Aside*: Did you know that there is a *constitutional* right to shelter in New York? This is a result of a [1979 New York State Supreme Court decision](https://www.coalitionforthehomeless.org/our-programs/advocacy/legal-victories/the-callahan-legacy-callahan-v-carey-and-the-legal-right-to-shelter/). Two other places have a weaker version of this. Massachusetts has a mandate as a result of a [1983 law](https://archives.lib.state.ma.us/bitstream/handle/2452/39556/1983acts0450.txt) but that applies only to families, not individuals. The District of Columbia guarantees shelter to families year-round, and to individuals when the temperature is below 32° F or above 95 °F (below 0° C or above 35 °C).
+*Aside*: Did you know that there is a *constitutional* right to shelter in New York? This is a result of a 1979 New York State Supreme Court [decision](https://www.coalitionforthehomeless.org/our-programs/advocacy/legal-victories/the-callahan-legacy-callahan-v-carey-and-the-legal-right-to-shelter/). Two other places have a weaker version of this. Massachusetts has a mandate from a [1983 law](https://archives.lib.state.ma.us/bitstream/handle/2452/39556/1983acts0450.txt) but it only applies to families, not individuals. The District of Columbia guarantees shelter to families year-round, and to individuals when the temperature is below 32° F or above 95 °F (below 0° C or above 35 °C).
 
 Anyway, we can picture the situation for all states by visualizing the four types of homelessness on a map. Here they all are, each as a percentage of the state's population. (Click for a .pdf if you want to look closer.)
 
@@ -155,13 +155,13 @@ Anyway, we can picture the situation for all states by visualizing the four type
 <img src="/img/homeless-crisis/map2-compressed.svg" style="max-width:min(100%,800pt);" loading="lazy">
 </a>
 
-For sheltered non-chronic homelessness, the West Coast isn't exceptional. Instead, the standouts are New York at 0.42% and---press your face against the screen---the District of Columbia at 0.49%. This is followed by Massachusetts at 0.23% and Alaska at 0.20%.
+For sheltered non-chronic homelessness, the West Coast isn't exceptional. Instead, the standouts are New York at 0.42% and---press your face against the screen---the District of Columbia at 0.49%. These are followed by Massachusetts at 0.23% and Alaska at 0.20%.
 
-But unsheltered chronic homelessness is very different. It's almost nonexistent in some places---it's 0.10% in California and 0.08% in Hawaii, but 0.0013% in Wisconsin. In Wisconsin, that is 80 people total. In California, it is 42,195. {% comment %} Even New York only has 1,595. {% endcomment %}
+But unsheltered chronic homelessness is very different. It's almost nonexistent in some places---it's 0.10% in California and 0.08% in Hawaii, but 0.0013% in Wisconsin. In Wisconsin, that is 80 people total. In California, that's 42,195. {% comment %} Even New York only has 1,595. {% endcomment %}
 
-However, let me remind you---I can't emphasize this enough---this survey is done in *late January*, when it's cold in New York and *stupidly cold* in Wisconsin. You have to imagine that things would look different if things were done in summer, though it's hard to say by how much. Still, the difference might be significant in that almost all homeless in cold places have at least some interaction with social services at some point.
+However, let me remind you---I can't emphasize this enough---this survey is done in *late January*, when it's cold in New York and *stupidly cold* in Wisconsin. You have to imagine that things would look different if things were done in Summer, though it's hard to say by how much. Still, the difference might be significant in that almost all homeless in cold places have at least some occasional contact with social services.
 
-OK, so the types of homelessness are different in different places, and they are changing over time. But how are they changing *in each place*? We still need to go deeper.
+OK. The types of homelessness are different in different places, and they are changing over time. But how are they changing *in each place*? We still need to go deeper.
 
 **Unsheltered and chronic homelessness is getting worse in some places, particularly the West coast.**
 
