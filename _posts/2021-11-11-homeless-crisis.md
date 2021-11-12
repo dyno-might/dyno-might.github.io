@@ -159,7 +159,7 @@ For sheltered non-chronic homelessness, the West Coast isn't exceptional. Instea
 
 But unsheltered chronic homelessness is very different. It's almost nonexistent in some places---it's 0.10% in California and 0.08% in Hawaii, but 0.0013% in Wisconsin. In Wisconsin, that is 80 people total. In California, that's 42,195. {% comment %} Even New York only has 1,595. {% endcomment %}
 
-However, let me remind you---I can't emphasize this enough---this survey is done in *late January*, when it's cold in New York and *stupidly cold* in Wisconsin. You have to imagine that things would look different if things were done in Summer, though it's hard to say by how much. Still, the difference might be significant in that almost all homeless in cold places have at least some occasional contact with social services.
+However, let me remind you---I can't emphasize this enough---this survey is done in *late January*, when it's cold in New York and *stupidly cold* in Wisconsin. You have to imagine that things would look different if things were done in Summer, though it's hard to quantify. Still, the difference might be significant in that almost all homeless people in cold places have at least some occasional contact with social services.
 
 OK. The types of homelessness are different in different places, and they are changing over time. But how are they changing *in each place*? We still need to go deeper.
 

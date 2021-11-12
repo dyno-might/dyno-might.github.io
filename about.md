@@ -40,7 +40,7 @@ Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
 RSS feed: <https://dynomight.net/feed.xml>
 
-Email: Use the form at the bottom of this page.
+Email: The name of this website at [this domain](https://tutanota.com/). Or, use the form at the bottom of this page.
 
 Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) (I find it calming to solipsistically post links for no one to read.)
 
