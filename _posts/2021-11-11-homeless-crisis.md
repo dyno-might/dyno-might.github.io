@@ -72,7 +72,7 @@ Here's the change between 2015 and 2020, again as a percentage of each state's p
 
 <img src="/img/homeless-crisis/map-overall-change-comp.svg" alt="overall states change map" loading="lazy">
 
-The general pattern is increases close to California and decreases close to Florida. The exceptions are the random huge decreases in Nevada and North Dakota, and the confusing mess in the Northeast.
+The general pattern is increases close to California and decreases close to Florida. The exceptions are the random huge decreases in Nevada and North Dakota (maybe because of the [end of the fracking boom](https://news.ycombinator.com/item?id=29194075)?), and the confusing mess in the Northeast.
 
 This is a relatively simple story so far, but I don't think it fully captures what's going on. We have to go deeper.
 
@@ -247,7 +247,7 @@ Things just exploded between 2016 and 2017 and then went up from there. You migh
 
 ---
 
-<span style="font-weight:bold;">P.S. Want to see plots for your state or city? They are here:</span>
+<span>P.S. If you want to see data for your local state or city it is below.</span>
 
 <details id="all-plots">
 <summary style="font-weight:bold;">All 50 states and DC.</summary>
