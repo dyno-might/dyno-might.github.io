@@ -34,49 +34,52 @@ table {
   width:fit-content;
   margin: 0 auto;
 }
+h1, h2, h3, h4 {
+  font-weight: lighter;
+}
 </style>
 "
 ---
 
 Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say?
 
-![overall homelessness](/img/homeless-crisis/overall-trend.svg)
+![overall homelessness in the US between 2010 and 2020](/img/homeless-crisis/overall-trend.svg)
 
 At a glance, this doesn't *look* very crisisy. Since 2015, things have only gone up by less than three percent.
 
 Still, I think there *is* a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that.
 
-**Homelessness is much higher in some places.**
+### Homelessness is much higher in some places.
 
 The rate of homelessness varies hugely between different states. Here's the percentage of the population in each state that was homeless in 2020.
 
 <span id="overall-map"></span>
 
 {% comment %}
-![overall states map](/img/homeless-crisis/map-overall-comp.svg)
+![map of overall homelessness in each US state in 2020](/img/homeless-crisis/map-overall-comp.svg)
 {% endcomment %}
 
-<img src="/img/homeless-crisis/map-overall-comp.svg" alt="overall states map" loading="lazy">
+<img src="/img/homeless-crisis/map-overall-comp.svg" alt="map of rates of homelessness rate in each US state" loading="lazy">
 
 In Mississippi it is 1 in 2500 (0.04%), while in New York State it is 1 in 210 (0.47%). That's a huge difference.
 
 Now, when we talk about a crisis, there's an implication that things are getting worse. (You don't hear much about the *everyone you love will die and be forgotten "crisis"*...) We already saw that things are pretty stable at the national level. How are things changing in individual states?
 
-**Homelessness is increasing in some places and decreasing in others.**
+### Homelessness is increasing in some places and decreasing in others.
 
 Here's the change between 2015 and 2020, again as a percentage of each state's population.
 
 {% comment %}
-![overall states map](/img/homeless-crisis/map-overall-change-comp.svg)
+![map of change](/img/homeless-crisis/map-overall-change-comp.svg)
 {% endcomment %}
 
-<img src="/img/homeless-crisis/map-overall-change-comp.svg" alt="overall states change map" loading="lazy">
+<img src="/img/homeless-crisis/map-overall-change-comp.svg" alt="map of changes in homlessness in each US state between 2015 and 2020" loading="lazy">
 
 The general pattern is increases close to California and decreases close to Florida. The exceptions are the random huge decreases in Nevada and North Dakota (maybe because of the [end of the fracking boom](https://news.ycombinator.com/item?id=29194075)?), and the confusing mess in the Northeast.
 
 This is a relatively simple story so far, but I don't think it fully captures what's going on. We have to go deeper.
 
-**There are different types of homelessness.**
+### There are different types of homelessness.
 
 Some people run out of money, get evicted, and stay at a shelter for a few weeks before moving in with family and eventually getting back on their feet. Other people have mental health issues and stay on the street for years. When we talk about a "homelessness crisis", we should try to distinguish these different situations.
 
@@ -88,7 +91,7 @@ We'll look at two attributes that people get during this count. First, people ar
 
 So, what types of homelessness does the US have?
 
-**Most homeless are non-chronic, and most non-chronic homeless are sheltered. But the chronic homeless are usually unsheltered.**
+### Most homeless are non-chronic, and most non-chronic homeless are sheltered. But the chronic homeless are usually unsheltered.
 
 Here are the fractions of people that fell into each of the four possible groups in 2020.
 
@@ -109,13 +112,13 @@ Here's how I think about this:
 
 That's the overall mix. But we have to worry about two things. First, is the mix changing over time? And second, how does the mix vary in different places?
 
-**Unsheltered and chronic homelessness is increasing.**
+### Unsheltered and chronic homelessness is increasing.
 
 Unfortunately, the mix is changing, and for the worse. The "best" type of homelessness (sheltered and non-chronic) is decreasing, while the other types are increasing.
 
 <span id="different-types"></span>
 
-![different types of homelessness over time](/img/homeless-crisis/different-types.svg)
+![different types of homelessness in the US over time](/img/homeless-crisis/different-types.svg)
 
 Since it's a bit hard to see, here's the number of people in each group in 2020 divided by the number in 2015:
 
@@ -137,13 +140,13 @@ This gets us closer to the truth, but I think it still doesn't get us that close
 
 OK, but how do things look in different places?
 
-**Chronic and unsheltered homelessness is much more common in some places than others.**
+### Chronic and unsheltered homelessness is much more common in some places than others.
 
 Let's compare New York and California:
 
-![NY_CA_2020](/img/homeless-crisis/NY-2020.svg)
+![pie chart of types of homelessness in New York in 2020](/img/homeless-crisis/NY-2020.svg)
 
-![NY_CA_2020](/img/homeless-crisis/CA-2020.svg)
+![pie chart of types of homelessness in California in 2020](/img/homeless-crisis/CA-2020.svg)
 
 Homelessness overall is similarly high in both places---0.47% in New York and 0.41% in California. But California has *much* more unsheltered and chronic homelessness.
 
@@ -152,7 +155,7 @@ Homelessness overall is similarly high in both places---0.47% in New York and 0.
 Anyway, we can picture the situation for all states by visualizing the four types of homelessness on a map. Here they all are, each as a percentage of the state's population. (Click for a .pdf if you want to look closer.)
 
 <a href="/img/homeless-crisis/map2-compressed.pdf">
-<img src="/img/homeless-crisis/map2-compressed.svg" style="max-width:min(100%,800pt);" loading="lazy">
+<img src="/img/homeless-crisis/map2-compressed.svg" style="max-width:min(100%,800pt);" alt="maps of rates of each type of homelessness in the US" loading="lazy">
 </a>
 
 For sheltered non-chronic homelessness, the West Coast isn't exceptional. Instead, the standouts are New York at 0.42% and---press your face against the screen---the District of Columbia at 0.49%. These are followed by Massachusetts at 0.23% and Alaska at 0.20%.
@@ -163,26 +166,26 @@ However, let me remind you---I can't emphasize this enough---this survey is done
 
 OK. The types of homelessness are different in different places, and they are changing over time. But how are they changing *in each place*? We still need to go deeper.
 
-**Unsheltered and chronic homelessness is getting worse in some places, particularly the West coast.**
+### Unsheltered and chronic homelessness is getting worse in some places, particularly the West coast.
 
 How are the different types of homelessness changing over time in each state? Let's again contrast New York and California:
 
-![NY 2020](/img/homeless-crisis/NY.svg)
+![changes in each type of homelessness in New York between 2011 and 2020](/img/homeless-crisis/NY.svg)
 
-![CA 2020](/img/homeless-crisis/CA.svg)
+![changes in each type of homelessness in California between 2011 and 2020](/img/homeless-crisis/CA.svg)
 
 The situation in New York is reasonably stable since 2015, albeit at very high levels. Meanwhile, California has a small *decline* in sheltered non-chronic homelessness, but big increases in the other groups.
 
 Other places are different. For example, in Florida, everything is decreasing at once.
 
-![FL homelessness](/img/homeless-crisis/FL.svg)
+![changes in each type of homelessness in Florida between 2011 and 2020](/img/homeless-crisis/FL.svg)
 
 What does the rest of the country look like? Remember, that for the country as a whole, [we saw above](#different-types) that sheltered non-chronic homelessness is decreasing, and the other categories are increasing.
 
 But what about individual states? Since it's not convenient to look at 50 different charts, I made four maps to show the change in each type of homelessness between 2015 and 2020, again as a percentage of each state's population. In each of these, grey is a decrease, white is no change, and a non-grey color is an increase. (Click for a .pdf to zoom.)
 
 <a href="/img/homeless-crisis/map-change-compressed.pdf">
-<img src="/img/homeless-crisis/map-change-compressed.svg" style="max-width:min(100%,800pt);" loading="lazy">
+<img src="/img/homeless-crisis/map-change-compressed.svg" style="max-width:min(100%,800pt);" alt="maps of changes in each type of homlessness between 2015 and 2020" loading="lazy">
 </a>
 
 How should we think about this? Here's my best attempt at a summary:
@@ -203,9 +206,9 @@ Unfortunately, HUD doesn't publish data on these numbers. However, they do publi
 
 So, I did the sensible thing. I downloaded the .pdf files for each of the 6,082 different reports, wrote a script to convert each .pdf to plain text, wrote a parser for that text, compensated for 8 billion inconsistencies in how the reports were laid out, damn you HUD, damn you to hell, extracted the data for each of the above categories, and made plots.
 
-**Nationally, there is only a small uptick in mental illness and substance abuse.**
+### Nationally, there is only a small uptick in mental illness and substance abuse.
 
-![Entire Nation](/img/homeless-crisis/national/Entire Nation.svg)
+![national rates of homelessness with mental health and substance abuse 2007-2020](/img/homeless-crisis/national/Entire Nation.svg)
 
 Blue is people with mental health issues, while orange is substance abuse. Some people will be in both categories, but we don't know how many. (My guess is a lot because they're strongly correlated.) Grey is all people, including those with no issues.
 
@@ -219,7 +222,7 @@ I made plots for each of the 437 regions and states (you can see them below). Th
 
 To get more reliable numbers, I combined sheltered and unsheltered homelessness, took the average of mental health and substance abuse, and then applied a [smoothing function](https://en.wikipedia.org/wiki/Local_regression). I used the smoothed values below, which are hopefully less polluted by noise.
 
-**There are significant increases in mental illness and substance abuse in certain states.**
+### There are significant increases in mental illness and substance abuse in certain states.
 
 How many homeless people are there in each state with severe mental illness of substance abuse problems? Here are the numbers in 2020.
 
@@ -227,7 +230,7 @@ How many homeless people are there in each state with severe mental illness of s
 ![Mental health and substance abuse](/img/homeless-crisis/map-ment-subs-comp.svg)
 {% endcomment %}
 
-<img src="/img/homeless-crisis/map-ment-subs-comp.svg" alt="Mental health and substance abuse" loading="lazy">
+<img src="/img/homeless-crisis/map-ment-subs-comp.svg" alt="map of mental health and substance abuse with homlessness" loading="lazy">
 
 Again, this is high if you're close to California and in certain parts of the Northeast. This is pretty similar to the map of [homelessness overall](#overall-map) we started with, though you'll see a few places that stand out more here, e.g. Nevada.
 
@@ -237,11 +240,11 @@ OK, and how are things changing?
 ![Mental health and substance abuse changes](/img/homeless-crisis/map-ment-subs-change-comp.svg)
 {% endcomment %}
 
-<img src="/img/homeless-crisis/map-ment-subs-change-comp.svg" alt="Mental health and substance abuse changes" loading="lazy">
+<img src="/img/homeless-crisis/map-ment-subs-change-comp.svg" alt="map of mental health and substance abuse with homelessness changes" loading="lazy">
 
 Again, we have a crisis mostly in the West. California was already really high in 2015 and has gotten even higher. The real standout is Washington state, where things more than doubled. And sure enough, the plot for Seattle is stark.
 
-![Seattle](/img/homeless-crisis/coc/WA-Seattle%20King%20County.svg)
+![mental illness and substance abuse homelessness in Seattle](/img/homeless-crisis/coc/WA-Seattle%20King%20County.svg)
 
 Things just exploded between 2016 and 2017 and then went up from there. You might remember that 2016-2017 is exactly when [meth metabolites in sewage in Seattle also exploded](/p2p-meth/#seattle-sewage). Of course, that could just be a coincidence, or might be noise in either of these datasets. Still, I think we can see why people in Seattle might feel there's a crisis. Maybe anecdotal knowledge ain't so bad.
 
