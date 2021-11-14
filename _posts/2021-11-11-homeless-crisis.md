@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A breakdown of the data on homeless populations across the U.S."
+title: "A breakdown of the data on the homeless crisis across the U.S."
 image: /img/homeless-crisis/no.jpg
 tags: policy statistics
 hero_light: false
