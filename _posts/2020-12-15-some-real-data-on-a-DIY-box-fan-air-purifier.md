@@ -21,7 +21,7 @@ last_updated: 2021-09-03
 </style>
 </head>
 
-Bad air is bad for you. The air purifier market, though, is a mess. Every purifier uses incompatible proprietary filters, presumably to lock you into buying replacements. How do we know these actually work? Few seem to publish lab tests. And why does it cost $100-$300 for a big plastic box with a fan and a filter inside?
+[Bad air is bad for you](/air). The air purifier market, though, is a mess. Every purifier uses incompatible proprietary filters, presumably to lock you into buying replacements. How do we know these actually work? Few seem to publish lab tests. And why does it cost $100-$300 for a big plastic box with a fan and a filter inside?
 
 It's common to build DIY air purifiers by basically strapping a filter to a fan. I like the idea of these, but again, it's hard to be confident they really work. There's a few experiments out there, but not enough to make me comfortable. So I decided to do some experimenting of my own. I made a purifier, generated smoke, and measured how well it removes tiny particles.
 
@@ -76,7 +76,7 @@ Here are some ways to interpret these numbers:
 
 ### Logging
 
-Since the air quality monitor doesn't log data, I used an ultra-hacky alternative: I set the monitor next to a laptop running a stopwatch. I then aimed a tabet at both of those screens and took a timelapse video. Finally, I manually transcribed the data by going to each minute marker in the data. (This was even more tedious than it sounds.)
+Since the air quality monitor doesn't log data, I used an ultra-hacky alternative: I set the monitor next to a laptop running a stopwatch. I then aimed a tablet at both of those screens and took a timelapse video. Finally, I manually transcribed the data by going to each minute marker in the data. (This was even more tedious than it sounds.)
 
 ## Results in a Tiny Room
 
@@ -128,7 +128,7 @@ And the results are...
 
 This was unexpected. I thought the tape would help, but I wouldn't have been surprised if it hurt instead. Instead, there's basically no difference at all. I don't know enough about fluid dynamics to even speculate about what's happening here, so I won't try.
 
-There could be some weird quirk in how I ran this experiment. This doesn't necessarily mean that all the advice to tape around the filter is *wrong*. However, I've never seen any experriments that show taping helps either.
+There could be some weird quirk in how I ran this experiment. This doesn't necessarily mean that all the advice to tape around the filter is *wrong*. However, I've never seen any experiments that show taping helps either.
 
 ## Thoughts
 

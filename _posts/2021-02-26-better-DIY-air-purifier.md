@@ -69,7 +69,7 @@ I wanted a new design that preserves the best aspects of using a box-fan:
 1. Cheap.
 1. Easily built with no tools.
 3. No proprietary parts.
-4. Good at purifying the air.
+4. Good at [purifying the air](/air).
 
 The design should also fix the worst parts of using a box fan:
 
