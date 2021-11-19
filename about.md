@@ -24,8 +24,9 @@ You can subscribe here to get new articles. Owing to the fantastical amount of t
 <input type="email" name="text" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
 <input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_url" value="https://dynomight.net/"> 
-<button type="submit" style="cursor:pointer; padding:4px;">subscribe</button> 
+<input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
+<br><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
+<label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
 </form>
 
 <br>
@@ -34,15 +35,15 @@ There's just the one step to subscribe, no second form or confirmation link. (Of
 
 ---
 
-Posts organized by topics: [tags](/tags)
-
-Twitter: [@dynomight7](https://twitter.com/dynomight7)
+Email: The name of this website at [this domain](https://tutanota.com/). Or use the form at the bottom of this page.
 
 RSS feed: <https://dynomight.net/feed.xml>
 
-Email: The name of this website at [this domain](https://tutanota.com/). Or, use the form at the bottom of this page.
+Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
 Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) (I find it calming to solipsistically post links for no one to read.)
+
+All posts organized by topics: [tags](/tags)
 
 <!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
@@ -111,9 +112,9 @@ Thoughts? Questions? Help with my ever-proliferating collection of typos?
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+          <textarea type="text" name="text" class="headerfont" placeholder="dear dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply only)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
@@ -128,5 +129,3 @@ Thoughts? Questions? Help with my ever-proliferating collection of typos?
         <br>
         <!-- </details> -->
         </div> 
-
-*FEEDBACK IS A GIFT*.
