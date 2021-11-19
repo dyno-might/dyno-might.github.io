@@ -29,12 +29,13 @@ Eventually, the Allies settled on a strategy of *island-hopping*: With air and n
 
 So, here's a theory: If you want to make the world better, culture-war debates are often like attacking Rabaul.
 
-{% comment %}
-## Contents
-{:.no_toc}
+<div style="font-size:90%" markdown="1">
+
 * auto-gen TOC:
 {:toc}
-{% endcomment %}
+
+</div>
+
 
 
 ## Statistical nihilism
@@ -85,17 +86,17 @@ It would have some value. It might bring attention to a neglected issue. Fine, b
 
 The alternative to culture war is to focus on *interventions*. This has three advantages.
 
-The first advantage of interventions is that we have **good methods to arrive at truth**. In the recent paper [Systemic Discrimination Among Large US Employers](https://eml.berkeley.edu/~crwalters/papers/randres.pdf), researchers sent out 83,000 fake resumes, which were equivalent except for having stereotypically black or white names. They found that resumes with "black" names were called back 23% of the time, compared to 25% of the time with "white" names.
+The first advantage of interventions is that we have *good methods to arrive at truth*. In the recent paper [Systemic Discrimination Among Large US Employers](https://eml.berkeley.edu/~crwalters/papers/randres.pdf), researchers sent out 83,000 fake resumes, which were equivalent except for having stereotypically black or white names. They found that resumes with "black" names were called back 23% of the time, compared to 25% of the time with "white" names.
 
 This is about as culture-war of a topic as it gets but, as far as I can tell, it caused little controversy. Partly, I suspect that's because the magnitude of the result is neither large nor small enough to make a good headline. But is it naive to think that the lack of quibbling is partly because there isn't much to quibble about? The researchers changed names and nothing else---they intervened! This makes it hard to argue with the conclusion.
 
 People, in general, are terrible at finding flaws in research that reinforces their views but excellent at spotting flaws in research that challenges those views. When two sides are locked in a trench-warfare "my research says A" vs "my research says B" kind of thing, that's often because the research being cited on both sides is flawed.
 
-A second advantage is that **interventions help us focus on tradeoffs**. Engineers know that changes to complex systems usually have many effects. In a car, making an engine bigger might increase acceleration but decrease fuel efficiency. In human bodies, genes for the [Asian flush](/alcohol/) decrease alcoholism but make alcohol more carcinogenic for people who drink anyway.
+A second advantage is that *interventions help us focus on tradeoffs*. Engineers know that changes to complex systems usually have many effects. In a car, making an engine bigger might increase acceleration but decrease fuel efficiency. In human bodies, genes for the [Asian flush](/alcohol/) seem to decrease alcoholism but make alcohol more carcinogenic.
 
-Society is a very complex system. Creating civilian review boards might reduce police use of force. That would be good, but maybe police do their job less aggressively and crime goes up. Or maybe police don't like being reviewed and you have to raise salaries to keep enough employed. I suspect the tradeoff is positive, but that's an empirical matter, not something I can just assert as obvious. A conversation about "are police biased?" crowds out these questions.
+Society is a very complex system. Creating civilian review boards might reduce police use of force. That would be good, but maybe police do their job less aggressively and crime goes up. Or maybe police don't like being reviewed and you have to raise salaries to keep enough employed. I personally suspect the tradeoff is positive, but that's an empirical matter, not something I can just assert as obvious. A conversation about "are police biased?" crowds out these questions.
 
-A third advantage of interventions is that it's **easier to convince someone** about them, and you don't need to resolve culture-war to do it. Consider policing again. Here are some of the policy suggestions I've seen:
+A third advantage of interventions is that it's *easier to convince someone* about them, and you don't need to resolve culture-war to do it. Consider policing again. Here are some of the policy suggestions I've seen:
 
 * Increase / decrease the number of police officers.
 * Increase / decrease prison sentences for certain crimes.
@@ -106,9 +107,9 @@ A third advantage of interventions is that it's **easier to convince someone** a
 * Mandate implicit bias training.
 * Require officers to de-escalate or exhaust alternatives before resorting to force.
 
-Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might agree to that policy if it's phrased as an *evidence-based policy tune-up* rather than a win for *Team Police Are Bad*.
+Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might well agree to that policy if it's phrased as an "evidence-based policy tune-up" Not so much if it's phrased as a win for "Team Police Are Bad".
 
-If we can resist the urge to talk about grander themes and stick to the effects of what we can *do*, we'd have a better chance of good policies.
+If we can resist the urge to talk about grander themes and stick to the effects of things we can actually *do*, we'd have a better chance of making progress.
 
 ## Control air and sea
 
@@ -126,22 +127,22 @@ And what happens when someone makes a culture-war claim based on careful reasoni
 
 It's indistinguishable. There needs to be some incentive against ideologically convenient theories built on mirages of evidence. We need more voices who focus on the strength of claims rather than how good the conclusions are.
 
-To some degree, fact-checkers play this role, but they are supposed to check *facts* that are either right or wrong. If someone is making a bald-faced lie, by all means, call it a lie. But with culture war, it's often that someone makes a subtle statistical error or overgeneralizes from an unrepresentative dataset or something. I don't think it's helpful to award Pinocchios in these cases.
+To some degree, fact-checkers play this role, but they are supposed to check *facts*, things that are either right or wrong. If someone is lying, by all means call it a lie. But with culture war, it's often that someone makes a subtle statistical error or overgeneralizes from an unrepresentative dataset or something. I don't think it's helpful to award "Pinocchios" in these cases.
 
 A more gentle approach would be more effective. Treat all arguments with the same skeptical eye. Point out the flaw in the argument, explain why the broad question is so hard to resolve, and then turn the debate towards questions where there *are* answers: those about interventions.
 
 ## Counterarguments
 
-I see two major counterarguments. The first is that it assumes that you view policies in consequentialist terms, where what matters is effects. If you truly think that what's important in policies is the spirit behind them, then I'll reluctantly concede that culture war might be the right choice for you. Also, for some issues---say creating a new national holiday---symbolism is the whole point.
+I see two major counterarguments. The first is that I'm assuming you view policies in consequentialist terms, where what matters is effects. If you truly think that what's important in policies is the spirit behind them, then I reluctantly concede that culture war might be the right choice for you. And for some issues---say creating a new national holiday---maybe symbolism is the whole point.
 
-The second is that maybe "nature finds a way". My assumption is that culture war is intractable because it focuses on controversial questions that are beyond the reach of evidence. The other possibility is that culture war is intractable because... we just love intractable arguments. Maybe it's human nature to see what's in the news and then line up for trench warfare. The drive towards tribalism and group cohesion seems stronger than the drive towards cold-blooded analysis.
+A second counterargument is that maybe "nature finds a way". My assumption is that culture war is intractable because it focuses on controversial questions that are beyond the reach of evidence. The other possibility is that culture war is intractable because... we just love intractable arguments. Maybe it's human nature to see what's in the news and then line up for trench warfare. The drive towards tribalism and group cohesion seems stronger than the drive towards cold-blooded analysis.
 
 This second counterargument worries me. One response is that, sure, maybe most people won't do this, but *you* can, and if it's a good idea you'll help on the margin.
 
 But is it a good idea? If everyone focused on the effects of interventions, would we get people across the political spectrum high-fiving in the streets and cheering the benefits of fixing [particulate levels in subways](/air/#particles-while-commuting)? Or would we get "You don't want the Fed to do inflation targeting---what are you, *a fascist?*"
 
-I think this would happen to some degree. But the discourse just isn't big enough to support hundreds of policies. Already today, both Republicans and Democrats give [idiosyncratic answers](/polarization-sample-bias/) when asked about specific issues. Maybe some high-profile issues become super polarized, but I doubt it could happen everywhere.
+I think this would happen to some degree. But the discourse just isn't big enough to support polarized opinions about hundreds of policies. Already today, both Republicans and Democrats give [idiosyncratic answers](/polarization-sample-bias/) when asked about specific issues. Maybe some high-profile issues become super polarized, but I doubt it could happen everywhere.
 
 ## TLDR
 
-Broad culture war questions are irresolvable mind-killers, but we can't simply give up rational discussion of huge realms of human life. Statistics might not be able to answer those questions. What is *can* do is find the effect of interventions: What happens after you do something? We should skip the broad culture-war, and ask "if we push this policy lever, what are the effects". At the same time, we should try to deflate the culture-war by skeptically evaluating all broad claims. Studying interventions is less controversial, more grounded in evidence, and must happen eventually anyway. Directly fighting the culture war is like a frontal assault on Rabaul.
+Broad culture war questions are irresolvable mind-killers, but we can't simply give up rational discussion of huge realms of human life. Statistics might not be able to answer those questions. What is *can* do is find the effect of interventions: What happens after you do something? We should skip the broad culture-war, and ask "if we push this policy lever, what are the effects?" At the same time, we should try to deflate the culture-war by skeptically evaluating all broad claims. Studying interventions is less controversial, more grounded in evidence, and must happen eventually anyway. Directly fighting the culture war is like a frontal assault on Rabaul.

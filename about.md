@@ -28,9 +28,7 @@ You can subscribe here to get new articles. Owing to the fantastical amount of t
 <br><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
 <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
 </form>
-
 <br>
-
 There's just the one step to subscribe, no second form or confirmation link. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
 
 ---
@@ -114,7 +112,7 @@ Thoughts? Questions? Help with my ever-proliferating collection of typos?
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
           <textarea type="text" name="text" class="headerfont" placeholder="dear dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          <input type="email" name="email" class="headerfont" placeholder="email (optional!)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
