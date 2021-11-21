@@ -143,7 +143,7 @@ Most tests are positively correlated, and none are negative. Is this surprising?
 
 ## Mental tests are correlated
 
-We can do the same analysis with batteries of mental tests. For whatever reason, many more studies have been done with mental tests, so I picked four of the best studies.
+We can do the same analysis with batteries of mental tests. For whatever reason, many more studies have been done with mental tests, so I picked four of the best.
 
 Paper | Population
 - | - 
@@ -188,7 +188,7 @@ The same basic pattern holds for both physical and mental tests.
 
 First, **almost everything is positively correlated**. You might imagine that people with more upper-body strength would be worse runners---what with the extra muscle they need to carry around. You might imagine that people who are good at paragraph comprehension would be worse at math. But that's not what happens.
 
-Second, **more similar stuff is more correlated**. It's natural that chin-ups are strongly correlated with pull-ups, or that arithmetic reasoning is strongly correlated with mathematics knowledge. It's more surprising that hand-grip strength is correlated with the 75-yd dash or that paragraph comprehension is correlated with target identification. These more surprising correlations are weaker (but still positive).
+Second, **more similar stuff is more correlated**. It's natural that chin-ups are strongly correlated with pull-ups, or that arithmetic reasoning is strongly correlated with mathematics knowledge. It's more surprising that hand-grip strength is correlated with the 75-yd dash or that paragraph comprehension is correlated with target identification. These more surprising correlations are weaker, but still positive.
 
 Third, **the results are robust**. The tests span several decades, different countries, and many different test batteries. The basic pattern doesn't change.
 

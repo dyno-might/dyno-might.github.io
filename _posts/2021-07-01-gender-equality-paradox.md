@@ -127,7 +127,7 @@ They also published articles in [Slate](https://slate.com/technology/2020/02/wom
 
 In 2020, Breda and colleagues published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary use. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
 
-Their first observation that the propensities aren't just correlated with GGGI. They are also correlated with:
+Their first observation is that the propensities aren't just correlated with GGGI. They are also correlated with:
 * GDP per capita.
 * The [human development index](https://en.wikipedia.org/wiki/Human_Development_Index).
 * Income inequality, measured via the [Gini index](https://en.wikipedia.org/wiki/Gini_coefficient).
@@ -171,9 +171,9 @@ First, causality isn't everything. Richardson et al. think that BIGI is better t
 
 Still, does the paradox actually exist? It can't simultaneously be *false* (as Richardson et al. seem to claim) and *true but explained by gender stereotypes* (as Breda et al. claim.) Which is it?
 
-Second stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading. Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
+Second, stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading. Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
 
-But suppose that the paradox were entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes!
+But OK, suppose that the paradox were entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical, no?
 
 {% comment %}
 
@@ -224,7 +224,7 @@ Be careful interpreting this graph: While more equality meant *more* GGGI, it me
 <img src="/img/gender-equality-paradox/gii_vs_female_share_nonstem_and_female_share.svg" alt="gii vs female STEM and non-STEM fractions" loading="lazy">
 </a>
 
-Again, the most gender-equal countries have a smaller fraction of women in STEM, but not non-STEM. With propensities, this effect is <a href="/img/gender-equality-paradox/gii_vs_female_propensity.pdf">even stronger</a>.
+Again, the most gender-equal countries have a smaller fraction of women in STEM, but not non-STEM. If you use propensities instead of the female share of degrees, the effect is <a href="/img/gender-equality-paradox/gii_vs_female_propensity.pdf">even stronger</a>.
 
 A third alternative is BIGI, as suggested by Richardson et al. Be very careful here: BIGI is negative when women are favored and positive when men are favored. Equality occurs around zero.
 
@@ -264,9 +264,9 @@ On the other hand, here's a plot of GGGI against BIGI:
 <img src="/img/gender-equality-paradox/gggi_vs_bigi.svg" alt="gggi vs bigi" loading="lazy">
 </a>
 
-According to BIGI, Saudi Arabia—where women can only show their [hands and eyes in public](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Hijab_and_dress_code) and must have a [legal male guardian](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Male_guardians)—is basically the same as Switzerland. Lesotho—the tiny country inside South Africa—is by far the most women-favored place in the entire world. Ooohkaaay.
+According to BIGI, Saudi Arabia—where women can only show their [hands and eyes in public](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Hijab_and_dress_code) and must have a [legal male guardian](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Male_guardians)—is basically the same as Switzerland, and Lesotho—the tiny country inside South Africa—is by far the most women-favored place in the entire world. Ooohkaaay.
 
-This isn't to say that BIGI is *bad* exactly. They [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper. My point is that it doesn't capture what we have in mind in this context.
+This isn't to say that BIGI is *bad* exactly. They [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper. My point is that it doesn't capture what we have in mind in this context. So while we *do* seem to get a paradox with BIGI, I think it's meaningless and we should forget about it.
 
 ### Other measures of women in STEM
 
@@ -294,7 +294,7 @@ So, is there a gender-equality paradox? Three points.
 
 First, Stoet and Geary's original paradox is **robust.** It doesn't matter how you measure gender inequality and or if you use propensities or raw fractions to measure women's fraction of STEM degrees. It's not fair to imply that they cherry-picked the details of their analysis to support some pre-determined conclusion.
 
-Second, the paradox is **somewhat limited.** It appears with STEM degrees no matter how you define "equality" and how you torture the data. For STEM researchers, the effect is more modest and only appears for certain definitions of gender equality. This is weird, and I don't understand it other than that it suggests we need more nuance than "more gender equality → fewer women in STEM".
+Second, the paradox is **somewhat limited.** It appears with STEM degrees no matter how you define "equality", or how you torture the data. For STEM researchers, the effect is more modest and only appears for certain definitions of gender equality. This is weird, and I don't understand it other than that it suggests we need more nuance than "more gender equality → fewer women in STEM".
 
 Third, **resist simplistic causal explanations!** People choose degrees for lots of reasons: Economics,  working conditions, family influences, cultural/media influences, intrinsic interest, and simply what degree programs are accessible. Most of these operate in feedback loops with each other. My love for scatterplots is vaster than the seas, but they're at most *vaguely suggestive* of any single cause.
 
