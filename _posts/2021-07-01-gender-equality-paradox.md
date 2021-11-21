@@ -91,7 +91,7 @@ Wait, did I just say this was hard to dispute? {% comment %} Hahaha, no. {% endc
 
 ### Act II
 
-Suspicious of these results, Richardson and colleagues took the same data, calculated the percentage of women among STEM graduates, and got completely different numbers. They—I think—contacted the journal, which led to a [corrigendum](https://doi.org/10.1177%2F0956797619892892) from Stoet and Geary in late 2019. This clarified what's on the x-axis in the above graph:
+Suspicious of these results, Richardson and colleagues took the same data, calculated the percentage of women among STEM graduates, and got... completely different numbers. They—I think—contacted the journal, which led to a [corrigendum](https://doi.org/10.1177%2F0956797619892892) from Stoet and Geary in late 2019. This clarified what's on the x-axis in the above graph:
 
 > The propensity of women to graduate with STEM degrees was *a*/(*a + b*), where *a* is the percentage of women who graduate with STEM degrees (relative to all women graduating) and *b* is the percentage of men who graduate with STEM degrees (relative to all men graduating). 
 
@@ -106,9 +106,9 @@ Women make up 4.8% (5/105) of STEM graduates.  However, their formula gives 50%,
 
 There's a good argument for this. The most salient fact about the above country isn't anything STEM-specific, it's just that few women get degrees. Stoet and Geary's formula is invariant to this kind of imbalance.
 
-There's also a good argument against this formula. Maybe you think that this imbalances in the total number of degrees are important, and you don't *want* to be invariant to them.
+There's also a good argument against this formula. Maybe you think that imbalances in the total number of degrees are important, and you don't *want* to be invariant to them.
 
-What there's *not* a good argument for is calling this quantity "Women Among STEM Graduates (%)" like the above graph does. In their corrigendum, Stoet and Geary don't really explain how this happened. In fact, they really don't change much about their paper at all, other than adding above quote and inserting "propensity" everywhere.
+What there's *not* a good argument for is calling this quantity "Women Among STEM Graduates (%)" like the above graph does. In their corrigendum, Stoet and Geary don't really explain how this happened. In fact, they don't change much about their paper at all, other than adding above quote and inserting "propensity" everywhere.
 
 ### Act III
 
@@ -125,7 +125,7 @@ They also published articles in [Slate](https://slate.com/technology/2020/02/wom
 
 ### Act IV
 
-In 2020, Breda and colleagues published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary use. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
+In 2020, Breda and colleagues published a [paper](https://doi.org/10.1073/pnas.2008704117), part of this uses the same propensities as Stoet and Geary. They argue this is worthwhile both because the original result is well-known and because it's nice to be invariant to imbalances in the overall number of degrees.
 
 Their first observation is that the propensities aren't just correlated with GGGI. They are also correlated with:
 * GDP per capita.
@@ -173,7 +173,7 @@ Still, does the paradox actually exist? It can't simultaneously be *false* (as R
 
 Second, stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading. Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
 
-But OK, suppose that the paradox were entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical, no?
+But OK, suppose that the paradox was entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical, no?
 
 {% comment %}
 
@@ -194,12 +194,12 @@ Let's start with the original analysis, relating GGGI to propensities. (Click to
 ![gggi vs female propensity](/img/gender-equality-paradox/gggi_vs_female_propensity.svg)
 </a>
 
-This the same as the original Stoet and Geary figure, with three small changes:
+This is the same as the original Stoet and Geary figure, with three small changes:
 
 <!-- really only 1 million or greater? -->
 
 1. Switch the axes.
-3. Color countries according to continent.
+3. Color countries according to their continent.
 4. Show a [LOWESS](https://en.wikipedia.org/wiki/Local_regression) smoothing (linearity is for wimps) along with a 95% confidence interval, computed using [bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping_%28statistics%29).
 
 ### A different calculation for STEM-participation
@@ -238,7 +238,7 @@ While we're on the subject... The red dots in the above graph show the same data
 
 <details>
 <summary>
-Well for one thing, I made the graph <strike>better</strike> differently, switching the axes and using smaller markers so you can see the density of countries.
+Well, for one thing, I made the graph <strike>better</strike> differently, switching the axes and using smaller markers so you can see the density of countries.
 </summary>
 Don't believe me? Here's what you get if you take their graph, rotate right by 90 degrees, flip the vertical axis, and change the aspect ratio:
 
