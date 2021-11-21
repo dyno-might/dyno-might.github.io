@@ -43,7 +43,7 @@ Here's a graph of some associations.
 
 Someone who averages 10 drinks per day is 50x more likely to get cirrhosis than someone who doesn't drink at all (controlling for age, sex, and drinking history). This looks bad, but there are two caveats.
 
-First, it doesn't establish causality. It *could* be---if all you had was this figure---that cirrhosis causes hormonal changes that create urges to drink more.
+First, it doesn't establish causality. It *could* be---if all you had was this figure---that cirrhosis causes hormonal changes that in turn create the urge to drink more.
 
 But we *do* know that heavy drinking is bad. That's partly because we know *how* alcohol causes problems. It causes cirrhosis by destroying liver cells. It causes cancer by getting converted to acetaldehyde and then damaging DNA. There are also randomized controlled trials (RCTs) that take heavy drinkers and get them to drink less. These inevitably show improved health (either health outcomes or biomarkers like blood pressure).
 

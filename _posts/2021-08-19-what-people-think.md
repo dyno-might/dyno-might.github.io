@@ -29,7 +29,7 @@ img{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    max-width:min(100%,300pt);
+    max-width:min(100%,350pt);
 }
 table{
   display:block;
@@ -109,25 +109,25 @@ What does this mean?
 * **These people lean more to the right**: Non-immigrants, richer people, those in the south and midwest, and social media users.
 * **These people lean more to the left**: Immigrants, poorer people, those in the northeast and west, and social-media abstainers.
 
-There are a few subtleties. However, the pattern reverses for the rich on abortion and the police. There's no pattern at all regarding social media and assault weapons and abortion. Naturalized citizens (but not non-citizens) favor increasing the number of police.
+There are a few subtleties: The pattern reverses for the rich on abortion and the police. There's no pattern between if someone uses social media and how they feel about assault weapons or abortion. Naturalized citizens (but not non-citizens) favor increasing the number of police.
 
 Some other ways you can break things up that seem interesting, but turn out to be kind of dumb. For example, here's what you get if you break things down by how people think the economy changed over the last year.
 
 [![support for all policies by group](/img/what-people-think/all-economy.svg)](/img/what-people-think/all-economy.svg)
 
-This looks interesting at first, but I think it just shows the power of motivated reasoning. Remember, this survey was done in the run-up to the 2020 presidential election, where Republican Donald Trump was running for a second term. Democrats convinced themselves the economy was terrible, while Republicans did the opposite.
+This looks interesting at first, but I think it just shows the power of motivated reasoning. Remember, this survey was done in the run-up to the 2020 presidential election, where Republican Donald Trump was running for a second term. Democrats convinced themselves the economy was terrible, while Republicans did the opposite. That's all this is showing.
 
 ## Heterodoxy
 
 The above graphs are organized around *questions* rather than *people*.
 
-Remember that around 55% of social media users supported all policies. How how does that 55% come about? Is it 55% supporting all the policies, and 45% opposing them all? Does everyone support some random subset of them? These situations would represent very different degrees of polarization, but we can't tell them apart from the above graphs.
+Remember that, for each of the policies, around 55% of social media users were in support. How how does that 55% come about? Is it 55% supporting all the policies, and 45% opposing them all? Does everyone support some random subset? These situations would represent very different degrees of polarization, but we can't tell them apart from the above graphs.
 
 We need to look at interactions between how individual people answered different questions. To do this, I calculated how many "Democratic answers" they gave, i.e. supporting the first five policies or opposing the last two. Here is a histogram of the full population:
 
 [![histogram of full population support for policies](/img/what-people-think/hists-basic.svg)](/img/what-people-think/hists-basic.svg)
 
-Around 10% of people give "all Republican" answers, while around 20% give "all Democratic" answers. Between the two it's a gradual change distribution. This first glimpse doesn't look very polarized at all.
+Around 10% of people give "all Republican" answers, while around 20% give "all Democratic" answers. Between the two it's a gradual change. This first glimpse doesn't look very polarized at all.
 
 Things get more informative if we calculate histograms for different groups of people.
 

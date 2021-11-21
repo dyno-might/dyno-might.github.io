@@ -107,7 +107,7 @@ A third advantage of interventions is that it's *easier to convince someone* abo
 * Mandate implicit bias training.
 * Require officers to de-escalate or exhaust alternatives before resorting to force.
 
-Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might well agree to that policy if it's phrased as an "evidence-based policy tune-up" Not so much if it's phrased as a win for "Team Police Are Bad".
+Say you have evidence that banning chokeholds reduces the number of people killed by police without causing any increase in crime. A hardcore police supporter might well agree to that policy if it's phrased as an "evidence-based policy tune-up". If it's phrased as a win for "Team Police Are Bad", not so much.
 
 If we can resist the urge to talk about grander themes and stick to the effects of things we can actually *do*, we'd have a better chance of making progress.
 
