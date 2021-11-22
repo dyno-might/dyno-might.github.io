@@ -6,7 +6,7 @@ tags: policy history
 hero_light: false
 dark_title: false
 background_color: black
-description: "What does abolition of the death penalty teach us about who is in change? The history in Germany, the U.K., France, and the U.S."
+description: "What does abolition of the death penalty teach us about who is in change?"
 permalink: /death-penalty/
 background_color: rgb(65,60,48)
 head: "<style>
@@ -73,7 +73,7 @@ You probably know that the U.S today is [the only](https://en.wikipedia.org/wiki
 * For much of the 1960s, public support for the death penalty in the U.S. was *lower* than in these other countries, despite the U.S. having an order of magnitude higher levels of violent crime?
 * In the U.K. and France, something like half of the population still supports the death penalty *today*, only slightly less than in the U.S.?
 
-It's not obvious that the U.S. is the country that needs explaining here! If your model of the world is that the death penalty is bad and democracies should stop doing bad things, then sure, the U.S. is puzzling. But if your model is that democracies do what people want, then how did so many countries implement policies that were against the will of their citizens?
+It's not obvious that the U.S. is the country that needs explaining here! If your model of the world is that the death penalty is bad and democracies stop doing bad things, then sure, the U.S. is puzzling. But if your model is that democracies do what people want, then how did so many countries implement policies that were against the will of their citizens?
 
 **Next post: How Germany banned the death penalty**
 
