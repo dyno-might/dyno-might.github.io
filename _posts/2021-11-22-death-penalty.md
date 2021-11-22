@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The death penalty as a lens on democracy"
+date: 2021-11-22 9:00:00
 image: /img/death-penalty/socrates.jpg
 tags: policy history
 hero_light: false
@@ -75,12 +76,24 @@ You probably know that the U.S today is [the only](https://en.wikipedia.org/wiki
 
 It's not obvious that the U.S. is the country that needs explaining here! If your model of the world is that the death penalty is bad and democracies stop doing bad things, then sure, the U.S. is puzzling. But if your model is that democracies do what people want, then how did so many countries implement policies that were against the will of their citizens?
 
-**Next post: How Germany banned the death penalty**
+**Next post: [How Germany banned the death penalty](/death-penalty-germany)**
 
 {% comment %}
 
 In a very popular [article]((https://web.archive.org/web/20000815085533/http://www.tnr.com/073100/marshall073100.html)) back in 2000, Josh Marshall suggested that the explanation comes from political systems: In Europe, people vote for parties, while in the U.S. they vote for candidates, and this creates much stronger incentives in the U.S. to give people what they want.
 
 Is any of this true? 
+
+{% endcomment %}
+
+{% comment %}
+
+<div style="font-size:90%; line-height:100%" markdown="1">
+
+**The death penalty as a lens on democracy**:
+* Introduction (this post)
+* [How Germany banned the death penalty](/death-penalty-germany)
+
+</div>
 
 {% endcomment %}
