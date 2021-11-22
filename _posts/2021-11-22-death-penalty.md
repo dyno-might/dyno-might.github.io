@@ -69,7 +69,7 @@ Now, why is it worth going through all this history?
 
 <img src="/img/death-penalty/abolition-map.svg" alt="death penalty abolition around the world" loading="lazy">
 
-You probably know that the U.S today is [the only](https://en.wikipedia.org/wiki/Capital_punishment#/media/File:Capital_punishment_in_the_world.svg) Western Democracy that maintains the death penalty. (See also: Belarus, Belize, Japan, Taiwan.) But did you know the following?
+You probably know that the U.S today is [the only](https://en.wikipedia.org/wiki/Capital_punishment#/media/File:Capital_punishment_in_the_world.svg) Western democracy that maintains the death penalty. (See also: Belarus, Belize, Japan, Taiwan.) But did you know the following?
 * When Germany, the U.K., and France banned the death penalty, they did so despite the opposition of 2/3 of their populations?
 * For much of the 1960s, public support for the death penalty in the U.S. was *lower* than in these other countries, despite the U.S. having an order of magnitude higher levels of violent crime?
 * In the U.K. and France, something like half of the population still supports the death penalty *today*, only slightly less than in the U.S.?

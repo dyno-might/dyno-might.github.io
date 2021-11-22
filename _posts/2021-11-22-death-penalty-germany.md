@@ -61,7 +61,11 @@ table{
 "
 ---
 
-Germany came close to banning the death penalty several times in its early history. In the 1848 revolution, the new constitution almost completely banned it, but this was immediately overturned in the conservative restoration. When Germany unified in 1870-1871 it again came very close to abolition before a late intervention from Bismarck caused several delegates to switch their votes. In the Weimar republic in 1919, there was a vote that failed probably just because a bunch of Social Democrats weren't physically present to vote. Finally, in 1928 some proceedings ended in a 14-14 deadlock, after which the [Düsseldorf Vampire](https://en.wikipedia.org/wiki/Peter_K%C3%BCrten) committed a series of sex murders that were covered in lurid detail by the press, putting abolition in retreat.
+Germany came close to banning the death penalty several times in its early history:
+* In the 1848 revolution, the new constitution almost completely banned it, but this was immediately overturned by the conservative restoration.
+* When Germany unified in 1870-1871 it again came very close to abolition before a late intervention from Bismarck caused several delegates to switch their votes.
+* In the Weimar republic in 1919, there was a vote that failed probably just because a bunch of Social Democrats weren't physically present to vote.
+* Finally, in 1928 some proceedings ended in a 14-14 deadlock, after which the [Düsseldorf Vampire](https://en.wikipedia.org/wiki/Peter_K%C3%BCrten) committed a series of sex murders that were covered in lurid detail by the press, putting abolition in retreat.
 
 Then there was the Nazi era. Nearly [20,000](https://en.wikipedia.org/wiki/Capital_punishment_in_Germany#Nazi_Germany) death sentences were handed down by German courts and carried out, sometimes for crimes as simple as making a critical remark, or just at a judge's discretion.
 
@@ -75,12 +79,11 @@ In the end, [Article 102](https://www.gesetze-im-internet.de/gg/art_102.html) of
 
 The public was shocked to find the death penalty was constitutionally banned. A 1949 opinion poll reportedly found 77% of Germans were in favor of capital punishment with 18% opposed.
 
-There were many attempts to bring capital punishment back, but these failed for three reasons:
+There were many attempts to bring capital punishment back, but these failed for three reasons.
 
-First, a 2/3 majority of parliament was needed to change the constitution, a very high bar.
+First, and most importantly, a 2/3 majority of parliament was needed to change the constitution, a very high bar.
 
 Second, in Germany's system, all members of parliament---either locally elected or proportionally chosen---are selected *by the parties* after an internal vetting process. Because most elites favored abolition, they picked candidates who did as well. Politicians openly spoke for a [Burkean](https://en.wikipedia.org/wiki/Edmund_Burke) model of politics where a "natural aristocracy" would carefully consider an issue. Because constituents have no expertise and don't participate in the debate, their opinions shouldn't be taken too seriously.
-
 
 Third, there was the [*Großen Strafrechtskomission*](https://de.wikipedia.org/wiki/Gro%C3%9Fe_Strafrechtsreform), formed in 1954 to reform all the nation's criminal laws. People who wanted to bring back the death penalty were often told to wait for this commission to finish, which took years. While a majority of the population supported the death penalty, almost all the experts they heard from opposed it. One man who carried out several executions during the war and said the first execution horrified him but he found the fourth routine, and that killing shouldn't be normalized.
 
