@@ -7,7 +7,7 @@ tags: policy history
 hero_light: false
 dark_title: false
 background_color: black
-description: "Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
+description: "How did Germany ban the death penalty? And what did people think about it at the time?"
 permalink: /death-penalty-germany/
 background_color: rgb(123,28,22)
 head: "<style>
