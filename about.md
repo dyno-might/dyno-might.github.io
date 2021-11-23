@@ -56,6 +56,8 @@ All posts organized by topics: [tags](/tags)
 
 Not sure where to get started?
 
+The closest thing I have to a "mission statement" is probably [this analogy](culture-war-island-hopping/) between culture war island defenses in the WWII Pacific theater. But it's probably better to start with something below:
+
 **Air quality**
 * [Better air is the easiest way not to die](/air)
 * [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
@@ -110,7 +112,7 @@ Thoughts? Questions? Help with my ever-proliferating collection of typos?
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="dear dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
           <input type="email" name="email" class="headerfont" placeholder="email (optional!)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
