@@ -54,6 +54,10 @@ All posts organized by topics: [tags](/tags)
 
 ---
 
+In general I'm *very* open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth) should be aware I am not super open-minded about, like, theories in which I am an agent of the Mexican cartels.
+
+---
+
 Not sure where to get started?
 
 The closest thing I have to a "mission statement" is probably [this analogy](culture-war-island-hopping/) between culture war island defenses in the WWII Pacific theater. But it's probably better to start with something below:
