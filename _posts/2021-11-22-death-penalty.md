@@ -29,13 +29,13 @@ I don't know the exact name for this second explanation, but it's related to sta
 
 To get some perspective on this question, I looked for an issue to use as a case study. The ideal issue would have divergence between elite and public opinion, plus have a long history in different countries, so we can see how things played out under different conditions.
 
-The best fit I could find is the death penalty. It's perfect in terms of having a long history,  good records, and being prominent enough that the public *has* an opinion. The primary disadvantage is that it's a massive bummer, but oh well.
+The best fit I could find is the death penalty. It's perfect in terms of having a long history, good records, and being prominent enough that the public *has* an opinion. The primary disadvantage is that it's, you know, a massive bummer.
 
-So, here's our goal: Around the world today, the death penalty is less popular in countries where it is legal. But which caused which?
+So, here's our goal: Around the world today, the death penalty is less popular in countries where it is banned. But which caused which?
 
 ## Cesare Beccaria
 
-The movement to abolish the death penalty arguably began in the West in 1764 when, at the age of 26, Cesare Beccaria anonymously published [*On Crimes and Punishments*](https://www.gutenberg.org/files/58700/58700-h/58700-h.htm), a call for applying enlightenment values to criminal law. He argues poetically for a break with history:
+The movement to abolish the death penalty arguably began in the West in 1764. This is when, at the age of 26, Cesare Beccaria anonymously published [*On Crimes and Punishments*](https://www.gutenberg.org/files/58700/58700-h/58700-h.htm), a call for applying enlightenment values to criminal law. He argues poetically for a break with history:
 
 > If it is objected that almost all times and almost all places have used the death penalty for some crimes, I reply that the objection collapses before the truth, against which there is no appeal, that the history of mankind gives the impression of a vast sea of errors, among which a few confused truths float at great distances from each other. Human sacrifices were common to almost all nations; but who would dare to justify them? That only a few societies have given up inflicting the death penalty, and only for a brief time, is actually favourable to my argument, because it is what one would expect to be the career of the great truths, which last but a flash compared with the long and dark night which engulfs mankind.
 
@@ -47,7 +47,7 @@ This book had a huge and immediate influence. Voltaire published an---also anony
 
 Beccaria's writing is clear, urgent, and seems to speak across time. He sort of resembles an earlier but more influential [Peter Singer](https://en.wikipedia.org/wiki/Animal_Liberation_(book)), another philosopher who was able to shape public opinion.
 
-Anyway, while this all sounds very idealistic, here's the very next passage of the book:
+Anyway, while this all sounds very idealistic, here's the very next passage:
 
 > The voice of a philosopher is too weak against the uproar and the shouting of those who are guided by blind habit. But what I say will find an echo in the hearts of the few wise men who are scattered across the face of the earth. [...]
 >
@@ -61,7 +61,7 @@ Put less politely:
 
 This is less comfortable for someone sitting in a democracy a few centuries later.
 
-Now,this might just be some pragmatic flattery, and anyway I don't judge monarchists so far in the past. But whatever the motivations, look at what Beccaria is suggesting: We need an elite---monarchs are certainly elite---to impose enlightened policies on the public. In fact, [this happened](https://doi.org/10.2307/2276063). Tuscany, Russia, and Austria had monarchs who banned capital punishment soon after this book came out (though the bans didn't last forever).
+Now, this might just be some pragmatic flattery, and anyway I don't judge monarchists so far in the past. But whatever the motivations, look at what Beccaria is suggesting: We need an elite---monarchs are certainly elite---to impose enlightened policies on the public. In fact, [this happened](https://doi.org/10.2307/2276063). Tuscany, Russia, and Austria had monarchs who banned capital punishment soon after this book came out (though the bans didn't last forever).
 
 But that's not our story. We're interested in the history of the death penalty in *democracies*, which happens much later. In the next few posts, we'll go over the history of the death penalty in Germany, the UK, and France, which abolished the capital punishment in 1949, 1969, and 1981. We'll then contrast this to the U.S., where it remains in use. Our focus is not if the death penalty is good or right, but how these policies came to be, and what the public thought about them over time.
 
