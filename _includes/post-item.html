@@ -1,16 +1,14 @@
 <a href="{{ site.baseurl }}{{ post.url }}">
 <!-- <div class="card"> -->
   {% assign defaultcolor = "gray" %}
-  <div class="card-image" style="text-align:center;">
+  <div class="card-image changer title is-4" style="text-align:center;">
     <img src="{{ post.image | prepend: site.baseurl }}"
          {% if post.image_srcset %}srcset="{{post.image_srcset}}"{% endif %}
          alt="{{ post.title }}"
          style="position:relative; background-color:{{post.background_color | default: defaultcolor}};" loading="lazy" width="1440" height="900" >
     <div style="position:absolute; top:50px; margin:16px;">
       {% comment %}<div style="position:absolute; top:0; left:0; right:0; bottom:0; margin:auto;">{% endcomment %}
-          <p class="title is-4" style="color:white; text-align:center; text-shadow:0 0 5px rgba(0,0,0,1.0);">
             {{post.title}}
-          </p>
     </div>
     {% if nodate %}
     {% else %}
