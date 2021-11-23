@@ -54,7 +54,7 @@ All posts organized by topics: [tags](/tags)
 
 ---
 
-In general I'm *very* open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth) should be aware I am not super open-minded about, like, theories in which I am an agent of the Mexican cartels.
+In general I'm *very* open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth) should be aware I am not super open-minded about theories in which I am an agent of the Mexican cartels.
 
 ---
 
