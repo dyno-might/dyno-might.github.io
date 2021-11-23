@@ -7,15 +7,21 @@ layout: default
 </div>
 
 <div class="columns is-multiline">
-    {% for post in paginator.posts limit:20 %}
+    {% for post in paginator.posts %}
     <div class="column is-6">
         {% include post-item.html %}
     </div>
     {% endfor %}
 
+
+    {% comment %}
+    ADD THIS BACK IF YOU WANT PAGINATION AGAIN
+    {% endcomment %}
+    {% comment %}
     <div class="column is-12">
         {% include pagination.html %}
     </div>
+    {% endcomment %}
 </div>
 
 
