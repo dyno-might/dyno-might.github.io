@@ -177,4 +177,11 @@ More details:
 
 </details>
 
-**Next post: How France banned the death penalty**
+<div style="font-size:90%; line-height:100%" markdown="1">
+
+**The death penalty as a lens on democracy**
+1. [Introduction](/death-penalty)
+2. [How Germany banned the death penalty](/death-penalty-germany)
+3. How the United Kingdom banned the death penalty (this post)
+
+</div>

@@ -172,4 +172,15 @@ Anyway, here is the raw data included in the plot above. For all polls, I conver
 
 </details>
 
+{% comment %}
 **Next post: How the United Kingdom banned the death penalty** (soon)
+{% endcomment %}
+
+<div style="font-size:90%; line-height:100%" markdown="1">
+
+**The death penalty as a lens on democracy**
+1. [Introduction](/death-penalty)
+2. How Germany banned the death penalty (this post)
+3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
+
+</div>

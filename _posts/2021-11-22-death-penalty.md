@@ -76,7 +76,11 @@ You probably know that the U.S today is [the only](https://en.wikipedia.org/wiki
 
 It's not obvious that the U.S. is the country that needs explaining here! If your model of the world is that the death penalty is bad and democracies stop doing bad things, then sure, the U.S. is puzzling. But if your model is that democracies do what people want, then how did so many countries implement policies that were against the will of their citizens?
 
+{% comment %}
+
 **Next post: [How Germany banned the death penalty](/death-penalty-germany)**
+
+{% endcomment %}
 
 {% comment %}
 
@@ -86,14 +90,11 @@ Is any of this true?
 
 {% endcomment %}
 
-{% comment %}
-
 <div style="font-size:90%; line-height:100%" markdown="1">
 
-**The death penalty as a lens on democracy**:
-* Introduction (this post)
-* [How Germany banned the death penalty](/death-penalty-germany)
+**The death penalty as a lens on democracy**
+1. Introduction (this post)
+2. [How Germany banned the death penalty](/death-penalty-germany)
+3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
 
 </div>
-
-{% endcomment %}
