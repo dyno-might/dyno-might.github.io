@@ -124,7 +124,7 @@ Anyway, now that the UK *has* left the EU, could it reinstate the death penalty?
 
 **Summary:** Shortly after WWII, the population strongly supported the death penalty, yet leftist elites united behind abolition and rightist elites were divided. After a series of battles between the House of Commons and the House of Lords a ban finally went in place in 1964. Public support for the death penalty was stable (and positive) for around 30 years, and then started slowly declining to something near an even split today.
 
-What does it all mean? Well, it's hard not to be impressed by how... irrelevant public opinion seems to the fierce battles between different elites. But let's save the theorizing to after we've covered France and the U.S.
+What does it all mean? Well, it's hard not to be impressed by how... irrelevant public opinion seems to the fierce battles between different elites. It's also striking how the UK, like [Germany](/death-penalty-germany), moved to take the issue out of the democratic domain. But let's save the theorizing to after we've covered France and the U.S.
 
 <details markdown="1">
 <summary>
