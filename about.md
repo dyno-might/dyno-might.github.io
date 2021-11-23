@@ -39,7 +39,7 @@ RSS feed: <https://dynomight.net/feed.xml>
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) (I find it calming to solipsistically post links for no one to read.)
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(I find it calming to solipsistically post links for no one to read.)</span>
 
 All posts organized by topics: [tags](/tags)
 
@@ -60,7 +60,7 @@ In general I'm *very* open to the idea that I got stuff wrong, I think all feedb
 
 Not sure where to get started?
 
-The closest thing I have to a "mission statement" is probably [this analogy](culture-war-island-hopping/) between culture war island defenses in the WWII Pacific theater. But it's probably better to start with something below:
+The closest thing I have to a "mission statement" is probably [this analogy](culture-war-island-hopping/) between culture war debates and attacking highly defended islands in the WWII Pacific theater. But it's probably better to start with something below:
 
 **Air quality**
 * [Better air is the easiest way not to die](/air)
