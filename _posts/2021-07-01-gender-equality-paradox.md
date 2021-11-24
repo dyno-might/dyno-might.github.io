@@ -6,7 +6,7 @@ tags: policy statistics personality
 hero_light: false
 dark_title: false
 background_color: black
-description: "Testing the claim that more feminist countries have fewer women in STEM."
+description: "Some claim that more feminist countries have fewer women in STEM. Others say this is nonsense. Who is right?"
 permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
 last_updated: 2021-09-02
