@@ -138,7 +138,7 @@ What to think of this? The overall story is fairly similar to that in Germany an
 1. [Introduction](/death-penalty)
 2. [How Germany banned the death penalty](/death-penalty-germany)
 3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
-4. **How France banned the death penalty** (this post)
+4. **How France banned the death penalty**
 5. How the United States didn't ban the death penalty (soon)
 6. Which way the arrows? (soon)
 

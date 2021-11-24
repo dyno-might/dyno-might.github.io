@@ -111,7 +111,7 @@ What does it all mean? Did public support decline *because* the death penalty wa
 
 **The death penalty as a lens on democracy**
 1. [Introduction](/death-penalty)
-2. **How Germany banned the death penalty** (this post)
+2. **How Germany banned the death penalty**
 3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
 4. [How France banned the death penalty](/death-penalty-france)
 5. How the United States didn't ban the death penalty (soon)
@@ -131,17 +131,6 @@ What's really coincidental is that when the ban happened it was *constitutional*
 
 {% endcomment %}
 
-{% comment %}
-
-<div style="font-size:90%; line-height:100%" markdown="1">
-
-**The death penalty as a lens on democracy**:
-* [Introduction](/death-penalty)
-* [How Germany banned the death penalty](/death-penalty-germany) (this post)
-
-</div>
-
-{% endcomment %}
 
 <details markdown="1">
 <summary>

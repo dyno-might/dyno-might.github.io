@@ -74,7 +74,7 @@ Some did defend the system. [William Paley](https://en.wikipedia.org/wiki/Willia
 
 An initial push against this system was led by [Samuel Romilly](https://en.wikipedia.org/wiki/Samuel_Romilly), the handsome fellow above. Romilly was a self-educated lawyer who grew up in a French family in London, traveled in Europe, and also opposed the slave trade. He did not oppose the death penalty for murder but argued it was ridiculous to apply such varying penalties to the same crimes. While many other members of Parliament were hostile to his suggestions, he managed to repeal the death penalty for things like pickpocketing. He also obtained a ban execution by [drawing and quartering](https://en.wikipedia.org/wiki/Hanged,_drawn_and_quartered) (bleak link; do not click).
 
-The movement against capital punishment was strengthened by [Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham), the founder of [utilitarianism](https://dynomight.net/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/). In 1832, Parliament passed the *Punishment of Death, etc. Act*, which eliminated the death penalty from around 2/3 of offenses, and apparently did not suffer from overthinking in the name department. Finally, the reformist Whig leader [John Russell](https://en.wikipedia.org/wiki/John_Russell,_1st_Earl_Russell) convinced even the House of Lords that the current system was a disgrace, and in 1837 the "bloody code" was dismantled, leaving the death penalty only for serious crimes.
+The movement against capital punishment was strengthened by [Jeremy Bentham](https://en.wikipedia.org/wiki/Jeremy_Bentham), the founder of [utilitarianism](https://dynomight.net/2020/10/19/its-hard-to-use-utility-maximization-to-justify-creating-new-sentient-beings/). In 1832, Parliament passed the *Punishment of Death, etc. Act*, which eliminated the death penalty from around 2/3 of offenses (and apparently did not suffer from overthinking when being named). Finally, the reformist Whig leader [John Russell](https://en.wikipedia.org/wiki/John_Russell,_1st_Earl_Russell) convinced even the House of Lords that the current system was a disgrace, and in 1837 the "bloody code" was dismantled, leaving the death penalty only for serious crimes.
 
 ![illustration from Thackeray's piece](/img/death-penalty/thackeray.jpg)
 
@@ -133,7 +133,7 @@ What does it all mean? Well, it's hard not to be impressed by how... irrelevant 
 **The death penalty as a lens on democracy**
 1. [Introduction](/death-penalty)
 2. [How Germany banned the death penalty](/death-penalty-germany)
-3. **How the United Kingdom banned the death penalty** (this post)
+3. **How the United Kingdom banned the death penalty**
 4. [How France banned the death penalty](/death-penalty-france)
 5. How the United States didn't ban the death penalty (soon)
 6. Which way the arrows? (soon)

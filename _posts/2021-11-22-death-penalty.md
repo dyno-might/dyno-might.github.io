@@ -95,7 +95,7 @@ Is any of this true?
 <div style="font-size:90%; line-height:100%" markdown="1">
 
 **The death penalty as a lens on democracy**
-1. **Introduction** (this post)
+1. **Introduction**
 2. [How Germany banned the death penalty](/death-penalty-germany)
 3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
 4. [How France banned the death penalty](/death-penalty-france)
