@@ -2,7 +2,7 @@
 layout: post
 title: "How France banned the death penalty"
 image: /img/death-penalty/france-socrates.jpg
-date: 2021-11-23 10:00:00
+date: 2021-11-24 9:00:00
 tags: policy history
 hero_light: false
 dark_title: false
