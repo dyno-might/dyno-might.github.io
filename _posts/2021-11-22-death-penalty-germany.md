@@ -105,7 +105,21 @@ To keep things somewhat level, I've only used polls that ask about the death pen
 
 What does it all mean? Did public support decline *because* the death penalty was banned? Let's come back to that after looking at some other countries.
 
+---
 
+<div style="font-size:90%; line-height:100%" markdown="1">
+
+**The death penalty as a lens on democracy**
+1. [Introduction](/death-penalty)
+2. **How Germany banned the death penalty** (this post)
+3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
+4. [How France banned the death penalty](/death-penalty-france)
+5. How the United States didn't ban the death penalty (soon)
+6. Which way the arrows? (soon)
+
+</div>
+
+---
 
 {% comment %}
 
@@ -175,12 +189,3 @@ Anyway, here is the raw data included in the plot above. For all polls, I conver
 {% comment %}
 **Next post: How the United Kingdom banned the death penalty** (soon)
 {% endcomment %}
-
-<div style="font-size:90%; line-height:100%" markdown="1">
-
-**The death penalty as a lens on democracy**
-1. [Introduction](/death-penalty)
-2. How Germany banned the death penalty (this post)
-3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
-
-</div>

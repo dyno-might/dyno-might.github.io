@@ -68,7 +68,7 @@ It's still debated why so many offenses we punishable by death. One popular theo
 
 Most potential executions weren't carried out, due to slack in the system: Prosecutors, victims, and juries often tried to convict on lesser charges. There were legal loopholes and various clemencies. When people were actually executed, it seemed less due to their crimes and more to bad luck.
 
-Some did defend the system. [William Paley](https://en.wikipedia.org/wiki/William_Paley) said you could deter crime by either having capital punishment for few offenses and always carrying it out, or having it for many offenses and carrying it out rarely, and the latter would better deter crime. This is a kind of prelude to Gary Becker's thinking about [crime and expected value theory](https://www.nber.org/system/files/chapters/c3625/c3625.pdf) in the 1970s.
+Some did defend the system. [William Paley](https://en.wikipedia.org/wiki/William_Paley) said you could deter crime by either having capital punishment for few offenses and always carrying it out, or having it for many offenses and carrying it out rarely, and the latter would be more deterrent. This is a kind of prelude to Gary Becker's thinking about [crime and expected value theory](https://www.nber.org/system/files/chapters/c3625/c3625.pdf) in the 1970s.
 
 ![Samuel romilly](/img/death-penalty/romilly.jpg)
 
@@ -78,9 +78,9 @@ The movement against capital punishment was strengthened by [Jeremy Bentham](htt
 
 ![illustration from Thackeray's piece](/img/death-penalty/thackeray.jpg)
 
-In 1840, [William Makepeace Thackeray](https://en.wikipedia.org/wiki/William_Makepeace_Thackeray) published [Going to See a Man Hanged](https://www.exclassics.com/newgate/courv.htm). He describes setting out on an adventure, and gradually becoming horrified at the  atmosphere outside the prison with people selling food, and telling jokes, and climbing in trees. He says of the condemned man, "it is painful to see how he fastens upon everybody who approaches him, how pitifully he clings to them". At the end of the day, he says "I feel myself ashamed and degraded at the brutal curiosity which took me to that brutal sight". A sign of a changing culture, this is supposedly the first time pity for a murderer appeared in print.
+In 1840, [William Makepeace Thackeray](https://en.wikipedia.org/wiki/William_Makepeace_Thackeray) published [Going to See a Man Hanged](https://www.exclassics.com/newgate/courv.htm). He describes setting out on an adventure, and gradually becoming horrified at the  atmosphere outside the prison with people selling food, telling jokes, and climbing in trees. He says of the condemned man, "it is painful to see how he fastens upon everybody who approaches him, how pitifully he clings to them". At the end of the day, he says "I feel myself ashamed and degraded at the brutal curiosity which took me to that brutal sight". A sign of a changing culture, this is supposedly the first time pity for a murderer appeared in print.
 
-Public opinion continued to move against the death penalty. Improvement in policing meant more crimes were solved, and more prisons meant other penalties existed, meaning there was less a need to "make an example" of people. Further reforms followed. By the 1860s, the death penalty was, in practice only applied for murder, and in 1868 Parliament passed *A Bill to Provide for Carrying Out Capital Punishment in Prisons* (rather than outside them), another testament to the apparent trend of giving laws very explicit names.
+Public opinion continued to move against the death penalty. Improvement in policing meant more crimes were solved, and more prisons meant other penalties existed, meaning there was less a need to "make an example" of people. Further reforms followed. By the 1860s, the death penalty was, in practice only applied for murder, and in 1868 Parliament passed *A Bill to Provide for Carrying Out Capital Punishment in Prisons* (rather than outside them), another testament to trend of laws with very explicit names.
 
 At this point, movement slowed. John Stuart Mill had earlier opposed the death penalty but felt that reforms justified it. Speaking of continental Europe (axiomatically worse than Britain) he says there are "great and enlightened countries, in which the criminal procedure is not so favorable to innocence, does not afford the same security against erroneous conviction, as it does among us." That is, it was OK to have the death penalty because Britain's awesome legal system meant an innocent person could never be condemned.
 
@@ -126,9 +126,25 @@ Anyway, now that the UK *has* left the EU, could it reinstate the death penalty?
 
 What does it all mean? Well, it's hard not to be impressed by how... irrelevant public opinion seems to the fierce battles between different elites. It's also striking how the UK, like [Germany](/death-penalty-germany), moved to take the issue out of the democratic domain. But let's save the theorizing to after we've covered France and the U.S.
 
+---
+
+<div style="font-size:90%; line-height:100%" markdown="1">
+
+**The death penalty as a lens on democracy**
+1. [Introduction](/death-penalty)
+2. [How Germany banned the death penalty](/death-penalty-germany)
+3. **How the United Kingdom banned the death penalty** (this post)
+4. [How France banned the death penalty](/death-penalty-france)
+5. How the United States didn't ban the death penalty (soon)
+6. Which way the arrows? (soon)
+
+</div>
+
+---
+
 <details markdown="1">
 <summary>
-Raw data and sources
+Data and sources
 </summary>
 
 | year | support | oppose | source |
@@ -177,11 +193,3 @@ More details:
 
 </details>
 
-<div style="font-size:90%; line-height:100%" markdown="1">
-
-**The death penalty as a lens on democracy**
-1. [Introduction](/death-penalty)
-2. [How Germany banned the death penalty](/death-penalty-germany)
-3. How the United Kingdom banned the death penalty (this post)
-
-</div>
