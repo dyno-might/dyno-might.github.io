@@ -135,7 +135,7 @@ What does it all mean? Well, it's hard not to be impressed by how... irrelevant 
 2. [How Germany banned the death penalty](/death-penalty-germany)
 3. **How the United Kingdom banned the death penalty**
 4. [How France banned the death penalty](/death-penalty-france)
-5. How the United States didn't ban the death penalty (soon)
+5. [How the United States didn't ban the death penalty](/death-penalty-usa)
 6. Which way the arrows? (soon)
 
 </div>

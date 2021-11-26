@@ -114,7 +114,7 @@ What does it all mean? Did public support decline *because* the death penalty wa
 2. **How Germany banned the death penalty**
 3. [How the United Kingdom banned the death penalty](/death-penalty-uk)
 4. [How France banned the death penalty](/death-penalty-france)
-5. How the United States didn't ban the death penalty (soon)
+5. [How the United States didn't ban the death penalty](/death-penalty-usa)
 6. Which way the arrows? (soon)
 
 </div>
