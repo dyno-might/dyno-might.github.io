@@ -196,8 +196,7 @@ Still, all this time, US federal courts continued to *sentence* people to death.
 
 **Summary:** In the 1960s, public support for the death penalty was unusually low compared to the other countries we looked at. Executions gradually slowed and stopped in 1967. The Supreme Court flirted with declaring the death penalty unconstitutional in 1972 but confirmed it was legal in 1976. Following this, violent crime, executions, and public support for the death penalty all surged. Starting in the 1990s, violent crime receded, reforms made the death penalty more difficult to carry out, and the number of executions waned, along with popular opinion. In 2021, a small majority of the American public supports the death penalty.
 
-Compared to Germany, France, or the U.K., the history of abolition in the U.S. is bewilderingly convoluted. It's odd that the penalty would slowly become less popular, stop being used for 10 years, and then suddenly rebound for 25 years. It's also impossible to 
- Also, it's impossible to keep track of the number of states that banned or restricted the death penalty, but then it would get un-banned or un-restricted, either because different politicians won the next election, or because of a popular referendum.
+Compared to Germany, France, or the U.K., the history of abolition in the U.S. is bewilderingly convoluted. It's odd that the penalty would slowly become less popular, stop being used for 10 years, and then suddenly rebound for 25 years.  Also, it's impossible to keep track of the number of states that banned or restricted the death penalty, but then it would get un-banned or un-restricted, either because different politicians won the next election, or because of a popular referendum.
 
 Next time, at last, we'll try to find patterns in all these histories we've gone through.
 
