@@ -146,7 +146,7 @@ Since 1972 there have been at least 20 ballot initiatives in different states to
 * Wisconsin in [2006](https://ballotpedia.org/Wisconsin_Death_Penalty,_Question_2_(2006)).
 * Wyoming in [1994](https://ballotpedia.org/Wyoming_Life_Imprisonment_without_Parole,_Amendment_1_(1994)).
 
-In every case, the vote went in the pro-death penalty direction, e.g. against abolition, in favor of bringing the penalty back, in favor of applying the death penalty to more crimes, in favor of reducing the Governor's ability to commute sentences, or in favor of shortening the appeals process. One of the closer votes was the 2016 initiative to ban the death penalty in California, which failed 53% to 47%. (Governor Newsom imposed a moratorium in 2019.)
+In every case, the vote went in the pro-death penalty direction, e.g. against abolition, in favor of bringing the penalty back, in favor of applying the death penalty to more crimes, in favor of reducing the governor's ability to commute sentences, or in favor of shortening the appeals process. One of the closer votes was the 2016 initiative to ban the death penalty in California, which failed 53% to 47%. (Governor Newsom imposed a moratorium in 2019.)
 
 {% comment %}
 https://en.wikipedia.org/wiki/Michael_Dukakis#/media/File:Vice_President_Bush_debates_with_Michael_Dukakis,_Los_Angeles,_CA_13_Oct_88.jpg
