@@ -61,7 +61,7 @@ All psychological traits are heritable. This is [best replicated](https://dx.doi
 
 But what, exactly, does "heritability" mean?
 
-I used to have a mental model something like this:  Each person has some number of religiosity points that comes from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
+I used to have a mental model something like this:  Each person has some number of religiosity points that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
 
 <div style="font-size:100%;" markdown="1">
 ```

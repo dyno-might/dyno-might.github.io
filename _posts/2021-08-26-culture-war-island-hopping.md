@@ -54,7 +54,7 @@ I spend a lot of time sort of arguing that nothing means anything. For example:
 
 4. Heritability of human traits is uncomfortable for people across the political spectrum. People on the right worry that if skill at high-paying jobs is heritable, that damages the case for a meritocratic society. People on the left worry that high heritability would imply that inequality is "natural". The thing is, [the technical definition of "heritability" is just a ratio](/heritability/). This can have weird consequences, like the heritability of hair color changing in different countries, or heritability being higher than 100%. 
 
-   Statements like "intelligence is 60% heritable" aren't as consequential as people often think. Many people suggest that we should just "fix" the technical definition of heritability to better correspond to the everyday meaning of the word, but it's not clear that's possible. Like most words, the way people actually use "heritable" is probably inconsistent and impossible to formalize.
+   Statements like "intelligence is 60% heritable" just aren't as consequential as people often think. Some suggest that we should just "fix" the technical definition of heritability to better correspond to the everyday meaning of the word, but it's not clear that's possible. Like most words, the way people actually use "heritable" is  inconsistent and probably impossible to formalize.
 
 What's the point of all this? Why spend so much effort just to point out that, whatever the subject, there's no implications for what we actually care about? Partly, it's a personal fixation that statistical arguments should be careful and not over-claim. That is perfectly valid! But there's a deeper reason, too.
 

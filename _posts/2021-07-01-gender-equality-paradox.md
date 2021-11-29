@@ -171,9 +171,9 @@ First, causality isn't everything. Richardson et al. think that BIGI is better t
 
 Still, does the paradox actually exist? It can't simultaneously be *false* (as Richardson et al. seem to claim) and *true but explained by gender stereotypes* (as Breda et al. claim.) Which is it?
 
-Second, stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading. Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
+Second, stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading: Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
 
-But OK, suppose that the paradox was entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical, no?
+But OK, suppose that the paradox was entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical!
 
 {% comment %}
 
@@ -182,7 +182,7 @@ But OK, suppose that the paradox was entirely explained by gender stereotypes. T
 * It could be some impossible-to-disentangle combination. Maybe parents in gender-unequal countries know that their daughters have fewer opportunities, and so they constantly tell them how amazing math is, resulting in those girls liking math.
 {% endcomment %}
 
-Third, it's unclear how fragile the result is. Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Of course, I agree that if the paradox only appears after torturing the data in one particular way, then we shouldn't trust it. But their evidence is... what happened when they tortured the data in one *other* particular way.
+Third, it's unclear how fragile the result is. Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Of course, I agree that if the paradox only appears after torturing the data in one particular way, then we shouldn't trust it. But their evidence is what happened when they tortured the data in one *other* particular way.
 
 Shouldn't we try a *bunch* of analyses, and just check how robust things are?
 

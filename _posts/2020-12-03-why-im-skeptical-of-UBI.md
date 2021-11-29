@@ -32,7 +32,7 @@ The answer is obvious, even if we don't usually say it explicitly: We don't trus
 
 To be clear, no real UBI proposals would change funding for schools! But that's kind of the point. That this is *so obviously* a bad idea shows two things:
 
-1. It's sometimes valid to constrain how money is used. We can't "just give people money" without looking at the details. The question is *how much* to control to assert in each case.
+1. It's sometimes valid to constrain how money is used. We can't "just give people money" without looking at the details. The question is *how much* control to assert in each case.
 
 2. Control isn't free. Some kids might do better in larger classes with higher-paid teachers. Some might prefer individual tutoring and peer instruction. Some might learn to read at home but need more instruction on math. If parents had flexibility, they could probably use the money more effectively. Restrictions to prevent worst-case outcomes also prevent these gains.
 
@@ -44,9 +44,9 @@ Intellectually, I take this question seriously. Think about it like this: Suppos
 
 *Practically*, though, there is no question. Society has decided: It's not acceptable to let people die, and we need some kind of emergency backstop program. But when you create that backstop, you just got back into the healthcare subsidy business, and you've moved away from *just giving people money*, since any funding for the backstop could have been an unrestricted payout to someone instead.
 
-To avoid this problem, Murray suggests that \$3k of the \$12k must be spent on health insurance. This is a compromise on the dream of just giving people money. It also reduces but doesn't eliminate the underlying problem. What if people need a treatment that wasn't included in their insurance? Do you have "death panels" to decide what "essential" procedures need to be included? What happens if these can't be offered for \$3k? The average person in the US uses [$11k](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NHE-Fact-Sheet) worth of healthcare.
+To avoid this problem, Murray suggests that \$3k of the \$12k must be spent on health insurance. This is a compromise on the dream of just giving people money, but let's ignore that. It also reduces but doesn't eliminate the Dangerland problem. What if people need a treatment that wasn't included in their insurance? Do you have "death panels" to decide what "essential" procedures need to be included? What happens if these can't be offered for \$3k? The average person in the US uses [$11k](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/NHE-Fact-Sheet) worth of healthcare.
 
-If you want to do UBI, it mostly has to come *on top* of targeted programs. That's *increasing* the scope of government, not decreasing it. That might be a good idea, but it's *not* the libertarian dream. If that's what you want to do, you need a different argument.
+Because of issues like these, UBI would mostly have to come *on top* of targeted programs. That's *increasing* the scope of government, not decreasing it. That might be a good idea, but it's not the libertarian dream. If that's what you want to do, you need a different argument.
 
 ## The Silicon Valley Argument for UBI
 
@@ -56,39 +56,39 @@ Here's a different argument for basic income.
 
 I have three responses to this.
 
-**First**, there isn't plenty of money, not yet. Giving 256 million adults the average truck driver salary of $67k per year would cost $17 trillion. For reference, that's 4 times the entire [current federal budget](https://www.cbo.gov/system/files/2020-04/56324-CBO-2019-budget-infographic.pdf):
+**First**, there isn't plenty of money, not yet. Giving 256 million adults the average truck driver salary of $67k per year would cost $17 trillion. That's 4 times the entire [current federal budget](https://www.cbo.gov/system/files/2020-04/56324-CBO-2019-budget-infographic.pdf):
 
 ![the current US federal budget](/img/skeptical_ubi/budget_small.png)
 
-It's almost as large as the entire *economy* ($21 trillion). Giving everyone a modest $12k per year would cost $3 trillion. That's more than all benefit programs combined, but not impossible. Suppose we make some difficult cuts, add some new taxes and make it happen. Do we expect anyone who previously had a good job to be happy with $12 thousand? I'm sure it's *helpful*, but it's no *substitute* for a job.
+It's almost as large as the entire *economy* ($21 trillion). Giving everyone a modest $12k per year would cost $3 trillion. That's more than all current benefit programs combined, but not impossible. Suppose we make some difficult cuts, add some new taxes and make it happen. Do we expect anyone who previously had a good job to be happy with $12k? I'm sure it's *helpful*, but it's no *substitute* for a job.
 
-**Second**, this isn't how economic revolutions worked in the past. Everyone knows the story: We moved from farms to manufacturing to services as each sector got automated. Keynes famously predicted 90 years ago that we would soon only need to work 15 hours a week. Why didn't that happen? He was right that existing jobs would mostly disappear. What he missed was that we'd invent so much new stuff and then decide we couldn't live without it. Are we *really sure* this time is different? A counter-response from a UBI fan would be that "every trend continues until it stops". Previously, there were obvious productive things for people to shift their effort to. Now, that's not clear. My counter counter-response is: Are you *sure*?
+**Second**, this isn't how economic revolutions worked in the past. Everyone knows the story: We moved from farms to manufacturing to services as each sector got automated. Keynes 90 years ago predicted that we would soon only need to work 15 hours a week. He was right that existing jobs would mostly disappear. What he missed was that we'd invent so much new stuff and then decide we couldn't live without it. Are we *really* sure this time is different? A possible counter-response is that "every trend continues until it stops". Previously, there were obvious productive things for people to shift their effort to. Now, that's not clear. My counter-counter-response is: Are you *sure*?
 
-Both of these responses boil down to "your argument for UBI is premised on some future that's not here yet". If 30 years from now the economy is 50x bigger and all the jobs are gone, these responses are moot.
+Both of these first two responses boil down to "your argument for UBI is premised on some future that's not here yet". So you might ask: Say it's 30 years from now, the economy is 50× bigger and all the jobs are all gone. What then?
 
-A **third** response is that this argument for UBI assumes jobs are all about money. Joe and Jill Biden are worth around $10 million. So why is Jill Biden teaching English at Northern Virginia Community College? People get much of their identity and meaning in life from their jobs. We are sort of like border collies: Without a role to play, we go crazy. Most people don't want a handout, they want to feel that they've *earned* what they have.
+A **third** response is that this argument for UBI assumes jobs are all about money. Joe and Jill Biden are worth around $10 million. So why does Jill Biden teach English at Northern Virginia Community College? People get much of their identity and meaning in life from their jobs. We are sort of like border collies: Without a role to play, we go crazy. Most people don't want a handout, they want to feel that they've *earned* what they have.
 
-To be sure, *some* people, if their current job was replaced with a UBI, would devote themselves to other passions. (Can anyone doubt that a thousand rationalist-adjacent blogs would bloom?) But others would get bored and depressed. Don't believe me? Check out fire Financial Independence / Early Retirement (FIRE) forums. There are tons of people who worked hard, saved money, and retired young. They find that relaxation and "fun" get old quickly. Some people occupy themselves with volunteer work or creative projects. For others, this doesn't work and they spiral into depression until they eventually decide to take another job.
+To be sure, *some* people, if their current job was replaced with a UBI, would devote themselves to other passions. (Can anyone doubt that a thousand rationalist-adjacent blogs would bloom?) But others would get bored and depressed. Don't believe me? Check out Financial Independence / Early Retirement (FIRE) forums. There are tons of people who worked hard, saved money, and retired young. They find that relaxation and "fun" get old quickly. Some occupy themselves with volunteer work or creative projects, but others just spiral into depression until they eventually decide to take another job.
 
 Maybe society shouldn't be like this. I don't really *like* this connection between work and value. Maybe social norms just need to adjust. Maybe FIRE folks would love retirement if their friends were also free to hang out in the middle of the day. Perhaps, but I think we also need to prepare for the possibility that this doesn't work.
 
-Here, a UBI proponent might object. "Well, look! Suppose this jobless world comes as I predict. What then? At least I'm proposing a solution! All you're doing is claiming the solution won't work. What do you suggest we do instead? Keeping the current world is not an option."
+Here, a UBI proponent might object. "Well, look! Suppose this jobless world comes as I predict. What then? At least I'm proposing a solution! All you're doing is claiming the solution won't work. What do you suggest instead?"
 
-I agree. We don't have a button to stop the world from shifting under our feet. If jobs really do go obsolete, we'll have to figure something out. I'd support also experimenting with UBI. But I'd suggest we *also* experiment with how to make jobs stick around. It's easy to open a building downtown with a "fake jobs for insecure people" sign, but this wouldn't work. We'd probably need to believe our jobs are valuable.
+I agree. We don't have a button to stop the world from shifting under our feet. If jobs really do go obsolete, we'll have to figure something out. I'd support *experimenting* with UBI to see if it works or not. But I'd suggest we *also* experiment with how to make jobs stick around. It's easy to open a building downtown with a "fake jobs for insecure people" sign, but this wouldn't work. We need to believe our jobs are valuable.
 
-(As an aside: How to create jobs that look useful? In a future where AI is so powerful that normal human jobs are gone, shouldn't we be worried about AI risk? Can we create bottlenecks in processes that have to be filled by humans? How to do this in a way that *actually* reduces AI risk is a hard problem. For our purposes, all that matters is it seems plausible.)
+*Aside*: How to create jobs that look useful? In a future where AI is so powerful that normal human jobs are gone, shouldn't we be worried about AI risk? Can we create bottlenecks in processes that have to be filled by humans? How to do this in a way that *actually* reduces AI risk is a hard problem, but surely we can at least make it look plausible?
 
-*Is* the world changing under our feet, though? *Are* jobs going obsolete? Sure, the future is unknowable, we can't rule it out, blah blah blah. But is it a pressing issue we need to address now, or a long-term concern?  If the latter, what's the hurry?
+*Is* the world changing under our feet, though? *Are* jobs going obsolete? Sure, the future is unknowable, we can't rule it out, blahblahblah. But is it a pressing issue we need to address now, or a long-term concern?  If it's the latter, what's the hurry?
 
-Here's a plot of the unemployment rate going back to 1950:
+Here's a plot of the unemployment rate going back to 1950. I don't see any clear trend.
 
 ![the unemployment rate over the past few decades](/img/skeptical_ubi/unemployment.png)
 
-I don't see any clear trend. Of course, the unemployment rate only counts people who are *trying* to get a job. Here's a plot of the labor force participation rate (the fraction of 16-64-year-olds who are either working or trying to get a job.)
+Of course, the unemployment rate only counts people who are *trying* to get a job. Here's a plot of the labor force participation rate (the fraction of 16-64-year-olds who are either working or trying to get a job.)
 
 ![the labor force participation rate over the past few decades](/img/skeptical_ubi/labor.png)
 
-This strange curve makes a bit more sense when broken down. (The [strata](https://dynomight.net/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/) refuse to be ignored.) If you dig into the data you'll find [participation from men](https://fred.stlouisfed.org/series/LNS11300001) has decreased but [participation from women](https://fred.stlouisfed.org/series/LNS11300002) has increased. Is that technological or sociological change? I'm not sure.
+This strange curve makes a bit more sense when broken down. (The [strata](https://dynomight.net/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/) refuse to be ignored.) If you dig into the data you'll find [participation from men](https://fred.stlouisfed.org/series/LNS11300001) has steadily decreased but [participation from women](https://fred.stlouisfed.org/series/LNS11300002) increased between 1950 and 1995 and then plateaued. Is that technological or sociological change? I'm not sure.
 
 As another view, here's a plot of the [percentage of national income](https://fred.stlouisfed.org/series/LABSHPUSA156NRUG) that goes to labor. If jobs are becoming increasingly irrelevant to the economy, this should be in decline.
 
@@ -96,9 +96,9 @@ As another view, here's a plot of the [percentage of national income](https://fr
 
 There's a decline from around 64% to 60%. But the biggest decline was between 1970 and 1985. It's actually rising slowly over the past 10 years and is currently only 0.5% less than in 1984. It's not obvious that AI is the culprit here.
 
-For some problems, we need to think ahead. Climate change is a good example: We need a massive investment to deal with it, but we understand pretty well what we're dealing with, so we can prepare effectively. Disappearing jobs are the opposite. We have little idea what it would look like or when it might come. If we wanted to implement UBI, there's no technological hurdle. Maybe there are interesting social questions, but we can't really answer those until the jobless future is here.
+For some problems, we need to think ahead. Climate change is a good example: We need a massive investment to deal with it, but we understand pretty well what we're dealing with, so we can invest effectively. Disappearing jobs are the opposite. We have little idea what it would look like or when it might come. If we wanted to implement UBI, there's no technological hurdle. Maybe there are interesting social questions, but we can't really answer those until the jobless future is here.
 
-Maybe the jobless future is coming, but it's not here yet. I just don't see the argument for massively restructuring the economy *now* to try to address it. So I don't buy the Silicon Valley argument for UBI now.
+Maybe the jobless future is coming, but it's not here yet. I just don't see the argument for massively restructuring the economy *now* to try to address a problem that doesn't yet exist. So I don't---for now at least---buy the Silicon Valley argument for UBI.
 
 ## The populist argument for UBI
 
@@ -114,18 +114,18 @@ There are a few possibilities:
 
 **First**, maybe Andrew Yang's proposal is about technological change because that is what Andrew Yang believes. Call me [wide-eyed and naive](https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/), but I guess this is the answer. More broadly, the Silicon Valley UBI argument is *really* appealing to a minority of people. It's doubtful that milquetoast "more redistribution!" would have grabbed enough attention to propel a presidential campaign. 
 
-**Second** (and more cynically) maybe it's a "trick" to get people to support redistribution without realizing it. This is hard to reconcile with the data. It's not emphasized enough that redistribution is *very popular*. Recently, 53% of *Republicans* [agreed](https://www.ipsos.com/en-us/news-polls/reuters-ipsos-economy-poll-10-01-2020) that "The very rich should contribute an extra share of their wealth each year to support public programs," while 40% disagreed. Yang's campaign raised [$40 million](https://en.wikipedia.org/wiki/Andrew_Yang_2020_presidential_campaign#Fundraising). The odds they are unaware of these polls is zero.
+**Second**, maybe it's a cynical "trick" to get people to support redistribution without realizing it. This is hard to reconcile with the data. One of the great open secrets of American politics is that redistribution is *very popular*. Recently, 53% of *Republicans* [agreed](https://www.ipsos.com/en-us/news-polls/reuters-ipsos-economy-poll-10-01-2020) that "The very rich should contribute an extra share of their wealth each year to support public programs," while 40% disagreed. Yang's campaign raised [$40 million](https://en.wikipedia.org/wiki/Andrew_Yang_2020_presidential_campaign#Fundraising). The odds they are unaware of these polls is zero.
 
-**Third**, maybe it's branding. Maybe voters only like redistribution when it's described with the right spin.   Here are the results of a [2018 poll](https://morningconsult.com/2018/11/29/majority-of-voters-back-national-health-plan-unless-its-called-single-payer/) on healthcare:
+**Third**, maybe it's branding. Maybe voters only like redistribution when it's described the right way. Well, here are the results of a [2018 poll](https://morningconsult.com/2018/11/29/majority-of-voters-back-national-health-plan-unless-its-called-single-payer/) on healthcare:
 
 Policy|Support|Opposed
 -|-|-
 Universal health care | 56% | 33%
 Socialized medicine | 52% | 34%
 
-Turns out, people aren't all complete idiots! They understand that "socialized medicine" is a valid description of "universal health care," and are totally fine with that.
+Turns out, people aren't all complete idiots! They understand that "socialized medicine" is a valid description of "universal health care", and are totally fine with that.
 
-(So why don't politicians who support redistribution win every election, you ask? Because those politicians bundle redistribution with other policies and cultural values that are much less popular.)
+(So why don't politicians who support redistribution win every election, you ask? Because those politicians bundle redistribution with other policies and cultural values that are not popular.)
 
-So what's the deal? Whatever its merits, this argument is dead simple, intellectually honest, and seemingly popular. The biggest apparent disadvantage is that it's kinda... *boring*? It makes UBI look like just an update to the existing web of taxes and redistributive programs. But so what? Flossing is boring. Cleaning is boring. The only realistic version of UBI is the boring one. Just own it.
+So what's the deal? Whatever its merits, this argument is dead simple, intellectually honest, and seemingly popular. The biggest apparent disadvantage is that it's kinda... boring? It makes UBI look like just an update to the existing web of taxes and redistributive programs. But so what? Flossing is boring. Cleaning is boring. The only realistic version of UBI is the boring one. Just own it.
 
