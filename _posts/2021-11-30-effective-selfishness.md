@@ -212,6 +212,8 @@ Here's a few examples that come to mind:
 
 * [Experiments](https://www.gwern.net/tags/experiments) by Gwern
 
+* [How not to die](https://pierreavdb.substack.com/p/how-not-to-die) and [Sunscreen: much more than you wanted to know](https://pierreavdb.substack.com/p/sunscreen-much-more-than-you-wanted) by Pierre Vandenberghe
+
 </details>
 
 First, *someone* needs to do it, and effective altruists are well-positioned to do it and build their community. Pretty much everyone wants to make their life better. If you attract a lot of people and show them the power of ~~the dark side~~ utility functions and cost-benefit analysis, then they are one step away from joining effective altruism itself. And the effective altruism community has a comparative advantage---they've already built a culture and set of tools that are applicable.
@@ -225,7 +227,7 @@ Third, the act of *facilitating* effective selfishness is itself effective *altr
 * All *those* people live somewhere with relatively clean air, meaning that fixing it saves only around  ½ a disability-adjusted life year (DALY) in expectation.
 * I value my time at $100 per hour.
 
-If we add all this up, the essay should save around 40,000 × 0.1 × 0.05 × .5 = 100 DALY at an effective cost to me of 100 × $100 = \$10,000. That adds up to \$100 per DALY saved, similar to Givewell's most effective charities.
+If we add all this up, the essay should save around 40,000 × 0.1 × 0.05 × .5 = 100 DALY at an effective cost to me of 100 × $100 = \$10,000. That is \$100 per DALY saved, similar to Givewell's most effective charities.
 
 If you don't write so woefully slowly, and you have more influence, I'm sure much higher efficiencies are possible.
 
