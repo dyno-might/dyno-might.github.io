@@ -77,6 +77,7 @@ The closest thing I have to a "mission statement" is probably [this analogy](cul
 **Psychology**
 * [Are some personalities just better?](/better-personalities)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
+  * [MBTI quiz](/mbti)
 
 **Personal improvement**
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
