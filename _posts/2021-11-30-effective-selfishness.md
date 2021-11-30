@@ -6,7 +6,7 @@ tags: communication selfImprovement
 hero_light: false
 dark_title: false
 background_color: black
-description: "We could be a lot better at taking care of ourselves"
+description: "We could be a lot better at taking care of ourselves."
 permalink: /effective-selfishness/
 background_color: rgb(143,156,105)
 head: "<style>
@@ -101,9 +101,9 @@ This isn't anyone's fault! It's not Alex's fault for not doing this basically-im
 
 Broadly speaking, effective altruism tries to tie impact with how good things feel. The basic strategy is to (1) get people excited about impact in general, (2) figure out what has impact, and (3) promote high-impact stuff to impact enthusiasts.
 
-Research that different strategies can be *much* more cost-effective than others for the same problem. [Jamison et al. (2006)](https://www.ncbi.nlm.nih.gov/books/NBK11728/) estimated that how much it could cost to save a [disability-adjusted life year (DALY)](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) for someone at risk of HIV/AIDS. Surgical treatment of [Kaposi's sarcoma](https://en.wikipedia.org/wiki/Kaposi%27s_sarcoma) cost $30k, antiretroviral therapy cost \$1k, condom distribution cost \$100, and peer education cost only \$20.
+Research shows that different strategies can be *much* more cost-effective than others for the same problem. [Jamison et al. (2006)](https://www.ncbi.nlm.nih.gov/books/NBK11728/) estimated that how much it could cost to save a [disability-adjusted life year (DALY)](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) for someone at risk of HIV/AIDS. Surgical treatment of [Kaposi's sarcoma](https://en.wikipedia.org/wiki/Kaposi%27s_sarcoma) cost $30k, antiretroviral therapy cost \$1k, condom distribution cost \$100, and peer education cost only \$20.
 
-Calculations like these allow you to compare not just different strategies, but different *problems*. If you care equally about polar bears and girls' education in Eastern Europe but one dollar can move the needle much further for the girls, that's probably where you'll want to concentrate.
+Calculations like these allow you to compare not just different strategies, but different *problems*. If you care equally about polar bears and girls' education in Eastern Europe but one dollar can do much more for the girls, that's probably where you'll want to concentrate.
 
 The effective altruism community also considers personal actions. For example, if you care about orangutans, you could fly to Sumatra and go to the rainforest and then, like... help? But it's probably more effective to get a job and donate some money to an orangutan sanctuary. It also suggests that some things might be counterintuitively *in*effective---e.g. if you can land a competitive job at a famous nonprofit, maybe you're just displacing someone else who would have done a great job anyway.
 
@@ -126,7 +126,7 @@ A third problem is that science is hard, statistics is hard, and people get them
 
 Fourth, good advice is often siloed and illegible. If you want to know how to best exercise/make friends/invest/sleep/etc., then for each goal you face anew the problem of figuring out who you can trust and what their jargon means.
 
-Fifth, there's the "bare minimum quality" problem. Say I want to sleep better. If I go to a forum on beds they'll tell me that if I'm low on cash, I can get an OK mattress for "only" \$2k or so, but honestly, I should take a look at my life and reconsider what I'm worth as a human being. Or say I want to be stronger. If I go to r/fitness, I'll learn that I should get a power-cage, and do 15 sets each week of barbell back squats, deadlifts, shoulder press, and bench press, along with assistance work, and if I'm not up for that, I *deserve* to be weak.
+Fifth, there's the "bare minimum quality" problem. Say I want to sleep better. If I go to a forum on beds they'll tell me that if I'm low on cash, I can get an OK mattress for "only" \$2k or so, but honestly, I should take a look at my life and reconsider what I'm worth as a human being. Or say I want to be stronger. If I go to r/fitness, I'll learn that I should get a power-cage and do 15 sets each week of barbell back squats, deadlifts, shoulder press, and bench press, along with assistance work, and if I'm not up for that, I *deserve* to be weak.
 
 What's happening here is that the people who know a lot about a given topic are *really into* that topic. Their advice might be good if you had their values, but you don't, and anyway it would be *impossible* to give that level of attention to every part of your life.
 
@@ -172,7 +172,7 @@ These all seem reasonable, but they aren't sorted, some of them are probably wro
 
 ## A flourishing leaderboard
 
-So here's the dream: Let's invent "flourishing adjusted life minutes" (FALM) a sort of better [quality-adjusted life year](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). Then, you should be able to go to a website, answer some questions, then get a leaderboard that might look like this.
+So here's the dream: Let's invent "flourishing adjusted life minutes" (FALM) a sort of better [quality-adjusted life year](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). Then, you should be able to go to a website, answer some questions, then get a leaderboard that might look like this:
 
 | Intervention         | money cost | time cost | benefit (FALM) | FALM / yearly cost |
 | -------------------- | ---------- | --------- | -------------- | ------------------ |
@@ -214,11 +214,11 @@ Here's a few examples that come to mind:
 
 </details>
 
-First, *someone* needs to do it, and effective altruists are well-positioned to do it and build their community. Pretty much everyone wants to make their life better. If you attract a lot of people and show them the power of ~~the dark side~~ utility functions and cost-benefit analysis, then they are one step away from joining effective altruism itself. And the effective altruism community has a comparative advantage---they've already built a culture and set of tools that's applicable.
+First, *someone* needs to do it, and effective altruists are well-positioned to do it and build their community. Pretty much everyone wants to make their life better. If you attract a lot of people and show them the power of ~~the dark side~~ utility functions and cost-benefit analysis, then they are one step away from joining effective altruism itself. And the effective altruism community has a comparative advantage---they've already built a culture and set of tools that are applicable.
 
-Second, most care in the world is self-care. I'm not making some [Howard Roark](https://en.wikipedia.org/wiki/The_Fountainhead)-type argument that altruism is bad, I'm just observing that if you collect all the selfish actions that an average person takes, they'll weigh 100 times as much as their altruistic actions. If you make people even slightly better at helping themselves, that's a huge opportunity.
+Second, most care in the world is self-care. I'm not making some [Howard Roark](https://en.wikipedia.org/wiki/The_Fountainhead)-type argument that altruism is bad, I'm just observing that if you collect all the selfish actions that an average person takes, they'll weigh 100× as much as their altruistic actions. If you make people even slightly better at helping themselves, that's a huge opportunity.
 
-Third, the act of *facilitating* effective selfishness is itself effective *altruism*. I'm going to use an example of my own here (even though I find that indecorous) because it's the only thing I have numbers for. As I write this, something like 40,000 people have viewed my essay on [air quality](/air), which it took me around 100 hours to write. Let's make some assumptions:
+Third, the act of *facilitating* effective selfishness is itself effective *altruism*. I'm going to use an example of my own here (even though I find that indecorous) because it's the only thing I have numbers for. As I write this, something like 40,000 people have viewed my essay on [air quality](/air), which took me around 100 hours to write. Let's make some assumptions:
 
 * 10% of visitors read a serious chunk of the essay.
 * 5% of *those* people took enough actions to cut their exposure to particulates in half.
