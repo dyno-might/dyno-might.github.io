@@ -198,7 +198,7 @@ Now you might agree that this seems like a good idea, but why should *effective 
 
 Here's a few examples that come to mind:
 
-* [Cost-Effectiveness of Air Purifiers against Pollution](https://forum.effectivealtruism.org/posts/umzu3RGBBhA3fefhw/cost-effectiveness-of-air-purifiers-against-pollution), by Lukas Trötzmüller
+* [Cost-effectiveness of air purifiers against pollution](https://forum.effectivealtruism.org/posts/umzu3RGBBhA3fefhw/cost-effectiveness-of-air-purifiers-against-pollution), by Lukas Trötzmüller
 
 * [Lifestyle interventions to increase longevity](https://www.lesswrong.com/posts/PhXENjdXiHhsWGfQo/lifestyle-interventions-to-increase-longevity) by RomeoStevens
 
@@ -220,7 +220,7 @@ First, *someone* needs to do it, and effective altruists are well-positioned to 
 
 Second, most care in the world is self-care. I'm not making some [Howard Roark](https://en.wikipedia.org/wiki/The_Fountainhead)-type argument that altruism is bad, I'm just observing that if you collect all the selfish actions that an average person takes, they'll weigh 100× as much as their altruistic actions. If you make people even slightly better at helping themselves, that's a huge opportunity.
 
-Third, the act of *facilitating* effective selfishness is itself effective *altruism*. I'm going to use an example of my own here (even though I find that indecorous) because it's the only thing I have numbers for. As I write this, something like 40,000 people have viewed my essay on [air quality](/air), which took me around 100 hours to write. Let's make some assumptions:
+Third, the act of *facilitating* effective selfishness is itself effective *altruism*. I'm going to use an example of my own here (even though it's indecorous) because it's the only thing I have numbers for. As I write this, something like 40,000 people have viewed my essay on [air quality](/air), which took me around 100 hours to write. Let's make some assumptions:
 
 * 10% of visitors read a serious chunk of the essay.
 * 5% of *those* people took enough actions to cut their exposure to particulates in half.
@@ -229,6 +229,6 @@ Third, the act of *facilitating* effective selfishness is itself effective *altr
 
 If we add all this up, the essay should save around 40,000 × 0.1 × 0.05 × .5 = 100 DALY at an effective cost to me of 100 × $100 = \$10,000. That is \$100 per DALY saved, similar to Givewell's most effective charities.
 
-If you don't write so woefully slowly, and you have more influence, I'm sure much higher efficiencies are possible.
+If you don't write so woefully slowly and you have more influence, I'm sure much higher efficiencies are possible.
 
 Best of all, with this change, the "Effective Altruism" community could rebrand itself as simply "Effective", a confusing but incontestably cool-sounding mononym.
