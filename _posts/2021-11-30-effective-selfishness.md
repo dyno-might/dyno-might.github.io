@@ -152,7 +152,7 @@ Here are some examples of what I *think* are effective advice for different doma
 
 **Depression**. You might feel better just through mean reversion. In terms of treatments, weirdly, different types of therapy and different anti-depressants are all about equally effective on average. (Which is: moderately) But different things work for different people.
 
-**Cancer.** We live in the future! If you get breast cancer, colorectal cancer, testicular cancer, prostate cancer, thyroid cancer, melanoma, cervical cancer, or Hodgkin's lymphoma, then modern treatments give you a >90% chance of making a full recovery, *provided it is caught early*. You have a reasonable chance of getting one of these at some point in your life (maybe 20% ?), so catching these early is plausibly worth a DALY or so in expectation.
+**Cancer.** We live in the future! If you get breast cancer, colorectal cancer, testicular cancer, prostate cancer, thyroid cancer, melanoma, cervical cancer, or Hodgkin's lymphoma, then modern treatments give you a >90% chance of making a full recovery, *provided it is caught early*. You have a reasonable chance of getting one of these at some point in your life (maybe 20%?), so catching these early is plausibly worth a DALY or so in expectation.
 
 **Drinking.** Any drinking increases cancer, but 1-2 drinks per day might help with heart disease and diabetes and *might* be enough to make moderate drinking neutral or even a net win, but [no one knows](/alcohol-trial). Going beyond 1-2 drinks per day is clearly harmful, especially if you have genes for the [Asian flush](/alcohol). It also screws up your sleep.
 
@@ -202,7 +202,7 @@ Here's a few examples that come to mind:
 
 * [Lifestyle interventions to increase longevity](https://www.lesswrong.com/posts/PhXENjdXiHhsWGfQo/lifestyle-interventions-to-increase-longevity) by RomeoStevens
 
-* [10 Habits I recommend](https://forum.effectivealtruism.org/posts/xxLWX4DS64nMRHGxn/10-habits-i-recommend-2020) by Michelle Hutchinson
+* [10 habits I recommend](https://forum.effectivealtruism.org/posts/xxLWX4DS64nMRHGxn/10-habits-i-recommend-2020) by Michelle Hutchinson
 
 * [Is mindfulness good for you?](https://forum.effectivealtruism.org/posts/eryaF6RPtepDs9KdP/is-mindfulness-good-for-you) by John G. Halstead
 
@@ -218,7 +218,7 @@ Here's a few examples that come to mind:
 
 First, *someone* needs to do it, and effective altruists are well-positioned to do it and build their community. Pretty much everyone wants to make their life better. If you attract a lot of people and show them the power of ~~the dark side~~ utility functions and cost-benefit analysis, then they are one step away from joining effective altruism itself. And the effective altruism community has a comparative advantage---they've already built a culture and set of tools that are applicable.
 
-Second, most care in the world is self-care. I'm not making some [Howard Roark](https://en.wikipedia.org/wiki/The_Fountainhead)-type argument that altruism is bad, I'm just observing that if you collect all the selfish actions that an average person takes, they'll weigh 100× as much as their altruistic actions. If you make people even slightly better at helping themselves, that's a huge opportunity.
+Second, most care in the world is self-care. I'm not making some [Howard Roark](https://en.wikipedia.org/wiki/The_Fountainhead)-type argument that altruism is bad, I'm just observing that if you collect all the selfish actions that an average person takes, they'll weigh 100× as much as their altruistic actions. If you make people even slightly better at helping themselves, that's a huge impact.
 
 Third, the act of *facilitating* effective selfishness is itself effective *altruism*. I'm going to use an example of my own here (even though it's indecorous) because it's the only thing I have numbers for. As I write this, something like 40,000 people have viewed my essay on [air quality](/air), which took me around 100 hours to write. Let's make some assumptions:
 
