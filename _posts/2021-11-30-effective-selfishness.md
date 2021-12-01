@@ -214,6 +214,8 @@ Here's a few examples that come to mind:
 
 * [How not to die](https://pierreavdb.substack.com/p/how-not-to-die) and [Sunscreen: much more than you wanted to know](https://pierreavdb.substack.com/p/sunscreen-much-more-than-you-wanted) by Pierre Vandenberghe
 
+* [Sleep: effective ways to improve it](https://forum.effectivealtruism.org/posts/Ei2uYbn2zrzmBjEsp/sleep-effective-ways-to-improve-it) and [Effective self help - rough concept](https://forum.effectivealtruism.org/posts/hdfMrY4QGEKaoFubH/ben3536-s-shortform?commentId=kke8QKdYnD38AJhuS) by Ben Williamson (*Edit*: The latter is a new project that's pretty much exactly what what this post is asking for!)
+
 </details>
 
 First, *someone* needs to do it, and effective altruists are well-positioned to do it and build their community. Pretty much everyone wants to make their life better. If you attract a lot of people and show them the power of ~~the dark side~~ utility functions and cost-benefit analysis, then they are one step away from joining effective altruism itself. And the effective altruism community has a comparative advantage---they've already built a culture and set of tools that are applicable.
