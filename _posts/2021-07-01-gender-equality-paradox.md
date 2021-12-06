@@ -9,7 +9,7 @@ background_color: black
 description: "Some claim that more feminist countries have fewer women in STEM. Others say this is nonsense. Who is right?"
 permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
-last_updated: 2021-09-02
+last_updated: 2021-12-06
 head: "<style>
 details{
     }
@@ -97,10 +97,17 @@ Suspicious of these results, Richardson and colleagues took the same data, calcu
 
 Get that? Take a country with the following graduates each year:
 
+{% comment %}
 ‎‎‏‏‎ ‎|men|women|
 -|-|-
 **STEM degrees**|100|5
 **All degrees**|1000|50
+{% endcomment %}
+
+‎‎‏‏‎ ‎|STEM degrees|All degrees|
+-|-|-
+**Men**|100|1000
+**Women**|5|50
 
 Women make up 4.8% (5/105) of STEM graduates.  However, their formula gives 50%, since the fraction of women who do STEM is the same as the fraction of men who do STEM. That is, *a*=5/50 is equal to *b*=100/1000.
 
@@ -167,13 +174,13 @@ This paper is often summarized (e.g. on [Wikipedia](https://en.wikipedia.org/wik
 
 After first reading these follow-up papers, I had the impression the original study was debunked. But notice three things:
 
-First, causality isn't everything. Richardson et al. think that BIGI is better than GGGI for establishing causality. I don't understand their reasoning in the slightest, but it doesn't matter. *None* of these analyses prove causality.
+First, **causality isn't everything.** Richardson et al. think that BIGI is better than GGGI for establishing causality. I don't understand their reasoning in the slightest, but it doesn't matter. *None* of these analyses prove causality.
 
 Still, does the paradox actually exist? It can't simultaneously be *false* (as Richardson et al. seem to claim) and *true but explained by gender stereotypes* (as Breda et al. claim.) Which is it?
 
-Second, stereotypes don't solve the paradox. How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading: Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
+Second, **stereotypes don't solve the paradox.** How could they, when the reduction for the GGGI coefficient above is so modest? I think the Wikipedia quote is misleading: Most of Breda et al.'s paper is about predicting other things, e.g. the *intention* to study STEM, where controlling for stereotypes has a stronger effect.
 
-But OK, suppose that the paradox was entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still pretty paradoxical!
+But OK, suppose that the paradox was entirely explained by gender stereotypes. That would just mean we've traded the mystery of why more gender-equal countries have fewer women in STEM for the mystery of why more gender-equal countries would have stronger stereotypes. That is still very paradoxical!
 
 {% comment %}
 
@@ -182,7 +189,7 @@ But OK, suppose that the paradox was entirely explained by gender stereotypes. T
 * It could be some impossible-to-disentangle combination. Maybe parents in gender-unequal countries know that their daughters have fewer opportunities, and so they constantly tell them how amazing math is, resulting in those girls liking math.
 {% endcomment %}
 
-Third, it's unclear how fragile the result is. Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Of course, I agree that if the paradox only appears after torturing the data in one particular way, then we shouldn't trust it. But their evidence is what happened when they tortured the data in one *other* particular way.
+Third, **it's unclear how fragile the result is.** Richardson et al. say that the paradox only appears because of "contrived measures and selective data". Of course, if the paradox only appears after torturing the data in one particular way, then we shouldn't trust it. But their evidence is what happened when they tortured the data in one *other* particular way.
 
 Shouldn't we try a *bunch* of analyses, and just check how robust things are?
 
@@ -194,7 +201,7 @@ Let's start with the original analysis, relating GGGI to propensities. (Click to
 ![gggi vs female propensity](/img/gender-equality-paradox/gggi_vs_female_propensity.svg)
 </a>
 
-This is the same as the original Stoet and Geary figure, with three small changes:
+This is the same as the [original Stoet and Geary figure](/img/gender-equality-paradox/stoet-geary-original-graph-wide.jpg), with three small changes:
 
 <!-- really only 1 million or greater? -->
 
@@ -244,6 +251,8 @@ Don't believe me? Here's what you get if you take their graph, rotate right by 9
 
 <img src="/img/gender-equality-paradox/richardson_transformed.jpg" alt="transformed version of richardson's data" loading="lazy">
 
+If you look carefully, you can see that these dots are the same as the red dots above.
+
 </details>
 
 For another thing, they did a *linear regression* and found no significant result. That's not too surprising, given that the effect above is nonlinear and symmetric.
@@ -264,15 +273,15 @@ On the other hand, here's a plot of GGGI against BIGI:
 <img src="/img/gender-equality-paradox/gggi_vs_bigi.svg" alt="gggi vs bigi" loading="lazy">
 </a>
 
-According to BIGI, Saudi Arabia—where women can only show their [hands and eyes in public](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Hijab_and_dress_code) and must have a [legal male guardian](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Male_guardians)—is basically the same as Switzerland, and Lesotho—the tiny country inside South Africa—is by far the most women-favored place in the entire world. Ooohkaaay.
+According to BIGI, Saudi Arabia—where women can only show their [hands and eyes in public](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Hijab_and_dress_code) and must have a [legal male guardian](https://en.wikipedia.org/wiki/Women%27s_rights_in_Saudi_Arabia#Male_guardians)—is basically the same as Switzerland. And Lesotho—the tiny country inside South Africa—is by far the most women-favored place in the entire world. Ooohkaaay.
 
-This isn't to say that BIGI is *bad* exactly. They [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper. My point is that it doesn't capture what we have in mind in this context. So while we *do* seem to get a paradox with BIGI, I think it's meaningless and we should forget about it.
+This isn't to say that BIGI is *bad* exactly. They [specifically discuss Saudi Arabia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0205349#sec011) in their paper. My point is that it doesn't capture what we have in mind in this context. At all. So while we *do* seem to get a paradox with BIGI, I think it's meaningless and we should forget about it.
 
 ### Other measures of women in STEM
 
 While the result seems robust to different measures of gender equality, everything above uses the same data from UNESCO on the number of STEM graduates. We've analyzed it both in terms of propensities and raw fractions, and the result is still robust. Still, what if we use a different data source entirely to measure STEM participation?
 
-For variety, I looked at the [female share of researchers in engineering and technology](https://en.unesco.org/sites/default/files/usr15_is_the_gender_gap_narrowing_in_science_and_engineering.pdf). If you compare this to GGGI, there's really no paradox at all. 
+For variety, I looked at the [female share of researchers in engineering and technology](https://en.unesco.org/sites/default/files/usr15_is_the_gender_gap_narrowing_in_science_and_engineering.pdf). If you compare this to GGGI, there's really no paradox at all. At most, there's a bit of a "leveling off".
 
 <a href="/img/gender-equality-paradox/gggi_vs_researchers.pdf">
 <img src="/img/gender-equality-paradox/gggi_vs_researchers.svg" alt="GGGI vs. female share of engineering researchers">
@@ -280,13 +289,15 @@ For variety, I looked at the [female share of researchers in engineering and tec
 
 If you look at <a href="/img/gender-equality-paradox/gggi_vs_natsci_researchers.pdf">natural science</a> researchers instead of engineering, you again see no paradox.
 
-On the other hand, if you use GII instead of GGGI, you do see an effect in the most gender-equal countries:
+On the other hand, if you use GII instead of GGGI, you do see a small effect in the most gender-equal countries:
 
 <a href="/img/gender-equality-paradox/gii_vs_researchers.pdf">
 ![GII vs. female share of engineering researchers](/img/gender-equality-paradox/gii_vs_researchers.svg)
 </a>
 
-Comparing GII to the <a href="/img/gender-equality-paradox/gii_vs_natsci_researchers.pdf">natural sciences</a> shows more of a leveling off than a full reversal. I'm not sure if that's a "paradox" exactly but it's not something I'd have predicted.
+Comparing GII to the <a href="/img/gender-equality-paradox/gii_vs_natsci_researchers.pdf">natural sciences</a> shows more of a leveling off than a full reversal.
+
+I'm not sure if all these observations constitute a "paradox" exactly, but they aren't something I would have predicted.
 
 ## Takeaways
 
