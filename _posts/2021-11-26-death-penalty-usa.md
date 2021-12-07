@@ -70,7 +70,9 @@ At the start of the 1800s, some religious leaders and enlightenment thinkers sta
 
 Gradually, a few states started to abolish the death penalty. Michigan never executed anyone and abolished in 1847, followed by Rhode Island (mostly) in 1852 and Wisconsin in 1853.
 
+{% comment %}
 Here's the number of people executed in the American Colonies / United States each year between 1608 and 2020.
+{% endcomment %}
 
 ![number of executions in the United States over time](/img/death-penalty/usa-executions-compressed.svg)
 
@@ -89,23 +91,21 @@ The start of the 1900s was the beginning of the [Progressive era](https://en.wik
 
 However, after WWI, support for capital punishment rebounded, and all but two of these states reversed their abolition. The 1930s saw the highest absolute number of executions in US history.
 
-From the 1930s to 1950s, culture gradually came to view hanging as barbaric, in part due to the botched execution of [Eva Dugan](https://en.wikipedia.org/wiki/Eva_Dugan) in 1930. Most states replaced hanging with poison gas, electrocution, and lethal injection which were less disturbing to onlookers.
+From the 1930s to 1950s, culture gradually came to view hanging as barbaric, in part due to the botched execution of [Eva Dugan](https://en.wikipedia.org/wiki/Eva_Dugan). Most states replaced hanging poison gas, electrocution, or lethal injection, which were less disturbing to onlookers.
 
-After the end of WWII, the number of executions gradually fell, reaching zero in 1967. The U.S. was even cited as an example of countries moving away from the death penalty in debates in the UK.
+After the end of WWII, the number of executions gradually fell, reaching zero in 1967. At this time, the U.S. was even cited as an example of countries moving away from the death penalty in debates in the UK.
 
-Why did this fall happen? There seems to be no single explanation. One cause was an increased number of states abolishing the penalty. Between 1957 and 1969, Hawaii, Alaska, Delaware, Michigan (again), Oregon, Iowa, New York, West Virginia, Vermont, and New Mexico all did so.
-
-Another cause was that even in states where the death penalty was legal, it gradually became rarer for prosecutors to seek it.
+Why did this fall happen? One cause was an increased number of states abolishing the penalty, which Hawaii, Alaska, Delaware, Michigan (again), Oregon, Iowa, New York, West Virginia, Vermont, and New Mexico all did between 1957 and 1969. Another cause was that even in states where the death penalty was legal, it gradually became rare for prosecutors to seek it.
 
 There were no executions in the United States between 1967 and 1977.
 
-Along with this decline in executions, the death penalty was also quickly becoming less popular. In 1966, a Gallup poll found for the first (and only!) time found that more Americans opposed the death penalty than supported it.
+Along with this decline in executions, the death penalty was also quickly becoming less popular. In 1966, a Gallup poll found for the first time (and only time, to this day) found that more Americans opposed the death penalty than supported it.
 
-In 1958 in [*Trop v. Dulles*](https://en.wikipedia.org/wiki/Trop_v._Dulles) the Supreme Court held that the [Eighth Amendment's](https://en.wikipedia.org/wiki/Eighth_Amendment_to_the_United_States_Constitution) prohibition of cruel and unusual punishments held for "evolving standards of decency". This led to a suspicion that the death penalty might be unconstitutional.
+In 1958 in [*Trop v. Dulles*](https://en.wikipedia.org/wiki/Trop_v._Dulles), the Supreme Court held that the [Eighth Amendment's](https://en.wikipedia.org/wiki/Eighth_Amendment_to_the_United_States_Constitution) prohibition of cruel and unusual punishments held for "evolving standards of decency". This led to a suspicion that the death penalty might be unconstitutional.
 
 ![burger court in 1972](/img/death-penalty/burger-court-1972.jpg)
 
-In 1972 in [*Furman v Georgia*](https://en.wikipedia.org/wiki/Furman_v._Georgia) the Supreme Court held that all current death penalty schemes did indeed violate the Eight Amendment. This decision was extremely disjoint, coming 5-4 with no consistent rationale and all nine justices writing separate opinions. Two justices in the majority wrote that the death penalty itself was cruel and unusual, while three others were more narrow, saying that current statutes were too unreliable and arbitrary.
+In 1972 in [*Furman v Georgia*](https://en.wikipedia.org/wiki/Furman_v._Georgia), the Supreme Court held that all current death penalty schemes did indeed violate the Eight Amendment. This decision was extremely disjoint, coming 5-4 with no consistent rationale and all nine justices writing separate opinions. Two justices in the majority wrote that the death penalty itself was cruel and unusual, while three others were more narrow, saying that current statutes were too unreliable and arbitrary.
 
 As a glimpse of the boundaries of elite opinion at the time, the four dissenting judges in *Furman*---all appointed by President Nixon---each stated they were personally opposed to capital punishment and would vote for abolition if they were on a state legislature.
 
