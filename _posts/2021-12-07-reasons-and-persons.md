@@ -114,7 +114,7 @@ Takeaway: There are scenarios where being self-interested seems to make you *wor
 
 Are you disturbed by these examples? Many people say, "So what? Just do what's best for you overall." OK, but how does that work? Once the stranger has given you a ride into town, it *is* in your interest to stiff them, no matter what you said in the past.
 
-Making an exception like, "Follow your self interest unless you made a promise." doesn't work. If you realize the stranger would use your \$20 to buy a knife and stab you, you should renege. So you can't "*just*" do what's better for you overall. That's very hard, or maybe even impossible.
+Adding an exception like, "Follow your self interest unless you made a promise" doesn't work. If you realize the stranger would use your \$20 to buy a knife and stab you, you should renege. So you can't "*just*" do what's better for you overall. That's very hard, or maybe even impossible.
 
 ## On rational irrationality
 
