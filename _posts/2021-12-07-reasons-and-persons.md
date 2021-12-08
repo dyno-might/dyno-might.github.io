@@ -71,7 +71,7 @@ How? I'll tell you how! Turn to page 107.
 
 There are two issues here.
 
-For one, this is hard hard to read. Now, Parfit isn't *trying* to be obscure, it's just that he's happy to make things 100% more difficult to get 10% more precision. I'm sure that's right for academic philosophers, but I'd like a different tradeoff.
+For one, this is hard to read. Now, Parfit isn't *trying* to be obscure, it's just that he's happy to make things 100% more difficult to get 10% more precision. I'm sure that's right for academic philosophers, but I'd like a different tradeoff.
 
 Second, I sometimes, well... I sometimes don't care about the questions Parfit is trying to answer. The above paragraph is asking if people who think morality is created by society should accept a certain way of splitting up moral theories. To me, that feels like agonizing about definitions.
 
@@ -312,7 +312,8 @@ Alfred gave Carlos a poison that will painfully kill him in a few minutes. Meanw
 
 A thousand thirsty people are in the desert. A truck is going out to them with a big barrel in it. You have a single liter of water, that you could pour into the barrel to be distributed equally to everyone. No one can sense the difference of 1mL of water. Does that mean that you don't need to add your water?
 
-There's a ton of examples like this, with drops of water or torturers with buttons that cause an imperceptible increase in pain. These are meant to dispute the idea that imperceptible effects can't be bad. I find these utterly boring, probably because I'm already convinced that "imperceptible" effects can be bad---if something is imperceptible, isn't that just a comment on the quality of someone's sensory system?
+<br>
+There are a ton of examples like this, with drops of water or torturers with buttons that cause an imperceptible increase in pain. These are meant to dispute the idea that imperceptible effects can't be bad. I find these utterly boring, probably because I'm already convinced that "imperceptible" effects can be bad---if something is imperceptible, isn't that just a comment on the quality of someone's sensory system?
 
 ## Morality decompositions
 
@@ -338,7 +339,7 @@ As well as having different moral theories, you can take a theory and break it u
 
 Somewhat separate from morals are *motives*, the desires that animate us. Maybe the *desire itself* to take care of our kids makes us happy, independent of the effects of that desire. You might say that in an ideal world, we would have motives **C**, but that given that many people are jerks, we should have motives **D** instead.
 
-Finally, you can also think about **E**, how we should react to bad acts. (Here no theory is needed in a perfect world!) You can picture these different parts of a moral theory like this
+Finally, you can also think about **E**, how we should react to bad acts. (Here no theory is needed in a perfect world!) You can picture these different parts of a moral theory like this:
 
 |                   | Ideal               | Practical               |
 | ----------------- | ------------------- | ----------------------- |
@@ -391,6 +392,7 @@ This is (roughly) where Parfit stops. But you can keep going. Maybe what you sho
 
 Or maybe all this is outweighed by the fact that your lies could be discovered or that dishonesty has other bad effects? And if you think lying is bad, does that mean that even the original gambit of trying to create a norm of 10% is bad?
 
+<br>
 I could keep going forever here, but you get the point---things spiral and it never ends.
 
 Sadly, that's my main conclusion from all of this. Nothing works. Whatever system you commit to, it's always possible to jump up one level of abstraction and break things. There's no answer for this, or at least Parfit doesn't provide one. (Though honestly, in practice things don't get broken *too* badly, and we can solve most of the problems while only climbing the abstraction ladder a level or two.)
