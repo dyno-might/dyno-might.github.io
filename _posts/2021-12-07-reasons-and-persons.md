@@ -5,7 +5,7 @@ image: /img/reasons-and-persons/water.jpg
 tags: philosophy
 description: "A review of the thought experiments in Reasons and Persons by Derek Parfit (part one)"
 permalink: /reasons-and-persons/
-background_color: rgb(0,0,0)
+background_color: rgb(198,198,205)
 head: "<style>
 img{
     display:block;
