@@ -61,6 +61,16 @@ table{
 "
 ---
 
+You live with a group of utterly rational and self-interested people on an island, gathering coconuts to survive.
+
+Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational *except* when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, “*I will gather no more coconuts. Either you do it for me, or I’ll burn the coconut trees and we'll all starve*.” 
+
+You regretfully conclude that your only choice is to capitulate. But as you gather coconuts for Alice every night you wonder, where did you go wrong?
+
+Eventually, you realize: Upon arrival on the island, your first task should have been to implant a machine in *your* brain and promise, "*If anyone else installs any machines in their brains, then* I *will burn the coconut trees*."
+
+---
+
 I've long been fascinated by Derek Parfit's *Reasons and Persons*. This is often listed as a favorite philosophy book, e.g. by [Peter Singer](https://www.theguardian.com/books/2001/apr/06/bestbooks.philosophy) and [David Chalmers](http://www.whatisitliketobeaphilosopher.com/david-chalmers). How can you not love something that starts like this?
 
 > We are particular people. I have my life to live, you have yours. What  do these facts involve? What makes me the same person throughout my  life, and a different person from you? And what is the importance of these facts?
@@ -118,7 +128,7 @@ Adding an exception like, "Follow your self interest unless you made a promise" 
 
 ## On rational irrationality
 
-As further evidence that self-interest isn't necessarily good for you, there are situations where you might rationally choose to make yourself crazy.
+As further evidence that self-interest isn't necessarily good for you, there are situations where you might rationally choose to make yourself crazy. One is the story of Alice's brain modification at the beginning of this post. Here's a similar one.
 
 **Schelling’s answer to armed robbery**
 
@@ -127,16 +137,6 @@ A burglar breaks into your house. He threatens that you must open your safe or h
 Fortunately, you are an expert on [conflict strategy](https://en.wikipedia.org/wiki/Thomas_Schelling#The_Strategy_of_Conflict_(1960)) and have a potion that makes you temporarily indifferent to the lives of your kids.  You quickly drink it and then laugh at the man's threats. "You want to kill my daughter? Go ahead!"
 
 The burglar realizes that there's nothing to be gained by hurting anyone, so he leaves before the police show up.
-
-**Alice's brain modification**
-
-You live with a group of people on an island, [gathering and eating coconuts](https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/). You are all rational and self-interested.
-
-Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational *except* when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, “I will not be gathering any more coconuts. Either you gather coconuts for me, or I’ll burn down all the coconut trees and we'll all starve and die.” 
-
-You regretfully conclude that your only choice is to do Alice's work for her. But you wonder: Did you do go wrong somewhere?
-
-Eventually, you realize: Upon arrival on the island, your first task should have been to implant a machine in *your* brain and promise, "I'll burn down the coconut trees if anyone else installs any machines in their brains."
 
 ## On how deontology gets into trouble
 
@@ -194,7 +194,7 @@ Now, the top minds of humanity get together. They calculate that if they transfo
 
 Time passes. By the year 2907, people live in small orbital space clusters. In this new situation, people would be happier if their circle of concern happened to be everyone in their cluster. But they're stuck with their old outlook.
 
-Fortunately, a small group had refused the vaccine and endured secret consequentialist misery over the centuries. They decide their time has come, and so they re-release the alien virus. After the population is converted back to consequentialism, they calculate the moral outlook suited for the current age and engineer a virus that gives people that morality. Since everyone is (now) consequentialist, they agree that this is a good thing, so everyone takes the virus. They again destroy all the evidence, except leaving a secret cabal to keep the flame of consequentialism alive, waiting for the day to again inflict a brief flash of enlightenment on everyone else.
+Fortunately, a small group had refused the vaccine and endured secret consequentialist misery over the centuries. They decide their time has come, and so they re-release the alien virus. After the population is converted back to consequentialism, they calculate the moral outlook suited for the current age and engineer a virus that gives people that morality. Since everyone is (currently, again) consequentialist, they agree that this is a good thing, so everyone takes the virus. They again destroy all the evidence, except leaving a secret cabal to keep the flame of consequentialism alive, waiting for the day to again inflict a brief flash of enlightenment on everyone else.
 
 <br>
 The argument here is that, sure, consequentialism might lead people to choose some other (non-consequentialist) morality. But even if that's true, people should keep some trace of consequentialism around in case circumstances change and that secondary morality needs to be adjusted.
