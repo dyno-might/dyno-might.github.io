@@ -2,9 +2,12 @@
 layout: default
 ---
 
+{% comment %}ADD THIS BACK IF YOU WANT CONTENT BACK{% endcomment %}
+{% comment %}
 <div class="content">
     {{ content }}
 </div>
+{% endcomment %}
 
 <div class="columns is-multiline">
     {% for post in paginator.posts %}
@@ -12,7 +15,6 @@ layout: default
         {% include post-item.html %}
     </div>
     {% endfor %}
-
 
     {% comment %}
     ADD THIS BACK IF YOU WANT PAGINATION AGAIN
