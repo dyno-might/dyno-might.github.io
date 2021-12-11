@@ -29,11 +29,11 @@ Here's an **Obvious problem**:
 1. There are 10 doors. A car is behind a random door, goats behind the others.
 2. Do you want what's behind door 1, or what's behind all the other doors?
 
-That's obvious, right? Well, how about the **Monty Hall problem**?
+That's easy, right? Well, how about the **Monty Hall problem**?
 
 1. There are three doors. A car is behind one random door, goats behind the others.
 2. You pick one door.
-3. The host picks another door that contains a goat, and opens it.
+3. The host picks another door that contains a goat and opens it.
 4. Should you keep your original door, or switch to the other closed door?
 
 Many people guess it doesn't matter if you switch. But in reality, switching gets you the car 2/3 of the time.
@@ -102,7 +102,7 @@ Let's update the game again (new part in bold).
 
 The key insight is this: When Monty shows you that 8 of the 9 other doors contain goats, you haven't learned anything relevant to your decision. You *already knew there were at least 8 goats behind the other doors*! So this is just like game 2. Option B still gets you the car 90% of the time.
 
-Want more intuition? Suppose you picked door 3. Imagne Monty walking past the doors, opening doors 1, 2, 4, 5, 6, **skipping 7**, then opening 8, 9, and 10. Doesn't door 7 seem special?
+Want more intuition? Suppose you picked door 3. Imagine Monty walking past the doors, opening doors 1, 2, 4, 5, 6, **skipping 7**, then opening 8, 9, and 10. Doesn't door 7 seem special?
 
 ## Game 4
 
@@ -119,7 +119,7 @@ Let's make another change. Finally, we arrive at a game very similar to Monty Ha
  <img src="/img/monty-hall/game4.png">
 </div>
 
-The only difference with Game 3 is that option B doesn’t get you the 8 visible goats. Since you don’t care about goats, this makes no difference. This is still just like the game 3. You get the car 90% of the time by switching.
+The only difference with Game 3 is that option B doesn’t get you the 8 visible goats. Since you don’t care about goats, this makes no difference. This is still just like game 3. You get the car 90% of the time by switching.
 
 ## Game 5 (Classic Monty Hall)
 
@@ -168,4 +168,4 @@ Monty promises 8 goats behind the other doors instead of showing you.<br>
 
   * There are [some](https://marginalrevolution.com/marginalrevolution/2019/09/the-intuitive-monty-hall-problem.html) [other](https://twitter.com/jben0/status/1174180200072011776) [attempts](https://statmodeling.stat.columbia.edu/2019/09/19/alternative-more-intuitive-formulation-of-monte-hall-problem/) at [variants](https://math.stackexchange.com/questions/96826/the-monty-hall-problem/3360686#3360686) of the Monty Hall problem, also intended to be more intuitive. These involve switching the doors for "boxers".
 
-  * Monty Hall was actually named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a miracle for confused students or a tragedy for puns.
+  * Monty Hall was named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a miracle for confused students or a tragedy for puns.
