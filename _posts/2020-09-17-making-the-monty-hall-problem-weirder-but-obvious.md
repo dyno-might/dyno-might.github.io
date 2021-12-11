@@ -140,7 +140,7 @@ Of course, you still want to choose option B. The chance of success is now 2/3 i
 
 ## Side Notes
 
-  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive: If the had picked a random door, the intuition that it doesn't matter if you switch would be correct!
+  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive: If the host had picked a random door, the intuition that it doesn't matter if you switch would be correct!
 
   * It might be helpful to draw a diagram of the relationship of the different games, starting with classic Monty Hall and ending with the Obvious version.
 
