@@ -71,7 +71,7 @@ Eventually, you realize: Upon arrival on the island, your first task should have
 
 
 <br>
-I've long been fascinated by Derek Parfit's *Reasons and Persons*, [often](https://www.theguardian.com/books/2001/apr/06/bestbooks.philosophy) [considered](http://www.whatisitliketobeaphilosopher.com/david-chalmers) on of the most influential books on philosophy in the 20th century. How can you not love something that tries to answer these questions?
+I've long been fascinated by Derek Parfit's *Reasons and Persons*, [often](https://www.theguardian.com/books/2001/apr/06/bestbooks.philosophy) [called](http://www.whatisitliketobeaphilosopher.com/david-chalmers) one of the most influential philosophy books of the 20th century. How can you not love something that tries to answer these questions:
 
 > We are particular people. I have my life to live, you have yours. What  do these facts involve? What makes me the same person throughout my  life, and a different person from you? And what is the importance of these facts?
 
@@ -81,15 +81,15 @@ How? I'll tell you how! Turn to page 107.
 
 There are two issues here.
 
-For one, this is hard to read. Now, Parfit isn't *trying* to be obscure, it's just that he's happy to make things 100% more difficult to get 10% more precision. I'm sure that's right for academic philosophers, but I'd like a different tradeoff.
+For one, this is hard to read. Now, Parfit isn't trying to be obscure, he's just happy to double the difficulty for 10% more precision. I'm sure that's right for academic philosophers, but I'd like a different tradeoff.
 
-Second, I sometimes, well... I sometimes don't care about the questions Parfit is trying to answer. The above paragraph is asking if people who think morality is created by society should accept a certain way of splitting up moral theories. To me, that feels like agonizing about definitions.
+Second, I sometimes... Well, I sometimes don't care about the questions Parfit is trying to answer. The above paragraph asks if people who think morality is created by society should accept a certain way of splitting up moral theories. To me, that feels like agonizing about definitions.
 
-You might think that these issues mean the book is uninteresting, but that's not true *at all*. Parfit's arguments are anchored by a series of evocative thought experiments. These are accessible and mind-expanding independently of the hulking logical arguments he builds on top of them.
+You might think all this leaves the book uninteresting, but that's not true *at all*. Parfit's arguments are anchored by a series of evocative thought experiments. These are accessible and mind-expanding independently of the hulking logical arguments on top of them.
 
 So this is the summary of *Reasons and Persons* I would have liked to read: The goal is to provide a tour of the thought experiments and let you (mostly) decide for yourself what you think about them.
 
-*Warning*: I often changed the scenarios quite a lot, and added some new ones. (Parfit has no alien viruses.) I also changed the order of things, and greatly shortened or dropped most of the detailed arguments. I think this still gives *a lot* of the value, but it's not a full representation of Parfit's ideas.
+*Warning*: I often changed the scenarios quite a lot. (Parfit has no alien viruses.) I also changed the order of things, and greatly shortened or dropped most of the detailed arguments. I think this still gives *a lot* of the value, but it's definitely not a full representation of Parfit's ideas.
 
 <div style="font-size:90%" markdown="1">
 
@@ -101,7 +101,7 @@ So this is the summary of *Reasons and Persons* I would have liked to read: The 
 
 ## How self-interest gets into trouble
 
-The first part of the book asks, do ethical theories eat themselves? Let's start with the idea that it's rational to do what's best for you.
+The first part of the book asks, do ethical theories eat themselves? We'll start with the idea that it's rational to do what's best for you.
 
 **The desert hitchhiker**
 
