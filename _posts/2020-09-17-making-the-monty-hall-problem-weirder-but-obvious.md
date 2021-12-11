@@ -140,28 +140,32 @@ Of course, you still want to choose option B. The chance of success is now 2/3 i
 
 ## Side Notes
 
-  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive. Many people intuitively think it doesn't matter if you switch. And that *would be correct* if the door had been opened at random!
+  * It’s important that Monty looked behind the doors before choosing which to open. This is where people’s intuition usually fails. If he had chosen a door at random — *in a way that he risked possibly exposing a car*, then the situation would be different. (In that case, there's no advantage or harm in switching.) But he doesn’t choose the door at random. He deliberately chooses to show you goats. Since this is always possible, it tells you nothing. I think this is the crux of what makes this problem unintuitive: If the had picked a random door, the intuition that it doesn't matter if you switch would be correct!
 
-  * It might be helpful to draw a diagram of the relationship of the different games, starting with classic Monty Hall and ending with the extreme version.
+  * It might be helpful to draw a diagram of the relationship of the different games, starting with classic Monty Hall and ending with the Obvious version.
 
-> Game 5 (Classic Monty Hall)  
+<div style="text-align:center; text-size:70%; margin-left:15%; margin-right:15%;" markdown="1">
+
+**Game 5 (Classic Monty Hall)**<br>
  ↓  
- (Use 10 doors instead of 3)  
+ Use 10 doors instead of 3.<br>
  ↓   
-Game 4  
+**Game 4**<br>
  ↓  
- (If you switch, get the contents of *all* other doors, not just the other closed door.)  
+If you switch, you get the contents of *all* other doors, not just the other closed door.<br>
  ↓  
-Game 3  
+**Game 3**<br>
  ↓  
- (Monty promises 8 goats behind the other doors instead of showing you.)  
+Monty promises 8 goats behind the other doors instead of showing you.<br>
  ↓  
-Game 2  
+**Game 2**<br>
  ↓  
- (Monty doesn't bother promising.)  
+ Monty doesn't bother promising.<br>
  ↓  
-Game 1 {% comment %}(Dynomight™ Monty Hall) {% endcomment %}
+**Game 1 (Obvious Monty Hall)** {% comment %}(Dynomight™ Monty Hall) {% endcomment %}
+
+</div>
 
   * There are [some](https://marginalrevolution.com/marginalrevolution/2019/09/the-intuitive-monty-hall-problem.html) [other](https://twitter.com/jben0/status/1174180200072011776) [attempts](https://statmodeling.stat.columbia.edu/2019/09/19/alternative-more-intuitive-formulation-of-monte-hall-problem/) at [variants](https://math.stackexchange.com/questions/96826/the-monty-hall-problem/3360686#3360686) of the Monty Hall problem, also intended to be more intuitive. These involve switching the doors for "boxers".
 
-  * Monty Hall was actually named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a tragedy for puns or a miracle for confused students.
+  * Monty Hall was actually named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a miracle for confused students or a tragedy for puns.
