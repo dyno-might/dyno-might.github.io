@@ -2,9 +2,9 @@
 layout: post
 title: "Making the Monty Hall problem weirder but obvious"
 image: /img/monty-hall/monty.jpg
-description: The Monty Hall problem's solution is obvious if you start with a weird version of it.
+description: Would you like what's behind one door or what's behind the other nine?
 tags: explainer statistics math
-last_updated: 2021-02-16
+last_updated: 2021-12-11
 permalink: /:year/:month/:day/:title/
 ---
 
@@ -24,6 +24,23 @@ margin-right: auto;
 </style>
 </head>
 
+Here's an **Obvious problem**:
+
+1. There are 10 doors. A car is behind a random door, goats behind the others.
+2. Do you want what's behind door 1, or what's behind all the other doors?
+
+That's obvious, right? Well, how about the **Monty Hall problem**?
+
+1. There are three doors. A car is behind one random door, goats behind the others.
+2. You pick one door.
+3. The host picks another door that contains a goat, and opens it.
+4. Should you keep your original door, or switch to the other closed door?
+
+Many people guess it doesn't matter if you switch. But in reality, switching gets you the car 2/3 of the time.
+
+This post claims that these problems are really just disguised versions of each other. We'll start with the Obvious problem, apply a series of small changes that clearly don't change the solution, and end up at the Monty Hall problem.
+
+{% comment %}
 <div align="right" style="font-size:70%">(Also available in <a href="https://www.youtube.com/watch?v=LCBTUtApvU8">video form</a>.)</div>
 
 The [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem) is famously unintuitive. This post starts with an extreme version where the solution is blindingly obvious. We then go through a series of small changes. It will be clear that these don't affect the solution. At the end, we arrive at the classic Monty Hall problem.
@@ -33,8 +50,9 @@ For reference, the [classic formulation](https://en.wikipedia.org/wiki/Monty_Hal
 > Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, which has a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
 
 Intuitively, many people guess it doesn't matter if you switch. But it does. You get the car 2/3 of the time if you switch, and 1/3 of the time if you don't. Why?
+{% endcomment %}
 
-## Game 1 (Dynomight™ Monty Hall)
+## Game 1 {% comment %}(Dynomight™ Monty Hall){% endcomment %}
 
 Here's our first game.
 
@@ -128,21 +146,21 @@ Of course, you still want to choose option B. The chance of success is now 2/3 i
 
 > Game 5 (Classic Monty Hall)  
  ↓  
- ↓ (Use 10 doors instead of 3)  
+ (Use 10 doors instead of 3)  
  ↓   
 Game 4  
  ↓  
- ↓ (If you switch, get the contents of *all* other doors, not just the other closed door.)  
+ (If you switch, get the contents of *all* other doors, not just the other closed door.)  
  ↓  
 Game 3  
  ↓  
- ↓ (Monty promises 8 goats behind the other doors instead of showing you.)  
+ (Monty promises 8 goats behind the other doors instead of showing you.)  
  ↓  
 Game 2  
  ↓  
- ↓ (Monty doesn't bother promising.)  
+ (Monty doesn't bother promising.)  
  ↓  
-Game 1 (Dynomight™ Monty Hall) 
+Game 1 {% comment %}(Dynomight™ Monty Hall) {% endcomment %}
 
   * There are [some](https://marginalrevolution.com/marginalrevolution/2019/09/the-intuitive-monty-hall-problem.html) [other](https://twitter.com/jben0/status/1174180200072011776) [attempts](https://statmodeling.stat.columbia.edu/2019/09/19/alternative-more-intuitive-formulation-of-monte-hall-problem/) at [variants](https://math.stackexchange.com/questions/96826/the-monty-hall-problem/3360686#3360686) of the Monty Hall problem, also intended to be more intuitive. These involve switching the doors for "boxers".
 
