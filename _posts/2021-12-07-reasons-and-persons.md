@@ -65,13 +65,13 @@ You live with a group of utterly rational and self-interested people on an islan
 
 Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational *except* when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, “*I will gather no more coconuts. Either you do it for me, or I’ll burn the coconut trees and we'll all starve*.” 
 
-You regretfully conclude that your only choice is to capitulate. But as you gather coconuts for Alice every night you wonder, where did you go wrong?
+You regretfully conclude that your only choice is to capitulate. But every night as you gather coconuts for Alice, you wonder, where did you go wrong?
 
 Eventually, you realize: Upon arrival on the island, your first task should have been to implant a machine in *your* brain and promise, "*If anyone else installs any machines in their brains, then* I *will burn the coconut trees*."
 
----
 
-I've long been fascinated by Derek Parfit's *Reasons and Persons*. This is often listed as a favorite philosophy book, e.g. by [Peter Singer](https://www.theguardian.com/books/2001/apr/06/bestbooks.philosophy) and [David Chalmers](http://www.whatisitliketobeaphilosopher.com/david-chalmers). How can you not love something that starts like this?
+<br>
+I've long been fascinated by Derek Parfit's *Reasons and Persons*, [often](https://www.theguardian.com/books/2001/apr/06/bestbooks.philosophy) [considered](http://www.whatisitliketobeaphilosopher.com/david-chalmers) on of the most influential books on philosophy in the 20th century. How can you not love something that tries to answer these questions?
 
 > We are particular people. I have my life to live, you have yours. What  do these facts involve? What makes me the same person throughout my  life, and a different person from you? And what is the importance of these facts?
 
