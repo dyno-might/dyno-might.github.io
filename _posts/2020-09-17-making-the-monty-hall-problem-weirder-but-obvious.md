@@ -169,3 +169,5 @@ Monty promises 8 goats behind the other doors instead of showing you.<br>
   * There are [some](https://marginalrevolution.com/marginalrevolution/2019/09/the-intuitive-monty-hall-problem.html) [other](https://twitter.com/jben0/status/1174180200072011776) [attempts](https://statmodeling.stat.columbia.edu/2019/09/19/alternative-more-intuitive-formulation-of-monte-hall-problem/) at [variants](https://math.stackexchange.com/questions/96826/the-monty-hall-problem/3360686#3360686) of the Monty Hall problem, also intended to be more intuitive. These involve switching the doors for "boxers".
 
   * Monty Hall was named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a miracle for confused students or a tragedy for puns.
+
+ <div align="right" style="font-size:70%">(This post is also available in <a href="https://www.youtube.com/watch?v=LCBTUtApvU8">video form</a>.)</div>
