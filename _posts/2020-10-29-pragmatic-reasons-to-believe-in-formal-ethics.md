@@ -84,7 +84,7 @@ This is why public health has invented concepts like [disability adjusted life y
 
 # Commonsense ethics have a bad track record
 
-Not that long ago, most people believed that women shouldn't vote, homosexuality should be illegal, and it cannabis users should be in jail. In 1959, [96%](https://news.gallup.com/poll/163697/approve-marriage-blacks-whites.aspx) of Americans disapproved of interracial marriage. Not long before that, many people believed slavery was acceptable. It's easy for us to believe monstrous things.
+Not that long ago, most people believed that women shouldn't vote, homosexuality should be illegal, and cannabis users should be in jail. In 1959, [96%](https://news.gallup.com/poll/163697/approve-marriage-blacks-whites.aspx) of Americans disapproved of interracial marriage. Not long before that, many people believed slavery was acceptable. It's easy for us to believe monstrous things.
 
 Given this, you have to wonder: Won't people in the future be horrified by some of our beliefs? Unless this is the moment when we finally got everything right, the answer is yes. You have to worry what those beliefs are.
 
