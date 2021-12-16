@@ -302,18 +302,18 @@ I could spend \$1000 to save the life of a child somewhere, but I don't.
 
 **1st poisoning**
 
-Alfred gave Carlos a poison that will painfully kill him in a few minutes. Before that happens, Bert shows up and shoots Carlos, killing him instantly and painlessly. Was that wrong?
+Alfred gave Carlos a poison that will painfully kill him in a few minutes. Before that happens, Bert shows up and shoots Carlos, killing him instantly and painlessly. {% comment %} Was that wrong? {% endcomment %}
 
 **2nd poisoning**
 
-Alfred gave Carlos a poison that will painfully kill him in a few minutes. Meanwhile, you are about to be hit by a truck. Bert throws Carlos in front of the truck, instantly killing him and saving you. Was that right?
+Alfred gave Carlos a poison that will painfully kill him in a few minutes. Meanwhile, you are about to be hit by a truck. Bert throws Carlos in front of the truck, instantly killing him and saving you. {% comment %}Was that right? {% endcomment %}
 
 **Drops of water**
 
 A thousand thirsty people are in the desert. A truck is going out to them with a big barrel in it. You have a single liter of water, that you could pour into the barrel to be distributed equally to everyone. No one can sense the difference of 1mL of water. Does that mean that you don't need to add your water?
 
 <br>
-There are a ton of examples like this, with drops of water or torturers with buttons that cause an imperceptible increase in pain. These are meant to dispute the idea that imperceptible effects can't be bad. I find these utterly boring, probably because I'm already convinced that "imperceptible" effects can be bad---if something is imperceptible, isn't that just a comment on the quality of someone's sensory system?
+There are a ton of examples like this, with drops of water or torturers with buttons that cause an imperceptible increase in pain. These are meant to dispute the idea that imperceptible effects can't be bad. I find these boring, probably because I'm already convinced that imperceptible effects can be bad---isn't that just a comment on the quality of someone's sensory system?
 
 ## Morality decompositions
 
@@ -372,29 +372,29 @@ Now, it's bad that self-interest theory is self-defeating, but that doesn't mean
 
 It's more of a problem that consequentialism and commonsense morality are self-defeating. After all, these are moral theories---you'd expect them to lead to optimal outcomes.
 
-Parfit suggests that a solution might come from some kind of merger of consequentialism and commonsense morality. He doesn't say exactly how this would work (except that it's not simple) but suggests a kind of agent-neutral version of commonsense morality as a starting point: Maybe we should all collectively work to make "kids are fed by their parents" happen, as opposed to robotically trying to feed *all* kids (consequentialism) or just trying to feed *our* kids (commonsense morality).
+Parfit suggests that a solution might come from some kind of merger of consequentialism and commonsense morality. He doesn't say exactly how this would work (except that it's complicated) but suggests a kind of agent-neutral version of commonsense morality as a starting point: Maybe we should all collectively work to make "kids are fed by their parents" happen, as opposed to robotically trying to feed *all* kids (consequentialism) or just trying to feed *our* kids (commonsense morality).
 
 ## Thoughts
 
 I had two major thoughts after reading this. First off, it's striking that Parfit doesn't engage with economic ideas. For example, he is concerned that self-interest theory might lead to poor self-interested outcomes, and that consequentialism might lead to poor consequentialist outcomes. That's fine, but surely the major problem in our actual world is that *consequentialist* behavior leads to poor *self-interested* outcomes. The implicit view in economics is that it's society's job to align selfish interests with public interests. I'd have liked to know what Parfit thought about that.
 
-Similarly, Parfit is concerned about the bad effects of multi-party prisoners dilemmas. I agree these are a serious, problem, but let's remember that these also have *positive* effects. After all, they are the entire basis of capitalism! Companies could make massive profits if they all agreed to keep their prices high. But usually---we hope---at least one greedy company will try to screw the others over by cutting prices, and so the cartel collapses.
+Similarly, Parfit is concerned about the bad effects of multi-party prisoners dilemmas. I agree these are a serious problem, but let's remember that these also have *positive* effects. After all, they are the entire basis of capitalism! Companies could make massive profits if they all agreed to keep their prices high. But usually---we hope---at least one greedy company will try to screw the others over by cutting prices, and so the cartel collapses.
 
-A second thought is just how strong of an influence Schelling's [The Strategy of Conflict](https://en.wikipedia.org/wiki/Thomas_Schelling#The_Strategy_of_Conflict_(1960)) is. While Schelling is concerned with war, conflict, negotiation, etc., it is remarkably similar in that it starts with simple principles but as you start to consider reactions and counter-reactions, you seem to get a spiral of ever-increasing levels of complexity. Parfit is aware of this, but he never seems to push things *quite* as far as he could. Here's an example:
+A second thought is just how strong of an influence Schelling's [*The Strategy of Conflict*](https://en.wikipedia.org/wiki/Thomas_Schelling#The_Strategy_of_Conflict_(1960)) is. While Schelling is concerned with war, conflict, negotiation, etc., it is remarkably similar in that it starts with simple principles but as you start to consider reactions and counter-reactions, you seem to get a spiral of ever-increasing levels of complexity. (If you haven't read this book, it's great.) Parfit is aware of this, but he never seems to push things *quite* as far as he could. Here's an example:
 
 **How much should the rich give to the poor?**
 
 After making billions in Silicon Valley, you read [The Most Good You Can Do](https://en.wikipedia.org/wiki/The_Most_Good_You_Can_Do) and decide you're a consequentialist. You ask yourself, how much of your money should you give away? Under mild assumptions, the answer seems to be *almost everything*.
 
-But then, you have Thomas Schelling over for dinner. He points out that you should be careful: When you donate, you aren't just giving away your money, you are also helping to establish a *social norm* for how much the rich should give away. Perhaps giving away almost everything will make people think that consequentialists are crazy, and so many people will give nothing. So maybe it would be better to try to establish a gentle norm, like giving away 10% of your wealth.
+But then you have Thomas Schelling over for dinner. He says you should be careful: When you donate, you aren't just giving away your money, you are also helping to set a *social norm* for how much the rich should give away. Perhaps giving away almost everything will make people think that consequentialists are crazy, and so many people will give nothing. Maybe it would be better to try to establish a gentle norm, like giving away 10% of your wealth.
 
-This is (roughly) where Parfit stops. But you can keep going. Maybe what you should do is *secretly* donate almost all your money, but pretend in public like you only gave away 10%, so people don't realize consequentialism is a bummer. And maybe at the same time, you should try to secretly find other like-minded billionaires and tell them that you did actually give most of your money away? Or maybe you should build an AI to predict each person's appetite for donation, and coordinate a society-wide deception so that everyone thinks there is a different norm?
+This is (roughly) where Parfit stops. But you can keep going. Maybe what you should do is *secretly* donate almost all your money, but pretend in public like you only gave away 10% so people don't think consequentialism is a bummer. And maybe at the same time you should secretly find other like-minded billionaires and tell them that you did actually give most of your money away? Or maybe you should build an AI to predict each person's appetite for donation, and coordinate a society-wide deception so that everyone thinks there is a different norm?
 
 Or maybe all this is outweighed by the fact that your lies could be discovered or that dishonesty has other bad effects? And if you think lying is bad, does that mean that even the original gambit of trying to create a norm of 10% is bad?
 
 <br>
 I could keep going forever here, but you get the point---things spiral and it never ends.
 
-Sadly, that's my main conclusion from all of this. Nothing works. Whatever system you commit to, it's always possible to jump up one level of abstraction and break things. There's no answer for this, or at least Parfit doesn't provide one. (Though honestly, in practice things don't get broken *too* badly, and we can solve most of the problems while only climbing the abstraction ladder a level or two.)
+Sadly, that's my main conclusion from all of this. Nothing works. Whatever system you commit to, it's always possible to jump up one level of abstraction and break things. There's no answer for this, or at least Parfit doesn't provide one. (Though probably in practice things don't get broken *too* badly, and we can solve most of the problems while only climbing the abstraction ladder a level or two.)
 
-So that's part one of the book: Parfit breaks morality. In part two (coming soon) he will wield time for even more breakage, with gambits like "if time is an illusion, then..." Part three is the good stuff---breaking the idea of personal identity.
+So that's part one of the book: Parfit breaks morality. In part two he will wield time for even more breakage, with gambits like "if time is an illusion, then..." Part three is the good stuff---breaking the idea of personal identity (coming soon).
