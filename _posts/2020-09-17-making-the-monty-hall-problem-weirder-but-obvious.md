@@ -2,7 +2,7 @@
 layout: post
 title: "Making the Monty Hall problem weirder but obvious"
 image: /img/monty-hall/monty.jpg
-description: Would you like what's behind one door or what's behind the other nine?
+description: "It's this simple: Do you want what's behind one door or the other nine?"
 tags: explainer statistics math
 last_updated: 2021-12-16
 permalink: /:year/:month/:day/:title/
@@ -24,7 +24,7 @@ margin-right: auto;
 </style>
 </head>
 
-Here's an **Obvious problem**:
+Here's an **Obvious Problem**:
 
 1. There are 10 doors. A car is behind a random door, goats behind the others.
 2. Do you want what's behind door 1, or what's behind all the other doors?
@@ -38,7 +38,7 @@ That's easy, right? Well, how about the **Monty Hall problem**?
 
 Many people guess it doesn't matter if you switch. But in reality, switching gets you the car 2/3 of the time.
 
-This post claims that these problems are really just disguised versions of each other. We'll start with the Obvious problem, apply a series of small changes that clearly don't change the solution, and end up at the Monty Hall problem.
+This post claims that these problems are really just disguised versions of each other. We'll start with the Obvious Problem, apply a series of small changes that clearly don't change the solution, and end up at the Monty Hall problem.
 
 {% comment %}
 <div align="right" style="font-size:70%">(Also available in <a href="https://www.youtube.com/watch?v=LCBTUtApvU8">video form</a>.)</div>
