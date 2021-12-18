@@ -119,7 +119,7 @@ Why are recent presidents usually extraverted and low in agreeableness, but othe
 
 This isn't to say that presidents are all narcissists or psychopaths. (Though, who are we kidding, some are.) It's widely agreed now that "narcissism" and "psychopathy" aren't discrete categories. Rather, they are "spectrum traits" that we all have to some degree.
 
-How do we arrive at a spectrum of psychopathy? It's another equilibrium process. If there were no psychopaths, maybe the first one to show up would probably manipulate everyone and have a thousand kids. As psychopaths became more common, everyone's defenses go up, and the strategy becomes less useful. It's not shocking that these traits might be useful in politics.
+How do we arrive at a spectrum of psychopathy? It's another equilibrium process. If there were no psychopaths, maybe the first one to show up would manipulate everyone and have a thousand kids. As psychopaths became more common, everyone's defenses go up, and the strategy becomes less useful. It's not shocking that these traits might be useful in politics.
 
 ## Summary
 
