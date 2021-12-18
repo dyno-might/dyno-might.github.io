@@ -100,17 +100,17 @@ While this is *understandable*, I think it's backwards. In my fantasies, these c
 
 **Superhero:** Damn you, egghead! *Who are you to decide what a human life is worth?*
 
-**Egghead:** I don't.
+**Egghead:** I'm not!
 
 **Superhero:** You just said...
 
 **Egghead:** Everyone puts numbers on human lives all the time. Every time you pay more for a safer car or take a more dangerous but better paying job, you are doing that. I'm just averaging the choices real people make all the time.
 
-**Superhero:** Oh. Well... Fuck it, blow up the dam, I guess.
+**Superhero:** Oh. Well... Screw it, blow up the dam, I guess.
 
-This is the right way to think about ethics. We don't come up with a formal ethical system and then derive the consequences for everyday life. No, we look at the choices in everyday life we believe are clear and derive an ethical system to *generalize* these.
+This is the right way to think about ethics. We don't come up with a formal ethical system and then derive the consequences for everyday life. No, we look at the choices in everyday life we think are clear and derive an ethical system to *generalize* these.
 
-There's a tension between (a) deriving an ethical system to generalize from commonsense ethics and (b) hoping that ethical system will reveal flaws in your commonsense ethics. This is a real problem that I don't know how to fully resolve. On the other hand, a child might have this set of commonsense ethics:
+Now, there's a tension between (a) deriving an ethical system to generalize from commonsense ethics and (b) hoping that ethical system will reveal flaws in your commonsense ethics. This is a real problem that I don't know how to fully resolve. On the other hand, a child might have this set of commonsense ethics:
 
 * It's bad to hit my parents.
 * It's bad to hit my friends.
