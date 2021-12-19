@@ -53,7 +53,7 @@ table{
 </style>"
 ---
 
-All psychological traits are heritable. This is [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:
+All psychological traits are heritable. This is the [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:
 
 * Religiosity: [44%](https://doi.org/10.1111%2Fj.1467-6494.2005.00316.x)
 * Schizophrenia: [79%](https://doi.org/10.1016/j.biopsych.2017.08.017)
@@ -71,7 +71,7 @@ I used to have a mental model something like this:  Each person has some number 
 ```
 </div>
 
-The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant).
+The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant). It isn't.
 
 So what *is* heritability? It's the ratio of the *genetic variance* of a trait with the *total variance*, including all causes. Since the environment is always changing, so is heritability.
 

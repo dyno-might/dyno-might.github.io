@@ -63,9 +63,9 @@ table{
 
 You live with a group of utterly rational and self-interested people on an island, gathering coconuts to survive.
 
-Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational *except* when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, “*I will gather no more coconuts. Either you do it for me, or I’ll burn the coconut trees and we'll all starve*.” 
+Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational *except* when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, “*I will gather no more coconuts. Either you do it for me, or I burn the coconut trees and we all starve*.” 
 
-You regretfully conclude that your only choice is to capitulate. But every night as you gather coconuts for Alice, you wonder, where did you go wrong?
+You regretfully conclude that your best choice is to capitulate. But every night as you gather coconuts for Alice, you wonder, where did you go wrong?
 
 Eventually, you realize: Upon arrival on the island, your first task should have been to implant a machine in *your* brain and promise, "*If anyone else installs any machines in their brains, then* I *will burn the coconut trees*."
 
