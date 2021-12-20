@@ -45,11 +45,20 @@ Is the US in the midst of a homelessness crisis? Many people think so, but that'
 
 ![overall homelessness in the US between 2010 and 2020](/img/homeless-crisis/overall-trend.svg)
 
-At a glance, this doesn't *look* very crisisy. Since 2015, things have only gone up by less than three percent.
+At a glance, this doesn't *look* very crisisy. Since 2015, things have gone up by less than three percent.
 
 Still, I think there *is* a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that.
 
-### Homelessness is much higher in some places.
+<div style="font-size:90%; line-height:110%;" markdown="1">
+
+* auto-gen TOC:
+{:toc}
+
+</div>
+
+## Homelessness in general
+
+**Homelessness is much higher in some places.**
 
 The rate of homelessness varies hugely between different states. Here's the percentage of the population in each state that was homeless in 2020.
 
@@ -65,7 +74,7 @@ In Mississippi it is 1 in 2500 (0.04%), while in New York State it is 1 in 210 (
 
 Now, when we talk about a crisis, there's an implication that things are getting worse. (You don't hear much about the *everyone you love will die and be forgotten "crisis"*...) We already saw that things are pretty stable at the national level. How are things changing in individual states?
 
-### Homelessness is increasing in some places and decreasing in others.
+**Homelessness is increasing in some places and decreasing in others.**
 
 Here's the change between 2015 and 2020, again as a percentage of each state's population.
 
@@ -79,7 +88,9 @@ The general pattern is increases close to California and decreases close to Flor
 
 This is a relatively simple story so far, but I don't think it fully captures what's going on. We have to go deeper.
 
-### There are different types of homelessness.
+## Types of homelessness
+
+**There are different types of homelessness.**
 
 Some people run out of money, get evicted, and stay at a shelter for a few weeks before moving in with family and eventually getting back on their feet. Other people have mental health issues and stay on the street for years. When we talk about a "homelessness crisis", we should try to distinguish these different situations.
 
@@ -91,7 +102,7 @@ We'll look at two attributes that people get during this count. First, people ar
 
 So, what types of homelessness does the US have?
 
-### Most homeless are non-chronic, and most non-chronic homeless are sheltered. But the chronic homeless are usually unsheltered.
+**Most homeless are non-chronic, and most non-chronic homeless are sheltered. But the chronic homeless are usually unsheltered.**
 
 Here are the fractions of people that fell into each of the four possible groups in 2020.
 
@@ -112,7 +123,7 @@ Here's how I think about this:
 
 That's the overall mix. But we have to worry about two things. First, is the mix changing over time? And second, how does the mix vary in different places?
 
-### Unsheltered and chronic homelessness is increasing.
+**Unsheltered and chronic homelessness is increasing.**
 
 Unfortunately, the mix is changing, and for the worse. The "best" type of homelessness (sheltered and non-chronic) is decreasing, while the other types are increasing.
 
@@ -140,7 +151,9 @@ This gets us closer to the truth, but I think it still doesn't get us that close
 
 OK, but how do things look in different places?
 
-### Chronic and unsheltered homelessness is much more common in some places than others.
+## Different types in different places
+
+**Chronic and unsheltered homelessness is much more common in some places than others.**
 
 Let's compare New York and California:
 
@@ -166,7 +179,7 @@ However, let me remind you---I can't emphasize this enough---this survey is done
 
 OK. The types of homelessness are different in different places, and they are changing over time. But how are they changing *in each place*? We still need to go deeper.
 
-### Unsheltered and chronic homelessness is getting worse in some places, particularly the West coast.
+**Unsheltered and chronic homelessness is getting worse in some places, particularly the West coast.**
 
 How are the different types of homelessness changing over time in each state? Let's again contrast New York and California:
 
@@ -196,7 +209,7 @@ How should we think about this? Here's my best attempt at a summary:
 
 There are some exceptions. For one thing, despite being close to California, Nevada and some of the Montana-esque states saw big decreases in certain categories. For another, the Northeast is weird and defies any attempt to summarize. Sheltered non-chronic homelessness decreased a lot in Massachusetts and Vermont but barely changed in New York or New Hampshire. Every other category is a random mishmash with no pattern. I tell you, on my worst days it's almost like reality is just completely indifferent to our desires to understand it with tidy little narratives.
 
----
+## Drugs and mental health
 
 And what about [meth](/p2p-meth/)? Theories abound that mental health and substance abuse are a huge part of the homelessness crisis.
 
@@ -204,9 +217,9 @@ Well, the yearly homelessness survey collects data on if the homeless are "sever
 
 Unfortunately, HUD doesn't publish data on these numbers. However, they do publish *reports*, both for the [entire nation](https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/?filter_Year=&filter_Scope=NatlTerrDC&filter_State=&filter_CoC=&program=CoC&group=PopSub), for [individual states](https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/?filter_Year=&filter_Scope=State&filter_State=&filter_CoC=&program=CoC&group=PopSub), and for [each individual region](https://www.hudexchange.info/programs/coc/coc-homeless-populations-and-subpopulations-reports/?filter_Year=&filter_Scope=CoC&filter_State=&filter_CoC=&program=CoC&group=PopSub).
 
-So, I did the sensible thing. I downloaded the .pdf files for each of the 6,082 different reports, wrote a script to convert each .pdf to plain text, wrote a parser for that text, compensated for 8 billion inconsistencies in how the reports were laid out, damn you HUD, damn you to hell, extracted the data for each of the above categories, and made plots.
+So, I did the sensible thing. I downloaded the .pdf files for each of the 6082 different reports, wrote a script to convert each .pdf to plain text, wrote a parser for that text, compensated for 8 billion inconsistencies in how the reports were laid out, damn you HUD, damn you to hell, extracted the data for each of the above categories, and made plots.
 
-### Nationally, there is only a small uptick in mental illness and substance abuse.
+**Nationally, there is only a small uptick in mental illness and substance abuse.**
 
 ![national rates of homelessness with mental health and substance abuse 2007-2020](/img/homeless-crisis/national/Entire Nation.svg)
 
@@ -222,7 +235,7 @@ I made plots for each of the 437 regions and states (you can see them below). Th
 
 To get more reliable numbers, I combined sheltered and unsheltered homelessness, took the average of mental health and substance abuse, and then applied a [smoothing function](https://en.wikipedia.org/wiki/Local_regression). I used the smoothed values below, which are hopefully less polluted by noise.
 
-### There are significant increases in mental illness and substance abuse in certain states.
+**There are significant increases in mental illness and substance abuse in certain states.**
 
 How many homeless people are there in each state with severe mental illness of substance abuse problems? Here are the numbers in 2020.
 
