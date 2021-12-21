@@ -5,6 +5,7 @@ subtitle:
 image: /img/deathvalleysky_prog.jpg
 hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
+hide_hero: True
 ---
 
 Wondering what to do with your life? Here's what I suggest:
