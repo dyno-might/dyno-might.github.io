@@ -5,11 +5,12 @@ subtitle:
 image: /img/deathvalleysky_prog.jpg
 hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
+hide_hero: True
 ---
 
-Here's most of the posts on this site, last updated Dec 9, 2021:
+Here's most of the posts on this site. (Somewhat experimental at the moment.)
 
 * [epub](dynomight.epub)
 * [pdf](dynomight.pdf)
 
-(Somewhat experimental at the moment.)
+Last updated Dec 9, 2021.
