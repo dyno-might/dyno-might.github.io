@@ -8,7 +8,7 @@ layout: default
     {{ content }}
 </div>
 {% endcomment %}
-<div style="text-align:right; font-size:60%; position:fixed; z-index:100; bottom: 0; right:0; background-color: white; opacity:.5; font-family:Montserrat;"><a href="/" style="color:black; text-decoration: underline;"> show images</a></div>
+<div style="text-align:right; font-size:60%; position:absolute; z-index:100; top: -148pt; right:-13pt; background-color: white; opacity:.5; font-family:Montserrat;"><a href="/" style="color:black; text-decoration: underline;">show<br>images</a></div>
 
 <div class="columns is-multiline" style="justify-content:center;">
 
@@ -18,13 +18,13 @@ layout: default
     
     {% assign year = post.date | date: "%Y" %}
     {% if year != oldyear %}
-    <div class="column is-8">
+    <div class="column is-8" style="font-family:Montserrat; text-align:center;">
     {{year}}
     </div>
     {% assign oldyear = year %}
     {% endif %}
 
-    <div class="column is-8">
+    <div class="column is-8" style="font-family:Montserrat;">
     <span style="display: inline-block; min-width:50pt;">{{ post.date | date: "%b %-d" }}</span>
     <a href="{{post.url}}">
         {{post.title}}
