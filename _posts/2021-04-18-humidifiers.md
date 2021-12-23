@@ -183,7 +183,7 @@ We have a [highly imperfect](/air/#how-particles-hurt-you) understanding of how 
 
 So we just don't know what the effects of breathing that stuff are. My guess is that the harms *are* lower than with the average particles in air pollution. So you can discount the from the "33.3 PM2.5 μg/m³ costs 1 disability-adjusted life year" heuristic. But how much? The worst-case estimates are so high that you need a very heavy discount for the risk to be negligible.
 
-There's also some evidence that after the particles from water get into the lungs, they *don't* just get absorbed and have no effect. [Umezawa et al. (2031)](https://doi.org/10.1186/1743-8977-10-64) exposed mice to the particles from ultrasonic humidifiers with either ultrapure water or high silica water for 14 days. They then extracted lung tissue and ran RNA microarrays to see the relative expression of different genes and pathways:
+There's also some evidence that after the particles from water get into the lungs, they *don't* just get absorbed and have no effect. [Umezawa et al. (2013)](https://doi.org/10.1186/1743-8977-10-64) exposed mice to the particles from ultrasonic humidifiers with either ultrapure water or high silica water for 14 days. They then extracted lung tissue and ran RNA microarrays to see the relative expression of different genes and pathways:
 
 ![umezawa gene ontologies](/img/humidifiers/umezawa-go.svg)
 
