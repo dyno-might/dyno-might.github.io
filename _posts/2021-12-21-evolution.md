@@ -3,9 +3,9 @@ layout: post
 title: "Evolutionary theory and us"
 image: /img/evolution/strings.jpg
 tags: philosophy science
-description: ""
+description: "Why does evolution do what it does? And if you're a sentient being created by it, what should you think about that?"
 permalink: /evolution/
-background_color: rgb(11,62,154)
+background_color: rgb(160,143,126)
 head: "<style>
 img{
     display:block;
