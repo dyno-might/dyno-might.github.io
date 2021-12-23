@@ -187,7 +187,7 @@ There's also some evidence that after the particles from water get into the lung
 
 ![umezawa gene ontologies](/img/humidifiers/umezawa-go.svg)
 
-Are these bad? I have no idea, but the official Dynomight Biologist says it looks like an immune reaction. (If you read the paper they also talk about scary-sounding stuff like asthma and thyroid disease being enriched but I think this is meaningless.) Anyway, at a minimum this shows that the particles do *something* and that's worrying. 
+Are these bad? I have no idea, but the official Dynomight Biologist says it looks like an immune reaction. (If you read the paper they also talk about scary-sounding stuff like asthma and thyroid disease pathways being enriched but I think this is meaningless.) Anyway, at a minimum this shows that the particles do *something* and that's worrying. 
 
 ## Humidifiers are a breeding ground
 
