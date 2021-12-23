@@ -179,15 +179,15 @@ Maybe. I take these counterarguments seriously. Certainly, purified water is saf
 
 ## We have a poor understanding of how particles cause harms
 
-We have a [highly imperfect](/air/#how-particles-hurt-you) understanding of how particles impact health. Surprisingly, the biggest problems are cardiovascular disease and diabetes, not in the lungs. The going theory is that small particles pass through the lungs into the bloodstream and activate the immune system.
+Surprisingly, the biggest problems are cardiovascular disease and diabetes, not in the lungs. The going theory is that small particles pass through the lungs into the bloodstream and activate the immune system. Our understanding of how this works is [highly imperfect](/air/#how-particles-hurt-you).
 
-So we just don't know what the effects of breathing that stuff are. My guess is that the harms *are* lower than with the average particles in air pollution. So you can discount the from the "33.3 PM2.5 μg/m³ costs 1 disability-adjusted life year" heuristic. But how much? The worst-case estimates are so high that you need a very heavy discount for the risk to be negligible.
+So we just don't know what the effects of breathing that stuff are. My guess is that the harms *are* lower than with the average particles in air pollution. But how much? The worst-case estimates are so high that you need a very heavy discount for the risk to be negligible.
 
 There's also some evidence that after the particles from water get into the lungs, they *don't* just get absorbed and have no effect. [Umezawa et al. (2013)](https://doi.org/10.1186/1743-8977-10-64) exposed mice to the particles from ultrasonic humidifiers with either ultrapure water or high silica water for 14 days. They then extracted lung tissue and ran RNA microarrays to see the relative expression of different genes and pathways:
 
 ![umezawa gene ontologies](/img/humidifiers/umezawa-go.svg)
 
-Are these bad? I have no idea, but the official Dynomight Biologist says it looks like an immune reaction. (If you read the paper they also talk about scary-sounding stuff like asthma and thyroid disease pathways being enriched but I think this is meaningless.) Anyway, at a minimum this shows that the particles do *something* and that's worrying. 
+Are these bad? I have no idea, but the official Dynomight Biologist says it looks like an immune reaction. (If you read the paper they also talk about scary-sounding stuff like asthma and thyroid disease pathways being enriched but I think this is meaningless.) At a minimum this shows that the particles do *something* and that's worrying. 
 
 ## Humidifiers are a breeding ground
 
