@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evolutionary theory and us"
+title: "Evolutionary outcomes reflect values you might not share"
 image: /img/evolution/strings.jpg
 tags: philosophy science
 description: "Why does evolution do what it does? And if you're a sentient being created by it, what should you think about that?"
@@ -127,7 +127,7 @@ They do a similar analysis looking at the *total number* of same-sex sexual part
 
 The hip new alternative to twin studies is the [genome-wide association study](https://en.wikipedia.org/wiki/Genome-wide_association_study) (GWAS) where you sequence the entire genomes of a bunch of people and look for associations between specific genes and outcomes. A huge study was done by [Ganna et al. (2019)](https://doi.org/10.1126/science.aat7693) who took around 500k people aged 40-70 mostly from the [UK Biobank](https://en.wikipedia.org/wiki/UK_Biobank) and a few people from data collected by 23andMe.
 
-First of all, they ignored the genetic data and just computed heritability estimates by looking at how closely related people are. Their heritability numbers look very similar to [common personality traits]((https://emilkirkegaard.dk/en/wp-content/uploads/Heritability-of-Personality-A-Meta-Analysis-of-Behavior-Genetic-Studies.pdf)):
+First of all, they ignored the genetic data and just computed heritability estimates by looking at how closely related people are. Their heritability numbers look very similar to [common personality traits](https://emilkirkegaard.dk/en/wp-content/uploads/Heritability-of-Personality-A-Meta-Analysis-of-Behavior-Genetic-Studies.pdf):
 
 |                        | Male | Female |
 | ---------------------- | ---- | ------ |
