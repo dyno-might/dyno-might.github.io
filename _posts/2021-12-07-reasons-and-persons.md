@@ -213,7 +213,7 @@ In the real world, what happens doesn't just depend on you, it depends on other 
 
 **The prisoner's dilemma**
 
-You're probably familiar [with this]((https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)), but just in case: You and I are in separate rooms. We each have a red button and a blue button. Depending on what we press, we'll get different amounts of money. Here's what you'll get:
+You're probably familiar [with this](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma), but just in case: You and I are in separate rooms. We each have a red button and a blue button. Depending on what we press, we'll get different amounts of money. Here's what you'll get:
 
 | You \ me | Red  | Blue |
 | -------- | ---- | ---- |
