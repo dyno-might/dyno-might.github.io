@@ -54,14 +54,20 @@ table{
 </style>"
 ---
 
-In the hope of seeming less unhinged, let me state two things upfront:
+Let me state two things upfront:
 
 1. It is *possible* to use ultrasonic humidifiers safely.
 2. Regardless of how they're used, we don't know *for sure* that ultrasonic humidifiers are dangerous.
 
-True, absolutely true! However, I'll argue that *as typically used*, ultrasonic humidifiers *might* cause health problems and that steam and evaporative humidifiers don't have the same issue.
+Absolutely true! However, *as typically used*, ultrasonic humidifiers *might* cause health problems. This is supported by an abundance of peer-reviewed research papers. It's also the quiet opinion of many different government agencies.
+
+The good news is that the problem is trivial to solve: Steam and evaporative humidifiers don't have the same issue.
 
 <div style="font-size:90%; margin-bottom: 10pt;" markdown="1">
+
+## Contents
+{:.no_toc}
+
 
 * auto-gen TOC:
 {:toc}
