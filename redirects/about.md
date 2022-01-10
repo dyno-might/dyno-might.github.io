@@ -2,5 +2,5 @@
 layout: redirected
 sitemap: false
 permalink: /about.html
-redirect_to: /about
+redirect_to: /about/
 ---
