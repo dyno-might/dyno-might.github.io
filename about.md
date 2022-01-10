@@ -35,7 +35,7 @@ There's just the one step to subscribe, no second form or confirmation link. (Of
 
 ---
 
-You can also read everything as a single [ebook](/ebook).
+You can also read everything as a single [ebook](/ebook/).
 
 ---
 
@@ -83,7 +83,7 @@ The closest thing I have to a "mission statement" is probably [this analogy](cul
 **Psychology**
 * [Are some personalities just better?](/better-personalities)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
-  * [MBTI quiz](/mbti)
+  * [MBTI quiz](/mbti/)
 
 **Personal improvement**
 * [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
