@@ -6,6 +6,7 @@ image: /img/deathvalleysky_prog.jpg
 hero_image: /img/deathvalleysky_prog.jpg
 hero_height: is-large
 hide_hero: True
+permalink: /about/
 ---
 
 Wondering what to do with your life? Here's what I suggest:
@@ -34,7 +35,7 @@ There's just the one step to subscribe, no second form or confirmation link. (Of
 
 ---
 
-You can also read everything as a single [ebook](ebook.html).
+You can also read everything as a single [ebook](/ebook).
 
 ---
 
