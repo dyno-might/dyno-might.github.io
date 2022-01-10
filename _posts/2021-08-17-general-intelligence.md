@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Factors of mental and physical abilities - a statistical analysis"
+title: "General intelligence vs. general physical fitness"
 image: /img/g/cigar.jpg
 tags: statistics personality
 hero_light: false
