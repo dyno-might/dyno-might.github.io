@@ -66,19 +66,19 @@ In general I'm *very* open to the idea that I got stuff wrong, I think all feedb
 
 Not sure where to get started?
 
-The closest thing I have to a "mission statement" is probably [this analogy](culture-war-island-hopping/) between culture war debates and attacking highly defended islands in the WWII Pacific theater. But it's probably better to start with something below:
+The closest thing I have to a "mission statement" is probably [this analogy](/culture-war-island-hopping/) between culture war debates and attacking highly defended islands in the WWII Pacific theater. But it's probably better to start with something below:
 
 **Air quality**
 * [Better air is the easiest way not to die](/air)
-* [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
+* [The Cuboid: A DIY air purifier that's better than a box-fan](/better-DIY-air-purifier.html)
 
 **Alcohol**
 * [The big alcohol study that didn't happen: My primal scream of rage](/alcohol-trial/)
-* [Alcohol, health, and the ruthless logic of the Asian flush](alcohol/)
+* [Alcohol, health, and the ruthless logic of the Asian flush](/alcohol/)
 
 **Economics**
-* [Why I'm skeptical of universal basic income](2020/12/03/why-im-skeptical-of-UBI/)
-* [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
+* [Why I'm skeptical of universal basic income](/2020/12/03/why-im-skeptical-of-UBI/)
+* [Comparative advantage and when to blow up your island](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
 
 **Psychology**
 * [Are some personalities just better?](/better-personalities)
@@ -86,30 +86,30 @@ The closest thing I have to a "mission statement" is probably [this analogy](cul
   * [MBTI quiz](/mbti/)
 
 **Personal improvement**
-* [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
+* [How to run without all the pesky agonizing pain](/2021/01/25/how-to-run-without-all-the-agonizing-pain/)
 
 **Things to never do**
-* [What happens if you drink acetone?](2020/09/14/what-happens-if-you-drink-acetone/)
+* [What happens if you drink acetone?](/2020/09/14/what-happens-if-you-drink-acetone/)
 
 {% comment %}
 **Made the internet oddly mad** (they're wrong I tell you, all wrong)
-* [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
+* [Sales tax creates more unnecessary pain than value added tax](/2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
 {% endcomment %}
 
 {% comment %}
 Most popular:
 * [Better air is the easiest way not to die](/air)
-* [The Cuboid: A DIY air purifier that's better than a box-fan](better-DIY-air-purifier.html)
-* [How to run without all the pesky agonizing pain](2021/01/25/how-to-run-without-all-the-agonizing-pain/)
-* [What happens if you don't fill out that ethnicity form?](2021/01/15/eeo/)
-* [Experiments on a $50 DIY air purifier you can make in 30s](2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/)
-* [What happens if you drink acetone?](2020/09/14/what-happens-if-you-drink-acetone/) (please don't)
-* [Comparative advantage and when to blow up your island](2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
+* [The Cuboid: A DIY air purifier that's better than a box-fan](/better-DIY-air-purifier.html)
+* [How to run without all the pesky agonizing pain](/2021/01/25/how-to-run-without-all-the-agonizing-pain/)
+* [What happens if you don't fill out that ethnicity form?](/2021/01/15/eeo/)
+* [Experiments on a $50 DIY air purifier you can make in 30s](/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/)
+* [What happens if you drink acetone?](/2020/09/14/what-happens-if-you-drink-acetone/) (please don't)
+* [Comparative advantage and when to blow up your island](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
 * [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
 
 Not popular, but I wish they were:
-* [What I learned from reading about writing](2021/02/07/writing-as-a-craft/)
-* [Why I'm skeptical of universal basic income](2020/12/03/why-im-skeptical-of-UBI/)
+* [What I learned from reading about writing](/2021/02/07/writing-as-a-craft/)
+* [Why I'm skeptical of universal basic income](/2020/12/03/why-im-skeptical-of-UBI/)
 
 Most hated (they're wrong I tell you, all wrong):
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->
