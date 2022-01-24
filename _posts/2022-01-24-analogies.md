@@ -143,7 +143,7 @@ Why are analogies sometimes so frustrating? Here's a conversational pattern I've
 
 **Abe**: *We should do X to Y so that Z will happen.*
 
-**Beth**: *No, that's stupid. Doing X to Y is like doing A to B.*
+**Beth**: *No, that's stupid. That's like doing A to B.*
 
 (Everyone agrees doing A to B is stupid.)
 
@@ -151,7 +151,7 @@ Why are analogies sometimes so frustrating? Here's a conversational pattern I've
 
 **Beth**: *Sure it is, just think of how X and A share [characteristic].*
 
-**Abe**: *But the crux relationship of X to Y is [something] whereas the crux of the relationship of A to B is [something else].*
+**Abe**: *But the crux relationship of X and Y is [something] whereas for A and B it is [something else].*
 
 **Beth**: *Oh, bless your heart no, the relationship of X to Y* and *A to B is [3rd thing].*
 
@@ -162,7 +162,7 @@ Why are analogies sometimes so frustrating? Here's a conversational pattern I've
 **Abe**: *Wow, I really should have researched A and B more before starting this conversation.*
 
 
-
+<br>
 What went wrong here? What they *should* have been talking about is:
 
 1. Does doing X to Y really cause Z?
