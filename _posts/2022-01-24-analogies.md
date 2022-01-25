@@ -6,7 +6,6 @@ tags: communication philosophy
 description: "Five proposed rules to make sure you're using analogies for good"
 permalink: /analogies/
 background_color: rgb(17,96,85)
-alt_link: https://dynomight.medium.com/how-to-use-analogies-for-good-not-evil-39cdaf7abd8
 head: "<style>
 img{
     display:block;
