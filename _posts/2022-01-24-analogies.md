@@ -66,7 +66,7 @@ table{
 "
 ---
 
-Here's a bunch of analogies, some good, some not so good:
+To start, here's a bunch of analogies, some good, some not so good:
 
 ## 1. 
 
@@ -127,7 +127,7 @@ This is analogous to [why memory T-cells exist](/2020/12/22/what-i-learned-about
 
 ## 9. 
 
-[Days of Being Wild](https://en.wikipedia.org/wiki/Days_of_Being_Wild) is a 1990 film by genius director Wong Kar-wai. (If you haven't seen it and there's any chance that you ever would at any point in your life, please skip this section!)
+[Days of Being Wild](https://en.wikipedia.org/wiki/Days_of_Being_Wild) is a 1990 film by genius director Wong Kar-wai. (If you haven't seen it and there's any chance you ever would, please skip this example!)
 
 So this film is set in Hong Kong in 1960 and centers on Yuddy, a charismatic playboy who has a series of relationships with women who fall in love with him, after which he casually and somewhat cruelly discards them. He is disrespectful to his adopted mother and obsessed with his biological mother, who he's never met.
 
@@ -135,7 +135,9 @@ He justifies his behavior as follows:
 
 "*I've heard that there's a kind of bird without legs that can only fly  and fly, and sleep in the wind when it is tired. The bird only lands  once in its life... that's when it dies.*"
 
+{% comment %}
 (He sees himself as the bird.)
+{% endcomment %}
 
 ## The case against analogies
 
