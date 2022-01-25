@@ -1,4 +1,8 @@
+{% if post.alt_link %}
+<a href="{{post.alt_link}}">
+{% else %}
 <a href="{{ site.baseurl }}{{ post.url }}">
+{% endif %}
 <!-- <div class="card"> -->
   {% assign defaultcolor = "gray" %}
   <div class="card-image changer title is-4" style="text-align:center;">
