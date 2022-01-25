@@ -3,7 +3,7 @@
   <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Light.ttf" as="font" type="font/ttf" crossorigin />
   
   {% if page.image %}
-    {% unless page.hide_hero %}
+    {% unless true %} {% comment %} page.hide_hero {% endcomment %}
   <link rel="preload" as="image" href="{{page.image}}" />
     {% endunless %}
   {% endif %}
