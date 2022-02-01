@@ -223,7 +223,6 @@ For another thing, it gives a graceful way to think about mortality. I can't put
 > My life seemed like a glass tunnel, through which I was moving faster every year, and at the end of which there was darkness. When I changed my view, the walls of my glass tunnel disappeared. I now live in the open air. There is still a difference between my life and the lives of other people. But the difference is less. Other people are closer. I am less concerned about the rest of my own life, and more concerned about the lives of others.
 >
 > [...] My death will break the more direct relations between my present experiences and future experiences, but it will not break various other relations. This is all there is to the fact that there will be no one living who will be me. Now that I have seen this, my death seems to me less bad.
->
-> 
 
+<br>
 So that's part three of the book. In part one (covered [previously](/reasons-and-persons/)) Parfit showed how moral theories can eat themselves. I haven't (yet?) covered part two, where he talks about time or part four where he talks about future generations and population ethics.
