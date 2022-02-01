@@ -181,7 +181,7 @@ That's all rather mysterious, but still: The Buddhist doctrine of [anattā](http
 
 Parfit is careful never to state that "personal identity does not exist", but rather that it doesn't exist in any scenario with "branching".
 
-I think this is sort of like the identity of physical objects. I talk about my "favorite toaster" and this is fine. But if you and I shoot our favorite electrons at each other, and ask if they *bounced off* or *passed through* each other, quantum physics says that there may not be an answer---it's not just that we don't *know* if we've traded electrons, the question itself doesn't make sense. (Also, I remind you this is just an analogy, I'm not saying consciousness has anything to do with quantum physics, please stop hitting me.)
+I think this is sort of like the identity of physical objects. I talk about my "favorite toaster" and this is fine. But if you and I shoot our favorite electrons at each other and ask if they *bounced off* or *passed through* each other, quantum physics says that there may not be an answer---it's not just that we don't *know* if we've traded electrons, the question itself doesn't make sense. (Also, I remind you this is just an analogy, I'm not saying consciousness has anything to do with quantum physics, please stop hitting me.)
 
 While Parfit doesn't explicitly deny that personal identity exists, he does argue that it isn't important. He also is clear later on that he doesn't believe in the "separateness" or "non-identity" of different persons. But is not believing in personal identity different from not believing that different people are "non-identical"? If so, I couldn't figure out how.
 
