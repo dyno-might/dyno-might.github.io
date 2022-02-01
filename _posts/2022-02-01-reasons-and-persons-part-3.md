@@ -67,7 +67,7 @@ You want to go to Mars. There's a machine that will scan and destroy all the mat
 
 Does this *transport* you to Mars? Or does it *kill* you, and create a new copy?
 
-You've probably heard this scenario before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*, where actually *answers* the question. (Though you may not like the answer.)
+You've probably heard this scenario before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*, where he actually *answers* the question. (Though you may not like the answer.)
 
 To answer it, he has to go though a set of even weirder scenarios. Here's most of them, edited aggressively.
 
