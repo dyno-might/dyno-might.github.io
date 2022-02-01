@@ -160,7 +160,7 @@ Some types of particles are surely more dangerous than others. To take an extrem
 
 The statistics we have on ambient air pollution are based on particles from things like power plants and cars. The dissolved solids in water are different, so there's every reason to think the health impact is different, too.
 
-Some people make an evolutionary argument: Maybe we evolved some robustness to particles that are naturally occurring like those from dust or sea since our ancestors have been breathing those long before humans existed.
+Some people make an evolutionary argument: Maybe we evolved some robustness to particles that are naturally occurring like those from dust or sea spray since our ancestors have been breathing those long before humans existed.
 
 So what's actually in water? [Sain et al. (2017)](https://doi.org/10.1111/ina.12414) do a decomposition of three different types of water. Here is what they find in terms of mg/L.
 
@@ -232,7 +232,7 @@ How are you supposed to use a humidifier? We can ask the manufacturers. (You car
 
 The [EPA](https://www.epa.gov/sites/production/files/2014-08/documents/humidifier_factsheet.pdf) gives similar advice: Use distilled water; empty and dry, and clean after each use; and disinfect regularly. The [NIH](https://idsa.confex.com/idsa/2014/webprogram/Paper45731.html) goes even further (emphasis mine):
 
-> At the NIH Clinical Center, a 240-bed clinical research hospital, policy allows patients to request bedside humidifiers, but stipulates that the humidifiers must be filled with sterile water and the humidifier must be discarded after 3 days of use.
+> At the NIH Clinical Center, a 240-bed clinical research hospital, policy allows patients to request bedside humidifiers, but stipulates that the humidifiers must be filled with sterile water and the humidifier **must be discarded** after 3 days of use.
 
 You get the point. The idea that that minerals in water or bacteria might be problematic isn't a kooky conspiracy theory. It's the accepted view, just not (currently) well-known.
 
@@ -246,7 +246,7 @@ If you don't want to do all that, the good news is that steam and evaporative hu
 
 Now *personally*, I can't understand how dealing with distilled or deionized water---yes there are people who actually use deionized water---plus sanitizing plus measuring particles is better than just buying a different humidifier, but I won't question your values.
 
-Finally, let's do some calculations. Let's start with something reassuring: Even with pessimistic assumptions, an ultrasonic humidifier isn't going to instantly kill you. [One heuristic](http://localhost:4000/air/#a-heuristic-to-quantify-harms) is that if you were exposed to an (insanely high) level of 2500 PM<sub>2.5</sub>, you'd lose disability-adjusted life roughly ["in real-time"](/air/#a-heuristic-to-quantify-harms). If you use a humidifier for one night and it creates a level of 300 PM<sub>2.5</sub>, this suggests you lose only
+So, finally, let's do some calculations. Let's start with something reassuring: Even with very pessimistic assumptions, an ultrasonic humidifier isn't going to instantly kill you. [One heuristic](http://localhost:4000/air/#a-heuristic-to-quantify-harms) is that if you were exposed to an (insanely high) level of 2500 PM<sub>2.5</sub>, you'd lose disability-adjusted life roughly ["in real-time"](/air/#a-heuristic-to-quantify-harms). If you use a humidifier for one night and it creates a level of 300 PM<sub>2.5</sub>, this suggests you lose only
 
 &nbsp;&nbsp;&nbsp;**8 hours × 300 / 2500 ≈ 1 hour.**
 
