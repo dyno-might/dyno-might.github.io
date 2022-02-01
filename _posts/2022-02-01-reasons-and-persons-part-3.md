@@ -75,15 +75,15 @@ To answer it, he has to go though a set of even weirder scenarios. Here's most o
 
 You decide to take the teletransporter. After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
 
-"No, no." he responds, "Did we not tell you? The new scanner records your blueprint without destroying your body. Not to worry, we've already transmitted the information to Mars. This body will be destroyed in a few minutes."
+"No, no", he responds, "Did we not tell you? The new scanner records your blueprint without destroying your body. Not to worry, we've already transmitted the information to Mars. This body will be destroyed in a few minutes."
 
 You see that the final effect is the same. But still, are you upset about this?
-
-![bonaparte](/img/reasons-and-persons/bonaparte.jpg)
 
 **Napoleon's surgery and the psychological spectrum**
 
 You're going to have a painful surgery, for which you must be awake. But before the surgery, a doctor will use a machine to make your neurons fire so that your personality and memories are completely replaced with those of Napoleon.
+
+![bonaparte](/img/reasons-and-persons/bonaparte.jpg)
 
 Does this make you less worried about the pain during surgery? Will it be Napoleon who suffers rather than you?
 
@@ -97,11 +97,11 @@ Scientists are going to subject you to another machine with a dial: At one end, 
 
 As the machine is about to start, you wonder, "Am I about to die?" Would that be true if 1% of your cells were replaced? 30%? 90%?
 
-![greta-garbo](/img/reasons-and-persons/greta-garbo.jpg)
-
 **The combined spectrum**
 
 Scientists are going to subject you to *another* machine with a dial: At one end, nothing happens. At the other end, 100% of your cells will be destroyed and replaced with those of [Greta Garbo](https://en.wikipedia.org/wiki/Greta_Garbo). At intermediate positions, the resulting body, memories, and personality will be a mixture.
+
+![greta-garbo](/img/reasons-and-persons/greta-garbo.jpg)
 
 At what position at which you stop being you and start being Greta Garbo?
 
@@ -125,9 +125,9 @@ Or, your identical twin is in an accident where their brain is destroyed. You vo
 
 **Branching people**
 
-![eve](/img/reasons-and-persons/eve.jpg)
-
 Take a species much like humans except they reproduce by asexual division. When someone splits into two, both of the new copies have the memories of the parent but these fade gradually over the generations.
+
+![eve](/img/reasons-and-persons/eve.jpg)
 
 Now, consider Eve and her great-great-great-granddaughter Quinquagesima. When Tertia was born, she was just like Eve, and when Sexta was born, she was just like Tertia. But so many generations have passed that Quinguagesima remembers nothing of Eve or her life.
 
@@ -163,7 +163,7 @@ Why should we believe there is no further fact? This consumes most of 130 (dense
 
 1. It's not clear what this further fact should be.
 2. If there was a further fact, there could be evidence of it. If we were immortal souls with memories of past lives, a woman in Japan might be able to predict where to dig up jewelry she buried thousands of years ago as a Celt in Europe. But nothing like that ever happens.
-3. If you assume there *is* a further fact, then you have to reckon with all the impossible questions in the scenarios above. If you think self-identity is all-or-nothing, then there must be some threshold of the dial where below which you remain you and above which become Greta Garbo (or at least Greta Garbo 2.0). That would be weird.
+3. If you assume there *is* a further fact, then you have to reckon with all the impossible questions in the scenarios above. If you think self-identity is all-or-nothing, then there must be some threshold of the dial below which you remain you and above which become Greta Garbo (or at least Greta Garbo 2.0). That would be weird.
 4. But OK, say you're willing to accept that such a threshold exists. Then isn't it odd that *there is no possible experiment* that would allow us to *discover* what that threshold is?
 
 Parfit imagines what various people would think of these arguments.
@@ -181,7 +181,7 @@ That's all rather mysterious, but still: The Buddhist doctrine of [anattā](http
 
 Parfit is careful never to state that "personal identity does not exist", but rather that it doesn't exist in any scenario with "branching".
 
-I think this is sort of like the identity of physical objects. I talk about my "favorite toaster" and this is fine. But if you and I shoot our favorite electrons at each other and ask if they *bounced off* or *passed through* each other, quantum physics says that there may not be an answer---it's not just that we don't *know* if we've traded electrons, the question itself doesn't make sense. (Also, I remind you this is just an analogy, I'm not saying consciousness has anything to do with quantum physics, please stop hitting me.)
+I think this is sort of like the identity of physical objects. I talk about my "favorite toaster" and this is fine. But if you and I shoot our favorite electrons at each other and ask if they *bounced off* or *passed through* each other, quantum physics says that there may not be an answer---it's not just that we don't *know* if we've traded electrons, the question itself doesn't make sense. (Also, I remind you this is just an [analogy](/analogies), I'm not saying consciousness has anything to do with quantum physics, please stop hitting me.)
 
 While Parfit doesn't explicitly deny that personal identity exists, he does argue that it isn't important. He also is clear later on that he doesn't believe in the "separateness" or "non-identity" of different persons. But is not believing in personal identity different from not believing that different people are "non-identical"? If so, I couldn't figure out how.
 
