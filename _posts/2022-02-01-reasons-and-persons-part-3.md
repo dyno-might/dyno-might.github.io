@@ -121,7 +121,7 @@ Or, you and your identical twin are in an accident. Your body is damaged, while 
 
 Or, your identical twin is in an accident where their brain is destroyed. You volunteer to have half your brain transplanted into your twin's body. Both surviving people have your memories and believe themselves to be you.  Which one is right?
 
-(Parfit doesn't worry about the fact that split-brain experiments only apply to the cortex and not the rest of the brain. But these examples still work if only cortexes and transplanted.)
+(Parfit doesn't worry about the fact that split-brain experiments only apply to the cortex and not the rest of the brain. But these examples still work if only cortexes are transplanted.)
 
 **Branching people**
 
