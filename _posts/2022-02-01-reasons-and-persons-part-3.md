@@ -172,9 +172,9 @@ He reckons Wittgenstein would disapprove: He'd say that concepts are based on fa
 
 On the other hand, he thinks the Buddha would agree. The main text just says "As Appendix J shows, *Buddha would have agreed*." But then Appendix J is just a passage from the [Visuddhimagga](https://en.wikipedia.org/wiki/Visuddhimagga) ending with this quote:
 
-> The mental and the material are really here,
-> But here there is no human being to be found.
-> For it is void and merely fashioned like a doll,
+> The mental and the material are really here,  
+> But here there is no human being to be found.  
+> For it is void and merely fashioned like a doll,  
 > Just suffering piled up like grass and sticks
 
 That's all rather mysterious, but still: The Buddhist doctrine of [anattā](https://en.wikipedia.org/wiki/Anatt%C4%81) is that no unchanging, permanent self or essence can be found in any phenomenon.
@@ -202,7 +202,7 @@ Parfit also talks about the morality of abortion. Consider two scenarios:
 
 Asking "when did a person start to exist?" is like our earlier thought experiments. Some gametes combined and slowly grew into a baby and that's a full description of what happened. Asking when the person started to exist has no simple answer because personhood is not an all-or-nothing quality.
 
-(That's not to say that wouldn't shouldn't *give* this question an answer. I really wish Parfit gave "empty" questions a less derogatory-sounding name because it's a useful concept, and we should be able to suggest things like "that question might be empty" without sounding like that means the question is stupid.)
+(That's not to say that wouldn't shouldn't *give* this question an answer. I really wish Parfit gave "empty" questions a less derogatory-sounding name because it's a useful concept and it would nice to say "that question is empty" without sounding like you're saying the question is stupid or not worth answering.)
 
 Parfit also considers how these ideas intersect with utilitarianism: On the one hand,  they reduce the scope for compensation. If I hurt you now but pay you compensation later, that doesn't really deliver justice to the version of you that was hurt. On the other hand, they also decrease the scope of "distributive" principles. You might claim that it's important that everyone is equally happy, but but what does "equality" mean if people aren't separate?
 
