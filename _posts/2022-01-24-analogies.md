@@ -144,25 +144,25 @@ He justifies his behavior as follows:
 
 Why are analogies sometimes so frustrating? Here's a common pattern:
 
-**Abe**: *We should do X to Y so that Z will happen.*
+**Abe**: We should do X to Y so that Z will happen.
 
-**Beth**: *No, that's stupid. That's like doing A to B.*
+**Beth**: No, that's stupid. That's like doing A to B.
 
 (Everyone agrees doing A to B is stupid.)
 
-**Abe**: *What? That's not the same, X is not like A because of [reasons].*
+**Abe**: What? That's not the same, X is not like A because of [reasons].
 
-**Beth**: *Sure it is, just think of how X and A share [characteristic].*
+**Beth**: Sure it is, just think of how X and A share [characteristic].
 
-**Abe**: *But the crux relationship of X and Y is [something] whereas for A and B it is [something else].*
+**Abe**: But the crux relationship of X and Y is [something] whereas for A and B it is [something else].
 
-**Beth**: *Oh, bless your heart no, the relationship of X to Y* and *A to B is [3rd thing].*
+**Beth**: Oh, bless your heart no, the relationship of X to Y* and *A to B is [3rd thing].
 
-**Abe**: *Look, but even if that were true, you're only looking at [outcome]. But my goal Z is [different outcome], where A and B aren't relevant.*
+**Abe**: Look, but even if that were true, you're only looking at [outcome]. But my goal Z is [different outcome], where A and B aren't relevant.
 
-**Beth**: *No, you see, the meta-goal is [3rd outcome].*
+**Beth**: No, you see, the meta-goal is [3rd outcome].
 
-**Abe**: *Wow, I really should have researched A and B more before starting this conversation.*
+**Abe**: Wow, I really should have researched A and B more before starting this conversation.
 
 
 <br>
