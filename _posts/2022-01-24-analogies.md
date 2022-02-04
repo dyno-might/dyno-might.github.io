@@ -77,7 +77,7 @@ People in the West often think of ramen as a defining Japanese food, but that's 
 
 In the early 1970s, a group of 150 young couples in Washington DC formed a [baby-sitting cooperative](http://www.eecs.harvard.edu/cs286r/courses/fall09/papers/coop.pdf). Everyone got some coupons they could trade for one hour of babysitting time, after which whoever got the coupons could re-use them. At first, this didn't work. Couples wanted to keep a reserve of coupons and so were hesitant to use theirs before they earned some from others. But others were thinking the same thing, so no one traded anything. They eventually solved the problem by issuing more coupons until people started using them and everyone lived happily ever after.
 
-This is analogous to how recessions happen in the real economy: If everyone gets scared about their future, they'll slow down spending until they have a cushion of savings. But since everyone else is thinking the same thing, it's hard to earn money, and economic activity slows even though everyone would like to both earn more and spend more. If the money supply is expanded, people start spending and earning again.
+This is analogous to how recessions happen in the real economy: If everyone gets scared about their future, they'll slow down spending until they have a cushion of savings. But since everyone else is thinking the same thing, it's hard to earn money, and economic activity slows even though everyone would like to both earn more and spend more. If the money supply is expanded, the economy can pick up.
 
 ## 3. 
 
@@ -112,7 +112,7 @@ For a hydraulic system, power is flow × pressure while for an electrical circui
 
 (If you wonder what an electrical diode corresponds to in a hydraulic system, I refer you to [US patent 1329559](https://patentimages.storage.googleapis.com/26/65/c7/c647a84af1f78f/US1329559.pdf).)
 
-![tesla patent](/img/analogies/conduit.svg)
+![tesla patent](/img/analogies/conduit-small.svg)
 
 
 
@@ -156,7 +156,7 @@ Why are analogies sometimes so frustrating? Here's a common pattern:
 
 **Abe**: But the crux relationship of X and Y is [something] whereas for A and B it is [something else].
 
-**Beth**: Oh, bless your heart no, the relationship of X to Y* and *A to B is [3rd thing].
+**Beth**: Oh, bless your heart no, the relationship of X to Y *and* A to B is [3rd thing].
 
 **Abe**: Look, but even if that were true, you're only looking at [outcome]. But my goal Z is [different outcome], where A and B aren't relevant.
 
