@@ -6,6 +6,7 @@ tags: communication philosophy
 description: "Five proposed rules to make sure you're using analogies for good"
 permalink: /analogies/
 background_color: rgb(17,96,85)
+excerpt: To fix the analogy, you'd need some bizarre scenario where during the party America had lots of fun and created lots of dirty dishes but also, like, discovered new partying methodology and new ways to use dishes so they are easier to wash?
 head: "<style>
 img{
     display:block;
@@ -141,7 +142,7 @@ He justifies his behavior as follows:
 
 ## The case against analogies
 
-Why are analogies sometimes so frustrating? Here's a conversational pattern I've seen many times:
+Why are analogies sometimes so frustrating? Here's a common pattern:
 
 **Abe**: *We should do X to Y so that Z will happen.*
 
@@ -198,17 +199,17 @@ With those thoughts in mind, here are some proposed rules for how to use analogi
 
 ---
 
-As an example, take the analogy between worrying about artificial general intelligence (AGI) and worrying about traffic on Mars. This could be restated as "Worrying about the rise of AGI is silly because AGI isn't going to happen for a long time, and any effort put into solving it is wasted."
+Take the analogy between worrying about artificial general intelligence (AGI) and worrying about traffic on Mars. This could be restated as "Worrying about the rise of AGI is silly because AGI isn't going to happen for a long time, and any effort put into solving it is wasted."
 
-Is that correct? Maybe, I don't know! But what does the analogy add over a direct argument? What do AGI and traffic on Mars share beyond being science-y stuff from the future? Not much, and there's an important difference that traffic is a familiar annoyance while AGI is claimed to be an existential threat. If you think it's *not* an existential threat, great, but better to explain why than sneak in that assumption as part of the setup of an analogy.
+Is that correct? Maybe, I don't know! But what does the analogy add over a direct argument? What do AGI and traffic on Mars share beyond being science-y stuff from the future? Not much, and there's an important difference in that traffic is a familiar annoyance while AGI is claimed to be an existential threat. If you think it's *not* an existential threat, great, but better to explain why than sneak in an assumption that you're right as part of the setup of an analogy.
 
 ---
 
-As another example, consider the analogy between India being asked to control carbon emissions and a late dinner guest being asked to wash dishes. There's lots of shared structure: Parties are fun, and carbon emissions are also fun. Washing dishes and reducing carbon emissions both need to be done later. And India started emitting carbon later, just like a late dinner guest.
+Or, take the analogy between India being asked to control carbon emissions and a late dinner guest being asked to wash dishes. There's lots of shared structure: Parties are fun, and carbon emissions are also fun. Washing dishes and reducing carbon emissions both need to be done later. And India started emitting carbon later, just like a late dinner guest.
 
-But there are also some important differences. Most importantly, when the United States was emitting carbon decades ago, it was operating at the technological frontier. Those emissions improved the economy and lives of Americans, yes, but they also helped expand the technological frontier, making it easier for India to develop via catch-up growth later. In particular, those emissions helped develop energy technologies so that it's now much easier to grow your economy while emitting less carbon.
+But there are also some important differences. When the United States was emitting carbon decades ago, it was operating at the technological frontier. Those emissions improved the economy and lives of Americans, yes, but they also helped expand the technological frontier, making it easier for India to develop via catch-up growth later. In particular, those emissions helped develop energy technologies so that it's now much easier to grow an economy while emitting less carbon.
 
-If you want to fix the analogy, you need some bizarre scenario where during the party America had lots of fun and created lots of dirty dishes but also, like, discovered new partying methodology and new ways to use dishes so they are easier to wash? Maybe that "fixes" the analogy, but it's now a monstrosity that doesn't give insight into anything. Better to use a direct argument like, "The United States has much larger cumulative historical emissions and much larger current per-capita emissions than India. It's unfair to expect India to maintain lower per-capita emissions than the United States indefinitely." 
+To fix the analogy, you'd need some bizarre scenario where during the party America had lots of fun and created lots of dirty dishes but also, like, discovered new partying methodology and new ways to use dishes so they are easier to wash? Maybe that "fixes" the analogy, but it's now a monstrosity that doesn't give insight into anything. Better to use a direct argument like, "The United States has much larger cumulative historical emissions and much larger current per-capita emissions than India. It's unfair to expect India to maintain lower per-capita emissions than the United States indefinitely." 
 
 ---
 

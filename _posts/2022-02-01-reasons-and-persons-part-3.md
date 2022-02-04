@@ -61,49 +61,78 @@ table{
 "
 ---
 
-**The teletransporter**
+{% comment %}
+You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it. This makes you nervous, but you figure you're a *pattern* of atoms, not the atoms themselves. You friends use the machine and love it, so you decide to try it.
 
-You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it.
+After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
 
-Does this *transport* you to Mars? Or does it *kill* you, and create a new copy?
+"No, no", he responds, "Didn't we tell you? The new scanner records your blueprint without destroying your body. Not to worry, we've already transmitted the information to Mars. This body will be destroyed in a few minutes."
 
-You've probably heard this scenario before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*, where he actually *answers* the question. (Though you may not like the answer.)
+You see that the final effect is the same. But still, are you upset about this?
 
-To answer it, he has to go though a set of even weirder scenarios. Here's most of them, edited aggressively.
+You've probably heard some version of this thought experiment before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*. He tries to answer if this machine is killing you or transporting you, and then  uses that answer to reflect on how to think about your future self, abortion, the morality of prisons, and your own mortality.
+{% endcomment %}
 
-**The new scanner**
+You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it. You worry: Does this *transport* you, or does it *kill* you and make a new copy?
 
-You decide to take the teletransporter. After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
+Still, your friends use the machine and they seem fine. And you figure you're a *pattern* of atoms, not the atoms themselves, so you decide to take the machine. After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
 
 "No, no", he responds, "Did we not tell you? The new scanner records your blueprint without destroying your body. Not to worry, we've already transmitted the information to Mars. This body will be destroyed in a few minutes."
 
 You see that the final effect is the same. But still, are you upset about this?
 
-**Napoleon's surgery and the psychological spectrum**
+You've probably heard some version of this thought experiment before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*. He claims to *answer* if you're being transported or killed. (Though you may not like the answer.) He then uses that answer to reflect on how to think about your future self, abortion, the morality of prisons, and your own mortality.
 
-You're going to have a painful surgery, for which you must be awake. But before the surgery, a doctor will use a machine to make your neurons fire so that your personality and memories are completely replaced with those of Napoleon.
+## Spectrum arguments
+
+Let's start with three "spectrum" arguments that are reminiscent of the [ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) or the [sorties paradox](https://en.wikipedia.org/wiki/Sorites_paradox).
+
+**Napoleon's surgery**
+
+You're going to have a painful surgery, for which you must be awake. But before the surgery, a doctor will use a machine to make your neurons fire so that your personality and memories are completely replaced with those of Napoleon. Does this make you less worried about the pain during surgery? Will it be Napoleon who suffers rather than you?
 
 ![bonaparte](/img/reasons-and-persons/bonaparte.jpg)
 
-Does this make you less worried about the pain during surgery? Will it be Napoleon who suffers rather than you?
+Or, suppose there is a dial: At one end it does nothing, while at the other end it replaces all your memories with those of Napoleon. At what intermediate position do you stop being you and start being Napoleon?
 
-Or, suppose there is a dial: At one end it does nothing, while at the other end it replaces all your memories with those of Napoleon.
+**The death machine**
 
-At what intermediate position do you stop being you and start being Napoleon?
+Scientists are going to subject you to another machine with a dial: At one end, nothing happens. At the other end, 100% of your cells will be destroyed and replaced with exact duplicates. As the machine is about to start, you wonder, "Am I about to die?" Would that be true if 1% of your cells were replaced? 30%? 90%?
 
-**The physical spectrum**
+**The Garbo maker**
 
-Scientists are going to subject you to another machine with a dial: At one end, nothing happens. At the other end, 100% of your cells will be destroyed and replaced with exact duplicates.
-
-As the machine is about to start, you wonder, "Am I about to die?" Would that be true if 1% of your cells were replaced? 30%? 90%?
-
-**The combined spectrum**
-
-Scientists are going to subject you to *another* machine with a dial: At one end, nothing happens. At the other end, 100% of your cells will be destroyed and replaced with those of [Greta Garbo](https://en.wikipedia.org/wiki/Greta_Garbo). At intermediate positions, the resulting body, memories, and personality will be a mixture.
+Scientists are going to subject you to *another* machine with a dial: At one end, nothing happens. At the other end, 100% of your cells will be destroyed and replaced with those of [Greta Garbo](https://en.wikipedia.org/wiki/Greta_Garbo). At intermediate positions, the resulting body, memories, and personality will be a mixture. At what position at which you stop being you and start being Greta Garbo?
 
 ![greta-garbo](/img/reasons-and-persons/greta-garbo.jpg)
 
-At what position at which you stop being you and start being Greta Garbo?
+## No further fact
+
+Parfit answers these questions through an analogy. Say there's a club that meets for a few years and then stops meeting. A few years later, most of the same people decide to get together at the same place and hold meetings under the same name.
+
+Now: Is that the *same* club, or *another* club?
+
+Parfit calls this question "empty". This means that without answering the question, we already know everything that has happened. If you *do* answer the question, that will be you *deciding* what "same club" means, not you *discovering* any new facts about the situation.
+
+Go back to the teletransportation example. Say you press the button and wake up on Mars. Here are the facts:
+
+1. There was a body with memories and experiences on Earth.
+
+2. That body was scanned and destroyed and recreated on Mars.
+
+3. The new body has the same memories and experiences the world in the same way.
+
+These are, Parfit argues, *all the facts*. When you ask if it's the same person who wakes up on Mars, you are seeking some *further fact*. But the statements above are a full description of what happened. There is nothing else to discover. 
+
+Why should we believe there is no further fact? This consumes most of 130 (dense) pages, but it's basically as follows:
+
+1. It's not clear what this further fact should be.
+2. If there was a further fact, there could be evidence of it. If we were immortal souls with memories of past lives, a woman in Japan might be able to predict where to dig up jewelry she buried thousands of years ago as a Celt in Europe. But nothing like that ever happens.
+3. If you assume there *is* a further fact, then you have to reckon with all the impossible questions in the scenarios above. If you think self-identity is all-or-nothing, then there must be some threshold of the dial below which you remain you and above which become Greta Garbo. That would be weird.
+4. But OK, say you're willing to accept that such a threshold exists. Then isn't it odd that there is no possible experiment that would allow us to *discover* what that threshold is?
+
+Now you might ask, aren't the thought experiments above really *just* like the ship of Theseus? In a way, yes, but there's a difference. If you replace a ship piece by piece, I yawn because who cares about some ship? But if you want to replace *me* piece by piece, you will have my full attention! The argument produces a *much* larger update to my worldview because I have a *much* stronger intuition that I am an indivisible thing!
+
+## Other arguments
 
 **The physics exam**
 
@@ -139,36 +168,11 @@ Take a species much like humans except they are immortal. They have memories and
 
 If you take a person now, and the same person 500 years from now, are they the same person?
 
-## No further fact
-
-How to answer these questions?
-
-Parfit answers them through an analogy. Say there's a club that meets for a few years and then stops meeting. A few years later, most of the same people decide to get together at the same place and hold meetings under the same name.
-
-Now: Is that the *same* club, or *another* club?
-
-Parfit calls this question "empty". This means that without answering the question, we already know everything that has happened. If you *do* answer the question, that will be you *deciding* what "same club" means, not you *discovering* any new facts about the situation.
-
-Go back to the first teletransportation example. Say you do the procedure and wake up on Mars. Here are the facts:
-
-1. There was a body with memories and experiences on Earth.
-
-2. That body was scanned and destroyed and recreated on Mars.
-
-3. The new body has the same memories and experiences the world in the same way.
-
-These are, Parfit argues, *all the facts*. When you ask if it's the same person who wakes up on Mars, you are seeking some *further fact*. But the statements above are a full description of what happened. There is nothing else to discover. 
-
-Why should we believe there is no further fact? This consumes most of 130 (dense) pages, but I think it's basically as follows:
-
-1. It's not clear what this further fact should be.
-2. If there was a further fact, there could be evidence of it. If we were immortal souls with memories of past lives, a woman in Japan might be able to predict where to dig up jewelry she buried thousands of years ago as a Celt in Europe. But nothing like that ever happens.
-3. If you assume there *is* a further fact, then you have to reckon with all the impossible questions in the scenarios above. If you think self-identity is all-or-nothing, then there must be some threshold of the dial below which you remain you and above which become Greta Garbo (or at least Greta Garbo 2.0). That would be weird.
-4. But OK, say you're willing to accept that such a threshold exists. Then isn't it odd that *there is no possible experiment* that would allow us to *discover* what that threshold is?
+## Thinking about it
 
 Parfit imagines what various people would think of these arguments.
 
-He reckons Wittgenstein would disapprove: He'd say that concepts are based on facts and those concepts don't make sense anymore when we talk about imaginary situations where the facts aren't true. Still, claiming that personhood is an all-or-nothing thing separate from our brains or bodies *also* stretches our concepts too far, so it's less that Wittgenstein *disagrees* and more that it's exasperating to argue with Wittgenstein even when he's imaginary.
+He reckons Wittgenstein would disapprove: He'd say that concepts are based on facts and those concepts don't make sense anymore when we talk about imaginary situations where the facts aren't true. Still, claiming that personhood is an all-or-nothing thing separate from our brains or bodies *also* stretches our concepts too far, so we shouldn't do that it. It's less that Wittgenstein *disagrees* and more that it's exasperating to argue with Wittgenstein even when he's imaginary.
 
 On the other hand, he thinks the Buddha would agree. The main text just says "As Appendix J shows, *Buddha would have agreed*." But then Appendix J is just a passage from the [Visuddhimagga](https://en.wikipedia.org/wiki/Visuddhimagga) ending with this quote:
 
@@ -195,14 +199,14 @@ If you're *not* completely self-interested, then things are more interesting. Sa
 
 Similarly, is prison moral? How can we make someone suffer for a crime done by a much younger person? This can only be justified on consequentialist grounds, e.g. that it would deter crimes. An extreme view is that even if we believe it must be done for the good of society, we should "apologize" to an older person for the injustice of punishing them for something their younger self did.
 
-Parfit also talks about the morality of abortion. Consider two scenarios:
+Parfit also talks about the morality of abortion. Consider two snapshots in time:
 
 1. A sperm is nearby an egg, about to fertilize it.
 2. Nine months later, a baby is born.
 
 Asking "when did a person start to exist?" is like our earlier thought experiments. Some gametes combined and slowly grew into a baby and that's a full description of what happened. Asking when the person started to exist has no simple answer because personhood is not an all-or-nothing quality.
 
-(That's not to say that wouldn't shouldn't *give* this question an answer. I really wish Parfit gave "empty" questions a less derogatory-sounding name because it's a useful concept and it would nice to say "that question is empty" without sounding like you're saying the question is stupid or not worth answering.)
+(That's not to say that wouldn't shouldn't *give* this question an answer. I really wish Parfit gave "empty" questions a less derogatory-sounding name because it's a useful concept and it would nice to say "that question is empty" without sounding like you think the question is stupid or not worth answering.)
 
 Parfit also considers how these ideas intersect with utilitarianism: On the one hand,  they reduce the scope for compensation. If I hurt you now but pay you compensation later, that doesn't really deliver justice to the version of you that was hurt. On the other hand, they also decrease the scope of "distributive" principles. You might claim that it's important that everyone is equally happy, but but what does "equality" mean if people aren't separate?
 

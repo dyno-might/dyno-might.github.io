@@ -94,7 +94,14 @@ a:visited:hover{
 a:hover{
   text-decoration: underline #363636;
 }
+.visible-on-hover p {
+  visibility: hidden;
+}
+.visible-on-hover:hover p {
+  visibility: visible;
+}
 
+{% comment %}
 hr {
     border: 0;
     height: 1px;
@@ -104,6 +111,25 @@ hr {
     margin-left:auto;
     margin-right:auto;
 }
+{% endcomment %}
+
+{% comment %}
+hr {
+  border-top: none;
+  border-color: none;
+  margin: 50px 0;
+}
+hr:after {
+  content: "⟢" ;
+  /* Controls the position of the logo */
+  left: 50%;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  /* Controls the whitespace around the symbol */
+  padding: 5px;
+  background: #fff;
+}
+{% endcomment %}
 
 </style>
 
