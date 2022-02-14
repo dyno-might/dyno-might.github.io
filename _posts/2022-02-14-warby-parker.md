@@ -5,7 +5,7 @@ image: /img/warby-parker/warby.jpg
 tags: philosophy
 description: "Meanwhile, in the multiverse..."
 permalink: /warby-parker/
-background_color: rgb(251,85,0)
+background_color: rgb(8,16,27)
 head: "<style>
 img{
     display:block;
@@ -87,5 +87,5 @@ But meanwhile, in the multiverse....
 
 ![BIGJOHN CRYBABY](/img/warby-parker/BIGJOHN CRYBABY.jpg)
 
-FAILURE INHALER, PARFAIT BUNGLER , HORSETUCK NUTSACK, HESITANT REGRETTER, LETDOWN SUNSHINE, TERMINAL BURNSIDES, DOMINO TUESDAY.
+FAILURE INHALER, PARFAIT BUNGLER, HESITANT REGRETTER, LETDOWN SUNSHINE, TERMINAL BURNSIDES, DOMINO TUESDAY.
 
