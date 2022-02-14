@@ -114,11 +114,11 @@ Do you have a friend who works in user-facing software? Sometime after they've h
 
 It's puzzling that there isn't a stronger tradition of "user testing" for writing. Occasionally I'll give a friend something I've written and implore them, "Please circle anything that makes you feel even slightly unhappy for any reason whatsoever." Then I'll ask them what they were thinking at each point. There are always "bugs" everywhere: Belaboring of obvious points, ambiguous phrases, unnecessary antagonistic language, tangential arguments about controversial things that don't matter, etc.
 
-Fixing these is great but your friends (let's hope) don't want to hurt your feelings. Unfortunately, this makes it almost impossible to get them to say things like, "your jokes aren't funny" or "you should delete section 3 because it's horrendous and unsalvageable". Good editors are gold.
+Fixing these is great but your friends (let's hope) don't want to hurt your feelings. This makes it almost impossible to get them to say things like, "your jokes aren't funny" or "you should delete section 3 because it's horrendous and unsalvageable". Good editors are gold.
 
 Comments from the internet are the opposite. A downside is that you have much longer feedback loops, which makes it hard to figure out cause and effect. But you get feedback at a much higher scale and people are... substantially less worried about offending you.
 
-Take the humidifiers example from before. Technically, the complaints were wrong. How could I "fix" the problem of not citing any papers when I had already cited dozens? That's what I thought for months, during which people continued to read the post and have the same. damned. reaction. Eventually, I had to confront that even if they were "wrong", something about my post was *causing* them to be wrong. Viewed that way, the problem was obvious: The idea that a humidifier could be bad for you is weird and disturbing, and weird and disturbing things are usually wrong so people are skeptical and tend to find ways to dismiss them.
+Take the humidifiers example from before. Technically, the complaints were wrong. How could I "fix" the problem of not citing any papers when I had already cited dozens? That's what I thought for months, during which people continued to read the post and have the same damned reaction. Eventually, I had to confront that even if they were "wrong", something about my post was *causing* them to be wrong. Viewed that way, the problem was obvious: The idea that a humidifier could be bad for you is weird and disturbing, and weird and disturbing things are usually wrong so people are skeptical and tend to find ways to dismiss them.
 
 *Should* they do that?
 
