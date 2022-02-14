@@ -106,7 +106,7 @@ Sometimes this can be funny, too. Once I wrote about a study by [Pierson et al. 
 
 The first few times I saw my posts discussed, I was shaken by the amount of negativity. This bothered me until I tried going to posts from others that I thought were great and reading the comments as if I were the author. Sometimes, umm, the comments were all glowing. But other times---with no clear pattern---most dismissed the article as pointless/obvious/wrong/bad. After this, negativity still bothered me, but I had a new variant of the old "Einstein was bad at math, I'm bad at math" fallacy to distract me.
 
-Here's something I've noticed about myself: If I read something great, I'll sometimes write a short comment like "This was amazing, you're the best!" Then I'll stare at it for 10 seconds and decide that posting it would be lame and humiliating, so I delete it go about my day. But on the rare occasions that I read something that triggers me, I get a strong feeling that I have *important insights*. Assuming that I'm not uniquely broken in this way, it explains a lot.
+Here's something I've noticed about myself: If I read something great, I'll sometimes write a short comment like "This was amazing, you're the best!" Then I'll stare at it for 10 seconds and decide that posting it would be lame and humiliating, so I delete it and go about my day. But on the rare occasions that I read something that triggers me, I get a strong feeling that I have *important insights*. Assuming that I'm not uniquely broken in this way, it explains a lot.
 
 ## Listening to criticism is a superpower.
 
@@ -130,7 +130,7 @@ After making those changes, no one had the same reaction anymore.
 
 Part of me feels like this is wrong, that it's disingenuous to tune writing to make people have the reaction you want them to have. After all, I could be wrong, in which case it's better if my wrongness is more obvious.
 
-Maybe there's a slippery slope here, but I think most people operate very close to the top of that hill. The goal of writing is to communicate, and it's silly to ignore the effects your writing has on the actual people who read it.
+Maybe there's a slippery slope here, but I think most people operate very close to the top of that hill. The goal of writing is to communicate, and it's silly to ignore the effects it has on the actual people who read it.
 
 So my advice is this: When you hear criticism, you need to guess if people even looked at the post. If they did, *some* negative reactions are inevitable. But if you repeatedly hear the same complaint, you should have a strong presumption that there is a problem, though it might be very different from the problem people state.
 
@@ -150,11 +150,11 @@ Or here's a [comment](https://old.reddit.com/r/philosophy/comments/si0bmg/reason
 
 > I think we often tend to conflate our lived experience of unity with the notion that the whole body has some centralized unitary consciousness. The lived experience is a momentary duration, and it doesn't appear to me as a centralized and exclusive instance of consciousness --- there could be multiple others (in the same body) that are inaccessible to "this" consciousness. Considered as such, mental disorders, DIDs, and split brains are not violations of unity of an instance of consciousness, but would be a result of "de-harmonization" of different instances of consciousness (due to information blockage and other reasons).
 
-The idea of sitting down and finding the One Eternal Truth about anything is a fantasy. The universe has fractal levels of detail in every direction. There are a *lot* of ridiculously smart and well-informed people out there, and some of them will have deeper knowledge and thoughts about basically every facet of every thought you ever have. If you can motivate the collective hivemind to pay attention to something you care about, you'd be crazy not to listen.
+The idea of sitting down and finding the One Eternal Truth about anything is a fantasy. The universe has fractal levels of detail in every direction. There are a *lot* of ridiculously smart and well-informed people out there, and some of them will have deeper knowledge and insight about basically every facet of every thought you ever have. If you can motivate the collective hivemind to pay attention to something you care about, you'd be crazy not to listen.
 
-Oddly, it seems to me that discussions that fully detach from the original article are on average *better*. If that doesn't happen, it's often because people got stuck in fairly boring arguments about minutia. This also happens for detached discussions of course, but they seem to have a better chance of reaching interesting places.
+Oddly, it seems to me that discussions that fully detach from the original article are on average *better*. If that doesn't happen, it's often because people got stuck arguing about minutia. This also happens for detached discussions of course, but they seem to have a better chance of reaching interesting places.
 
-Aside: Techno-optimism is unfashionable at the moment, but I suspect we still haven't come close to realizing the potential of even the internet technology we had in the 1990s. When thousands of people converge on a topic, the collective knowledge *far* exceeds any one person, but our current interaction models don't do a great job of synthesizing it. It's a difficult problem, but it's hard to imagine that in a hundred years we won't have more effective ways to interact.
+Aside: Techno-optimism is unfashionable at the moment, but I suspect we still haven't come close to realizing the potential of even the internet technology of the 1990s. When thousands of people converge on a topic, the collective knowledge *far* exceeds any one person, but our current interaction models don't do a great job of synthesizing it. It's a difficult problem, but it's hard to imagine that in a hundred years we won't have more effective ways to interact.
 
 ## The people who will pleasantly engage with you clearly signal their intention to be pleasant.
 
@@ -170,7 +170,7 @@ I exaggerate, but it was always *overwhelmingly obvious* from first contact that
 
 The tricky situation is cases where someone is mildly (or un-mildly) rude but *also* makes an intriguing point. After many failures, my policy is now to take their comments into account as much as I can and *maybe* reply with "thanks for your input", but not to engage or ask follow-up questions.
 
-I'm not sure why things are like this or if this pattern generalizes to other people. But I think everyone needs to builds some pattern recognition for this and figure out a policy of when they want to engage.
+I'm not sure why things are like this or if this pattern generalizes to other people. But I think everyone needs to build some pattern recognition for this and figure out a policy for when they want to engage.
 
 ## Distribution, Pareto optimality, and quantity vs. quality.
 
