@@ -100,7 +100,7 @@ Why do people go to forums? Partly for links, yes, but also because they like th
 
 I'd love to see statistics for this, but I'd guess that only a small fraction of people finish most articles before commenting, and many don't even look at the article. This is not necessarily a bad thing! Sometimes the discussion detaches and goes into all sorts of interesting and unexpected directions.
 
-Sometimes this can be funny, too. Once I wrote about a study by [Pierson et al. (2020)](https://5harad.com/papers/100M-stops.pdf) who investigated how the racial mix of drivers stopped by police changes at different times of the year when it may be harder to see the drivers. The first comment was basically, "This is all wrong. There's a study by Pierson et al. (2020) that investigated..."
+Sometimes this can be funny, too. Once I wrote about a study by [Pierson et al. (2020)](https://5harad.com/papers/100M-stops.pdf) who investigated how the racial mix of drivers stopped by police changes at different times of the year. The first comment was basically, "This is all wrong. There's a study by Pierson et al. (2020) who investigated..."
 
 ## Engagement has a sample bias.
 
