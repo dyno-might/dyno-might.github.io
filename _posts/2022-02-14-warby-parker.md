@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Warby Parker multiverse"
-image: /img/warby-parker/warby.jpg
+image: /img/warby-parker/warby3.jpg
 tags: philosophy
 description: "Meanwhile, in the multiverse..."
 permalink: /warby-parker/
@@ -87,5 +87,5 @@ But meanwhile, in the multiverse....
 
 ![BIGJOHN CRYBABY](/img/warby-parker/BIGJOHN CRYBABY.jpg)
 
-FAILURE INHALER, PARFAIT BUNGLER, HESITANT REGRETTER, LETDOWN SUNSHINE, TERMINAL BURNSIDES, DOMINO TUESDAY.
+Also: FAILURE INHALER, PARFAIT BUNGLER, HESITANT REGRETTER, LETDOWN SUNSHINE, TERMINAL BURNSIDES, DOMINO TUESDAY.
 
