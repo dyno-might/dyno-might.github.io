@@ -118,11 +118,11 @@ Fixing these is great but your friends (let's hope) don't want to hurt your feel
 
 Comments from the internet are the opposite. A downside is that you have much longer feedback loops, which makes it hard to figure out cause and effect. But you get feedback at a much higher scale and people are... substantially less worried about offending you.
 
-Take the humidifiers example from before. Technically, the complaints were wrong. How could I "fix" the problem of not citing any papers when I had already cited dozens? That's what I thought for months, during which people continued to read the post and have the same damned reaction. Eventually, I had to confront that even if they were "wrong", something about my post was *causing* them to be wrong. Viewed that way, the problem was obvious: The idea that a humidifier could be bad for you is weird and disturbing, and weird and disturbing things are usually wrong so people are skeptical and tend to find ways to dismiss them.
+Take the humidifiers example from before. Technically, the complaints were wrong. How could I "fix" the problem of not citing any papers when I had already cited dozens? That's what I thought for months, during which people continued to read the post and have the same damned reaction. Eventually, I had to confront that even if they were "wrong", something about my post was *causing* them to be wrong. Viewed that way, the problem was obvious: The idea that a humidifier could be bad for you is weird and disturbing, and weird and disturbing things are usually untrue so people are skeptical and tend to find ways to dismiss them.
 
 *Should* they do that?
 
-[Long boring polemic on Bayesian rationality redacted]
+[Long polemic on Bayesian rationality redacted.]
 
 It's debatable---but it's a fact that they do it. So I rewrote the post to be "gentle". Previously my approach was to sort of tackle the reader and scream "HUMIDIFIERS → PARTICLES! [citation] [citation] [citation] [citation]" and "PARTICLES → DEATH! [citation] [citation] [citation]". I changed it to start by conceding that ultrasonic humidifiers don't *always* make particles and it's not *certain* those particular particles cause harm, et cetera, but PEER-REVIEWED RESEARCH PAPERS say these things are possible, so it's worth thinking about.
 
