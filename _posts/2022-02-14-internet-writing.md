@@ -4,7 +4,7 @@ title: "So you're thinking about writing on the internet"
 image: /img/internet-writing/typewriter.jpg
 date: 2022-02-14 11:00:00
 tags: writing
-description: "Some observations about writing and commenting on the internet"
+description: "Observations on the dynamics of writing and commenting."
 permalink: /internet-writing/
 background_color: rgb(165,165,165)
 head: "<style>
