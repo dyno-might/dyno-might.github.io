@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Observations about writing and commenting on the internet"
+title: "So you're thinking about doing some writing on the internet"
 image: /img/internet-writing/typewriter.jpg
 date: 2022-02-14 11:00:00
 tags: writing
@@ -104,7 +104,7 @@ Sometimes this can be funny, too. Once I wrote about a study by [Pierson et al. 
 
 ## Engagement has a sample bias.
 
-The first few times I saw my posts discussed, I was shaken by the amount of negativity. This bothered me until I tried going to posts from others that I thought were great and reading the comments as if I were the author. Sometimes, umm, the comments were all glowing. But other times---with no clear pattern---most dismissed the article as pointless/obvious/wrong/bad. After this, negativity still bothered me, but I had a new variant of the old "Einstein was bad at math, I'm bad at math" fallacy to distract me.
+The first few times I saw my posts discussed, I was shaken by the amount of negativity. This bothered me until I tried going to posts from others that I thought were great and reading the comments as if I were the author. Sometimes, umm, the comments were all glowing. But other times---with no clear pattern---most dismissed the article as pointless/obvious/wrong/bad. (After this, negativity still bothered me, but I had a new variant of the old "Einstein was bad at math, I'm bad at math" fallacy to distract me.)
 
 Here's something I've noticed about myself: If I read something great, I'll sometimes write a short comment like "This was amazing, you're the best!" Then I'll stare at it for 10 seconds and decide that posting it would be lame and humiliating, so I delete it and go about my day. But on the rare occasions that I read something that triggers me, I get a strong feeling that I have *important insights*. Assuming that I'm not uniquely broken in this way, it explains a lot.
 
@@ -124,7 +124,7 @@ Take the humidifiers example from before. Technically, the complaints were wrong
 
 [Insert long boring polemic on Bayesian rationality]
 
-It's debatable---but it's a fact that they do it. So I rewrote the post to be "gentle". Previously my approach was to sort of tackle the reader and scream "HUMIDIFIERS → PARTICLES! [citation] [citation] [citation] [citation]" and "PARTICLES → DEATH! [citation] [citation] [citation]". I changed it to start by conceding that ultrasonic humidifiers don't *always* make particles and it's not *certain* those particular particles cause harm, et cetera, but PEER-REVIEWED RESEARCH PAPERS says these things are possible, so it's worth thinking about.
+It's debatable---but it's a fact that they do it. So I rewrote the post to be "gentle". Previously my approach was to sort of tackle the reader and scream "HUMIDIFIERS → PARTICLES! [citation] [citation] [citation] [citation]" and "PARTICLES → DEATH! [citation] [citation] [citation]". I changed it to start by conceding that ultrasonic humidifiers don't *always* make particles and it's not *certain* those particular particles cause harm, et cetera, but PEER-REVIEWED RESEARCH PAPERS say these things are possible, so it's worth thinking about.
 
 After making those changes, no one had the same reaction anymore.
 
@@ -158,7 +158,7 @@ Aside: Techno-optimism is unfashionable at the moment, but I suspect we still ha
 
 ## The people who will pleasantly engage with you clearly signal their intention to be pleasant.
 
-Sometimes I read a comment and I get a weird feeling, but then I convince myself, "They weren't *rude*. They are making a sincere comment, and people shouldn't have to humble themselves and stoke my fragile ego." So I'll try to respond.
+Sometimes I read a comment and I get a weird feeling, but then I convince myself, "They weren't *rude*. They are making a sincere comment, and people shouldn't have to humble themselves and stroke my fragile ego." So I'll try to respond.
 
 As far as I can recall, this has never worked. Once after I wrote about the Monty Hall problem, someone curtly stated that I clearly didn't understand it because I didn't mention that Monty must choose a non-car door to open *randomly*. I thought about this and replied with an argument that if, say, Monty always chose the leftmost non-car door, everything was still fine. They responded that clearly I didn't even try to read their comment, I'm just like everyone else who doesn't get it, plus a lot of math that I found incoherent. I wondered---Am I stupid? Was I missing something? So I wrote 25 lines of Python code to simulate it and verified that this didn't change the probabilities at all. After I posted that code, my correspondent <strike>thanked me for the correction</strike> changed nothing, acknowledged nothing, and stopped responding.
 
@@ -176,7 +176,7 @@ I'm not sure why things are like this or if this pattern generalizes to other pe
 
 There's an argument that most writing has no value. It goes like this: Every hour, more text is produced than you could read in a lifetime. If you can write the *best* piece on a given topic, great, but otherwise we don't need *more content*. And don't kid yourself---to write the *best* piece, you'd need to pick a single topic, become a world expert, and spend months polishing the writing. Most writing is just people yelling over each other for their own reasons.
 
-The standard response is to gesture towards [Pareto optimality](https://en.wikipedia.org/wiki/Pareto_efficiency): There's no "best" article on a given topic because there are many dimensions of quality, which people prioritize in their own ways. Unless another article is better than yours *in every dimension simultaneously* you have the potential to be the best article for *someone*.
+The standard response is to gesture towards [Pareto optimality](https://en.wikipedia.org/wiki/Pareto_efficiency): There's no "best" article on a given topic because there are many dimensions of quality, which people prioritize in their own ways. Unless another article is better than yours *in every dimension simultaneously*, you have the potential to be the best article for *someone*.
 
 That's a nice thought. But surely it's significant that we have no *mechanism* for that person to actually find the article that's optimal for them? (Or maybe Google is really onto something and when you think you want a recipe what you *really* need is pages of SEO-optimized autogenerated gibberish.) To contribute value *in practice*, an article needs to be better than everything else for a decently large slice of the population.
 
