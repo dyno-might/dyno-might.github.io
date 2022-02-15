@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "So you're thinking about doing some writing on the internet"
+title: "So you're thinking about writing on the internet"
 image: /img/internet-writing/typewriter.jpg
 date: 2022-02-14 11:00:00
 tags: writing
-description: "Some things I've learned about writing stuff on the internet"
+description: "Some observations about writing and commenting on the internet"
 permalink: /internet-writing/
 background_color: rgb(165,165,165)
 head: "<style>
