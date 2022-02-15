@@ -110,7 +110,7 @@ Here's something I've noticed about myself: If I read something great, I'll some
 
 ## Listening to criticism is a superpower.
 
-Do you have a friend who works in user-facing software? Sometime after they've had a few drinks, ask about the first time they saw one of their creations being tested on real people. Observe how somber their face becomes as they express their feelings of frustration and impotence. The things we build are no match by the might of human ingenuity to do everything wrong in unexpected ways.
+Do you have a friend who works in user-facing software? Sometime after they've had a few drinks, ask about the first time they saw one of their creations being tested on real people. Observe how somber their face becomes as they express their feelings of frustration and impotence. The things we build are no match to the might of human ingenuity to do everything wrong in unexpected ways.
 
 It's puzzling that there isn't a stronger tradition of "user testing" for writing. Occasionally I'll give a friend something I've written and implore them, "Please circle anything that makes you feel even slightly unhappy for any reason whatsoever." Then I'll ask them what they were thinking at each point. There are always "bugs" everywhere: Belaboring of obvious points, ambiguous phrases, unnecessary antagonistic language, tangential arguments about controversial things that don't matter, etc.
 
@@ -122,7 +122,7 @@ Take the humidifiers example from before. Technically, the complaints were wrong
 
 *Should* they do that?
 
-[Insert long boring polemic on Bayesian rationality]
+[Long boring polemic on Bayesian rationality redacted]
 
 It's debatable---but it's a fact that they do it. So I rewrote the post to be "gentle". Previously my approach was to sort of tackle the reader and scream "HUMIDIFIERS → PARTICLES! [citation] [citation] [citation] [citation]" and "PARTICLES → DEATH! [citation] [citation] [citation]". I changed it to start by conceding that ultrasonic humidifiers don't *always* make particles and it's not *certain* those particular particles cause harm, et cetera, but PEER-REVIEWED RESEARCH PAPERS say these things are possible, so it's worth thinking about.
 
@@ -132,7 +132,7 @@ Part of me feels like this is wrong, that it's disingenuous to tune writing to m
 
 Maybe there's a slippery slope here, but I think most people operate very close to the top of that hill. The goal of writing is to communicate, and it's silly to ignore the effects it has on the actual people who read it.
 
-So my advice is this: When you hear criticism, you need to guess if people even looked at the post. If they did, *some* negative reactions are inevitable. But if you repeatedly hear the same complaint, you should have a strong presumption that there is a problem, though it might be very different from the problem people state.
+So my advice is this: When you hear criticism, you need to guess if people even looked at what you wrote. If they did, *some* negative reactions are inevitable. But if you repeatedly hear the same complaint, you should have a strong presumption that there is a problem, though it might be very different from the problem people state.
 
 ## No one is better than the combined efforts of a large group of people.
 
@@ -160,17 +160,17 @@ Aside: Techno-optimism is unfashionable at the moment, but I suspect we still ha
 
 Sometimes I read a comment and I get a weird feeling, but then I convince myself, "They weren't *rude*. They are making a sincere comment, and people shouldn't have to humble themselves and stroke my fragile ego." So I'll try to respond.
 
-As far as I can recall, this has never worked. Once after I wrote about the Monty Hall problem, someone curtly stated that I clearly didn't understand it because I didn't mention that Monty must choose a non-car door to open *randomly*. I thought about this and replied with an argument that if, say, Monty always chose the leftmost non-car door, everything was still fine. They responded that clearly I didn't even try to read their comment, I'm just like everyone else who doesn't get it, plus a lot of math that I found incoherent. I wondered---Am I stupid? Was I missing something? So I wrote 25 lines of Python code to simulate it and verified that this didn't change the probabilities at all. After I posted that code, my correspondent <strike>thanked me for the correction</strike> changed nothing, acknowledged nothing, and stopped responding.
+As far as I can recall, this has never worked. Once after I wrote about the Monty Hall problem, someone curtly stated that I clearly didn't understand it because I didn't mention that Monty must choose a non-car door to open *randomly*. I thought about this and replied with an argument that if, say, Monty always chose the leftmost non-car door, you still got the car 2/3 of the time by switching. They responded that clearly I didn't even try to read their comment, I'm just like everyone else who doesn't get it, plus a lot of math that I found incoherent. I wondered---Am I stupid? Was I missing something? So I wrote 25 lines of Python code to simulate it and verified that this didn't change the probabilities. After I posted that code, my correspondent <strike>thanked me for the correction</strike> changed nothing, acknowledged nothing, and stopped responding.
 
 There have been many instances where someone wrote to me to say I was wrong, we had a productive back and forth, and they convinced me I was indeed partly or entirely wrong. But in every case, their first message looked like this:
 
-> Hello friend, I enormously enjoyed your recent fevered rant on [topic]. However, if I may be so bold I wish to point out errors in paragraphs 1, 2, 3, 5, 12, 17, 20, and 21. [errors] Sadly, these issues render your conclusion not just wrong but incoherent and arguably illegal. Still, you've done a great service by writing it and creating a stimulating discussion. Generations to come will admire you! Yours sincerely, Internet Person.
+> Hello friend, I enormously enjoyed your recent fevered rant on [topic]. However, if I may be so bold I wish to point out errors in paragraphs 1, 2, 3, 5, 12, 17, 20, and 21. [errors] Sadly, these issues render your conclusion not just wrong but incoherent and arguably unlawful. Still, you've done a great service by writing it and creating a stimulating discussion. Generations to come will admire you! Yours sincerely, Internet Person.
 
 I exaggerate, but it was always *overwhelmingly obvious* from first contact that they were going to be nice. And people who seemed nice always *were* nice.
 
 The tricky situation is cases where someone is mildly (or un-mildly) rude but *also* makes an intriguing point. After many failures, my policy is now to take their comments into account as much as I can and *maybe* reply with "thanks for your input", but not to engage or ask follow-up questions.
 
-I'm not sure why things are like this or if this pattern generalizes to other people. But I think everyone needs to build some pattern recognition for this and figure out a policy for when they want to engage.
+I'm not sure why things are like this or if this pattern generalizes to other people. But I think everyone needs to build some pattern recognition and figure out a policy for when they want to engage.
 
 ## Distribution, Pareto optimality, and quantity vs. quality.
 
