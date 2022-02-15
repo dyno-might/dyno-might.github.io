@@ -134,7 +134,7 @@ Maybe there's a slippery slope here, but I think most people operate very close 
 
 So my advice is this: When you hear criticism, you need to guess if people even looked at what you wrote. If they did, *some* negative reactions are inevitable. But if you repeatedly hear the same complaint, you should have a strong presumption that there is a problem, though it might be very different from the problem people state.
 
-## No one is better than the combined efforts of a large group of people.
+## No one beats the combined efforts of a large group.
 
 If comments are often bad, does that mean you shouldn't read them? If you're very fragile, maybe. But you'll be missing out. For one thing, you can often try to trace back the causal chain like above.
 
