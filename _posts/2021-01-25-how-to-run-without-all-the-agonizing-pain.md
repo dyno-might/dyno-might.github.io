@@ -27,7 +27,7 @@ No! You don’t need ultimate willpower, even at the beginning. That’s the sec
 
 ---
 
-You should think as follows: You are starting a habit you will keep for decades. It *doesn’t matter* how hard you run today. What matters is (1) that you *do* run, and (2) that you enjoy it enough that you’ll run again tomorrow. That’s it. Are there are people who run three times a week for 5 years and still suck at running, however little their willpower is in each session? No! Just go, take it easy, and let time do the work.
+You should think as follows: You are starting a habit you will keep for decades. It *doesn’t matter* how hard you run today. What matters is (1) that you *do* run, and (2) that you enjoy it enough that you’ll run again tomorrow. That’s it. Are there people who run three times a week for 5 years and still suck at running, however little their willpower is in each session? No! Just go, take it easy, and let time do the work.
 
 Behold, the official Dynomight™ running program:
 
@@ -60,6 +60,6 @@ In reality, *suffering is bad for you*. If you suffer, you'll hate running. If y
 
 ---
 
-Philosophically, should I have known running wasn’t interminable pain forever? In retrospect, it seems ridiculous to think I was “different” from runners, physically or mentally. Why didn’t I consider the possibility that my random guesses about what they were experiencing was wrong?
+Philosophically, should I have known running wasn’t interminable pain forever? In retrospect, it seems ridiculous to think I was “different” from runners, physically or mentally. Why didn’t I consider the possibility that my random guesses about what they were experiencing were wrong?
 
-Maybe there’s a lesson here about how easy it is to make assumptions, or imagine deep personality differences when mundane explanations suffice. Maybe the [fundamental attribution error](https://en.wikipedia.org/wiki/Fundamental_attribution_error#Criticism) does exist. Or maybe it's just to hard to resist passively bragging by letting everyone think running must be difficult.
+Maybe there’s a lesson here about how easy it is to make assumptions, or imagine deep personality differences when mundane explanations suffice. Maybe the [fundamental attribution error](https://en.wikipedia.org/wiki/Fundamental_attribution_error#Criticism) does exist. Or maybe it's just too hard to resist passively bragging by letting everyone think running must be difficult.

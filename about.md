@@ -39,7 +39,7 @@ You can also read everything as a single [ebook](/ebook/).
 
 ---
 
-Email: <span style="font-family:monospace; font-size:80%;">dynomight</span> at [the domain this links points to](https://tutanota.com/). Or use the form at the bottom of this page.
+Email: <span style="font-family:monospace; font-size:80%;">dynomight</span> at [the domain this link points to](https://tutanota.com/). Or use the form at the bottom of this page.
 
 RSS feed: <https://dynomight.net/feed.xml>
 
