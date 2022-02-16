@@ -108,6 +108,6 @@ The problem is: What is the best strategy for you and Monty to use? And if you u
 
 The naive solution would be to play as if there was no conspiracy: If Monty picks a random door to open and you always switch, then you get the car 2/3 of the time. The question is: Can you do better?
 
-I'm pretty sure I have the answer, but <strike>people always yell at me when I try to explain this stuff</strike> I don't yet have an elegant proof.
+I'm pretty sure I have the answer, but <strike>people always yell at me when I talk about this stuff</strike> I don't yet have an elegant proof.
 
 Do you have one? If so, please [send it to me](/about). When/if I get some nice solutions, I'll post an update.
