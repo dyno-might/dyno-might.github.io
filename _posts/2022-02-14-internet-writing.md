@@ -110,7 +110,7 @@ Here's something I've noticed about myself: If I read something great, I'll some
 
 ## Listening to criticism is a superpower.
 
-Do you have a friend who works in user-facing software? Sometime after they've had a few drinks, ask about the first time they saw one of their creations being tested on real people. Observe how somber their face becomes as they express their feelings of frustration and impotence. The things we build are no match to the might of human ingenuity to do everything wrong in unexpected ways.
+Do you have a friend who works in user-facing software? Sometime after they've had a few drinks, ask about the first time they saw one of their creations being tested on real people. Observe how somber their face becomes as they express their feelings of frustration and impotence. The things we build are no match for the might of human ingenuity to do everything wrong in unexpected ways.
 
 It's puzzling that there isn't a stronger tradition of "user testing" for writing. Occasionally I'll give a friend something I've written and implore them, "Please circle anything that makes you feel even slightly unhappy for any reason whatsoever." Then I'll ask them what they were thinking at each point. There are always "bugs" everywhere: Belaboring of obvious points, ambiguous phrases, unnecessary antagonistic language, tangential arguments about controversial things that don't matter, etc.
 
