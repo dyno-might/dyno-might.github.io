@@ -95,7 +95,7 @@ The [well-known solution](2020/09/17/making-the-monty-hall-problem-weirder-but-o
 
 ## Variant
 
-In our variant, Monty is corrupt. The night before the game, you show up at his house with a suitcase of cash. He agrees that he will follow whatever algorithm you want when choosing the door to open. 
+In our variant, Monty is corrupt. The night before the game, you show up at his house with a suitcase of cash. He agrees that he will follow whatever algorithm you want when choosing the door to open. (Of course, he still can't open a door with a car.)
 
 What makes this challenging is:
 
