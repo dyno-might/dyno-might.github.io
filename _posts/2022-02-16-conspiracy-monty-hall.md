@@ -110,4 +110,4 @@ The naive solution would be to play as if there was no conspiracy: If Monty pick
 
 I'm pretty sure I have the answer, but <strike>people always yell at me when I talk about this stuff</strike> I don't yet have an elegant proof.
 
-Do you have one? If so, please [send it to me](/about). When/if I get some nice solutions, I'll post an update.
+Do you have one? If so, please [send it to me](/about/). When/if I get some nice solutions, I'll post an update.
