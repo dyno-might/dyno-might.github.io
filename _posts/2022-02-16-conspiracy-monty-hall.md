@@ -91,7 +91,7 @@ As a reminder, here's the standard problem:
  <img src="/img/monty-hall/game5.png">
 </div>
 
-The [well-known solution](2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) is that you should always switch, which gets you the car 2/3 of the time.
+The [well-known solution](/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) is that you should always switch, which gets you the car 2/3 of the time.
 
 ## Variant
 
