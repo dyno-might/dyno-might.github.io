@@ -174,6 +174,7 @@ function updateprogress(done){
     // if done, show results
     if(rownum==q_lo_length){
         getscores();
+        $("#firstgraph").last().html(firstgraph(IE,SN,FT,JP,false));
         $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
         describe_letters(IE,SN,FT,JP);
         $("#buttons").hide();
@@ -229,8 +230,35 @@ function get_you_string(val,startphase3,size){
     }
 }
 
+function firstgraph(IE,SN,FT,JP,phaze){
+    var size = 25
+    
+    IE_lab = choose_from_range(IE,['𝙸','𝚒','𝚡','𝚎','𝙴'])
+    SN_lab = choose_from_range(SN,['𝚂','𝚜','𝚡','𝚗','𝙽'])
+    FT_lab = choose_from_range(FT,['𝙵','𝚏','𝚡','𝚝','𝚃'])
+    JP_lab = choose_from_range(JP,['𝙹','𝚓','𝚡','𝚙','𝙿'])
+
+    var box = IE_lab + SN_lab + FT_lab + JP_lab;
+    box += "<br>🄸 ";
+    box += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
+    box += " 🄴";
+    box += "<br>🅂 ";
+    box += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
+    box += " 🄽";
+    box += "<br>🄵 ";
+    box += choose_from_range(SN,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝚃']);
+    box += " 🅃";
+    box += "<br>🄹 ";
+    box += choose_from_range(SN,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
+    box += " 🄿";
+
+    return box
+}
+
+
 function resultgraph(IE,SN,FT,JP,phaze){
     var size = 25
+
     var txt = "<p><tt>"
 
     txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
@@ -249,6 +277,7 @@ function resultgraph(IE,SN,FT,JP,phaze){
     return txt
 }
 
+
 function getscores(){
     IE = 30-Q[2]-Q[6]-Q[10]+Q[14]-Q[18]+Q[22]+Q[26]-Q[30]; //8 40
     SN = 12+Q[3]+Q[7]+Q[11]+Q[15]+Q[19]-Q[23]-Q[27]+Q[31]; //8 40
@@ -265,7 +294,7 @@ function getscores(){
     FT_lab = choose_from_range(FT,['F','f','x','t','T'])
     JP_lab = choose_from_range(JP,['J','j','x','p','P'])
 
-    $("#mbtisubtype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);    
+    //$("#mbtisubtype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);    
 
     IE_lab = choose_from_range2(IE,['I','E'])
     SN_lab = choose_from_range2(SN,['S','N'])
@@ -997,10 +1026,11 @@ function describe_letters(IE,SN,FT,JP){
 <hr>
 
 <div style="text-align: center;">
-Result: <tt><span id="mbtisubtype">****</span></tt>
+<!-- Result: <tt><span id="mbtisubtype">****</span></tt> -->
     
 
-<div id="resultgraph"></div>
+<div id="firstgraph"></div>
+<p></p>
 
 <table style="margin-left:auto; margin-right:auto; text-align:left; width=100%">
 <tr>
@@ -1020,6 +1050,10 @@ Result: <tt><span id="mbtisubtype">****</span></tt>
     <td id="JP_desc"></td>
 </tr>
 </table>
+
+
+<div id="resultgraph"></div>
+
 <p>
 <font size=+1>Traditional result:
     <tt>
