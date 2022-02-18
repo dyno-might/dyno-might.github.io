@@ -64,7 +64,14 @@ In general I'm *very* open to the idea that I got stuff wrong, I think all feedb
 
 ---
 
-Not sure where to get started?
+Not sure where to get started? Try one of these:
+
+* [Underrated reasons to be thankful](/thanks/)
+* [Plans you're not supposed to talk about](/plans/)
+* [Are some personalities just better?](/better-personalities/)
+* [Better air is the easiest way not to die](/air/)
+
+{% comment %}
 
 The closest thing I have to a "mission statement" is probably [this analogy](/culture-war-island-hopping/) between culture war debates and attacking highly defended islands in the WWII Pacific theater. But it's probably better to start with something below:
 
@@ -90,6 +97,7 @@ The closest thing I have to a "mission statement" is probably [this analogy](/cu
 
 **Things to never do**
 * [What happens if you drink acetone?](/2020/09/14/what-happens-if-you-drink-acetone/)
+{% endcomment %}
 
 {% comment %}
 **Made the internet oddly mad** (they're wrong I tell you, all wrong)
