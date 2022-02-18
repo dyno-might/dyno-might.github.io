@@ -57,20 +57,19 @@ All psychological traits are heritable. This is the [best replicated](https://dx
 
 * Religiosity: [44%](https://doi.org/10.1111%2Fj.1467-6494.2005.00316.x)
 * Schizophrenia: [79%](https://doi.org/10.1016/j.biopsych.2017.08.017)
-* [Big five](https://dynomight.net/better-personalities/) personality traits: [~50%](https://doi.org/10.1111/j.1467-6494.2005.00316.x)
+* [Big five](/better-personalities/) personality traits: [~40%](https://doi.org/10.1111/j.1467-6494.2005.00316.x)
 
 But what, exactly, does "heritability" mean?
 
-I used to have a mental model something like this:  Each person has some number of religiosity points that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
+I used to have a mental model something like this: Each person has some number of "religiosity points" that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
 
-<div style="font-size:min(4vw,12pt);" markdown="1">
+<div style="font-size:min(4vw,12pt); font-family:monospace;" markdown="1">
 
-```
-Genes        ★★★☆        (3/4)
-Environment  ★★☆☆☆☆      (2/6)
-Total        ★★★★★☆☆☆☆☆  (5/10)
-```
+&nbsp;Genes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★☆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3/4) \\
+&nbsp;Environment&nbsp;★★☆☆☆☆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2/6) \\
+&nbsp;Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★☆☆☆☆☆  (5/10)
 
+<br>
 </div>
 
 The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant). It isn't.
