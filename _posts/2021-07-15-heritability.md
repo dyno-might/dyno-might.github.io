@@ -63,7 +63,7 @@ But what, exactly, does "heritability" mean?
 
 I used to have a mental model something like this: Each person has some number of "religiosity points" that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured there being 10 total points, 4 of which come from genes and 6 of which come from the environment:
 
-<div style="font-size:min(4vw,12pt); font-family:monospace; text-align:center;" markdown="1">
+<div style="font-size:min(4vw,12pt); font-family:monospace;" markdown="1">
 
 &nbsp;Genes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★☆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\\
 &nbsp;Environment&nbsp;★★☆☆☆☆&nbsp;&nbsp;&nbsp;&nbsp;\\
