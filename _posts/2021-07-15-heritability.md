@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It’s perfectly valid for a trait to be more than 100% heritable"
+title: "What is heritability, really? Just a ratio."
 image: /img/heritability/birds.jpg
 tags: statistics personality
 hero_light: false
@@ -63,12 +63,14 @@ But what, exactly, does "heritability" mean?
 
 I used to have a mental model something like this:  Each person has some number of religiosity points that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured this:
 
-<div style="font-size:100%;" markdown="1">
+<div style="font-size:min(4vw,12pt);" markdown="1">
+
 ```
-  Genes        ★★★☆        (3/4)
-  Environment  ★★☆☆☆☆      (2/6)
-  Total        ★★★★★☆☆☆☆☆  (5/10)
+Genes        ★★★☆        (3/4)
+Environment  ★★☆☆☆☆      (2/6)
+Total        ★★★★★☆☆☆☆☆  (5/10)
 ```
+
 </div>
 
 The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant). It isn't.
@@ -84,11 +86,12 @@ The only math we'll use is the concept of [variance](https://en.wikipedia.org/wi
 
 One note on terminology: Biologists use "phenotype" to refer to what actually happens, including all genetic or environmental causes. The phenotypic length of your foot is, thrillingly, the actual length of your foot.
 
-## Contents
-{:.no_toc}
+<div style="font-size:80%;" markdown="1">
 
 * auto-gen TOC:
 {:toc}
+
+</div>
 
 ## Simplest example
 
