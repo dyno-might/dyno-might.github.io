@@ -1,11 +1,53 @@
 ---
 layout: post
-title: "Simpson's paradox and the tyranny of strata"
+title: "Simpson's paradox is deeper than you think"
 image: /img/simpson/statue.jpg
 description: Visualizes Simpson's paradox, and shows how it's a deeper problem than many people realize.
 tags: statistics math
 background_color: black
 permalink: /:year/:month/:day/:title/
+head: "<style>
+details{
+    }
+details summary{
+  padding-bottom: 12pt;
+}
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tr{
+    border-style: hidden;
+    text-align:center;
+}
+@media (min-width:501px){
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 90%;
+}
+}
+@media (max-width:500px) and (min-width:301px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 3.2vw;
+}
+}
+@media (max-width:300px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 0.5em;
+}
+.fixed{
+    max-width:100;
+    max-width:100%;
+    overflow:scroll;
+}
+}
+</style>"
 ---
 It's hard to get into Oxford. Is it easier if your parents are rich?
 
