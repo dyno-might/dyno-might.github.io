@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "General intelligence vs. general physical fitness"
+title: "Is there a general factor of intelligence?"
 image: /img/g/cigar.jpg
 tags: statistics personality
 hero_light: false
