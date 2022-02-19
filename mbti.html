@@ -252,6 +252,22 @@ function firstgraph(IE,SN,FT,JP,phaze){
     box += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
     box += " 🄿";
 
+    str = IE_lab + SN_lab + FT_lab + JP_lab + "\\n";
+    str += "🄸 ";
+    str += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
+    str += " 🄴\\n";
+    str += "🅂 ";
+    str += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
+    str += " 🄽\\n";
+    str += "🄵 ";
+    str += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝚃']);
+    str += " 🅃\\n";
+    str += "🄹 ";
+    str += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
+    str += " 🄿\\n";
+
+    box += "<br><button style=\"background-color:#008CBA; padding: 8px 15px; color:white; border: none;\" onclick='copyToC(\"" + str + "\")'>Copy</button>"
+
     return box
 }
 
@@ -1030,6 +1046,21 @@ function describe_letters(IE,SN,FT,JP){
     
 
 <div id="firstgraph"></div>
+
+<script>
+function copyToC(copyText) {
+
+   document.addEventListener('copy', function(e) {
+      e.clipboardData.setData('text/plain', copyText);
+      e.preventDefault();
+   }, true);
+
+   document.execCommand('copy');  
+   console.log('copied to clipboard : \\n ', copyText);
+   alert('copied to clipboard: \n' + copyText); 
+}
+</script>
+
 <p></p>
 
 <table style="margin-left:auto; margin-right:auto; text-align:left; width=100%">
