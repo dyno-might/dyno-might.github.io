@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DYNOMIGHT INTERNET WEBSITE
+title: ABOUT DYNOMIGHT
 subtitle: 
 image: /img/deathvalleysky_prog.jpg
 hero_image: /img/deathvalleysky_prog.jpg
