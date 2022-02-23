@@ -158,9 +158,10 @@ function updateprogress(done){
         //if(where2scroll<q_lo_length){
         if(rownum+3<q_lo_length){
             myid = "row"+where2scroll;
-            //document.getElementById(myid).scrollIntoView(false);
+            document.getElementById(myid).scrollIntoView(false);
         } else{ // if near end, show results
-            //document.getElementById("aftergraph").scrollIntoView(false); 
+            // ios bug in scrollintoview?
+            document.getElementById("aftergraph").scrollIntoView(false); 
         }
     }
 
@@ -482,6 +483,83 @@ function describe_letters(IE,SN,FT,JP){
 }
 </script>
 
+<script>
+  window.onload = startCycle();
+
+  function startCycle(){
+    timerID = setInterval(changeText,750);
+  }
+
+  function randElement(list){
+    i = parseInt(Math.random()*list.length);
+    return list[i]
+  }
+
+  function changeText(){
+    e1 = randElement(['𝙸','𝚒','𝚎','𝙴']); //'𝚡',
+    e2 = randElement(['𝚂','𝚜','𝚡','𝚗','𝙽']);
+    e3 = randElement(['𝙵','𝚏','𝚡','𝚝','𝚃']);
+    e4 = randElement(['𝙹','𝚓','𝚙','𝙿']); //'𝚡',
+    // document.getElementById("anim").innerHTML = e1+e2+e3+e4;
+
+
+    text = "<br>"+e1+e2+e3+e4;
+    text += "<br>";
+    if(e1=="𝙸"){
+      text += "🄸 𝙸–––– 🄴";
+    } else if(e1=='𝚒'){
+      text += "🄸 –𝚒––– 🄴";
+    } else if(e1=='𝚡'){
+      text += "🄸 ––𝚡–– 🄴";
+    } else if(e1=='𝚎'){
+      text += "🄸 –––𝚎– 🄴";
+    } else if(e1=='𝙴'){
+      text += "🄸 ––––𝙴 🄴";
+    }
+    
+    text += "<br>";
+    if(e2=="𝚂"){
+      text += "🅂 𝚂–––– 🄽";
+    } else if(e2=='𝚜'){
+      text += "🅂 –𝚜––– 🄽";
+    } else if(e2=='𝚡'){
+      text += "🅂 ––𝚡–– 🄽";
+    } else if(e2=='𝚗'){
+      text += "🅂 –––𝚗– 🄽";
+    } else if(e2=='𝙽'){
+      text += "🅂 ––––𝙽 🄽";
+    }
+
+    text += "<br>";
+    if(e3=="𝙵"){
+      text += "🄵 𝙵–––– 🅃";
+    } else if(e3=='𝚏'){
+      text += "🄵 –𝚏––– 🅃";
+    } else if(e3=='𝚡'){
+      text += "🄵 ––𝚡–– 🅃";
+    } else if(e3=='𝚝'){
+      text += "🄵 –––𝚝– 🅃";
+    } else if(e3=='𝚃'){
+      text += "🄵 ––––𝚃 🅃";
+    }
+
+    text += "<br>";
+    if(e4=="𝙹"){
+      text += "🄹 𝙹–––– 🄿";
+    } else if(e4=='𝚓'){
+      text += "🄹 –𝚓––– 🄿";
+    } else if(e4=='𝚡'){
+      text += "🄹 ––𝚡–– 🄿";
+    } else if(e4=='𝚙'){
+      text += "🄹 –––𝚙– 🄿";
+    } else if(e4=='𝙿'){
+      text += "🄹 ––––𝙿 🄿";
+    }
+
+    document.getElementById("anim").innerHTML = text;
+  }
+
+</script>
 
 
 <script data-goatcounter="https://dynomight.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
