@@ -72,7 +72,7 @@ table{
 "
 ---
 
-The Monty Hall problem has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses.
+The [Monty Hall problem(/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses.
 
 So it is with great trepidation that I'd like to announce a new and more pernicious variant.
 
@@ -112,4 +112,4 @@ I'm pretty sure I have the answer, but <strike>people always yell at me when I t
 
 Do you have one? If so, please [send it to me](/about/). When/if I get some nice solutions, I'll post an update.
 
-*Update*: Just FYI, I've gotten a few dozen proofs. Thanks everyone! I'm going to write a summary of all the different proof strategies and write an update. If you have a particularly weird or elegant proof that you suspect other people haven't thought of, please do send it, though!
+*Update*: I've gotten a few dozen proofs. Thanks everyone! I'm going to write an update with a summary of all the different proof strategies. If you have a particularly weird or elegant proof that you suspect other people haven't thought of yet, please do send it, though!
