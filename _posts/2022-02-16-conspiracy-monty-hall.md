@@ -111,3 +111,5 @@ The naive solution would be to play as if there was no conspiracy: If Monty pick
 I'm pretty sure I have the answer, but <strike>people always yell at me when I talk about this stuff</strike> I don't yet have an elegant proof.
 
 Do you have one? If so, please [send it to me](/about/). When/if I get some nice solutions, I'll post an update.
+
+*Update*: Just FYI, I've gotten a few dozen proofs. Thanks everyone! I'm going to write a summary of all the different proof strategies and write an update. If you have a particularly weird or elegant proof that you suspect other people haven't thought of, please do send it, though!
