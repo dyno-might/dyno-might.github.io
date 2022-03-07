@@ -397,4 +397,6 @@ I could keep going forever here, but you get the point---things spiral and it ne
 
 Sadly, that's my main conclusion from all of this. Nothing works. Whatever system you commit to, it's always possible to jump up one level of abstraction and break things. There's no answer for this, or at least Parfit doesn't provide one. (Though probably in practice things don't get broken *too* badly, and we can solve most of the problems while only climbing the abstraction ladder a level or two.)
 
-So that's part one of the book: Parfit breaks morality. In part two he will wield time for even more breakage, with gambits like "if time is an illusion, then..." Part three is the good stuff---breaking the idea of personal identity (coming soon).
+So that's part one of the book: Parfit breaks morality. In part two he will wield time for even more breakage, with gambits like "if time is an illusion, then..." Part three is the good stuff---breaking the idea of personal identity. 
+
+**This review continues here: [Reasons and Persons: The case against the self](/no-self/)**
