@@ -54,7 +54,7 @@ Sounds serious! Except, oh wait, I made a “mistake”. That was the list of ef
 Remind you of anything?
 
 ---
-
+{% comment %}
 <div class="container" style="text-align: center; border-style:solid; border-color:#aaaaaa; border-width:0px; padding:10px; border-radius: 5px; width:min(100%,300pt);" id="form"> 
   <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
     <div class="headerfont" style="margin-bottom:2px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div> 
@@ -73,8 +73,8 @@ Remind you of anything?
     <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
   </form>
   </div>
-
 ---
+{% endcomment %}
 
 **Fact #5:** Acetone is probably marginally more toxic than ethanol.
 
