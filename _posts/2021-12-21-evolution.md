@@ -324,7 +324,7 @@ No, if cultural evolution results in punishing homosexuality, that's got to be b
 
 How would that happen? This seems... totally obvious? If my religion says homosexuality is wrong, then gay people in my religion will be more likely to pretend to be straight and have kids. At an *individual* level, prohibiting homosexuality increases reproductive fitness.
 
-I think it's that simple. Prohibiting homosexuality is an indirect way of making people breed more. Yes, it probably makes the same people it "helps" unhappy but, again, evolution doesn't care about that.
+I think it's that simple. Prohibiting homosexuality is an indirect way of making people breed more. Yes, it probably makes the same people it "helps" unhappy but again, evolution doesn't care about that.
 
 ## Us
 
@@ -346,11 +346,11 @@ When thinking about this stuff, people often seem to draw two different conclusi
 
 Which is right?
 
-Neither. The only sensible conclusion is: Screw evolution.
+Neither. The only sensible conclusion is: To hell with evolution.
 
 What do you care about evolution? *It* certainly doesn't care about *you*. It created parasites and [cancer](https://doi.org/10.1038/nrc2013) and sickle cell and the black death and [antisocial personality disorder](https://en.wikipedia.org/wiki/Antisocial_personality_disorder#Genetic). It designed us so that after we reproduce and raise our kids, our bodies sort of fail in [every way at the same time](https://en.wikipedia.org/wiki/Hallmarks_of_aging). The fact that evolution did something doesn't mean you're supposed to like it.
 
-Evolution isn't even *about* you. You are a complex assembly of molecules. It's tempting to think of genetic evolution as a war between individuals to reproduce, but that's not right. It's a between *genes*. If a gene can spread by making the organism more fit, that's just incidental.
+Evolution isn't even *about* you. You are a complex assembly of molecules. It's tempting to think of genetic evolution as a war between individuals to reproduce, but that's not right. It's a war between *genes*. If a gene can spread by making the organism more fit, that's just incidental.
 
 Around 42% of your genes are [retrotransposons](https://en.wikipedia.org/wiki/Retrotransposon), little bits of DNA that might cause genetic diseases or cancer, but exist simply because they figured out how to copy and paste themselves around the genome. You are not a participant in the war of evolution, you are part of the battlefield.
 
@@ -363,7 +363,7 @@ Evolution created genes that cause homosexuality, then created norms to punish h
 ### What to want
 {:.no_toc}
 
-There's no [right answer](https://plato.stanford.edu/entries/hume-moral/#ear) for what to want. Me, I want the typical "sentient beings explore the limits of time/space/art/understanding/qualia". While I recognize that I want those things because evolution made me that way, [I want them all the same](https://dynomight.net/2021/01/28/are-ethics-all-a-lie/), and they aren't the same as just serving the genes and memes that created me.
+There's no [right answer](https://plato.stanford.edu/entries/hume-moral/#ear) for what to want. Me, I want the typical "sentient beings explore the limits of time/space/art/understanding/qualia". While I recognize that I want those things because evolution made me that way, [I want them all the same](https://dynomight.net/2021/01/28/are-ethics-all-a-lie/) and they aren't the same as just serving the genes and memes that created me.
 
 And personally, if I see why a norm evolved, and I don't care about the goals that norm is serving, and that norm is interfering with other goals I do have (like people being happy), then I favor dropping that norm, duh.
 
