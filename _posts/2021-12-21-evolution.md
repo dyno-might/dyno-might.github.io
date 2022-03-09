@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evolutionary outcomes reflect values you might not share"
+title: "Homosexuality and evolution"
 image: /img/evolution/strings.jpg
 tags: philosophy science
 description: "Why does evolution do what it does? And if you're a sentient being created by it, what should you think about that?"
