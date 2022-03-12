@@ -154,7 +154,7 @@ Why are analogies sometimes so frustrating? Here's a common pattern:
 
 **Beth**: Sure it is, just think of how X and A share [characteristic].
 
-**Abe**: But the crux relationship of X and Y is [something] whereas for A and B it is [something else].
+**Abe**: But the crux of the relationship of X and Y is [something] whereas for A and B it is [something else].
 
 **Beth**: Oh, bless your heart no, the relationship of X to Y *and* A to B is [3rd thing].
 
@@ -181,7 +181,7 @@ Do you see what I did there? If you're rolling your eyes at my little gambit of 
 
 I think that the reason analogies are so pervasive is that they *save effort*. Inside your brain, you've built little machines that help you understand different things in the world. Often these little machines have a lot of internal structure and took a lot of work to build. A good analogy tells you how to take a machine you've already got and plug it into a new context and understand a new situation. It's fundamentally a good idea.
 
-Now, you might think that you could clean this process up. Maybe you could take your existing machines and distill them into their essential features so that you can talk about them without referring to the original contexts at all. But then you'll see analogies between those abstractions and try to extract *their* features and suddenly you'll wake up and find that you've invented [category theory](https://en.wikipedia.org/wiki/Category_theory) after which you won't be able to communicate with normal people at all except to tell them how great category theory is and how important it is that they learn category theory. Not recommended.
+Now, you might think that you could clean this process up. Maybe you could take your existing machines and distill them into their essential features so that you can talk about them without referring to the original contexts at all. But then you'll see analogies between those abstractions and try to extract *their* features and suddenly you'll wake up and find that you've invented [category theory](https://en.wikipedia.org/wiki/Category_theory) after which you won't be able to communicate with normal people at all except to tell them how important it is that they learn category theory. Not recommended.
 
 So how to distinguish a good analogy from a bad one? You might think that it's *accuracy*,  but it's pretty easy to see that can't be right. The guy who was as tall as a 6'3" tree really was (I assume) exactly that tall. But it's still a useless analogy. Meanwhile, the hydraulic analogy for electrical current is flawed since electrons can push and pull distant electrons via electrical and magnetic fields, while water molecules only affect their neighbors. That's a real flaw, but the analogy is still marvelous.
 
@@ -207,7 +207,7 @@ Is that correct? Maybe, I don't know! But what does the analogy add over a direc
 
 Or, take the analogy between India being asked to control carbon emissions and a late dinner guest being asked to wash dishes. There's lots of shared structure: Parties are fun, and carbon emissions are also fun. Washing dishes and reducing carbon emissions both need to be done later. And India started emitting carbon later, just like a late dinner guest.
 
-But there are also some important differences. When the United States was emitting carbon decades ago, it was operating at the technological frontier. Those emissions improved the economy and lives of Americans, yes, but they also helped expand the technological frontier, making it easier for India to develop via catch-up growth later. In particular, those emissions helped develop energy technologies so that it's now much easier to grow an economy while emitting less carbon.
+But there are also some important differences. When the United States was emitting carbon decades ago, it was operating at the [technological frontier](/gdp/). Those emissions improved the economy and lives of Americans, yes, but they also helped expand the technological frontier, making it easier for India to develop via catch-up growth later. In particular, those emissions helped develop energy technologies so that it's now much easier to grow an economy while emitting less carbon.
 
 To fix the analogy, you'd need some bizarre scenario where during the party America had lots of fun and created lots of dirty dishes but also, like, discovered new partying methodology and new ways to use dishes so they are easier to wash? Maybe that "fixes" the analogy, but it's now a monstrosity that doesn't give insight into anything. Better to use a direct argument like, "The United States has much larger cumulative historical emissions and much larger current per-capita emissions than India. It's unfair to expect India to maintain lower per-capita emissions than the United States indefinitely." 
 
