@@ -71,6 +71,7 @@ Not sure where to get started? Try one of these:
 * [Plans you're not supposed to talk about](/plans/)
 * [Are some personalities just better?](/better-personalities/)
 * [Better air is the easiest way not to die](/air/)
+* [The big alcohol study that didn't happen: My primal scream of rage](/alcohol-trial/)
 
 {% comment %}
 
