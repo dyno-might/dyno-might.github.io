@@ -72,7 +72,7 @@ table{
 "
 ---
 
-The [Monty Hall problem(/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses.
+The [Monty Hall problem](/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses.
 
 So it is with great trepidation that I'd like to announce a new and more pernicious variant.
 
