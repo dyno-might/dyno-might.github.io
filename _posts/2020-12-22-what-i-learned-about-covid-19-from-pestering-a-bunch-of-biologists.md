@@ -35,7 +35,7 @@ Here are some of the most surprising things I learned:
 
 4. **Why we need memory cells.** Memory B-cells remember how to make virus-specific antibodies. But T-cells just sort of tell everything nearby to kill itself (apoptosis). Regular T-cells can *already* sense foreign proteins and can already trigger apoptosis, so why do we need memory T-cells at all? It seems to be an issue of *tuning*. Regular T-cells need a lot of signal to activate. (It's a good idea to be sure before handing out suicide orders.) Memory T-cells activate faster, but only for specific patterns they remember. Memory cells are how the body knows this virus is something to take seriously.
 
-5. **Immunity and cell death.** It's well-known that RNA vaccines use your cells to make proteins that are part of the virus. When those proteins float around in the body, they will immune response. But they proteins are made *inside* cells. How do they get out? You basically just wait until the cells die and break apart.
+5. **Immunity and cell death.** It's well-known that RNA vaccines use your cells to make proteins that are part of the virus. When those proteins float around in the body, they will cause an immune response. But the proteins are made *inside* cells. How do they get out? You basically just wait until the cells die and break apart.
 
 Two notes about the content below:
 
@@ -149,7 +149,7 @@ There's different varieties, but the basic idea is very simple: We want to prese
 
 **I've heard that the Moderna and Pfizer vaccines are "RNA" vaccines. How do those work?**
 
-We create specific "messenger RNA" sequences and encapsulate them in a lipid nanoparticle. This is injected into the body. Because of physics, that nanoparticle will naturally cross the membrane and then dissolve, leaving the RNA inside of cells. The body’s protein machinery (ribosomes etc) then makes this into a specific protein. We have chosen the RNA sequence to make the spike protein of the COVID-19 virus.
+We create specific "messenger RNA" sequences and encapsulate them in a lipid nanoparticle. This is injected into the body. Because of physics, that nanoparticle will naturally cross the cell membrane and then dissolve, leaving the RNA inside of cells. The body’s protein machinery (ribosomes etc) then makes this into a specific protein. We have chosen the RNA sequence to make the spike protein of the COVID-19 virus.
 
 > Why "messenger" RNA? No one could identify a physical difference between messenger RNA and regular RNA. I think it's an issue of *intent*, e.g. if the RNA is carrying a "message" from the DNA in the nucleus. I wanted to delete the word "messenger" from the previous answer, but this would have caused a mutiny.
 
