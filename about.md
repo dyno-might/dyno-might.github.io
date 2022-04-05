@@ -40,13 +40,13 @@ You can also read everything as a single [ebook](/ebook/).
 
 ---
 
-Email: <span style="font-family:monospace; font-size:80%;">dynomight</span> at [the domain this link points to](https://tutanota.com/). Or use the form at the bottom of this page.
+Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> [the domain this link points to](https://tutanota.com/). <span style="font-size:80%">(Or use the form at the bottom of this page.)</span>
 
-RSS feed: <https://dynomight.net/feed.xml>
+RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(I find it calming to solipsistically post links for no one to read.)</span>
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(A collection of random links; only vaguely related to this site.)</span>
 
 All posts organized by topics: [tags](/tags)
 
