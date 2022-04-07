@@ -46,7 +46,7 @@ RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomigh
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(A collection of random links; only vaguely related to this site.)</span>
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(Mostly a collection of random links only vaguely related to this site.)</span>
 
 All posts organized by topics: [tags](/tags)
 
