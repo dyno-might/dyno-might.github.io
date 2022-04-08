@@ -11,7 +11,7 @@
          {% comment %}alt="{{ post.title }}"{% endcomment %}
          style="position:relative; background-color:{{post.background_color | default: defaultcolor}};" loading="lazy" width="1440" height="900"
          >
-    <div style="position:absolute; top:50px; margin:16px;">
+    <div style="position:absolute; left: 50%; top: 50%; width:90%; transform:translate(-50%,-50%);">
       {% comment %}<div style="position:absolute; top:0; left:0; right:0; bottom:0; margin:auto;">{% endcomment %}
             {{post.title}}
     </div>
