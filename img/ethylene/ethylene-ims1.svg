@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300pt" height="200pt" viewBox="0 0 300 200" version="1.1">
+<defs>
+<g>
+<symbol overflow="visible" id="glyph0-0">
+<path style="stroke:none;" d="M 1.59375 -28 L 21.875 -28 L 21.875 0 L 1.59375 0 Z M 18.6875 -2.796875 L 18.6875 -25.203125 L 4.796875 -25.203125 L 4.796875 -2.796875 Z M 18.6875 -2.796875 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-1">
+<path style="stroke:none;" d="M 16.71875 0.234375 C 13.945312 0.234375 11.445312 -0.375 9.21875 -1.59375 C 6.988281 -2.820312 5.238281 -4.519531 3.96875 -6.6875 C 2.707031 -8.863281 2.078125 -11.300781 2.078125 -14 C 2.078125 -16.695312 2.707031 -19.128906 3.96875 -21.296875 C 5.238281 -23.472656 6.992188 -25.171875 9.234375 -26.390625 C 11.472656 -27.617188 13.984375 -28.234375 16.765625 -28.234375 C 18.835938 -28.234375 20.753906 -27.882812 22.515625 -27.1875 C 24.273438 -26.5 25.769531 -25.488281 27 -24.15625 L 25.125 -22.28125 C 22.9375 -24.488281 20.175781 -25.59375 16.84375 -25.59375 C 14.625 -25.59375 12.609375 -25.085938 10.796875 -24.078125 C 8.984375 -23.066406 7.5625 -21.679688 6.53125 -19.921875 C 5.507812 -18.160156 5 -16.1875 5 -14 C 5 -11.8125 5.507812 -9.835938 6.53125 -8.078125 C 7.5625 -6.316406 8.984375 -4.929688 10.796875 -3.921875 C 12.609375 -2.910156 14.625 -2.40625 16.84375 -2.40625 C 20.195312 -2.40625 22.957031 -3.523438 25.125 -5.765625 L 27 -3.875 C 25.769531 -2.539062 24.269531 -1.519531 22.5 -0.8125 C 20.726562 -0.113281 18.800781 0.234375 16.71875 0.234375 Z M 16.71875 0.234375 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-2">
+<path style="stroke:none;" d="M 2.796875 -19.796875 L 20.203125 -19.796875 L 20.203125 -17.4375 L 2.796875 -17.4375 Z M 2.796875 -10.5625 L 20.203125 -10.5625 L 20.203125 -8.203125 L 2.796875 -8.203125 Z M 2.796875 -10.5625 "/>
+</symbol>
+<symbol overflow="visible" id="glyph0-3">
+<path style="stroke:none;" d="M 27.953125 -28 L 27.953125 0 L 25.046875 0 L 25.046875 -12.921875 L 7.515625 -12.921875 L 7.515625 0 L 4.5625 0 L 4.5625 -28 L 7.515625 -28 L 7.515625 -15.515625 L 25.046875 -15.515625 L 25.046875 -28 Z M 27.953125 -28 "/>
+</symbol>
+</g>
+</defs>
+<g id="surface1">
+<rect x="0" y="0" width="300" height="200" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
+<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+  <use xlink:href="#glyph0-1" x="109" y="114"/>
+  <use xlink:href="#glyph0-2" x="137.76" y="114"/>
+  <use xlink:href="#glyph0-1" x="160.76" y="114"/>
+</g>
+<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+  <use xlink:href="#glyph0-3" x="57" y="176"/>
+</g>
+<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+  <use xlink:href="#glyph0-3" x="57" y="56"/>
+</g>
+<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+  <use xlink:href="#glyph0-3" x="210" y="176"/>
+</g>
+<g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
+  <use xlink:href="#glyph0-3" x="210" y="56"/>
+</g>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M -0.000574524 0.000000000000028422 L 25.217725 0.000000000000028422 " transform="matrix(0.707107,-0.707107,0.707107,0.707107,192.2465,77.2535)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M -0.0012012 -0.000626673 L 25.219861 0.00213546 " transform="matrix(0.707107,0.707107,-0.707107,0.707107,192.2465,125.58723)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0.00186941 -0.000357973 L 25.220169 -0.000357973 " transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,107.0797,75.8331)"/>
+<path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 0.00187648 0.000350902 L 25.220176 0.000350902 " transform="matrix(-0.707107,0.707107,-0.707107,-0.707107,107.0797,124.16689)"/>
+</g>
+</svg>
