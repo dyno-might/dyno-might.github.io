@@ -128,11 +128,11 @@ It's annoying that ethylene is a gas. In particular, if you wanted to apply ethy
 
 ![ethephon](/img/ethylene/ethylene-ims2.svg)
 
-When I first saw this, I was dumbfounded. Remember, ethylene looks like this:
+Remember, ethylene looks like this:
 
 ![ethephon](/img/ethylene/ethylene-ims1.svg)
 
-How could ethephon be a precursor to ethylene, when it has almost no similarity? When asked about this, the Dynomight Biologist---after some prolonged giggling at the idea that I thought I could understand biochemistry by staring at pictures of molecules---explained that the central thing is the two linked carbon atoms. It's an unstable molecule, meaning the chlorine and phosphorus atoms easily get ripped off, after which hydrogen atoms get attached, and voilà, ethylene.
+How could ethephon be a precursor to ethylene? When asked about this, the Dynomight Biologist---after some prolonged giggling at the idea that I thought I could understand biochemistry by staring at pictures of molecules---explained that the chlorine and phosphorus atoms easily get ripped off the two linked carbon atoms, that bond becomes a double bond, and voilà, ethylene.
 
 Ethephon is applied to many different plants while they are still growing, including apples, cereals, cherries, citrus, coffee, cotton, cucumbers, grapes, guava, olives, peaches, peppers, pineapple, rice, sugarcane, sweet potatoes, tobacco, tomatoes, and walnuts [(Saltveit, 1999)](https://doi.org/10.1016/S0925-5214(98)00091-X). It's [approved by the EPA](https://www3.epa.gov/pesticides/chem_search/ppls/085678-00009-20201222.pdf) as a pesticide, though many of the applications are unrelated to pests.
 
