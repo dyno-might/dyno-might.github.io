@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The conspiratorial Monty Hall problem"
-image: /img/monty-hall/monty.jpg
+image: /img/monty-hall/goat2.jpg
 tags: explainer statistics math
 description: "Meanwhile, in the multiverse..."
 permalink: /conspiratorial-monty-hall/
