@@ -120,7 +120,7 @@ Using these, we can measure the yield of weapons in terms of the "number of *Eve
 | W80        | 150 thousand  | 0.23          | 300     |
 | B83        | 1.2 million   | 1.8           | 2,400   |
 | Ivy Mike   | 10 million    | 15            | 20,000  |
-| Tsar Bomba | 50 million    | 75            | 10,000  |
+| Tsar Bomba | 50 million    | 75            | 100,000 |
 
 The B83 is already more powerful than an entire container ship full of TNT, or *two thousand* of the explosions in Beirut. If you detonate that near any single object, that object is gone. Humans don't build things that can withstand such a blast.
 
