@@ -67,9 +67,7 @@ table{
 "
 ---
 
-The *Little Boy* bomb the US detonated over Hiroshima in1945 was a fission weapon where a critical mass of uranium-235, led to a chain reaction of atoms splitting into lighter atoms and releasing energy and other neutrons that caused even more fissions.
-
-While such weapons are very destructive, they are "inefficient" in that as the bomb starts to explode, it pushes the uranium-235 atoms away from each other. This quickly eliminates the critical mass, meaning most of the atoms never undergo fission at all.
+The *Little Boy* bomb detonated over Hiroshima in 1945 was a fission weapon where a critical mass of uranium-235 created a chain reaction of atoms splitting into lighter atoms, releasing energy and neutrons. While such weapons are very destructive, they are "inefficient" in that as the bomb starts to explode, it pushes the uranium-235 atoms away from each other. This quickly eliminates the critical mass, meaning most of the atoms never undergo fission at all.
 
 Thermonuclear weapons use another principle: If deuterium and tritium (isotopes of hydrogen with extra neutrons) are put together at very high temperatures, they will fuse into helium, generating energy in the process. Roughly speaking, fusion bombs wrap a layer of deuterium and tritium around a fission bomb. The outer fusion reaction creates a huge number of neutrons that make the inner fission reaction much more complete.
 
@@ -78,14 +76,6 @@ The first demonstration of this principle was [*Ivy Mike*](https://en.wikipedia.
 Yet today, almost all deployed nuclear warheads are smaller, and there's little interest in making them bigger. The largest [American bomb](https://thebulletin.org/premium/2021-01/nuclear-notebook-united-states-nuclear-weapons-2021/) (the [B83](https://en.wikipedia.org/wiki/B83_nuclear_bomb)) is eight times less powerful than *Ivy Mike*. The warheads on ballistic missiles (e.g. the [W76](https://en.wikipedia.org/wiki/W76), [W78](https://en.wikipedia.org/wiki/W78), or [W80](https://en.wikipedia.org/wiki/W80_(nuclear_warhead))) are only 5-20x more powerful than *Little Boy*. The [Russian arsenal](https://doi.org/10.1080/00963402.2021.1885869) is similar.
 
 Why is that?
-
-<div style="font-size:90%; line-height:110%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
-<br>
 
 ## 1. These big bombs were really big.
 
