@@ -210,7 +210,7 @@ As things stand, it's unclear if militaries would be able to disable each other'
 
 Whatever the truth is, in the arms race where other countries seek the ability to disable other's nuclear capabilities, *make the nukes bigger* isn't a very important factor these days. It's about more accurate targeting, more silent submarines, airplane cloaking, spy satellites to detect where the nukes actually are, and so on.
 
-Smaller warheads in bunker-buster nukes is a positive thing in one sense: Ground-burst nukes generate vastly more nuclear fallout than air-burst nukes.
+Smaller warheads in bunker-buster nukes is a positive thing in one sense: Ground-burst nukes generate vastly more nuclear fallout than air-burst nukes. So switching to lower yields with higher accuracy probably means less damage to anyone who happens to live downwind.
 
 ## Summary
 
