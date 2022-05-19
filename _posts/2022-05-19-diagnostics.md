@@ -152,7 +152,7 @@ Fine. But let's think about the other reasons. The logic of #3 seems to be this:
 
 What? If the harms of the biopsy outweigh the benefits, don't do the damn biopsy! Why are we *taking as given* that a net-negative decision to do a biopsy will be made, and solving that problem by trying to prevent the opportunity to make that bad decision?
 
-If you know that a patient's prior probability for a condition is low, you *still know that* after doing a test. In a sane world, wouldn’t you do the CT scan, and then... only do the biopsy only if the CT scan showed something serious enough to justify the risks of the biopsy?
+If you know that a patient's prior probability for a condition is low, you *still know that* after doing a test. In a sane world, wouldn’t you do the CT scan, and then... only do the biopsy only if the CT scan showed something serious enough to justify the risks?
 
 The suggestion is that once the test is done and you're looking at the results, you will inevitably neglect the prior probability. Thus, you should avoid doing tests where disregarding the prior leads to bad outcomes. In other words, "If I gather some data, I will disregard the base rate. So, I won't gather any data."
 
