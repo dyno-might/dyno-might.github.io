@@ -3,9 +3,9 @@ layout: post
 title: "Why is it traitorous to understand the people you disagree with? Six models"
 image: /img/traitorous/paris.jpg
 tags: policy communication
-description: ""
+description: "Reflections on a phenomena that's unique to culture-war topics"
 permalink: /traitorous/
-background_color: rgb(0,0,0)
+background_color: rgb(69,100,120)
 head: "<style>
 img{
     display:block;
@@ -92,13 +92,13 @@ So, here's a timeline:
 * For 135 years, it was perfectly consistent with that amendment for states to put people in jail for having the wrong kind of sex.
 * Then, one day, it wasn't anymore.
 
-I probably don't need to tell you that I think these laws were wrong. And I know that many people see the constitution as a [living document](https://en.wikipedia.org/wiki/Living_Constitution) that is constantly transformed by changing circumstances et cetera. I can see that. But I can also see how someone might think this looks like the people on the Supreme Court making shit up as they go.
+I probably don't need to tell you that I think these laws were wrong. And I know that many people see the constitution as a [living document](https://en.wikipedia.org/wiki/Living_Constitution) that is constantly transformed by changing circumstances et cetera. I can see that. But I can also see how someone might think this looks like the people on the Supreme Court making stuff up as they go.
 
 The second reason I can see for opposing *Roe v. Wade* is that it expresses a particular view on personhood. Or, more exactly, it refuses to *accept* the view that life begins at conception.
 
 ![Roe v. Wade passage on personhood](/img/traitorous/roevwade2.svg)
 
-Personally, I don't accept that view either. But, then, I have some [unusual views](/no-self/) about this kind of thing. The fact is, many people *do* think life begins at conception. Given this disagreement, it's not *entirely obvious* to me that we should resolve it through the Supreme Court rather than having people debate with each other and vote for legislators who will pass laws that reflect their views.
+Personally, I don't accept that view either. But, then, I have some [unusual ideas](/no-self/) about this kind of thing. The fact is, many people *do* think life begins at conception. Given this disagreement, it's not *entirely obvious* to me that we should resolve it through the Supreme Court rather than having people debate with each other and vote for legislators who will pass laws that reflect their views.
 
 <br>
 But really, I don't want to talk about abortion. I want to talk about fear. As far as I can tell, my object-level views on "when abortion should be legal" are close to the median in my (leftist-dominated) corner of the universe. Yet, except with close friends, I'd be scared to say what I think above.
