@@ -136,7 +136,7 @@ I think this is part of what's happening.
 Imagine two families.
 
 * The parents in **family A** carefully explain all sides of all issues to their children. The kids are encouraged to think freely and know their parents will love them no matter what they conclude.
-* The parents in **family B** tell their children that  *these opinions are as these* and that *anyone who even thinks about counterarguments is contemptible* and that if the kids stray from the truth, they'll be banished.
+* The parents in **family B** tell their children that *these opinions are right* and that *anyone who even thinks about counterarguments is contemptible* and that if the kids stray from the truth, they'll be banished.
 
 If your only goal is to indoctrinate your kids, the strategy of family B may well be the way to go. I think this is another part of what's happening.
 
