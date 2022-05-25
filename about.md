@@ -9,17 +9,27 @@ hide_hero: True
 permalink: /about/
 ---
 
+<style>
+table tr{
+    border-style: hidden;
+    text-align:left;
+}
+form{
+   margin-bottom: 10pt;
+}
+</style>
+
 Wondering what to do with your life? Here's what I suggest:
 
 * First priority: Your physical health. (No health → no life.)
 * Second priority: *Reasonable* financial security. (No food → no health.)
 * Third priority: Good relationships with friends and family. (Depressed → no mental health.)
 
-After that you can do whatever. The game you're playing doesn't have any rules, and there's no way to win.
+After that you can do whatever. The game you're playing doesn't have any rules and there's no way to win.
 
 ---
 
-I post new stuff Monday and Thursday at 4pm GMT / 9am California / 12pm New York / 5pm UK.
+I post new stuff each Monday and Thursday. You can subscribe here:
 
 {% comment %}
 You can subscribe here to get new articles. <strike>Owing to the fantastical amount of time they take me to create, there will typically be 2-4 per month. This also gives access to a forum and there's occasionally extra content I don't feel comfortable sharing with the internet.</strike>
@@ -34,29 +44,35 @@ You can subscribe here to get new articles. <strike>Owing to the fantastical amo
 <br><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
 <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
 </form>
-<br>
 
 {% comment %}
 There's just the one step to subscribe, no second form or confirmation link. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
 {% endcomment %}
 
-You can also subscribe <a href="https://dynomight.substack.com/">at substack</a>. Or, if you're a cave-person like me you can use [RSS](/feed.xml).
+Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
 
 ---
 
-You can also read everything as a single [ebook](/ebook/).
+| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@domain.com</span> where <span style="font-family:monospace; font-size:80%;">domain.com</span> → [what this link points to](https://tutanota.com/). | 
+| | or use the form at the bottom of this page. | 
+| **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
+| **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
+| **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
+| **all posts** | organized by [tags](/tags/) |
+| | or as an [ebook](/ebook/) |
 
----
-
-Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> [the domain this link points to](https://tutanota.com/). <span style="font-size:80%">(Or use the form at the bottom of this page.)</span>
+{% comment %}
+Email: <span style="font-family:monospace; font-size:80%;">dynomight@domain.com</span> where you replace <span style="font-family:monospace; font-size:80%;">domain.com</span> with [the email provider this link points to](https://tutanota.com/). Or use the form at the bottom of this page.
 
 RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
 
 Twitter: [@dynomight7](https://twitter.com/dynomight7)
 
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:80%">(Mostly a collection of random links only vaguely related to this site.)</span>
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:100%">(Only vaguely related to this site.)</span>
 
 All posts organized by topics: [tags](/tags)
+
+{% endcomment %}
 
 <!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
 <input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
@@ -69,7 +85,7 @@ All posts organized by topics: [tags](/tags)
 
 ---
 
-In general I'm *very* open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth) should be aware I am not super open-minded about theories in which I am an agent of the Mexican cartels.
+In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
 
 ---
 

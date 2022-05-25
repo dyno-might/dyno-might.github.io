@@ -101,7 +101,7 @@ The second reason I can see for opposing *Roe v. Wade* is that it expresses a pa
 Personally, I don't accept that view either. But, then, I have some [unusual ideas](/no-self/) about this kind of thing. The fact is, many people *do* think life begins at conception. Given this disagreement, it's not *entirely obvious* to me that we should resolve it through the Supreme Court rather than having people debate with each other and vote for legislators who will pass laws that reflect their views.
 
 <br>
-But really, I don't want to talk about abortion. I want to talk about fear. As far as I can tell, my object-level views on "when abortion should be legal" are close to the median in my (leftist-dominated) corner of the universe. Yet, except with close friends, I'd be scared to say what I think above.
+But really, I don't want to talk about abortion. I want to talk about fear. As far as I can tell, my object-level views on "when abortion should be legal" are close to the median in my leftist-dominated corner of the universe. Yet, except with close friends, I'd be scared to say what I think above.
 
 It's not just that I'm sympathetic to the people I disagree with. Somehow, it feels like a huge social blunder to even demonstrate that I *understand* their positions.
 
@@ -117,7 +117,7 @@ Does this model apply to culture war topics like abortion? You might think so, b
 
 ## The outlier model
 
-Some opinions we simply do not debate. Say you're running for mayor of Paris on a platform that all the buildings in Paris should be removed and the area returned to farmland. Most likely, no one would bother to refute your views, aside from perhaps pointing and laughing. Your opinion is *so* crazy and *so* obviously bad, that there's nothing to be gained from engaging with you and there's no need to worry about you convincing anyone to join your cause.
+Some opinions we simply do not debate. Say you're running for mayor of Paris on a platform that all the buildings in Paris should be removed and the area returned to farmland. Most likely, no one would bother to refute your views, aside from perhaps pointing and laughing. Your opinion is *so* crazy and *so* obviously bad, that there's nothing to be gained from engaging with you and there's no need to worry about you convincing anyone else.
 
 Is this how people see the other side on issues like abortion? If so, that means people are again making a mistake---they believe that the other side has such weak arguments that there's no need to bother opposing them. Clearly, for abortion, many people *do* take both sides, so I don't think this model is right.
 
@@ -138,9 +138,9 @@ Imagine two families.
 * The parents in **family A** carefully explain all sides of all issues to their children. The kids are encouraged to think freely and know their parents will love them no matter what they conclude.
 * The parents in **family B** tell their children that *these opinions are right* and that *anyone who even thinks about counterarguments is contemptible* and that if the kids stray from the truth, they'll be banished.
 
-If your only goal is to indoctrinate your kids, the strategy of family B may well be the way to go. I think this is another part of what's happening.
+If your only goal is to indoctrinate your kids, the strategy of family B may well be the way to go.
 
-A related---and more ambitious---strategy is "meta bullying". In this strategy, you pre-commit to banish anyone who considers heretical ideas and also *anyone who refuses to participate in all the banishing*. This strategy is hard to pull off, but there are hints of it here and there.
+A more ambitious strategy is "meta bullying". For this, you pre-commit to banish anyone who considers heretical ideas and also *anyone who refuses to participate in all the banishing*. This strategy is hard to pull off, but there are hints of it here and there.
 
 ## The segmented society model
 
