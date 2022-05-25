@@ -19,7 +19,11 @@ After that you can do whatever. The game you're playing doesn't have any rules, 
 
 ---
 
-You can subscribe here to get new articles. Owing to the fantastical amount of time they take me to create, there will typically be 2-4 per month. This also gives access to a forum and there's occasionally extra content I don't feel comfortable sharing with the internet.
+I post new stuff Monday and Thursday at 4pm GMT / 9am California / 12pm New York / 5pm UK.
+
+{% comment %}
+You can subscribe here to get new articles. <strike>Owing to the fantastical amount of time they take me to create, there will typically be 2-4 per month. This also gives access to a forum and there's occasionally extra content I don't feel comfortable sharing with the internet.</strike>
+{% endcomment %}
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
@@ -32,7 +36,11 @@ You can subscribe here to get new articles. Owing to the fantastical amount of t
 </form>
 <br>
 
+{% comment %}
 There's just the one step to subscribe, no second form or confirmation link. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
+{% endcomment %}
+
+You can also subscribe <a href="https://dynomight.substack.com/">at substack</a>. Or, if you're a cave-person like me you can use [RSS](/feed.xml).
 
 ---
 
