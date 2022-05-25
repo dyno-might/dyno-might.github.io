@@ -27,6 +27,9 @@ details > *:not(summary){
   margin-top: 0pt;
   margin-left: 5pt;
 }
+table{
+    font-family:Montserrat;
+}
 table tr{
     border-style: hidden;
     text-align:left;

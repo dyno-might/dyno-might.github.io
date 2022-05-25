@@ -31,6 +31,9 @@ table {
   display: table;
   margin-bottom: 10pt;
 }
+table{
+    font-family:Montserrat;
+}
 tr{
   border-style: hidden;
 }

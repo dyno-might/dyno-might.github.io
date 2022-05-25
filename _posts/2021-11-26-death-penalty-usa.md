@@ -26,6 +26,9 @@ details > summary{
   padding-left: 5pt;
   cursor: pointer;
 }
+table{
+    font-family:Montserrat;
+}
 table tr{
     border-style: hidden;
     text-align:center;

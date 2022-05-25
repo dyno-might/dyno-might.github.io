@@ -25,6 +25,9 @@ details > summary{
   padding-left: 5pt;
   cursor: pointer;
 }
+table{
+    font-family:Montserrat;
+}
 th, td, tr {
     font-weight: normal;
     border: 0!important;

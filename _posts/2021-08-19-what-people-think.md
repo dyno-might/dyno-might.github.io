@@ -32,7 +32,8 @@ img{
     max-width:min(100%,350pt);
 }
 table{
-  display:block;
+  display:table;
+    font-family:Montserrat;
   }
 table tr{
     border-style: hidden;
