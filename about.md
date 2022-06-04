@@ -29,11 +29,16 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 
 ---
 
+{% comment %}
 I post new stuff each Monday and Thursday. You can subscribe here:
+{% endcomment %}
 
 {% comment %}
 You can subscribe here to get new articles. <strike>Owing to the fantastical amount of time they take me to create, there will typically be 2-4 per month. This also gives access to a forum and there's occasionally extra content I don't feel comfortable sharing with the internet.</strike>
 {% endcomment %}
+
+You can subscribe here to get new articles.
+
 
 <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
@@ -45,11 +50,11 @@ You can subscribe here to get new articles. <strike>Owing to the fantastical amo
 <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
 </form>
 
-{% comment %}
-There's just the one step to subscribe, no second form or confirmation link. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
-{% endcomment %}
+There's just the one step to subscribe, no second form or confirmation link or whatever. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
 
+{% comment %}
 Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
+{% endcomment %}
 
 ---
 
