@@ -114,9 +114,6 @@ layout: default
           <p>
         {% endcomment %}
 
-
-        {% include related.html %}
-
             <p>
 
               {% comment %}
@@ -164,28 +161,6 @@ layout: default
           <a href="/about.html"><div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:220%;">ABOUT</div></a>
         </div>
         {% endcomment %}
-        
-        {% comment %}
-        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-          <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-            <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div> 
-            <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 60%; margin-bottom:8px; padding:8px; border:0;" required> 
-            <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-            <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-            <input type="hidden" name="_captcha" value="false" /> 
-            <input type="hidden" name="_url" value="https://dynomight.net/" />
-            <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-            <span style="max-width: 40%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-            <button type="submit" class="headerfont" style="color:white; border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
-            </span>
-            <br>
-            <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
-            <label for="guide" class="headerfont" style="color:white; margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
-            <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-          </form>
-          </div>
-          {% endcomment %}
-  
           
           {% comment %}
         <a href="/about.html">
@@ -194,46 +169,29 @@ layout: default
           </div>
         </a>
         {% endcomment %}
-      
-        {% comment %}
-        <iframe src="https://dynomight.substack.com/embed" width="100%" height="200" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no" loading="lazy"></iframe>
-        {% endcomment %}
 
-        {% comment %}
-        <p>
-          <br>
-          <a href="/mbti/">
-        <div style="text-align:center;">
-          <span class="headerfont">fastest MBTI quiz</span>
-          <br>
-          <video width="100" height="100" autoplay muted loop playsinline poster="/img/mbti/mbti.png">
-            <source src="/img/mbti/mbti.mp4" tyoe="video/mp4">
-            <source src="/img/mbti/mbti.webm" tyoe="video/webm">
-            <img src="/img/mbti/mbti.png">
-          </video>
-          </div>          
-        </a>
-        {% endcomment %}
+        <div id="0">
+          {% include signup-simple.html id='A' %}
+        </div>
 
-        <div class="container" style="text-align: center; border-style:solid; border-color:#aaaaaa; border-width:0px; padding:10px; border-radius: 5px; width:min(100%,300pt);" id="form"> 
-          <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-            <div class="headerfont" style="margin-bottom:2px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div> 
-            <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 60%; margin-bottom:8px; padding:8px; border:0; background-color:#dddddd;" required> 
-            <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-            <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-            <input type="hidden" name="_captcha" value="false" /> 
-            <input type="hidden" name="_url" value="https://dynomight.net/" />
-            <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-            <span style="max-width: 40%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-            <button type="submit" class="headerfont" style="border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
-            </span>
-            <br>
-            <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
-            <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
-            <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-            <div class="headerfont" style="margin-bottom:2px; padding:10px; font-size:80%;">Or sign up at <a href="https://dynomight.substack.com/">substack</a></div> 
-          </form>
-          </div>
+        <div id="A" style="display:none;">
+          {% include signup-simple.html id='A' %}
+        </div>
+
+        <div id="B" style="display:none;">
+        {% include related.html %}
+        {% include signup.html id='B'%}
+        </div>
+
+        <div id="C" style="display:none;">
+          {% include signup.html id='C' %}
+          {% include related.html %}
+        </div>
+
+        <div id="D" style="display:none;">
+          {% include signup-fancy.html id='D' %}
+        </div>
+
 
           {% comment %}
           <div class="container" style="text-align: center; border-style:solid; border-color:#aaaaaa; border-width:0px; padding:10px; border-radius: 5px; width:min(100%,300pt);" id="form"> 
@@ -261,3 +219,23 @@ layout: default
       </div>
       </div>
     </div>
+
+    <script type = "text/javascript">
+    
+    window.onload = function(){
+      var e = document.getElementById('0');
+      e.style.display='none';
+      r = Math.random()
+      if (r < 0.25){
+        e = document.getElementById('A');
+      } else if(r < 0.5){
+        e = document.getElementById('B');
+      } else if(r < 0.75){
+        e = document.getElementById('C');
+      } else{
+        e = document.getElementById('D');
+      }
+      e.style.display='block';
+    }
+    </script>
+    
