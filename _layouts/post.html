@@ -179,19 +179,12 @@ layout: default
         </div>
 
         <div id="B" style="display:none;">
-        {% include related.html %}
         {% include signup.html id='B'%}
         </div>
 
         <div id="C" style="display:none;">
-          {% include signup.html id='C' %}
-          {% include related.html %}
+          {% include signup-fancy.html id='C' %}
         </div>
-
-        <div id="D" style="display:none;">
-          {% include signup-fancy.html id='D' %}
-        </div>
-
 
           {% comment %}
           <div class="container" style="text-align: center; border-style:solid; border-color:#aaaaaa; border-width:0px; padding:10px; border-radius: 5px; width:min(100%,300pt);" id="form"> 
@@ -226,14 +219,12 @@ layout: default
       var e = document.getElementById('0');
       e.style.display='none';
       r = Math.random()
-      if (r < 0.25){
+      if (r < 0.333333){
         e = document.getElementById('A');
-      } else if(r < 0.5){
+      } else if(r < 0.66667){
         e = document.getElementById('B');
-      } else if(r < 0.75){
-        e = document.getElementById('C');
       } else{
-        e = document.getElementById('D');
+        e = document.getElementById('C');
       }
       e.style.display='block';
     }
