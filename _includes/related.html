@@ -4,6 +4,7 @@
 <div class="headerfont" ><span style="font-size:130%;">related</span>
 {%- assign maxRelated = 4 -%}
 {%- assign numPrinted = 0 -%}
+{% assign maxRelatedCounter = 0 %}
 {%- for negCommonTags in (1..4) -%}
   {% assign minCommonTags = 5 | minus: negCommonTags %}
   {%- for post in site.posts -%}
