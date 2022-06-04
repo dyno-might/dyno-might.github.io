@@ -107,54 +107,10 @@ layout: default
 {% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
 <div class="columns is-centered">
   <div class="column is-8-desktop is-10-tablet">
-      <div class="content">
-
-        {% comment %}
-          <div class="headerfont" style="font-size:130%; text-align:center;">subscribe<br><a href="https://dynomight.substack.com">dynomight.substack.com</a></div> 
-          <p>
-        {% endcomment %}
-
-            <p>
-
-              {% comment %}
-              {% assign subscribe-tag = "bot" %}{% include signup-form.html %}
-              {% endcomment %}
-
-  {% comment %}RESPOND BLOCK{% endcomment %}
-      
+      <div class="content">      
+      {% comment %}
       <div class="headerfont" style="font-size:100%; text-align:center;">
-        
-        {% comment %}
-        RESPOND / SUBSCRIBE</div>
-      <div style="text-align:left;">
-        <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
-        <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-          <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:0px; padding:0px; width:100%; height:10em; word-wrap: break-word; word-break: break-all; border-radius: 5px; padding:5px;"></textarea>
-          <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          {% comment %}
-          <span class="headerfont" style="font-size:70%; ">subscribe?</span>
-          <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
-          {% endcomment %}
-          <input type="text" name="_honey" style="display:none"> 
-          <input type="hidden" name="_next" value="https://dynomight.net/success.html" /> 
-          <input type="hidden" name="_captcha" value="false"> 
-          <input type="hidden" name="_url" value="https://dynomight.net/">
-          <input type="email" name="email" class="headerfont" placeholder="email (optional, for reply/subscribe)" style="margin-bottom:10px; padding-top:10px; padding-bottom:10px; padding-left:10px; min-width:29ch;"/> <button type="submit" class="headerfont" style="padding-top:10px; padding-bottom:10px; padding-left:5px; padding-right:5px;">SEND</button> 
-          <br>
-          <input type="checkbox" id="sub" name="sub" value="sub" style="transform: scale(1.3);">
-          <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:65%;">subscribe</label>
-          <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1.3);">
-          <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:65%;">also get dynomight guide to life</label>
-          <br>
-          
-        </form>
-        <!-- <span class="headerfont" style="font-size:60%;">Help with my ever-proliferating collection of typos, please.</span> -->
-        <br>
-        <!-- </details> -->
-        </div> 
-        {% endcomment %}
-
+      {% endcomment %}
         {% comment %} SIGNUP BLOCK {% endcomment %}
         {% comment %}
         <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
@@ -162,14 +118,6 @@ layout: default
         </div>
         {% endcomment %}
           
-          {% comment %}
-        <a href="/about.html">
-        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-            <div class="headerfont" style="color:white; margin-bottom:2px; padding:30px; font-size:200%;">ABOUT DYNOMIGHT INTERNET WEBSITE</div> 
-          </div>
-        </a>
-        {% endcomment %}
-
         <div id="0">
           {% include signup-simple.html id='A' %}
         </div>
@@ -185,29 +133,6 @@ layout: default
         <div id="C" style="display:none;">
           {% include signup-fancy.html id='C' %}
         </div>
-
-          {% comment %}
-          <div class="container" style="text-align: center; border-style:solid; border-color:#aaaaaa; border-width:0px; padding:10px; border-radius: 5px; width:min(100%,300pt);" id="form"> 
-            <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-              <div class="headerfont" style="margin-bottom:0px; padding:10px; font-size:120%;">dynomiiiiiiiiiight</div>
-              <div class="headerfont" style="margin-bottom:2px; padding:10px; font-size:80%;">new posts Monday and Thursday @ 4pm GMT <br>(9am California / 12pm New York / 5pm UK)</div> 
-              <input type="email" class="headerfont" name="email" placeholder="your@email.com" style="max-width: 60%; margin-bottom:8px; padding:8px; border:0; background-color:#dddddd;" required> 
-              <input type="hidden" name="_subject" value="SUBSCRIBE {{page.title | slice: 0,20}}" /> 
-              <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-              <input type="hidden" name="_captcha" value="false" /> 
-              <input type="hidden" name="_url" value="https://dynomight.net/" />
-              <!-- <span style="max-width: 50%; border-color:white; border-width:1.1px; border-style:solid; padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; "> -->
-              <span style="max-width: 40%; border-style:none; padding-top:6px; padding-bottom:6px; padding-left:5px; padding-right:5px; background-color:#cc5a25bf; cursor:pointer;">
-              <button type="submit" class="headerfont" style="border-width:0px; margin:0; padding:0; background-color: transparent; cursor:pointer;">ok fine</button> 
-              </span>
-              <br>
-              <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
-              <label for="guide" class="headerfont" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
-              <!-- <div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:50%;">(A couple articles per month. Unsubscribe whenever.)</div>  -->
-              <div class="headerfont" style="margin-bottom:2px; padding:10px; font-size:80%;">Or sign up at <a href="https://dynomight.substack.com/">substack</a></div> 
-            </form>
-            </div>
-            {% endcomment %}
 
       </div>
       </div>
