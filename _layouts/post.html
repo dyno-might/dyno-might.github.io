@@ -118,6 +118,7 @@ layout: default
         </div>
         {% endcomment %}
           
+        {% comment %}
         <div id="0">
           {% include signup-simple.html id='A' %}
         </div>
@@ -133,11 +134,17 @@ layout: default
         <div id="C" style="display:none;">
           {% include signup-fancy.html id='C' %}
         </div>
+        {% endcomment %}
+        
+        <div style="text-align:center">
+        <iframe src="https://dynomight.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" loading="lazy" frameborder="0" scrolling="no"></iframe>
+        </div>
 
       </div>
       </div>
     </div>
 
+    {% comment %}
     <script type = "text/javascript">
     
     window.onload = function(){
@@ -154,4 +161,5 @@ layout: default
       e.style.display='block';
     }
     </script>
+    {% endcomment %}
     
