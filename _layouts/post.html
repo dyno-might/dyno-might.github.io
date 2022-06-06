@@ -148,7 +148,8 @@ layout: default
 <script src="/prebid-ads.js"></script>
 <script type = "text/javascript">
   window.onload = function(){
-    if(window.AdsAllowed != undefined){
+    var e = document.getElementById('ssiframe');
+    if(e != null && window.AdsAllowed != undefined){
       var e = document.getElementById('ssiframe');
       e.style.display='block';
       var e = document.getElementById('0');
