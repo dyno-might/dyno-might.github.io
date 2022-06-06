@@ -160,7 +160,7 @@ There's no simple simple math to decide what point in the ZOPA we settle on. Thi
 
 **Gaining information.** Before our first meeting, I build a telescope and spy on you. When we meet, I say “I noticed it takes you 2x as long to make a banana as a coconut. It takes me 1.95x as long. Bananas sure are hard, aren't they? Because I like you, I’m willing to trade at a rate of .512 bananas per coconut (.512=1/1.95). This does nothing for me, but you have a kind face, and I want to help you." If you believe me, I get a very favorable rate.
 
-**Concealing information.** You are smart. After the bridge appears, you quality realize I might spy on you, and this would harm your negotiation position. Before doing any gathering, you construct a privacy wall around your island.
+**Concealing information.** You are smart. After the bridge appears, you realize I might spy on you, and this would harm your negotiation position. Before doing any gathering, you construct a privacy wall around your island.
 
 **Faking skills.** You’re a hard-ass. You will walk away unless I agree to an exchange on your end. I’ve tried walking away, but you don't care. I always blink before you, and we both know it. What can I do? For a weeks, I secretly gather coconuts in the night. The next time we meet, I bring a huge pile of coconuts. I say “I’ve been practicing, and now it only takes me 1.5x as long to make a coconut as a banana. I know you’re a hard-ass and you want the sweet end of the ZOPA. I admit I can’t beat you, but the ZOPA has shifted. You need to offer me a better deal.”
 
