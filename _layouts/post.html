@@ -116,7 +116,6 @@ layout: default
         </div>
         {% endcomment %}
           
-        {% comment %}
         <div id="0">
           {% include signup-simple.html id='0' %}
         </div>
@@ -132,34 +131,10 @@ layout: default
         <div id="C" style="display:none;">
           {% include signup-fancy.html id='C' %}
         </div>
-        {% endcomment %}
       </div>
       </div>
     </div>
 
-<center>
-<iframe id="ssiframe" style="display:none;" src="https://dynomight.substack.com/embed" width="min(480,100%)" height="320" loading="lazy" frameborder="0" scrolling="no"></iframe>
-</center>
-
-<div id="0">
-  {% include signup-simple.html id='0' %}
-</div>
-
-<script src="/prebid-ads.js"></script>
-<script type = "text/javascript">
-  window.onload = function(){
-    var e = document.getElementById('ssiframe');
-    if(e != null && window.AdsAllowed != undefined){
-      var e = document.getElementById('ssiframe');
-      e.style.display='block';
-      var e = document.getElementById('0');
-      e.style.display='none';
-    }
-  }
-  </script>
-
-
-    {% comment %}
     <script type = "text/javascript">
     
     window.onload = function(){
@@ -176,6 +151,26 @@ layout: default
       e.style.display='block';
     }
     </script>
-    {% endcomment %}
     
-  
+{% comment %}  
+    <center>
+      <iframe id="ssiframe" style="display:none;" src="https://dynomight.substack.com/embed" width="min(480,100%)" height="320" loading="lazy" frameborder="0" scrolling="no"></iframe>
+      </center>
+      
+      <div id="0">
+        {% include signup-simple.html id='0' %}
+      </div>
+      
+      <script src="/prebid-ads.js"></script>
+      <script type = "text/javascript">
+        window.onload = function(){
+          var e = document.getElementById('ssiframe');
+          if(e != null && window.AdsAllowed != undefined){
+            var e = document.getElementById('ssiframe');
+            e.style.display='block';
+            var e = document.getElementById('0');
+            e.style.display='none';
+          }
+        }
+        </script>
+{% endcomment %}
