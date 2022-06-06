@@ -108,9 +108,7 @@ layout: default
 <div class="columns is-centered">
   <div class="column is-8-desktop is-10-tablet">
       <div class="content">      
-      {% comment %}
-      <div class="headerfont" style="font-size:100%; text-align:center;">
-      {% endcomment %}
+
         {% comment %} SIGNUP BLOCK {% endcomment %}
         {% comment %}
         <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
@@ -120,7 +118,7 @@ layout: default
           
         {% comment %}
         <div id="0">
-          {% include signup-simple.html id='A' %}
+          {% include signup-simple.html id='0' %}
         </div>
 
         <div id="A" style="display:none;">
@@ -135,14 +133,29 @@ layout: default
           {% include signup-fancy.html id='C' %}
         </div>
         {% endcomment %}
-        
       </div>
       </div>
     </div>
 
-<div style="text-align:center">
-      <iframe src="https://dynomight.substack.com/embed" width="min(480,100%)" height="320" loading="lazy" frameborder="0" scrolling="no"></iframe>
+<center>
+<iframe id="ssiframe" style="display:none;" src="https://dynomight.substack.com/embed" width="min(480,100%)" height="320" loading="lazy" frameborder="0" scrolling="no"></iframe>
+</center>
+
+<div id="0">
+  {% include signup-simple.html id='0' %}
 </div>
+
+<script src="/prebid-ads.js"></script>
+<script type = "text/javascript">
+  window.onload = function(){
+    if(window.AdsAllowed != undefined){
+      var e = document.getElementById('ssiframe');
+      e.style.display='block';
+      var e = document.getElementById('0');
+      e.style.display='none';
+    }
+  }
+  </script>
 
 
     {% comment %}
@@ -164,3 +177,4 @@ layout: default
     </script>
     {% endcomment %}
     
+  

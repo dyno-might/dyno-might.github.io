@@ -1,0 +1,1 @@
+var AdsAllowed = true;
