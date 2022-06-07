@@ -5,6 +5,7 @@ image: /img/mbti/myers-briggs.jpg
 tags: personality statistics
 hero_light: true
 last_updated: 2021-03-01
+permalink: /in-defense-of-myers-briggs.html
 description: "examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator"
 category: "psychology"
 head: "<style>
