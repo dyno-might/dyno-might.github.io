@@ -10,6 +10,22 @@ layout: default
 </div>
 {% endcomment %}
 
+
+<div class="columns is-multiline headerfont">
+    <div class="content">
+    <span style="font-size:130%">CATEGORIES</span>
+        <ul style="margin-top:10pt;">
+    {% for item in site.pages %}
+        {% if item.is_category_page == true %}
+        <li><a href="{{item.url}}">{{ item.category }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    <p>
+    <div style="font-size:130%">ALL POSTS</div>
+</div>
+</div>
+
 <div class="columns is-multiline">
     {% for post in paginator.posts %}
     <div class="column is-6">
