@@ -10,6 +10,7 @@ background_color: black
 description: "How did France ban the death penalty? And what did people think about it at the time?"
 permalink: /death-penalty-france/
 background_color: rgb(25,29,74)
+category: "the death penalty"
 head: "<style>
 img{
     display:block;

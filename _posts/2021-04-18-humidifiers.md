@@ -9,6 +9,7 @@ background_color: black
 description: "Why it's better not to use an ultrasonic humidifier"
 permalink: /humidifiers/
 background_color: rgb(10, 10, 10)
+category: "air quality"
 head: "<style>
 img{
     display:block;
@@ -16,25 +17,39 @@ img{
     margin-right: auto;
     max-width:min(100%,500pt);
 }
-table {
-  display: table;
-  margin-bottom: 10pt;
+details{
+    margin-bottom: 10pt;
+    background: #eeeeee;
+    }
+details > summary{
+  padding-bottom: 0pt;
+  cursor: pointer;
+  background: #ffffff;
+  padding-bottom: 5pt;
 }
-tr{
-  border-style: hidden;
+details > *:not(summary){
+  margin-top: 0pt;
+  margin-left: 5pt;
+}
+table{
+    font-family:Montserrat;
+}
+table tr{
+    border-style: hidden;
+    text-align:left;
 }
 @media (min-width:501px){
 table{
+  max-width:100;
+  max-width:100%;
   font-size: 90%;
-  margin-left: 15%;
-  max-width:70%;
 }
 }
 @media (max-width:500px) and (min-width:301px) {
 table{
-  font-size: 3.2vw;
-  margin-left: 5%;
-  max-width:90%;
+  max-width:100;
+  max-width:100%;
+  font-size: 2.4vw;
 }
 }
 @media (max-width:300px) {
@@ -42,8 +57,6 @@ table{
   max-width:100;
   max-width:100%;
   font-size: 0.5em;
-  margin-left: 0%;
-  margin-right: 0%;
 }
 .fixed{
     max-width:100;
@@ -51,7 +64,8 @@ table{
     overflow:scroll;
 }
 }
-</style>"
+</style>
+"
 ---
 
 Let me state two things upfront:

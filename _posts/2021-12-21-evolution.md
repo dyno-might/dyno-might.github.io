@@ -6,6 +6,7 @@ tags: philosophy science
 description: "Why does evolution do what it does? And if you're a sentient being created by it, what should you think about that?"
 permalink: /evolution/
 background_color: rgb(160,143,126)
+category: "psychology"
 head: "<style>
 img{
     display:block;

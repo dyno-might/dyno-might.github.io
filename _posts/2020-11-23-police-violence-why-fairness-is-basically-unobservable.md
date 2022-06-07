@@ -6,6 +6,7 @@ description: Why it's basically impossible to determine fairness from observatio
 tags: statistics policy
 permalink: /:year/:month/:day/:title/
 last_updated: 2021-03-14
+category: "politics/policy"
 head: "<style>
 .center {
   display: block;

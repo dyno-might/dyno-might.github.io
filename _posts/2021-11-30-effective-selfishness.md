@@ -9,6 +9,7 @@ background_color: black
 description: "We could be a lot better at taking care of ourselves."
 permalink: /effective-selfishness/
 background_color: rgb(143,156,105)
+category: "self improvement"
 head: "<style>
 img{
     display:block;

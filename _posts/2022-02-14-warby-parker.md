@@ -6,6 +6,7 @@ tags: philosophy
 description: "Meanwhile, in the multiverse..."
 permalink: /warby-parker/
 background_color: rgb(8,16,27)
+category: "uncategorizable"
 head: "<style>
 img{
     display:block;

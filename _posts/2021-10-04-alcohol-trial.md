@@ -9,6 +9,7 @@ background_color: black
 description: "Why did a huge alcohol RCT get cancelled? A strange story of science, academia, bureaucratic maneuvering, ambition, politics, capitalism, the deep state, secret emails, and slippery ethical slopes."
 permalink: /alcohol-trial/
 background_color: rgb(182,182,182)
+category: "obsessive investigation"
 head: "<style>
 img{
     display:block;

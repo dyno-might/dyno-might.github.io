@@ -6,6 +6,7 @@ tags: science
 description: "Nations could build nuclear warheads much more powerful than they have now. But they have no interest in doing so. Why is that?"
 permalink: /bigger-nukes/
 background_color: rgb(169,169,169)
+category: "obsessive investigation"
 head: "<style>
 img{
     display:block;

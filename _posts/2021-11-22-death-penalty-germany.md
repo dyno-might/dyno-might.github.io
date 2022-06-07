@@ -10,6 +10,7 @@ background_color: black
 description: "How did Germany ban the death penalty? And what did people think about it at the time?"
 permalink: /death-penalty-germany/
 background_color: rgb(123,28,22)
+category: "the death penalty"
 head: "<style>
 img{
     display:block;

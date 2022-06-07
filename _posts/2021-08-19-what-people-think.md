@@ -9,6 +9,7 @@ background_color: black
 description: "How polarized are we? An overview of what people of different political parties, education levels, races, and political engagement think about politics."
 permalink: /polarization-sample-bias/
 background_color: rgb(143,177,189)
+category: "politics/policy"
 head: "<style>
 video{
   display: block;

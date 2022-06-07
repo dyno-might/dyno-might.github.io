@@ -7,6 +7,7 @@ description: How the immune system's memory cells are like the Russian strategy 
 hero_light: true
 last_updated: 2021-09-03
 permalink: /:year/:month/:day/:title/
+category: "obsessive investigation"
 ---
 
 In June of 1812 Napoleon assembled the largest European army in history and invaded Russia. After months of bloody fighting, the French finally arrived in Moscow in September, surprised to find the city mostly abandoned. That night, remaining Russians set fires across the city, eventually burning most of it to the ground. After camping in the ruins for a month, Napoleon realized that the Russians had no intention to sue for peace, supplies were dwindling, and their prospects over the winter were bleak without a living city to sustain them. In October, the French retreated, eventually leaving Russia in defeat in December.

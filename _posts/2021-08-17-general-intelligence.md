@@ -9,6 +9,7 @@ background_color: black
 description: "A review of correlations between human performance on physical and mental tasks, plus a description of how factor analysis is like a cigar"
 permalink: /general-intelligence/
 background_color: rgb(148,134,121)
+category: "psychology"
 head: "<style>
 video{
   display: block;

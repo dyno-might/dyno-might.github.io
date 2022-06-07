@@ -6,6 +6,7 @@ tags: policy science
 description: "The puzzling movement reduce diagnostic tests because of harmful downstream treatments"
 permalink: /diagnostics/
 background_color: rgb(0,0,0)
+category: "rants"
 head: "<style>
 img{
     display:block;

@@ -10,6 +10,7 @@ background_color: black
 description: "What does abolition of the death penalty teach us about who is in change?"
 permalink: /death-penalty/
 background_color: rgb(65,60,48)
+category: "the death penalty"
 head: "<style>
 img{
     display:block;

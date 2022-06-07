@@ -7,6 +7,7 @@ last_updated: 2021-07-19
 tags: science
 background_color: black
 permalink: /:year/:month/:day/:title/
+category: "obsessive investigation"
 ---
 
 **Question**: Should you drink acetone?

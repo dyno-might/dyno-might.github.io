@@ -9,6 +9,7 @@ background_color: black
 description: "What happens if you cut your brain in half?"
 permalink: /split-brain/
 background_color: rgb(199, 198, 229)
+category: "obsessive investigation"
 head: "<style>
 details{
     }

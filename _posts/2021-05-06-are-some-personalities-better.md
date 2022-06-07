@@ -10,6 +10,7 @@ description: "People with the same big five personality types tend to be more ha
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
 last_updated: 2021-09-03
+category: "psychology"
 head: "<style>
 img{
     display:block;

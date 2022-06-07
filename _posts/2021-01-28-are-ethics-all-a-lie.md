@@ -7,6 +7,7 @@ description: If we only believe in ethics because of evolution, does that mean e
 last_updated: 2021-02-16
 background_color: rgb(120, 145, 172)
 permalink: /:year/:month/:day/:title/
+category: "philosophy"
 ---
 
 Some people claim ethics aren't [practical](https://dynomight.net/2020/10/29/pragmatic-reasons-to-believe-in-formal-ethics/). Others make a grim philosophical argument:

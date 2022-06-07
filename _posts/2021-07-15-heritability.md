@@ -9,6 +9,7 @@ background_color: black
 description: "What heritability really is: A fluid statistic that changes whenever society changes."
 permalink: /heritability/
 background_color: rgb(60,64,50)
+category: "math"
 head: "<style>
 details{
     }

@@ -6,6 +6,7 @@ tags: philosophy
 description: "A review of the thought experiments in Reasons and Persons by Derek Parfit (part three)"
 permalink: /no-self/
 background_color: rgb(198,198,205)
+category: "philosophy"
 head: "<style>
 img{
     display:block;

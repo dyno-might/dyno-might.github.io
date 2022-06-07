@@ -6,6 +6,7 @@ tags: science
 description: ""
 permalink: /ethylene-supply-chain/
 background_color: rgb(230,233,238)
+category: "ethylene"
 head: "<style>
 img{
     display:block;

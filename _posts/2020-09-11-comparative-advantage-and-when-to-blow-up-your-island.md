@@ -6,6 +6,63 @@ description: Explains comparative advantage through trades of coconuts and banan
 tags: explainer economics gameTheory
 permalink: /:year/:month/:day/:title/
 background-color: "#1f00cc"
+category: "economics"
+head: "<style>
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:min(100%,500pt);
+}
+details{
+    margin-bottom: 10pt;
+    background: #eeeeee;
+    }
+details > summary{
+  padding-bottom: 0pt;
+  cursor: pointer;
+  background: #ffffff;
+  padding-bottom: 5pt;
+}
+details > *:not(summary){
+  margin-top: 0pt;
+  margin-left: 5pt;
+}
+table{
+    font-family:Montserrat;
+}
+table tr{
+    border-style: hidden;
+    text-align:left;
+}
+@media (min-width:501px){
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 90%;
+}
+}
+@media (max-width:500px) and (min-width:301px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 2.4vw;
+}
+}
+@media (max-width:300px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 0.5em;
+}
+.fixed{
+    max-width:100;
+    max-width:100%;
+    overflow:scroll;
+}
+}
+</style>
+"
 ---
 
 <head>

@@ -7,6 +7,7 @@ tags: economics
 description: Common arguments for universal basic income are about liberty or automation of jobs. The "real" argument is much more mundane.
 permalink: /:year/:month/:day/:title/
 last_updated: 2021-11-28
+category: "economics"
 
 ---
 

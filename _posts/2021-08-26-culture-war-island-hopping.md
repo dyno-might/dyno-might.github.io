@@ -9,6 +9,7 @@ background_color: black
 description: "If culture war is intractable, what should we do instead?"
 permalink: /culture-war-island-hopping/
 background_color: rgb(165,165,165)
+category: "politics/policy"
 head: "<style>
 img{
     display:block;

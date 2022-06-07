@@ -6,6 +6,7 @@ tags: explainer statistics math
 description: "Meanwhile, in the multiverse..."
 permalink: /conspiratorial-monty-hall/
 background_color: rgb(97,97,97)
+category: "math"
 head: "<style>
 .myfigure {
 /*border: dashed blue 1px; */

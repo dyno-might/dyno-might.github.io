@@ -6,6 +6,7 @@ tags: personality statistics
 hero_light: true
 last_updated: 2021-03-01
 description: "examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator"
+category: "psychology"
 head: "<style>
 .center {
   display: block;

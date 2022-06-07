@@ -9,6 +9,7 @@ background_color: black
 description: "What's the history of attempts to abolish the death penalty in the U.S.? And what did people think about them at the time?"
 permalink: /death-penalty-usa/
 background_color: rgb(42,42,59)
+category: "the death penalty"
 head: "<style>
 img{
     display:block;

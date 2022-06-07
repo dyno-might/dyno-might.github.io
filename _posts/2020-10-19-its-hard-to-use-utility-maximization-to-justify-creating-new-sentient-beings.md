@@ -7,7 +7,7 @@ tags: philosophy math
 description: The ethical theory of Utilitarianism applies to many situations, but runs into problems when choices might create new beings.
 usemathjax: true
 permalink: /:year/:month/:day/:title/
-
+category: "philosophy"
 ---
 
 <!--

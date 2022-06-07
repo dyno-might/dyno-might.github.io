@@ -9,6 +9,7 @@ background_color: black
 description: "How did the U.K. ban the death penalty? And what did people think about it at the time?"
 permalink: /death-penalty-uk/
 background_color: rgb(128,128,128)
+category: "the death penalty"
 head: "<style>
 img{
     display:block;

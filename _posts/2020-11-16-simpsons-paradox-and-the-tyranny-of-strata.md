@@ -6,6 +6,7 @@ description: Visualizes Simpson's paradox, and shows how it's a deeper problem t
 tags: statistics math
 background_color: black
 permalink: /:year/:month/:day/:title/
+category: "math"
 head: "<style>
 details{
     }

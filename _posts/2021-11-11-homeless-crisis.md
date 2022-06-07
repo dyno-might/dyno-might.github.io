@@ -9,6 +9,7 @@ background_color: black
 description: "Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
 permalink: /homeless-crisis/
 background_color: rgb(190,190,190)
+category: "obsessive investigation"
 head: "<style>
 img{
     display:block;

@@ -1,0 +1,16 @@
+{% comment %} RELATED BLOCK {% endcomment %}
+<div class="container">
+
+    <div class="columns is-multiline">
+        {% for post in site.posts %}
+            {% if post.category == {{include.category}} and post.title != page.title %}
+            <div class="column is-6">
+                {% assign nodate='true' %}
+                {% include post-item.html %}
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+
+</div>

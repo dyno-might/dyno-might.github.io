@@ -7,6 +7,7 @@ tags: statistics policy
 description: Explores some natural experiments that try to measure police violence.
 last_updated: 2021-02-09
 permalink: /:year/:month/:day/:title/
+category: "politics/policy"
 ---
 
 Measuring police bias using simple ratios [doesn't work](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). You can never cleanly separate the impact of race from other associated factors.

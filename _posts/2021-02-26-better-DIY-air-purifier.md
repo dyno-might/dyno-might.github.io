@@ -8,6 +8,7 @@ dark_title: false
 background_color: black
 description: Designs for a quieter, more energy efficient purifier, and data proving it really works.
 last_updated: 2021-03-02
+category: "air quality"
 head: "<style>
 .center {
   display: block;

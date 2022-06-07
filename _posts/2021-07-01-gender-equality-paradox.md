@@ -10,6 +10,7 @@ description: "Some claim that more feminist countries have fewer women in STEM. 
 permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
 last_updated: 2021-12-06
+category: "psychology"
 head: "<style>
 details{
     }

@@ -7,7 +7,7 @@ tags: philosophy
 description: Some situations where formal ethics are really needed for practical problems in real life.
 permalink: /:year/:month/:day/:title/
 last_updated: 2021-03-11
-
+category: "philosophy"
 ---
 
 Here's a "low-brow" take on ethics that's worth taking seriously.

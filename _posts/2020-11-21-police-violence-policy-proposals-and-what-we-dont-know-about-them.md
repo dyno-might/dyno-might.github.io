@@ -6,6 +6,7 @@ image: /img/police/court_light_cropped.jpg
 description: There's many suggested policies to address police violence. What do we know about if they actually work?
 tags: statistics policy
 permalink: /:year/:month/:day/:title/
+category: "politics/policy"
 ---
 
 You can't measure police bias using [simple population ratios](https://dynomight.net/2020/10/08/police-violence-your-ratios-dont-prove-what-you-think-they-prove/). A better idea is to check if police behave differently [when it's dark](https://dynomight.net/2020/10/12/police-violence-the-veil-of-darkness/), but this doesn't give any firm conclusions either. What else can we do?

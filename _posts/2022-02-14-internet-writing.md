@@ -7,6 +7,7 @@ tags: writing
 description: "Observations on the dynamics of writing and commenting."
 permalink: /internet-writing/
 background_color: rgb(165,165,165)
+category: "writing"
 head: "<style>
 img{
     display:block;

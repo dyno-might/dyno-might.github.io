@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "Experiments on a $50 DIY air purifier you can make in 30s"
 image: /img/purifier/smoke.jpg
@@ -8,6 +7,7 @@ background_color: black
 tags: cleanAir science
 permalink: /:year/:month/:day/:title/
 last_updated: 2021-09-03
+category: "air quality"
 ---
 
 <head>
