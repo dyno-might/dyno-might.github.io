@@ -5,6 +5,7 @@ image: /img/discourse/forum_romanum.jpg
 description: What do we know about how to communicate effectively and find the truth?
 tags: policy communication
 permalink: /:year/:month/:day/:title/
+category: "communication"
 ---
 
 <head>

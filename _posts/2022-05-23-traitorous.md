@@ -6,6 +6,7 @@ tags: policy communication
 description: "Reflections on a phenomena that's unique to culture-war topics"
 permalink: /traitorous/
 background_color: rgb(69,100,120)
+category: "communication"
 head: "<style>
 img{
     display:block;
