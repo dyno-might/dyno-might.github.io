@@ -6,7 +6,7 @@ description: If you can switch the order of two numbers, you can convert tempera
 tags: science math
 permalink: /:year/:month/:day/:title/
 last_updated: 2022-02-18
-category: "obsessive investigation"
+category: "math"
 head: "<style>
 img{
     display:block;
