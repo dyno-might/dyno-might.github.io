@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  COMMUNICATION
-image: /img/deathvalleysky_prog.jpg
-hero_image: /img/deathvalleysky_prog.jpg
+image: /img/discourse/forum_romanum.jpg
+hero_image: /img/discourse/forum_romanum.jpg
 hero_height: is-large
 category: "communication"
 is_category_page: true

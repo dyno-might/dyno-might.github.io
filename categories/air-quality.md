@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  AIR QUALITY
-image: /img/deathvalleysky_prog.jpg
-hero_image: /img/deathvalleysky_prog.jpg
+image: /img/air/sat-prog.jpg
+hero_image: /img/air/sat-prog.jpg
 hero_height: is-large
 category: "air quality"
 is_category_page: true
