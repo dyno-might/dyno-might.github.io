@@ -12,6 +12,23 @@ layout: default
 
 {% comment %}
 <div class="columns is-multiline headerfont">
+    <div class="content" style="margin-top:-35px;">
+        <span style="font-size:130%;">CATEGORIES</span>
+        <div style="margin-top:3pt; display:flex; flex-wrap:wrap;">
+            {% for item in site.pages %}
+                {% if item.is_category_page == true %}
+                    <div style="margin:0; width:min(50%,170px); font-size:75%;">• <a href="{{item.url}}">{{ item.category }}</a></div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <p>
+        <span style="font-size:130%">ALL POSTS</span>
+    </div>
+</div>
+{% endcomment %}
+
+{% comment %}
+<div class="columns is-multiline headerfont">
     <div class="content">
         <span style="font-size:130%">CATEGORIES</span>
         <ul style="margin-top:3pt;">
@@ -42,21 +59,6 @@ layout: default
     </div>
 </div>
 {% endcomment %}
-
-<div class="columns is-multiline headerfont">
-    <div class="content" style="margin-top:-35px;">
-        <span style="font-size:130%;">CATEGORIES</span>
-        <div style="margin-top:3pt; display:flex; flex-wrap:wrap;">
-            {% for item in site.pages %}
-                {% if item.is_category_page == true %}
-                    <div style="margin:0; width:min(50%,170px); font-size:75%;">• <a href="{{item.url}}">{{ item.category }}</a></div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <p>
-        <span style="font-size:130%">ALL POSTS</span>
-    </div>
-</div>
 
 
 {% comment %}
