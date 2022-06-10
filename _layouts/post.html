@@ -84,12 +84,24 @@ layout: default
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
 
 
+{% unless page.is_category_page %}
 <div style="margin-top:20px; margin-bottom:20px; font-size:130%;" class="headerfont">
-  <a href="/about/">About dynomight</a>
+  <a href="/about/">About</a> dynomight
 </div>
+{% endunless %}
 
-    {% if page.category %}
-    <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">Also about {{page.category}}</div>
+    {% if page.is_category_page %}
+      <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">All posts on {{page.category}}</div>
+      {% include category-related.html category=page.category%}
+    {% else if page.category %}
+
+      {% for item in site.pages %}
+        {% if item.is_category_page == true and item.category==page.category %}
+            <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">Also about <a href="{{item.url}}">{{page.category}}</a></div>
+            {% break %}
+        {% endif %}
+      {% endfor %}
+
     {% include category-related.html category=page.category%}
     {% else %}
     {% include related.html %}
