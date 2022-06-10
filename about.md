@@ -58,16 +58,19 @@ Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> o
 
 ---
 
-| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@domain.com</span> where <span style="font-family:monospace; font-size:80%;">domain.com</span> → [what this link points to](https://tutanota.com/). | 
-| | or use the form at the bottom of this page. | 
+| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are a bunch of words to confuse the robots please delete them)tutanota.(more words)com</span> | 
+| | Or just use the form at the bottom of this page. | 
 | **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
 | **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
+| **mastodon**¹ | @dynomight@mastodon.social |
 | **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
 | **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
 
+¹ <span style="font-size:80%;">I joined but don't know how to do anything---please send me your handle.</span>
+
 {% comment %}
-Email: <span style="font-family:monospace; font-size:80%;">dynomight@domain.com</span> where you replace <span style="font-family:monospace; font-size:80%;">domain.com</span> with [the email provider this link points to](https://tutanota.com/). Or use the form at the bottom of this page.
+Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
 
 RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
 
@@ -164,7 +167,7 @@ Thoughts? Questions? Help with my ever-proliferating collection of typos?
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
           <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (optional!)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          <input type="email" name="email" class="headerfont" placeholder="email (optional)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
