@@ -29,6 +29,41 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 
 ---
 
+| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are some words to confuse the robots please delete them)tutanota.(also delete this)com</span> | 
+| | Or just use the form at the bottom of this page. | 
+| **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
+| **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
+| **mastodon**¹ | @dynomight@mastodon.social |
+| **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
+| **all posts** | organized by [tags](/tags/) |
+| | or as an [ebook](/ebook/) |
+
+¹ <span style="font-size:80%;">I want to support federation but can't really understand how to do anything on Mastodon---if you send me your handle I will follow you.</span>
+
+{% comment %}
+Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
+
+RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
+
+Twitter: [@dynomight7](https://twitter.com/dynomight7)
+
+Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:100%">(Only vaguely related to this site.)</span>
+
+All posts organized by topics: [tags](/tags)
+
+{% endcomment %}
+
+<!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
+<input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
+<input type="text" name="text" placeholder="your@email.com" style="font-family:monospace;" /> 
+<input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_url" value="https://dynomight.net/"> 
+<button type="submit" class="headerfont">SUBSCRIBE AND DONE</button> 
+</form> -->
+
+---
+
 {% comment %}
 I post new stuff each Monday and Thursday. You can subscribe here:
 {% endcomment %}
@@ -58,40 +93,6 @@ Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> o
 
 ---
 
-| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are a bunch of words to confuse the robots please delete them)tutanota.(more words)com</span> | 
-| | Or just use the form at the bottom of this page. | 
-| **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
-| **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
-| **mastodon**¹ | @dynomight@mastodon.social |
-| **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
-| **all posts** | organized by [tags](/tags/) |
-| | or as an [ebook](/ebook/) |
-
-¹ <span style="font-size:80%;">I joined but don't know how to do anything---please send me your handle.</span>
-
-{% comment %}
-Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
-
-RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
-
-Twitter: [@dynomight7](https://twitter.com/dynomight7)
-
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:100%">(Only vaguely related to this site.)</span>
-
-All posts organized by topics: [tags](/tags)
-
-{% endcomment %}
-
-<!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
-<input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
-<input type="text" name="text" placeholder="your@email.com" style="font-family:monospace;" /> 
-<input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_url" value="https://dynomight.net/"> 
-<button type="submit" class="headerfont">SUBSCRIBE AND DONE</button> 
-</form> -->
-
----
 
 In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
 
