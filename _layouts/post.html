@@ -84,15 +84,18 @@ layout: default
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
 
 
-
+<div style="margin-top:20px; margin-bottom:20px; font-size:130%;" class="headerfont">
+  <a href="/about/">About dynomight</a>
+</div>
 
     {% if page.category %}
-    <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">Also about {{page.category}}:</div>
+    <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">Also about {{page.category}}</div>
     {% include category-related.html category=page.category%}
     {% else %}
     {% include related.html %}
     {% endif %}
 
+    {% comment %}
     <p></p>
     {% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
     <div class="columns is-centered">
@@ -145,6 +148,7 @@ layout: default
       e.style.display='block';
     }
     </script>
+{% endcomment %}
     
 {% comment %}  
     <center>
