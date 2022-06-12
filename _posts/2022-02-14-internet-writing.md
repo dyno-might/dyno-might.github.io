@@ -67,7 +67,7 @@ I'm not famous or successful, so why should you care what I think? Well, I have 
 
 ## Human experience is vast.
 
-The whole idea of writing is crazy: You have a pattern in your brain-meat, which you try to encode it into a linear series of words. Then someone else reads those words and tries to reconstruct the pattern in their brain-meat. But in this dance, how much of the work is being done by the words versus the lifetime of associations each person has built up around them?
+The whole idea of writing is crazy: You have a pattern in your brain-meat, which you try to encode into a linear series of words. Then someone else reads those words and tries to reconstruct the pattern in their brain-meat. But in this dance, how much of the work is being done by the words versus the lifetime of associations each person has built up around them?
 
 Rather than a full blueprint for an idea, writing is often more like saying "Hey, look at concept #23827! Now look at concept #821! Now look at concept #112234! Are your neurons tingling in the way mine are? I hope so because there's no way to check, bye!"
 
