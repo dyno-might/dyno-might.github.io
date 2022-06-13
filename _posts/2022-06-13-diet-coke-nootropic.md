@@ -172,7 +172,16 @@ Either way, 6.1%---if it's even real---isn't huge. To compare to a "real" drug, 
 
 ![during](/img/diet-coke-nootropic/during.png)
 
-As with Fernstrom et al. above, 200 mg/kg in rats corresponds to 76 Diet Cokes or 12 if you believe in allometric scaling. But this isn't a fair comparison at all since you don't (please) inject Diet Coke into your brain. When consumed orally much of the phenylalanine is converted to tyrosine or doesn't go to the brain at all.
+Now, 200 mg/kg of phenylalanine in rats corresponds to 135.5 Diet Cokes in a 70 kg human, or 22 if you believe in allometric scaling. But this isn't a fair comparison at all since you don't (please) inject Diet Coke into your brain. When consumed orally much of the phenylalanine is converted to tyrosine or doesn't go to the brain at all.
+
+<details markdown="1">
+<summary>More details</summary>
+
+The calculation to get those Diet Coke numbers is:
+
+&nbsp;&nbsp;&nbsp;&nbsp; (3200 mg/kg phenylalanine) × (70 kg) × (294.3 mg aspartame / 165.19 mg phenylalanine) × (1 Diet Coke / 184 mg aspartame) = 135.5 Diet Cokes
+
+</details>
 
 [Bergwerff et al. (2016)](https://doi.org/10.1371/journal.pone.0151100) examined the blood and urine of 83 children with ADHD, looking for abnormalities in phenylalanine, tyrosine, and tryptophan. They found none.
 
@@ -183,7 +192,7 @@ As with Fernstrom et al. above, 200 mg/kg in rats corresponds to 76 Diet Cokes o
 
 The calculation to get those Diet Coke numbers is:
 
-&nbsp;&nbsp;&nbsp;&nbsp; 3000 mg phenylalanine × (294.3 mg aspartame / 165.19 mg phenylalanine) × (1 Diet Coke / 184 mg aspartame) = 29 Diet Cokes
+&nbsp;&nbsp;&nbsp;&nbsp; (3000 mg phenylalanine) × (294.3 mg aspartame / 165.19 mg phenylalanine) × (1 Diet Coke / 184 mg aspartame) = 29 Diet Cokes
 
 </details>
 
