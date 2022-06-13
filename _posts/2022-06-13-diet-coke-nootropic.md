@@ -85,7 +85,7 @@ table{
    | [adrenaline](https://en.wikipedia.org/wiki/Adrenaline) (epinephrine) | C₉H₁₃NO₃ | hormone                  |  
 
    And all the pathways are [fully mapped-out](https://en.wikipedia.org/wiki/Phenylalanine#Other_biological_roles): 
-   <img style="max-width:370px" src="/img/diet-coke-nootropic/pathways-clean.png" alt="phenylalanine pathways">
+   <img style="max-width:min(400px,90%);   margin-left: auto; margin-right: auto;text-align:center; display:block;" src="/img/diet-coke-nootropic/pathways-clean.png" alt="phenylalanine pathways">
 
 4. The sweetener in Diet Coke is aspartame (C₁₄H₁₈N₂O₅).
 
