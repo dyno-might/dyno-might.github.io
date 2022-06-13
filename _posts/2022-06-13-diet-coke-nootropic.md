@@ -85,7 +85,7 @@ table{
    | [adrenaline](https://en.wikipedia.org/wiki/Adrenaline) (epinephrine) | C₉H₁₃NO₃ | hormone                  |  
 
    And all the pathways are [fully mapped-out](https://en.wikipedia.org/wiki/Phenylalanine#Other_biological_roles): 
-   ![phenylalanine pathways](/img/diet-coke-nootropic/pathways-clean.png)
+   <img style="max-width:370px" src="/img/diet-coke-nootropic/pathways-clean.png" alt="phenylalanine pathways">
 
 4. The sweetener in Diet Coke is aspartame (C₁₄H₁₈N₂O₅).
 
@@ -199,3 +199,5 @@ When I started looking into this, I thought this was a fun theory that would col
 Is this likely? Nah. I'd bet against it at 10:1 odds, maybe higher. But I'm surprised it wasn't possible to totally rule it out.
 
 (Diet Cokes consumed while writing this: 5)
+
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vbety4/diet_coke_probably_isnt_a_cognitive_performance/) or [substack](https://dynomight.substack.com/p/diet-coke-nootropic).)
