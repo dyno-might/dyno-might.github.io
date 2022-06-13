@@ -93,13 +93,17 @@ table{
 
 Thus, we arrive at our theory:
 
+<div style="text-align:center" class="headerfont" markdown="1">
+
 ASPARTAME  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+↓  
 PHENYLALANINE  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+↓  
 DOPAMINE OR PHENETHYLAMINE OR SOMETHING THIS PART ISN'T TOTALLY CLEAR  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓  
+↓  
 STIMULATION
+
+</div>
 
 ## Problems
 
