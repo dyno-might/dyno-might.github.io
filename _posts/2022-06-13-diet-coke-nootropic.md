@@ -69,7 +69,7 @@ table{
 
 ## Theory
 
- "Very ambitious and successful and competitive and rich person loves Diet Coke" has been in the news recently, and Friend of the blog Aaron Bergman [proposes](https://twitter.com/AaronBergman18/status/1527333615763603456) a theory as to why. Spelled out in more detail, it goes like this:
+ "Very ambitious and successful and competitive and rich person loves Diet Coke" has been in the news recently, and friend of the blog Aaron Bergman [proposes](https://twitter.com/AaronBergman18/status/1527333615763603456) a theory as to why. Spelled out in more detail, it goes like this:
 
 1. There are [nine essential amino acids](https://en.m.wikipedia.org/wiki/Essential_amino_acid), one of which is phenylalanine (C₉H₁₁NO₂).
 
