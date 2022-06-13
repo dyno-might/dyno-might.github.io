@@ -5,7 +5,7 @@ image: /img/diet-coke-nootropic/coke4.jpg
 tags: philosophy
 description: "Investigating the (aspartame → phenylalanine → dopamine) theory"
 permalink: /diet-coke-nootropic/
-background_color: rgb(10,10,10)
+background_color: rgb(108,63,66)
 category: "obsessive investigation"
 head: "<style>
 img{
@@ -93,7 +93,7 @@ table{
 
 Thus, we arrive at our theory:
 
-<div style="text-align:center" class="headerfont" markdown="1">
+<div style="text-align:center;" class="headerfont" markdown="1">
 
 ASPARTAME  
 ↓  
