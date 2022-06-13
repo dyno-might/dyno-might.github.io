@@ -200,4 +200,6 @@ Is this likely? Nah. I'd bet against it at 10:1 odds, maybe higher. But I'm surp
 
 (Diet Cokes consumed while writing this: 5)
 
+<div style="font-size:70%; text-align:right;" markdown="1">
 (Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vbety4/diet_coke_probably_isnt_a_cognitive_performance/) or [substack](https://dynomight.substack.com/p/diet-coke-nootropic).)
+</div>
