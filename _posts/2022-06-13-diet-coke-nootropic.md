@@ -141,7 +141,7 @@ What about real experiments? Here's a summary of all the papers I could find:
 
 [Fernstrom et al. (1983)](https://doi.org/10.1016/0024-3205(83)90873-1) fed massive amounts of aspartame (200 mg/kg) to rats and dissected their brains. They found this increased phenylalanine and tyrosine, decreased tryptophan, and *maybe* caused a tiny increase in dopamine.
 
-How much is 200 mg/kg? Well, in a 70 kg human, that would be 76 cans of Diet Coke. But you might believe in allometric scaling---the [extremely controversial](https://doi.org/10.4103%2F0976-0105.177703) idea that you should scale doses according to *body surface area*. In that case, 200 mg/kg would only correspond to 12 Diet Cokes.
+How much is 200 mg/kg? Well, in a 70 kg human, that would be 76 cans of Diet Coke. But you might believe in allometric scaling---the [extremely controversial](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4804402/) idea that you should scale doses according to *body surface area*. In that case, 200 mg/kg would only correspond to 12 Diet Cokes.
 
 <details markdown="1">
 <summary>More details</summary>
