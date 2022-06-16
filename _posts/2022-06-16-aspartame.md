@@ -421,7 +421,7 @@ I still mostly trust this paper, but [we all know how these things can go](/alco
 
 </details>
 
-### Roger et al.
+### Rogers et al.
 
 Rogers et al. [*Does low-energy  sweetener consumption affect energy intake and body weight? A systematic review, including meta-analyses, of the evidence from human and animal studies*](https://doi.org/10.1038/ijo.2015.177). International Journal of Obesity, 2016.
 
@@ -447,7 +447,7 @@ There are many other reviews that seem scientifically solid, but aren't nearly a
 
 ## Why write this?
 
-I write this with some trepidation, as my [previous](/cola/#ps) [mentions](/thanks/) of aspartame caused a surprising number of rancor.
+I write this with some trepidation, as my [previous](/cola/#ps) [mentions](/thanks/) of aspartame caused a surprising amount of rancor.
 
 But whatever, I'll die on this hill: After aspartame is consumed, it immediately breaks down into three naturally occurring chemicals. Even large amounts of aspartame cause smaller fluctuations in those chemicals than normal food. The current science says that the health impact of aspartame is essentially zero. Every credible body that has studied this question has reached the same conclusion.
 
