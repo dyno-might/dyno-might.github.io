@@ -172,7 +172,7 @@ Either way, 6.1%---if it's even real---isn't huge. To compare to a "real" drug, 
 
 ![during](/img/diet-coke-nootropic/during.png)
 
-Now, 200 mg/kg of phenylalanine in rats corresponds to 135.5 Diet Cokes in a 70 kg human, or 22 if you believe in allometric scaling. But this isn't a fair comparison at all since you don't (please) inject Diet Coke into your brain. When consumed orally much of the phenylalanine is converted to tyrosine or doesn't go to the brain at all.
+Now, 200 mg/kg of phenylalanine in rats corresponds to 135.5 Diet Cokes in a 70 kg human, or 22 Diet Cokes if you believe in allometric scaling. But this isn't a fair comparison at all since you don't (please) inject Diet Coke into your brain. When consumed orally much of the phenylalanine is converted to tyrosine or doesn't go to the brain at all.
 
 <details markdown="1">
 <summary>More details</summary>
