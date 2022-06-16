@@ -144,7 +144,7 @@ Fortunately, that's almost impossible. Here are four ways to contextualize the 9
 
 3. RDA guidelines say an adult person should get at least 33 mg/kg per day of phenylalanine (or tyrosine, a metabolite of phenylalanine). For a 70 kg (154 lb) person, that would be 2130 mg.
 
-4. Meat-eating men in the UK 3500 mg per day. Vegetarians and vegans get slightly less.
+4. Meat-eating men in the UK average 3500 mg per day. Vegetarians and vegans get slightly less.
 
 <details markdown="1">
 <summary>(details/citations)</summary>
