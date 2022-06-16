@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The safety of aspartame: Once more unto the breach"
+title: "Aspartame: Once more unto the breach"
 image: /img/aspartame/diet.jpg
 tags: science
 description: "Like it or not, there's a clear scientific consensus"
