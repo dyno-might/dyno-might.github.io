@@ -477,3 +477,7 @@ Or, why not worry about:
 To me, most skepticism of aspartame looks like an [isolated demand for rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)---an impossibly high standard of evidence that isn't applied to other things. Most of us have finite bandwidth for things to worry about, and the evidence we have for aspartame puts it very low on the list of sensible worries.
 
 Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: what evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, well, OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
+
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/) or [substack](https://dynomight.substack.com/p/aspartame).)
+</div>
