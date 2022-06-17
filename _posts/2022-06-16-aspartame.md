@@ -129,7 +129,7 @@ The same report gives this discussion:
 
 ### Fact 2: Phenylalanine is a standard amino acid you consume all the time.
 
-We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it, then when your body tried to make certain proteins, those proteins would get truncated, and they wouldn't do what they were supposed to do, and then you would die.
+We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it, then when your body tried to make certain proteins, those proteins would get truncated, and then they wouldn't do what they were supposed to do, and then you would die.
 
 Fortunately, that's almost impossible. Here are four ways to contextualize the 92 mg of phenylalanine you get from a Diet Coke:
 
@@ -260,7 +260,7 @@ But even if normal, could these chemicals still cause harm? Sure. Fortunately fo
 
 ### How to think about this situation
 
-Aspartame was first made in 1965 and was been approved by the FDA in 1981. In all the decades since, there have been hundreds of studies.
+Aspartame was first made in 1965 and was approved by the FDA in 1981. In the decades since, there have been hundreds of studies.
 
 How should we best make use of all this information? Given so many studies, focusing on individual papers is a mistake. With enough <strike>monkeys pounding away at enough typewriters</strike> scientists pounding away at enough science, lots of weirdness is expected.
 
