@@ -83,6 +83,58 @@ layout: default
 
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
 
+<p></p>
+{% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
+<div class="columns is-centered">
+  <div class="column is-8-desktop is-10-tablet">
+      <div class="content">      
+
+        {% comment %} SIGNUP BLOCK {% endcomment %}
+        {% comment %}
+        <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
+          <a href="/about.html"><div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:220%;">ABOUT</div></a>
+        </div>
+        {% endcomment %}
+          
+        <div id="0">
+          {% include signup-simple.html id='0' %}
+        </div>
+
+        <div id="A" style="display:none;">
+          {% include signup-simple.html id='A' %}
+        </div>
+
+        <div id="B" style="display:none;">
+        {% include signup.html id='B'%}
+        </div>
+
+        <div id="C" style="display:none;">
+          {% include signup-fancy.html id='C' %}
+        </div>
+
+        <p>
+        
+        {% comment %}{% include related.html %}{% endcomment %}
+      </div>
+      </div>
+    </div>
+
+<script type = "text/javascript">
+
+window.onload = function(){
+  var e = document.getElementById('0');
+  e.style.display='none';
+  r = Math.random()
+  if (r < 0.333333){
+    e = document.getElementById('A');
+  } else if(r < 0.66667){
+    e = document.getElementById('B');
+  } else{
+    e = document.getElementById('C');
+  }
+  e.style.display='block';
+}
+</script>
 
 {% unless page.is_category_page %}
 <div style="margin-top:20px; margin-bottom:20px; font-size:130%;" class="headerfont">
@@ -106,59 +158,6 @@ layout: default
     {% else %}
     {% include related.html %}
     {% endif %}
-
-    <p></p>
-    {% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
-    <div class="columns is-centered">
-      <div class="column is-8-desktop is-10-tablet">
-          <div class="content">      
-    
-            {% comment %} SIGNUP BLOCK {% endcomment %}
-            {% comment %}
-            <div class="container" style="text-align: center; border-style:solid; border-width:0px; padding:10px; background-image:url('/img/deathvalleysky_prog.jpg'); background-size: auto 100%; border-radius: 5px;" id="form"> 
-              <a href="/about.html"><div class="headerfont" style="color:white; margin-bottom:2px; padding:10px; font-size:220%;">ABOUT</div></a>
-            </div>
-            {% endcomment %}
-              
-            <div id="0">
-              {% include signup-simple.html id='0' %}
-            </div>
-    
-            <div id="A" style="display:none;">
-              {% include signup-simple.html id='A' %}
-            </div>
-    
-            <div id="B" style="display:none;">
-            {% include signup.html id='B'%}
-            </div>
-    
-            <div id="C" style="display:none;">
-              {% include signup-fancy.html id='C' %}
-            </div>
-    
-            <p>
-            
-            {% comment %}{% include related.html %}{% endcomment %}
-          </div>
-          </div>
-        </div>
-    
-    <script type = "text/javascript">
-    
-    window.onload = function(){
-      var e = document.getElementById('0');
-      e.style.display='none';
-      r = Math.random()
-      if (r < 0.333333){
-        e = document.getElementById('A');
-      } else if(r < 0.66667){
-        e = document.getElementById('B');
-      } else{
-        e = document.getElementById('C');
-      }
-      e.style.display='block';
-    }
-    </script>
     
 {% comment %}  
     <center>
