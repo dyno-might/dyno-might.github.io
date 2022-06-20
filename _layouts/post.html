@@ -83,6 +83,7 @@ layout: default
 
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
 
+{% unless page.is_category_page %}
 <p></p>
 {% comment %} THREE DIVS FOR ALL THE BLOCKS AT THE END {% endcomment %}
 <div class="columns is-centered">
@@ -136,7 +137,6 @@ window.onload = function(){
 }
 </script>
 
-{% unless page.is_category_page %}
 <div style="margin-top:20px; margin-bottom:20px; font-size:130%;" class="headerfont">
   <a href="/about/">About</a> dynomight
 </div>
