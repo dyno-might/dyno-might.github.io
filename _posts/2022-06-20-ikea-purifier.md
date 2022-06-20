@@ -352,7 +352,7 @@ Take the 3.0-micron tests on medium, where Wirecutter claims "virtually all" par
 
 It also contradicts the Wirecutter's own tests. On a different page, they tested the same purifier on medium in a (smaller) 1215 ft³ room and found only *92%* of particles were removed. This implies a (plausible) CADR of just 98.1.
 
-So we can either (a) accept that the purifier's performance randomly varies by a factor of more than 2.4, or (b) conclude that the Wirecutter did an extremely shoddy job of running these tests.
+So we can either (a) accept that the purifier's performance randomly varies by a factor of more than 2.4 or (b) conclude that the Wirecutter did an extremely shoddy job of running these tests.
 
 But whatever, I converted all the above numbers into implied CADR values:
 
@@ -412,7 +412,7 @@ Except we can't do that: Here's a quote from another page on their site discussi
 
 > Although these models are not our first choice because of their slower rate of cleaning, we are comfortable recommending them for their exceptional energy efficiency and corresponding low long-term running costs. [...] The total five-year running costs are thus just $200, about 60% less than the costs [Wirecutter Pick #1]. Add in [Wirecutter Pick #2]'s quiet operation and good looks, and they are an attractive option for small spaces.
 
-So the IKEA purifier is cheap and attractive and has low electricity costs, but it's garbage and *no one should buy it* because it is weaker and something something "true HEPA" mumble mumble mumble. Instead, they should buy [Wirecutter Pick #1]. But at the same time, [Wirecutter Pick #2] is weaker than [Wirecutter Pick #1] but *go buy it anyway* because it's cheap and attractive and has low electricity costs.
+So the IKEA purifier is cheap and attractive and has low electricity costs, but it's garbage and no one should buy it because it is weaker and something something "true HEPA" mumble mumble mumble. Instead, they should buy [Wirecutter Pick #1]. But at the same time, [Wirecutter Pick #2] is weaker than [Wirecutter Pick #1] but it's still a decent choice because it's cheap and attractive and has low electricity costs.
 
 Might there be a contradiction here?
 
