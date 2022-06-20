@@ -250,7 +250,7 @@ The CADR is the volume of air that goes through the purifier in a minute, times 
 So the CADR is a good way to measure how powerful a purifier is. And the IKEA purifier isn't super powerful. But let's do another thought experiment:
 
 * Say you have a 10-foot by 7-foot bedroom with 10-foot high ceilings.
-* This room is pretty drafty so after 30 minutes, half the air is replaced with air from outside.
+* This room is pretty drafty so after an hour, half the air is replaced with air from outside.
 * You live in a moderately polluted city, with an outdoor air level of 30 μg/m³ of PM2.5 particles.
 
 If you run the IKEA purifier, this will give you a steady-state level of
