@@ -120,7 +120,7 @@ From these details, we can quickly figure out that there is a [European HEPA fil
 
 The IKEA purifier uses a filter of class E12, whereas the one the Wirecutter recommends instead uses a filter of class H13---one level stricter. So it seems Wirecutter is using "true-HEPA" to mean "H13".
 
-Except---what's the logic here? This difference is core to Wirecutter's dismissal of the IKEA purifier. But we are never given a reason that H13 is good enough, but E12 isn't. Surely it's not just that higher numbers are better? Because then why not insist on a level 17 filter?
+Except---what's the logic here? This difference is core to Wirecutter's dismissal of the IKEA purifier. But we are never given a reason why H13 is good enough, but E12 isn't. Surely it's not just that higher numbers are better? Because then why not insist on a level 17 filter?
 
 They never once recognize the IKEA filter is of class E12, instead using the misleading term "PM2.5 filter" and saying things like:
 
@@ -214,6 +214,9 @@ Meanwhile, if you run that purifier with an H13 filter instead then the fraction
 
 If you noticed that 0.9005 and 0.90005 are almost identical then congratulations---you understand air filters better than the Wirecutter. Both 99.5% and 99.95% are close enough to 100% that performance is almost entirely determined by the *volume of air* they process.
 
+The stricter specs are most useful for situations like cleanrooms or medical applications where you need to make sure that all air that crosses a boundary is clean.
+Far from being an "automatic dismissal", if you're just cleaning the air and then circulating it back into a room as a freestanding air purifier does, the difference between an E12 and an H13 purifier is a complete non-issue.
+
 <details markdown="1">
 <summary>(details)</summary>
 
@@ -231,8 +234,6 @@ If that looks like two curves on top of each other, well... yeah. 99.5% and 99.9
 
 </details>
 
-The stricter specs are most useful for situations like cleanrooms or medical applications where you need to make sure that all air that crosses a boundary is clean.
-Far from being an "automatic dismissal", if you're just cleaning the air and then circulating it back into a room as a freestanding air purifier does, the difference between an E12 and an H13 purifier is a complete non-issue.
 
 ## On weakness
 
@@ -277,7 +278,6 @@ On the other hand, if we used the MORE POWERFUL purifier with a CADR of 135 it w
 
 That's lower, but do we care? The first level is already comparable to the [least polluted cities on the planet](http://berkeleyearth.lbl.gov/air-quality/CityAverageList.php). And most people reading this probably have less drafty windows or cleaner outside air.
 
-
 This is to say: In small spaces, a modest CADR is often perfectly adequate to reduce particle levels to almost zero.
 
 Other than cleaning, what else might we care about?
@@ -301,6 +301,14 @@ Let's do a little comparison.
 
 The IKEA purifier uses a *lot* less energy. Above, I've computed electricity costs assuming you run each purifier on high year-round at US-average electricity prices. (Yeah, power usage goes *down* when you add the extra carbon filter to the IKEA purifier. I've confirmed this myself with a power meter. Physics is weird.)
 
+What about filters? Well, IKEA recommends replacing them every 4 months, while the Wirecutter pick recommends doing it every 6 months.
+
+Personally, I suspect those recommendations are (both) conservative. The "change filter" light almost always just counts elapsed days---but filters don't really get "old", they get "full". Smart Air has done experiments [[1]((https://smartairfilters.com/en/blog/hepa-lifespan-how-long-filters-last/)) [2](https://smartairfilters.com/en/blog/hepa-lifespan-how-long-filters-last/) [3](https://smartairfilters.com/en/blog/blast-mini-hepa-filters-lifespan/)] that found efficacy only declined after filters looked worryingly dirty, which took something like six months even with real (highly polluted) Beijing air. I've used some IKEA purifiers in small rooms for almost a year with the same filter and seen little drop in performance.
+
+What we'd *like* to know is how many particles each filter can absorb per dollar. This is hard, though some very crude very estimates for the size/weight of the different replacement filters suggest you get at least as much for your money with the IKEA filters.
+
+So the IKEA purifier is cheaper, uses much less energy, and plausibly requires less money for filters (especially if you don't use the carbon filter).
+
 <details markdown="1">
 <summary>(math)</summary>
 
@@ -311,12 +319,6 @@ If you ran the IKEA purifier (without a carbon filter) on high year-round and yo
 If you did the same thing while using the carbon filter, the cost would be \$18.40. For the Wirecutter pick, the cost would be \$59.13.
 
 </details>
-
-What about filters? Well, IKEA recommends replacing them every 4 months, while the Wirecutter pick recommends doing it every 6 months.
-
-Personally, I suspect those recommendations are (both) conservative. The "change filter" light almost always just counts elapsed days---but filters don't really get "old", they get "full". Smart Air has done experiments [[1]((https://smartairfilters.com/en/blog/hepa-lifespan-how-long-filters-last/)) [2](https://smartairfilters.com/en/blog/hepa-lifespan-how-long-filters-last/) [3](https://smartairfilters.com/en/blog/blast-mini-hepa-filters-lifespan/)] that found efficacy only declined after filters looked worryingly dirty, which took something like six months even with real (highly polluted) Beijing air. I've used some IKEA purifiers in small rooms for almost a year with the same filter and seen little drop in performance.
-
-What we'd *like* to know is how many particles each filter can absorb per dollar. This is hard, though some very crude very estimates for the size/weight of the different replacement filters suggest you get at least as much for your money with the IKEA filters.
 
 <details markdown="1">
 <summary>(crude estimates)</summary>
@@ -332,7 +334,6 @@ The IKEA particle filter is a rectangle with an area of 155 in^2
 
 </details>
 
-So the IKEA purifier is cheaper, uses much less energy, and plausibly requires less money for filters (especially if you don't use the carbon filter).
 
 ## On tests
 
@@ -347,9 +348,9 @@ The final complaint is based on some tests that they did. They generated particl
 
 These tests... are not credible.
 
-Take the 3.0-micron tests on medium, where Wirecutter claims "virtually all" particles were removed. If we take that to mean 99%, that implies a CADR of 236.2. (The math is below.) That is 75% higher than what the manufacturer's claimed performance on *high*.
+Take the 3.0-micron tests on medium, where Wirecutter claims "virtually all" particles were removed. If we take that to mean 99%, that implies a CADR of 236.2. (The math is below.) That is 75% higher than the manufacturer's claimed performance on *high*.
 
-It also contradicts the Wirecutter's own tests. , they tested the same purifier on medium in a (smaller) 1215 t³ room and found only *92%* of particles were removed. This implies a (plausible) CADR of just 98.1.
+It also contradicts the Wirecutter's own tests. On a different page, they tested the same purifier on medium in a (smaller) 1215 t³ room and found only *92%* of particles were removed. This implies a (plausible) CADR of just 98.1.
 
 So we can either (a) accept that the purifier's performance randomly varies by a factor of more than 2.4, or (b) conclude that the Wirecutter did an extremely shoddy job of running these tests.
 
@@ -365,6 +366,10 @@ But whatever, I converted all the above numbers into implied CADR values:
 If we still for some reason believed that these tests were meaningful, what then?
 
 Well, IKEA claims a CADR of 82.4 on high, and 53.0 on medium. So even taken at face value, this says that IKEA performs a bit above spec on 3.0-micron particles and a bit below spec on 0.3-micron particles. (That's assuming no carbon filter was used when testing the IKEA purifier, something the Wirecutter never clarifies.)
+
+Even if we accepted *all* these test results (we don't) that would just show the Wirecutter pick provides around 3.3 times as much cleaning per second.
+
+More cleaning would be good. But the Wirecutter pick also costs more, uses 3x more electricity, and requires more expensive filters. In real life, higher CADR has rapidly diminishing impact since once you've removed all the particles, there's nothing left to do. Even assuming these (unbelievable) tests were correct, the IKEA purifier would *still* be a better choice for many smaller rooms.
 
 <details markdown="1">
 <summary>(math)</summary>
@@ -397,12 +402,7 @@ The other values can be obtained in the same way.
 
 (Technically I'm approximating things by discretizing to one-minute intervals, but this is an OK approximation and this makes the math much easier to understand.)
 
-
 </details>
-
-Even if we accepted *all* these test results (we don't) that would just show the Wirecutter pick provides around 3.3 times as much cleaning per second.
-
-More cleaning would be good. But the Wirecutter pick also costs more, uses 3x more electricity, and requires more expensive filters. In real life, higher CADR has rapidly diminishing impact since once you've removed all the particles, there's nothing left to do. Even assuming these (unbelievable) tests were correct, the IKEA purifier would *still* be a better choice for many smaller rooms.
 
 ## On logic
 
