@@ -5,7 +5,7 @@ image: /img/ikea-purifier/wires.jpg
 tags: science
 description: "The Wirecutter's review of the IKEA air purifier is a mishmash of scientific errors, shoddy testing, and self-contradictory logic."
 permalink: /ikea-purifier/
-background_color: rgb(102,102,102)
+background_color: rgb(0,0,0)
 category: "air quality"
 head: "<style>
 img{
