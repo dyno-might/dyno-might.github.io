@@ -433,8 +433,8 @@ Sometimes you want a big powerful purifier, which the IKEA purifier isn't. I kee
 
 So if you have a small space and the IKEA purifier appeals to you, go ahead and get it. It may be the most cost-effective purifier on the market, and the evidence the Wirecutter uses to huffily dismiss it is ill-informed, misleading, and self-contradictory.
 
-{:.no_toc}
-## Appendix: On Mistakes
+<details markdown="1">
+<summary style="font-weight:bold">Appendix: On Mistakes</summary>
 
 Here's a list of the biggest mistakes in the Wirecutter's review:
 
@@ -448,9 +448,14 @@ Here's a list of the biggest mistakes in the Wirecutter's review:
 
 5. Their economic logic is self-contradictory. On the one hand, the IKEA purifier is rejected for being relatively weak and a more powerful purifier is recommended instead---ignoring that the IKEA purifier is cheaper and much more energy efficient. Yet on another page, they are happy to recommend a *different* purifier that is *also* weaker, because *it* is energy efficient---even though it costs twice as much as the IKEA purifier.
 
-## Appendix: Disclosure
+</details>
+
+<details markdown="1">
+<summary style="font-weight:bold">Appendix: Disclosure</summary>
 
 People are suspicious about the motives of online reviews (why could that be?) so just to state it outright: I make no money. I haven't linked to any purifiers, and IKEA has no affiliate program anyway. The only motive here is indignation.
+
+</details>
 
 <div style="font-size:70%; text-align:right;" markdown="1">
 (Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/) or [substack](https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air).)
