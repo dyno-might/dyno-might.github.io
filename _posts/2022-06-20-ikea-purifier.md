@@ -245,7 +245,7 @@ The second---and seemingly more valid---criticism of the IKEA purifier regards i
 
 The CADR is the volume of air that goes through the purifier in a minute, times the fraction of particles removed from that it. A purifier that churns through 100 cubic feet of air but removes 50% of particles has a CADR of 50, just like a purifier that goes through 50 cubic feet of air but removes all particles.
 
-(Technically a CADR should be computed for particles of a given *size*, but the Wirecutter---and most manufacturers---and [I](better-DIY-air-purifier.html)---tend to neglect that.)
+(Technically a CADR should be computed for particles of a given *size*, but the Wirecutter---and most manufacturers---and [I](/better-DIY-air-purifier.html)---tend to neglect that.)
 
 So the CADR is a good way to measure how powerful a purifier is. And the IKEA purifier isn't super powerful. But let's do another thought experiment:
 
