@@ -350,7 +350,7 @@ These tests... are not credible.
 
 Take the 3.0-micron tests on medium, where Wirecutter claims "virtually all" particles were removed. If we take that to mean 99%, that implies a CADR of 236.2. (The math is below.) That is 75% higher than the manufacturer's claimed performance on *high*.
 
-It also contradicts the Wirecutter's own tests. On a different page, they tested the same purifier on medium in a (smaller) 1215 t³ room and found only *92%* of particles were removed. This implies a (plausible) CADR of just 98.1.
+It also contradicts the Wirecutter's own tests. On a different page, they tested the same purifier on medium in a (smaller) 1215 ft³ room and found only *92%* of particles were removed. This implies a (plausible) CADR of just 98.1.
 
 So we can either (a) accept that the purifier's performance randomly varies by a factor of more than 2.4, or (b) conclude that the Wirecutter did an extremely shoddy job of running these tests.
 
