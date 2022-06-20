@@ -451,3 +451,7 @@ Here's a list of the biggest mistakes in the Wirecutter's review:
 ## Appendix: Disclosure
 
 People are suspicious about the motives of online reviews (why could that be?) so just to state it outright: I make no money. I haven't linked to any purifiers, and IKEA has no affiliate program anyway. The only motive here is indignation.
+
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/) or [substack](https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air).)
+</div>
