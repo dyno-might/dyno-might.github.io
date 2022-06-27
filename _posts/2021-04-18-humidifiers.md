@@ -260,7 +260,7 @@ If you don't want to do all that, the good news is that steam and evaporative hu
 
 Now *personally*, I can't understand how dealing with distilled or deionized water---yes there are people who actually use deionized water---plus sanitizing plus measuring particles is better than just buying a different humidifier, but I won't question your values.
 
-So, finally, let's do some calculations. Let's start with something reassuring: Even with very pessimistic assumptions, an ultrasonic humidifier isn't going to instantly kill you. [One heuristic](http://localhost:4000/air/#a-heuristic-to-quantify-harms) is that if you were exposed to an (insanely high) level of 2500 PM<sub>2.5</sub>, you'd lose disability-adjusted life roughly ["in real-time"](/air/#a-heuristic-to-quantify-harms). If you use a humidifier for one night and it creates a level of 300 PM<sub>2.5</sub>, this suggests you lose only
+So, finally, let's do some calculations. Let's start with something reassuring: Even with very pessimistic assumptions, an ultrasonic humidifier isn't going to instantly kill you. One heuristic is that if you were exposed to an (insanely high) level of 2500 PM<sub>2.5</sub>, you'd lose disability-adjusted life roughly ["in real-time"](/air/#a-heuristic-to-quantify-harms). If you use a humidifier for one night and it creates a level of 300 PM<sub>2.5</sub>, this suggests you lose only
 
 &nbsp;&nbsp;&nbsp;**8 hours × 300 / 2500 ≈ 1 hour.**
 
