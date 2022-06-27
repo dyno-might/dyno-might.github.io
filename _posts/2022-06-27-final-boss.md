@@ -65,6 +65,7 @@ table{
 "
 ---
 
+
 **Evil**. The problem is people doing bad things that they know are bad. Everyone just needs to stop demanding bribes and littering and murdering each other.
 
 **Moral confusion**. No, in reality, most people try to do the right thing most of the time. The problem is that our idea of "right" is a primitive instinct evolution gave us to survive and reproduce. Over the centuries, how many millions have died in battles with the people on both sides convinced they were fighting for justice? The problem isn't people being evil but that they have an underdeveloped sense of what is good.
