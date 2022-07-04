@@ -104,7 +104,7 @@ First, I checked how often the names of the most populous countries in the world
 
 ![blocked-countries-perpop](/img/blocked-persons/blocked-countries-perpop.svg)
 
-Apparently, USA ❤️ Philippines which at 0.044 easily beats Japan (0.47) and India (0.55) for the fewest mentions per capita.
+Apparently, USA ❤️ Japan which at 0.47 slightly beats India (0.55) and Ethiopia (0.56) for the fewest mentions per capita.
 
 ### Digital currencies
 
