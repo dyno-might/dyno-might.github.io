@@ -160,3 +160,7 @@ Plotting those numbers, we get this graph:
 ![blocked](/img/blocked-persons/blocked.svg)
 
 Get to it, zoomers.
+
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vr77vm/blocked_persons_and_letters_of_marque/) or [substack](https://dynomight.substack.com/p/blocked-persons).)
+</div>
