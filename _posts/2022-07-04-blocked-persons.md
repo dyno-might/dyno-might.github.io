@@ -104,7 +104,7 @@ First, I checked how often the names of the most populous countries in the world
 
 ![blocked-countries-perpop](/img/blocked-persons/blocked-countries-perpop.svg)
 
-Apparently, USA ❤️ Japan which at 0.47 slightly beats India (0.55) and Ethiopia (0.56) for the fewest mentions per capita.
+Apparently, USA ❤️ Japan which at 0.47 slightly beats India (0.55) and Ethiopia (0.56) for the fewest mentions per capita. (*Edit*: I corrected an earlier miscalculation due to a really embarrassing misspelling.)
 
 ### Digital currencies
 
