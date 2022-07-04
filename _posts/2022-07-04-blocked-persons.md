@@ -78,7 +78,7 @@ Essentially: Permission for private citizens to carry out acts of war. If you co
 
 The last time these letters were used was during the War of 1812 wherein the [Prince de Neufchatel](https://en.wikipedia.org/wiki/Prince_de_Neufchatel)---that's an American Ship, not a French vampire---was authorized to hunt British vessels. The last time they were *considered* was during Andrew Jackson's administration of 1829-1837.
 
-Surprisingly enough, this practice led to abuses, like people getting letters from the governments on both sides in a war, or regular pirates bribing corrupt governments to give their activities a veneer of legitimacy. Thus, the practice was mostly banned by the [Paris Declaration of 1856](https://en.wikipedia.org/wiki/Paris_Declaration_Respecting_Maritime_Law).
+Surprisingly enough, this practice led to abuses, like people getting letters from the governments on both sides in a war, or pirates bribing corrupt governments to give their activities a veneer of legitimacy. Thus, the practice was mostly banned by the [Paris Declaration of 1856](https://en.wikipedia.org/wiki/Paris_Declaration_Respecting_Maritime_Law).
 
 The US refused to sign that declaration on the grounds that it had a puny formal navy. This position caused some difficulty during the Civil War of 1861-1865. While the Union had around 42 warships at the time, the Confederacy had almost none. Thus, the Confederacy turned to letters of marque, which disrupted Union shipping in the Caribbean.
 
