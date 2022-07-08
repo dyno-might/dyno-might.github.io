@@ -1204,7 +1204,7 @@ function copyToC(copyText) {
 {% for post in site.posts | limit 5 %}
 
     <span style="display: inline-block; min-width:20%; font-size:60%; text-align:right;">{{ post.date | date: "%b %-d %Y" }}</span>
-    <a href="{{post.url}}" style="font-size:60%; text-overflow: ellipsis;">
+    <a href="{{post.url}}?utm_campaign=mbti" style="font-size:60%; text-overflow: ellipsis;">
         {{post.title}}
     </a>
     <br>
