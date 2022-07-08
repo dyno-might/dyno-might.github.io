@@ -102,7 +102,7 @@ I wondered what was on this list, so I decided to check how often some different
 
 First, I checked how often the names of the most populous countries in the world occur, normalized by population size.
 
-![blocked-countries-perpop](/img/blocked-persons/blocked-countries-perpop.svg)
+![number of times different countries occur on blocked list](/img/blocked-persons/blocked-countries-perpop.svg)
 
 Apparently, USA ❤️ Japan which at 0.47 slightly beats India (0.55) and Ethiopia (0.56) for the fewest mentions per capita. (*Edit*: I corrected an earlier miscalculation due to a really embarrassing misspelling.)
 
@@ -157,7 +157,7 @@ done
 
 Plotting those numbers, we get this graph:
 
-![blocked](/img/blocked-persons/blocked.svg)
+![number of people on the blocked list by birth year](/img/blocked-persons/blocked.svg)
 
 Get to it, zoomers.
 
