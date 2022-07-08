@@ -577,7 +577,7 @@ function describe_letters(IE,SN,FT,JP){
     </div>
     <br>
 
-    <div style="text-align:center; font-size:80%;"><a href="/" style="font-family:Verdana;">DYNOMIGHT INTERNET WEBSITE</a></div>
+{% comment %}    <div style="text-align:center; font-size:80%;"><a href="/" style="font-family:Verdana;">DYNOMIGHT INTERNET WEBSITE</a></div> {% endcomment %}
     <h1 style="font-size:100%; font-family:Verdana;">FASTEST MBTI QUIZ</h1>
 
 <p style="font-size:80%;">keyboard: 1-5 to choose ⌫ to go back</p>
@@ -1192,9 +1192,31 @@ function copyToC(copyText) {
 </span>
 <div id="aftergraph"></div>
 </div>
+
+<hr>
+
+<div style="max-width:800px; margin-left:auto; margin-right:auto; margin:5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+
+<span style="display: inline-block; min-width:20%;"></span>RECENT DYNOMIGHT<br>
+
+{% assign total = 0 %}
+
+{% for post in site.posts | limit 5 %}
+
+    <span style="display: inline-block; min-width:20%; font-size:60%; text-align:right;">{{ post.date | date: "%b %-d %Y" }}</span>
+    <a href="{{post.url}}" style="font-size:60%; text-overflow: ellipsis;">
+        {{post.title}}
+    </a>
+    <br>
+
+  {% assign total = total  | plus:1 %}
+  {%- if total >= 6 -%}
+    {% break %}
+  {% endif %}
+
+{% endfor %}
+</div>
+
 </body>
-
-
-
 
 </html>
