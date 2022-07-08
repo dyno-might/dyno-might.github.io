@@ -150,7 +150,7 @@ Sometimes it's the exact date and sometimes it's just the year. How to get the c
 ```bash
 for i in {1910..2010}
 do
-    c=($(grep "DOB .*$i;" sdnlist.txt |  wc -l))
+    c=($(grep "DOB .\{0,7\}$i;" sdnlist.txt |  wc -l))
     echo $i, $c
 done
 ```
