@@ -83,7 +83,7 @@ Say you've had a huge meal and couldn't eat another bite. But then---someone off
 
 You might think: Can I exploit this phenomenon in reverse to lose weight? The obvious thing would be to ban iced cream. But if that helps, maybe you should ban more stuff. If you went *really* ban-crazy, you'd eventually get to a single food, hopefully something filling and healthy. Voilà: Potato diet.
 
-## 2. Hunger is complicated.
+## 2. Hunger is complicated
 
 My biggest surprise was how the diet *felt*. Previously I had a mental model that hunger is the difference between your caloric needs and the total calories you've eaten. If the only foods are corn tofu and potatoes, then my old model was
 
@@ -178,7 +178,7 @@ Except potatoes *didn't* seem to make me tired, and:
 | boiled potato | 82    |
 | baked potato  | 111   |
 
-Either I was getting a placebo effect from bread/pasta or I'm getting a placebo *non*-effect from potatoes, or the whole connection between the glycemic index and energy-levels connection is tenuous. Unsure.
+Either I was getting a placebo effect from bread/pasta or I'm getting a placebo *non*-effect from potatoes or the whole connection between the glycemic index and energy-levels connection is tenuous. Unsure.
 
 ## 7. Here are some things with similar numbers of calories
 
