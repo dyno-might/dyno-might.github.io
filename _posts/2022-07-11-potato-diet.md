@@ -241,3 +241,7 @@ So I've been pondering an alternative "thermostat" strategy. Say you want to wei
 4. Repeat forever.
 
 Is there any research on something like this? A key assumption is that you lose weight on the fad diet more quickly than you gain it eating *ad libitum*---otherwise you'd be spending half your time on a fad diet, which doesn't seem healthy. Optimistically, "fear of a potato week" might lead you to control portions all the time, meaning you don't need to Go Potato too often.
+
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vwmdmr/thoughts_on_the_potato_diet/) or [substack](https://dynomight.substack.com/p/potato-diet).)
+</div>
