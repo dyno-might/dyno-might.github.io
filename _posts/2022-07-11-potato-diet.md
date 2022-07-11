@@ -235,7 +235,7 @@ Obviously, we can try to find long-term diets that make it easy to sustain lower
 
 So I've been pondering an alternative "thermostat" strategy. Say you want to weigh 80 kg. You could do something like this:
 
-1. Use a fad diet (e.g. potato) to get down to 70 kg.
+1. Use a fad diet (e.g. potato) to get down to 80 kg.
 2. Weigh yourself every morning
 3. If your average weight over a week ever exceeds 81 kg, spend the next week on the potato diet.
 4. Repeat forever.
