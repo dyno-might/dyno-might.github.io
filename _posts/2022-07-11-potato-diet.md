@@ -89,7 +89,7 @@ My biggest surprise was that the diet didn't *feel* like I expected. Previously 
 
 &nbsp;&nbsp;&nbsp;&nbsp;HUNGER  = NEEDS - (POTATOES + TOFU + CORN).
 
-![old hunger model](/img/potato-diet/new-hunger-model.jpg)
+![old hunger model](/img/potato-diet/old-hunger-model.jpg)
 
 I still think this is a decent model, but it's not *quite* right.
 
