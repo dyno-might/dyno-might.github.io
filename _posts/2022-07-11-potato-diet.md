@@ -85,7 +85,7 @@ You might think: Can I exploit this phenomenon in reverse to lose weight? The ob
 
 ## 2. Hunger is complicated.
 
-My biggest surprise was that the diet didn't *feel* like I expected. Previously I had a mental model was that hunger is the difference between your caloric needs and the total calories you've eaten. If the only foods are corn tofu and potatoes, then my old model was
+My biggest surprise was that the diet didn't *feel* like I expected. Previously I had a mental model that hunger is the difference between your caloric needs and the total calories you've eaten. If the only foods are corn tofu and potatoes, then my old model was
 
 &nbsp;&nbsp;&nbsp;&nbsp;HUNGER  = NEEDS - (POTATOES + TOFU + CORN).
 
