@@ -75,17 +75,17 @@ You've probably heard about the [potato diet](https://slimemoldtimemold.com/2022
 3. Oil and salt are OK.
 4. Don't eat other stuff.
 
-I thought this sounded delightfully absurd, so I tried it for a few weeks. Here are some observations.
+I thought this sounded delightfully absurd so I tried it for a few weeks. Here are some observations.
 
 ## 1. It's not totally insane
 
-Say you've had a huge meal, and couldn't eat another bite. But then---someone offers you iced cream.
+Say you've had a huge meal and couldn't eat another bite. But then---someone offers you iced cream.
 
 You might think: Can I exploit this phenomenon in reverse to lose weight? The obvious thing would be to ban iced cream. But if that helps, maybe you should ban more stuff. If you went *really* ban-crazy, you'd eventually get to a single food, hopefully something filling and healthy. Voilà: Potato diet.
 
 ## 2. Hunger is complicated.
 
-My biggest surprise was that the diet didn't *feel* like I expected. Previously I had a mental model that hunger is the difference between your caloric needs and the total calories you've eaten. If the only foods are corn tofu and potatoes, then my old model was
+My biggest surprise was how the diet *feel*. Previously I had a mental model that hunger is the difference between your caloric needs and the total calories you've eaten. If the only foods are corn tofu and potatoes, then my old model was
 
 &nbsp;&nbsp;&nbsp;&nbsp;HUNGER  = NEEDS - (POTATOES + TOFU + CORN).
 
@@ -107,7 +107,7 @@ Many people say the potato diet is easy. I for one did not find that to be true!
 
 1. I always ate as much as I wanted.
 2. I lost weight.
-3. I never felt "hunger", exactly.
+3. I never felt "hunger" exactly.
 
 That sounds easy, right? Why isn't that easy?
 
@@ -124,7 +124,7 @@ In this model, diets with more variety:
 
 Hunger is essentially the desire to move to the right on this graph. I always ate as many potatoes as I wanted, so I never felt "hunger".
 
-But I felt *something*---I wanted to eat other foods. I don't think this feeling has a good name, but it's basically what you feel when you have trouble turning down that after-meal iced cream.
+But I felt *something*---I wanted to eat other foods, to jump onto a higher curve on the above graph. I don't think this feeling has a good name, but it's basically what you feel when you have trouble turning down that after-meal iced cream.
 
 ## 4. It's a pain to cook a lot of potatoes
 
@@ -149,13 +149,13 @@ Then some simple math shows that you should get 2000 calories per day, which cor
 6. 2000/110 = 18.18.
 </details>
 
-This does become a hassle. However, I have a conspiracy theory that maybe this is a *feature* in the sense that laziness plus the tedium of preparing all those potatoes leads to lower caloric intake.
+This does become a hassle. However, I have a conspiracy theory that maybe this is a *feature* in the sense that laziness plus the tedium of preparing all those potatoes leads to eating less.
 
 ## 5. Less decision fatigue
 
 On the other hand, there are so few *decisions* to make with this diet. Shopping requires no thought: Go to the store and buy all the potatoes. And before cooking, you just choose from a small set of options.
 
-Never in my life have a felt these decisions to be the slightest burden. But it was surprisingly nice to be free of them.
+Never in my life have I felt these decisions to be the slightest burden. But it was surprisingly nice to be free of them.
 
 Two hints:
 
@@ -164,13 +164,13 @@ Two hints:
 
 ## 6. What's the deal with the glycemic index?
 
-On my long list of life mistakes, one of the ones I feel most foolish about is ignoring the traditional wisdom that carbs make you tired. I only recently started paying attention to this and the gains from avoiding bread and pasta at lunch seem massive.
+On my long list of life mistakes, one of the most foolish is ignoring the traditional wisdom that carbs make you tired. I only recently started paying attention to this and the gains from avoiding bread and pasta at lunch seem massive.
 
 The typical explanation for this is that bread and pasta have a high glycemic index (GI), meaning that they cause a rapid spike in blood sugar.
 
 Except potatoes *didn't* seem to make me tired, and:
 
-| food          | GI    |
+| food          | glycemic index    |
 | ------------- | ----- |
 | pasta         | 32-64 |
 | bagel         | 72    |
@@ -196,9 +196,9 @@ Which of these would you rather have to sustain you for a day?
 
 ## 8. Predictions
 
-By any conceivable definition, "eat only potatoes" is a fad diet. And the history of previous dietary ideas leaves a trail of dead rushing out to the horizon. Skepticism is warranted.
+By any conceivable definition, "eat only potatoes" is a fad diet. And the history of dietary ideas leaves a trail of dead rushing out to the horizon. Skepticism is warranted.
 
-I'm not particularly well-read on weight loss and diets, even by the loose standards of pseudonymous internet autodidacts. But I spent some time studying Wikipedia's [list of diets](https://en.wikipedia.org/wiki/List_of_diets). Here's what I found:
+Now, I'm not particularly well-read on weight loss and diets, even by the loose standards of pseudonymous internet autodidacts. But I spent some time studying Wikipedia's [list of diets](https://en.wikipedia.org/wiki/List_of_diets) and here's what I found:
 
 1. Low-fat diets work.
 2. Low-carb diets work.
@@ -209,7 +209,7 @@ I'm not particularly well-read on weight loss and diets, even by the loose stand
 
 Also: Liquid diets, baby food diets, grapefruit diets, rice diets, carnivore diets, vegan diets.
 
-*EVERYTHING WORKS*. (at least in this short term)
+*EVERYTHING WORKS* (at least in this short term).
 
 How to explain this? Well, what does *everything* have in common? Every diet restricts food choices.
 
@@ -221,7 +221,7 @@ At the same time, there's another hope for the potato diet: That it's uniquely g
 
 The problem is: It's not really possible to stay on the potato diet long-term. When I talked to some doctors I know (socially) about this, they were alarmed. Now, these were random specialists, and they often gave incorrect reasons (e.g. that potatoes have no protein). I think it's probably fine for a few weeks. But still: Everyone seems to agree that it's most healthy to eat a varied diet and a single ingredient is not varied. You can't eat potatoes forever.
 
-And the evidence seems to be that all other fad diets *don't* work to keep weight off long-term. For that to happen, you need to transition to a lower-calorie steady-state diet. It's *possible* that some diet could cause reset your hormone balance so that eating naturally would keep you at a lower weight. But as far as I know, no such diet is known, and I see no reason to think the potato diet will be the first exception.
+And the evidence seems to be that all other fad diets *don't* work to keep weight off long-term. For that to happen, you need to transition to a lower-calorie steady-state diet. It's *possible* that some diet could reset your hormone balance so that eating naturally would keep you at a lower weight. But as far as I know, no such diet is known, and I see no reason to think the potato diet will be the first exception.
 
 Thus, I also predict with high confidence that the potato diet is *not* effective in leading to sustained weight loss.
 
