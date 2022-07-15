@@ -145,6 +145,7 @@ window.onload = function(){
 {% endunless %}
 
     {% if page.is_category_page %}
+      <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">All <a href="/categories/">categories</a></div>
       <div class="headerfont" style="font-size:130%; margin-bottom:10pt;">All posts on {{page.category}}</div>
       {% include category-related.html category=page.category%}
     {% else if page.category %}

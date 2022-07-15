@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: category
 title:  COMMUNICATION
 image: /img/discourse/forum_romanum.jpg
 hero_image: /img/discourse/forum_romanum.jpg
