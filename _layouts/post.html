@@ -46,12 +46,14 @@ layout: default
             {% endcomment %}
 
             {% if page.last_updated %}
-            <strong>Updated {{page.last_updated | date : "%b %Y" }}</strong>
+              <span title='First published: {{ page.date | date: "%b %d %Y" }}&#013;Last updated: {{ page.last_updated | date: "%b %d %Y" }}' style="cursor:pointer; font-weight:bold;">
+              Updated {{page.last_updated | date : "%b %Y" }}
+              </span>
             {% else %}
-            <strong>{{ page.date | date: "%b %Y" }}</strong>
+              <span title='Published: {{ page.date | date: "%b %d %Y" }}' style="cursor:pointer; font-weight:bold;">
+              {{ page.date | date: "%b %Y" }}
+              </span>
             {% endif %}
-
-
           </p>
 
           {% comment %}
