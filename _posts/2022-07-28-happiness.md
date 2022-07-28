@@ -167,7 +167,7 @@ Option A is to pencil in something like this:
 
 Option B is something like this:
 
-> In the morning spend 3 hours working on new Important Projects.
+> In the morning, spend 3 hours working on new Important Projects.
 
 That brings us to the final option.
 
@@ -179,11 +179,9 @@ Most people need to feel that they are contributing to society. At least for me,
 
 Note that even if this is true, past achievements will still matter. That's because:
 
-* You need to position yourself in such a way that you have the time/resources/connection to work on something you think is important.
+* You need to position yourself in such a way that you have the time/resources/connections to work on something you think is important.
 * If you *always* fail, then eventually you'll find it impossible to believe that your future goals are achievable.
 
-{% comment %}
 <div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/w4jzoo/notes_on_the_balkans/) or [substack](https://dynomight.substack.com/p/balkans).)
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/) or [substack](https://dynomight.substack.com/p/happiness).)
 </div>
-{% endcomment %}
