@@ -88,7 +88,7 @@ The typical advice the FIRE community gives these people is to become more inten
 
 But if that's good advice after retiring, isn't it good advice before retiring too?
 
-What does this mean?  I think it shows that we didn't choose our goals to maximize our happiness. You could imagine someone sitting down and considering all the possible world-states in the future, and scoring each by how happy they would be. Then, they could choose the actions to increase the expected value. It seems to me that most of us spend our days chasing after goals that weren't chosen that way at all.
+What does this mean?  I think it shows that we didn't choose our goals to maximize our happiness. You could imagine someone sitting down and considering all the possible world-states in the future, and scoring each by how happy they would be. Then, they could choose actions to increase the expected value. It seems to me that most of us spend our days chasing after goals that weren't chosen that way at all.
 
 So if we aren't optimizing happiness, why not?
 
