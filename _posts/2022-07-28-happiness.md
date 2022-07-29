@@ -102,7 +102,7 @@ Maybe changes in our lives only have a fleeting effect on happiness, after which
 
 As far as I can tell, no one knows how complete hedonic adaptation is. There's lots of evidence that happiness varies widely between people (life isn't fair) but is pretty stable over time for individuals. But for two reasons, I suspect hedonic adaptation isn't complete:
 
-1. How do you study happiness? You don't yet have the technology to scan my brain and measure how much utility I'm are deriving from the universe. If you want to know how happy I am, you need to.. ask me. (I'm good, thanks.)  The problem is---if I was "somewhat happy" then win the lottery and am still "somewhat happy" is that because nothing changed, or is it because my *standards* for what "somewhat happy" is supposed to look like have *also* increased?
+1. How do you study happiness? We don't yet have the technology to scan someone's brain and measure how much utility they're deriving from the universe. If you want to know how happy I am, you need to... ask me. (I'm good, thanks.)  The problem is---if I was "somewhat happy" then win the lottery and am still "somewhat happy" is that because nothing changed, or is it because my *standards* for what "somewhat happy" is supposed to look like have *also* increased?
 
 2. Prison. It sure *seems* like it would prison would be miserable, and you wouldn't get used to it, right? Well, researchers have studied this and sure enough, people in prison are *much* less happy [(Wildeman et al., 2014)](https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=7472&context=jclc). Of course, these aren't randomized trials, so you can worry about the direction causality. For example, maybe mental illness both makes people unhappy and causes people to go to prison? But the researchers tried many statistical controls and prison still had a massive effect. More importantly, after people were released from prison, their happiness quickly bounced back.
 
@@ -110,7 +110,7 @@ As far as I can tell, no one knows how complete hedonic adaptation is. There's l
 
 Whatever the case, could this explain why people chase after vague goals rather than trying to build concrete lives they'll enjoy living? No, because regardless of if hedonic adaptation *is* true, most people don't *think* it's true [(Kahneman, 2000)](https://www.anderson.ucla.edu/faculty/keith.chen/negot.%20papers/Kahneman_ExperiencedUtility00.pdf). And even if people *did* think hedonic adaptation was complete, then why bother with big goals?
 
-*Aside*: When I looked at the details of the studies for the interventions that are supposed to increase happiness (gratitude practice, etc.) the evidence was much more flimsy than I realized. Someone should give this a skeptical look.
+*Aside*: When I looked at the details of the studies for the interventions that are supposed to increase happiness (gratitude practice, etc.) the evidence was more flimsy than I realized. Someone should give this a skeptical look.
 
 ## Possibility: It's the <strike>small</strike> big things
 
@@ -128,7 +128,7 @@ I'd bet that most people would be a bit happier if they exercised. The thing is,
 
 How does this work? My guess is it's something like this:
 
-![happiness time plot](/img/happiness/time.svg)
+![happiness time plot](/img/happiness/time2.svg)
 
 To reap the rewards of running, you need to suffer a fairly large short-term decrease. This seems to be true of lots of things, like eating better, taking better care of your appearance, keeping your home well-decorated and orderly, and even maintaining relationships.
 
