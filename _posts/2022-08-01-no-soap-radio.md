@@ -228,11 +228,5 @@ Or:
 </details>
 
 <div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/).)
-</div>
-
-{% comment %}
-<div style="font-size:70%; text-align:right;" markdown="1">
 (Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/) or [substack](https://dynomight.substack.com/p/no-soap-radio).)
 </div>
-{% endcomment %}
