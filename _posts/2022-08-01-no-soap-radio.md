@@ -3,9 +3,9 @@ layout: post
 title: "No soap radio"
 image: /img/no-soap-radio/radio2.jpg
 tags: 
-description: "A new technology for anti-humor"
+description: "A potent anti-humor technology"
 permalink: /no-soap-radio/
-background_color: rgb(179,207,230)
+background_color: rgb(134,133,129)
 category: "uncategorizable"
 head: "<style>
 img{
@@ -229,6 +229,6 @@ Or:
 
 {% comment %}
 <div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/) or [substack](https://dynomight.substack.com/p/happiness).)
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/) or [substack](https://dynomight.substack.com/p/no-soap-radio).)
 </div>
 {% endcomment %}
