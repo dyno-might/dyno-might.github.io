@@ -7,6 +7,7 @@
   {% assign defaultcolor = "gray" %}
   <div class="card-image changer title is-4" style="text-align:center;">
     <img src="{{ post.image | prepend: site.baseurl }}"
+         alt=""
          {% if post.image_srcset %}srcset="{{post.image_srcset}}"{% endif %}
          {% comment %}alt="{{ post.title }}"{% endcomment %}
          style="position:relative; background-color:{{post.background_color | default: defaultcolor}};" loading="lazy" width="1440" height="900"
