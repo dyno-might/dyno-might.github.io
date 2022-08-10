@@ -13,6 +13,10 @@ social:
   name: dynomight
   links:
     - https://twitter.com/dynomight7
+author:
+    name: dynomight
+    url: https://dynomight.net/
+    twitter: dynomight7
 
 paginate: 100
 paginate_path: "/page:num"
@@ -47,16 +51,9 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "dynomight"
       layout: post
       image: /img/home.jpg
       show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
 
       #image: /img/deathvalleysky_nps_big.jpg
 
