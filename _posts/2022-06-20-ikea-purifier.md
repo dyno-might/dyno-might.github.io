@@ -71,7 +71,7 @@ table{
 
 IKEA has recently made some moves into the air purifier space. The Wirecutter is not impressed.
 
-![wirecutter review](/img/ikea-purifier/wirecutter-prog.jpg)
+![wirecutter review](/img/ikea-purifier/wirecutter-prog.jpg){: width="860px" height="957px"}
 
 They allow that this purifier is inexpensive and pretty. But still, it's terrible and you should instead buy a different purifier that totally coincidentally happens to pay affiliate marketing commissions. 
 
@@ -101,7 +101,7 @@ They make a big deal about this, which is weird since ["true-HEPA" has no legal 
 
 What *is* the filter that the IKEA purifier uses? Well, perhaps we should, I don't know, read the IKEA website?
 
-![ikea page](/img/ikea-purifier/ikea-page2.jpg){: loading="lazy"}
+![ikea page](/img/ikea-purifier/ikea-page2.jpg){: loading="lazy" width="1395px" height="876px"}
 
 (This, *this* is the kind of groundbreaking research I dreamed of when starting this blog.)
 
