@@ -101,7 +101,7 @@ They make a big deal about this, which is weird since ["true-HEPA" has no legal 
 
 What *is* the filter that the IKEA purifier uses? Well, perhaps we should, I don't know, read the IKEA website?
 
-![ikea page](/img/ikea-purifier/ikea-page.jpg)
+![ikea page](/img/ikea-purifier/ikea-page2.jpg){: loading="lazy"}
 
 (This, *this* is the kind of groundbreaking research I dreamed of when starting this blog.)
 
@@ -150,40 +150,18 @@ Also wrong.
 
 The physics of air purifiers seem simple. If you create some material with small holes and push air through it, the bigger particles won't be able to fit through the holes. So you'd expect something like this:
 
-![physics.002](/img/ikea-purifier/physics2-comp.svg)
+![physics.002](/img/ikea-purifier/physics2-comp.svg){: loading="lazy"}
 
 This is strainers and sieves work in your kitchen. It's how the Wirecutter seems to think air filters work. But it's not how air filters work.
 
 Would you believe me if I told you they work like *this*?
 
-![physics.003](/img/ikea-purifier/physics4-comp.svg)
+![physics.003](/img/ikea-purifier/physics4-comp.svg){: loading="lazy"}
 
 I thought you might not, so here are some figures, from [Heimbuch et al. (2007)](https://apps.dtic.mil/sti/pdfs/ADA464232.pdf), [Fisk et al. (2001)](https://doi.org/10.1034/j.1600-0668.2002.01136.x), [Christopherson et al. (2020)](https://doi.org/10.1177/0194599820941838), and [Wikipedia](https://en.wikipedia.org/wiki/HEPA#/media/File:Filteration_Collection_Mechanisms-en.svg):
 
-| ![heimbuch](/img/ikea-purifier/heimbuch.svg) | ![fisk](/img/ikea-purifier/fisk.svg) |
-| ![Christopherson](/img/ikea-purifier/vijayakumar.jpg) | ![wikipedia](/img/ikea-purifier/Filteration_Collection_Mechanisms-en.svg) |
-
-{% comment %}
-I bet you wouldn't. So to prove I'm not crazy, here's a figure from [Heimbuch et al. (2007)](https://apps.dtic.mil/sti/pdfs/ADA464232.pdf):
-
-| ![heimbuch](/img/ikea-purifier/heimbuch.svg) | ![fisk](/img/ikea-purifier/fisk.svg) |
-| ![heimbuch](/img/ikea-purifier/vijayakumar.jpg) | ![fisk](/img/ikea-purifier/Filteration_Collection_Mechanisms-en.svg) |
-
-![heimbuch](/img/ikea-purifier/heimbuch.svg)
-
-And here's one from [Fisk et al. (2001)](https://doi.org/10.1034/j.1600-0668.2002.01136.x):
-
-![fisk](/img/ikea-purifier/fisk.svg)
-
-And here's one from [Christopherson et al. (2020)](https://doi.org/10.1177/0194599820941838):
-
-![vijayakumar](/img/ikea-purifier/vijayakumar.jpg)
-
-And here's one from [Wikipedia](https://en.wikipedia.org/wiki/HEPA#/media/File:Filteration_Collection_Mechanisms-en.svg):
-
-![Filteration_Collection_Mechanisms-en](/img/ikea-purifier/Filteration_Collection_Mechanisms-en.svg)
-
-{% endcomment %}
+| ![heimbuch](/img/ikea-purifier/heimbuch.svg){: loading="lazy"} | ![fisk](/img/ikea-purifier/fisk.svg){: loading="lazy"} |
+| ![Christopherson](/img/ikea-purifier/vijayakumar.jpg){: loading="lazy"} | ![wikipedia](/img/ikea-purifier/Filteration_Collection_Mechanisms-en.svg){: loading="lazy"} |
 
 Air filters *do not work like sieves*. They are complicated materials that create a maze of tangled paths for air to run through. There are two different mechanisms:
 
@@ -228,7 +206,7 @@ These higher grades mostly make a difference if you'll be putting air through it
 
 Here's a simple simulated experiment. We take two filters, one that blocks 99.5% of particles, and one that blocks 99.95%. Then, we put them in a 700 cubic foot (19.8 cubic meter) room with different airspeeds. Here will be the fraction of particles remaining after 30 minutes:
 
-![filters](/img/ikea-purifier/filters.svg)
+![filters](/img/ikea-purifier/filters.svg){: loading="lazy"}
 
 If that looks like two curves on top of each other, well... yeah. 99.5% and 99.95% are both very close to 100%. For either of them, the limiting factor is going to be how fast you push air through them, not the tiny fraction of particles they let through.
 
