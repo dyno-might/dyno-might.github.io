@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contra Wirecutter on the IKEA air purifier"
-image: /img/ikea-purifier/wires.jpg
+image: /img/ikea-purifier/wires-prog.jpg
 tags: science
 description: "The Wirecutter's review of the IKEA air purifier is a mishmash of scientific errors, shoddy testing, and self-contradictory logic."
 permalink: /ikea-purifier/
@@ -71,7 +71,7 @@ table{
 
 IKEA has recently made some moves into the air purifier space. The Wirecutter is not impressed.
 
-![wirecutter review](/img/ikea-purifier/wirecutter.jpg)
+![wirecutter review](/img/ikea-purifier/wirecutter-prog.jpg)
 
 They allow that this purifier is inexpensive and pretty. But still, it's terrible and you should instead buy a different purifier that totally coincidentally happens to pay affiliate marketing commissions. 
 
