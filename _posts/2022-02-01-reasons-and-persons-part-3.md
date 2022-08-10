@@ -62,18 +62,6 @@ table{
 "
 ---
 
-{% comment %}
-You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it. This makes you nervous, but you figure you're a *pattern* of atoms, not the atoms themselves. You friends use the machine and love it, so you decide to try it.
-
-After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
-
-"No, no", he responds, "Didn't we tell you? The new scanner records your blueprint without destroying your body. Not to worry, we've already transmitted the information to Mars. This body will be destroyed in a few minutes."
-
-You see that the final effect is the same. But still, are you upset about this?
-
-You've probably heard some version of this thought experiment before. It originally comes from Derek Parfit's 1984 book *Reasons and Persons*. He tries to answer if this machine is killing you or transporting you, and then  uses that answer to reflect on how to think about your future self, abortion, the morality of prisons, and your own mortality.
-{% endcomment %}
-
 You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it. You worry: Does this *transport* you, or does it *kill* you and make a new copy?
 
 Still, your friends use the machine and they seem fine. And you figure you're a *pattern* of atoms, not the atoms themselves, so you decide to take the machine. After you press the button to start it, you're surprised to find that you're still on Earth. You ask the technician, "Did the machine fail?"
