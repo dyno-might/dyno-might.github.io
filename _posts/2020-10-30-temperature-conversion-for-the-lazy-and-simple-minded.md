@@ -5,7 +5,8 @@ image: /img/convert/thermometer.jpg
 description: If you can switch the order of two numbers, you can convert temperatures.
 tags: science math
 permalink: /:year/:month/:day/:title/
-last_updated: 2022-02-18
+seo:
+  date_modified: 2022-02-18
 category: "math"
 head: "<style>
 img{

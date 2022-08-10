@@ -9,7 +9,8 @@ background_color: black
 description: "People with the same big five personality types tend to be more happy, successful, intelligent, creative, and popular. Why aren't there more tradeoffs?"
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
-last_updated: 2021-09-03
+seo:
+  date_modified: 2021-09-03
 category: "psychology"
 head: "<style>
 img{

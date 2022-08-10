@@ -6,7 +6,8 @@ description: You can make a DIY air purifier in 30s. To test if it works, I gene
 background_color: black
 tags: cleanAir science
 permalink: /:year/:month/:day/:title/
-last_updated: 2021-09-03
+seo:
+  date_modified: 2021-09-03
 category: "air quality"
 ---
 

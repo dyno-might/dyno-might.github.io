@@ -9,7 +9,8 @@ background_color: black
 description: "Some claim that more feminist countries have fewer women in STEM. Others say this is nonsense. Who is right?"
 permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
-last_updated: 2021-12-06
+seo:
+  date_modified: 2021-12-06
 category: "psychology"
 head: "<style>
 details{

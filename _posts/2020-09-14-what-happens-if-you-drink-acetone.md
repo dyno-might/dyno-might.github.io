@@ -3,7 +3,8 @@ layout: post
 title: "What happens if you drink acetone?"
 image: /img/acetone/whiskey2.jpg
 description: How dangerous is it to drink acetone or nail-polish remover? Here's the key scientific facts, compared to ethanol.
-last_updated: 2021-07-19
+seo:
+  date_modified: 2021-07-19
 tags: science
 background_color: black
 permalink: /:year/:month/:day/:title/

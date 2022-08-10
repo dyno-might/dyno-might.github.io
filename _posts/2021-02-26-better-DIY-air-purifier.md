@@ -7,7 +7,8 @@ hero_light: false
 dark_title: false
 background_color: black
 description: Designs for a quieter, more energy efficient purifier, and data proving it really works.
-last_updated: 2021-03-02
+seo:
+  date_modified: 2021-03-02
 permalink: /better-DIY-air-purifier.html
 category: "air quality"
 head: "<style>

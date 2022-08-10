@@ -5,7 +5,8 @@ image: /img/police/court_light_cropped.jpg
 description: Why it's basically impossible to determine fairness from observational data.
 tags: statistics policy
 permalink: /:year/:month/:day/:title/
-last_updated: 2021-03-14
+seo:
+  date_modified: 2021-03-14
 category: "politics/policy"
 head: "<style>
 .center {

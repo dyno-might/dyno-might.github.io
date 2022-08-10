@@ -5,7 +5,8 @@ image: /img/covid/covid_tem.jpg
 tags: science
 description: How the immune system's memory cells are like the Russian strategy for resisting Napoleon's invasion.
 hero_light: true
-last_updated: 2021-09-03
+seo:
+  date_modified: 2021-09-03
 permalink: /:year/:month/:day/:title/
 category: "obsessive investigation"
 ---

@@ -6,7 +6,8 @@ image: /img/ethics/plane2.jpg
 tags: philosophy
 description: Some situations where formal ethics are really needed for practical problems in real life.
 permalink: /:year/:month/:day/:title/
-last_updated: 2021-03-11
+seo:
+  date_modified: 2021-03-11
 category: "philosophy"
 ---
 
