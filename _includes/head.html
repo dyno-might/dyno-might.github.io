@@ -1,11 +1,13 @@
 <head>
 
+
   {% comment %}
   <link rel="preload" as="image" href="/img/twitter.svg" />
   <link rel="preload" as="image" href="/img/reddit.svg" />
   {% endcomment %}
   <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/ttf" crossorigin />
-  
+  {% if page.image %}<link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">{% endif %}
+
   {% if page.image %}
     {% unless true %} {% comment %} page.hide_hero {% endcomment %}
   <link rel="preload" as="image" href="{{page.image}}" />
