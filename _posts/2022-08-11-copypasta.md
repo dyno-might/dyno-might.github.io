@@ -77,7 +77,7 @@ Here's a thing that happens sometimes:
 5. The press release goes to a fancy media outlet where an underpaid and harried writer has no time or training to agonize over technicalities. They reassemble the press release into a simulacrum of journalism.
 6. The piece goes to a copy editor who chooses a headline of PEER REVIEWED RESEARCH SHOWS THAT *A* CAUSES *B*.
 7. The piece is published. Thousands of people read it. Eventually, the fact that *A* causes *B* appears on Wikipedia, using the piece as a citation.
-8. The researcher's colleagues roll their eyes, but don't want to make enemies in their tiny gossipy community. Independent writers complain in public, but they have small audiences, and can't be used as a [reliable source](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources#News_organizations) on Wikipedia.
+8. The researcher's colleagues roll their eyes, but don't want to make enemies in their tiny gossipy community. Independent writers complain, but they have small audiences, and aren't considered a [reliable source](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources#News_organizations) on Wikipedia.
 
 {% comment %}
 Here's a thing that happens sometimes:
@@ -92,7 +92,7 @@ Here's a thing that happens sometimes:
 8. The researcher's colleagues roll their eyes, but don't want to make enemies in their tiny gossipy community. Independent writers complain in public, but they have small audiences, the researchers just ignore them, and they can't be used as a [reliable source](https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources#News_organizations) on Wikipedia.
 {% endcomment %}
 
-Not great. Erik Hoel recently [bemoaned](https://erikhoel.substack.com/p/how-prestige-outlets-like-the-guardian) that high prestige outlets like The Guardian somehow get away with this kind of "copypasta", as well as dark patterns like deliberately making it hard to find the original scientific paper. He also suggested that if independent authors tried any of this nonsense, they'd be crucified, so maybe everyone should follow more independent authors.
+Erik Hoel recently [bemoaned](https://erikhoel.substack.com/p/how-prestige-outlets-like-the-guardian) that high prestige outlets like The Guardian somehow get away with this kind of "copypasta", as well as dark patterns like deliberately making it hard to find the original scientific paper. He also suggested that if independent authors tried any of this nonsense, they'd be crucified, so maybe everyone should follow more independent authors.
 
 I mostly agree, but I'm pessimistic. We should think more about *why* this happens. Because, unfortunately, I'd bet against any huge changes coming soon.
 
