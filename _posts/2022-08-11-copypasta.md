@@ -175,13 +175,13 @@ Having a bigger reputation gives an option more "breadth", which means lots of p
 
 ## 5.
 
-You've probably heard of "Gell-Mann amnesia". This is the idea that when you read a newspaper article for stuff you're an experts on, you see that the article is riddled with errors. But then you go read the next article and assume it's fine.
+You've probably heard of "Gell-Mann amnesia". This is the idea that when you read a newspaper article for something you're an experts on, it's inevitably riddled with errors. But then you go read the next article and assume it's fine.
 
-This is usually presented as a kind of cognitive bias. We're presented with evidence that newspapers aren't very good, but for some reason, we refuse to update our judgements on the basis of that evidence.
+This is usually presented as a kind of cognitive bias. We're given with evidence that newspapers aren't very good, but for some reason, we refuse to update on that evidence.
 
 I agree we trust the prestige media too much. But in another sense, Gell-Mann amnesia isn't wrong. For a random topic that you know nothing about, The Guardian may not be great, but they're unlikely to be straight-up lie to you. Some independent writers are probably better, but there are lots and *lots* that are worse, and it's hard to tell them apart.
 
-One thing people bring up is that independent writers usually have comments and that if they make a mistake, commenters will tear them apart. But often [commenters will do that anyway](/internet-writing/), even when there is no mistake. And how do you know that negative comments aren't being removed? Unless you're familiar with the community, a comments section doesn't have much signal.
+One thing people bring up is that independent writers usually have comments and that if they make a mistake, commenters will tear them apart. But often [commenters will do that anyway](/internet-writing/). And how do you know that negative comments aren't being removed? Unless you're familiar with the community, a comments section doesn't have much signal.
 
 When can you trust independent writers? For me there are three cases:
 
