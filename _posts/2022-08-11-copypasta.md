@@ -119,7 +119,7 @@ Meanwhile, Internet People like [Smart Air](https://smartairfilters.com/en/blog/
 
 This averages many measurements and so is much more reliable.
 
-Now, there's no special brilliance needed to come up with this kind of test. Frankly, it's pretty obvious, and I'm sure the Wirecutter is aware they could do it. They just don't.
+Now, there's no special brilliance needed to come up with this kind of test. Frankly, it's pretty obvious and I'm sure the Wirecutter is aware they could do it. They just don't.
 
 ## 2.
 
@@ -222,8 +222,8 @@ Frankly, *following* independent writers should not be a thing. (But, uh, please
 
 What we need is a way to deliver independent writing that
 
-* requires minimal effort from readers, and
 * suggests stuff people like, and
+* requires minimal effort from readers, and
 * gives reliable signals of trustworthiness.
 
 I don't know how to do that or if it's even possible. But until that happens, I suspect that trying to make independent writing to overtake the McMedia is tilting at windmills.
