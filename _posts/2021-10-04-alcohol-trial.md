@@ -423,7 +423,7 @@ There's also this:
 
 **May 10, 2018.** The NIH [suspends enrollment](https://www.scientificamerican.com/article/after-controversy-over-industry-funding-nih-halts-enrollment-in-moderate-drinking-study/) in the trial.
 
-**June 8, 2018.** Anheuser-Bush [pulls its funding](https://www.nytimes.com/2018/06/08/well/anheuser-busch-to-pull-funding-from-major-alcohol-study.html).
+**June 8, 2018.** Anheuser-Busch [pulls its funding](https://www.nytimes.com/2018/06/08/well/anheuser-busch-to-pull-funding-from-major-alcohol-study.html).
 
 **June 15, 2018.** Based on a [recommendation](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) from an NIH working group, Collins [terminates](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) the study.
 
@@ -561,7 +561,7 @@ First, we can only compensate for biases if we know about them. I'm open to indu
 
 But my (possibly delusional) open-mindedness is based on the idea that it's possible to compensate for the biases these issues create. That's not possible if we don't know about them. If you think research still has value despite these issues, fine, but you need to make that argument openly, not pretend the issues don't exist.
 
-Second, the firewall was fake. Say you're OK with a "late firewall" where there's tons of contact with industry early on, but no influence after the trial starts. This didn't happen. How do I know? Well, did you notice the part where Anheuser-Bush pulled its funding? Having the power to shut down the entire trial whenever you want qualifies as *influence*.
+Second, the firewall was fake. Say you're OK with a "late firewall" where there's tons of contact with industry early on, but no influence after the trial starts. This didn't happen. How do I know? Well, did you notice the part where Anheuser-Busch pulled its funding? Having the power to shut down the entire trial whenever you want qualifies as *influence*.
 
 Third, slippery slopes aren't much of an excuse. Yes, we all face them, but that's why it's important to have principles---lines you won't cross. If you haven't run into one of those lines before you start lying to the New York Times, something is wrong.
 
