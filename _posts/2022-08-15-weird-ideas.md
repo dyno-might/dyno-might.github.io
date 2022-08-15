@@ -179,3 +179,6 @@ This worries me and I'm not sure what to do about it. It's tempting to say that 
 
 You don't have to update all the way. Probably you should almost never do that! In most cases, the right conclusion would be, "important if true" and maybe "I don't see an obvious flaw." This is enough to make the social process work and avoids the personal risks of acting on crazy ideas.
 
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/) or [substack](https://dynomight.substack.com/p/weird-ideas).)
+</div>
