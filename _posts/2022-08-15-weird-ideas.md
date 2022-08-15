@@ -123,7 +123,7 @@ These are all valid! But it's very important to be clear about which one you're 
 
 ## 5. Beware shifting goal posts
 
-Here's a common pattern:
+Here's another pattern:
 
 **A**: Here's a weird idea.
 
@@ -141,17 +141,17 @@ For example, with aspartame, people often claim it's carcinogenic. When that's s
 
 Now, it's fine to oppose an idea because of reasons X, Y, and Z. And it's good (admirable!) to abandon reasons when they are shown to be false. But still, this pattern is a warning sign.
 
-Most obviously, in disagreements it's always best to start with your [central point](http://www.paulgraham.com/disagree.html). If I say I disagree with you because of X, then showing that X is false should change my mind---otherwise, I haven't been fully candid about my reasons.
+Most obviously, in disagreements it's always best to start with your [central point](http://www.paulgraham.com/disagree.html). If I say I disagree with you because of X, then showing that X is false should change my mind---otherwise, I wasn't fully candid about my reasons.
 
 But this pattern has particular relevance for weird ideas. What's happening in each person's brain during the conversation?
 
-A, of course, feels frustrated because it seems like there *is* no evidence that would convince B, so feels like B is arguing in bad faith.
+A, of course, feels frustrated because it seems like there *is* no evidence that would convince B, so it feels like B is arguing in bad faith.
 
 But B's perspective is different. They *decided* that the idea is too weird to be considered (which is reasonable!). Then, they applied basic logic: If you *know* that aspartame is harmful, and you're shown that it isn't carcinogenic, then it is *correct* to infer that there must be some other mechanism of harm.
 
 I think it's human nature to play the role of B in this conversation. When we dismiss weird ideas, it often "feels" like we have reasons.
 
-What's the solution? I think B needs to be more self-reflective and more straightforward. It's OK to just decide you aren't going to consider an idea and you aren't going to be convinced by any evidence to the contrary. We all frequently do this. But when doing it, it's better to *explicitly*. A fear of looking closed-minded can cause you to throw up a series of Potemkin arguments that only present an illusion of engaging on the merits.
+What's the solution? I think B needs to be more self-reflective and more straightforward. It's OK to just decide you aren't going to consider an idea and you aren't going to be convinced by any evidence to the contrary. We all frequently do this. But when doing it, it's better to do it *explicitly*. A fear of looking closed-minded can cause you to throw up a series of Potemkin arguments that only present an illusion of engaging on the merits.
 
 ## 6. Consider a fraction of weird ideas
 
@@ -161,9 +161,9 @@ You probably do this already. For topics that are particularly important to you,
 
 Another criterion would be expertise. Likely we should leave the rebuttals of perpetual motion machines to physicists.
 
-But I don't think we want to be *too* single-minded in leaving truth to the experts. The issue is that expertise is often concentrated in tiny little bubbles of society. When we have high-trust channels from the experts to the public, that's fine---our current system for communicating when an earthquake has happened works very well.
+But I don't think we want to be *too* single-minded in leaving truth to the experts. The issue is that expertise is often concentrated in tiny little bubbles of society. When we have high-trust channels from the experts to the public, that's fine. For example, our current system for communicating when an earthquake has happened works very well.
 
-But other times the experts are siloed and most of the population is several low-trust links away from them.  (Or maybe the experts aren't that reliable, or they just aren't any experts on this particular topic.) In these cases, we need more participants to give the true weird ideas a chance of escaping.
+But other times the experts are siloed and most of the population is several low-trust links away from them. Or maybe the experts aren't that reliable, or they just aren't any experts on this particular topic. In these cases, we need more participants to give the true weird ideas a chance of spreading.
 
 ## 7. Or on second thought maybe don't
 
@@ -171,11 +171,11 @@ Public health authorities are now seen as less reliable than they were a few yea
 
 But what has the effect of that been?
 
-It's not clear it was positive. Some people have certainly found alternative sources of information and learned the limits of what public figures can say. But lots of other people also seem to be enraptured with nonsense conspiracy theories.
+It's not clear it was positive. Some people have certainly found alternative sources of information and learned the limits of what public figures can say. But lots of other people also seem to be caught up in nonsense conspiracy theories.
 
 This worries me and I'm not sure what to do about it. It's tempting to say that you should only look into things if you can do so successfully. But perhaps your ability to evaluate the details is correlated with your ability to judge your own ability?
 
 ## 8. Accept weird ideas hesitantly
 
-You don't have to update all the way. Probably you should almost never do that! In most cases, the right conclusion would be, "important if true" and maybe "I don't see an obvious flaw". This is enough to make the social process work and avoids the personal risks of acting on crazy ideas.
+You don't have to update all the way. Probably you should almost never do that! In most cases, the right conclusion would be, "important if true" and maybe "I don't see an obvious flaw." This is enough to make the social process work and avoids the personal risks of acting on crazy ideas.
 
