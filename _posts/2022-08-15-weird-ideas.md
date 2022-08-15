@@ -3,9 +3,9 @@ layout: post
 title: "Rules for weird ideas"
 image: /img/weird-ideas/2001b.jpg
 tags: 
-description: "On asking people to consider ideas that sound crazy"
+description: "On asking people to consider stuff that sounds crazy"
 permalink: /weird-ideas/
-background_color: rgb(193,140,72)
+background_color: rgb(189,196,220)
 category: "writing"
 head: "<style>
 img{
@@ -152,7 +152,7 @@ But B's perspective is different. They *decided* that the idea is too weird to b
 
 I think it's human nature to play the role of B in this conversation. When we dismiss weird ideas, it often "feels" like we have reasons.
 
-What's the solution? I think B needs to be more self-reflective and more straightforward. It's OK to just decide you aren't going to consider an idea and you aren't going to be convinced by any evidence to the contrary. We all frequently do this. But when doing it, it's better to *explicitly*. A fear of looking closed-minded can cause you to throw up a series of Potemkin arguments that present an illusion of dismissing the idea on the merits.
+What's the solution? I think B needs to be more self-reflective and more straightforward. It's OK to just decide you aren't going to consider an idea and you aren't going to be convinced by any evidence to the contrary. We all frequently do this. But when doing it, it's better to *explicitly*. A fear of looking closed-minded can cause you to throw up a series of Potemkin arguments that only present an illusion of engaging on the merits.
 
 ## 6. Consider a fraction of weird ideas
 
