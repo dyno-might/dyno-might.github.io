@@ -6,7 +6,7 @@ tags:
 description: "On asking people to consider stuff that sounds crazy"
 permalink: /weird-ideas/
 background_color: rgb(189,196,220)
-category: "writing"
+category: "communication"
 head: "<style>
 img{
     display:block;
