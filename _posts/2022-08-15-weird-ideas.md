@@ -68,13 +68,13 @@ table{
 "
 ---
 
-It's frustrating to propose an idea and have people dismiss it just because it sounds weird. You've surely seen people ridicule ideas like that maybe we should worry about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming aspartame is likely harmless but ultrasonic humidifiers might not be.
+It's frustrating to propose an idea and have people dismiss it just because it's weird. You've surely seen people ridicule ideas like worrying about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming aspartame is likely harmless but ultrasonic humidifiers might not be.
 
 The thing is, dismissing weird ideas is *not wrong*.
 
-I have a relative who got the J&J vaccine for Covid so as some people were getting their *third* shot, she still only had one. I claimed that it would be fine to go ahead and get a second shot of an mRNA vaccine since this was sure to be approved soon (and was already approved in some countries). She gently responded, "I will get another shot when my doctor tells me to."
+I have a relative who got the J&J vaccine for Covid, so as some people were getting their third shot, she still only had one. I claimed that it would be fine to go ahead and get a second shot of an mRNA vaccine since this was sure to be approved soon, and was already approved in some countries. She gently responded, "I will get another shot when my doctor tells me to."
 
-Was she wrong? In a narrow sense, yes. Mixing-and-matching of vaccines was approved soon after, and I maintain that this was knowable in advance. But more broadly, she was following a good *strategy*: For most people, "just do what your doctor says" will give better results than, "take unsolicited medical advice from uppity relatives."
+Was she wrong? In a narrow sense, maybe. Mixing-and-matching of vaccines was approved soon after, and I maintain that this was knowable in advance. But more broadly, she was following a good *strategy*: For most people, "just do what your doctor says" will give better results than, "take unsolicited medical advice from uppity relatives."
 
 From a Bayesian standpoint, it would arguably have been a mistake if she *did* listen to me. Skepticism of weird ideas is a kind of "immune system" to prevent us from believing in nonsense.
 
@@ -86,41 +86,40 @@ I'm glad people persevered so we aren't covering our pizzas with mayonnaise. But
 
 ## 1. We need to work at the population level
 
-If you think about it, almost everything you know comes from other people. Even when you "check the facts" what that usually means is "see what other people say". If you trace back your knowledge to observations in the world, it's a huge graph of you trusting people who trust other people.
+If you think about it, almost everything you know comes from other people. Even when you "check the facts" what that usually means is "see what other people say". If you trace your knowledge back to observations in the world, it's a huge graph of you trusting people who trust other people who trust other people.
 
-Understanding the world is a social process. This is important because I don't think the tension of weird ideas *can* be resolved at an individual level. You've got finite time to investigate crackpot theories. But fortunately, you don't *need* to resolve all questions yourself. You just need to follow norms that lead to us collectively identifying good ideas and discarding bad ones.
+Understanding the world is a social process. This is important because I don't think the tension of weird ideas *can* be resolved at an individual level. You've got finite time to investigate crackpot theories. But fortunately, you don't *need* to resolve all questions yourself. We just need to follow habits that lead to us collectively identifying good ideas and discarding bad ones.
 
 ## 2. Don't expect most people to take your weird idea seriously
 
-For one, this is just being realistic about the fact that most people aren't very friendly to weird ideas. But more seriously, it would be unreasonable to expect people to follow a strategy that is bad for them.
+For one, this is just being realistic about how the world is. But more seriously, it would be unreasonable to expect people to follow a strategy that is bad for them.
 
 We are all assaulted by bad ideas all the time. If every person who heard the claim that vaccines cause autism looked at the evidence with an open mind, well, we'd have a lot more people who think that vaccines cause autism.
 
-Investigating every random claim would also take up way too much time. The complexity of the world *greatly* exceeds the capacity of individual people. So the only way to live is by trusting the social process where we get trusted information from others. We need to deal with that.
+There's no time to investigate every random claim anyway. The complexity of the world greatly exceeds the capacity of individual people. We have to live within the social process where we get trusted information from other people.
 
 ## 3. Don't feel bad about dismissing weird ideas
 
-Remember, it's the correct prior, and it's correct game theory given that we have tiny little error-prone brains and short lifespans to look into things.
+Remember, it's the correct prior to be biased against weird ideas, and it's correct game theory to be hesitant to look into them, given that we have short lifespans and tiny little error-prone brains.
 
 Yet somehow, I think a lot of people feel like they aren't supposed to do this? The problem isn't that people *don't* dismiss weird ideas---most of us do that instinctually. The problem is that we aren't honest about *why* we are dismissing them, either to others or even to ourselves. Speaking of which...
 
 ## 4. Be honest about why you reject weird ideas
 
-There are lots of reasons you might do so. 
+There are lots of reasons you might do this.
 
 1. Pure prior: The idea sounds stupid and you haven't looked at the argument.
-
 2. You've looked at the argument, but you think it's wrong.
 3. You looked at the argument, but then realized you don't have the background to understand it, so you went back to your prior.
-4. You looked at the argument, you do understand it, and you think it's right. But you still reject the idea because your prior is so strong.
-5. You looked at the argument, you understand it, it seems flawless, and on an intellectual level, it overcomes your prior. But somehow you just aren't able to get emotionally invested in the conclusion. (Sometimes I feel this way about AI risk.)
+4. You looked at the argument, you do understand it, and it looks pretty good. But your prior is so strong you still reject the idea anyway.
+5. You looked at the argument, you understand it, it seems strong, and on an intellectual level, it overcomes your prior. But somehow you just aren't able to get emotionally invested in the conclusion. (Sometimes I feel this way about AI risk.)
 
-These are all valid! But it's very important to be clear about which one you're using. Because here's something that I see a lot:
+These are all valid! But it's very important to be clear about which one you're using. Because here's something that happens a lot:
 
 * There's a weird idea.
-* Lots of people reject it just because it's weird (#1) or because they don't understand the argument (#3)
+* Lots of people reject it just because it's weird (#1) or because they don't understand the argument (#3).
 * But they feel like they aren't "supposed" to reject it for those reasons, so they give a misleading impression that they reject the argument in detail.
-* This creates an appearance of a false consensus that the argument is actually wrong, screwing up the social process that's supposed to eventually lead to truth.
+* This creates an illusion of a false consensus that everyone thinks the argument is wrong, screwing up the social process that's supposed to eventually lead to truth.
 
 ## 5. Beware shifting goal posts
 
