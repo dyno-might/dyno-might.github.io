@@ -453,7 +453,7 @@ But whatever, I'll die on this hill: After aspartame is consumed, it immediately
 
 Is it possible that some harms have been missed? Of course! That's how science works: Evidence accumulates slowly. It never becomes a *sure thing*, we just eventually decide it's sure *enough* and move on with our lives.
 
-So why are we still talking about aspartame? Why worry about it rather than, say, *sugar* or *alcohol*? I know many people who avoid diet soda but drink sugar-sweetened soda or large amounts of alcohol. That's choosing a known harm over something that's appears harmless.
+So why are we still talking about aspartame? Why worry about it rather than, say, *sugar* or *alcohol*? I know many people who avoid diet soda but drink sugar-sweetened soda or large amounts of alcohol. That's choosing a known harm over something that appears harmless.
 
 Or, why not worry about:
 
