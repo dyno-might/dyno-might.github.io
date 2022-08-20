@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is heritability, really? Just a ratio."
+title: "It’s perfectly valid for a trait to be more than 100% heritable"
 image: /img/heritability/birds.jpg
 tags: statistics personality
 hero_light: false
@@ -9,6 +9,8 @@ background_color: black
 description: "What heritability really is: A fluid statistic that changes whenever society changes."
 permalink: /heritability/
 background_color: rgb(60,64,50)
+seo:
+  date_modified: 2022-08-20
 category: "math"
 head: "<style>
 details{
@@ -21,32 +23,35 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+table{
+    font-family:Montserrat;
+}
 table tr{
     border-style: hidden;
-    text-align:center;
+    text-align:left;
+    width: 20%;
 }
+table td{
+    width: 20%;
+  }
 @media (min-width:501px){
 table{
-  max-width:100;
   max-width:100%;
-  font-size: 90%;
+  font-size:90%;
 }
 }
 @media (max-width:500px) and (min-width:301px) {
 table{
-  max-width:100;
   max-width:100%;
-  font-size: 3.2vw;
+  font-size: 2.8vw;
 }
 }
 @media (max-width:300px) {
 table{
-  max-width:100;
   max-width:100%;
   font-size: 0.5em;
 }
 .fixed{
-    max-width:100;
     max-width:100%;
     overflow:scroll;
 }
@@ -56,9 +61,9 @@ table{
 
 All psychological traits are heritable. This is the [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:
 
-* Religiosity: [44%](https://doi.org/10.1111%2Fj.1467-6494.2005.00316.x)
-* Schizophrenia: [79%](https://doi.org/10.1016/j.biopsych.2017.08.017)
-* [Big five](/better-personalities/) personality traits: [~40%](https://doi.org/10.1111/j.1467-6494.2005.00316.x)
+| Religiosity     | [44%](https://doi.org/10.1111%2Fj.1467-6494.2005.00316.x)             |
+| Schizophrenia      | [79%](https://doi.org/10.1016/j.biopsych.2017.08.017)            |
+| [Big five](/better-personalities/) personality traits | [~40%](https://doi.org/10.1111/j.1467-6494.2005.00316.x) |
 
 But what, exactly, does "heritability" mean?
 
@@ -73,13 +78,12 @@ I used to have a mental model something like this: Each person has some number o
 <br>
 </div>
 
-The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant). It isn't.
+The problem with this picture—aside from being completely wrong—is that it suggests heritability is an immutable constant, like the number of chromosomes in a cell or the [fine structure constant](https://en.wikipedia.org/wiki/Fine-structure_constant). This is totally incorrect.
 
-So what *is* heritability? It's the ratio of the *genetic variance* of a trait with the *total variance*, including all causes. Since the environment is always changing, so is heritability.
-
-Let's explore this definition. We'll see that it leads to several puzzles:
-* Why is heritability often higher for traits that seem less important? Why, for example, is pig back-fat thickness 14× more heritable than pig litter size?
-* How, even when there are large environmental effects, can a trait still be 100% heritable?
+So what is heritability? It's the ratio of the *genetic variance* of a trait with the *total variance*, including all causes. This post will explore this definition. We'll see that it leads to several puzzles:
+* How do changes in the environment lead to changes in heritability?
+* Why is heritability often higher for traits that seem less important? For example, why is pig back-fat thickness 14× more heritable than pig litter size?
+* How can a trait still be 100% heritable, even when there are large environmental effects?
 * How, when there are correlations between genes and the environment, can traits can be *more than* 100% heritable?
 
 The only math we'll use is the concept of [variance](https://en.wikipedia.org/wiki/Variance). If you're not familiar with that, just think of it as "how variable" something is. Humans have high variance in how much we like folk music, but low variance in our number of fingers.
@@ -179,9 +183,9 @@ One could decrease the heritability by doing the opposite: Take half of kids and
 
 ## The purge
 
-Now let's delete a bunch of people. After the purge, instead of half being short and half tall, some fraction **a** are short, and a fraction **(1-a)** are tall. If short people are more likely than tall people to survive the purge, then **a > ½**. If they are less likely, then **a < ½**.
+Now let's delete a bunch of people. After the purge, instead of half being short and half tall, some fraction **a** are short and a fraction **(1-a)** are tall. If short people are more likely than tall people to survive the purge, then **a > ½**. If short people are less likely to survive, then **a < ½**.
 
-Leave the food difference fixed at **b=1**. The environment doesn't change, so the variance of E remains one.
+Leave the food difference fixed at **b=1**. The environment doesn't change during the purge, so the variance of E remains one.
 
 The genetic variance does change. If almost everyone has short genes (**a** is near zero), then almost everyone will have G=2, meaning the variance of G will be small. If **a** is ½, we get the previous model. A bit of math gives the following plot.
 
@@ -197,7 +201,7 @@ Heritability decreases hugely if the population gets really imbalanced in either
 
 #### Example: Hair in Japan
 
-How heritable is hair color in Japan, before anyone goes grey? Say 99% of people have genes for black hair, so **var(G)** is very low. Yet, lots of people have (artificially) non-black hair, so **var(P)** will be reasonably high. Assume that the choice to dye your hair isn't genetically determined. Then, hair color in Japan has low heritability. (Lower, for example, than the US, which has more genetic diversity in hair color.) At the same time, we know that genes pretty much 100% determine what color hair grows on your head. Heritability is not a measure of how deterministic genes are in their effects.
+How heritable is hair color in Japan, before anyone goes gray? Say 99% of people have genes for black hair, so **var(G)** is very low. Yet, lots of people have (artificially) non-black hair, so **var(P)** will be reasonably high. Assume that the choice to dye your hair isn't genetically determined. Then, hair color in Japan has low heritability. (Lower, for example, than the US, which has more genetic diversity in hair color.) At the same time, we know that genes pretty much 100% determine what color hair grows on your head. Heritability is not a measure of how deterministic genes are in their effects.
 
 #### Example: Heritability in different species
 
@@ -223,18 +227,18 @@ Here are some numbers, courtesy of Falconer's *Introduction to Quantitative Gene
 |                    | Ovary size                    | 30               |
 |                    | Egg production                | 20               |
 
-Notice anything? The closer something is to reproduction, the lower heritability is. This seems odd at first. Isn't the number of eggs a fly produces incredibly important? Yes, but that's precisely the point! *Because* it is so important, evolution can select strongly for the genes with the optimal egg production numbers, leaving little genetic variance, and driving heritability down.
+Notice anything? The closer something is to reproduction, the lower heritability is. This seems odd---isn't the number of eggs a fly produces incredibly important? Yes, but that's precisely the point! *Because* it is so important, evolution strongly selects for the genes with the optimal egg production numbers. This leaves little genetic variance, which drives heritability down.
 
-So low heritability doesn't necessarily mean that genes don't *matter* -- it simply means that in the current population, most people have genes that do similar stuff, as compared with environmental causes.
+So low heritability doesn't mean that genes don't *matter* --- it just means that in the current population, most people have genes that do similar stuff, so observed differences are mostly due to environmental causes.
 
-(Technically, the numbers in the above table are estimates of *narrow*-sense heritability rather than *broad*-sense heritability as we are discussing. It doesn't matter since we're only looking at the general trend.)
+(Technically, the numbers in the above table are estimates of *narrow*-sense heritability rather than *broad*-sense heritability as we are discussing. But this doesn't matter since we're only looking at the general trend.)
 
 
 ## Selective feeding
 
-So far, genes and the environment have been independent. No one looked at your genes when deciding if you get a diet or feast environment. Let's change that. (We assume genes and the environment have the same effects as in the simplest model, i.e. **b = 1** and **a = ½**.)
+So far, genes and the environment have been independent. No one looked at your genes when deciding if you get a diet or feast environment. But they could! What would happen then?
 
-While half of people are short/tall, and half get a diet/feast environment, change the odds that feasts go to the people with short vs. tall genes. Specifically, take this distribution:
+Let's assume genes and the environment have the same effects as in the simplest model, i.e. **b = 1** and **a = ½**. Now, while half of people are short/tall, and half get a diet/feast environment, let's change the odds that feasts go to the people with short vs. tall genes. Specifically, take this distribution:
 
 | population distribution | diet  | feast |
 | ----------------------- | ----- | ----- |
