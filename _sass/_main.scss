@@ -27,6 +27,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $title-family;
   font-weight: lighter;
 }
+.orangebutton:not(:hover){
+  /* border: 2px orange solid; */
+  background-color: #cc5a25bf;
+}
+.orangebutton:hover{
+  /* color:white; */
+  /* border: 2px rgb(47,124,246) solid; */
+  background-color: #cc5a25e8;
+}
+
+
 
 // Colours
 $primary: #4fa6a3 !default;
