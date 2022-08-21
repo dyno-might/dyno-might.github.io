@@ -6,6 +6,8 @@ tags: science
 description: "Like it or not, there's a clear scientific consensus"
 permalink: /aspartame/
 background_color: rgb(102,102,102)
+seo:
+  date_modified: 2022-08-20
 category: "obsessive investigation"
 head: "<style>
 img{
@@ -131,6 +133,16 @@ The same report gives this discussion:
 
 We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it, then when your body tried to make certain proteins, those proteins would get truncated, and then they wouldn't do what they were supposed to do, and then you would die.
 
+Fortunately, that's almost impossible. From 2 and 5% of all protein in food is phenylalanine. The recommended dietary allowance for a 70 kg (154 lb) person is at least 2130 mg. Meat-eating men in the UK average 3500 mg per day, while vegetarians and vegans get slightly less. Here are the amounts of phenylalanine in a few foods:
+
+| potato | 170 mg |
+| large egg | 340 mg |
+| 8 oz (235 ml) glass of milk | 430 mg |
+| 400g box of tofu | 3300 mg|
+
+The 92 mg of phenylalanine you get from a Diet Coke is much less than what virtually everyone already gets from other sources.
+
+{% comment %}
 Fortunately, that's almost impossible. Here are four ways to contextualize the 92 mg of phenylalanine you get from a Diet Coke:
 
 1. Phenylalanine in food:
@@ -145,6 +157,7 @@ Fortunately, that's almost impossible. Here are four ways to contextualize the 9
 3. RDA guidelines say an adult person should get at least 33 mg/kg per day of phenylalanine (or tyrosine, a metabolite of phenylalanine). For a 70 kg (154 lb) person, that would be 2130 mg.
 
 4. Meat-eating men in the UK average 3500 mg per day. Vegetarians and vegans get slightly less.
+{% endcomment %}
 
 <details markdown="1">
 <summary>(details/citations)</summary>
@@ -153,7 +166,7 @@ Fortunately, that's almost impossible. Here are four ways to contextualize the 9
 
 ![macdonald](/img/aspartame/macdonald.svg)
 
-RDA guidelines are [here](https://globalrph.com/rda-and-ear-recommendations-for-essential-amino-acids/).
+RDA guidelines are [here](https://globalrph.com/rda-and-ear-recommendations-for-essential-amino-acids/). For adults, the recommendation is at least 33 m/kg of phenylalanine (or tyrosine, a metabolite of phenylalanine). For a 70 kg (154 lb) person, that would be 2130 mg. 
 
 [Schmidt et al. (2015)](https://doi.org/10.1038/ejcn.2015.144):
 
@@ -161,11 +174,11 @@ RDA guidelines are [here](https://globalrph.com/rda-and-ear-recommendations-for-
 
 </details>
 
-Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of the enzyme [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase). This makes it difficult to metabolize phenylalanine. So, people with phenylketonuria need to carefully monitor their consumption of phenylalanine (from all sources). This is why there's this scary **ALL-BOLD WARNING**.
+Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of the enzyme [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase), making it difficult to metabolize phenylalanine. So, people with phenylketonuria need to carefully monitor their consumption of phenylalanine (from any sources). This is why there's this **SCARY ALL-BOLD WARNING**.
 
 ![phenylketonurics](/img/aspartame/phenylketonurics.jpg)
 
-If you had phenylketonuria, you would know it.
+Aspartame is very dangerous for people with phenylketonuria, but if you had phenylketonuria you would know it.
 
 ### Fact 3: Aspartic acid is a standard amino acid you consume all the time.
 
@@ -173,9 +186,10 @@ Here's [a chart from Wikimedia](https://commons.wikimedia.org/wiki/File:Proteino
 
 ![amino-acids](/img/aspartame/amino-acids.png)
 
-Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs.
+Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since like almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
 
-Men in the UK average 6600 mg of aspartic acid per day. Recall that a Diet Coke gives around 74 mg.
+The 74 mg of aspartic acid you get from a Diet Coke is two orders of magnitude less than what most people get already.
+
 
 <details markdown="1">
 <summary>(details/citations)</summary>
@@ -248,13 +262,15 @@ To summarize the above:
 
 (Incidentally, this same logic does not apply to other artificial sweeteners which mostly aren't broken down at all.)
 
-While *informative*, this does not *prove* aspartame is safe. Biology is crazy. But it should inform our priors. Speaking for myself:
+While *informative*, this does not *prove* aspartame is safe. Biology is crazy. But it should inform our priors. Speaking for myself, my previous model was that consuming aspartame would result in a crazy unknown synthetic chemical circulating around my body and doing god-knows-what. My updated model is that consuming aspartame results in slightly larger amounts of some totally normal chemicals.
 
+{% comment %}
 **Previous model**: Consuming aspartame results in a crazy unknown synthetic chemical circulating around your body and doing god-knows-what.
 
 **Updated model**: Consuming aspartame results in slightly larger amounts of some totally normal chemicals.
+{% endcomment %}
 
-But even if normal, could these chemicals still cause harm? Sure. Fortunately for us, aspartame was invented a long time ago.
+This is reassuring. But even if they're normal, could these chemicals still cause harm? Sure. Fortunately for us, aspartame was invented a long time ago, so we have lots of evidence.
 
 ## The scientific consensus
 
@@ -272,10 +288,12 @@ In typical US government fashion, the FDA doesn't go to great lengths to explain
 
 ![FDA info](/img/aspartame/FDA.svg)
 
-The history of aspartame and the FDA is contentious and sort of infuriating.
+The history of aspartame and the FDA is contentious and sort of infuriating. For the scientific question of "is aspartame safe?" the main thing to know is that the FDA approved it a long time ago, and continues to stand by those decisions.
+
+But it must be said that the history and public communication of the FDA on this issue is kind of a train wreck, and if I wanted to optimize it to serve as conspiracy theory fuel, I could scarcely do any better. The FDA says it continues to monitor new studies and remains confident aspartame is safe. So why doesn't it explain its reasoning to a skeptical public? How is it possible the newest document the FDA can point people to is from 26 years ago? When a concerned citizen writes in, why does the FDA respond 12 *years* later, and act like that's perfectly normal? Not helpful.
 
 <details markdown="1">
-<summary>(Here's a summary if you're interested.)</summary>
+<summary>(Here's a summary of the history of the FDA and aspartame.)</summary>
 
 The FDA first approved aspartame for dry foods in 1974. However, there was a lot of controversy about the studies performed by [G.D. Searle](https://en.wikipedia.org/wiki/G.D._Searle,_LLC), the company that discovered aspartame in 1965 (and that Donald Rumsfeld would become CEO of in 1977). The FDA commissioner agreed with these criticisms and placed a stay on aspartame's approval.
 
@@ -308,10 +326,6 @@ Since 1996, the FDA doesn't appear to have published any systematic argument tha
 <br>
 
 </details>
-
-For the scientific question of "is aspartame safe?" the main thing to know is that the FDA approved it a long time ago, and continues to stand by those decisions.
-
-But it must be said that the history and public communication of the FDA on this issue is kind of a train wreck, and if I wanted to optimize it to serve as conspiracy theory fuel, I could scarcely do any better. The FDA says it continues to monitor new studies and remains confident aspartame is safe. So why doesn't it explain its reasoning to a skeptical public? How is it possible the newest document the FDA can point people to is from 26 years ago? When a concerned citizen writes in, why does the FDA respond 12 *years* later, and act like that's perfectly normal? Not helpful.
 
 ### The European Food Safety Authority (EFSA)
 
