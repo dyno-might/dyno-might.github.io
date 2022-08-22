@@ -123,7 +123,7 @@ So that was a lesson on the fragility of the human condition. After I recovered,
 
 I'm pretty sure I'm fine, but this data isn't very conclusive either way. Did I get worse during the gap because of Covid, or just because my skill atrophied? Did I plateau later on because of a skill ceiling, because I played less often, or because Covid cooked my brain? It's hard to be sure. I really wish I had continued playing at a steady pace the whole time.
 
-## Hypothesis #4: I'm smarter in the morning.
+## Hypothesis #4: I'm smarter in the morning
 
 We can also look at averages at different times of day. Here's how many games I played for each one hour period during the day: (The 8am bin shows the number of games between 8am and 9am.)
 
@@ -142,7 +142,7 @@ There are, however, two major caveats:
 1. I played puzzle storm whenever I felt like it and had time. This is not random. Subjectively, I don't like to play when I'm tired, and when I'm at my best, I don't get distracted as much. It's possible I am smarter/dumber at different times of day, but this selection effect killed off the signal.
 2. I'm not sure how much this game measures intelligence. This is probably obvious to people who play chess, but I was surprised that almost all my improvement seemed to come from unconscious pattern recognition, not "thinking". After playing a while, you mostly start to "feel" the promising moves. Still, there's some conscious processing to filter the moves the unconscious mind suggests.
 
-## Hypothesis #5: I'm smarter on certain days of the week.
+## Hypothesis #5: I'm smarter on certain days of the week
 
 Here's the total number of games I played on each day:
 
@@ -181,8 +181,6 @@ What's really needed is to play a game on a regular schedule. The ideal would be
 
 Does such a game exist?
 
-{% comment %}
 <div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/) or [substack](https://dynomight.substack.com/p/weird-ideas).)
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/) or [substack](https://dynomight.substack.com/p/puzzle-storm).)
 </div>
-{% endcomment %}
