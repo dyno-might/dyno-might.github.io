@@ -72,7 +72,7 @@ table{
 [*Content warning*: Waste of time]
 </span>
 
-[No soap, radio](https://en.wikipedia.org/wiki/No_soap_radio) (via [hacker news](https://news.ycombinator.com/item?id=32250203)) is a sort of prank where you tell a "joke" with a meaningless punchline. The hope is that your victim will laugh despite not understanding it, thereby enabling you to ridicule them. Apparently, this works best if you do it with an accomplice who will pretend to laugh.
+[No soap, radio](https://en.wikipedia.org/wiki/No_soap_radio) {% comment %}(via [hacker news](https://news.ycombinator.com/item?id=32250203)){% endcomment %}is a sort of prank where you tell a "joke" with a meaningless punchline. The hope is that your victim will laugh despite not understanding it, thereby enabling you to ridicule them. Apparently, this works best if you do it with an accomplice who will pretend to laugh.
 
 Now, the obvious question is: What the hell? What kind of cruel, broken, mean-spirited people conspire to humiliate their friends like this?
 
