@@ -26,7 +26,7 @@ layout: default
 {% assign daysSince = hoursSince | divided_by: 24  %}
 
 <div class="headerfont" style="position:fixed; right:5px; bottom:0px; padding-left:5pt; padding-right:1pt; font-size:70%; background-color:rgba(255,255,255,0.75);">
-  <a href="#sub">sub</a>
+  <a class="dissapear" href="#sub">sub</a>
 </div>
 
 
@@ -42,7 +42,7 @@ layout: default
       <input type="hidden" name="_url" value="https://dynomight.net/" />
       <br><button type="submit" class="headerfont" style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:20pt; cursor:pointer; font-size:80%;">subscribe</button>
     </form>
-    <a href="{{page.url}}" style="float:right; padding-right: 2pt;">close</a>
+    <a href="javascript:history.back()" style="float:right; padding-right: 2pt;">close</a>
   </div>
 </div>
 

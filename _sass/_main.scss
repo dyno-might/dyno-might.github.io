@@ -43,6 +43,19 @@ h1, h2, h3, h4, h5, h6 {
 #sub:target {
   display: block;
 }
+.dissapear:link{
+  background-color: white;
+  display: inline-block;
+}
+.dissapear:visited{
+  background-color: white;
+  color: white;
+}
+.dissapear:visited:hover{
+  background-color: white;
+  color: white;
+  text-decoration: none;
+}
 
 // Colours
 $primary: #4fa6a3 !default;
