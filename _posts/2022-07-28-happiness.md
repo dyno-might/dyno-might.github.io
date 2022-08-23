@@ -136,7 +136,7 @@ So maybe happiness improvement *is* possible, but we don't have the willpower to
 
 Is this plausible? Well, if local optima were a central challenge for happiness, then we'd expect that people with more self-control would be happier. Are they? Actually... maybe yes [(Cheung et al. 2014)](https://doi.org/10.3389%2Ffpsyg.2014.00722).
 
-If this hypothesis were true, another implication is that money should increase happiness. After all, it's easy to convert money into a cleaner home or better appearance. It helps with eating better and exercise, too. Relationships are less obvious, but you can buy always therapy.
+If this hypothesis were true, another implication is that money should increase happiness. After all, it's easy to convert money into a cleaner home or better appearance. It helps with eating better and exercise, too. Relationships are less obvious, but you can buy always buy therapy.
 
 So if local optima are the issue, money should make people happy. That... may or may not be true. I know lots of people claim science has shown money has no impact. But in reality, it's an [active research subject](https://en.wikipedia.org/wiki/Happiness_economics) with lots of contradictory results and weird findings like money increasing "life satisfaction" but not "emotional well-being" [(Kahneman and Deaton 2010)](https://doi.org/10.1073/pnas.1011492107). We don't really know.
 
