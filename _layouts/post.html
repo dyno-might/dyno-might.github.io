@@ -25,6 +25,27 @@ layout: default
 {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
 {% assign daysSince = hoursSince | divided_by: 24  %}
 
+<div class="headerfont" style="position:fixed; right:5px; bottom:0px; padding-left:5pt; padding-right:1pt; font-size:70%; background-color:rgba(255,255,255,0.75);">
+  <a href="#sub">sub</a>
+</div>
+
+
+<div class="headerfont" style="position:fixed; right:5px; bottom:0px; padding-left:1pt; padding-right:1pt; padding-top: 5pt; font-size:70%; background-color:rgba(255,255,255,1.0)">
+  <div id="sub">
+    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="margin-left:5pt;"> 
+      <a href="/feed.xml">RSS</a> or
+      <br><a href="https://dynomight.substack.com">substack</a> or
+      <br><input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 85pt; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:20pt; font-size:80%;" required> 
+      <input type="hidden" name="_subject" value="SUBSCRIBE BR {{page.title | slice: 0,20}}" /> 
+      <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+      <input type="hidden" name="_captcha" value="false" /> 
+      <input type="hidden" name="_url" value="https://dynomight.net/" />
+      <br><button type="submit" class="headerfont" style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:20pt; cursor:pointer; font-size:80%;">subscribe</button>
+    </form>
+    <a href="{{page.url}}" style="float:right; padding-right: 2pt;">close</a>
+  </div>
+</div>
+
 <div class="columns is-centered">
     <div class="column is-8-desktop is-10-tablet">
         <div class="content">

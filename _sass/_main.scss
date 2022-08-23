@@ -37,7 +37,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #cc5a25e8;
 }
 
-
+#sub{
+  display:none;
+}
+#sub:target {
+  display: block;
+}
 
 // Colours
 $primary: #4fa6a3 !default;
