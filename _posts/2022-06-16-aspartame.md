@@ -133,7 +133,9 @@ The same report gives this discussion:
 
 We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it, then when your body tried to make certain proteins, those proteins would get truncated, and then they wouldn't do what they were supposed to do, and then you would die.
 
-Fortunately, that's almost impossible. From 2 and 5% of all protein in food is phenylalanine. The recommended dietary allowance for a 70 kg (154 lb) person is at least 2130 mg. Meat-eating men in the UK average 3500 mg per day, while vegetarians and vegans get slightly less. Here are the amounts of phenylalanine in a few foods:
+Fortunately, that's almost impossible. From 2% to 5% of all protein in food is phenylalanine. The recommended dietary allowance for a 70 kg (154 lb) person is at least 2130 mg. Meat-eating men in the UK average 3500 mg per day, while vegetarians and vegans get slightly less.
+
+Here are the amounts of phenylalanine in a few foods:
 
 | potato | 170 mg |
 | large egg | 340 mg |
@@ -178,7 +180,7 @@ Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.g
 
 ![phenylketonurics](/img/aspartame/phenylketonurics.jpg)
 
-Aspartame is very dangerous for people with phenylketonuria, but if you had phenylketonuria you would know it.
+Aspartame is very dangerous for people with phenylketonuria, but if you had phenylketonuria you would know it already.
 
 ### Fact 3: Aspartic acid is a standard amino acid you consume all the time.
 
@@ -186,7 +188,7 @@ Here's [a chart from Wikimedia](https://commons.wikimedia.org/wiki/File:Proteino
 
 ![amino-acids](/img/aspartame/amino-acids.png)
 
-Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since like almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
+Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
 
 The 74 mg of aspartic acid you get from a Diet Coke is two orders of magnitude less than what most people get already.
 
@@ -391,14 +393,14 @@ This is a [seemingly respectable](https://en.wikipedia.org/wiki/Academy_of_Nutri
 
 Again, I don't think it's productive to look at individual papers. But we can look at *reviews* of all the evidence.
 
-Here, some judgment is required. If I type "review aspartame safety" into Google scholar, many of the papers that come up have several of the following factors:
+Here, some judgment is required. If I type "review aspartame safety" into Google scholar, many of the papers that come up have several of the following features:
 
 1. Paper is published in an obscure journal
 2. Authors are from obscure institutions
 3. Paper only engages with a tiny slice of the literature
-4. Paper just "doesn't look right"
+4. Paper just "doesn't look right" (e.g. has a serious grammatical error in the title)
 
-For full transparency, here are the papers I found less credible for the above reasons, given as hopefully-offense-minimizing numbers: [1](https://doi.org/10.1007/s10616-013-9681-0) [2](https://doi.org/10.3923/pjbs.2018.127.134) [3](https://doi.org/10.4103%2F0976-500X.85936) [4](https://doi.org/10.1080/1028415X.2017.1288340) [5](https://pubmed.ncbi.nlm.nih.gov/29038387/) [6](https://www.researchgate.net/profile/Ab-Naik/publication/360642412_Aspartame_Effects_and_Awareness/links/62949ea76886635d5cae8511/Aspartame-Effects-and-Awareness.pdf) [7](https://doi.org/10.3390/nu13061957) [8](https://doi.org/10.1093/nutrit/nux035). Note that many of these *do* suggest health concerns with aspartame, but I am discounting their conclusions because I don't think they are credible. If *you* don't trust *me*, you should definitely look at those papers yourself. I have linked (here or below) everything I found that was published after the year 2000 and claimed to be a review of aspartame.
+For full transparency, here are the papers I found less credible for the above reasons, given as hopefully-offense-minimizing numbers: [1](https://doi.org/10.1007/s10616-013-9681-0) [2](https://doi.org/10.3923/pjbs.2018.127.134) [3](https://doi.org/10.4103%2F0976-500X.85936) [4](https://doi.org/10.1080/1028415X.2017.1288340) [5](https://pubmed.ncbi.nlm.nih.gov/29038387/) [6](https://www.researchgate.net/profile/Ab-Naik/publication/360642412_Aspartame_Effects_and_Awareness/links/62949ea76886635d5cae8511/Aspartame-Effects-and-Awareness.pdf) [7](https://doi.org/10.3390/nu13061957) [8](https://doi.org/10.1093/nutrit/nux035). Note that many of these *do* suggest health concerns with aspartame, but I am discounting their conclusions because I don't think they are credible. If *you* don't trust *me*, you should look at those papers yourself. I have linked (here or below) everything I found that was published after the year 2000 and claimed to be a review of aspartame.
 
 ### Butchko et al.
 
@@ -447,7 +449,7 @@ This paper has 320 citations and 11 authors (four of whom---sigh---have gotten g
 
 ### Other reviews
 
-There are many other reviews that seem scientifically solid, but aren't nearly as comprehensive as those above. Here's a representative snippet from each:
+There are many other reviews that seem scientifically solid, but just aren't as comprehensive as those above. Here's a representative snippet from each:
 
 | paper | snippet |
 |-|-|
@@ -488,9 +490,11 @@ Or, why not worry about:
 * [Perfluorooctanoic acid](https://en.wikipedia.org/wiki/Perfluorooctanoic_acid#Health_concerns)
 * [Helicobacter pylori](https://doi.org/10.1128/CMR.00011-10)
 
+All of these appear to present some real danger, but mostly no one cares.
+
 To me, most skepticism of aspartame looks like an [isolated demand for rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)---an impossibly high standard of evidence that isn't applied to other things. Most of us have finite bandwidth for things to worry about, and the evidence we have for aspartame puts it very low on the list of sensible worries.
 
-Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: what evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, well, OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
+Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: What evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, well, OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
 
 <div style="font-size:70%; text-align:right;" markdown="1">
 (Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/) or [substack](https://dynomight.substack.com/p/aspartame).)
