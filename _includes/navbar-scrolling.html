@@ -1,0 +1,110 @@
+<style>
+#navnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.25s;
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.65);
+}
+</style>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navnav").style.top = "0";
+      } else {
+        document.getElementById("navnav").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+</script>
+    
+
+<div class="navbar is-white headerfont" id="navnav">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ site.baseurl }}/">DYNOMIGHT</a>
+                        
+            <a class="navbar-item" href="{{ site.baseurl }}/about/" style="font-size:70%;">ABOUT</a>
+
+            <a class="navbar-item" href="{{ site.baseurl }}/feed.xml" style="font-size:70%;">RSS</a>
+
+            <a class="navbar-item" href="https://dynomight.substack.com" style="font-size:70%;">SUBSTACK</a>
+
+            {% comment %}
+            <a class="navbar-item" href="{{ site.baseurl }}/ebook/" style="font-size:70%;">EBOOK</a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="{{ site.baseurl }}/tags/">
+                <font size=-1>ALL</font>
+            </a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="{{ site.baseurl }}/subscribe.html">
+                <font size=-1>SUB</font>
+            </a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="https://twitter.com/dynomight7">
+                <font size=-1>TWITTER</font>                
+            </a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="https://twitter.com/dynomight7">
+                <img src="/img/twitter3.png" alt="twitter link" width="25" height="25">
+            </a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="https://twitter.com/intent/follow?screen_name=dynomight7"><img src="/img/twitter.svg" alt="twitter" width="17" height="17"></a>
+            {% endcomment %}
+
+            {% comment %}
+            <a class="navbar-item" href="https://old.reddit.com/r/dynomight/"><img src="/img/reddit.svg" alt="reddit" width="17" height="27"></a>
+            {% endcomment %}
+
+
+
+            {% comment %}
+            <a class="navbar-item" href="{{ site.baseurl }}/mbti/">
+                <font size=-1>MBTI</font>                
+            </a>
+            {% endcomment %}
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <div class="headerfont navbar-item">
+                    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="margin-left:5pt;"> 
+                        subscribe to future posts
+                        <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 120pt; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:20pt; font-size:80%;" required> 
+                        <input type="hidden" name="_subject" value="SUBSCRIBE HAMB {{page.title | slice: 0,20}}" /> 
+                        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+                        <input type="hidden" name="_captcha" value="false" /> 
+                        <input type="hidden" name="_url" value="https://dynomight.net/" />
+                        <br><button type="submit" class="headerfont" style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:20pt; cursor:pointer; font-size:80%;">subscribe</button>
+                        <br><span style="display:inline-block">
+                            <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
+                            <label for="guide" class="headerfont" style="border:0; margin:0; height:20pt; font-size:80%; padding:0px;">also send guide to life</label>
+                          </span>            
+                    </form>
+                    {% if site.authors %}
+                    <a class="navbar-item" href="{{ site.baseurl }}/authors/">Authors</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

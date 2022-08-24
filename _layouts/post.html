@@ -25,10 +25,10 @@ layout: default
 {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
 {% assign daysSince = hoursSince | divided_by: 24  %}
 
+{% comment %}
 <div class="headerfont" style="position:fixed; right:5px; bottom:0px; padding-left:5pt; padding-right:1pt; font-size:70%; background-color:rgba(255,255,255,0.75);">
   <a class="dissapear" href="#sub">sub</a>
 </div>
-
 
 <div class="headerfont" style="position:fixed; right:5px; bottom:0px; padding-left:1pt; padding-right:1pt; padding-top: 5pt; font-size:70%; background-color:rgba(255,255,255,1.0)">
   <div id="sub">
@@ -45,6 +45,7 @@ layout: default
     <a href="javascript:history.back()" style="float:right; padding-right: 2pt;">close</a>
   </div>
 </div>
+{% endcomment %}
 
 <div class="columns is-centered">
     <div class="column is-8-desktop is-10-tablet">
