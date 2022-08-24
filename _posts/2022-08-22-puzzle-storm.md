@@ -5,7 +5,7 @@ image: /img/puzzle-storm/storm2.jpg
 tags: 
 description: "Tracking my cognitive performance for a year"
 permalink: /puzzle-storm/
-background_color: rgb(189,196,220)
+background_color: rgb(66,73,85)
 category: "self improvement"
 head: "<style>
 img{
