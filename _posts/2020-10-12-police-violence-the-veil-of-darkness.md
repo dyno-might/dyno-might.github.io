@@ -6,7 +6,8 @@ image: /img/police/court_light_cropped.jpg
 tags: statistics policy
 description: Explores some natural experiments that try to measure police violence.
 seo:
-  date_modified:2021-02-09
+  date_modified: 2021-02-09
+last_modified_at: 2021-02-09
 permalink: /:year/:month/:day/:title/
 category: "politics/policy"
 ---

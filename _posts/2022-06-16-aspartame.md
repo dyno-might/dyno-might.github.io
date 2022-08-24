@@ -8,6 +8,7 @@ permalink: /aspartame/
 background_color: rgb(102,102,102)
 seo:
   date_modified: 2022-08-20
+last_modified_at: 2022-08-20
 category: "obsessive investigation"
 head: "<style>
 img{

@@ -6,6 +6,7 @@ image_srcset: /img/humidifiers/hum1.jpg 1440w, /img/humidifiers/hum1_med.jpg 108
 tags: cleanAir
 seo:
   date_modified: 2021-12-22
+last_modified_at: 2021-12-22
 background_color: black
 description: "Why it's better not to use an ultrasonic humidifier"
 permalink: /humidifiers/

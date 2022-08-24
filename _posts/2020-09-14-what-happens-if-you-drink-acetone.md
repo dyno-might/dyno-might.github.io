@@ -5,6 +5,7 @@ image: /img/acetone/whiskey2.jpg
 description: How dangerous is it to drink acetone or nail-polish remover? Here's the key scientific facts, compared to ethanol.
 seo:
   date_modified: 2021-07-19
+last_modified_at: 2021-07-19
 tags: science
 background_color: black
 permalink: /:year/:month/:day/:title/

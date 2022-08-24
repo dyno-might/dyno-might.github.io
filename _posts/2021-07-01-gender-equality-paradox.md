@@ -11,6 +11,7 @@ permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
 seo:
   date_modified: 2021-12-06
+last_modified_at: 2021-12-06
 category: "psychology"
 head: "<style>
 details{

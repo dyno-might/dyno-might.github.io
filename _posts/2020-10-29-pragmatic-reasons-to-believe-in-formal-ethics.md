@@ -8,6 +8,7 @@ description: Some situations where formal ethics are really needed for practical
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-03-11
+last_modified_at: 2021-03-11
 category: "philosophy"
 ---
 

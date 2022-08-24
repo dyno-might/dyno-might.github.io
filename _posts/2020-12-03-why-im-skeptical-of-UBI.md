@@ -8,6 +8,7 @@ description: Common arguments for universal basic income are about liberty or au
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-11-28
+last_modified_at: 2021-11-28
 category: "economics"
 
 ---

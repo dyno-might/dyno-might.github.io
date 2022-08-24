@@ -7,6 +7,7 @@ tags: statistics policy
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-03-14
+last_modified_at: 2021-03-14
 category: "politics/policy"
 head: "<style>
 .center {

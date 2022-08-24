@@ -6,6 +6,7 @@ description: "It's this simple: Do you want what's behind one door or the other 
 tags: explainer statistics math
 seo:
   date_modified: 2021-12-16
+last_modified_at: 2021-12-16
 permalink: /:year/:month/:day/:title/
 category: "math"
 ---

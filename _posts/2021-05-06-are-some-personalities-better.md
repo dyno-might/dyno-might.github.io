@@ -11,6 +11,7 @@ permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
 seo:
   date_modified: 2021-09-03
+last_modified_at: 2021-09-03
 category: "psychology"
 head: "<style>
 img{

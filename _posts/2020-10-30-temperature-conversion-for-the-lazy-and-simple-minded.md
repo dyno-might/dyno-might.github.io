@@ -7,6 +7,7 @@ tags: science math
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2022-02-18
+last_modified_at: 2022-02-18
 category: "math"
 head: "<style>
 img{

@@ -11,6 +11,7 @@ permalink: /heritability/
 background_color: rgb(60,64,50)
 seo:
   date_modified: 2022-08-20
+last_modified_at: 2022-08-20
 category: "math"
 head: "<style>
 details{
