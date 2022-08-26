@@ -1,0 +1,41 @@
+{% assign stuff = {{include.content}} | split: " && " %}
+
+{% comment %} FIRST GENERATE SCHEMA {% endcomment %}
+
+{% comment %} record last question {% endcomment %}
+{% for thing in stuff %}
+    {% assign qa = {{thing}} | split: " => " %}
+    {% assign lastquestion = {{qa[0]}} %}
+{% endfor %}
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{% for thing in stuff %}{% assign qa = {{thing}} | split: " => " %}{"@type": "Question","name":"{{qa[0]}}","acceptedAnswer": {"@type": "Answer","text":"{{qa[1]}}"}}{% if {{qa[0]}} != {{lastquestion}} %},{% endif %}{% endfor %}
+]}
+</script>
+
+{% comment %} now generate display stuff {% endcomment %}
+
+{% comment %}
+{% for thing in stuff %}
+  {% assign qa = {{thing}} | split: " => " %}
+  **{{qa[0]}}**
+
+  {{qa[1]}}
+{% endfor %}
+{% endcomment %}
+
+{% for thing in stuff %}
+  {% assign qa = {{thing}} | split: " => " %}
+  **Question:** {{qa[0]}}
+
+  **Answer:** {{qa[1]}}
+  {% comment %}
+  {% if {{qa[0]}} != {{lastquestion}} %}
+  NOTLAST
+  {% endif %}
+  {% endcomment %}
+{% endfor %}
