@@ -30,9 +30,9 @@
 
 {% for thing in stuff %}
   {% assign qa = {{thing}} | split: " => " %}
-  **Question:** {{qa[0]}}
+  **{{qa[0]}}**
 
-  **Answer:** {{qa[1]}}
+  {{qa[1]}}
   {% comment %}
   {% if {{qa[0]}} != {{lastquestion}} %}
   NOTLAST
