@@ -3,7 +3,7 @@ layout: post
 title: "Does gratitude increase happiness?"
 image: /img/gratitude/car3.jpg
 tags: 
-description: ""
+description: "We have mistakenly fixated on the magical properties of gratitude."
 permalink: /gratitude/
 background_color: rgb(66,73,85)
 category: "self improvement"
