@@ -110,7 +110,7 @@ As far as I can tell, no one knows how complete hedonic adaptation is. There's l
 
 Whatever the case, could this explain why people chase after vague goals rather than trying to build concrete lives they'll enjoy living? No, because regardless of if hedonic adaptation *is* true, most people don't *think* it's true [(Kahneman, 2000)](https://www.anderson.ucla.edu/faculty/keith.chen/negot.%20papers/Kahneman_ExperiencedUtility00.pdf). And even if people *did* think hedonic adaptation was complete, then why bother with big goals?
 
-*Aside*: When I looked at the details of the studies for the interventions that are supposed to increase happiness (gratitude practice, etc.) the evidence was more flimsy than I realized. Someone should give this a skeptical look.
+*Aside*: When I looked at the details of the studies for the interventions that are supposed to increase happiness (gratitude practice, etc.) the evidence was more flimsy than I realized. Someone should give this a skeptical look. (Update: [I did it](/gratitude).)
 
 ## Possibility: It's the <strike>small</strike> big things
 
