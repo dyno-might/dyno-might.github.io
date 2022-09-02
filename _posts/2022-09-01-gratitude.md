@@ -38,6 +38,18 @@ table tr{
     border-style: hidden;
     text-align:left;
 }
+details>summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary::after {
+  content: ' ▸';
+}
+details[open] summary:after {
+  content: ' ▾';
+}
 @media (min-width:501px){
 table{
   max-width:100;
@@ -68,6 +80,9 @@ table{
 "
 ---
 
+After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?
+
+{% comment %}
 I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming [we should be thankful](/thanks/) because:
 
 > Hokey, unfashionable techniques like practicing gratitude turn out to have strong scientific evidence behind them.
@@ -93,6 +108,7 @@ This also isn't to say that gratitude exercises don't *work*. If you do them and
 The problem with gratitude exercises is that *everything works*. In research, they've been compared to acts of kindness, visualizing your ideal self, keeping a mood diary, progressive muscle relaxation, and many other things. They all work. Even seemingly *neutral* things like listing your daily activities may work.
 
 Why everything seems to work is a difficult question. But regardless of the answer, I think we have mistakenly fixated on the magical properties of gratitude when it's really the magical properties of pretty much any damn positive-sounding activity you might make up.
+{% endcomment %}
 
 ## Correlation
 
@@ -106,9 +122,9 @@ Gratitude and happiness are abstract concepts. For the above claim to mean anyth
 
 Now, as every stoned philosophy major knows, there's no one agreed definition of happiness. Instead, psychologists have many types of *psychological well-being*. This experiment tried to measure three of them:
 
-* [Life satisfaction](https://ppc.sas.upenn.edu/sites/default/files/lifesatisfactionscale.pdf) (“in most ways my life is close to my ideal”)
-* [Subjective happiness](https://ppc.sas.upenn.edu/sites/default/files/subjectivehappinessscale.pdf) (“I consider myself a very happy person”)
-* Vitality (“I have energy and spirit”)
+* *Life satisfaction* was [measured](https://ppc.sas.upenn.edu/sites/default/files/lifesatisfactionscale.pdf) through statements like “in most ways my life is close to my ideal”.
+* *Subjective happiness* was [measured](https://ppc.sas.upenn.edu/sites/default/files/subjectivehappinessscale.pdf) through statements like “I consider myself a very happy person”.
+* *Vitality* was measured through statements like “I have energy and spirit”.
 
 <details markdown="1">
 <summary>Their results were that all of these different types of happiness were strongly correlated with gratitude (a correlation of around 0.5).</summary>
@@ -124,11 +140,11 @@ Along with the different types of happiness, they also measured traits like posi
 
 </details>
 
-So how well do these things stand up twenty years later?
+But that's just one early study. How does it stand up twenty years later?
 
 <details markdown="1">
 <summary>
-They stand up <em>great</em>. <a href="https://doi.org/10.1016/j.paid.2020.110101">Portocarrero et al. (2020)</a> did a meta-analysis that included 144 different manuscripts including measurements from just over 100,000 total participants. They looked at seven different types of psychological well-being. They all had correlations ranging from 0.40 to 0.48. They also looked at various types of <em>un</em>happiness. These ranged from -0.27 to -0.42.
+It holds up extremely well. <a href="https://doi.org/10.1016/j.paid.2020.110101">Portocarrero et al. (2020)</a> did a meta-analysis that included 144 different manuscripts including measurements from just over 100,000 total participants. Seven different types of psychological well-being all had correlations between 0.40 and 0.48. Six different types of <em>negative</em> well-being had correlations from -0.27 to -0.42.
 </summary>
 
 Here are the correlations they found:
@@ -154,9 +170,9 @@ There are lots of different ways to define/measure happiness, but they all have 
 | Suicide ideation    | -0.42                      |
 | Mental disorder     | -0.35                      |
 
-</details>
-
 They looked at lots of moderators like religiosity, age, gender, and if participants were students. None of these mattered much, though correlations were a bit stronger in people that had a clinical diagnosis like depression.
+
+</details>
 
 So the evidence that gratitude and happiness are correlated is pretty overwhelming. That's interesting, but we're interested in something else.
 
@@ -164,13 +180,13 @@ So the evidence that gratitude and happiness are correlated is pretty overwhelmi
 
 **Claim**: Gratitude causes happiness.
 
-**Status**: Huh?
+**Status**: Unclear.
 
 Just because grateful people tend to be happier doesn't mean that gratitude is *making* them happier.
 
 As ever, correlation does not imply causation. And [as ever](/copypasta/), I cannot resist the urge to take a couple of shots at common practices in the social sciences. Papers acknowledge that correlation doesn't imply causation, but rather than seeing this as a fundamental aspect of reality, there's often this strange air of resentful exasperation. And when the researchers are talking to journalists outside of papers, they something switch back to causal language.
 
-But we also have more specific reasons to doubt that gratitude is causing happiness. For one, gratitude is deeply interrelated with other personality traits.
+But we also have some specific reasons to doubt that gratitude is causing happiness. For one, gratitude is deeply interrelated with other personality traits.
 
 The most common and "respectable" way of measuring personality is the Big Five. (Psychologists for whatever reason [do not like Myers-Briggs](/in-defense-of-myers-briggs.html).) [Steel et al. (2008)](https://doi.org/10.1037/0033-2909.134.1.138) did a meta-analysis of how the Big Five factors relate to happiness.
 
@@ -220,7 +236,9 @@ Gratitude appears to provide some extra information, but not a lot. From this, i
 
 ## Causation?
 
+{% comment %}
 Honestly, the case for causation is even weaker than the above.
+{% endcomment %}
 
 Say you have a race car. You enter lots of races, but your car sucks so you always lose. One day you can't take it anymore so you spend a ton of money on grippier tires and replacing the frame with lighter materials. And then you win.
 
@@ -240,7 +258,7 @@ Gratitude is not a lever an experimenter can pull. If we want to talk about caus
 
 **Claim**: Gratitude *exercises* cause happiness.
 
-**Status**: Compared to what?
+**Status**: Depends on what you compare them to.
 
 Again, to make sure we know what we're talking about, let's look at an early paper. [Emmons and McCullough (2003)](https://doi.org/10.1037/0022-3514.84.2.377) took some undergrads and assigned them to one of three conditions.
 
