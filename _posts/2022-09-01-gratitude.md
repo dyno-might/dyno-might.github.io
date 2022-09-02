@@ -3,7 +3,7 @@ layout: post
 title: "Does gratitude increase happiness?"
 image: /img/gratitude/car3.jpg
 tags: 
-description: "We have mistakenly fixated on the magical properties of gratitude."
+description: "After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?"
 permalink: /gratitude/
 background_color: rgb(66,73,85)
 category: "self improvement"
