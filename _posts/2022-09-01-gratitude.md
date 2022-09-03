@@ -329,7 +329,7 @@ But there's another problem.
 
 The replication crisis in psychology started in 2011 with the [Bem affair](https://replicationindex.com/2018/01/05/bem-retraction/). Since then, many previously accepted results have gone down in flames. This might be cause for skepticism, but my feeling is that gratitude interventions avoid many of the biggest sins. The idea that gratitude practice could increase happiness isn't *prima facie* implausible. And it's a pretty rigid hypothesis with uniform statistics, leaving less room for researchers to make up theories to fit their datasets. And, of course, there have been many replications.
 
-But there's another sin that's particularly insidious. Say you do an experiment and get a boring result. You might decide to stop working on that topic, or reviewers might reject your paper. Because of this *publication bias*, experiments that happen to give interesting results are more likely to find their way into publications and meta-analyses, even with no obvious malfeasance.
+But there's another sin that's particularly insidious. Say you do an experiment and get a boring result. You might decide to stop working on that topic, or reviewers might reject your paper. Because of this *publication bias*, experiments that happen to give interesting results are more likely to find their way into publications and meta-analyses, even with no obvious malfeasance.
 
 The usual trick to deal with publication bias is to guess that it will be greater in papers with few subjects. With few subjects, the people who get high effect sizes will publish, while the people who get low effect sizes won't'. Whereas, with high numbers of subjects, everyone should get nearly the same effect sizes.
 
