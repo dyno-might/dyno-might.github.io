@@ -228,7 +228,7 @@ Thus it is optimal for the player to always switch. But if you always switch, th
 
 **Why you might not like this argument:** Maybe this feels too "Bayesian" for you? (Personally, I like this argument a lot.)
 
-**Credit**: Joao, Beckett, Elvis, [Isaac Grosof](https://isaacg1.github.io/), Drake
+**Credit**: Joao, Beckett, Elvis Sikora, [Isaac Grosof](https://isaacg1.github.io/), Drake
 
 ---
 
