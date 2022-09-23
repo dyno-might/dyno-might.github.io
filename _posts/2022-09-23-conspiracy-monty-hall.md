@@ -325,7 +325,7 @@ See the problem? There are 10 possible locations for the car, but in any given s
 
 **Why you might not like this argument**: It's not very formal. And what if Monty used some kind of randomized strategy?
 
-**Credit:** Dan
+**Credit:** [Dan](http://danomagnum.com/)
 
 ---
 
