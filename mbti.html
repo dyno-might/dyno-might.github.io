@@ -1196,16 +1196,23 @@ function copyToC(copyText) {
   <div id="aftergraph"></div>
 </div>
 
-<hr>
+  <div style="text-align: center; position: relative;">
+    <a href="/in-defense-of-myers-briggs.html" style="text-align: center;color:rgb(255,255,170);">
+    <img src="/img/mbti/myers-briggs.jpg" style="width:min(100%, 300pt);" loading="lazy">
+    <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); font-family:Verdana;">
+      In defense of Myers-Briggs
+    </div>
+  </a>
+  </div>
 
-<div style="max-width:min(100%,600px); margin-left:auto; margin-right:auto; font-size:90%;">
-Privacy note: Nothing about your quiz results is stored when you take this test. In fact, the data never leaves your device.
+<br>
+<div style="max-width:min(100%,600px); margin-left:auto; margin-right:auto; font-size:50%; text-align: center;">
+Privacy note: No data about your answers leave your device when you take this quiz.
 </div>
-
-<hr>
 
 <div style="max-width:600px; margin-left:auto; margin-right:auto; padding: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
 
+{% comment %}
 <span style="display: inline-block; min-width:20%;"></span>RECENT DYNOMIGHT<br>
 
 {% assign total = 0 %}
@@ -1224,6 +1231,8 @@ Privacy note: Nothing about your quiz results is stored when you take this test.
   {% endif %}
 
 {% endfor %}
+
+{% endcomment %}
 </div>
 
 </body>
