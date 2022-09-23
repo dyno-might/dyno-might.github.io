@@ -162,7 +162,7 @@ Since this is the optimal strategy, <span class="eeq">⅔</span> is as good as y
 
 **Why you might not like this argument:** It assumes that Monty always does the same thing in the same situation. Maybe you could do better if he used a randomized strategy?
 
-**Credit**: Unheamy, Alan, Matt, Dan, Steven, [ExistentAndUnique](https://old.reddit.com/r/math/comments/suqlz6/the_conspiratorial_monty_hall_problem/hxcj6ra/), [heelspider](https://old.reddit.com/r/math/comments/suqlz6/the_conspiratorial_monty_hall_problem/hxbha3s/).
+**Credit**: Unheamy, Alan, Matt, Dan Sisan, Steven, [ExistentAndUnique](https://old.reddit.com/r/math/comments/suqlz6/the_conspiratorial_monty_hall_problem/hxcj6ra/), [heelspider](https://old.reddit.com/r/math/comments/suqlz6/the_conspiratorial_monty_hall_problem/hxbha3s/).
 
 ---
 
