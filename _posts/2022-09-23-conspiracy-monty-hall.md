@@ -465,3 +465,7 @@ Since <span class="eeq">*p*</span> and <span class="eeq">*(1-p)*</span> are non-
 **Credit:** Marte (who also drew the above beautiful graph)
 
 **Why you might not like this argument:** If you made it this far, I think that's impossible.
+
+<div style="font-size:70%; text-align:right;" markdown="1">
+(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/xm1x2o/the_conspiratorial_monty_hall_problem_with_proofs/?) or [substack](https://dynomight.substack.com/p/conspiratorial-monty-hall).)
+</div>
