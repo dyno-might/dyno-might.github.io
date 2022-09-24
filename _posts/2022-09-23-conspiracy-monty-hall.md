@@ -462,7 +462,7 @@ If you add up all the winning paths, you get:
 
 Since <span class="eeq">*p*</span> and <span class="eeq">*(1-p)*</span> are non-negative numbers, an optimal strategy is to use <span class="eeq">*x*=*y*=1</span>, for which the win probability becomes <span class="eeq">ℙ[win]=⅔</span>.
 
-**Credit:** Marte (who also drew the above beautiful graph)
+**Credit:** [Marte](https://talaksan.com) (who also drew the above beautiful graph)
 
 **Why you might not like this argument:** If you made it this far, I think that's impossible.
 
