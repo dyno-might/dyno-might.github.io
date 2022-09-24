@@ -435,7 +435,7 @@ Now, <span class="eeq">*p*</span> and <span class="eeq">(1-*p*)</span> are both 
 
 **Why you might not like this argument:** Lots of calculation.
 
-**Credit:** Peter
+**Credit:** Peter Donis
 
 ---
 
