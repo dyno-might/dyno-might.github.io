@@ -356,7 +356,7 @@ So, regardless of what Monty does, you should always switch, and then you'll win
 
 **Why you might not like this argument:** "It turns out"
 
-**Credit:** amjr, Jae, Michael Lucy
+**Credit:** amjr, John D., Michael Lucy
 
 ---
 
