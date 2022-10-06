@@ -110,6 +110,7 @@ table{
 "
 ---
 
+[*Note*: If you’re already familiar with prediction markets, you might want to skip to [section 3](#3) or maybe even [section 6](#6).]
 
 ## 1.
 
