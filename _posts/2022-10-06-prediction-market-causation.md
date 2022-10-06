@@ -269,7 +269,7 @@ Scott Alexander has [suggested](https://astralcodexten.substack.com/p/open-threa
 P[reinstated | justification read].
 </div>
 
-This might not work. Suppose that Scott currently pays an assistant to pre-screen the justifications. If the assistant thinks there’s at least an 80% chance someone will be reinstated, they forward their justification to be read, while the rest are ignored. (The assistant gives well-calibrated predictions.)
+This might not work. Suppose that Scott currently pays an assistant to pre-screen the justifications. If the assistant thinks there’s at least an 80% chance someone will be reinstated, they forward their justification to be read, while the rest are ignored. (The assistant gives <strike>well-calibrated</strike> "ideal" predictions, in the sense that it's impossible to be more accurate given the same information.)
 
 This distorts the market. Assuming people know about the assistant, the market will give at least an 80% probability of reinstatement to *everything*, regardless of how bad it is. (You are guaranteed to make money over time by blindly taking any bet with odds lower than 80%. So people will always bid the odds up to 80% or higher.)
 
