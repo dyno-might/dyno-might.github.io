@@ -266,7 +266,7 @@ The problem is:
 Scott Alexander has [suggested](https://astralcodexten.substack.com/p/open-thread-212) using prediction markets to predict if banned commenters should be reinstated. The idea is that if you get banned, you can write an argument that you will be good and then investors would bet on the odds that Scott would reinstate you if he read your justification, i.e.
 
 <div class="eq" markdown="1">
-P[reinstated | justification read],
+P[reinstated | justification read].
 </div>
 
 This might not work. Suppose that Scott currently pays an assistant to pre-screen the justifications. If the assistant thinks there’s at least an 80% chance someone will be reinstated, they forward their justification to be read, while the rest are ignored. (The assistant gives well-calibrated predictions.)
@@ -305,17 +305,17 @@ Look at that: To make things work, all we needed to do was promise to our condit
 
 Where are we? Let’s review. Here’s the typical *correlation does not imply causation* story:
 
-1. You can use observational studies to get the correlation between action A and outcome B.
-2. But just because A is correlated with B doesn’t mean that *doing* A will make B more likely.
-3. For that to be true, you need a particular causal structure for the variables being studied. (No causal path from B to A, no variable C with a causal path to both A and B)
-4. You can guarantee the right causal structure by randomizing the choice of A. If you do that, then correlation *does* imply causation.
+1. You can use observational studies to get the correlation between action <var>A</var> and outcome <var>B</var>.
+2. But just because <var>A</var> is correlated with <var>B</var> doesn’t mean that *doing* <var>A</var> will make <var>B</var> more likely.
+3. For that to be true, you need a particular causal structure for the variables being studied. (No causal path from <var>B</var> to <var>A</var>, no variable <var>C</var> with a causal path to both <var>A</var> and <var>B</var>)
+4. You can guarantee the right causal structure by randomizing the choice of <var>A</var>. If you do that, then correlation *does* imply causation.
 
 So far, this article has made this argument:
 
-1. You can use conditional prediction markets to get the probability of outcome B given different actions A.
-2. But just because changing the value of A changes the conditional probability of B doesn’t mean that *doing* A changes the probability of B.
-3. For that to be true, you need a particular causal structure for the variables being studied. (No causal path from B to A, no variable C with a causal path to both A and B)
-4. You can guarantee the right causal structure by randomizing the choice of A. If you do that, then conditional prediction market prices *do* imply causation.
+1. You can use conditional prediction markets to get the probability of outcome <var>B</var> given different actions <var>A</var>.
+2. But just because changing the value of A changes the conditional probability of <var>B</var> doesn’t mean that *doing* <var>A</var> changes the probability of <var>B</var>.
+3. For that to be true, you need a particular causal structure for the variables being studied. (No causal path from <var>B</var> to <var>A</var>, no variable <var>C</var> with a causal path to both <var>A</var> and <var>B</var>)
+4. You can guarantee the right causal structure by randomizing the choice of <var>A</var>. If you do that, then conditional prediction market prices *do* imply causation.
 
 Basically: If you run a prediction market to predict correlations, you get correlations. If you run a prediction market to predict the outcome of a randomized trial, you get causality. But to incentivize people to predict the outcomes of a randomized trial you have to actually *run* a randomized trial, and this is costly.
 
