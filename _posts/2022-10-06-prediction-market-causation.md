@@ -115,14 +115,13 @@ table{
 
 We all want to make good decisions. But it’s hard because we aren’t sure what’s going to happen.
 
-Like, say you want to know if CO2 emissions will go up in 10 years. One of our best ideas is to have people bet. For example, I might wager my \$4 that emissions will go up against your \$1 that they will go down. If lots of people bet in a market, the final prices combine everyone’s wisdom and information. If bets were to stabilize at a 4:1 ratio, that suggests that the odds of emissions going up are 4 times larger than the odds of emissions going down, i.e.,
-
+Like, say you want to know if CO₂ emissions will go up in 10 years. One of our best ideas is to have people bet. For example, I might wager my \$4 that emissions will go up against your \$1 that they will go down. If lots of people bet in a market, the final prices combine everyone’s wisdom and information. If bets were to stabilize at a 4:1 ratio, that suggests that the odds of emissions going up are 4 times larger than the odds of emissions going down, i.e.
 
 <var class="eq">P[emissions up] ≈ 0.80</var>
 
 <var class="eq">P[emissions down] ≈ 0.20.</var>
 
-But when you want to make *decisions*, you often need more information. Say someone comes up with a treaty to reduce CO2 emissions. If you want to know if the treaty will work, you can have people make *conditional* bets. For example, I might bet my \$9 against your \$1 with these rules:
+But when you want to make *decisions*, you often need more information. Say someone comes up with a treaty to reduce CO₂ emissions. If you want to know if the treaty will work, you can have people make *conditional* bets. For example, I might bet my \$9 against your \$1 with these rules:
 
 1. In 10 years, we check if (A) the treaty became law, and (B) emissions went up.
 2. If the treaty became law and emissions went up, you pay me \$1.
@@ -139,7 +138,7 @@ So here’s our question: Say you do that and the market thinks that emissions a
 
 ## 2.
 
-People worry about prediction markets for lots of reasons. Maybe someone will manipulate prices for political reasons. Maybe fees will distort prices. Maybe you’ll go Dr. Evil and bet that emissions will go up and then go emit a gazillion tons of CO2 to ensure that you win. Valid concerns, but let's ignore them and assume markets output “true” probabilities.
+People worry about prediction markets for lots of reasons. Maybe someone will manipulate prices for political reasons. Maybe fees will distort prices. Maybe you’ll go Dr. Evil and bet that emissions will go up and then go emit a gazillion tons of CO₂ to ensure that you win. Valid concerns, but let's ignore them and assume markets output “true” probabilities.
 
 Now, what would explain the odds of emissions going up being higher with the treaty than without? The obvious explanation is that the market thinks the treaty will cause emissions to go up:
 
