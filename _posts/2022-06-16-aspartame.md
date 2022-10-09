@@ -10,62 +10,9 @@ seo:
   date_modified: 2022-08-20
 last_modified_at: 2022-08-20
 category: "obsessive investigation"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+  reddit: https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/
+  substack: https://dynomight.substack.com/p/aspartame
 ---
 
 Look, I get it. Diet Coke tastes sweet because it has aspartame in it. Aspartame is a weird synthetic molecule that's 200 times sweeter than sucrose. Half of the world's aspartame is made by Ajinomoto of Tokyo---the same company that first brought us MSG back in 1909.
@@ -496,7 +443,3 @@ All of these appear to present some real danger, but mostly no one cares.
 To me, most skepticism of aspartame looks like an [isolated demand for rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)---an impossibly high standard of evidence that isn't applied to other things. Most of us have finite bandwidth for things to worry about, and the evidence we have for aspartame puts it very low on the list of sensible worries.
 
 Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: What evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, well, OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/) or [substack](https://dynomight.substack.com/p/aspartame).)
-</div>

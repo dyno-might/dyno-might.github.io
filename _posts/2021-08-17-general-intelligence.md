@@ -10,74 +10,8 @@ description: "A review of correlations between human performance on physical and
 permalink: /general-intelligence/
 background_color: rgb(148,134,121)
 category: "psychology"
-head: "<style>
-video{
-  display: block;
-  margin: 0 auto;
-}
-details{
-    padding-left: 10pt;
-    margin-bottom: 10pt;
-    border-left: solid 1px gray;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  padding: 5pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 250pt;
-}
-table{
-  display:block;
-  }
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  margin-left: 15pt;
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-<script type=\"text/x-mathjax-config\"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: \"none\" } } }); </script>
-       <script type=\"text/x-mathjax-config\">
-         MathJax.Hub.Config({
-           tex2jax: {
-             inlineMath: [ ['$','$']],
-             processEscapes: true
-           }
-         });
-       </script>
-       <script src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" type=\"text/javascript\"></script>
-"
+comment:
+    hacker news: https://news.ycombinator.com/item?id=30791424
 ---
 
 Is there a general factor of intelligence?

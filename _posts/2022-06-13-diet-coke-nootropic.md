@@ -4,65 +4,14 @@ title: "Diet Coke probably isn't a cognitive performance enhancer"
 image: /img/diet-coke-nootropic/coke4.jpg
 tags: philosophy
 description: "Investigating the (aspartame → phenylalanine → dopamine) theory"
+excerpt: "\"Very ambitious and successful and competitive and rich person loves Diet Coke\" has been in the news recently, and friend of the blog Aaron Bergman proposes a theory as to why. Spelled out in more detail, it goes like this: 1. There are nine essential amino acids, one of which is phenylalanine (C₉H₁₁NO₂). 2. Weird, that formula looks kind of like amphetamine (C₉H₁₃N). 3. In fact, phenylalanine is a precursor for lots of exciting stuff: 4. The sweetener in Diet Coke is aspartame (C₁₄H₁₈N₂O₅). 5. The body metabolizes aspartame into phenylalanine, plus methanol and aspartic acid."
 permalink: /diet-coke-nootropic/
 background_color: rgb(108,63,66)
 category: "obsessive investigation"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+   #reddit: https://old.reddit.com/r/dynomight/comments/vbety4/diet_coke_probably_isnt_a_cognitive_performance/
+   substack: https://dynomight.substack.com/p/diet-coke-nootropic
+   hacker news: https://news.ycombinator.com/item?id=31727687
 ---
 
 (Except for the caffeine of course, and maybe that it's so delicious?)
@@ -212,7 +161,3 @@ When I started looking into this, I thought this was a fun theory that would col
 Is this likely? Nah. I'd bet against it at 10:1 odds, maybe higher. But I'm surprised it wasn't possible to totally rule it out.
 
 (Diet Cokes consumed while writing this: 5)
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vbety4/diet_coke_probably_isnt_a_cognitive_performance/) or [substack](https://dynomight.substack.com/p/diet-coke-nootropic).)
-</div>

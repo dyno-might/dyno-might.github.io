@@ -1,11 +1,375 @@
 ---
 ---
 
-// Import Main CSS file from theme
-@import "main";
+@charset "utf-8";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("/assets/fonts/Montserrat/Montserrat-Regular.woff2") format('woff2'),
+       url("/assets/fonts/Montserrat/Montserrat-Regular.woff") format('woff');
+  font-display: swap;
+}
+
+// set all colors here
+
+$normal-text-color: black;
+$normal-quote-color: rgb(75,75,75);
+$normal-bg-color: white;
+$normal-details-bg-color: #eeeeee;
+$normal-navbar-bg-color: rgba(255,255,255,0.75);
+
+$dark-text-color: white;
+$dark-quote-color: rgb(180,180,180);
+$dark-bg-color: black;
+$dark-details-bg-color: #222222;
+$dark-navbar-bg-color: rgba(0,0,0,0.75);
+
+$family-sans-serif: 'Montserrat', sans-serif;
+$family-serif: 'Palatino', 'Georgia', serif;
+
+$family-primary: $family-serif;
+$family-secondary: $family-sans-serif;
+$title-family: $family-sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title-family;
+  //font-weight: lighter;
+}
+.headerfont{
+  font-family: $title-family;
+  font-weight: lighter;
+}
+.orangebutton:not(:hover){
+  /* border: 2px orange solid; */
+  background-color: #cc5a25bf;
+}
+.orangebutton:hover{
+  /* color:white; */
+  /* border: 2px rgb(47,124,246) solid; */
+  background-color: #cc5a25e8;
+}
+
+.nolinkstyle{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.navbaritem{
+    color: $normal-text-color;
+    text-decoration: none;
+    margin-left:8px;
+    height:100%;
+    align-items:center;
+    display:flex;
+}
+.navbaritem:hover{
+    text-decoration:underline;
+}
+.navbaritem:visited{
+    color: $normal-text-color;
+}
+// gets rid of visible scrollbar but still allows scrolling
+.noscrollbar{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.noscrollbar::-webkit-scrollbar{
+    display: none;  /* Safari and Chrome */
+}
+
+#sub{
+  display:none;
+}
+#sub:target {
+  display: block;
+}
+
+a{
+    color: #3273dc;
+    text-decoration: none;
+}
+a:visited:hover{
+    color: inherit;
+}
+a:hover{
+  color: inherit;
+  text-decoration: underline $normal-text-color;
+}
 
 a:visited { 
     //color:#5f32dc;
     //color: #a0a0a0;
     color:rgb(67,54,220);
+}
+
+html{
+    -webkit-font-smoothing: antialiased;
+    font-weight:lighter;
+    font-family: $family-serif;
+}
+body{
+    margin:0;
+    font-size: 1.1em;
+    line-height: 1.4;
+    word-wrap: break-word; // break long words
+}
+
+// // used to make titles turn yellow on hover
+// .changer{
+//     color:white;
+//     text-align:center;
+//     text-shadow:0 0 5px rgba(0,0,0,1.0);
+//     text-decoration: none;
+//   }
+// .changer:hover{
+//   color: rgba(255,255,190,1.0);
+//   text-decoration: none;
+// }
+
+// .dark-on-hover:hover {
+//   filter: brightness(0.5);
+// }
+// .light-on-hover:hover{
+//   filter: brightness(2.0);
+// }
+
+// .visible-on-hover p {
+//   visibility: hidden;
+// }
+// .visible-on-hover:hover p {
+//   visibility: visible;
+// }
+
+.maintext {
+  max-width: 75ch;
+  padding: .5rem;
+  margin:auto;
+}
+
+
+// stuff to make details look different
+
+details{
+    margin-bottom: 10pt;
+    background: $normal-details-bg-color;
+}
+details > summary{
+  padding-bottom: 0pt;
+  cursor: pointer;
+  background: $normal-bg-color;
+  padding-bottom: 5pt;
+  list-style: none;
+}
+details > *:not(summary){
+  margin-top: 5pt;
+  margin-left: 5pt;
+  margin-bottom: 5pt;
+}
+//   summary::-webkit-details-marker {
+//     display: none
+//   }
+  summary::after {
+    content: ' ▸';
+  }
+  details[open] summary:after {
+    content: ' ▾';
+  }
+
+
+// stuff to make tables look different
+table{
+    font-family:Montserrat;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px 0px;
+    padding-bottom: 10px;
+}
+table th{
+    text-align:left;
+}
+// table tr{
+//     border-style: hidden;
+//     text-align:left;
+// }
+@media (min-width:501px){
+table{
+  max-width:100;
+  max-width:100%;
+  font-size:90%;
+}
+}
+@media (max-width:500px) and (min-width:301px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 2.8vw;
+}
+}
+@media (max-width:300px) {
+table{
+  max-width:100;
+  max-width:100%;
+  font-size: 0.5em;
+}
+// .fixed{
+//     max-width:100;
+//     max-width:100%;
+//     overflow:scroll;
+// }
+}
+
+strong{
+    font-weight: bold;
+}
+
+blockquote {
+    color: $normal-quote-color;
+    padding-left: 15px;
+    border-left: 3px solid $normal-quote-color;
+}
+
+@media (max-width: 800px) {
+    .hidden-mobile {
+      display: none;
+    }
+}
+
+img {
+    max-width: 90%; // not too wide
+    max-height: 75vh; // not too tall
+    width: auto; // but keep aspect ratio
+    height: auto; // but keep aspect ratio
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.leftbar {
+  margin-bottom:3em;
+  width:calc( (100vw - 80ch ) / 2);
+  font-size:75%;
+  float:left;
+  position:sticky;
+  left:5px;
+  top:7em
+}
+.leftbar > ul, .leftbar > ul > li, .leftbar > ul > li > ul, .leftbar > ul > li > ul > li  {
+  margin-left: 8px;
+  padding-left: 0pt;
+  list-style-type: none;
+}
+.leftbar > ul, .leftbar > ul > li{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.leftbar > ul > li > a, .leftbar > ul > li > ul > li > a{
+  color: $normal-quote-color;
+}
+
+@media(min-width: 1001px){
+  // invisible when leftbar visible
+  .noleftbar{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .leftbar {
+    display: none;
+  }
+}
+
+// class for the TOC on left
+.toc {
+}
+.toc > a{
+  display: inline-block; // make link take up full width
+  width: 100%; // make link take up full width
+}
+.toc > a:hover{
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blurb{
+  color:$normal-quote-color;
+}
+
+#navnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.25s;
+  opacity: 100%;
+  background-color: $normal-navbar-bg-color;
+}
+
+// DARK MODE OVERRIDES
+
+@media (prefers-color-scheme: dark) {
+  html{
+    color:$dark-text-color;
+    background-color: black;
+  }
+
+  blockquote {
+    color:  $dark-quote-color;
+    border-left-color: $dark-quote-color;
+  }
+
+  details{
+    background: $dark-details-bg-color;
+  }
+  details > summary{
+    background:$dark-bg-color;
+  }
+  // change images
+  img{
+    background: white; // transparent -> white
+    opacity: 0.75; // transparent
+    transition: opacity .4s ease-in-out;
+  }
+  img:hover { // 
+    opacity: 1;
+  }
+
+  // this would flip colors; but I'm worried that text prefers specific colors (e.g. "all blues")
+  // img[src$='.svg'] {
+  //   filter: invert(100%); // flip colors
+  // }
+
+  .leftbar > ul > li > a, .leftbar > ul > li > ul > li > a{
+    color: $dark-quote-color;
+  }
+
+  a:hover{
+    text-decoration: underline $dark-text-color;
+  }
+  
+  .blurb{
+    color:$dark-quote-color;
+  }
+  
+  .navbaritem{
+      color: inherit;
+  }
+  .navbaritem:hover{
+      text-decoration:underline;
+  }
+  .navbaritem:visited{
+      color: inherit;
+  }
+
+  #navnav {
+    background-color: $dark-navbar-bg-color;
+  }
+  
+
 }

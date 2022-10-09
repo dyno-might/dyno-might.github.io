@@ -7,59 +7,6 @@ description: "A review of the thought experiments in Reasons and Persons by Dere
 permalink: /no-self/
 background_color: rgb(198,198,205)
 category: "philosophy"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 You want to go to Mars. There's a machine that will scan and destroy all the matter in your body, send the locations of every atom to Mars, and then recreate it. You worry: Does this *transport* you, or does it *kill* you and make a new copy?

@@ -7,65 +7,9 @@ description: "Why are prestigious outlets often so mediocre, and why do we read 
 permalink: /copypasta/
 background_color: rgb(193,140,72)
 category: "writing"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    substack: https://dynomight.substack.com/p/copypasta
+    hacker news: https://news.ycombinator.com/item?id=32429067
 ---
 
 Here's a thing that happens sometimes:

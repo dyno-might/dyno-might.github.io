@@ -4,68 +4,14 @@ title: "Nobody optimizes happiness"
 image: /img/happiness/fire.jpg
 tags: 
 description: "People don't seem to try very hard to make themselves happier. Why not?"
+excerpt: "Everyone I know is scheming for the future. They've got big goals and get up every day and work like mad to try to achieve them. I've always found something odd about that: Despite all this effort, people don't seem to think too much about the specifics of what would happen after their goal is achieved. Like---say your startup goes public and you become a billionaire. What now? What will you buy, where will you live, what will you eat for lunch? Don't worry, I won't tell you to abandon your goals and detach yourself from desire. I'm just observing that even if you achieved your goals, you'd need to make a huge number of decisions to convert them into a \"life\" and then (hopefully) happiness. And people don't seem to think much about those decisions."
 permalink: /happiness/
 background_color: rgb(179,207,230)
 category: "self improvement"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+   reddit: https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/
+   substack: https://dynomight.substack.com/p/happiness
+   hacker news: https://news.ycombinator.com/item?id=32266897
 ---
 
 Everyone I know is scheming for the future. They've got big goals and get up every day and work like mad to try to achieve them.
@@ -181,7 +127,3 @@ Note that even if this is true, past achievements will still matter. That's beca
 
 * You need to position yourself in such a way that you have the time/resources/connections to work on something you think is important.
 * If you *always* fail, then eventually you'll find it impossible to believe that your future goals are achievable.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/) or [substack](https://dynomight.substack.com/p/happiness).)
-</div>

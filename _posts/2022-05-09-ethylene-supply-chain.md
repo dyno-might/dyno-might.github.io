@@ -7,75 +7,11 @@ description: ""
 permalink: /ethylene-supply-chain/
 background_color: rgb(230,233,238)
 category: "ethylene"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Imagine you're flying a plane full of babies. Initially, they're all sleeping peacefully. But if one wakes up, they'll start crying. That will eventually wake up some of the neighbors who will also start crying, and soon your plane will be an unhappy place. In this situation, you'd try very hard to keep all the babies asleep.
 
 Last time we talked about [ethylene](/ethylene). This is the gaseous plant hormone responsible for *one bad apple spoils the bunch* (true) and *put avocados in a paper bag with bananas to ripen* (also true) and many other less-known phenomena. Given ethylene's importance, the agricultural industry has found many ways to manipulate it to make stuff better looking, better tasting, or easier to transport.
-
-<div style="font-size:90%; line-height:110%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
-<br>
 
 ## Ethylene gas is applied to many crops post-harvest.
 

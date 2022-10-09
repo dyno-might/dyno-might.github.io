@@ -6,3 +6,6 @@ Gemfile.lock
 .DS_Store
 .idea
 .jekyll-cache
+.vscode
+vendor
+Gemfile

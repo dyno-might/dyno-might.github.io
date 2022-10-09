@@ -4,68 +4,13 @@ title: "Why is it traitorous to understand the people you disagree with? Six mod
 image: /img/traitorous/paris.jpg
 tags: policy communication
 description: "Reflections on a phenomena that's unique to culture-war topics"
+excerpt: "There's a certain phenomenon I often wonder about, one that only seems to occur with culture war topics. I usually try to avoid culture war, but it's impossible to discuss this phenomenon without an example and I don't see the point of tiptoeing around. So, abortion. For better or for worse, the vast majority of people I know favor Roe v. Wade. Still, I think I understand the view of people on the other side. The question before the court in Roe v. Wade was not \"Would the world be better if abortion were legal?\" The question was, \"Does the US Constitution prohibit states from making abortion illegal?\" The decision basically goes like this:"
 permalink: /traitorous/
 background_color: rgb(69,100,120)
 category: "communication"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-li > br {
-  margin-bottom: 0.5em;
-}
-div {
-  word-wrap: break-word;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    substack: https://dynomight.substack.com/p/why-is-it-traitorous-to-understand
+    hacker news: https://news.ycombinator.com/item?id=31481347
 ---
 
 There's a certain phenomenon I often wonder about, one that only seems to occur with culture war topics. I usually try to [avoid](/culture-war-island-hopping/) culture war, but it's impossible to discuss this phenomenon without an example and I don't see the point of tiptoeing around.

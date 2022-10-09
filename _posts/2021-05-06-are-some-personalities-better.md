@@ -7,30 +7,15 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "People with the same big five personality types tend to be more happy, successful, intelligent, creative, and popular. Why aren't there more tradeoffs?"
+excerpt: "I don't know if you like parties. I don't know if you're organized or punctual. But I bet you don't like rotting smells or long swims in freezing water. That is to say: People are different, but only in certain ways. What's the difference? Hypothermia enthusiasts have few kids, so their genes tend to disappear. If introverts were worse at breeding than extraverts, then the same thing would have happened. Since extraversion varies widely, we can infer that we're at an equilibrium point with no real advantage either way. (Personality traits are around 40% genetic)  So, no personality is *better* than any other. Instead, there must be intricate tradeoffs, with each personality occupying a different kind of niche. That's what I thought, anyway. Then I read a few dozen papers and made this table:"
 permalink: /better-personalities/
 background_color: rgb(10, 10, 10)
 seo:
   date_modified: 2021-09-03
 last_modified_at: 2021-09-03
 category: "psychology"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-details{
-    padding-left: 10pt;
-    margin-bottom: 10pt;
-    border-left: solid 1px gray;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  padding: 5pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-</style>"
+comment:
+  hacker news: https://news.ycombinator.com/item?id=27097590
 ---
 
 I don't know if you like parties. I don't know if you're organized or punctual. But I bet you don't like rotting smells or long swims in freezing water.

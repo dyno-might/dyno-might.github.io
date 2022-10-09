@@ -7,57 +7,13 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "What heritability really is: A fluid statistic that changes whenever society changes."
+excerpt: "All psychological traits are heritable. This is the best replicated finding in all of behavioral genetics. Some recent numbers include: Religiosity: 44% Schizophrenia: 79% Big five personality traits: ~40% But what, exactly, does \"heritability\" mean? I used to have a mental model something like this: Each person has some number of \"religiosity points\" that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured there being 10 total points, 4 of which come from genes and 6 of which come from the environment:"
 permalink: /heritability/
 background_color: rgb(60,64,50)
 seo:
   date_modified: 2022-08-20
 last_modified_at: 2022-08-20
 category: "math"
-head: "<style>
-details{
-    }
-details summary{
-  padding-bottom: 12pt;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-    width: 20%;
-}
-table td{
-    width: 20%;
-  }
-@media (min-width:501px){
-table{
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>"
 ---
 
 All psychological traits are heritable. This is the [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:
@@ -90,13 +46,6 @@ So what is heritability? It's the ratio of the *genetic variance* of a trait wit
 The only math we'll use is the concept of [variance](https://en.wikipedia.org/wiki/Variance). If you're not familiar with that, just think of it as "how variable" something is. Humans have high variance in how much we like folk music, but low variance in our number of fingers.
 
 One note on terminology: Biologists use "phenotype" to refer to what actually happens, including all genetic or environmental causes. The phenotypic length of your foot is, thrillingly, the actual length of your foot.
-
-<div style="font-size:80%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
 
 ## Simplest example
 

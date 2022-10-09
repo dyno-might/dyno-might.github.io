@@ -13,7 +13,7 @@ You can't measure police bias using [simple population ratios](https://dynomight
 
 Well, there are lots of policy proposals floating around that are suggested to reduce bias in policing, and many police departments have already adopted some of them. Maybe we can look at what effect these have had.
 
-# Body Cameras Data
+## Body Cameras Data
 
 Many police departments have added police body cameras in the last few years. What effects do these have, and can they tell us something about police bias?
 
@@ -31,7 +31,7 @@ Do cameras affect the racial composition of police use of force? There seem to b
 > * Reasonably strong evidence they do *not* significantly reduce use force in overall.
 > * No controlled studies on effects on racial balance of use of force.
 
-# Implicit Bias Training Data
+## Implicit Bias Training Data
 
 Many police departments have had implicit bias training for years. CBS news [found](https://www.cbsnews.com/news/racial-bias-training-de-escalation-training-policing-in-america/) that 69% of the departments they asked already have it. More are introducing it all the time. Does this do anything?
 
@@ -55,7 +55,7 @@ By the way: There is lots of criticism of police departments for putting implici
 > * No controlled studies of effects on police use of force overall.
 > * No controlled studies on effects on racial balance of use of force.
 
-# Use of force policies
+## Use of force policies
 
 Another common suggestion is use of force policies. These include things like requiring an attempt to de-escalate situations, forbidding strangling, mandating warnings, mandating reporting, and requiring officers to intervene if another officer is using excessive force.
 

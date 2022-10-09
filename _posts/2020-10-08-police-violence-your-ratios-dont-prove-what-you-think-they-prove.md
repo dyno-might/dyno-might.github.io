@@ -16,7 +16,7 @@ No one. Frankly, nobody has any clue what they are talking about. It's not that 
 
 I've made every effort to avoid politics, due to my [naive dream](https://dynomight.net/2020/09/29/doing-discourse-better-stuff-i-wish-i-knew/) where well-meaning people can agree on facts even if they don't agree on policy.
 
-# Population size
+## Population size
 
 The obvious place to start is to look at the number of people killed by police. This is easy to find.
 
@@ -65,7 +65,7 @@ Of course, the second and third tables have obvious explanations: Men are differ
 
 Maybe it's uncomfortable, but it's a fact: In the US today, there are few traits where there *aren't* major statistical differences between races. (Of course this doesn't mean these differences are *caused* by race! This is a good example of why correlation does not imply causation.)
 
-# A thought experiment
+## A thought experiment
 
 Suppose police were required wear augmented reality goggles. On those goggles, real-time image processing changes faces so that race is invisible. Would doing this cause police statistics to equalize with respect to race?
 
@@ -73,7 +73,7 @@ No. Even if race is *literally invisible*, young urban alcoholics will have diff
 
 So despite the thousands of claims to the contrary, just looking at killings as a function of population size doesn't prove bias. Not does it prove a lack of bias. It really doesn't prove anything.
 
-# Arrests
+## Arrests
 
 Why do police kill more men than women? We can't rule out police bias. But surely it's relevant that men and women behave differently? So, it might seem like we should normalize not by population size, but by *behavior*.
 
@@ -93,7 +93,7 @@ The ratio doesn't tell you much about how large the bias terms are. So, unfortun
 
 Incidentally: There are some [popular but different](https://twitter.com/leonydusjohnson/status/1267466345844740098) numbers out there for this same ratio. These have tens of thousands of re-tweets with no one questioning the math. But I've checked the source data carefully, and I'm pretty sure my numbers are right. (They reach the same basic conclusion anyway.)
 
-# Murders
+## Murders
 
 The police have discretion when deciding to make an arrest. But a dead body either exists or doesn't. So why not normalize by the number of murders committed?
 
@@ -114,7 +114,7 @@ Instead, let's look at murder *victims*. This is counterintuitive, but it's [rel
 
 So what does this prove? Again, not much. The simple fact is that most police killings are **not in the context of a murder or a murder investigation**. Though there are [exceptions](https://medcraveonline.com/FRCIJ/FRCIJ-06-00237.pdf), the precise *context* of police killings hasn't had enough study, and definitely not enough to get reliable statistics.
 
-# Ratios are hopeless
+## Ratios are hopeless
 
 Really, though, it's not an issue of lacking data. Philosophically, consider the any possible ratio like
 

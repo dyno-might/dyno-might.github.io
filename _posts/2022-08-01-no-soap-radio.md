@@ -4,68 +4,13 @@ title: "No soap radio"
 image: /img/no-soap-radio/radio2.jpg
 tags: 
 description: "A potent anti-humor technology"
+excerpt: "No soap, radio is a sort of prank where you tell a \"joke\" with a meaningless punchline. The hope is that your victim will laugh despite not understanding it, thereby enabling you to ridicule them. Apparently, this works best if you do it with an accomplice who will pretend to laugh. Now, the obvious question is: What the hell? What kind of cruel, broken, mean-spirited people conspire to humiliate their friends like this? But never mind. If you're aware that the jokes don't make any sense, many of them genuinely are funny in a sort of inexplicable, dreamlike way:"
 permalink: /no-soap-radio/
 background_color: rgb(134,133,129)
 category: "uncategorizable"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,350pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    reddit: https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/
+    substack: https://dynomight.substack.com/p/no-soap-radio
 ---
 
 <span style="font-size:80%" markdown="1">
@@ -226,7 +171,3 @@ Or:
 > A: No soap, radio.
 
 </details>
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/) or [substack](https://dynomight.substack.com/p/no-soap-radio).)
-</div>

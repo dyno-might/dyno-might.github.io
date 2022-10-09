@@ -11,23 +11,6 @@ permalink: /in-defense-of-myers-briggs.html
 description: "examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator"
 category: "psychology"
 head: "<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.highwidth{
-    max-width:600pt;
-}
-.medwidth{
-    max-width:400pt;
-}
-.max80{
-    max-width:80%;
-}
-.max100{
-    max-width:100%;
-}
 </style>"
 ---
 
@@ -121,18 +104,18 @@ To claim it’s never useful to discretize denies human nature. You might as wel
 
 If you’d like a test that gives the scores as continuous attributes, may I recommend… any test? For example, here’s the results of me randomly clicking answers on two popular websites:
 
-<div class="center highwidth">
-<img class="center max80" src="/img/mbti/test3-psychcentral.png" alt="third test" loading="lazy" />
+<div>
+<img src="/img/mbti/test3-psychcentral.png" alt="third test" loading="lazy" />
 </div>
 
-<div class="center highwidth">
-<img class="center max80" src="/img/mbti/test2-16personalities.png" alt="second test" loading="lazy" />
+<div>
+<img src="/img/mbti/test2-16personalities.png" alt="second test" loading="lazy" />
 </div>
 
 Not convinced? You can even check the "official" results that gullible people pay money for. They look like this:
 
-<div class="center highwidth">
-<img class="center max100" src="/img/mbti/test1-official.png" alt="first test" loading="lazy" />
+<div>
+<img src="/img/mbti/test1-official.png" alt="first test" loading="lazy" />
 </div>
 <br>
 
@@ -140,8 +123,8 @@ Not convinced? You can even check the "official" results that gullible people pa
 
 And what happens if you don’t discretize the axes? If you take continuous measurements (like *every Myers-Briggs test ever* gives you) they correlate strongly with four of the five big five measurements.
 
-<div class="center highwidth">
-<img class="center max100" src="/img/mbti/correlations.jpg" alt="correlations between MBTI and big five" loading="lazy" />
+<div>
+<img src="/img/mbti/correlations.jpg" alt="correlations between MBTI and big five" loading="lazy" />
 </div>
 <br>
 

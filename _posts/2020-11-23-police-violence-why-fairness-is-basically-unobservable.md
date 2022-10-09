@@ -9,48 +9,6 @@ seo:
   date_modified: 2021-03-14
 last_modified_at: 2021-03-14
 category: "politics/policy"
-head: "<style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-table{
-    border: 1px solid black;
-    cellspacing:0;
-    border-spacing:0;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>"
 ---
 
 We want to know if things are fair. Do some groups of people tend to get a raw deal in company hiring or university admissions or court sentences?
@@ -59,11 +17,11 @@ There *seems* to be an obvious way to answer such questions: Get some data and "
 
 What's going on is the whole strategy is [doomed](https://dyno-might.github.io/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/). It's counterintuitive, but you usually *can't* determine bias this way. The problem boils down to that in order to "check" for bias you must do something to your data called *stratification*. This can totally change the results, and there's no single best way to do it.
 
-# An experiment
+## An experiment
 
 Let's do a thought experiment. You live in a city inhabited by blue people and red people. There are constant debates about if police are biased against either of these groups. Eventually, you decide to take action. You find 1024 blue men and 1024 red men, give each a suspicious looking stack of $20 bills and tell them to jog outside for an hour while holding the stack. Finally, you count the number that are arrested in each group.  (You have a *very* good relationship with your local [IRB](https://en.wikipedia.org/wiki/Institutional_review_board).)
 
-# Phase 1
+## Phase 1
 
 So you run the experiment, and these are the results:
 
@@ -101,7 +59,7 @@ blue total|red total|blue arrested|red arrested|% blue arrested|% red arrested
 
 More reds were arrested than blues. Does this show police bias against reds?
 
-# Phase 2
+## Phase 2
 
 You show your data to a friend. She notices that the blue men in your population were more often old (over 35) while the red men were more often young (35 or less). In particular, your data has these demographics:
 
@@ -146,7 +104,7 @@ Now this suggests a bias against *blue* men. The police arrest young blue men mo
 
 Does this now show that the police are biased against blues?
 
-# Phase 3
+## Phase 3
 
 Your friend pokes at the data some more. She points out that reds are more likely to live in Riverview, while blues are more likely to live in Pineway. Specifically, you have these demographics:
 
@@ -203,7 +161,7 @@ In each age-location group, reds were more often arrested than blues. The differ
 
 This suggests a bias against reds. But, given how things have changed in the past, something feels off...
 
-# Phase 4
+## Phase 4
 
 Sweating, you ask your friend, "*Now* are we done?"
 
@@ -262,7 +220,7 @@ joggers | Riverview | young | 32 | 224 | 11 | 77 | 34.4 | 34.4
 
 Now, the percentages are exactly the same in each group. The police tend to arrest young men in Pineway wearing joggers. They tend not to arrest old men in Riverview wearing shorts. All the racial differences you saw before might be due to correlations between race and age, neighborhood, and attire, not because of race *itself*.
 
-# Phase 5
+## Phase 5
 
 You tell your friend "Well done! You've resolved it. It's getting late, I think I'll be going..."
 
@@ -270,7 +228,7 @@ As you edge towards the door she says "Yeah, goodnight, let's do this again! But
 
 If you're familiar with Simpson's paradox, this is all basically an example of a ["recursive" Simpson's paradox](https://dyno-might.github.io/2020/11/16/simpsons-paradox-and-the-tyranny-of-strata/).
 
-# Summary
+## Summary
 
 What went "wrong" in this experiment? Suppose you gather data on police interactions with people of a single race. No one would be surprised if the statistics are different with respect to the young vs. old or urban vs. rural or rich vs. poor or churchgoers vs. nonreligious. It would be surprising if there *weren't* differences.
 

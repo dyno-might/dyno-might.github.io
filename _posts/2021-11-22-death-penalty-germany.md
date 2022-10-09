@@ -11,55 +11,6 @@ description: "How did Germany ban the death penalty? And what did people think a
 permalink: /death-penalty-germany/
 background_color: rgb(123,28,22)
 category: "the death penalty"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    padding-left: 0pt;
-    padding-bottom: 10pt;
-    }
-details > summary{
-  padding-bottom: 10pt;
-  padding: 0pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Germany came close to banning the death penalty several times in its early history:

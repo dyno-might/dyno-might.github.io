@@ -7,17 +7,11 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "If culture war is intractable, what should we do instead?"
+excerpt: "The Guadalcanal campaign was the first major offensive operation by the Allies in the Pacific theater of World War 2. This nightmarish battle ran for six months and—while an Allied victory—involved losses so high the US Navy refused to release casualty figures for years afterward. When this campaign ended in 1943, Japan's major forward base in the South Pacific was Rabaul, a town Japan had seized from Australia in 1942 and fortified with aircraft, ships, structural defenses, and over 100,000 troops. General MacArthur wanted a direct attack on Rabaul. However, the US joint chiefs would not shift resources away from the war in Europe and likely feared horrendous losses. Eventually, the Allies settled on a strategy of *island-hopping*: With air and naval supremacy, it was decided to simply avoid heavily fortified areas like Rabaul. Instead, the Allies took only the fewest and most weakly defended points necessary to establish supply lines towards the Japanese mainland. So, here's a theory: If you want to make the world better, culture-war debates are often like attacking Rabaul.
+"
 permalink: /culture-war-island-hopping/
 background_color: rgb(165,165,165)
 category: "politics/policy"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-"
 ---
 
 The Guadalcanal campaign was the first major offensive operation by the Allies in the Pacific theater of World War 2. This nightmarish battle ran for six months and---while an Allied victory---involved losses so high the US Navy refused to release casualty figures for years afterward.

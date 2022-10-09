@@ -5,62 +5,12 @@ image: /img/internet-writing/typewriter.jpg
 date: 2022-02-14 11:00:00
 tags: writing
 description: "Observations on the dynamics of writing and commenting."
+excerpt: "I'm not famous or successful, so why should you care what I think? Well, I have some observations about the dynamics of writing on the internet that I think my (even more non-famous and non-successful) self would have benefited from when I started. The whole idea of writing is crazy: You have a pattern in your brain-meat, which you try to encode into a linear series of words. Then someone else reads those words and tries to reconstruct the pattern in their brain-meat. But in this dance, how much of the work is being done by the words versus the lifetime of associations each person has built up around them?"
 permalink: /internet-writing/
 background_color: rgb(165,165,165)
 category: "writing"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+   substack: https://dynomight.substack.com/p/observations-about-writing-and-commenting
 ---
 
 I'm not famous or successful, so why should you care what I think? Well, I have some observations about the dynamics of writing on the internet that I think my (even more non-famous and non-successful) self would have benefited from when I started.

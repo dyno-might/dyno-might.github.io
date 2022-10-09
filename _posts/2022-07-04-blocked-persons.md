@@ -4,68 +4,13 @@ title: "Blocked persons and letters of marque"
 image: /img/blocked-persons/flag1.jpg
 tags: 
 description: "What are letters of marque and reprisal, and who is on the US's list of Block Persons?"
+excerpt: "Article I, Section 8, Clause 11 of the US Constitution reads: \"The Congress shall have Power to declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water;\" What are these Letters of Marque and Reprisal? Essentially: Permission for private citizens to carry out acts of war. If you could convince the government to write one for you, then you were a \"privateer\" and you could go searching the seas for plunder."
 permalink: /blocked-persons/
 background_color: rgb(188,193,203)
 category: "obsessive investigation"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    reddit: https://old.reddit.com/r/dynomight/comments/vr77vm/blocked_persons_and_letters_of_marque/
+    substack: https://dynomight.substack.com/p/blocked-persons
 ---
 
 Article I, Section 8, Clause 11 of the US Constitution reads:
@@ -160,7 +105,3 @@ Plotting those numbers, we get this graph:
 ![number of people on the blocked list by birth year](/img/blocked-persons/blocked.svg)
 
 Get to it, zoomers.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vr77vm/blocked_persons_and_letters_of_marque/) or [substack](https://dynomight.substack.com/p/blocked-persons).)
-</div>

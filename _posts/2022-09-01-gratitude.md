@@ -4,85 +4,14 @@ title: "Does gratitude increase happiness?"
 image: /img/gratitude/car3.jpg
 tags: 
 description: "After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?"
+excerpt: "I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming we should be thankful because: \"Hokey, unfashionable techniques like practicing gratitude turn out to have strong scientific evidence behind them.\" Sorry about that. In my defense, the internet is rife with articles from seemingly credible places that say things like this: \"Is it true that you can become healthier and happier by practicing gratitude? The short answer is yes.\""
 permalink: /gratitude/
 background_color: rgb(66,73,85)
 category: "self improvement"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-details>summary {
-  list-style: none;
-}
-summary::-webkit-details-marker {
-  display: none
-}
-summary::after {
-  content: ' ▸';
-}
-details[open] summary:after {
-  content: ' ▾';
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    substack: https://dynomight.substack.com/p/gratitude
 ---
 
-After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?
-
-{% comment %}
 I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming [we should be thankful](/thanks/) because:
 
 > Hokey, unfashionable techniques like practicing gratitude turn out to have strong scientific evidence behind them.
@@ -108,7 +37,6 @@ This also isn't to say that gratitude exercises don't *work*. If you do them and
 The problem with gratitude exercises is that *everything works*. In research, they've been compared to acts of kindness, visualizing your ideal self, keeping a mood diary, progressive muscle relaxation, and many other things. They all work. Even seemingly *neutral* things like listing your daily activities may work.
 
 Why everything seems to work is a difficult question. But regardless of the answer, I think we have mistakenly fixated on the magical properties of gratitude when it's really the magical properties of pretty much any damn positive-sounding activity you might make up.
-{% endcomment %}
 
 ## Correlation
 
@@ -396,11 +324,4 @@ There is no evidence for this. [Dickens et al. (2017)](https://doi.org/10.1080/0
 **Does gratitude practice improve the quality of your relationships?**
 
 Unclear. Compared to neutral interventions (4 studies) [Dickens et al. (2017)](https://doi.org/10.1080/01973533.2017.1323638) found quite a fairly large effect size of 0.51 for relationship quality. However, when compared to positive interventions (2 studies) the effect size was 0.00.
-{% endcomment %}
-
-{% comment %}
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/) or [substack](https://dynomight.substack.com/p/puzzle-storm).)
-</div>
-
 {% endcomment %}

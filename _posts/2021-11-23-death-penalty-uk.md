@@ -10,55 +10,6 @@ description: "How did the U.K. ban the death penalty? And what did people think 
 permalink: /death-penalty-uk/
 background_color: rgb(128,128,128)
 category: "the death penalty"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    padding-left: 0pt;
-    padding-bottom: 10pt;
-    }
-details > summary{
-  padding-bottom: 10pt;
-  padding: 0pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 When [Beccaria wrote](/death-penalty) *On Crimes and Punishments* in 1764, there were around 150 crimes punishable in Britain by death. This ["bloody code"](https://en.wikipedia.org/wiki/Bloody_Code) included crimes as small as the theft of some items worth 1 shilling. For context, a skilled worker at the time could earn around 20 shillings in a week, and 1 shilling in 1764 inflation adjusts to £7.25 (\$9.75) today.

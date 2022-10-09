@@ -7,65 +7,9 @@ description: "The puzzling movement reduce diagnostic tests because of harmful d
 permalink: /diagnostics/
 background_color: rgb(0,0,0)
 category: "rants"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-li > br {
-  margin-bottom: 0.5em;
-}
-div {
-  word-wrap: break-word;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    substack: https://dynomight.substack.com/p/the-madness-of-reduced-medical-diagnostics
+    hacker news: https://news.ycombinator.com/item?id=31446568
 ---
 
 ![when you control the full causal chain you don't need meta reasoning](/img/diagnostics/causal.jpg)

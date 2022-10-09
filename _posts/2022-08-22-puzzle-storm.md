@@ -7,65 +7,10 @@ description: "Tracking my cognitive performance for a year"
 permalink: /puzzle-storm/
 background_color: rgb(66,73,85)
 category: "self improvement"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment: 
+    reddit: https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/
+    substack: https://dynomight.substack.com/p/puzzle-storm
+
 ---
 
 A year ago, I started playing [puzzle storm](https://lichess.org/storm). This is a short game where you try to rapidly solve as many chess puzzles as you can in a few minutes.
@@ -180,7 +125,3 @@ What's really needed is to play a game on a regular schedule. The ideal would be
 * Is low variance
 
 Does such a game exist?
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/) or [substack](https://dynomight.substack.com/p/puzzle-storm).)
-</div>

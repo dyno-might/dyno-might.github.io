@@ -7,93 +7,14 @@ description: "What if you and Monty decide to cheat?"
 permalink: /conspiratorial-monty-hall/
 background_color: rgb(97,97,97)
 category: "math"
-head: "<style>
-.myfigure {
-/*border: dashed blue 1px; */
-}
-.myfigure img {
-max-width: 385px;
-width: 90%;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-.eq {
-  display:flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  font-family: Montserrat, sans-serif;
-}
-.eeq {
-  font-family: Montserrat, sans-serif;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    #reddit: https://old.reddit.com/r/dynomight/comments/xm1x2o/the_conspiratorial_monty_hall_problem_with_proofs/
+    #substack: https://dynomight.substack.com/p/conspiratorial-monty-hall
 ---
 
 The Monty Hall problem has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses. Hoping to exacerbate this problem, some time ago I announced a new and more pernicious variant: What if you and Monty try to *cheat*?
 
 Since then, many people have sent arguments. (Thank you!) Here, I'll review the problem and then go over all the arguments people sent in.
-
-{:.no_toc}
-
-<div style="font-size:90%; line-height:110%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
 
 ## Reminder
 
@@ -106,9 +27,7 @@ As a reminder, here's the standard Monty Hall problem:
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind the other closed door.
 
-<div class="myfigure">
  <img src="/img/monty-hall/game5.png">
-</div>
 
 The [well-known solution](/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/) is that you should always switch, which gets you the car ⅔ of the time.
 
@@ -465,7 +384,3 @@ Since <span class="eeq">*p*</span> and <span class="eeq">*(1-p)*</span> are non-
 **Credit:** [Marte](https://talaksan.com) (who also drew the above beautiful graph)
 
 **Why you might not like this argument:** If you made it this far, I think that's impossible.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/xm1x2o/the_conspiratorial_monty_hall_problem_with_proofs/?) or [substack](https://dynomight.substack.com/p/conspiratorial-monty-hall).)
-</div>

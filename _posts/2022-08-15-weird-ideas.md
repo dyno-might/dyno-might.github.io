@@ -7,65 +7,9 @@ description: "On asking people to consider stuff that sounds crazy"
 permalink: /weird-ideas/
 background_color: rgb(189,196,220)
 category: "communication"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    reddit: https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/
+    substack: https://dynomight.substack.com/p/weird-ideas
 ---
 
 It's frustrating to propose an idea and have people dismiss it just because it's weird. You've surely seen people ridicule ideas like worrying about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming aspartame is likely harmless but ultrasonic humidifiers might not be.
@@ -178,7 +122,3 @@ This worries me and I'm not sure what to do about it. It's tempting to say that 
 ## 8. Accept weird ideas hesitantly
 
 You don't have to update all the way. Probably you should almost never do that! In most cases, the right conclusion would be, "important if true" and maybe "I don't see an obvious flaw." This is enough to make the social process work and avoids the personal risks of acting on crazy ideas.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/) or [substack](https://dynomight.substack.com/p/weird-ideas).)
-</div>

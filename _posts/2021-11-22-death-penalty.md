@@ -11,15 +11,6 @@ description: "What does abolition of the death penalty teach us about who is in 
 permalink: /death-penalty/
 background_color: rgb(65,60,48)
 category: "the death penalty"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,350pt);
-}
-</style>
-"
 ---
 
 Who is really in charge? In democracies, policies are *correlated* with public opinion, but why? The obvious explanation is that people choose representatives, and those representatives give them what they want. But maybe the causal arrow points in the other direction---maybe elites choose policies, and the public gradually figures that since that's how things are, it must be right.

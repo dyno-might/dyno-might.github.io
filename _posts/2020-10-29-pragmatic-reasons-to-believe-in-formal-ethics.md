@@ -12,7 +12,7 @@ last_modified_at: 2021-03-11
 category: "philosophy"
 ---
 
-Here's a "low-brow" take on ethics that's worth taking seriously.
+Here's a "low-brow" take on ethics that's worth taking seriously:
 
 > Ethics isn't going to save the world. We don't need more "calculations" about the right thing to do. We need people to stop doing *obviously* wrong stuff. Ethics is boring and irrelevant to everyday life. Stop the obsessive navel-gazing and go engage with the real world.
 
@@ -35,7 +35,7 @@ If you have to choose between living in
 
 then I suggest you choose society #1.
 
-# Ethics are sometimes the cause of disagreements
+## Ethics are sometimes the cause of disagreements
 
 Everyone knows that flights emit a lot of carbon. It's also obvious that business seats take up more space than economy seats. A [study](https://theicct.org/blogs/staff/inflight-luxury-who-really-pays) took the emissions of an Airbus A380 flight from Abu-Dhabi to London and assigned them to passengers in proportion to the area of their seats. They got these numbers:
 
@@ -64,7 +64,7 @@ I think the conflict is due to *different ethical systems*. There are subtle phi
 
 As long as we just keep talking about planes and seat sizes and carbon, these conversations will never converge. The only way is to step back and state how you define "right" and how it leads to your conclusions. Ethical reasoning is a third opportunity for disagreement even when people agree on facts and values.
 
-# Where do habits come from?
+## Where do habits come from?
 
 You can't live your life constantly thinking about ethics. But you can step back once a year and consider: Do you want to change how you interact with loved ones? Volunteer? Donate money? Recycle? Participate in political action? Ethics are important when *designing* habits.
 
@@ -72,7 +72,7 @@ Is it better to spend more time reading to your kids or to help a campaign to im
 
 But these choices matter. History has shown over and that if you want to improve something, you should first measure it. Your life and time are finite. Different choices really do have enormously different impacts. But there's no way to compare these choices without something close to a fully-realized ethical theory.
 
-# Where do incentives come from?
+## Where do incentives come from?
 
 Even more importantly we need ethics when *creating incentives*. Lower speed limits save lives but cost time. Regulating pesticides in produce makes them more expensive, which might decrease how much people eat. Aggressively approving medical treatments makes them available earlier but has higher risk. Closing schools during a pandemic saves lives but hurts children's future prospects. Ugly tradeoffs are everywhere and we can't hide from them.
 
@@ -84,7 +84,7 @@ But ethics *scale*. You can participate in a single conversation about what ethi
 
 This is why public health has invented concepts like [disability adjusted life years](https://en.wikipedia.org/wiki/Disability-adjusted_life_year) and [quality adjusted life years](https://en.wikipedia.org/wiki/Quality-adjusted_life_year). These aren't egghead concepts designed to complicate things. It's simply impossible to make policy decisions in most real cases without some theoretical foundation.
 
-# Commonsense ethics have a bad track record
+## Commonsense ethics have a bad track record
 
 Not that long ago, most people believed that women shouldn't vote, homosexuality should be illegal, and cannabis users should be in jail. In 1959, [96%](https://news.gallup.com/poll/163697/approve-marriage-blacks-whites.aspx) of Americans disapproved of interracial marriage. Not long before that, many people believed slavery was acceptable. It's easy for us to believe monstrous things.
 
@@ -92,7 +92,7 @@ Given this, you have to wonder: Won't people in the future be horrified by some 
 
 But people in the past weren't all the same. There are lots of examples of people questioning the beliefs we now find so appalling. What set these people apart? I suspect it wasn't as much that they tried harder to *be good* but that they tried harder to think about goodness *systematically*.
 
-# Calibration
+## Calibration
 
 Putting numerical values on lives feels a little cold-blooded. In movies you often see a character yell "*You can't put a number on human life!*" as music swells in the background. This reflects an understandable concern that a formal ethical system might lead to terrible conclusions in real life.
 
@@ -119,7 +119,7 @@ Now, there's a tension between (a) deriving an ethical system to generalize from
 * It's bad to hit my teacher.
 * It's good to hit Kevin, I hate that guy.
 
-# Summary
+## Summary
 
 While formal ethics have limited use for everyday decisions, they still have several practical uses:
 

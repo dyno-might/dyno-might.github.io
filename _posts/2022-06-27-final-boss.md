@@ -4,65 +4,12 @@ title: "Candidate final bosses"
 image: /img/final-boss/bowser3.png
 tags: 
 description: "A debate about humanity's ultimate adversary"
+excerpt: "Evil. The problem is people doing bad things that they know are bad. Everyone just needs to stop demanding bribes and littering and murdering each other. Moral confusion. No, in reality, most people try to do the right thing most of the time. The problem is that our idea of \"right\" is a primitive instinct evolution gave us to survive and reproduce. Over the centuries, how many millions have died in battles with the people on both sides convinced they were fighting for justice? The problem isn't people being evil but that they have an underdeveloped sense of what is good."
 permalink: /final-boss/
 background_color: rgb(0,0,0)
 category: "rants"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    substack: https://dynomight.substack.com/p/final-boss
 ---
 
 

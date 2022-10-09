@@ -4,65 +4,10 @@ title: "Reasons and Persons: Watch theories eat themselves"
 image: /img/reasons-and-persons/water.jpg
 tags: philosophy
 description: "A review of the thought experiments in Reasons and Persons by Derek Parfit (part one)"
+excerpt: "You live with a group of utterly rational and self-interested people on an island, gathering coconuts to survive. Tired of working so hard, Alice builds a machine and implants it in her brain. This machine leaves her rational except when it comes to fulfilling threats, which she always does regardless of the damage to herself. She announces to the group, \"I will gather no more coconuts. Either you do it for me, or I burn the coconut trees and we all starve.\"  You regretfully conclude that your best choice is to capitulate. But every night as you gather coconuts for Alice, you wonder, where did you go wrong?"
 permalink: /reasons-and-persons/
 background_color: rgb(198,198,205)
 category: "philosophy"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 You live with a group of utterly rational and self-interested people on an island, gathering coconuts to survive.
@@ -95,13 +40,7 @@ So this is the summary of *Reasons and Persons* I would have liked to read: The 
 
 *Warning*: I often changed the scenarios quite a lot. (Parfit has no alien viruses.) I also changed the order of things, and greatly shortened or dropped most of the detailed arguments. I think this still gives *a lot* of the value, but it's definitely not a full representation of Parfit's ideas.
 
-<div style="font-size:90%" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
-
+---
 
 ## How self-interest gets into trouble
 

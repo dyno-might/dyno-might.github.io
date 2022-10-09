@@ -4,48 +4,11 @@ title: "Prediction market does not imply causation"
 image: /img/prediction-market-causation/arrows1.jpg
 tags: 
 description: "Unless you're careful, conditional prediction markets have all the same problems as observational studies."
+excerpt: "We all want to make good decisions. But it’s hard because we aren’t sure what’s going to happen. Like, say you want to know if CO₂ emissions will go up in 10 years. One of our best ideas is to have people bet. For example, I might wager my $4 that emissions will go up against your $1 that they will go down. If lots of people bet in a market, the final prices combine everyone’s wisdom and information. If bets were to stabilize at a 4:1 ratio, that suggests that the odds of emissions going up are 4 times larger than the odds of emissions going down"
 permalink: /prediction-market-causation/
 background_color: rgb(92,42,40)
 category: "math"
 head: "<style>
-body{
-  line-height: 1.4;
-}
-ul{
-  margin: 0;
-  padding: 0;
-}
-ol{
-  margin: 0;
-  padding: 0;
-}
-li{
-  margin: 8px;
-  padding: 0;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-}
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
 var{
   font-family:Montserrat;
   font-style: normal;
@@ -61,53 +24,11 @@ var{
   font-family: Montserrat, sans-serif;
   font-size: 90%;
 }
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-details>summary {
-  list-style: none;
-}
-summary::-webkit-details-marker {
-  display: none
-}
-summary::after {
-  content: ' ▸';
-}
-details[open] summary:after {
-  content: ' ▾';
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size:90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.8vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
+
 </style>
 "
+comment:
+  substack: https://dynomight.substack.com/p/prediction-market-causation
 ---
 
 [*Note*: If you’re already familiar with prediction markets, you might want to skip to [section 3](#3) or maybe even [section 6](#6).]

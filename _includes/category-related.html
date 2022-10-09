@@ -1,14 +1,11 @@
 {% comment %} RELATED BLOCK {% endcomment %}
-<div class="container">
 
-    <div class="columns is-multiline">
-        {% for post in site.posts %}
-            {% if post.category == {{include.category}} and post.title != page.title %}
-            <div class="column is-6">
-                {% assign nodate='true' %}
-                {% include post-item.html %}
-            </div>
-            {% endif %}
-        {% endfor %}
-    </div>
+<div style="padding-left: .5rem; padding-right: .5rem; padding-top:0;">
+    {% for post in site.posts %}
+        {% if post.category == {{include.category}} and post.title != page.title %}
+            {% assign nodate='true' %}
+            {% assign noexcerpt='false' %}
+            {% include post-item-blurb.html %}
+        {% endif %}
+    {% endfor %}
 </div>

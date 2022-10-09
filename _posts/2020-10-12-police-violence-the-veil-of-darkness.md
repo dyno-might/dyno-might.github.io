@@ -26,7 +26,7 @@ However, the only difference between the two groups of police is if they can see
 
 We haven't done this experiment, of course. But we've done a kind of low-tech approximation. Instead of augmented reality goggles, we use the geometry of the earth and sun. Here's the idea: Take all cars stopped by police in some around around 7:15. It will be light in summer, but dark in winter, meaning it's harder to tell the race of the driver. So we ask: does the racial mix of stopped drivers change throughout the year?
 
-# Stopping data
+## Stopping data
 
 This was first studied in [Grogger and Ridgeway](https://www.rand.org/pubs/reprints/RP1253.html) in 2006 with a small and unreliable dataset. A heroic follow-up was done by [Pierson et al.](https://5harad.com/papers/100M-stops.pdf) in 2020. They filed public records requests with 50 states and over 100 municipal police departments. (You do not, it appears, screw around with Pierson et al.) They ended up with a database of around 95 million stops from 21 state patrol agencies and 35 municipal police departments.
 
@@ -72,7 +72,7 @@ So this data is weird. I think it gives fairly *weak* evidence of a fairly *larg
 > * Suggests a larger bias than 12% since changing light only affects a fraction of situations.
 > * Could be confounded by three other things that might change during the year: Driver demographics, driver behavior, and officers' access to information other than race.
 
-# Search data
+## Search data
 
 Pierson et al. also look at a 8 state patrol agencies and 6 municipal police departments that provide extra data. For these, we know if the police decided to perform a search of the car. The results are as follows.
 
@@ -122,7 +122,7 @@ So, I think this provides moderate evidence in favor of police bias. It's no smo
 > * Police find contraband 8-30% more often in searches of whites than blacks and 31-65% more often than hispanics. This is consistent with police applying a higher threshold of evidence to trigger a search of whites.
 > * Data could be confounded by different rates of carrying contraband, different rates of giving evidence (or false evidence) of contraband, or different rates of agreeing to "voluntary" searches.
 
-# What would it take?
+## What would it take?
 
 I can imagine someone who believes police are racially biased grinding their teeth at this point. "Simple ratios show a bias, but you don't believe them. Fine. So you look at the effect of darkness. That *also* shows a bias, but you worry it's confounded. OK! Then you look at search rates. Since you don't believe the bias they show, you check the *hit rate* of searches, which are... biased. Always you invent stories about confounders. What does it take!?"
 

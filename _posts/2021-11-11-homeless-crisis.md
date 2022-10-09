@@ -7,42 +7,12 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
+excerpt: "Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say? At a glance, this doesn't look very crisisy. Since 2015, things have gone up by less than three percent. Still, I think there is a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that."
 permalink: /homeless-crisis/
 background_color: rgb(190,190,190)
 category: "obsessive investigation"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,400pt);
-}
-details{
-    padding-left: 10pt;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  padding: 0pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table{
-    font-family:Montserrat;
-}
-th, td, tr {
-    font-weight: normal;
-    border: 0!important;
-}
-table {
-  display: block;
-  width:fit-content;
-  margin: 0 auto;
-}
-h1, h2, h3, h4 {
-  font-weight: lighter;
-}
-</style>
-"
+comment:
+    hacker news: https://news.ycombinator.com/item?id=29192550
 ---
 
 Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say?
@@ -52,13 +22,6 @@ Is the US in the midst of a homelessness crisis? Many people think so, but that'
 At a glance, this doesn't *look* very crisisy. Since 2015, things have gone up by less than three percent.
 
 Still, I think there *is* a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that.
-
-<div style="font-size:90%; line-height:110%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
 
 ## Homelessness in general
 

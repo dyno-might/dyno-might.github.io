@@ -1,16 +1,4 @@
-<section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-dark" {% if page.image %} style="margin-top:3.00rem; background: url('{{ page.image | prepend: site.baseurl }}') no-repeat center center; background-size: cover; {% if page.background_color %} background-color:{{page.background_color}}; {% endif %} " {% endif %}>
-    <div class="hero-body">
-        <div class="container">
-            <!--
-            <p class="title is-2" style="text-align:center; text-shadow:0 0 5px rgba(0,0,0,1.0);">{{ page.title }}</p>
-            -->
-            {% if page.dark_title %}
-              <h1 class="title is-2" style="text-align:center; color:black; text-shadow:0 0 5px rgba(255,255,255,1.0);">{{ page.title }}</h1>
-            {% else %}
-            <h1 class="title is-2" style="text-align:center; text-shadow:0 0 5px rgba(0,0,0,1.0);">{{ page.title }}</h1>
-            {% endif %}
-
-            <p class="subtitle is-3" style="text-align:center">{{ page.subtitle }}</p>
-        </div>
-    </div>
+<div style="height:3rem;"></div>
+<section style="background: url('{{ page.image | prepend: site.baseurl }}') no-repeat center center;  background-size: cover; background-position: center;  {% if page.background_color %} background-color:{{page.background_color}}; {% endif %} height:min(450px,40vh); display:flex; justify-content:center; align-items: center;" >
+    <h1 style="text-align:center; font-size:min(calc(18pt + 3vmin), 3pt + 5vmin); color: white; text-shadow:0 0 5px rgba(0,0,0,1.0); margin-left:10pt; margin-right:10pt; font-weight: bold;">{{page.title}}</h1>
 </section>

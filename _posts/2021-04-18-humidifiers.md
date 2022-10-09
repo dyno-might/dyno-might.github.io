@@ -12,62 +12,6 @@ description: "Why it's better not to use an ultrasonic humidifier"
 permalink: /humidifiers/
 background_color: rgb(10, 10, 10)
 category: "air quality"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Let me state two things upfront:
@@ -79,18 +23,8 @@ Absolutely true! However, *as typically used*, ultrasonic humidifiers *might* ca
 
 The good news is that the problem is trivial to solve: Steam and evaporative humidifiers don't have the same issue.
 
-<div style="font-size:90%; margin-bottom: 10pt;" markdown="1">
+---
 
-## Contents
-{:.no_toc}
-
-
-* auto-gen TOC:
-{:toc}
-
-</div>
-
-<br>
 We'll start with an argument for being worried, then consider counter-arguments.
 
 ## Particles can cause health problems

@@ -10,58 +10,6 @@ description: "What's the history of attempts to abolish the death penalty in the
 permalink: /death-penalty-usa/
 background_color: rgb(42,42,59)
 category: "the death penalty"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    padding-left: 0pt;
-    padding-bottom: 10pt;
-    }
-details > summary{
-  padding-bottom: 10pt;
-  padding: 0pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Early America inherited much of [Britain's](/death-penalty-uk) bloodthirsty but arbitrary approach to the death penalty, with theoretical penalties for things like theft and rebellious children that were rarely carried out. However, executions did happen for crimes short of murder: Death was a common penalty for repeated theft, and in 1644, a couple was executed in Massachusetts for adultery.

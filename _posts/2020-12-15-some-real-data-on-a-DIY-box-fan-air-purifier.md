@@ -10,18 +10,10 @@ seo:
   date_modified: 2021-09-03
 last_modified_at: 2021-09-03
 category: "air quality"
+comment:
+  hacker news: https://news.ycombinator.com/item?id=28394752
 ---
 
-<head>
-<style>
-.figure {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 70%
-}
-</style>
-</head>
 
 [Bad air is bad for you](/air). The air purifier market, though, is a mess. Every purifier uses incompatible proprietary filters, presumably to lock you into buying replacements. How do we know these actually work? Few seem to publish lab tests. And why does it cost $100-$300 for a big plastic box with a fan and a filter inside?
 
@@ -45,7 +37,7 @@ My DIY purifier was *very* simple. (I don't want to promote any particular brand
 
 Assembly takes about 30s. You put the filters on the intake side of the fan and strap them on with the bungie cord. Here's a picture:
 
-<div class="figure"><img src="/img/purifier/filter_notape.jpg" alt="DIY purifier" max-width="60%" min-width="35%" /></div>
+<img src="/img/purifier/filter_notape.jpg" alt="DIY purifier" />
 
 Timeless elegance and grace, it is not. I get the shakes just looking at that bit of crinkled filter.
 
@@ -84,7 +76,7 @@ Since the air quality monitor doesn't log data, I used an ultra-hacky alternativ
 
 I ran a first experiment in a tiny room of around 8 ㎥. Due to worries that wind from the purifiers might change the speed the incense burned, I placed it on the opposite side of a wall, with a gap of around 20 cm near the ceiling.
 
-<div class="figure"><img src="/img/purifier/setup_tinyroom.jpg" alt="tiny room setup" /></div>
+<img src="/img/purifier/setup_tinyroom.jpg" alt="tiny room setup" />
 
 I repeated the experiment once with no filter, once with a commercial filter, and once with the DIY filter. Here are the results:
 
@@ -102,7 +94,7 @@ If we take the EPA's threshold of 12 μg/m³, the DIY filter gets there in aroun
 
 Thankfully, I don't spend most of my time in an 8 ㎥ room. Thus, I repeated the experiment in a large room of around 100 ㎥. Here there was no wall between incense and purifier. Instead I left around a meter of distance between the incense and purifier and the purifier and the monitor.
 
-<div class="figure"><img src="/img/purifier/setup_largeroom.jpg" alt="large room setup" /></div>
+<img src="/img/purifier/setup_largeroom.jpg" alt="large room setup" />
 
 Here are the results:
 
@@ -120,7 +112,7 @@ It's common advice for DIY purifiers like this to seal around the edges of the f
 
 In this case at least, experiment is easier than theory. I took packing tape and carefully sealed around the intake side.
 
-<div class="figure"><img src="/img/purifier/filter_tape.jpg" alt="DIY purifier with tape" max-width="60%" min-width="35%" /></div>
+<img src="/img/purifier/filter_tape.jpg" alt="DIY purifier with tape" max-width="60%" min-width="35%" />
 
 And the results are...
 

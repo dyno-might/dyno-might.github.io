@@ -7,63 +7,11 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "We could be a lot better at taking care of ourselves."
+excerpt: "Here are some things I'd like to know about how to live my life: 1. If I eat Brussels sprouts for dinner tonight instead of pizza, how much longer do I live (in expectation, in minutes)? 2. What should I eat to avoid getting tired after lunch? 3. If I have a glass of wine with dinner every day, how much longer/shorter do I live? What if I drink seven glasses on Saturday instead? 4. What's the impact of a 30-minute run tonight, in terms of longevity and my energy over the next month? 5. If I drink coffee every day, do I reach homeostasis and the same steady-state as if I drank none? 6. Should I even bother with this health stuff? Is it dumb to spend younger-me time now to get older-me time later? 7. How much do I reduce my life expectancy by driving 20% faster?
+8. Is the link between relationships and happiness causal? What's the best way for me to build more relationships? (Is it spending all my free time writing a pseudonymous blog?)"
 permalink: /effective-selfishness/
 background_color: rgb(143,156,105)
 category: "self improvement"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-li {
-    margin: 10pt 0;
-    }
-details{
-    padding-left: 0pt;
-    padding-bottom: 5pt;
-    }
-details > summary{
-  padding-bottom: 10pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Here are some things I'd like to know about how to live my life:

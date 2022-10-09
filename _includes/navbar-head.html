@@ -1,0 +1,15 @@
+<script>
+  var prevScrollpos = window.pageYOffset;
+
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (Math.abs(currentScrollPos - prevScrollpos) > 10){
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navnav").style.top = "0";
+      } else {
+        document.getElementById("navnav").style.top = "-60px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  }
+</script>

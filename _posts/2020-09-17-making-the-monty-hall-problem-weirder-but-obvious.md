@@ -12,19 +12,6 @@ category: "math"
 ---
 
 <head>
-<style>
-.myfigure {
-/*border: dashed blue 1px; */
-}
-.myfigure img {
-max-width: 385px;
-width: 90%;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-</style>
 </head>
 
 Here's an **Obvious Problem**:
@@ -65,9 +52,7 @@ Here's our first game.
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind all of the other 9 doors.
 
-<div class="myfigure">
  <img src="/img/monty-hall/game1.png">
-</div>
 
 There's nothing mysterious here. You should choose option B. There’s only a 10% chance you picked the right door, so there’s a 90% chance the car is behind one of the others.
 
@@ -82,9 +67,7 @@ Now, we slightly update the game (new part in bold).
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind all of the other 9 doors.
 
-<div class="myfigure">
  <img src="/img/monty-hall/game2.png">
-</div>
 
 Monty’s statement changes nothing. You don’t need to rely on his [trustworthy looks](https://en.wikipedia.org/wiki/Monty_Hall#/media/File:Monty_hall_abc_tv.JPG). You already *knew* there were at least 8 goats! Option B still gets you the car 90% of the time.
 
@@ -99,9 +82,7 @@ Let's update the game again (new part in bold).
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind all of the other 9 doors.
 
-<div class="myfigure">
  <img src="/img/monty-hall/game3.png">
-</div>
 
 The key insight is this: When Monty shows you that 8 of the 9 other doors contain goats, you haven't learned anything relevant to your decision. You *already knew there were at least 8 goats behind the other doors*! So this is just like game 2. Option B still gets you the car 90% of the time.
 
@@ -118,9 +99,7 @@ Let's make another change. Finally, we arrive at a game very similar to Monty Ha
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind **the other closed door**.
 
-<div class="myfigure">
  <img src="/img/monty-hall/game4.png">
-</div>
 
 The only difference with Game 3 is that option B doesn’t get you the 8 visible goats. Since you don’t care about goats, this makes no difference. This is still just like game 3. You get the car 90% of the time by switching.
 
@@ -135,9 +114,7 @@ Here is the last game. We just change the number of doors from 10 to 3.
   * Option A: You get whatever is behind the door you picked.
   * Option B: You get whatever is behind the other closed door.
   
-<div class="myfigure">
  <img src="/img/monty-hall/game5.png">
-</div>
   
 Of course, you still want to choose option B. The chance of success is now 2/3 instead of 9/10. This game is exactly Monty Hall, so we're done.
 
@@ -175,4 +152,6 @@ Monty promises 8 goats behind the other doors instead of showing you.<br>
 
   * Monty Hall was named “Monte” at birth! Given that [Monte Carlo simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method) are often used for exploring the Monty Hall problem, that's either a miracle for confused students or a tragedy for puns.
 
+{% comment %}
  <div align="right" style="font-size:70%">(This post is also available in <a href="https://www.youtube.com/watch?v=LCBTUtApvU8">video form</a>.)</div>
+{% endcomment %}

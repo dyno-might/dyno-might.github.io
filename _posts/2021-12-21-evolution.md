@@ -7,67 +7,6 @@ description: "Why does evolution do what it does? And if you're a sentient being
 permalink: /evolution/
 background_color: rgb(160,143,126)
 category: "psychology"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table {
-  display: table;
-  margin-bottom: 10pt;
-}
-table{
-    font-family:Montserrat;
-}
-tr{
-  border-style: hidden;
-}
-@media (min-width:501px){
-table{
-  font-size: 90%;
-  margin-left: 15%;
-  max-width:70%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  font-size: 3.2vw;
-  margin-left: 5%;
-  max-width:90%;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-  margin-left: 0%;
-  margin-right: 0%;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Here are two things that seem to be true:
@@ -80,13 +19,6 @@ Huh? Genetic evolution kept the genes associated with homosexuality around, sugg
 While this seems paradoxical at first, I think these trends may actually *reinforce* each other.
 
 More broadly, this is a good case study: Say you're a sentient being that was formed by evolutionary processes. What do those processes want, and what should you think about that?
-
-<div style="font-size:90%" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
 
 <br>
 Let's start with the evidence for the two claims.

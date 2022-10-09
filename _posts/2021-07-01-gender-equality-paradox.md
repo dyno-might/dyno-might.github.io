@@ -13,68 +13,9 @@ seo:
   date_modified: 2021-12-06
 last_modified_at: 2021-12-06
 category: "psychology"
-head: "<style>
-details{
-    }
-details summary{
-  padding-bottom: 12pt;
-}
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>"
 ---
 
 The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. While there's lots of debate in the scientific literature about the *causal implications* of this paradox, there's no agreement about a more basic question: Does the paradox even *exist*, or is it just an illusion caused by a contrived data analysis?
-
-{% comment %}
-To answer that, let's check how robust the paradox is. Does it stand up if we change how we measure *gender equality* or *women in STEM careers*?
-{% endcomment %}
-
-{% comment %}
-## Contents
-{:.no_toc}
-{% endcomment %}
-
-<div style="font-size:90%; line-height:110%;" markdown="1">
-
-* auto-gen TOC:
-{:toc}
-
-</div>
-
 
 ## The debate so far
 

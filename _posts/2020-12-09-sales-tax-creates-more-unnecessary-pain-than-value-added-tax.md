@@ -16,13 +16,13 @@ The US has sales tax. Most of the planet has VAT.
 
 Maybe it's not the most important issue in the world, but it's just so *clear*. Sales tax is dumb and VAT is better.
 
-# Before We Begin
+## Before We Begin
 
 Many people apparently believe that in the US today, sales tax is only paid by final consumers. **<a href="https://www.cost.org/globalassets/cost/state-tax-resources-pdf-pages/cost-studies-articles-reports/1903-3073001_cost-ey-sales-tax-on-business-inputs-study_final-5-16.pdf">THIS IS FALSE</a>**. It varies hugely by state, but the current situation is a hybrid between a "pure final retail consumer only" sales tax and what the toy model below describes. You can debate if it's "sales tax" or "gross receipts tax" or whatever, but it's a fact that *businesses pay tax on business inputs* all the time. You can find proof of this <a href="https://www.cost.org/globalassets/cost/state-tax-resources-pdf-pages/cost-studies-articles-reports/1903-3073001_cost-ey-sales-tax-on-business-inputs-study_final-5-16.pdf">here</a> or <a href="https://www.ncsl.org/documents/standcomm/sccomfc/Business-Inputs-Study.pdf">here</a> or <a href="https://www.jstor.org/stable/41788786">here</a> or <a href="https://en.wikipedia.org/wiki/Gross_receipts_tax#United_States">here</a>.
 
 I emphasize that the explanation below is a toy, intended to illustrate in the simplest possible way how specialization gets punished when transfers are taxed in proportion to their values. The current reality not *nearly* this bad due to many complex exemptions, as I discuss at the end. But the flaw described *does* exist and *does* punish specialization.
 
-# The Decorative Coconut Model
+## The Decorative Coconut Model
 
 Say you decide to get into the decorative [coconut]((https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)) manufacturing business.
 
@@ -46,7 +46,7 @@ Painted coconut|$2 (raw coconut+paint)|$1|$3
 Finished coconut|$3 (painted coconut)|$1|$4
 Retail coconut|$4 (finished coconut)|$1|$5
 
-# The Sales Tax Regime
+## The Sales Tax Regime
 
 For a while, everything runs beautifully. Every day you wake eager to help capture more beauty in coconut form — and then the government announces a 20% sales tax. Whenever you sell something, you need to pay 20% of the sale price to the government.
 
@@ -66,7 +66,7 @@ Retail coconut|$6.10|$1|$7.10|$8.52
 
 Your customers aren't thrilled about the increase in price, but what are they going to do — live *without* painted coconuts? So they pay the higher price, the government gets its tax, and life continues.
 
-# Your Annoying Cousin
+## Your Annoying Cousin
 
 A few months later, your unscrupulous  cousin hears about your business. He's the jealous type and decides to try stealing your customers. He opens a store and finds four friends to help make coconuts. Unlike you, however, he hires everyone as *employees*. He sells the coconuts for $6 ($5 plus tax) and gives everyone $1 per coconut in wages.
 
@@ -76,7 +76,7 @@ Your cousin and friends don't appreciate the subtle art of coconut decoration. E
 
 How could this happen? Your team was asking for the same profit while doing a better job! Yet everyone is left with your cousin's knock-off coconuts.
 
-# The VAT Regime
+## The VAT Regime
 
 Suppose the government had instead announced a 20% VAT. With a VAT, whenever you sell something, you only pay tax on the sale price *minus the price of the stuff you bought to make it*.
 
@@ -96,7 +96,7 @@ Retail coconut|$4.80|$1|$5.80|$6.00
 
 The final price is $6.00. Since your coconuts are better, your cousin won't be able to drive you out of business with his low-grade stuff.
 
-# The Problem with Sales Tax
+## The Problem with Sales Tax
 
 What happened? Your cousin created a *vertically integrated* business. A sales tax is collected every time someone buys something. If you just do it yourself, no tax is collected.
 
@@ -106,7 +106,7 @@ However, take your chain of independent independent artisans making and selling 
 
 There are times where vertical integration is better. (If everyone is independent, a lot of time is spent on negotiations!) That's perfectly fine. What we *don't* want is to artificially encourage vertical integration even when it's less efficient, which sales tax does.
 
-# The VAT Advantage
+## The VAT Advantage
 
 Another advantage of the VAT is it tends to be easier to enforce. When I sell something, I need to provide certificates proving I paid VAT on my inputs. This gives everyone an incentive to ensure compliance in the previous layer of the chain. With a sales tax, the government needs to watch every single transaction.
 

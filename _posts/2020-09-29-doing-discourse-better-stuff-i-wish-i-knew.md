@@ -8,22 +8,6 @@ permalink: /:year/:month/:day/:title/
 category: "communication"
 ---
 
-<head>
-<style>
-.myfigure {
-/*border: dashed blue 1px; */
-}
-.myfigure img {
-max-width: 385px;
-width: 90%;
-height: auto;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-</style>
-</head>
-
 # Talking about sugar
 
 Nick and Maria want to talk about sugar. Does it reduce lifespan? They disagree, but are honest and principled. They want to find the truth and agree on it.
@@ -64,9 +48,7 @@ Just think about it. The world is a complex place. Want to understand the effect
 
 # Dimensions of forums
 
-<div class="myfigure">
  <img src="https://dyno-might.github.io/img/discourse/conversational_graphs.png">
-</div>
 
 Online forums have various design dimensions.
 

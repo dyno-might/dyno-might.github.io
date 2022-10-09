@@ -48,7 +48,7 @@ Two notes about the content below:
 
 ---
 
-# How viruses work
+## How viruses work
 
 **How does COVID-19 work?**
 
@@ -92,7 +92,7 @@ Most of the symptoms (cough, fever, etc.) are caused by the activated immune sys
 
 ---
 
-# The three fundamental mechanisms
+## The three fundamental mechanisms
 
 **How does the immune system kill viruses?**
 
@@ -112,7 +112,7 @@ There are basically two ways. First, there are specialized immune cells called n
 
 ---
 
-# Immunity
+## Immunity
 
 **What is the physical difference between a person who is immune to COVID-19 and a person who is not immune?**
 
@@ -144,7 +144,7 @@ We don't test for memory T-cells or B-cells because we don't know how to do it. 
 
 ---
 
-# Vaccines
+## Vaccines
 
 **How do COVID vaccines work?**
 
@@ -172,13 +172,13 @@ The risk of getting COVID-19 from the vaccine is zero. You are only putting the 
 
 ---
 
-### For any immunologists reading this
+## For any immunologists reading this
 
 Obviously, I'd be grateful for any corrections. Also, here's two questions we couldn't resolve. If you know the answer (particularly if you can explain it in Human) please get in touch!
 * In order for RNA vaccines to work, is it really necessary for the host cell to die? If so, *why* does the cell die? Is it just by chance, or does it die *because* of the vaccine?
 * There's a story about how you might get immunity faster, without needing to wait for a cell to die: Some vaccine particles might happen to direclty enter into antigen presenting cells (APCs). If that happens, the APCs would make the spike protein, just like any other cell, but then *immediately* present it on their surface without needing to die, allowing memory cells to form quickly. Does this really happen? And does it happen enough to actually speed immunity? Wouldn't only a tiny percentage of the vaccine particles happen to hit APCs?
 
-# References
+## References
 
 [^1]: Shah et al., [Overview of Immune Response During SARS-CoV-2 Infection: Lessons From the Past](https://www.frontiersin.org/articles/10.3389/fimmu.2020.01949/full), Frontiers in Immunology, 2020
 [^2]: Li et al. [SARS‐CoV‐2: Mechanism of infection and emerging technologies for future prospects](https://onlinelibrary.wiley.com/doi/full/10.1002/rmv.2168), Reviews in Medical Virology, 2020

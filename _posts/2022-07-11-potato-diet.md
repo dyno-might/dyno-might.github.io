@@ -4,68 +4,14 @@ title: "Thoughts on the potato diet"
 image: /img/potato-diet/potato.jpg
 tags: 
 description: "Nine observations about what happens when you eat only potatoes"
+excerpt: "You've probably heard about the potato diet. If not, here it is: 1. Eat potatoes. 2. As many as you want. 3. Oil and salt are OK. 4. Don't eat other stuff. I thought this sounded delightfully absurd so I tried it for a few weeks. Here are some observations."
 permalink: /potato-diet/
 background_color: rgb(180,183,188)
 category: "self improvement"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-.highlighter-rouge{
-  color:black;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment: 
+    reddit: https://old.reddit.com/r/dynomight/comments/vwmdmr/thoughts_on_the_potato_diet/
+    substack: https://dynomight.substack.com/p/potato-diet
+    hacker news: https://news.ycombinator.com/item?id=32058674
 ---
 
 You've probably heard about the [potato diet](https://slimemoldtimemold.com/2022/04/29/potato-diet-community-trial-sign-up-now-lol/). If not, here it is:
@@ -241,7 +187,3 @@ So I've been pondering an alternative "thermostat" strategy. Say you want to wei
 4. Repeat forever.
 
 Is there any research on something like this? A key assumption is that you lose weight on the fad diet more quickly than you gain it eating *ad libitum*---otherwise you'd be spending half your time on a fad diet, which doesn't seem healthy. Optimistically, "fear of a potato week" might lead you to control portions all the time, meaning you don't need to Go Potato too often.
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vwmdmr/thoughts_on_the_potato_diet/) or [substack](https://dynomight.substack.com/p/potato-diet).)
-</div>

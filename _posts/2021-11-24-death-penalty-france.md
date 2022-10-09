@@ -11,55 +11,6 @@ description: "How did France ban the death penalty? And what did people think ab
 permalink: /death-penalty-france/
 background_color: rgb(25,29,74)
 category: "the death penalty"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,500pt);
-}
-details{
-    padding-left: 0pt;
-    padding-bottom: 10pt;
-    }
-details > summary{
-  padding-bottom: 10pt;
-  padding: 0pt;
-  padding-left: 5pt;
-  cursor: pointer;
-}
-table tr{
-    border-style: hidden;
-    text-align:center;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 3.2vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
 ---
 
 Capital punishment was debated during the French revolution (1789-1799). Due to the influence of [Beccaria](/death-penalty) and Voltaire, the discussion was similar to how the death penalty is discussed today. [Robespierre](https://en.wikipedia.org/wiki/Maximilien_Robespierre) said "The state's execution of the death penalty is legalized murder." (Though as Hammel points out, "given his later role in the Terror, one has to wonder about Robespierre's sincerity".)

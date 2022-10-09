@@ -7,30 +7,13 @@ hero_light: false
 dark_title: false
 background_color: black
 description: "Why did a huge alcohol RCT get cancelled? A strange story of science, academia, bureaucratic maneuvering, ambition, politics, capitalism, the deep state, secret emails, and slippery ethical slopes."
+excerpt: "What does drinking do to your health? We can say two things with confidence: 1.  Drinking is associated with lots of health problems. 2. Heavy drinking is bad for you. Here's a graph of some associations. Someone who averages 10 drinks per day is 50x more likely to get cirrhosis than someone who doesn't drink at all (controlling for age, sex, and drinking history). This looks bad, but there are two caveats. First, it doesn't establish causality. It could be—if all you had was this figure—that cirrhosis causes hormonal changes that in turn create the urge to drink more. But we do know that heavy drinking is bad. That's partly because we know *how* alcohol causes problems. It causes cirrhosis by destroying liver cells. It causes cancer by getting converted to acetaldehyde and then damaging DNA. There are also randomized controlled trials (RCTs) that take heavy drinkers and get them to drink less. These inevitably show improved health (either health outcomes or biomarkers like blood pressure).
+"
 permalink: /alcohol-trial/
 background_color: rgb(182,182,182)
 category: "obsessive investigation"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 1pt;
-}
-details > *:not(summary){
-  margin-left: 5pt;
-}
-</style>
-"
+comment:
+    hacker news: https://news.ycombinator.com/item?id=28748037
 ---
 
 What does drinking do to your health? We can say two things with confidence:
@@ -63,15 +46,9 @@ So we don't know if moderate drinking is bad for you. It almost certainly causes
 
 This is the story of a trial that came close to answering this question and then exploded. At first, this looks like a simple story of corruption but when you look closely it's a *very complicated* story of corruption. {% comment %}Also, many of us have been shaken recently by the seemingly inexplicable things that happen when the government and scientific community interact. This is a peek behind the curtain---a case study of how things can go wrong despite so many people behaving rationally.{% endcomment %}
 
-<div style="font-size:90%" markdown="1">
+---
 
-* auto-gen TOC:
-{:toc}
-
-</div>
-
-
-# We need an RCT
+## We need an RCT
 
 You might be thinking, "what we need to do is compare the health of people who drink different amounts, while controlling for income, diet, education, exercise, etc." The problem is that to a first approximation, "controlling" for things doesn't work. It requires tons of different assumptions, like what you control for, how you code stuff, and how you model everything. Reasonable people can disagree about those assumptions. For alcohol, reasonable people *do* disagree, and so they get estimates that are [all over the place](https://doi.org/10.1007/s11886-018-0962-2).
 
@@ -86,7 +63,7 @@ Lots of things make this hard. Because the expected effects aren't huge, you nee
 
 An international effort monitoring thousands of people around the world for years---does that sound expensive?
 
-# A solution
+## A solution
 
 Back around 2013, the NIH's National Institute on Alcohol Abuse and Alcoholism ([NIAAA](https://en.wikipedia.org/wiki/National_Institute_on_Alcohol_Abuse_and_Alcoholism)) got interested in funding this. They figured it would cost on the order of \$100 million for the full trial. This doesn't seem crazy given the NIAAA's $500 million [annual budget](https://www.niaaa.nih.gov/about-niaaa/our-funding/congressional-budget-justification), but the NIAAA has lots of other priorities and didn't feel they had the money.
 
@@ -113,7 +90,7 @@ If you're brave, you can read the [165-page report](https://acd.od.nih.gov/docum
 
 After spending way too much time reconstructing things, here's the full story as best as I can tell.
 
-# Timeline
+## Timeline
 
 (If you want an even-more-obsessive amount of information about the timeline, you can click on (more) after each of the sections.)
 
@@ -427,7 +404,7 @@ There's also this:
 
 **June 15, 2018.** Based on a [recommendation](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) from an NIH working group, Collins [terminates](https://acd.od.nih.gov/documents/presentations/06152018Tabak.pdf) the study.
 
-# Skepticism
+## Skepticism
 
 You might think I'm out of my mind, but it's hard for me to celebrate this trial being canceled. Obviously, lots of inappropriate stuff happened. But when you think about *why* you'd cancel the trial, the arguments aren't as strong as you might think. Here are the arguments I've seen:
 
@@ -501,7 +478,7 @@ Sure, I agree journalists might oversimplify things and confuse people. (Can any
 
 The final NIH report notes that the researchers do not have "equipoise". You could interpret this two ways. One, you might say the whole thing seems rotten and damn the logic of it. The other is that it looks bad *for the NIH*---that even if useful, it needs to be canceled to preserve trust in the institution. I understand this. But if that's the reason to cancel, it makes me sad.
 
-# A defense of the main characters
+## A defense of the main characters
 
 When I first read about this trial blowing up, I was stupefied---how could everyone have been so shameless? What were they thinking?
 
@@ -553,7 +530,7 @@ So why did he hide the earlier meetings? Likely, Mukamal felt the public couldn'
 
 So my guess is that Mukamal was basically a well-intentioned researcher who happened to have pro-alcohol views. He took an opportunity to try to prove his pet theory, and then kind of fell down a slippery slope where he was making gradually larger and larger ethical compromises in pursuit of a goal that he thought was worthy.
 
-# Rage
+## Rage
 
 Having written that defense, I'd now like to explain why it's wrong and I'm furious about every aspect of this story.
 

@@ -4,65 +4,14 @@ title: "Contra Wirecutter on the IKEA air purifier"
 image: /img/ikea-purifier/wires-prog.jpg
 tags: science
 description: "The Wirecutter's review of the IKEA air purifier is a mishmash of scientific errors, shoddy testing, and self-contradictory logic."
+excerpt: "IKEA has recently made some moves into the air purifier space. The Wirecutter is not impressed. They allow that this purifier is inexpensive and pretty. But still, it's terrible and you should instead buy a different purifier that totally coincidentally happens to pay affiliate marketing commissions.  When reading this review, I couldn't help but notice that it's rife with factual errors, misleading statements, and self-contradictory experiments. I also noticed that this stems from an ignorance of basic science, air filtration standards, IKEA's public specs, and the same common-sense logic the Wirecutter uses elsewhere for other purifiers."
 permalink: /ikea-purifier/
 background_color: rgb(0,0,0)
 category: "air quality"
-head: "<style>
-img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:min(100%,450pt);
-}
-details{
-    margin-bottom: 10pt;
-    background: #eeeeee;
-    }
-details > summary{
-  padding-bottom: 0pt;
-  cursor: pointer;
-  background: #ffffff;
-  padding-bottom: 5pt;
-}
-details > *:not(summary){
-  margin-top: 0pt;
-  margin-left: 5pt;
-}
-table{
-    font-family:Montserrat;
-}
-table tr{
-    border-style: hidden;
-    text-align:left;
-}
-@media (min-width:501px){
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 90%;
-}
-}
-@media (max-width:500px) and (min-width:301px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 2.4vw;
-}
-}
-@media (max-width:300px) {
-table{
-  max-width:100;
-  max-width:100%;
-  font-size: 0.5em;
-}
-.fixed{
-    max-width:100;
-    max-width:100%;
-    overflow:scroll;
-}
-}
-</style>
-"
+comment:
+    reddit: https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/
+    substack: https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air
+    hacker news: https://news.ycombinator.com/item?id=31812259
 ---
 
 <span style="font-size:80%" markdown="1">
@@ -101,7 +50,7 @@ They make a big deal about this, which is weird since ["true-HEPA" has no legal 
 
 What *is* the filter that the IKEA purifier uses? Well, perhaps we should, I don't know, read the IKEA website?
 
-![ikea page](/img/ikea-purifier/ikea-page2.jpg){: loading="lazy" width="1395px" height="876px"}
+![ikea page](/img/ikea-purifier/ikea-page2.jpg){: loading="lazy" height="957" width="860"}
 
 (This, *this* is the kind of groundbreaking research I dreamed of when starting this blog.)
 
@@ -434,7 +383,3 @@ Here's a list of the biggest mistakes in the Wirecutter's review:
 People are suspicious about the motives of online reviews (why could that be?) so just to state it outright: I make no money. I haven't linked to any purifiers, and IKEA has no affiliate program anyway. The only motive here is indignation.
 
 </details>
-
-<div style="font-size:70%; text-align:right;" markdown="1">
-(Comment on [reddit](https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/) or [substack](https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air).)
-</div>

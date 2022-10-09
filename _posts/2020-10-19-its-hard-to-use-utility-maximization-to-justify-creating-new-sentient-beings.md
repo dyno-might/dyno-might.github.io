@@ -26,7 +26,7 @@ Middlebrow | 6 | 5
 
 Since Middlebrow provides the most *total* pleasure, they see Middlebrow.
 
-# The puppy offer
+## The puppy offer
 
 A few months later, they are walking in the park and run into their neighbor Maria. She has an *insanely* cute dog. Cedric admits it's adorable, but Bertrand completely loses his mind. As he rolls around on the ground with the dog, they have the following conversation:
 
@@ -80,15 +80,15 @@ Get a dog | 14 | 8 | 5
 
 **Maria:** "Let me tell you a couple stories..."
 
-# The rat king
+## The rat king
 
 You're a rat. You move onto a pristine island with your gorgeous and adoring rat-spouse. You relax on the beach, read poetry and eat coconuts. You are about to make love when you are struck by a [vision](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/): What happens when you keep breeding? As the population grows, resources will be exhausted. Cultural and genetic evolution will favor ruthlessness, and gradually prune away any focus on kindness or beauty. 100 generations from now, the island will be an overcrowded hellscape of inbreeding and cannibalism. Their lives will be worse than death. Should you go ahead and procreate?
 
-# Simulator settings
+## Simulator settings
 
 You are the Singularity. You've decided to start running some human simulations. You have huge but finite computational power. You can simulate 1000 humans on 'ultra', with every whim attended to and the simulated humans experiencing nothing but joy and contentment. Or you can simulate 10,0000 humans on 'low', meaning they mostly wade around in mud and try not to starve. All simulations are conscious. Which is better?
 
-# The normalization problem
+## The normalization problem
 
 Bertrand and Cedric are basically attempting to make decisions using **utilitarianism**. It could be summarized as:
 
@@ -122,7 +122,7 @@ Sure, this provides some kind of a trade-off between population size and average
 
 When the population is *fixed*, none of these distinctions matter. The same action is best regardless of the variant. But when the population changes, there's just no single answer for the "right" way to apply utilitarianism.
 
-# More realistic examples
+## More realistic examples
 
 Maybe you can make puppy decisions without a formal ethical system. Maybe you don't see rat kingship in your future. Fine, but there are many real situations today where exactly this issue emerges. Here's two:
 
@@ -132,7 +132,7 @@ Maybe you can make puppy decisions without a formal ethical system. Maybe you do
 
 If these questions have answers, “basic utilitarianism” alone doesn’t give them.
 
-# Conclusion
+## Conclusion
 
 I don't meant to claim that these problems are irresolvable or necessarily even *hard*! My point is just that it's difficult to resolve them *using utilitarianism*. Personally, this gives me pause. I tend to fall back on utilitarianism as a first line of defense for most ethical questions. But if it's so easy to create situations where it gives ambiguous answers, should I trust it in regular situations?
 
