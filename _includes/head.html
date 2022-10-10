@@ -1,8 +1,6 @@
 <head>
 
-  {% comment %} <!-- don't want to load this in luu mode -->
   {% if page.image %}<link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">{% endif %}
-  {% endcomment %}
 
     <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/ttf" crossorigin />
 
@@ -52,7 +50,6 @@
   }
   var viewmode = getCookie("viewmode");
   if(viewmode && viewmode != "{{ site.baseurl }}/assets/css/app.css"){
-      console.log("changing css");
       document.getElementById('pagestyle').setAttribute('href', viewmode);
   }
   // window.onload = function(){
