@@ -1,20 +1,43 @@
    
 <!-- font-size:min(max(3vw,5pt),12pt); -->
 
-<div class="headerfont noscrollbar" id="navnav" style="overflow: scroll; white-space:nowrap;  height:3em; display:flex; align-items: center; font-size:12pt; width:100%">
-    <a class="navbaritem" href="{{ site.baseurl }}/">DYNOMIGHT</a>
-                
-    <a class="navbaritem" href="{{ site.baseurl }}/about/" style="font-size:70%;">ABOUT</a>
+<div class="normalonly">
+    <div class="headerfont noscrollbar" id="navnav" style="overflow: scroll; white-space:nowrap;  height:3em; display:flex; align-items: center; font-size:12pt; width:100%">
+        <a class="navbaritem" href="{{ site.baseurl }}/">DYNOMIGHT</a>
+                    
+        <a class="navbaritem" href="{{ site.baseurl }}/about/" style="font-size:70%;">ABOUT</a>
 
-    <a class="navbaritem" href="{{ site.baseurl }}/feed.xml" style="font-size:70%;">RSS</a>
+        <a class="navbaritem" href="{{ site.baseurl }}/feed.xml" style="font-size:70%;">RSS</a>
 
-    <a class="navbaritem" href="https://dynomight.substack.com" style="font-size:70%;">SUBSTACK</a>
+        <a class="navbaritem" href="https://dynomight.substack.com" style="font-size:70%;">SUBSTACK</a>
 
-        <form class="navbaritem" action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="margin-bottom:0;"> 
-            {% comment %} subscribe to future posts {% endcomment %}
-            <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 16ch; border:0; margin:0; padding-left:3pt; padding-right: 0pt; background-color:#eeeeee; height:2em; font-size:60%;" required> 
-            <input type="hidden" name="_subject" value="SUBSCRIBE HAMB {{page.title | slice: 0,20}}" /><input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /><input type="hidden" name="_captcha" value="false" /><input type="hidden" name="_url" value="https://dynomight.net/" /><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.7); vertical-align: middle; margin:0;"><label for="guide" class="headerfont" style="font-size:60%; padding-right:0px; vertical-align:middle; margin-right:3px; height:2em; display:flex; align-items:center;">guide to life</label>
-            <button type="submit" class="headerfont" style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:2em; cursor:pointer; font-size:60%;">subscribe</button>
+            <form class="navbaritem" action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="margin-bottom:0;"> 
+                {% comment %} subscribe to future posts {% endcomment %}
+                <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 16ch; border:0; margin:0; padding-left:3pt; padding-right: 0pt; background-color:#eeeeee; height:2em; font-size:60%;" required> 
+                <input type="hidden" name="_subject" value="SUBSCRIBE HAMB {{page.title | slice: 0,20}}" /><input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /><input type="hidden" name="_captcha" value="false" /><input type="hidden" name="_url" value="https://dynomight.net/" /><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(.7); vertical-align: middle; margin:0;"><label for="guide" class="headerfont" style="font-size:60%; padding-right:0px; vertical-align:middle; margin-right:3px; height:2em; display:flex; align-items:center;">guide to life</label>
+                <button type="submit" class="headerfont" style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:2em; cursor:pointer; font-size:60%;">subscribe</button>
+            </form>
+    </div>
+</div>
+
+<div class="luuonly">
+    <div>
+        <a href="{{ site.baseurl }}/">DYNOMIGHT</a>
+                    
+        <a href="{{ site.baseurl }}/about/">ABOUT</a>
+
+        <a href="{{ site.baseurl }}/feed.xml">RSS</a>
+
+        <a href="https://dynomight.substack.com">SUBSTACK</a>
+
+        <form class="navbaritem" action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+            <input type="email" class="headerfont" name="email" placeholder="email@email.com" required> 
+            <input type="hidden" name="_subject" value="SUBSCRIBE HAMB {{page.title | slice: 0,20}}" />
+            <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" />
+            <input type="hidden" name="_captcha" value="false" /><input type="hidden" name="_url" value="https://dynomight.net/" />
+            <input type="checkbox" id="guide2" name="guide2" value="guide2">
+            <label for="guide2" class="headerfont">guide to life</label>
+            <button type="submit" class="headerfont">subscribe</button>
         </form>
-
+    </div>
 </div>

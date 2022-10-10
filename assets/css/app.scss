@@ -146,6 +146,14 @@ body{
   margin:auto;
 }
 
+.blurbs{
+  margin:10pt;
+}
+
+.after-content{
+  padding: .5rem;
+}
+
 
 // stuff to make details look different
 
@@ -297,10 +305,6 @@ video{
   text-decoration: none;
 }
 
-.blurb{
-  color:$normal-quote-color;
-}
-
 #navnav {
   position: fixed;
   top: 0;
@@ -309,6 +313,79 @@ video{
   transition: top 0.25s;
   opacity: 100%;
   background-color: $normal-navbar-bg-color;
+}
+
+// make links not look like links
+.no-link-effect{
+  text-decoration: none;
+  color: inherit;
+}
+.no-link-effect:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.no-link-effect:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+// post-item-blurb stuff
+.blurb-div{
+  display:flex;
+  justify-content: center;
+  gap:10pt;
+  margin-top:40px;
+}
+.blurb-text{
+  max-width:90ch;
+  flex:1;
+}
+.blurb-words{
+  font-size:calc(0.042 * min(360px,90vw));
+}
+.blurb-title{
+  line-height: 1.1;
+  margin-top: 0pt;
+  font-size:calc(0.065 * min(360px,90vw));
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+.blurb-title:visited{
+  color: inherit;
+  text-decoration: none;
+}
+.blurb-title:hover{
+  color: inherit;
+  text-decoration: none;
+}
+.blurb-quote{
+  color:$normal-quote-color;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align:justify;
+}
+
+// classes to turn stuff on and off in certain modes
+.normalonly{
+  display:inherit;
+}
+.luuonly{
+  display:none;
+}
+
+#brutalism-selector{
+  font-family: $family-sans-serif;
+  margin:10pt;
+}
+
+#default-button{
+  color:red;
+  cursor: pointer;
+}
+#luu-button{
+  color:inherit;
+  cursor: pointer;
 }
 
 // DARK MODE OVERRIDES
@@ -353,7 +430,7 @@ video{
     text-decoration: underline $dark-text-color;
   }
   
-  .blurb{
+  .blurb-quote{
     color:$dark-quote-color;
   }
   

@@ -1,4 +1,7 @@
-<div style="height:3rem;"></div>
-<section style="background: url('{{ page.image | prepend: site.baseurl }}') no-repeat center center;  background-size: cover; background-position: center;  {% if page.background_color %} background-color:{{page.background_color}}; {% endif %} height:min(450px,40vh); display:flex; justify-content:center; align-items: center;" >
+<div class="normalonly" style="height:3rem;"></div>
+<div class="normalonly">
+    <section id="hero" class="normalonly" style="background: url('{{ page.image | prepend: site.baseurl }}') no-repeat center center; {% if page.background_color %} background-color:{{page.background_color}}; {% endif %}  background-size: cover; background-position: center; height:min(450px,40vh); display:flex; justify-content:center; align-items: center;" >
     <h1 style="text-align:center; font-size:min(calc(18pt + 3vmin), 3pt + 5vmin); color: white; text-shadow:0 0 5px rgba(0,0,0,1.0); margin-left:10pt; margin-right:10pt; font-weight: bold;">{{page.title}}</h1>
 </section>
+</div>
+<h1 class="luuonly">{{page.title}}</h1>

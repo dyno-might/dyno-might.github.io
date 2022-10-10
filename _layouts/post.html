@@ -26,7 +26,7 @@ layout: default
       {% include comments-and-replies.html %}
     </div>
     
-  <section class="maintext" style="">
+  <section class="maintext">
     {{ content }}
 
   {%- comment -%} Comments / follow ups {% endcomment %}
@@ -40,7 +40,7 @@ layout: default
 
 {% comment %} SIGNUP STUFF {% endcomment %}
 {% unless page.is_category_page %}
-<div class="headerfont" style="margin-bottom:10pt; font-size:120%; padding: .5rem;">
+<div class="headerfont after-content" style="margin-bottom:10pt; font-size:120%;">
   <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
     <div style="display:inline-block">
       Subscribe via <a href="/feed.xml">RSS</a> or <a href="https://dynomight.substack.com">substack</a> or here:
@@ -64,14 +64,14 @@ layout: default
 {% comment %} SHOW RELATED CARDS {% endcomment %}
     {% if page.is_category_page %}
       <p>
-      <div class="headerfont" style="font-size:120%; margin-bottom:10pt; padding: .5rem;">All <a href="/categories/">categories</a></div>
-      <div class="headerfont" style="font-size:120%; margin-bottom:10pt; padding: .5rem;">All posts on {{page.category}}</div>
+      <div class="headerfont after-content" style="font-size:120%; margin-bottom:10pt;">All <a href="/categories/">categories</a></div>
+      <div class="headerfont after-content" style="font-size:120%; margin-bottom:10pt;">All posts on {{page.category}}</div>
       {% include category-related.html category=page.category%}
     {% else if page.category %}
     
       {% for item in site.pages %}
         {% if item.is_category_page == true and item.category==page.category %}
-            <div class="headerfont" style="font-size:120%; margin-bottom:0; padding: .5rem;">Also about <a href="{{item.url}}">{{page.category}}</a></div>
+            <div class="headerfont after-content" style="font-size:120%; margin-bottom:0;">Also about <a href="{{item.url}}">{{page.category}}</a></div>
             {% break %}
         {% endif %}
       {% endfor %}

@@ -1,6 +1,8 @@
 <head>
 
+  {% comment %} <!-- don't want to load this in luu mode -->
   {% if page.image %}<link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">{% endif %}
+  {% endcomment %}
 
     <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/ttf" crossorigin />
 
@@ -12,8 +14,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+    <title>{{ page.title }}</title>   
+    <link id="pagestyle" rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
     <link rel="shortcut icon" type="image/svg+xml" href="{{ site.baseurl }}/favicon.svg" sizes="any">
     <link rel="alternate"  type="application/atom+xml"     href="/feed.xml">
@@ -32,5 +34,52 @@
 <script data-goatcounter="https://dynomight.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 {% include navbar-head.html %}
+
+<script>
+  function setCookie(name, value, days){
+      var d = new Date();
+      d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
+      document.cookie = name + "=" + value + "; expires=" + d.toUTCString() + "; path=/";
+  }
+  function getCookie(name){
+      var cookies = document.cookie.split(";");
+      for(var i = 0; i < cookies.length; i++){
+          var ck = cookies[i].trim().split("=");
+          if(ck[0] == name)
+          return ck[1];
+      }
+      return false;
+  }
+  var viewmode = getCookie("viewmode");
+  if(viewmode && viewmode != "{{ site.baseurl }}/assets/css/app.css"){
+      console.log("changing css");
+      document.getElementById('pagestyle').setAttribute('href', viewmode);
+  }
+  // window.onload = function(){
+  //     var viewmode = getCookie("viewmode");
+  //     if(viewmode){
+  //         document.getElementById('pagestyle').setAttribute('href', viewmode);
+  //     }
+  // }
+  function swapStyleSheet(sheet){
+      document.getElementById('pagestyle').setAttribute('href', sheet);
+      setCookie("viewmode", sheet, 30);
+  }
+  function setCookie(name, value, days){
+      var d = new Date();
+      d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000);
+      document.cookie = name + "=" + value + "; expires=" + d.toUTCString() + "; path=/";
+  }
+  function getCookie(name){
+      var cookies = document.cookie.split(";");
+      for(var i = 0; i < cookies.length; i++){
+          var ck = cookies[i].trim().split("=");
+          if(ck[0] == name)
+          return ck[1];
+      }
+      return false;
+  }
+</script>
+
 
 </head>

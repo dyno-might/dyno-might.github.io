@@ -1,6 +1,6 @@
 {% comment %} RELATED BLOCK {% endcomment %}
 
-<div style="padding-left: .5rem; padding-right: .5rem; padding-top:0;">
+<div class="after-content" style="padding-right: .5rem; padding-top:0;">
     {% for post in site.posts %}
         {% if post.category == {{include.category}} and post.title != page.title %}
             {% assign nodate='true' %}

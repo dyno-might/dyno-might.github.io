@@ -1,14 +1,18 @@
-<a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none; color:inherit;">
     {% assign defaultcolor = "gray" %}
-    <div style="display:flex; justify-content: center; gap:10pt; margin-top:40px;">
-        <div class="hidden-mobile">
-            <img src="{{ post.image | prepend: site.baseurl }}" style="width:min(360px,90vw); height:calc(min(360px,90vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
+    <div class="blurb-div">
+        <div class="normalonly">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect hidden-mobile">
+            <img src="{{ post.image | prepend: site.baseurl }}" class="hidden-mobile" style="width:min(360px,90vw); height:calc(min(360px,90vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
+            </a>
         </div>
-        <div style="max-width:90ch; flex:1;">
-            <div class="headerfont" style="line-height: 1.1; margin-top: 0pt; font-size:calc(0.065 * min(360px,90vw)); font-weight: bold;">
+        <div class="blurb-text">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="blurb-title">
+            <div class="headerfont">
                 {{post.title}}
             </div>  
-            <div style="font-size:calc(0.042 * min(360px,90vw));">
+            </a>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
+            <div class="blurb-words">
                 <p class="headerfont" style="margin-top: 7px; margin-bottom: 7px;">
                     {{ post.description }}
                     {% unless nodate %}
@@ -21,9 +25,10 @@
                     {% if excerpt.size < 50 %}
                         {% assign excerpt=post.content | markdownify | strip_html %}
                     {% endif %}
-                    <p class="headerfont blurb" style="margin-top: 3px; margin-bottom: 3px; text-align:justify;">{{excerpt | truncatewords: 60}}</p>
+                    <p class="headerfont blurb-quote normalonly">{{excerpt | truncatewords: 50}}</p>
                 {% endunless %}
             </div>
+            </a>
         </div>
     </div>
 </a>

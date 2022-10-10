@@ -1,0 +1,41 @@
+---
+---
+
+@charset "utf-8";
+
+.normalonly{
+    display:none;
+}
+
+.luuonly{
+    display:inherit;
+}
+
+.blurb-title{
+    font-weight: bold;
+}
+
+// make links not look like links
+.no-link-effect{
+    text-decoration: none;
+    color: inherit;
+}
+.no-link-effect:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.no-link-effect:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    max-width: min(100%,500px);
+}
+
+#default-button{
+    color:inherit;
+}
+#luu-button{
+    color:red;
+}
