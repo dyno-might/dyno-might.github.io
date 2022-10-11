@@ -1,8 +1,22 @@
 <head>
 
-  {% if page.image %}<link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}">{% endif %}
+  {% if page.image %}
+  <link rel="preload" as="image" href="{{ page.image | prepend: site.baseurl }}" postpone>
+  <!-- <link rel="dns-prefetch" href="{{ page.image | prepend: site.baseurl }}"> -->
+  <!-- <script>
+    console.log("loading" + "{{ page.image | prepend: site.baseurl }}");
+    (new Image()).src = "{{ page.image | prepend: site.baseurl }}";
+    // var viewmode = getCookie("viewmode");
+    // if(viewmode && viewmode != "{{ site.baseurl }}/assets/css/app.css"){
+    //   (new Image()).src = "{{ page.image | prepend: site.baseurl }}";
+    // }
+  </script> -->
+  {% endif %}
+  
 
     <link rel="preload" href="/assets/fonts/Montserrat/Montserrat-Regular.woff2" as="font" type="font/ttf" crossorigin />
+
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/luu.css" as="style" />
 
   {% if page.image %}
     {% unless true %} {% comment %} page.hide_hero {% endcomment %}
@@ -52,12 +66,13 @@
   if(viewmode && viewmode != "{{ site.baseurl }}/assets/css/app.css"){
       document.getElementById('pagestyle').setAttribute('href', viewmode);
   }
-  // window.onload = function(){
+  // console.log("pagestyle" + document.getElementById('pagestyle'));
+  // document.addEventListener('DOMContentLoaded', () => {
   //     var viewmode = getCookie("viewmode");
   //     if(viewmode){
   //         document.getElementById('pagestyle').setAttribute('href', viewmode);
   //     }
-  // }
+  // });
   function swapStyleSheet(sheet){
       document.getElementById('pagestyle').setAttribute('href', sheet);
       setCookie("viewmode", sheet, 30);

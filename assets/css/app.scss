@@ -140,6 +140,18 @@ body{
 //   visibility: visible;
 // }
 
+#theme-select{
+  font-size: 60%;
+}
+
+.theme-div{
+  padding-left: .5rem;
+  font-size: 60%;
+  display: flex;
+  align-items: center;
+  height:2rem;
+}
+
 .maintext {
   max-width: 75ch;
   padding: .5rem;
@@ -236,12 +248,6 @@ blockquote {
     border-left: 3px solid $normal-quote-color;
 }
 
-@media (max-width: 800px) {
-    .hidden-mobile {
-      display: none;
-    }
-}
-
 img {
     max-width: 90%; // not too wide
     max-height: 75vh; // not too tall
@@ -334,7 +340,7 @@ video{
   display:flex;
   justify-content: center;
   gap:10pt;
-  margin-top:40px;
+  margin-top:10px;
 }
 .blurb-text{
   max-width:90ch;
@@ -368,13 +374,25 @@ video{
 
 // classes to turn stuff on and off in certain modes
 .normalonly{
-  display:inherit;
+  display:unset;
 }
 .luuonly{
   display:none;
 }
 
-#brutalism-selector{
+@media (max-width: 800px) {
+  .hidden-mobile {
+    display: none;
+  }
+  .hidden-mobile .normalonly{
+    display: none;
+  }
+  .hidden-mobile .luulonly{
+    display: none;
+  }
+}
+
+.brutalism-selector{
   font-family: $family-sans-serif;
   margin:10pt;
 }
