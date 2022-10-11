@@ -29,6 +29,7 @@ var{
 "
 comment:
   substack: https://dynomight.substack.com/p/prediction-market-causation
+  EA forum: https://forum.effectivealtruism.org/posts/gDsppmv8TzrH2zKJc/prediction-market-does-not-imply-causation
 ---
 
 [*Note*: If you’re already familiar with prediction markets, you might want to skip to [section 3](#3) or maybe even [section 6](#6).]
