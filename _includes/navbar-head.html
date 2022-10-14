@@ -2,7 +2,8 @@
   var prevScrollpos = window.pageYOffset;
 
   window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
+    var currentScrollPos = Math.max(0,window.pageYOffset);
+
     if (Math.abs(currentScrollPos - prevScrollpos) > 10){
       if (prevScrollpos > currentScrollPos) {
         document.getElementById("navnav").style.top = "0";
