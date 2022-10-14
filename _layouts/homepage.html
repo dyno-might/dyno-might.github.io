@@ -8,11 +8,11 @@ layout: default
 <script src="/assets/js/app.js" type="text/javascript"></script>
 
 <div class="headerfont theme-div">
-<input type="checkbox" class="normalonly hidden-mobile" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>
+<input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>
 <!-- <input type="checkbox" id="titles-checkbox" onchange="toggleAll('titles-checkbox','blurb-title')" checked><label for="titles-checkbox">titles</label> -->
-<input type="checkbox" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" checked><label for="subtitles-checkbox">subtitles</label>
-<input type="checkbox" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
-<input type="checkbox" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label> <select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
+<input type="checkbox" class="theme-boxes" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
+<input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" checked><label for="subtitles-checkbox">subtitles</label>
+<input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label> <select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
     <option value="none" disabled selected>theme</option>
     <option value="normal">tryhard</option>
     <option value="brutalism">brutalism</option>

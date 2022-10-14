@@ -7,15 +7,17 @@
         </div>
         <div class="blurb-text">
             <a href="{{ site.baseurl }}{{ post.url }}" class="blurb-title">
-            <div class="headerfont">
+            <span class="headerfont">
                 {{post.title}}
-            </div>  
+            </span>  
             </a>
+            <!-- TODO: make silent link class -->
+            {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d, %Y" }})</span></a>{% endunless %}
+            
             <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
             <div class="blurb-words">
                 <p class="headerfont" style="margin-top: 7px; margin-bottom: 7px;">
-                    <span class="blurb-subtitle">{{ post.description }}</span> {% unless nodate %}<span class="blurb-date" style="white-space:nowrap;">({{ post.date | date: "%b %-d, %Y" }})</span>
-                    {% endunless %}
+                    <span class="blurb-subtitle">{{ post.description }}</span> 
                 </p>
                 {% unless noexcerpt=='true' %}
                     {% assign excerpt=post.excerpt | strip_html %}    

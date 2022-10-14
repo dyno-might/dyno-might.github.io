@@ -95,7 +95,6 @@ a:hover{
   color: inherit;
   text-decoration: underline $normal-text-color;
 }
-
 a:visited { 
     //color:#5f32dc;
     //color: #a0a0a0;
@@ -323,15 +322,15 @@ video{
 
 // make links not look like links
 .no-link-effect{
-  text-decoration: none;
+  text-decoration: inherit;
   color: inherit;
 }
 .no-link-effect:hover{
-  text-decoration: none;
+  text-decoration: inherit;
   color: inherit;
 }
 .no-link-effect:visited{
-  text-decoration: none;
+  text-decoration: inherit;
   color: inherit;
 }
 
@@ -390,6 +389,11 @@ video{
   .hidden-mobile .luulonly{
     display: none;
   }
+}
+
+.theme-boxes{
+  transform:scale(.7);
+  margin-right: 0;
 }
 
 .brutalism-selector{
