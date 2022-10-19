@@ -54,6 +54,39 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: inherit; /* no underline */
 }
 
+// hr {
+//   width: 4ch;
+//   border-style: dotted none none;
+//   border-width: 4px;
+//   //border-color: red;
+// }
+
+// arrogant textual D
+// hr {
+//   border: none;
+//   color: black;
+//   font-family: $family-sans-serif;
+//   font-size: 75%;
+// }
+// hr::before {
+//   content: '—D—';
+//   display: block;
+//   text-align: center;
+// }
+
+hr {
+  border: none;
+  color: black;
+  font-family: $family-sans-serif;
+  font-size: 75%;
+}
+hr::before {
+  content: '— § —';
+  display: block;
+  text-align: center;
+}
+
+
 .navbaritem{
     color: $normal-text-color;
     text-decoration: none;
@@ -299,6 +332,7 @@ video{
 
 // class for the TOC on left
 .toc {
+  margin-bottom:5px;
 }
 .toc > a{
   display: inline-block; // make link take up full width
