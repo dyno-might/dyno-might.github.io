@@ -31,7 +31,7 @@ So: No matter what you do, sometimes your writing will fail. It's impossible to 
 
 Here are two examples of how things I've written have failed:
 
-1. I wrote an article suggesting ultrasonic humidifiers might put particulates into the air and harm health. The median response was something like this:
+1. I wrote an article suggesting [ultrasonic humidifiers](/humidifiers) might put particulates into the air and harm health. The median response was something like this:
 
    >  Please stop polluting the internet with speculation. If you can't support your argument with peer-reviewed research papers you shouldn't write it at all. 
 

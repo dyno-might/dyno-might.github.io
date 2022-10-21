@@ -12,7 +12,7 @@ comment:
     substack: https://dynomight.substack.com/p/weird-ideas
 ---
 
-It's frustrating to propose an idea and have people dismiss it just because it's weird. You've surely seen people ridicule ideas like worrying about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming aspartame is likely harmless but ultrasonic humidifiers might not be.
+It's frustrating to propose an idea and have people dismiss it just because it's weird. You've surely seen people ridicule ideas like worrying about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming [aspartame is likely harmless](/aspartame) but [ultrasonic humidifiers might not be](/humidifiers).
 
 The thing is, dismissing weird ideas is *not wrong*.
 
