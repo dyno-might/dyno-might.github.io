@@ -6,20 +6,65 @@ layout: default
 {% endcomment %}
 
 <script src="/assets/js/app.js" type="text/javascript"></script>
+<script>
+    function toggleAll(checkbox,classname){
+        state = document.getElementById(checkbox).checked;
+        var ims = document.getElementsByClassName(classname);
+        for (var i = 0; i < ims.length; ++i) {
+            var item = ims[i];
+            //console.log(item);
+            //item.innerHTML = 'this is value';
+            if(state){
+                item.style.display="unset";
+            } else{
+                item.style.display="none";
+            }
+        }
+    }
+    function sortChildren(containerSelector, reverse, field) {
+      const container = document.getElementById(containerSelector);
+      const order = reverse ? -1 : 1;
+      
+      Array.from(container.children)
+        .sort((a, b) => order * parseInt(a.dataset[field], 10) - order * parseInt(b.dataset[field], 10))
+        .forEach(element => container.appendChild(element));
+        
+      // Note you could also conditionally use Array.reverse() instead of the order variable.
+    }
 
+    function updateOrder() {
+        var zone = document.getElementById("sort-select");
+        if (zone.value == "newest"){
+            sortChildren('blurbs', true, 'date');
+        } else if (zone.value == "oldest"){
+            sortChildren('blurbs', false, 'date');
+        } else if (zone.value = "updated"){
+            sortChildren('blurbs', true, 'updated');
+        }
+    }
+    
+</script>
+    
 <div class="headerfont theme-div">
-<input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>
+<select id="sort-select" class="brutalism-selector" onchange="updateOrder();">
+    <option disabled>sort by</option>
+    <option value="newest">newest</option>
+    <option value="oldest">oldest</option>
+    <option value="updated">updated</option>
+</select> 
+<select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
+    <option value="none" disabled>theme</option>
+    <option value="normal" selected>tryhard</option>
+    <option value="brutalism">brutalism</option>
+</select>
+{% comment %}<input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>{% endcomment %}
 <!-- <input type="checkbox" id="titles-checkbox" onchange="toggleAll('titles-checkbox','blurb-title')" checked><label for="titles-checkbox">titles</label> -->
 <input type="checkbox" class="theme-boxes" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
 <input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" checked><label for="subtitles-checkbox">subtitles</label>
-<input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label> <select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
-    <option value="none" disabled selected>theme</option>
-    <option value="normal">tryhard</option>
-    <option value="brutalism">brutalism</option>
-</select> 
+<input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label>
 <script>
 window.addEventListener('load', (event) => {
-    toggleAll('images-checkbox','blurb-img');
+    //toggleAll('images-checkbox','blurb-img');
     // toggleAll('titles-checkbox','blurb-title');
     toggleAll('subtitles-checkbox','blurb-subtitle');
     toggleAll('dates-checkbox','blurb-date');
@@ -37,24 +82,7 @@ function updateTheme() {
 </script>
 </div>
 
-<script>
-function toggleAll(checkbox,classname){
-    state = document.getElementById(checkbox).checked;
-    var ims = document.getElementsByClassName(classname);
-    for (var i = 0; i < ims.length; ++i) {
-        var item = ims[i];
-        //console.log(item);
-        //item.innerHTML = 'this is value';
-        if(state){
-            item.style.display="unset";
-        } else{
-            item.style.display="none";
-        }
-    }
-}
-</script>
-
 <!-- <div style="display:flex; gap: 20px; flex-wrap:wrap; justify-content: center; margin-top: 20px;"> -->
-<div class="blurbs">
+<div class="blurbs" id="blurbs">
     {% for post in paginator.posts %}{% include post-item-blurb.html %}{% endfor %}
 </div>

@@ -173,7 +173,14 @@ body{
 // }
 
 #theme-select{
-  font-size: 60%;
+  font-size: 90%;
+  margin-right: 0;
+  margin-left: 5px;
+}
+#sort-select{
+  font-size: 90%;
+  margin-right: 0;
+  margin-left: 5px;
 }
 
 .theme-div{
@@ -290,10 +297,25 @@ img {
     margin-right: auto;
 }
 
-video{
-    display: block;
-    margin: 0 auto;
+// figure{
+//   width: 95%;
+// }
+
+// video{
+//     display: block;
+//     margin: 0 auto;
+// }
+
+video {
+  max-width: 90%; // not too wide
+  max-height: 75vh; // not too tall
+  width: auto; // but keep aspect ratio
+  height: auto; // but keep aspect ratio
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .leftbar {
   margin-bottom:3em;

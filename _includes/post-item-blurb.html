@@ -1,34 +1,38 @@
-    {% assign defaultcolor = "gray" %}
-    <div class="blurb-div">
-        <div class="normalonly">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect hidden-mobile">
-            <img src="{{ post.image | prepend: site.baseurl }}" class="hidden-mobile blurb-img" style="width:min(360px,90vw); height:calc(min(360px,90vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
-            </a>
-        </div>
-        <div class="blurb-text">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="blurb-title">
-            <span class="headerfont">
-                {{post.title}}
-            </span>  
-            </a>
-            <!-- TODO: make silent link class -->
-            {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d, %Y" }})</span></a>{% endunless %}
-            
-            <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
-            <div class="blurb-words">
-                <p class="headerfont" style="margin-top: 7px; margin-bottom: 7px;">
-                    <span class="blurb-subtitle">{{ post.description }}</span> 
-                </p>
-                {% unless noexcerpt=='true' %}
-                    {% assign excerpt=post.excerpt | strip_html %}    
-                    {% comment %} if excerpt too short, get more from content? {% endcomment %}
-                    {% if excerpt.size < 50 %}
-                        {% assign excerpt=post.content | markdownify | strip_html %}
-                    {% endif %}
-                    <p class="headerfont blurb-quote">{{excerpt | truncatewords: 50}}</p>
-                {% endunless %}
-            </div>
-            </a>
-        </div>
+{% if post.last_modified_at %}
+{% assign updated = post.last_modified_at | date: "%Y%m%d" %}
+{% else %}
+{% assign updated = post.date | date: "%Y%m%d" %}
+{% endif %}
+
+<div class="blurb-div" data-date="{{post.date | date: "%Y%m%d"}}" data-updated="{{updated}}">
+    <div class="normalonly">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect hidden-mobile">
+        <img src="{{ post.image | prepend: site.baseurl }}" class="hidden-mobile blurb-img" style="width:min(360px,90vw); height:calc(min(360px,90vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
+        </a>
     </div>
-</a>
+    <div class="blurb-text">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="blurb-title">
+        <span class="headerfont">
+            {{post.title}}
+        </span>  
+        </a>
+        <!-- TODO: make silent link class -->
+        {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d %Y"}}{% if post.last_modified_at %}, updated {{post.last_modified_at | date: "%b %-d %Y"}}{% endif %})</span></a>{% endunless %}
+        
+        <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
+        <div class="blurb-words">
+            <p class="headerfont" style="margin-top: 7px; margin-bottom: 7px;">
+                <span class="blurb-subtitle">{{ post.description }}</span> 
+            </p>
+            {% unless noexcerpt=='true' %}
+                {% assign excerpt=post.excerpt | strip_html %}    
+                {% comment %} if excerpt too short, get more from content? {% endcomment %}
+                {% if excerpt.size < 50 %}
+                    {% assign excerpt=post.content | markdownify | strip_html %}
+                {% endif %}
+                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 50}}</p>
+            {% endunless %}
+        </div>
+        </a>
+    </div>
+</div>
