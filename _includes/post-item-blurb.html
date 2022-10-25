@@ -17,7 +17,8 @@
         </span>  
         </a>
         <!-- TODO: make silent link class -->
-        {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d %Y"}}{% if post.last_modified_at %}, updated {{post.last_modified_at | date: "%b %-d %Y"}}{% endif %})</span></a>{% endunless %}
+        {% comment %}{% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d %Y"}}{% if post.last_modified_at %}, updated {{post.last_modified_at | date: "%b %-d %Y"}}{% endif %})</span></a>{% endunless %}{% endcomment %}
+        {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont">{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}</span></a>{% endunless %}
         
         <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
         <div class="blurb-words">

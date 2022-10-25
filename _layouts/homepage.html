@@ -45,9 +45,9 @@ layout: default
 <div class="headerfont theme-div">
 <select id="sort-select" class="brutalism-selector" onchange="updateOrder();">
     <option disabled>sort by</option>
+    <option value="updated" selected>updated</option>
     <option value="newest">newest</option>
     <option value="oldest">oldest</option>
-    <option value="updated">updated</option>
 </select> 
 <select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
     <option value="none" disabled>theme</option>
@@ -80,6 +80,13 @@ function updateTheme() {
 </div>
 
 <!-- <div style="display:flex; gap: 20px; flex-wrap:wrap; justify-content: center; margin-top: 20px;"> -->
+{% assign posts_by_updated = paginator.posts | sort: "last_modified_at" %}
 <div class="blurbs" id="blurbs">
-    {% for post in paginator.posts %}{% include post-item-blurb.html %}{% endfor %}
+    {% for post in posts_by_updated %}{% include post-item-blurb.html %}{% endfor %}
 </div>
+
+{% for post in paginator.posts %}{% include post-item-blurb.html %}{% endfor %}
+
+<script>
+    sortChildren('blurbs', true, 'updated');
+</script>
