@@ -224,9 +224,9 @@ details > *:not(summary){
   margin-left: 5pt;
   margin-bottom: 5pt;
 }
-//   summary::-webkit-details-marker {
-//     display: none
-//   }
+  summary::-webkit-details-marker {
+    display: none
+  }
   summary::after {
     content: ' ▸';
   }
