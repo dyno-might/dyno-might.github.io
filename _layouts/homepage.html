@@ -12,8 +12,6 @@ layout: default
         var ims = document.getElementsByClassName(classname);
         for (var i = 0; i < ims.length; ++i) {
             var item = ims[i];
-            //console.log(item);
-            //item.innerHTML = 'this is value';
             if(state){
                 item.style.display="unset";
             } else{
@@ -29,7 +27,6 @@ layout: default
         .sort((a, b) => order * parseInt(a.dataset[field], 10) - order * parseInt(b.dataset[field], 10))
         .forEach(element => container.appendChild(element));
         
-      // Note you could also conditionally use Array.reverse() instead of the order variable.
     }
 
     function updateOrder() {
@@ -57,14 +54,14 @@ layout: default
     <option value="normal" selected>tryhard</option>
     <option value="brutalism">brutalism</option>
 </select>
-{% comment %}<input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>{% endcomment %}
+<input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>
 <!-- <input type="checkbox" id="titles-checkbox" onchange="toggleAll('titles-checkbox','blurb-title')" checked><label for="titles-checkbox">titles</label> -->
 <input type="checkbox" class="theme-boxes" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
 <input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" checked><label for="subtitles-checkbox">subtitles</label>
 <input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label>
 <script>
 window.addEventListener('load', (event) => {
-    //toggleAll('images-checkbox','blurb-img');
+    toggleAll('images-checkbox','blurb-img');
     // toggleAll('titles-checkbox','blurb-title');
     toggleAll('subtitles-checkbox','blurb-subtitle');
     toggleAll('dates-checkbox','blurb-date');
