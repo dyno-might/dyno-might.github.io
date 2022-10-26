@@ -33,33 +33,34 @@ layout: default
   <div class="headerfont noleftbar" style="font-size:80%; float:right;">
     {% include comments-and-replies.html %}
   </div>
+
+  {% comment %} SIGNUP STUFF {% endcomment %}
+  {% unless page.is_category_page %}
+  <div class="headerfont" style="margin-bottom:10pt; font-size:100%;">
+    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+      <div style="display:inline-block">
+        Subscribe via <a href="/feed.xml">RSS</a> or <a href="https://dynomight.substack.com">substack</a> or here:
+        <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:20pt; font-size:60%;" required> 
+        <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="hidden" name="_captcha" value="false" /> 
+        <input type="hidden" name="_url" value="https://dynomight.net/" />
+        <button type="submit"
+        class="orangebutton headerfont" 
+        style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:20pt; cursor:pointer; font-size:60%;">ok calm down</button>
+        <span style="display:inline-block">
+          <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
+          <label for="guide3" class="headerfont" style="border:0; margin:0; height:20pt; font-size:60%; padding:0px;">guide to life</label>
+        </span>
+      </div>
+    </form>
+  </div>
+  {% endunless %}
+
 </section>
 </div>
 
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
-
-{% comment %} SIGNUP STUFF {% endcomment %}
-{% unless page.is_category_page %}
-<div class="headerfont after-content" style="margin-bottom:10pt; font-size:120%;">
-  <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
-    <div style="display:inline-block">
-      Subscribe via <a href="/feed.xml">RSS</a> or <a href="https://dynomight.substack.com">substack</a> or here:
-      <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:20pt; font-size:60%;" required> 
-      <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
-      <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-      <input type="hidden" name="_captcha" value="false" /> 
-      <input type="hidden" name="_url" value="https://dynomight.net/" />
-      <button type="submit"
-      class="orangebutton headerfont" 
-      style="border-radius:3pt; border: 0; padding-left:3pt; padding-right: 3pt; max-width:100pt; height:20pt; cursor:pointer; font-size:60%;">ok calm down</button>
-      <span style="display:inline-block">
-        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
-        <label for="guide3" class="headerfont" style="border:0; margin:0; height:20pt; font-size:60%; padding:0px;">guide to life</label>
-      </span>
-    </div>
-  </form>
-</div>
-{% endunless %}
 
 {% comment %} SHOW RELATED CARDS {% endcomment %}
     {% if page.is_category_page %}
