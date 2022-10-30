@@ -45,19 +45,19 @@ layout: default
 <div class="headerfont theme-div">
 <select id="sort-select" class="brutalism-selector" onchange="updateOrder();">
     <option disabled>sort by</option>
-    <option value="updated" selected>updated</option>
+    <option value="updated">updated</option>
     <option value="newest">newest</option>
     <option value="oldest">oldest</option>
 </select> 
 <select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
     <option value="none" disabled>theme</option>
-    <option value="normal" selected>tryhard</option>
+    <option value="normal">tryhard</option>
     <option value="brutalism">brutalism</option>
 </select>
 <input type="checkbox" class="normalonly hidden-mobile theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly hidden-mobile" id="images-checkbox-label" for="images-checkbox">ims</label>
 <!-- <input type="checkbox" id="titles-checkbox" onchange="toggleAll('titles-checkbox','blurb-title')" checked><label for="titles-checkbox">titles</label> -->
 <input type="checkbox" class="theme-boxes" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
-<input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" checked><label for="subtitles-checkbox">subtitles</label>
+<input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" ><label for="subtitles-checkbox">subtitles</label>
 <input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label>
 <script>
 window.addEventListener('load', (event) => {
