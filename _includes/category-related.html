@@ -4,7 +4,6 @@
     {% for post in site.posts %}
         {% if post.category == {{include.category}} and post.title != page.title %}
             {% assign nodate='true' %}
-            {% assign noexcerpt='true' %}
             {% include post-item-blurb.html %}
         {% endif %}
     {% endfor %}
