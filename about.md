@@ -34,7 +34,7 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 | **substack** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.substack.com> </span> |
 | **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
 | **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
-| **mastodon** | @dynomight@mastodon.social |
+| **mastodon** | [@dynomight@mastodon.social](https://mastodon.social/@dynomight) |
 | **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
 | **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
