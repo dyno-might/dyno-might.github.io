@@ -2,7 +2,7 @@
 
 <div class="after-content" style="padding-right: .5rem; padding-top:0;">
     {% for post in site.posts %}
-        {% if post.category == {{include.category}} and post.title != page.title %}
+        {% if post.category == {{include.category}} and post.url != page.url %}
             {% assign nodate='true' %}
             {% include post-item-blurb.html %}
         {% endif %}
