@@ -8,6 +8,8 @@ excerpt: "Some time ago, I was driving somewhere with a friend and I claimed tha
 permalink: /valid-invalid/
 background_color: rgb(139,152,158)
 category: "rants"
+comment:
+  substack: https://dynomight.substack.com/p/valid-invalid/
 head: "<style>
 var{
   font-family:Montserrat;
