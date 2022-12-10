@@ -20,6 +20,28 @@ layout: default
   {% endif %}
 </p>
 
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const id = entry.target.getAttribute('id');
+    element = document.querySelector(`a[href="#${id}"]`)
+    if (entry.isIntersecting){
+      element.style.color="black";
+    } else {
+      element.style.color="inherit";
+    }
+  });
+});
+document.querySelectorAll('h2[id]').forEach((h2) => {
+  observer.observe(h2);
+});
+document.querySelectorAll('h3[id]').forEach((h3) => {
+  observer.observe(h3);
+});
+});
+</script>
+
 <div>
   <div class="headerfont leftbar">
       {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=3 item_class="toc" %}
