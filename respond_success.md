@@ -2,8 +2,8 @@
 layout: page
 title: WISDOM APPRECIATED
 subtitle: 
-image: /img/deathvalleysky_prog.jpg
-hero_image: /img/deathvalleysky_prog.jpg
+image: /img/deathvalley/small.jpg
+hero_image: /img/deathvalley/small.jpg
 hero_height: is-large
 ---
 
