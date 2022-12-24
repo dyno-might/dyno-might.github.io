@@ -20,7 +20,7 @@ category: "rants"
 
 5. Those lists of regrets people make at the end of life—how seriously should we take them? Profound wisdom or just how one version of yourself feels on one day?
 
-6. Generally speaking, is human progress more limited by our ability to orchestrate (1) technological systems or (2) social systems?
+6. Generally speaking, is human progress more limited by our ability to build/orchestrate (1) technological systems or (2) social systems?
 
 7. What should we take from the existence of acquired tastes like spicy food or whiskey? Are they “fake”? Why aren’t we more intentional about which ones we acquire?
 
