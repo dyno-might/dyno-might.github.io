@@ -3,7 +3,7 @@ layout: post
 title: "Things to argue about over the holidays instead of politics"
 image: /img/arguments/christmas.jpg
 tags: policy
-description: "Please report back on how it goes"
+description: "Report back on how it goes"
 excerpt: "1. Is the existence of the Guinness Book of World Records a positive or a negative for humanity on net? 2. Bragging about material possessions is low-status in much of the West, forcing people to jostle through subtle wealth cues (travel, education, hobbies, food). But then why isn’t there another level where people embrace explicit materialism again to show that they are above such things? (Or is there, and it’s just invisible to me?)"
 permalink: /arguments/
 background_color: rgb(179,182,179)
