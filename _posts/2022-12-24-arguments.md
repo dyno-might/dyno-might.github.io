@@ -8,6 +8,8 @@ excerpt: "1. Is the existence of the Guinness Book of World Records a positive o
 permalink: /arguments/
 background_color: rgb(179,182,179)
 category: "rants"
+comment:
+  substack: https://dynomight.substack.com/p/arguments
 ---
 
 1. Is the existence of the Guinness World Records a positive or a negative for humanity on net?
