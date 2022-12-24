@@ -57,7 +57,7 @@ category: "rants"
 
 20. Were earlier generations tougher than us? If so, what’s the best level of toughness? It’s unlikely that it’s where we are now, right?
 
-21. Say some crazy internet people do a non-randomized non-blinded trial where some other internet people self-select to try some diet and they (the latter group) report losing a massive amount of weight—how much does this change your opinion relative to a traditional RCT where people lose 0.1% of body mass with p<.001? And how does statistical training influence this?
+21. Say some crazy internet people do a non-randomized non-blinded trial where some other internet people self-select to try some diet and they (the latter group) report losing a massive amount of weight—how much does this change your opinion relative to a traditional RCT where people lose 0.1% of body mass with p<.001?
 
 22. If you accept that agriculture made life worse but hunter-gatherers had to adopt it or be vanquished, then are we going through any similar changes now?
 
