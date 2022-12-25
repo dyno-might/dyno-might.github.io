@@ -16,7 +16,7 @@ comment:
 
 2. Bragging about material possessions is low-status in much of the West, forcing people to jostle through subtle wealth cues (travel, education, hobbies, food). But then why isn’t there another level where people embrace explicit materialism again to show that they are above such things? (Or is there, and it’s just invisible to me?)
 
-3. Say that if everyone voluntarily waited a bit longer to reproduce then after a hundred generations human life expectancy would increase by 25 years. Would we be morally obligated to do that?
+3. Say that if everyone voluntarily waited a bit longer to reproduce then after a hundred generations human life expectancy would increase by 25 years (*edit* by providing selection pressure for genes that code for longevity, nothing to do with parenting). Would we be morally obligated to do that?
 
 4. Do we focus too much on classic books/music/movies/plays/art/ideas, or too little?
 
