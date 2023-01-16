@@ -172,7 +172,7 @@ They stacked the deck in three ways. First, they asked for an extra-short deadli
 
 > I am going to Boston for a brief "vacation". It would be entirely coincidental if I happened to spend a day with some friends who might be in the process of writing a U34 grant application, and if we also just happened to have some "hypothetical" discussions about details of such a study. This is a purely personal, i.e., NOT NIAAA-funded or authorized, trip.
 
-All the scheming from the NIAAA worked. Ultimately, they received received exactly one application: from Mukamal. There's a complex subplot regarding the review of this grant: There were serious concerns from someone on the NIAAA advisory council, but staff in the NIAAA rebutted them, and then were able to exclude them from voting on procedural grounds. In email, they reassured Mukamal "Do not worry" and that "They are inappropriate comments". In response, Mukamal simply said "here's a draft for the U34. I tried to be discrete (sic) about the industry stuff."
+All the scheming from the NIAAA worked. Ultimately, they received exactly one application: from Mukamal. There's a complex subplot regarding the review of this grant: There were serious concerns from someone on the NIAAA advisory council, but staff in the NIAAA rebutted them, and then were able to exclude them from voting on procedural grounds. In email, they reassured Mukamal "Do not worry" and that "They are inappropriate comments". In response, Mukamal simply said "here's a draft for the U34. I tried to be discrete (sic) about the industry stuff."
 
 </details>
 
@@ -186,7 +186,7 @@ Here's an email between NIAAA staff following this meeting. Clearly, the industr
 
 Here's a key to help you understand the following email:
 
-* DISCUSS is the [Distilled Spirits Council of the United States](https://www.distilledspirits.org/) (and industry group)
+* DISCUSS is the [Distilled Spirits Council of the United States](https://www.distilledspirits.org/) (an industry group)
 * [Diago](https://en.wikipedia.org/wiki/Diageo) was then the world's largest distiller. They make vodka, rum, gin, beer, and whiskeys that you've heard of.
 * The "guy from Harvard" is Mukamal.
 * The "guy from Yale" is (almost certainly) [John Krystal](https://medicine.yale.edu/profile/john_krystal/).
@@ -552,7 +552,7 @@ This trial has discredited this idea. Obviously, I blame the main characters, bu
 
 Obviously, I'm glad the New York Times followed up on this story and revealed holes in the firewall. I just wish there was a more nuanced tone that engaged with the premise that the problems with industry funding are possible to overcome, at least in principle.
 
-Sixth, in the final review, the NIH made no attempt at cost/benefit analysis. Their final report is a fair summary of the problems with the trial. But it doesn't consider the information that was lost by cancellation, or the fact that that there was little cost to taxpayers. (Though Collins' [letter to Senator Grassley](/img/alcohol-trial/grassley-response.pdf) reveals the NIH did pay around $4 million out of pocket.) Could a different principal investigator be put in charge? Could the study design be modified to address the concerns? Could the monitoring bodies have been strengthened so people could trust the results? Maybe the trial was unsalvageable, but it's telling that the NIH didn't bother to make that argument.
+Sixth, in the final review, the NIH made no attempt at cost/benefit analysis. Their final report is a fair summary of the problems with the trial. But it doesn't consider the information that was lost by cancellation, or the fact that there was little cost to taxpayers. (Though Collins' [letter to Senator Grassley](/img/alcohol-trial/grassley-response.pdf) reveals the NIH did pay around $4 million out of pocket.) Could a different principal investigator be put in charge? Could the study design be modified to address the concerns? Could the monitoring bodies have been strengthened so people could trust the results? Maybe the trial was unsalvageable, but it's telling that the NIH didn't bother to make that argument.
 
 Finally, why have there been so few consequences? [Collins says](grassley-response.pdf) that "three individuals are no longer employed" at the NIH, and they made process changes to avoid similar problems in the future.
 
