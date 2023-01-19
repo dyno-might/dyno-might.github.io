@@ -10,7 +10,6 @@ background_color: rgb(141,153,112)
 category: "science"
 ---
 
-
 By the early 1950s, it was known thanks to people like [Miescher](https://en.wikipedia.org/wiki/Friedrich_Miescher), [Levene](https://en.wikipedia.org/wiki/Phoebus_Levene), and [Chargaff](https://en.wikipedia.org/wiki/Erwin_Chargaff) that genes were carried by long polymers in the cell nucleus. It was also known that those polymers had a sugar-phosphate backbone and were composed of four different nucleobases—[cytosine](https://en.wikipedia.org/wiki/Cytosine) (C), [guanine](https://en.wikipedia.org/wiki/Guanine) (G), [adenine](https://en.wikipedia.org/wiki/Adenine) (A) and [thymine](https://en.wikipedia.org/wiki/Thymine) (T)—and that there were always equal amounts of C and G and equal amounts of A and T.
 
 So we knew a lot about DNA. But we didn't know the *structure* of it—what these polymers actually looked like. Many people were trying to figure this out including [Wilkins](https://en.wikipedia.org/wiki/Maurice_Wilkins), [Franklin](https://en.wikipedia.org/wiki/Rosalind_Franklin), [Pauling](https://en.wikipedia.org/wiki/Linus_Pauling), and [ Corey](https://en.wikipedia.org/wiki/Robert_Corey). Also working on it were Francis Crick and James Watson, who were worried that Pauling in particular would find the answer before them, so they rushed to find the answer. They—controversially—managed to get access to [Photo 51](https://en.wikipedia.org/wiki/Photo_51) produced under Franklin's supervision and were the first to publish the correct structure.
@@ -23,7 +22,7 @@ For one thing, many people mistakenly think they discovered DNA, rather than the
 
 For another, they had lots of help and helpful discussions with others. Wilkins even shared the Nobel but isn't remembered as much. (Pauling won a *different* Nobel soon after.) Franklin sadly died before the Nobel was awarded, likely as a result of exposure to X-rays she encountered while making things like Photo 51. But Nobels can have a maximum of three winners, so *some one* had to miss out. This creates a huge nonlinearity in how much status one earns in terms of your perceived contribution.
 
-Finally, there were lots of competitors. Imagine they didn't get their hands on Photo 51 or took longer to find the answer, or just didn't work on DNA at all. It's certain that Pauling or Franklin or someone else would have figured out the true structure soon anyway. The *marginal* impact of their choosing to work on this problem is arguably not that big.
+Finally, there were lots of competitors. Imagine they didn't get their hands on Photo 51 or took longer to find the answer or just didn't work on DNA at all. It's certain that Pauling or Franklin or someone else would have figured out the true structure soon anyway. The *marginal* impact of their choosing to work on this problem is arguably not that big.
 
 ## Natural Selection
 
@@ -33,11 +32,11 @@ When Darwin returned from the *Beagle* in 1836 at the age of 27 he already had t
    Neither man attended since Darwin was in mourning and Wallace was still in Malaysia and as far as I can tell had no idea this was even happening.
 2. Darwin decided that he must immediately-now-ASAP publish some version of his book, however imperfect. He took the notes he had been working on and rushed out a book, which appeared as *The Origin of Species* on November 24, 1859.
 
-In the book, Darwin mentioned Wallace as coming to the same conclusion independently. In the 3rd edition, Darwin also noted that [Patrick Matthew](https://en.wikipedia.org/wiki/Patrick_Matthew) had anticipated the idea in 1831, and in the 4th edition, he gave credit to [William Charles Wells](https://en.wikipedia.org/wiki/William_Charles_Wells) did so in 1813.
+In the book, Darwin mentioned Wallace as coming to the same conclusion independently. In the 3rd edition, Darwin also noted that [Patrick Matthew](https://en.wikipedia.org/wiki/Patrick_Matthew) had anticipated the idea in 1831, and in the 4th edition, he gave credit to [William Charles Wells](https://en.wikipedia.org/wiki/William_Charles_Wells) for doing so in 1813.
 
 Overall, this is a nice story. Darwin comes off as a good egg and Wallace always defended Darwin and shunned fame despite being given every possible award and honor. But still—you learned about Darwin as a child, *maybe* learned about Wallace later on but probably never heard of Matthew or Wells.
 
-Again, it's interesting to speculate: How much Darwin accelerated the theory of natural selection? My guess is quite a bit—it would have taken Wallace a while to publish his results without Darwin, and even if he did, they might have gone under-appreciated like Matthew and Wells' ideas did. But still, it was going to happen eventually. (It would have been better if he didn't wait 22 years!) [zx: still redundant?]
+Again, it's interesting to speculate: How much Darwin accelerated the theory of natural selection? My guess is quite a bit—it would have taken Wallace a while to publish his results without Darwin, and even if he did, they might have gone under-appreciated like Matthew and Wells' ideas did. But still, it was going to happen eventually. (It would have been better if he didn't wait 22 years!)
 
 ## General Relativity
 
