@@ -6,7 +6,7 @@ tags: science, economics
 description: "Is it helpful for things to work this way?"
 excerpt: ""
 permalink: /wta-science/
-background_color: rgb(173,162,148)
+background_color: rgb(141,153,112)
 category: "science"
 ---
 
