@@ -10,6 +10,7 @@ background_color: rgb(141,153,112)
 category: "science"
 ---
 
+
 By the early 1950s, it was known thanks to people like [Miescher](https://en.wikipedia.org/wiki/Friedrich_Miescher), [Levene](https://en.wikipedia.org/wiki/Phoebus_Levene), and [Chargaff](https://en.wikipedia.org/wiki/Erwin_Chargaff) that genes were carried by long polymers in the cell nucleus. It was also known that those polymers had a sugar-phosphate backbone and were composed of four different nucleobases—[cytosine](https://en.wikipedia.org/wiki/Cytosine) (C), [guanine](https://en.wikipedia.org/wiki/Guanine) (G), [adenine](https://en.wikipedia.org/wiki/Adenine) (A) and [thymine](https://en.wikipedia.org/wiki/Thymine) (T)—and that there were always equal amounts of C and G and equal amounts of A and T.
 
 So we knew a lot about DNA. But we didn't know the *structure* of it—what these polymers actually looked like. Many people were trying to figure this out including [Wilkins](https://en.wikipedia.org/wiki/Maurice_Wilkins), [Franklin](https://en.wikipedia.org/wiki/Rosalind_Franklin), [Pauling](https://en.wikipedia.org/wiki/Linus_Pauling), and [ Corey](https://en.wikipedia.org/wiki/Robert_Corey). Also working on it were Francis Crick and James Watson, who were worried that Pauling in particular would find the answer before them, so they rushed to find the answer. They—controversially—managed to get access to [Photo 51](https://en.wikipedia.org/wiki/Photo_51) produced under Franklin's supervision and were the first to publish the correct structure.
