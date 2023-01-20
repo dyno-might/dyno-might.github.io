@@ -26,7 +26,7 @@ Finally, there were lots of competitors. Imagine they didn't get their hands on 
 
 ## Natural Selection
 
-When Darwin returned from the *Beagle* in 1836 at the age of 27 he already had the basic idea that living beings were adapted by natural selection. But he worried about controversy and gave priority to his geological research, so he didn't publish his theory for more than 20 years. Then on June 18, 1585, he was startled to get a letter from [Alfred Wallace](https://en.wikipedia.org/wiki/Alfred_Russel_Wallace) that proposed essentially the same thing. Darwin immediately did two things:
+When Darwin returned from the *Beagle* in 1836 at the age of 27 he already had the basic idea that living beings were adapted by natural selection. But he worried about controversy and gave priority to his geological research, so he didn't publish his theory for more than 20 years. Then on June 18, 1858, he was startled to get a letter from [Alfred Wallace](https://en.wikipedia.org/wiki/Alfred_Russel_Wallace) that proposed essentially the same thing. Darwin immediately did two things:
 
 1. He organized for a joint Darwin-Wallace paper which basically stapled together Wallace's letter with some stuff Darwin was working on. This was read at the [Linnaean Society](https://en.wikipedia.org/wiki/Linnean_Society_of_London) on July 1, 1858.![wallace-darwin paper](/img/wta-science/wallace-darwin.png)
    Neither man attended since Darwin was in mourning and Wallace was still in Malaysia and as far as I can tell had no idea this was even happening.
