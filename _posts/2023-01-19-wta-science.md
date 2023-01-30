@@ -22,7 +22,7 @@ For one thing, many people mistakenly think they discovered DNA, rather than the
 
 For another, they had lots of help and helpful discussions with others. Wilkins even shared the Nobel but isn't remembered as much. (Pauling won a *different* Nobel soon after.) Franklin sadly died before the Nobel was awarded, likely as a result of exposure to X-rays she encountered while making things like Photo 51. But Nobels can have a maximum of three winners, so *some one* had to miss out. This creates a huge nonlinearity in how much status one earns in terms of your perceived contribution.
 
-Finally, there were lots of competitors. Imagine they didn't get their hands on Photo 51 or took longer to find the answer or just didn't work on DNA at all. It's certain that Pauling or Franklin or someone else would have figured out the true structure soon anyway. The *marginal* impact of their choosing to work on this problem is arguably not that big.
+Finally, there were lots of competitors. Imagine they didn't get their hands on Photo 51 or took longer to find the answer or just didn't work on DNA at all. It's certain that Pauling or Franklin or someone else would have published the true structure soon anyway. The *marginal* impact of their choosing to work on this problem is arguably not that big.
 
 ## Natural Selection
 
