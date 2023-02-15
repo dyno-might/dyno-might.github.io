@@ -86,28 +86,29 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
   {% comment %} SIGNUP STUFF {% endcomment %}
   {% unless page.is_category_page %}
   <div class="headerfont" style="margin-bottom:10pt; font-size:100%; margin-top:20pt;">
-    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="text-align:left;"> 
-      dynomiiiiiiiiiight
-      <br>
+    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" style="text-align:center;"> 
       <span style="display:inline-block; font-size:85%;">
         subscribe at <a href="https://dynomight.substack.com">substack</a> or here
       </span>
       <br>
       <span style="display:inline-block">
-        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;"><label for="guide3" class="headerfont" style="border:0; margin:0; height:20pt; font-size:85%; padding:0px;">guide to life</label>
-      </span>
-      <br><span style="display:inline-block">
         <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:22pt; font-size:80%;" required> 
         <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
         <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
         <input type="hidden" name="_captcha" value="false" /> 
         <input type="hidden" name="_url" value="https://dynomight.net/" />  
       </span>
-      <br>
+      <!--
+      <span style="display:inline-block">
+        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;"><label for="guide3" class="headerfont" style="border:0; margin:0; height:20pt; font-size:85%; padding:0px;">guide to life</label>
+      </span> -->
       <button type="submit"
         class="headerfont" 
         style="border: 0; margin:0; padding-left:3pt; padding-right: 3pt; max-width: 15ch; height:22pt; cursor:pointer; font-size:85%;">ok calm down</button>
-      
+      <br>
+      <span style="display:inline-block; font-size:85%;">
+      dynomiiiiiiiiiight
+    </span>
     </form>
   </div>
   {% endunless %}
