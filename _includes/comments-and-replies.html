@@ -3,10 +3,9 @@ Comments at
 {% for k in page.comment %}
   <a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
 {% endfor %}
-<br>
 {% endif %}
 {% if page.replies %}
-Follow-ups at 
+<br>Follow-ups at 
 {% for k in page.replies %}
 <a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
 {% endfor %}
