@@ -36,6 +36,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $title-family;
   //font-weight: lighter;
 }
+h1, h2{
+  text-align: center;
+}
+
 .headerfont{
   font-family: $title-family;
   font-weight: lighter;
@@ -531,5 +535,10 @@ video {
     background-color: $dark-navbar-bg-color;
   }
   
+}
 
+@media print {
+  .noprint {
+    visibility: hidden;
+  }
 }
