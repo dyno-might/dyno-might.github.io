@@ -115,7 +115,7 @@ Here are some examples of what I *think* are effective advice for different doma
 
 And here are some examples of more unusual life advice that I first saw in the rationalist or effective altruism diaspora:
 
-* **Air quality.** Stop using aerosols and candles and ultrasonic humidifiers, be careful about smoke while cooking, install an air purifier, and you can plausibly buy yourself ½ to 2 DALY, depending on where you live.
+* **Air quality.** Stop using aerosols and candles and [ultrasonic humidifiers](/humidifiers), be careful about smoke while cooking, install an air purifier, and you can plausibly buy yourself ½ to 2 DALY, depending on where you live.
 
 * **Seasonal depression**. Your phone can measure lux. On a sunny day in summer, you'd get 30k-100k lux. Keep adding lights inside until you get that many. (Maybe this works [as well as a lightbox](https://www.medrxiv.org/content/10.1101/2021.10.29.21265530v1)?)
 
