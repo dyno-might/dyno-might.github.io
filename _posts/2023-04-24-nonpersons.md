@@ -66,7 +66,7 @@ You 2029: You take half of your AI and move it to a new computer. Which computer
 
 Bongcloud 101: You're having one of your edgelord what does it all mean life is finite why is there no permanence-type crises. But then you have a thought: Maybe you aren't your *atoms*, but the *pattern*, so as long as the universe exists there's a chance your pattern could be recreated. You bring this up with your math support group and get into a debate about how the probability of being recreated might evolve as the universe approaches thermodynamic equilibrium. Does immortality hinge on the solution to some infinite series?
 
-You 2029: Someone blows up your computer. (Something about "mesa-optimizers and the "orthogonality thesis".) You rewrite your AI program and run it on a new computer. Is it still the "same"?
+You 2029: Someone blows up your computer. (Something about "mesa-optimizers" and the "orthogonality thesis".) You rewrite your AI program and run it on a new computer. Is it still the "same"?
 
 ## 9.
 
