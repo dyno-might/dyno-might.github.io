@@ -157,9 +157,13 @@ function updateprogress(done){
     // (don't do this if person has answered a question past the current maximum)
     if(rownum == find_last_answered()+1){
         // try to keep a few questions ahead
-        where2scroll = rownum+3
         //if(where2scroll<q_lo_length){
         if(rownum+3<q_lo_length){
+            where2scroll = rownum+3
+            myid = "row"+where2scroll;
+            document.getElementById(myid).scrollIntoView(false);
+        } else if(rownum+2<q_lo_length){
+            where2scroll = rownum+2
             myid = "row"+where2scroll;
             document.getElementById(myid).scrollIntoView(false);
         } else{ // if near end, show results
