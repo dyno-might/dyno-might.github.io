@@ -9,12 +9,13 @@ permalink: /diet-coke-nootropic/
 background_color: rgb(108,63,66)
 category: "obsessive investigation"
 comment:
-   #reddit: https://old.reddit.com/r/dynomight/comments/vbety4/diet_coke_probably_isnt_a_cognitive_performance/
    substack: https://dynomight.substack.com/p/diet-coke-nootropic
    hacker news: https://news.ycombinator.com/item?id=31727687
+replies:
+    Aaron Bergman: https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also
 ---
 
-(Except for the caffeine of course, and maybe that it's so delicious?)
+Except for the caffeine of course, and maybe that it's so delicious?
 
 ## Theory
 
