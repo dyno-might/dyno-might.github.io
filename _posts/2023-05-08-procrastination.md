@@ -144,7 +144,7 @@ There are a few possibilities:
 
 What I'd like to understand is: Is there a failure mode from having too much willpower?
 
-There's an angle on this that seems promising at first. People who have ADHD have "low willpower". This is claimed to be a result of some kind of dopamine (or norepinephrine) dysfunction—either producing too little, or having low-sensitivity receptors. So is there a problem associated with having "too much" dopamine? Perhaps yes—the [dopamine hypothesis](https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia) is that an overly sensitive dopamine system (or who've taken lots of cocaine) is a cause of schizophrenia.
+There's an angle on this that seems promising at first. People who have ADHD have "low willpower". This is claimed to be a result of some kind of dopamine (or norepinephrine) dysfunction—either producing too little, or having low-sensitivity receptors. So is there a problem associated with having "too much" dopamine? Perhaps yes—the [dopamine hypothesis](https://en.wikipedia.org/wiki/Dopamine_hypothesis_of_schizophrenia) is that an overly sensitive dopamine system (or taking lots of meth and cocaine) causes schizophrenia.
 
 As a cartoon, we might think that:
 
