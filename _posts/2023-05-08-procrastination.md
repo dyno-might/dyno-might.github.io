@@ -91,7 +91,7 @@ Some solutions are odd. I like a large and completely empty desk. I recognize th
   
 3. Put a big calendar on the wall. On days you do the thing, draw a smiley face. On days you fail, write "I AM A FAILURE".
   
-4. Standard writing advice is to just puke out a rough draft before you worry about editing. This is impossible for me because Jim does not shut up. By *far* the best solution I've found is the [evil writing website](https://en.wikipedia.org/wiki/The_Most_Dangerous_Writing_App) where if you stop typing for 5 seconds everything is permanently deleted and Jim shrieks in pain.
+4. Standard writing advice is to just puke out a rough draft before you worry about editing. This is impossible for me because Jim does not shut up. By *far* the best solution I've found is an [evil writing website](https://en.wikipedia.org/wiki/The_Most_Dangerous_Writing_App) where if you stop typing for 5 seconds everything is permanently deleted and Jim shrieks in pain.
   
 **Work on the thing with others.** Say you want to be a musician and you start a band. This does a lot. It makes writing songs and practicing more fun. It also—via a new social commitment—makes *not* writing songs and not practicing more painful. And it provides social proof to Jim: when he sees your friends spending their time trying to land a record deal, he concludes it can't be *that* stupid.
 
