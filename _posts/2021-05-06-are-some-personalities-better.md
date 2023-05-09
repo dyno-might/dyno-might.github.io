@@ -45,7 +45,7 @@ Evolution doesn't care if you're happy. Evolution only wants you to pass on your
 
 The personality characteristics are standardized so Extraversion = 0 for someone who is average, and Extraversion = -2 for someone 2 standard deviations below average, etc. They focus on grandchildren to reflect the influence of a parent's personality on a child's survival, but just using children gives similar results.
 
-If you're wondering, this suggests the ESFP as the most fecund [MBTI](https://dynomight.net/in-defense-of-myers-briggs.html) type (Ronald Reagan, Bill Clinton, Hugh Hefner).
+If you're wondering, this suggests the ESFP as the most fecund [MBTI](https://dynomight.net/mbti/) type (Ronald Reagan, Bill Clinton, Hugh Hefner).
 
 On the one hand, this would explain why everyone isn't an all-blue: If you want to dominate the personality landscape, you need to reproduce more. On the other hand, it creates a bigger puzzle: If we were in population equilibrium, all the coefficients would be zero! Instead, there are huge effects like extroverted men having 0.8 more grandchildren than introverted men. If that's true, then we are *way* out of equilibrium, and future generations will look different from us.
 
