@@ -1235,26 +1235,29 @@ function copyToC(copyText) {
     
     {% assign total = 0 %}
     
-    {% for post in site.posts limit:5 %}
-    
-      {% assign excerpt=post.excerpt | strip_html %}    
-      {% if excerpt.size < 50 %}
-          {% assign excerpt=post.content | markdownify | strip_html %}
-      {% endif %}
+    {% for post in site.posts %}
+      {% if post.title contains "In defense of" or post.title contains "Numbers without which" or post.title contains "Thoughts on the potato" or post.title contains "Buy more copies" or post.title contains "Underrated reasons" %}      
+           
 
-        <span style="display: inline-block; min-width:20%; font-size:60%; text-align:right;">{{ post.date | date: "%b %-d %Y" }}</span>
-        <a href="{{post.url}}?utm_source=mbti&utm_medium=mbti&utm_campaign=mbti" style="font-size:60%; text-overflow: ellipsis;">
-            {{post.title}}
-        </a>
-        <div style="font-size: 60%; word-wrap:break-word; margin-left:20%;">
-      {{excerpt | truncatewords: 40}}
-        </div>
-    
-      {% assign total = total  | plus:1 %}
-      {%- if total >= 6 -%}
-        {% break %}
-      {% endif %}
-    
+        {% assign excerpt=post.excerpt | strip_html %}    
+        {% if excerpt.size < 50 %}
+            {% assign excerpt=post.content | markdownify | strip_html %}
+        {% endif %}
+
+          <span style="display: inline-block; min-width:20%; font-size:60%; text-align:right;">{{ post.date | date: "%b %-d %Y" }}</span>
+          <a href="{{post.url}}?utm_source=mbti&utm_medium=mbti&utm_campaign=mbti" style="font-size:60%; text-overflow: ellipsis;">
+              {{post.title}}
+          </a>
+          <div style="font-size: 60%; word-wrap:break-word; margin-left:21%;">
+        {{excerpt | truncatewords: 100}}
+          </div>
+      
+        {% assign total = total  | plus:1 %}
+        {%- if total >= 6 -%}
+          {% break %}
+        {% endif %}
+
+        {% endif %}
     {% endfor %}
     </div>    
 
@@ -1262,6 +1265,7 @@ function copyToC(copyText) {
 <div style="max-width:min(100%,600px); margin-left:auto; margin-right:auto; font-size:50%; text-align: center;">
 Privacy note: No data about your answers is stored (or leaves your device) when you take this test.
 </div>
+
 
 </body>
 
