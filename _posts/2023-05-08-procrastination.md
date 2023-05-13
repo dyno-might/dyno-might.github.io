@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A taxonomy of why I procrastinate"
+title: "Taxonomy of procrastination"
 image: /img/procrastination/table.jpg
 tags: science
 description: "There's a little accountant named Jim that lives in my head"
