@@ -10,9 +10,7 @@ background_color: rgb(238,237,235)
 category: "science"
 ---
 
-<div class="headerfont" style="font-size:90%;">
-I originally wrote this as part of a much longer post on AI and scaling laws and possible barriers/trajectories for progress. (That will finally go out next week, inshallah.) The idea was to provide the minimal background necessary to understand all that stuff. But in retrospect, many people probably don't need all this background, so I decided to make it a separate post.
-</div>
+I originally wrote this as part of a [much longer post on LLM scaling laws and possible barriers/trajectories for progress](/scaling/). The idea was to provide the minimal background necessary to understand all that stuff. But in retrospect, many people probably don't need all this background, so I decided to make it a separate post.
 
 ---
 
@@ -106,4 +104,4 @@ At first, it might seem counterintuitive that these prompts could help so much. 
 
 Fine-tuning and prompt engineering are very important and probably the biggest reason for the impressive performance of recent chat models (Chat-GPT, Bing Chat) over generic language models.
 
-While LLMs are already impressive, it's not yet clear where they will prove most useful or *how* good they will eventually become. If you're interested in that, read the next post.
+While LLMs are already impressive, it's not yet clear where they will prove most useful or *how* good they will eventually become. If you're interested in that, read the [next post](/scaling/).
