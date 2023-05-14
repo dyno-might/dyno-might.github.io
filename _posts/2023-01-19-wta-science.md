@@ -36,11 +36,11 @@ In the book, Darwin mentioned Wallace as coming to the same conclusion independe
 
 Overall, this is a nice story. Darwin comes off as a good egg and Wallace always defended Darwin and shunned fame despite being given every possible award and honor. But still—you learned about Darwin as a child, *maybe* learned about Wallace later on but probably never heard of Matthew or Wells.
 
-Again, it's interesting to speculate: How much Darwin accelerated the theory of natural selection? My guess is quite a bit—it would have taken Wallace a while to publish his results without Darwin, and even if he did, they might have gone under-appreciated like Matthew and Wells' ideas did. But still, it was going to happen eventually. (It would have been better if he didn't wait 22 years!)
+Again, it's interesting to speculate: How much did Darwin accelerate the theory of natural selection? My guess is quite a bit—it would have taken Wallace a while to publish his results without Darwin, and even if he did, they might have gone under-appreciated like Matthew and Wells' ideas did. But still, it was going to happen eventually. (It would have been better if he didn't wait 22 years though!)
 
 ## General Relativity
 
-Einstein did many things but most people say his greatest achievement was general relativity. But most don't know that there's an ongoing debate about the priority of that theory.
+Einstein did many things but most people say his greatest achievement was general relativity. But few know that there's an ongoing debate about the priority of that theory.
 
 When working on it in 1915, Einstein was in frequent communication with [Hilbert](https://en.wikipedia.org/wiki/David_Hilbert), who was working on something similar. On November 20, Hilbert submitted a paper with field equations similar to those Einstein presented on November 25.
 
@@ -54,7 +54,7 @@ But... do we *care* if Hilbert presented his equations five days before Einstein
 
 Similar things happen every day in the trenches of workaday science. The idea of there being a *single* person/group that is *first* just doesn't match very well with reality and has weird effects.
 
-In biology today many are paranoid about being scooped, which makes people cagey when talking about their work. Many avoid presenting posters before publication and some are even intentionally vague in grant proposals. This paranoia happens even *inside single labs*, with grad students and postdocs suspicious of each other. (It must be said that the rise of [bioRxiv](https://www.biorxiv.org/) has helped here, in allowing people to put their "stamp" on something more quickly.)
+In biology today many are paranoid about being scooped, which makes people cagey when talking about their work. Many avoid presenting posters before publication and some are even intentionally vague in grant proposals. This paranoia happens even *inside single labs*, with grad students and postdocs suspicious of each other. (Though it must be said that the rise of [bioRxiv](https://www.biorxiv.org/) has helped here, in allowing people to put their "stamp" on something more quickly.)
 
 Or say two groups send papers with the same idea to the same computer science conference. What happens? Well, reviewing is known—via both universal griping and [randomized trials](https://blog.neurips.cc/2021/12/08/the-neurips-2021-consistency-experiment/)—to be pretty random. If a typical accepted paper were sent through peer review again, it would be rejected around 50% of the time.
 
