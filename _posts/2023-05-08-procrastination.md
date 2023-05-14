@@ -4,7 +4,7 @@ title: "Taxonomy of procrastination"
 image: /img/procrastination/table.jpg
 tags: science
 description: "There's a little accountant named Jim that lives in my head"
-excerpt: ""
+excerpt: "Nobody gets everything they want in life. That's OK. If everyone was a sportscaster-rockstar-scientist-model-author-influencer-billionaire, we still wouldn't be happy because everyone else would be too busy to be impressed. But still, it's a little sad when you don't at least *try* to get what you want. My mental model is: Inside my head there's a guy named Jim. When I decide I want to do something, Jim does a calculation: How much time and energy will this take, and how much reward will it bring?"
 permalink: /procrastination/
 background_color: rgb(191,191,189)
 category: "self improvement"
