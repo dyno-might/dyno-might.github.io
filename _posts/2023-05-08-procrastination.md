@@ -92,7 +92,7 @@ Some solutions are odd. I like a large and completely empty desk. I recognize th
   
 2. Leaving my phone in a distant room
   
-3. Put a big calendar on the wall. On days you do the thing, draw a smiley face. On days you fail, write "I AM A FAILURE".
+3. Put a big calendar on the wall. On days you do the thing, draw a smiley face. On days you fail, write "FAIL".
   
 4. Standard writing advice is to just puke out a rough draft before you worry about editing. This is impossible for me because Jim does not shut up. By *far* the best solution I've found is an [evil writing website](https://en.wikipedia.org/wiki/The_Most_Dangerous_Writing_App) where if you stop typing for 5 seconds everything is permanently deleted and Jim shrieks in pain.
   
