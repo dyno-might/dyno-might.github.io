@@ -82,9 +82,9 @@ then it will be easy. So if you're procrastinating, look for the bottleneck.
 
 ## Let's consider the standard tricks
 
-**Make doing the thing more pleasant.** Say you spend all your time at your desk playing video games instead of working. Will getting a better monitor help? Maybe not, because while that makes working more pleasant, it also improves *not* working. So you've got to be careful.
+**Make doing the thing more pleasant.** Say you spend all your time at your desk playing video games instead of working. Will getting a better monitor help? Maybe not, because while that makes working more pleasant, it also improves *not* working. You've got to be careful.
 
-Some solutions are odd. I like a large and completely empty desk. I recognize this is absurd—isn't the whole point of a desk to support things? But it seems to inspire some sense of possibility and wonder in Jim. ("With all this space for activities, anything is possible!") And it improves the experience of working much more than my default behavior of watching goat escape videos.
+Some solutions are odd. I like a large and completely empty desk. I recognize this is absurd—isn't the whole point of a desk to support things? But it seems to inspire some sense of possibility and wonder in Jim. ("With all this space for activities, anything is possible!") And it improves the experience of working much more than it improves my default behavior of watching goat escape videos.
 
 **Make *not* doing the thing more *un*pleasant (or impossible).** You can also attack the "work distractions gap" from the other side. This is exciting because while it's hard to make things better, pain is unbounded! My favorite techniques include:
 
@@ -106,7 +106,7 @@ A year or so ago, I got obsessed with cancer treatments. I wanted to know: How m
 
 ![cancer survival rates](/img/procrastination/cancer.svg)
 
-But it was incredibly hard to make any progress. Eventually, I realized:
+But it was incredibly hard to make myself work on this. Eventually, I realized:
 
 1. It's almost impossible to tell if survival rates changed because of new treatments, different detection rates, or changes in lifestyles.
   
@@ -120,9 +120,9 @@ Even if you decide not to quit, giving yourself that *freedom* can allow you to 
 
 **Be honest about your motivations for the thing.** We often lie to ourselves. We say we want to get in better shape so we can "be healthier". But really we want to be hotter so we can date hotter people or impress folks at work. But at the same time, we often don't actually *believe* that exercising will accomplish those things.
 
-The problem is, while it's easy to lie to yourself, Jim ain't fooled. He knows you're trying to do something that you don't think will succeed.
+The problem is, while it's easy to lie to yourself, Jim isn't fooled. He knows you're trying to do something that you don't think will succeed.
 
-So, be brutal about your motivations. Humans are silly creatures. If you convince yourself that all your goals are noble and beautiful, you're going to find Jim stomping the brakes in lots of surprising situations. Honestly won't stop him but at least you'll know what's coming. It can also sometimes help you reorient your true motivations—to find a way to *actually* run for better health.
+So, be brutal about your motivations. Humans are silly creatures. If you convince yourself that all your goals are noble and beautiful, you're going to find Jim stomping the brakes in lots of surprising situations. Honesty won't stop him, but at least you'll know what's coming! It can also sometimes help you reorient your true motivations—to find a way to *actually* run for better health.
 
 **Take drugs.** Obviously, I don't recommend this. But some people take dopaminergic drugs like cocaine or amphetamines and then seem to tend to procrastinate less. How does this fit in?
 
@@ -134,13 +134,11 @@ There's also the non-solution: Give up, reduce your ambitions, and stop calling 
 
 This brings up a deeper question that gets strangely little attention. Namely, why does Jim exist at all? Why don't we have infinite willpower? There are lots of studies that suggest that people with more willpower have better life outcomes. [The causality of these observational studies is debatable](/control/), since you can't *assign* someone a level of willpower and watch what happens.  But let's just suppose willpower is good. Then why didn't evolution give us more of it?
 
-There are a few possibilities:
-
 1. Maybe lack of willpower is just a "flaw" that for some reason evolution can't eliminate.
   
 2. Maybe lack of willpower has become a flaw *now* because we live in late modernity and spend our time staring at tiny numbers instead of hunting and winning glory with our tribal bands.
   
-3. Maybe life is too complicated to manage with conscious thought. You don't control your heart rate. You don't orchestrate your visual system—you just "see". Maybe juggling all your priorities like relationships, food, sex, sleep, etc. is also just too hard to be left to consciousness.
+3. Maybe life is too complicated to manage with conscious thought. You don't control your heart rate. You don't orchestrate your visual system—you just "see". Maybe juggling all your priorities like relationships, food, work, sex, sleep, etc. is also just too hard to be left to consciousness.
   
 4. Maybe evolution knows that "you" (your conscious self) have different priorities than it does. An obvious example would be when you have the urge to have unprotected sex that might lead to an unwanted pregnancy. "You" think that's bad because a baby would interfere with your brunch plans. But Jim says "yes babies good!" and puts massive subsidies on "have unprotected sex".
   
