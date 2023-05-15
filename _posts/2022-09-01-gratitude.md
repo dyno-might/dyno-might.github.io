@@ -112,7 +112,7 @@ So the evidence that gratitude and happiness are correlated is pretty overwhelmi
 
 Just because grateful people tend to be happier doesn't mean that gratitude is *making* them happier.
 
-As ever, correlation does not imply causation. And [as ever](/copypasta/), I cannot resist the urge to take a couple of shots at common practices in the social sciences. Papers acknowledge that correlation doesn't imply causation, but rather than seeing this as a fundamental aspect of reality, there's often this strange air of resentful exasperation. And when the researchers are talking to journalists outside of papers, they something switch back to causal language.
+As ever, correlation does not imply causation. And [as ever](/copypasta/), I cannot resist the urge to take a couple of shots at common practices in the social sciences. Papers acknowledge that correlation doesn't imply causation, but rather than seeing this as a fundamental aspect of reality, there's often this strange air of resentful exasperation. And when the researchers are talking to journalists outside of papers, they might switch back to causal language.
 
 But we also have some specific reasons to doubt that gratitude is causing happiness. For one, gratitude is deeply interrelated with other personality traits.
 
