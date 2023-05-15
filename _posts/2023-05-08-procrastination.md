@@ -51,7 +51,7 @@ Jim doesn't like you wasting time and energy on things that fail.
 
 **Sub-taxum B: You don't think you have a good plan.** Sometimes I want to write and it's impossible. I've come to think that's often because Jim is smarter than me. He recognizes that I haven't organized my thoughts and I need to do more research or make an outline.
 
-It's annoying that Jim doesn't make constructive suggestions—he just tyrannically imposes taxes and refuses to elaborate, which makes these cases hard to recognize. But that's Jim for you.
+It's annoying that Jim doesn't make constructive suggestions. He just tyrannically imposes taxes and refuses to elaborate, which makes these cases hard to recognize. But that's Jim for you.
 
 ### Taxum 3: Even if you successfully did the thing, you don't really think it will matter
 
@@ -63,7 +63,7 @@ These are similar but have different solutions. If Jim wants an external reward,
 
 ### Taxum 4: The timeline is too long
 
-Do you want to be more beautiful? Perhaps the most effective thing you can do is use sunscreen to prevent damage to your skin. But this benefit is far in the future. Jim isn't impressed by that because Jim uses aggressive time-discounting.
+Do you want to be more beautiful? Perhaps the most effective thing you can do is use sunscreen to prevent damage to your skin. But this benefit is far in the future. Jim isn't impressed by that because he uses aggressive time-discounting.
 
 ---
 
