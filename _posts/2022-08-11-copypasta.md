@@ -124,7 +124,7 @@ You've probably heard of "Gell-Mann amnesia". This is the idea that when you rea
 
 This is usually presented as a kind of cognitive bias: We're given with evidence that newspapers aren't very good, but for some reason, we refuse to update on that evidence.
 
-I agree we trust the prestige media too much. But in another sense, Gell-Mann amnesia isn't wrong. For a random topic that you know nothing about, the Guardian may not be great, but they're unlikely to be straight-up lie to you. Some independent writers are probably better, but there are lots and *lots* that are worse, and it's hard to tell them apart when you don't know anything about the topic.
+I agree we trust the prestige media too much. But in another sense, Gell-Mann amnesia isn't wrong. For a random topic that you know nothing about, the Guardian may not be great, but they're unlikely to straight-up lie to you. Some independent writers are probably better, but there are lots and *lots* that are worse, and it's hard to tell them apart when you don't know anything about the topic.
 
 One thing people bring up is that independent writers usually have comments and that if they make a mistake, commenters will tear them apart. But... even if you *don't* make any mistakes, [commenters will often do that anyway](/internet-writing/). And how do you know that negative comments aren't being removed? Unless you're familiar with the community, a comments section doesn't have much signal.
 
