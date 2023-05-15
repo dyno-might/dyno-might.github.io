@@ -8,6 +8,9 @@ excerpt: "Nobody gets everything they want in life. That's OK. If everyone was a
 permalink: /procrastination/
 background_color: rgb(191,191,189)
 category: "self improvement"
+comment:
+   substack: https://dynomight.substack.com/p/procrastination
+   hacker news: https://news.ycombinator.com/item?id=35950716
 ---
 
 ## The little accountant
