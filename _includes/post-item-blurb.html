@@ -12,13 +12,16 @@
     </div>
     <div class="blurb-text">
         <a href="{{ site.baseurl }}{{ post.url }}" class="blurb-title">
-        <span class="headerfont">
+        <span class="headerfont" style="display:inline-block;">
             {{post.title}}
+            {% unless nodate %}<span class="headerfont"> {{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}</span>{% endunless %}
         </span>  
         </a>
         <!-- TODO: make silent link class -->
         {% comment %}{% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d %Y"}}{% if post.last_modified_at %}, updated {{post.last_modified_at | date: "%b %-d %Y"}}{% endif %})</span></a>{% endunless %}{% endcomment %}
+        {% comment %}
         {% unless nodate %}<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect"><span class="blurb-date blurb-words headerfont">{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}</span></a>{% endunless %}
+        {% endcomment %}
         
         <a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect">
         <div class="blurb-words">
