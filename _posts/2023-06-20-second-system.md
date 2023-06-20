@@ -100,7 +100,7 @@ Maybe... but notice that many existing alignment strategies are in conflict with
 
 ## 9.
 
-So OK. You give your guardian AI full control of all the weapons systems, to make sure they aren't used for evil. And say give it the ability to monitor the world biosphere and autonomously release viruses, so that if my AI makes super-plauge, the guardian can quickly release anti-super-plague. And you use a different alignment strategy—perhaps you make it **supervised** by a less powerful AI or you make it **interpretable** so you can supervise it yourself.
+So OK. You give your guardian AI full control of all the weapons systems, to make sure they aren't used for evil. And you give it the ability to monitor the world biosphere and autonomously release viruses, so that if my AI makes super-plauge, the guardian can quickly release anti-super-plague. And you use a different alignment strategy—perhaps you make it **supervised** by a less powerful AI or you make it **interpretable** so you can supervise it yourself.
 
 That's not super comforting, but say it works. Then notice a further problem: If whatever you did to align the guardian makes it less *effective*, (slower, less smart, less informed, smaller action space) then it will still lose if someone else builds an AI without those restrictions.
 
