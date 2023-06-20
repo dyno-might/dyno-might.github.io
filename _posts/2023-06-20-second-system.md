@@ -89,13 +89,13 @@ There's one clear way in which "*how to build safe AI*" could have implications 
 
 Maybe... but notice that many existing alignment strategies are in conflict with the goal of having the guardian protect us:
 
-- Say the guardian is a [**bounded AI**](https://www.lesswrong.com/posts/ngEvKav9w57XrGQnb/cognitive-emulation-a-naive-ai-safety-proposal) with limited capabilities. Then it will be outsmarted by my dangerous unbounded AI.
+- Say your guardian is a [**bounded AI**](https://www.lesswrong.com/posts/ngEvKav9w57XrGQnb/cognitive-emulation-a-naive-ai-safety-proposal) with limited capabilities. Then it will be outsmarted by my dangerous unbounded AI.
   
 - Say your guardian is a [**genie AI**](https://astralcodexten.substack.com/p/janus-simulators) that can only follow orders but not pursue goals independently. Then it will lose to my dangerous **agent AI** without those restrictions.
   
 - Say your guardian is an [**oracle AI**](https://astralcodexten.substack.com/p/janus-simulators) that can only answer questions but never *do* anything. Then it couldn't even beat my agent AI at Starcraft.
   
-- Say you put your AI in a **box** with restricted access to the world. Then it's not going to be able to stop my dangerous AI from stealing the nuclear launch codes.
+- Say you put your guardian in a **box** with restricted access to the world. Then it's not going to be able to stop my dangerous AI from stealing the nuclear launch codes.
   
 
 ## 9.
