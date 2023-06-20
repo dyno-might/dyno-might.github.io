@@ -18,7 +18,7 @@ category: "science"
 
 ## 1.
 
-In [*The Vulnerable World Hypothesis*](https://nickbostrom.com/papers/vulnerable.pdf), Nick Bostrom imagines we found a technological "black ball"—say a way to make a nuclear weapon with just some glass, some metal, and a battery. He concludes that society in our current "semi-archic default condition"—could not survive such a discovery. We'd have to build a panopticon to watch everything everyone does, along with a world government to rigidly enforce "*no messing around with glass and metal*" in every corner of the planet everywhere forever.
+In [*The Vulnerable World Hypothesis*](https://nickbostrom.com/papers/vulnerable.pdf), Nick Bostrom imagines we found a technological "black ball"—say a way to make a nuclear weapon with just some glass, some metal, and a battery. He concludes that society in our current "semi-archic default condition" could not survive such a discovery. We'd have to build a panopticon to watch everything everyone does, along with a world government to rigidly enforce "*no messing around with glass and metal*" in every corner of the planet everywhere forever.
 
 ## 2.
 
