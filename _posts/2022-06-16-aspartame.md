@@ -7,8 +7,8 @@ description: "Like it or not, there's a clear scientific consensus"
 permalink: /aspartame/
 background_color: rgb(102,102,102)
 seo:
-  date_modified: 2022-08-20
-last_modified_at: 2022-08-20
+  date_modified: 2023-06-29
+last_modified_at: 2023-06-29
 category: "obsessive investigation"
 comment:
   reddit: https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/
@@ -21,7 +21,7 @@ Look, I get it. Diet Coke tastes sweet because it has aspartame in it. Aspartame
 
 If you look on [Wikipedia](https://en.wikipedia.org/wiki/Aspartame), you'll see that aspartame is a *methyl ester of the aspartic acid phenylalanine dipeptide*, which isn't, like, comforting.
 
-It's normal to have a prior that aspartame would be bad for you. Certainly, that was *my* prior. Without looking at any evidence, any reasonable person would think like this:
+It's normal to have a prior that aspartame might be bad for you. Certainly, that was *my* prior. Without looking at any evidence, any reasonable person would think like this:
 
 | aspartame is... | odds |
 |-|-|
@@ -37,12 +37,14 @@ The other thing is, the alternative to aspartame often isn't *no aspartame* but 
 
 I don't want to convince anyone to consume aspartame. But if we're choosing between aspartame and other risky things, we should evaluate the relative risks.
 
+{% comment %}
 <div style="font-size:90%; line-height:110%;" markdown="1">
 
 * auto-gen TOC:
 {:toc}
 
 </div>
+{% endcomment %}
 
 ## What happens to aspartame after it goes into your body
 
@@ -50,22 +52,14 @@ Let's forget about safety for a second, and just look at the causal chain. Say y
 
 ### Fact 1: Aspartame is quickly broken down in the gut.
 
-After you drink a Diet Coke, the aspartame goes to your guts. After that, it's very quickly broken down into:
-
-* 50% phenylalanine
-* 40% aspartic acid
-* 10% methanol
-
-For example, a can of Diet Coke contains 184 mg of aspartame. This becomes:
+After you drink a Diet Coke, the aspartame goes to your guts. After that, it's very quickly broken down into 50% phenylalanine, 40% aspartic acid, and 10% methanol. For example, a can of Diet Coke contains 184 mg of aspartame. This becomes:
 
 * 92 mg of phenylalanine
 * 73.6 mg aspartic acid
 * 18.4 mg methanol
 
-This happens quickly and completely. No aspartame ever enters your bloodstream. The rest of your body only ever sees these three other chemicals.
-
 <details markdown="1">
-<summary>(click for details/citations)</summary>
+<summary>This happens quickly and completely. No aspartame ever enters your bloodstream. The rest of your body only ever sees these three other chemicals. (<u>click here or on any paragraph with a triangle for more details</u>)</summary>
 
 The European Food Safety Authority Report (EFSA) report: [Scientific Opinion on the re-evaluation of aspartame as a food additive](https://www.efsa.europa.eu/en/efsajournal/pub/3496) gives this figure (slightly modified):
 
@@ -90,27 +84,8 @@ Here are the amounts of phenylalanine in a few foods:
 | 8 oz (235 ml) glass of milk | 430 mg |
 | 400g box of tofu | 3300 mg|
 
-The 92 mg of phenylalanine you get from a Diet Coke is much less than what virtually everyone already gets from other sources.
-
-{% comment %}
-Fortunately, that's almost impossible. Here are four ways to contextualize the 92 mg of phenylalanine you get from a Diet Coke:
-
-1. Phenylalanine in food:
-
-   | potato | 170 mg |
-   | large egg | 340 mg |
-   | 8 oz (235 ml) glass of milk | 430 mg |
-   | 400g box of tofu | 3300 mg|
-
-2. In fruits and vegetables, 2-4% of all protein is phenylalanine. In cereals and animal protein, it's 5%.
-
-3. RDA guidelines say an adult person should get at least 33 mg/kg per day of phenylalanine (or tyrosine, a metabolite of phenylalanine). For a 70 kg (154 lb) person, that would be 2130 mg.
-
-4. Meat-eating men in the UK average 3500 mg per day. Vegetarians and vegans get slightly less.
-{% endcomment %}
-
 <details markdown="1">
-<summary>(details/citations)</summary>
+<summary>The 92 mg of phenylalanine you get from a Diet Coke is much less than what virtually everyone already gets from other sources.</summary>
 
 [MacDonald et al. (2020)](https://doi.org/10.1186/s13023-020-01391-y):
 
@@ -124,25 +99,27 @@ RDA guidelines are [here](https://globalrph.com/rda-and-ear-recommendations-for-
 
 </details>
 
-Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of the enzyme [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase), making it difficult to metabolize phenylalanine. So, people with phenylketonuria need to carefully monitor their consumption of phenylalanine (from any sources). This is why there's this **SCARY ALL-BOLD WARNING**.
+Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of the enzyme [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase), making it difficult to metabolize phenylalanine. So, people with phenylketonuria need to carefully monitor their consumption of phenylalanine (from any sources). This is why there's this scary **ALL-BOLD WARNING**.
 
-![phenylketonurics](/img/aspartame/phenylketonurics.jpg)
+<!-- ![phenylketonurics warning](/img/aspartame/phenylketonurics.jpg) -->
 
-Aspartame is very dangerous for people with phenylketonuria, but if you had phenylketonuria you would know it already.
+<img alt="phenylketonurics warning" src="/img/aspartame/phenylketonurics.jpg" style="max-width:75%">
+
+If you had phenylketonuria you would know it already.
 
 ### Fact 3: Aspartic acid is a standard amino acid you consume all the time.
 
 Here's [a chart from Wikimedia](https://commons.wikimedia.org/wiki/File:ProteinogenicAminoAcids.svg) with our friends circled:
 
-![amino-acids](/img/aspartame/amino-acids.png)
+<!-- ![amino-acids](/img/aspartame/amino-acids.png) -->
+
+<img alt="amino acids" src="/img/aspartame/amino-acids.png" style="max-width:75%">
 
 Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
 
-The 74 mg of aspartic acid you get from a Diet Coke is two orders of magnitude less than what most people get already.
-
 
 <details markdown="1">
-<summary>(details/citations)</summary>
+<summary>The 74 mg of aspartic acid you get from a Diet Coke is two orders of magnitude less than what most people get already.</summary>
 
 Here's [Schmidt et al. (2015)](https://doi.org/10.1038/ejcn.2015.144) again:
 
@@ -160,7 +137,7 @@ Methanol (CH₃OH) is the simplest alcohol molecule. It's in lots of food. Here 
 | tomatoes     | 281.4          | medium 125g tomato | 35 mg    |
 | citrus fruit | 106.5          | medium 140g orange | 15 mg    |
 
-But this still vastly underestimates how much methanol you get. In land plants, the primary component of cells walls is pectin. Once in the body, pectin degrades into methanol. Here are some estimates of the *indirect* increase in methanol various fruits and vegetables cause in this way.
+This vastly underestimates how much methanol you get. In land plants, the primary component of cells walls is [pectin](https://en.wikipedia.org/wiki/Pectin). Once in the body, pectin degrades into methanol. Here are some estimates of the *indirect* increase in methanol various fruits and vegetables cause in this way.
 
 | food            | mg/kg methanol | typical serving     | methanol |
 | --------------- | -------------- | ------------------- | -------- |
@@ -172,12 +149,10 @@ But this still vastly underestimates how much methanol you get. In land plants, 
 
 You get the idea. We eat things that contain methanol or metabolize into methanol all the time. It's estimated that most people get between 130 and 1030 mg of methanol from food per day, much more than the 18 mg in a Diet Coke.
 
-Now isn't methanol toxic? Well, sure, if you consume enough of it. The [LD₅₀](https://en.wikipedia.org/wiki/Median_lethal_dose) in rats is around 5600 mg/kg, as compared to 7300 mg/kg for [good-old ethanol](/alcohol-trial/).
-
-One "conspiracy theory" you hear about aspartame is that it becomes formaldehyde once it's in the body. This is *absolutely true*: When metabolizing methanol, formaldehyde is created. But small amounts of formaldehyde are also *completely normal*. The half-life of formaldehyde in human blood is around 1 minute, meaning it disappears almost immediately. You get more formaldehyde (via methanol) by eating an apple than by drinking a Diet Coke. Formaldehyde itself is also present in lots of foods, like meat, seafood, fruits, vegetables, and coffee.
+Now isn't methanol toxic? Sure, if you consume enough of it. The [LD₅₀](https://en.wikipedia.org/wiki/Median_lethal_dose) in rats is around 5600 mg/kg, as compared to 7300 mg/kg for [good-old ethanol](/alcohol-trial/).
 
 <details markdown="1">
-<summary>(details/citations)</summary>
+<summary>One "conspiracy theory" you hear about aspartame is that it becomes formaldehyde once it's in the body. This is <em>absolutely true</em>: When metabolizing methanol, formaldehyde is created. But small amounts of formaldehyde are <em>completely normal</em>. The half-life of formaldehyde in human blood is around 1 minute, meaning it disappears almost immediately. You get more formaldehyde (via methanol) by eating an apple than by drinking a Diet Coke. Formaldehyde itself is also present in lots of foods, like meat, seafood, fruits, vegetables, and coffee.</summary>
 
 The EFSA report:
 
@@ -205,7 +180,7 @@ The EFSA report again:
 
 To summarize the above:
 
-1. Aspartame is quickly broken down in the gut into phenylalanine, aspartic acid, and methanol. Aspartame itself never enters your bloodstream or touches any other part of the body.
+1. Aspartame is quickly broken down in the gut into phenylalanine, aspartic acid, and methanol. Aspartame itself never enters your bloodstream or touches any other part of your body.
 2. Phenylalanine is normal.
 3. Aspartic acid is normal.
 4. Methanol is normal.
@@ -228,9 +203,9 @@ This is reassuring. But even if they're normal, could these chemicals still caus
 
 Aspartame was first made in 1965 and was approved by the FDA in 1981. In the decades since, there have been hundreds of studies.
 
-How should we best make use of all this information? Given so many studies, focusing on individual papers is a mistake. With enough <strike>monkeys pounding away at enough typewriters</strike> scientists pounding away at enough science, lots of weirdness is expected.
+Given so many studies, focusing on individual papers is a mistake. With enough <strike>monkeys pounding away at enough typewriters</strike> scientists pounding away at enough science, lots of weirdness is expected.
 
-The right strategy is to look at the entire pool of evidence. Some tiny number of people have the time and expertise to comb through the entire literature and synthesize everything. For the rest of us, the only sane attitude is to read other people who have done that synthesis.
+The right strategy is to look at the entire pool of evidence. Some tiny number of people have the time and expertise to comb through the entire literature and synthesize everything. For the rest of us, the only sane thing is to read other people who have done that synthesis.
 
 ### The US Food and Drug Administration (FDA)
 
@@ -240,10 +215,10 @@ In typical US government fashion, the FDA doesn't go to great lengths to explain
 
 The history of aspartame and the FDA is contentious and sort of infuriating. For the scientific question of "is aspartame safe?" the main thing to know is that the FDA approved it a long time ago, and continues to stand by those decisions.
 
-But it must be said that the history and public communication of the FDA on this issue is kind of a train wreck, and if I wanted to optimize it to serve as conspiracy theory fuel, I could scarcely do any better. The FDA says it continues to monitor new studies and remains confident aspartame is safe. So why doesn't it explain its reasoning to a skeptical public? How is it possible the newest document the FDA can point people to is from 26 years ago? When a concerned citizen writes in, why does the FDA respond 12 *years* later, and act like that's perfectly normal? Not helpful.
-
 <details markdown="1">
-<summary>(Here's a summary of the history of the FDA and aspartame.)</summary>
+<summary>
+But it must be said that the history and public communication of the FDA on this issue is kind of a train wreck, and if I wanted to optimize it to serve as conspiracy theory fuel, I could scarcely do any better. The FDA says it continues to monitor new studies and remains confident aspartame is safe. So why doesn't it explain its reasoning to a skeptical public? The newest document the FDA can point people to is from 26 years ago. When a concerned citizen writes in, the FDA does things like respond 12 years later, while acting like that's perfectly normal.
+</summary>
 
 The FDA first approved aspartame for dry foods in 1974. However, there was a lot of controversy about the studies performed by [G.D. Searle](https://en.wikipedia.org/wiki/G.D._Searle,_LLC), the company that discovered aspartame in 1965 (and that Donald Rumsfeld would become CEO of in 1977). The FDA commissioner agreed with these criticisms and placed a stay on aspartame's approval.
 
@@ -329,7 +304,7 @@ The UN and WHO "jointly" run the JECFA. The only public reports I can find from 
 
 ![JECFA](/img/aspartame/JECFA.svg)
 
-As far as I can tell, this [1981](https://inchem.org/documents/jecfa/jecmono/v16je01.htm) update is the last word on aspartame from the JECFA. However, the JECFA currently has aspartame on the [priority list of substances proposed for evaluation](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FCircular%252520Letters%252FCL%2525202021-81%252Fcl21_81e.pdf), as requested by Columbia, Costa Rica, and---somehow---the United States of America.
+As far as I can tell, this [1981](https://inchem.org/documents/jecfa/jecmono/v16je01.htm) update is the last word on aspartame from the JECFA. However, the JECFA currently has aspartame on the [priority list of substances proposed for evaluation](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FCircular%252520Letters%252FCL%2525202021-81%252Fcl21_81e.pdf), as requested by Columbia, Costa Rica, and---somehow---the United States of America. (*Update*: This report is due to finally come out July 14, 2023. I'll write about it when it does.)
 
 ### The Academy of Nutrition and Dietetics
 
@@ -350,9 +325,7 @@ Here, some judgment is required. If I type "review aspartame safety" into Google
 
 For full transparency, here are the papers I found less credible for the above reasons, given as hopefully-offense-minimizing numbers: [1](https://doi.org/10.1007/s10616-013-9681-0) [2](https://doi.org/10.3923/pjbs.2018.127.134) [3](https://doi.org/10.4103%2F0976-500X.85936) [4](https://doi.org/10.1080/1028415X.2017.1288340) [5](https://pubmed.ncbi.nlm.nih.gov/29038387/) [6](https://www.researchgate.net/profile/Ab-Naik/publication/360642412_Aspartame_Effects_and_Awareness/links/62949ea76886635d5cae8511/Aspartame-Effects-and-Awareness.pdf) [7](https://doi.org/10.3390/nu13061957) [8](https://doi.org/10.1093/nutrit/nux035). Note that many of these *do* suggest health concerns with aspartame, but I am discounting their conclusions because I don't think they are credible. If *you* don't trust *me*, you should look at those papers yourself. I have linked (here or below) everything I found that was published after the year 2000 and claimed to be a review of aspartame.
 
-### Butchko et al.
-
-Paper: Butchko et al. [*Aspartame: Review of Safety*](https://doi.org/10.1006/rtph.2002.1542). Regulatory Toxicology and Pharmacology, 2002.
+**Butchko et al. [*Aspartame: Review of Safety*](https://doi.org/10.1006/rtph.2002.1542). Regulatory Toxicology and Pharmacology, 2002.**
 
 Our first is a 93-page monster from a team of 24 scientists (three of whom, note, are employed by The NutraSweet Company). As I write this, it's been cited 344 times. In their summary, you can feel the frustration:
 
@@ -364,18 +337,14 @@ Here's a table from this paper:
 
 This is helpful to put things in perspective. If you drink a Diet Coke, you get 2.6 mg/kg of aspartame, assuming you weight 70 kg. That's around 20 times less than the government recommended limits. It's also around *1000 times* less than doses that do not show harms in animals.
 
-### Magnuson et al.
-
-Paper: Magnuson et al. [*Aspartame: A Safety Evaluation Based on Current Use Levels, Regulations, and Toxicological and Epidemiological Studies*](https://doi.org/10.1080/10408440701516184). Critical Reviews in Toxicology, 2007.
+**Magnuson et al. [*Aspartame: A Safety Evaluation Based on Current Use Levels, Regulations, and Toxicological and Epidemiological Studies*](https://doi.org/10.1080/10408440701516184). Critical Reviews in Toxicology, 2007.**
 
 This is a 99-page paper that's been cited 430 times so far. The conclusions are kind of feisty.
 
 ![magnuson](/img/aspartame/magnuson.svg)
 
-Note that this study was funded by Ajinomoto via some kind of blind-trust arrangement.
-
 <details markdown="1">
-<summary>(details of sponsorship)</summary>
+<summary>Note that this study was funded by Ajinomoto via some kind of blind-trust arrangement.</summary>
 
 The paper describes it this way:
 
@@ -385,9 +354,7 @@ I still mostly trust this paper, but [we all know how these things can go](/alco
 
 </details>
 
-### Rogers et al.
-
-Rogers et al. [*Does low-energy  sweetener consumption affect energy intake and body weight? A systematic review, including meta-analyses, of the evidence from human and animal studies*](https://doi.org/10.1038/ijo.2015.177). International Journal of Obesity, 2016.
+**Rogers et al. [*Does low-energy  sweetener consumption affect energy intake and body weight? A systematic review, including meta-analyses, of the evidence from human and animal studies*](https://doi.org/10.1038/ijo.2015.177). International Journal of Obesity, 2016.**
 
 This paper has 320 citations and 11 authors (four of whom---sigh---have gotten grants from or worked at sweetener companies). It focuses on on metabolism and weight. Here is their conclusion, where LES = Low-Energy Sweeteners, EI = Energy Intake, and BW = Body Weight.
 
@@ -411,7 +378,7 @@ There are many other reviews that seem scientifically solid, but just aren't as 
 
 ## Why write this?
 
-I write this with some trepidation, as my [previous](/cola/#ps) [mentions](/thanks/) of aspartame caused a surprising amount of rancor.
+I write all this with some trepidation, as my [previous](/cola/#ps) [mentions](/thanks/) of aspartame caused a surprising amount of rancor.
 
 But whatever, I'll die on this hill: After aspartame is consumed, it immediately breaks down into three naturally occurring chemicals. Even large amounts of aspartame cause smaller fluctuations in those chemicals than normal food. The current science says that the health impact of aspartame is essentially zero. Every credible body that has studied this question has reached the same conclusion.
 
@@ -438,8 +405,8 @@ Or, why not worry about:
 * [Perfluorooctanoic acid](https://en.wikipedia.org/wiki/Perfluorooctanoic_acid#Health_concerns)
 * [Helicobacter pylori](https://doi.org/10.1128/CMR.00011-10)
 
-All of these appear to present some real danger, but mostly no one cares.
+All of these present some real danger but mostly no one cares.
 
-To me, most skepticism of aspartame looks like an [isolated demand for rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)---an impossibly high standard of evidence that isn't applied to other things. Most of us have finite bandwidth for things to worry about, and the evidence we have for aspartame puts it very low on the list of sensible worries.
+To me, most skepticism of aspartame looks like an [isolated demand for rigor](https://slatestarcodex.com/2014/08/14/beware-isolated-demands-for-rigor/)---an impossibly high standard of evidence that isn't applied to other things. We all have finite bandwidth for things to worry about, and the evidence places aspartame very low on the list of sensible worries.
 
-Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: What evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, well, OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
+Many of the same people who claim aspartame is risky exhort to Follow the Science in other domains. I wonder: What evidence would be convincing proof of aspartame's safety, but doesn't already exist? Is it even possible? If not, then OK! But if you only follow the science when the conclusions are intuitive, it's not science that chooses your destination.
