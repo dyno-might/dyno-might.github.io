@@ -16,11 +16,6 @@
         <span class="headerfont blurb-date">
             {% unless nodate %}{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}{% endunless %}
         </span>  
-        <!-- TODO: make silent link class -->
-        {% comment %}{% unless nodate %}<span class="blurb-date blurb-words headerfont" style="white-space:nowrap;">({{ post.date | date: "%b %-d %Y"}}{% if post.last_modified_at %}, updated {{post.last_modified_at | date: "%b %-d %Y"}}{% endif %})</span>{% endunless %}{% endcomment %}
-        {% comment %}
-        {% unless nodate %}<span class="blurb-date blurb-words headerfont">{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}</span>{% endunless %}
-        {% endcomment %}
         
         <div class="blurb-words">
             <div class="normalonly only-mobile" style="float:left; margin-right:5px; margin-top:5px; margin-bottom:-5px;">
