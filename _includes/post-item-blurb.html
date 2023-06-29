@@ -10,10 +10,10 @@
         <img src="{{ post.image | prepend: site.baseurl | prepend: '/small'}}" class="blurb-img" style="width:min(360px,30vw); height:calc(min(360px,30vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
     </div>
     <div class="blurb-text">
-        <span class="headerfont blurb-title" style="display:inline-block;">
+        <span class="headerfont blurb-title">
             {{post.title}}
         </span>  
-        <span class="headerfont blurb-date" style="display:inline-block;">
+        <span class="headerfont blurb-date">
             {% unless nodate %}{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}{% endunless %}
         </span>  
         <!-- TODO: make silent link class -->

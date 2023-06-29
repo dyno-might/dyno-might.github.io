@@ -425,17 +425,17 @@ video {
 .blurb-text{
   max-width:90ch;
   flex:1;
-  line-height: 1.3;
+  line-height: 1.0;
 }
 .blurb-subtitle{
   display:none;
   font-style:italic;
 }
 .blurb-words{
+  line-height: 1.2;
   font-size:calc(0.042 * min(360px,90vw));
 }
 .blurb-title{
-  line-height: 1.3;
   margin-top: 0pt;
   //font-size:calc(0.042 * min(360px,90vw));
   font-size:calc(0.048 * min(360px,90vw));
@@ -452,10 +452,10 @@ video {
   text-decoration: none;
 }
 .blurb-date{
-  line-height: 1.3;
   margin-top: 0pt;
   //font-size:calc(0.042 * min(360px,90vw));
-  font-size:calc(0.048 * min(360px,90vw));
+  //font-size:calc(0.048 * min(360px,90vw));
+  font-size:calc(0.036 * min(360px,90vw));
   font-weight: normal;
   color: inherit;
   text-decoration: none;
