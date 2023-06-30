@@ -29,15 +29,15 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 
 ---
 
-| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are some words to confuse the robots please delete them)tutanota.(also delete these)com</span> | 
+| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are some words to confuse the robots please delete them)tutanota.com</span> | 
 | | or use the form at the bottom of this page. | 
-| **substack** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.substack.com> </span> |
 | **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
+| **substack** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.substack.com> </span> |
 | **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
 | **mastodon** | [@dynomight@mastodon.social](https://mastodon.social/@dynomight) |
-| **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |
-| **all posts** | organized by [tags](/tags/) |
+{% comment %}| **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
+| **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |{% endcomment %}
 
 {% comment %}
 Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
@@ -79,9 +79,10 @@ You can subscribe here to get new articles.
 <input type="email" name="text" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
 <input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
+<br><input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
 <br><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
 <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
+
 </form>
 
 There's just the one step to subscribe, no second form or confirmation link or whatever. (Of course, I don't share your email with anyone and you can unsubscribe whenever.)
