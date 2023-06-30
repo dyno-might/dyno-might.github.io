@@ -73,7 +73,7 @@ The same report gives this discussion:
 
 ### Fact 2: Phenylalanine is a standard amino acid you consume all the time.
 
-We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it, then when your body tried to make certain proteins, those proteins would get truncated, and then they wouldn't do what they were supposed to do, and then you would die.
+We recently talked about [phenylalanine](/diet-coke-nootropic/). It is an essential amino acid. If you didn't consume any of it then when your body tried to make certain proteins those proteins would get truncated, and then they wouldn't do what they are supposed to do, and then you would die.
 
 Fortunately, that's almost impossible. From 2% to 5% of all protein in food is phenylalanine. The recommended dietary allowance for a 70 kg (154 lb) person is at least 2130 mg. Meat-eating men in the UK average 3500 mg per day, while vegetarians and vegans get slightly less.
 
@@ -99,7 +99,7 @@ RDA guidelines are [here](https://globalrph.com/rda-and-ear-recommendations-for-
 
 </details>
 
-Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of the enzyme [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase), making it difficult to metabolize phenylalanine. So, people with phenylketonuria need to carefully monitor their consumption of phenylalanine (from any sources). This is why there's this scary **ALL-BOLD WARNING**.
+Around 1 in 12,000 babies is born with [phenylketonuria](https://www.nichd.nih.gov/health/topics/factsheets/pku), a serious genetic disorder that results in low levels of [phenylalanine hydroxylase](https://en.wikipedia.org/wiki/Phenylalanine_hydroxylase), making it difficult to metabolize phenylalanine. People with phenylketonuria need to carefully monitor their consumption of phenylalanine (from all sources). This is why there's this scary **ALL-BOLD WARNING**.
 
 <!-- ![phenylketonurics warning](/img/aspartame/phenylketonurics.jpg) -->
 
@@ -115,7 +115,7 @@ Here's [a chart from Wikimedia](https://commons.wikimedia.org/wiki/File:Proteino
 
 <img alt="amino acids" src="/img/aspartame/amino-acids.png" style="max-width:75%">
 
-Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since almost everything that has protein in it has aspartic acid, including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
+Aspartic acid is not essential in humans, meaning that if you don't eat it, your body can make it (usually from [oxaloacetic acid](https://en.wikipedia.org/wiki/Oxaloacetic_acid)). But that's not likely, since almost everything with protein has aspartic acid including meat, grains, dairy, vegetables, and eggs. Men in the UK average 6600 mg of aspartic acid per day.
 
 
 <details markdown="1">
@@ -356,7 +356,7 @@ I still mostly trust this paper, but [we all know how these things can go](/alco
 
 **Rogers et al. [*Does low-energy  sweetener consumption affect energy intake and body weight? A systematic review, including meta-analyses, of the evidence from human and animal studies*](https://doi.org/10.1038/ijo.2015.177). International Journal of Obesity, 2016.**
 
-This paper has 320 citations and 11 authors (four of whom---sigh---have gotten grants from or worked at sweetener companies). It focuses on on metabolism and weight. Here is their conclusion, where LES = Low-Energy Sweeteners, EI = Energy Intake, and BW = Body Weight.
+This paper has 320 citations and 11 authors (four of whom---sigh---have gotten grants from or worked at sweetener companies). It focuses on metabolism and weight. Here is their conclusion, where LES = Low-Energy Sweeteners, EI = Energy Intake, and BW = Body Weight.
 
 ![rogers 1](/img/aspartame/rogers-1.svg)
 
@@ -364,7 +364,7 @@ This paper has 320 citations and 11 authors (four of whom---sigh---have gotten g
 
 ### Other reviews
 
-There are many other reviews that seem scientifically solid, but just aren't as comprehensive as those above. Here's a representative snippet from each:
+There are many other reviews that seem scientifically solid, but aren't as comprehensive as those above. Here's a representative snippet from each:
 
 | paper | snippet |
 |-|-|
