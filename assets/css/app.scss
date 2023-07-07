@@ -105,9 +105,9 @@ hr::before {
     align-items:center;
     display:flex;
 }
-.navbaritem:hover{
-    text-decoration:underline;
-}
+// .navbaritem:hover{
+//     text-decoration:underline;
+// }
 .navbaritem:visited{
     color: $normal-text-color;
 }
