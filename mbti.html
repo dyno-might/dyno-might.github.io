@@ -99,6 +99,17 @@ image: /img/deathvalley/small.jpg
           tr{
             text-align:center;
           }
+
+          .bluebutton{
+            background-color:#008CBA;
+            padding: 8px 15px;
+            color:white;
+            border: none;
+          }
+
+          .bluebutton:active{ 
+            background-color:gray;
+          }
     
     @media (max-width:550px) {
         body{
@@ -277,7 +288,7 @@ function firstgraph(IE,SN,FT,JP,phaze){
     str += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
     str += " 🄿\\n";
 
-    box += "<br><button style=\"background-color:#008CBA; padding: 8px 15px; color:white; border: none;\" onclick='copyToC(\"" + str + "\")'>Copy as text</button>"
+    box += "<br><button class=\"bluebutton\" onclick='copyToC(\"" + str + "\")'>Copy as text</button>"
 
     return box
 }
@@ -1191,8 +1202,8 @@ function copyToC(copyText) {
 
 <div id="resultgraph" style="padding-bottom:0.5ch;"></div>
 
-<button id="copyButton" style="background-color:#008CBA; padding: 8px 15px; color:white; border: none; display:none;">Copy as Image</button>
-<button id="saveButton" style="background-color:#008CBA; padding: 8px 15px; color:white; border: none; display:none;">Save as Image</button>
+<button id="copyButton" class="bluebutton" style="display:none;">Copy as Image</button>
+<button id="saveButton" class="bluebutton" style="display:none;">Save as Image</button>
 
   <script>
     document.getElementById('saveButton').addEventListener('click', async () => {
@@ -1226,9 +1237,9 @@ function copyToC(copyText) {
           'image/png': blob,
         }),
       ]);
-      console.log('Image copied to clipboard');
+      alert('Image copied to clipboard');
     } catch (err) {
-      console.error('Failed to copy image: ', err);
+      alert('Failed to copy image :(. \n Try saving instead?');
     }
   });
 </script>
