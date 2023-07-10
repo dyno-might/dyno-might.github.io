@@ -188,6 +188,8 @@ function updateprogress(done){
         describe_letters(IE,SN,FT,JP);
         $("#buttons").hide();
         $("#goback").hide();
+        $("#copyButton").show();
+        $("#save11Button").show();
     }
 }
 
@@ -231,11 +233,11 @@ function choose_from_range2(score,stuff){
 
 function get_you_string(val,startphase3,size){
     if(startphase3){
-        return "<br>"
+        return ""
     } else{
         num_before = Math.floor(val*size)+2
         num_after = size+8-num_before-9
-        return "<br>"+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + val.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+        return ""+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + val.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
     }
 }
 
@@ -255,7 +257,7 @@ function firstgraph(IE,SN,FT,JP,phaze){
     box += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
     box += " 🄽";
     box += "<br>🄵 ";
-    box += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝚃']);
+    box += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝙵']);
     box += " 🅃";
     box += "<br>🄹 ";
     box += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
@@ -275,7 +277,7 @@ function firstgraph(IE,SN,FT,JP,phaze){
     str += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
     str += " 🄿\\n";
 
-    box += "<br><button style=\"background-color:#008CBA; padding: 8px 15px; color:white; border: none;\" onclick='copyToC(\"" + str + "\")'>Copy</button>"
+    box += "<br><button style=\"background-color:#008CBA; padding: 8px 15px; color:white; border: none;\" onclick='copyToC(\"" + str + "\")'>Copy as text</button>"
 
     return box
 }
@@ -284,22 +286,24 @@ function firstgraph(IE,SN,FT,JP,phaze){
 function resultgraph(IE,SN,FT,JP,phaze){
     var size = 25
 
-    var txt = "<p><tt>"
+    var box = "<p><tt>"
 
-    txt += "<br>I=0 " + drawbar(IE,size) + " E=1 "
-    txt += get_you_string(IE,phaze,size)
+    box += "<br>𝙸=0 " + drawbar(IE,size) + " 𝙴=1"
+    box += "<br>" + get_you_string(IE,phaze,size)
 
-    txt += "<br>S=0 " + drawbar(SN,size) + " N=1 " //+ SN.toFixed(3);
-    txt += get_you_string(SN,phaze,size)
+    box += "<br>𝚂=0 " + drawbar(SN,size) + " 𝙽=1 " //+ SN.toFixed(3);
+    box += "<br>" + get_you_string(SN,phaze,size)
 
-    txt += "<br>F=0 " + drawbar(FT,size) + " T=1 "
-    txt += get_you_string(FT,phaze,size)
+    box += "<br>𝙵=0 " + drawbar(FT,size) + " 𝚃=1 "
+    box += "<br>" + get_you_string(FT,phaze,size)
 
-    txt += "<br>J=0 " + drawbar(JP,size) + " P=1 "
-    txt += get_you_string(JP,phaze,size)
+    box += "<br>𝙹=0 " + drawbar(JP,size) + " 𝙿=1 "
+    box += "<br>" + get_you_string(JP,phaze,size)
 
-    txt += "\<\/tt>"
-    return txt
+    box += "\<\/tt>"
+    //return txt
+
+    return box
 }
 
 
@@ -1167,23 +1171,67 @@ function copyToC(copyText) {
 <table style="margin-left:auto; margin-right:auto; text-align:left; max-width:min(600px,90%);">
 <tr>
     <td id="IE_lab" style="font-family:Courier;"></td>
-    <td id="IE_desc"></td>
+    <td id="IE_desc" style="text-align:left;"></td>
 </tr>
 <tr>
     <td id="SN_lab" style="font-family:Courier;"></td>
-    <td id="SN_desc"></td>
+    <td id="SN_desc" style="text-align:left;"></td>
 </tr>
 <tr>
     <td id="FT_lab" style="font-family:Courier;"></td>
-    <td id="FT_desc"></td>
+    <td id="FT_desc" style="text-align:left;"></td>
 </tr>
 <tr>
     <td id="JP_lab" style="font-family:Courier;"></td>
-    <td id="JP_desc"></td>
+    <td id="JP_desc" style="text-align:left;"></td>
 </tr>
 </table>
 
-<div id="resultgraph"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+
+<div id="resultgraph" style="padding-bottom:0.5ch;"></div>
+
+<button id="copyButton" style="background-color:#008CBA; padding: 8px 15px; color:white; border: none; display:none;">Copy as Image</button>
+<button id="saveButton" style="background-color:#008CBA; padding: 8px 15px; color:white; border: none; display:none;">Save as Image</button>
+
+  <script>
+    document.getElementById('saveButton').addEventListener('click', async () => {
+      const myElement = document.getElementById('resultgraph');
+      const canvas = await html2canvas(myElement);
+      const dataURL = canvas.toDataURL('image/png');
+
+      const tempLink = document.createElement('a');
+      tempLink.href = dataURL;
+
+      IE_lab = choose_from_range(IE,['I','i','x','e','E'])
+      SN_lab = choose_from_range(SN,['S','s','x','n','N'])
+      FT_lab = choose_from_range(FT,['F','f','x','t','T'])
+      JP_lab = choose_from_range(JP,['J','j','x','p','P'])
+      lab = IE_lab + SN_lab + FT_lab + JP_lab;
+
+      tempLink.download = 'MBTI-' + lab + '.png';
+      tempLink.click();
+    });
+  </script>
+
+<script>
+  document.getElementById('copyButton').addEventListener('click', async () => {
+    const myElement = document.getElementById('resultgraph');
+    const canvas = await html2canvas(myElement);
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+
+    try {
+      await navigator.clipboard.write([
+        new ClipboardItem({
+          'image/png': blob,
+        }),
+      ]);
+      console.log('Image copied to clipboard');
+    } catch (err) {
+      console.error('Failed to copy image: ', err);
+    }
+  });
+</script>
 
 <p></p>
 <div id="Descriptions" style="max-width:min(600px,90%); text-align:justify; font-size:90%; margin-left: auto; margin-right:auto;">  
