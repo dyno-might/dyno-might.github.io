@@ -160,17 +160,17 @@ function updateprogress(done){
         // try to keep a few questions ahead
         //if(where2scroll<q_lo_length){
         if(rownum+3<q_lo_length){
-            where2scroll = rownum+3
+            where2scroll = rownum+3;
             myid = "row"+where2scroll;
-            document.getElementById(myid).scrollIntoView(false);
-        } else if(rownum+2<q_lo_length){
-            where2scroll = rownum+2
-            myid = "row"+where2scroll;
-            document.getElementById(myid).scrollIntoView(false);
+        } else if(rownum<q_lo_length){
+            myid = "firstgraph";
         } else{ // if near end, show results
             // ios bug in scrollintoview?
-            document.getElementById("aftergraph").scrollIntoView(false); 
+            myid = "aftergraph"
         }
+
+        console.log(myid)
+        document.getElementById(myid).scrollIntoView(false); 
     }
 
     done = find_num_answered()
