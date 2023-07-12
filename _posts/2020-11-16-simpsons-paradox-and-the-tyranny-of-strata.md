@@ -16,7 +16,7 @@ It's hard to get into Oxford. Is it easier if your parents are rich? In 2013, [T
 
 | Population | Acceptance rate | 
 | - | - |
-| Independent | 28 % |
+| Independent | 28% |
 | State | 20% |
 
 Of course, a natural question to ask is, did students from independent schools have stronger applications? To check this, you can limit things to just students with strong grades (three A* grades at A-level). If you do that, the difference shrinks but doesn't disappear.
@@ -28,17 +28,13 @@ Of course, a natural question to ask is, did students from independent schools h
 
 What's the deal? Do privileged kids get to go Brighton and *also* get lower admissions standards?
 
-[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later noticed two important facts: 1. It's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to Classics (45% accepted) rather than Medicine (21%). 2. Students from independent schools are much more likely to apply to Classics.
-
-Even if each department admitted students at equal rates, you'll still get an appearance of *overall* bias if state students are more likely to apply to more competitive majors like Medicine.
+[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later noticed two important facts: First, it's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to classics (45% accepted) rather than medicine (21%). Second, students from independent schools are much more likely to apply to classics. Even if all department admitted students at equal rates, you'd still get an appearance of *overall* bias if state students apply more often to more competitive majors like medicine.
 
 ---
 
 This kind of situation—where the data seems to tell a different story depending on how it's analyzed—is typically known as "Simpson's paradox". Typically these situations are seen as odd little curiosities, or perhaps cautionary tales about the "correct" way to interpret data.
 
-But I think this underrates Simpson's paradox. It's not a little quirk. Really, it's just the first layer of a deeper issue that may not *have* a solution. It's better to think of it as a limit on what questions data can answer.
-
-So here's a little parable about that.
+But I think this underrates Simpson's paradox. It's not a little quirk. Really, it's just the first layer of a deeper issue that may not *have* a solution. It's better to think of it as a limit on what questions data can answer. So here's a little parable about that.
 
 {% comment %}
 Of course, there's still lots to argue about the above situation. (Is it fair that Classics is easier to get into when when less privileged students will have more of a need to make money?) But forget all that.
@@ -51,11 +47,11 @@ How does Simpson's paradox work? What is this deeper issue? You don't need to be
 
 ## Zeus
 
-Say you're a mortal shepherd living near Olympus with a flock of sheep and goats. Your neighbor Zeus has grown weary of transforming into animals to [seduce love interests](https://en.wikipedia.org/wiki/Zeus#Transformation_of_Zeus) and, in his boredom, has taken to shooting lighting bolts at your flock.
+You're a mortal shepherd living near Olympus with a flock of sheep and goats. Your neighbor Zeus has grown weary of transforming into animals to [seduce love interests](https://en.wikipedia.org/wiki/Zeus#Transformation_of_Zeus) and, in his boredom, has taken to shooting lighting bolts at your flock.
 
 ![zeus](/img/simpson/goats9a.svg)
 
-You wonder: Is there a bias in which animals He shoots? You keep records for a year.
+You wonder: Is He biased in terms of shooting goats or sheep more often? You keep records for a year.
 
 ![sheep v goats 1](/img/simpson/goats9b.svg)
 
@@ -63,7 +59,7 @@ At the end of the year, Zeus shot 12 of your 25 sheep and 13 of your 25 goats, s
 
 ## Colors
 
-Except, it occurs to you that maybe Zeus is influenced by the color of fur that the animals have. So you go back and update your records to break things down by color.
+Except, maybe Zeus doesn't care about species, and he's biased in terms of the color of fur that the animals have. You go back and update your records to break things down that way.
 
 ![sheep v goats 2](/img/simpson/goats9c.svg)
 
@@ -71,11 +67,11 @@ You re-do the analysis, splitting the animals into dark and light groups.
 
 ![sheep v goats 3](/img/simpson/goats9d.svg)
 
-Overall, sheep are zapped less often than goats (¹²⁄₂₅ < ¹³⁄₂₅). But dark sheep are zapped *more* often than dark goats (⁷⁄₁₁ > ¹⁰⁄₁₆) *and* light sheep are zapped more often than light goats (⁵⁄₁₄ > ³⁄₉).
+Overall, sheep are zapped less often than goats (¹²⁄₂₅ < ¹³⁄₂₅). But dark sheep are zapped more often than dark goats (⁷⁄₁₁ > ¹⁰⁄₁₆) *and* light sheep are zapped more often than light goats (⁵⁄₁₄ > ³⁄₉).
 
-Why do things reverse? Ultimately it's pretty simple: Dark animals get zapped more often. But there are more dark goats than dark sheep, so ignoring color changes the conclusion.
+Why do things reverse? Ultimately it's pretty simple: Dark animals get zapped more often, and there are more dark goats than dark sheep. So when you ignore color, that changes the conclusion.
 
-This is the normal version of Simpson's paradox. Group-level differences can be the opposite of subgroup differences when the ratio of subgroups varies.
+This is the "normal" version of Simpson's paradox as it's usually presented. Group-level differences can be the opposite of subgroup differences when the ratio of subgroups varies.
 
 Seems like a weird little edge case so far, right? Let's continue.
 
