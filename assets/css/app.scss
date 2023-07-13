@@ -26,8 +26,8 @@ $dark-bg-color: black;
 $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
-$family-sans-serif: 'Montserrat', sans-serif;
-$family-serif: 'Palatino', 'Georgia', serif;
+$family-sans-serif: Montserrat, sans-serif;
+$family-serif: Palatino, Georgia, serif;
 
 $family-primary: $family-serif;
 $family-secondary: $family-sans-serif;
@@ -151,7 +151,7 @@ html{
 }
 body{
     margin:0;
-    font-size: 1.2em;
+    font-size: 1.15em;
     line-height: 1.4;
     word-wrap: break-word; // break long words
 }
