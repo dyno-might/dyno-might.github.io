@@ -9,6 +9,8 @@ permalink: /aspartame-brouhaha/
 background_color: rgb(33,35,24)
 category: "obsessive investigation"
 excerpt: 
+comment:
+  substack: https://dynomight.substack.com/p/aspartame-brouhaha
 ---
 
 On July 14, two different arms of the WHO released their findings on aspartame. One designated it "*possibly carcinogenic to humans*", while the other concluded that "*dietary exposure to aspartame does not pose a health concern*". The FDA took the unusual step of [issuing a statement](https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food) saying that it disagreed with the first group.
