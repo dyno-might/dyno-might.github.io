@@ -161,7 +161,7 @@ And here's the JECFA:
 
 > There were limitations in the study design, execution, reporting and interpretation of these studies. In particular, this was because of the use of a test protocol in which most animals were allowed to reach natural death. As a result, the interpretation of these studies was complicated by the known increases in cancer occurrence with ageing. The Committee reached the view that the results of the Soffritti et al. studies are of uncertain relevance and therefore cannot be used for the risk assessment of aspartame.
 
-Still, despite these limitations, the IARC found this evidence "limited". (And a minority of the group apparently felt it was "sufficient"!) Meanwhile, the JECFA disregarded them.
+Still, despite these limitations, the IARC found this evidence "limited". (And a minority of the group apparently felt it was "sufficient"!) Meanwhile, the JECFA disregarded it.
 
 ### Argument 3: How much weight should we give to the experiments suggesting oxidative stress?
 
