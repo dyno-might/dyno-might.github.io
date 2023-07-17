@@ -179,7 +179,7 @@ A few weeks later you come back with an experiment that compares feeding your bi
 
 Or, say again we work together. One day, I ask you, "Can you stop playing country music? It harms my parakeet's sleep quality at home." I show you lots of graphs of correlations between your behaviors and the health of my beloved Fluffers.
 
-No matter my p-values, you won't believe me, because it's just not *possible* for your country music to affect my bird at home. All my numbers show is that if a weirdo keeps looking at weird stuff long enough they'll eventually find whatever weird stuff they want to find.
+No matter my p-values, you won't believe me, because it's just not *possible* for your country music to affect my bird at home. All my numbers show is that if a weirdo keeps looking at weird data long enough they'll eventually find whatever weird things they want to find.
 
 I think these are the two ways people look at aspartame. One view is that there is *no known mechanism* for aspartame to cause harm. From this view, individual studies suggesting harms get serious consideration and the precautionary principle seems strong—since aspartame is unlikely to be *beneficial* for your health, it's sensible to avoid it.
 
