@@ -304,7 +304,7 @@ The UN and WHO "jointly" run the JECFA. The only public reports I can find from 
 
 ![JECFA](/img/aspartame/JECFA.svg)
 
-As far as I can tell, this [1981](https://inchem.org/documents/jecfa/jecmono/v16je01.htm) update is the last word on aspartame from the JECFA. However, the JECFA currently has aspartame on the [priority list of substances proposed for evaluation](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FCircular%252520Letters%252FCL%2525202021-81%252Fcl21_81e.pdf), as requested by Columbia, Costa Rica, and---somehow---the United States of America. (*Update*: This report is due to finally come out July 14, 2023. I'll write about it when it does.)
+As far as I can tell, this [1981](https://inchem.org/documents/jecfa/jecmono/v16je01.htm) update is the last word on aspartame from the JECFA. However, the JECFA currently has aspartame on the [priority list of substances proposed for evaluation](https://www.fao.org/fao-who-codexalimentarius/sh-proxy/fr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FCircular%252520Letters%252FCL%2525202021-81%252Fcl21_81e.pdf), as requested by Columbia, Costa Rica, and---somehow---the United States of America. (*Update*: A summary of this report is now out. I've written about it [here](/aspartame-brouhaha/).)
 
 ### The Academy of Nutrition and Dietetics
 
