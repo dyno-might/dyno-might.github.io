@@ -29,7 +29,7 @@ Here's a range of different positions:
   
 5. Aspartame is so safe that it's dumb to talk about it.  
 
-Category 1 would place aspartame in the same category as alcohol. No one claims #1. No one claims #2. No one claims #3. The scope of debate is somewhere between #4 and #5.
+Position 1 would place aspartame in the same category as alcohol. No one claims #1. No one claims #2. No one claims #3. The scope of debate is somewhere between #4 and #5.
 
 ## Things everyone agrees on
 
