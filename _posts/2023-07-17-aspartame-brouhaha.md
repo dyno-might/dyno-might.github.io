@@ -3,7 +3,7 @@ layout: post
 title: "WHO aspartame brouhaha"
 image: /img/aspartame-brouhaha/parakeet.jpg
 tags: 
-description: What the two World Health Organization arms agree and disagree about.
+description: the territory under dispute
 excerpt: 
 permalink: /aspartame-brouhaha/
 background_color: rgb(33,35,24)
@@ -119,7 +119,7 @@ For placing aspartame in group 2B, the IARC has endured much dunking. ("Aspartam
 
 (Also, why are we so sure that pickled vegetables aren't carcinogenic?)
 
-Anyway, the point is: **No one claims that people are actually dying from cancer due to aspartame.** Mary Schubauer-Berigan, a senior IARC official, said "This shouldn't really be taken as a direct statement that indicates that there is a known cancer hazard from consuming aspartame."
+Anyway, the point is: No one claims that people are actually dying from cancer due to aspartame. Mary Schubauer-Berigan, a senior IARC official, said "This shouldn't really be taken as a direct statement that indicates that there is a known cancer hazard from consuming aspartame."
 
 ## Things people argue about
 
