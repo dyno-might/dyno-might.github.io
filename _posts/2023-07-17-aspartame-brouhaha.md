@@ -117,7 +117,7 @@ Here are the IARC's different groupings, with some of the more familiar members 
 - [Ethylene](/ethylene/)
   
 
-For placing aspartame in group 2B, the IARC has endured much dunking. ("Aspartame is just as dangerous as pickled vegetables, har-har!"). But let's try to be generous. First, remember how "possibly" works—if everything they put in that category actually *was* carcinogenic, then they would be bad at classification. Second, this doesn't look like a list based on personal prejudices. It looks like they are consistently applying criteria that high sensitivity and so place lots of stuff in groups 2A and 2B. Third, they are clear that the classification is just the *potential* to cause cancer, not the *level* of risk. I don't think this is an obviously ridiculous decision.
+For placing aspartame in group 2B, the IARC has endured much dunking. ("Aspartame is just as dangerous as pickled vegetables, har-har!"). But let's try to be generous. First, remember how "possibly" works—if everything they put in that category actually *was* carcinogenic, then they would be bad at classification. Second, this doesn't look like a list based on personal prejudices. It looks like they are just consistently applying some rather sensitive criteria that place lots of stuff in groups 2A and 2B. Third, they are clear that the classification is just the *potential* to cause cancer, not the *level* of risk. I don't think this is an obviously ridiculous decision.
 
 (Also, why are we so sure that pickled vegetables aren't carcinogenic?)
 
