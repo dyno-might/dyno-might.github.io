@@ -127,7 +127,7 @@ Anyway, the point is: No one claims that people are actually dying from cancer d
 
 The WHO tried to present the IARC and JECFA conclusions as complementary, suggesting that the different conclusions are due to different mandates and that when JECFA says evidence is "not convincing", that means the same thing as when the IARC says the evidence is "limited".
 
-Now, we don't yet have the details of the conclusions of either group. The IARC report be published in 2024, while the JECFA's report will be available within 6 months. All we have so far are [short](https://doi.org/10.1016/S1470-2045(23)00341-8) [summaries](https://www.who.int/publications/m/item/ninety-sixth-meeting-joint-fao-who-expert-committee-on-food-additives-(jecfa)). But, reading between the lines, I sense four main areas of disagreement.
+Now, we don't yet have the details of the conclusions of either group. The IARC report will be published in 2024, and the JECFA's within 6 months. All we have so far are [short](https://doi.org/10.1016/S1470-2045(23)00341-8) [summaries](https://www.who.int/publications/m/item/ninety-sixth-meeting-joint-fao-who-expert-committee-on-food-additives-(jecfa)). But, reading between the lines, I sense four main areas of disagreement.
 
 ### Argument 1: How much weight should we give to observational studies and liver cancer?
 
