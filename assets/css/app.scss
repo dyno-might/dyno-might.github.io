@@ -174,7 +174,7 @@ html{
 // }
 body{
   margin:0;
-  font-size: 1.33em;
+  font-size: 1.30em;
   line-height: 1.25;
   word-wrap: break-word; // break long words
 }
@@ -228,7 +228,8 @@ body{
 .maintext {
   //max-width: 75ch;
   max-width: 70ch; // garamond is wider
-  padding: .5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
   margin:auto;
 }
 
@@ -329,6 +330,8 @@ blockquote {
     color: $normal-quote-color;
     padding-left: 15px;
     border-left: 3px solid $normal-quote-color;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
 }
 
 img {
