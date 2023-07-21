@@ -11,6 +11,49 @@
   font-display: swap;
 }
 
+// @font-face {
+//   font-family: "Fell";
+//   src: url("/assets/fonts/IM_Fell_English/IMFellEnglish-Regular.ttf");
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Caudex";
+//   src: url("/assets/fonts/Caudex/Caudex-Regular.ttf");
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Baskerville";
+//   src: url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.ttf");
+//   font-display: swap;
+// }
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
+  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff2") format('woff2'),
+       url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff") format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.ttf");
+  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff2") format('woff2'),
+       url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff") format('woff');
+  font-display: swap;
+  font-style: italic;
+}
+
+// @font-face {
+//   font-family: "Garamond";
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf");
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff2") format('woff2'),
+//        url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.woff") format('woff');
+//   font-display: swap;
+// }
+
 // set all colors here
 
 $normal-text-color: black;
@@ -27,7 +70,7 @@ $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 $family-sans-serif: Montserrat, sans-serif;
-$family-serif: Palatino, Georgia, serif;
+$family-serif: Garamond, Palatino, Georgia, serif;
 
 $family-primary: $family-serif;
 $family-secondary: $family-sans-serif;
@@ -149,12 +192,19 @@ html{
     font-weight:lighter;
     font-family: $family-serif;
 }
+// body{
+//     margin:0;
+//     font-size: 1.15em;
+//     line-height: 1.4;
+//     word-wrap: break-word; // break long words
+// }
 body{
-    margin:0;
-    font-size: 1.15em;
-    line-height: 1.4;
-    word-wrap: break-word; // break long words
+  margin:0;
+  font-size: 1.33em;
+  line-height: 1.25;
+  word-wrap: break-word; // break long words
 }
+
 
 // // used to make titles turn yellow on hover
 // .changer{
@@ -202,7 +252,8 @@ body{
 }
 
 .maintext {
-  max-width: 75ch;
+  //max-width: 75ch;
+  max-width: 70ch; // garamond is wider
   padding: .5rem;
   margin:auto;
 }
