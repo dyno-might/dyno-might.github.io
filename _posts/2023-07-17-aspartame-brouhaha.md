@@ -62,61 +62,35 @@ Here are the IARC's different groupings, with some of the more familiar members 
 
 **Group 1:** Carcinogenic to humans  
 - Alcohol
-
 - Air pollution
-  
 - Tobacco smoke
-  
 - Ionizing radiation
-  
 - Estrogen-progestogen birth-control pills
-  
 
 **Group 2A:** Probably carcinogenic to humans
-
 - Consumption of red meat
-  
 - Beverages hotter than 65C (149F)
-  
 - Being a barber or hairdresser
-  
 - Steroids
-  
 
 **Group 2B:** Possibly carcinogenic to humans
-
 - Aloe vera
-  
 - [Bracken fern](https://en.wikipedia.org/wiki/Bracken)
-  
 - Gasoline
-  
 - Progestogen-only birth control pills
-  
 - Lead
-  
 - Pickled vegetables
-  
 - **Aspartame**
-  
 
 **Group 3:** Not classifiable as to its carcinogenicity to humans
-
 - Coal dust
-  
 - Coffee / Tea / Caffeine
-  
 - Silicone breast implants
-  
 - Fluorescent lights
-  
 - Electric fields
-  
 - Cholesterol
-  
 - [Ethylene](/ethylene/)
   
-
 For placing aspartame in group 2B, the IARC has endured much dunking. ("Aspartame is just as dangerous as pickled vegetables, har-har!"). But let's try to be generous. First, remember how "possibly" works—if everything they put in that category actually *was* carcinogenic, then they would be bad at classification. Second, this doesn't look like a list based on personal prejudices. It looks like they are just consistently applying some rather sensitive criteria that place lots of stuff in groups 2A and 2B. Third, they are clear that the classification is just the *potential* to cause cancer, not the *level* of risk. I don't think this is an obviously ridiculous decision.
 
 (Also, why are we so sure that pickled vegetables aren't carcinogenic?)
