@@ -13,20 +13,37 @@
 
 @font-face {
   font-family: "Garamond";
-  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
-  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff2") format('woff2'),
-       url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff") format('woff');
+  src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
+  src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff2") format('woff2'),
+       url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff") format('woff');
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Garamond";
-  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.ttf");
-  src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff2") format('woff2'),
-       url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff") format('woff');
-  font-display: swap;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: "Garamond";
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf");
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff2") format('woff2'),
+//        url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff") format('woff');
+//   font-display: swap;
+//   font-style: italic;
+// }
+
+// @font-face {
+//   font-family: "Garamond";
+//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
+//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff2") format('woff2'),
+//        url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff") format('woff');
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Garamond";
+//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.ttf");
+//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff2") format('woff2'),
+//        url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff") format('woff');
+//   font-display: swap;
+//   font-style: italic;
+// }
 
 // set all colors here
 
@@ -174,8 +191,8 @@ html{
 // }
 body{
   margin:0;
-  font-size: 1.30em;
-  line-height: 1.25;
+  font-size: 1.40em;
+  line-height: 1.35;
   word-wrap: break-word; // break long words
 }
 
