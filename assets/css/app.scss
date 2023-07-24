@@ -11,11 +11,19 @@
   font-display: swap;
 }
 
+// @font-face {
+//   font-family: "Garamond";
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
+//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff2") format('woff2'),
+//        url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff") format('woff');
+//   font-display: swap;
+// }
+
 @font-face {
-  font-family: "Garamond";
-  src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
-  src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff2") format('woff2'),
-       url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff") format('woff');
+  font-family: "Source Serif";
+  src: url("/assets/fonts/SourceSerif4-Regular.ttf");
+  src: url("/assets/fonts/SourceSerif4-Regular.woff2") format('woff2'),
+       url("/assets/fonts/SourceSerif4-Regular.woff") format('woff');
   font-display: swap;
 }
 
@@ -61,7 +69,7 @@ $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 $family-sans-serif: Montserrat, sans-serif;
-$family-serif: Garamond, Palatino, Georgia, serif;
+$family-serif: "Source Serif", Georgia, serif;
 
 $family-primary: $family-serif;
 $family-secondary: $family-sans-serif;
@@ -191,8 +199,8 @@ html{
 // }
 body{
   margin:0;
-  font-size: 1.40em;
-  line-height: 1.35;
+  font-size: 1.35em;
+  line-height: 1.5;
   word-wrap: break-word; // break long words
 }
 
