@@ -117,9 +117,12 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
 
   {% unless page.is_category_page %}
   <div style="margin-bottom:10pt; margin-top:20pt; line-height:1.2;">
+    {% comment %}
     email me at <span style="font-family:monospace; size: 80%;">(name of this website) at please remove these words tutanota dot com</span>
+    {% endcomment %}
     <p>
     <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+      {% comment %} email me <a href="/about">here</a>{% endcomment %}
       subscribe at <a href="https://dynomight.substack.com">substack</a> or <a href="/feed.xml">RSS</a> or
       <span style="display:inline-block; font-size:50%;">
         <input type="email" class="headerfont" name="email" placeholder="a@b.com" style="max-width: 7ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:15pt;" required> 
@@ -127,15 +130,14 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
         <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
         <input type="hidden" name="_captcha" value="false" /> 
         <input type="hidden" name="_url" value="https://dynomight.net/" />  
+        <span style="display:inline-block">
+          <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
+          <label for="guide3" style="font-size:150%;">guide to life</label>
+        </span>
         <button type="submit"
         class="headerfont" 
         style="border: 0; margin:0; padding-left:3pt; padding-right: 3pt; max-width: 15ch; height:16.5pt; cursor:pointer;">subscribe</button>
-      </span>
-      xox dynomight
-      <!--
-      <span style="display:inline-block">
-        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;"><label for="guide3" class="headerfont" style="border:0; margin:0; height:20pt; font-size:85%; padding:0px;">guide to life</label>
-      </span> -->
+      </span> xox dynomight
     </form>
   </div>
   {% endunless %}
