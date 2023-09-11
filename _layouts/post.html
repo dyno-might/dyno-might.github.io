@@ -57,6 +57,24 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
     <p>
   </div>
 
+  <div class="container" style="text-align: center;"> 
+    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+      <div class="headerfont" style="font-size:120%; margin-bottom:5px;">dynomiiiiiiiiiight</div>
+      <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 60%; padding:5px; border:0; background-color:#e0e0e0; font-size:80%;" required> 
+      <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
+      <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+      <input type="hidden" name="_captcha" value="false" /> 
+      <input type="hidden" name="_url" value="https://dynomight.net/" />
+      <button id="type="submit" class="headerfont orangebutton" style="border-width:0px; margin:0; padding:5px; cursor:pointer; font-size:80%;">ok fine</button> 
+      <br>
+      <span style="display:inline-block">
+        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
+        <label for="guide3" class="headerfont" style="margin-top:5px; padding:0px; font-size:80%;">also send guide to life</label>
+      </span>
+      <div class="headerfont" style="margin-bottom:2px; font-size:80%;">or sign up at <a href="https://dynomight.substack.com/">substack</a></div>
+    </form>
+    </div>
+
 
   {% comment %}
   {% comment %} SIGNUP STUFF {% endcomment %}
@@ -115,6 +133,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
   {% endunless %}
   {% endcomment %}
 
+  {% comment %}
   {% unless page.is_category_page %}
   <div style="margin-bottom:10pt; margin-top:20pt; line-height:1.2;">
     {% comment %}
@@ -141,6 +160,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
     </form>
   </div>
   {% endunless %}
+  {% endcomment %}
 
   {% comment %} SIGNUP STUFF {% endcomment %}
   {% comment %}
