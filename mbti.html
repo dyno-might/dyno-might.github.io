@@ -8,7 +8,8 @@ image: /img/deathvalley/small.jpg
 <html>
 <head>
     <title>Fastest Myers-Briggs test</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="The fastest Myers-Briggs test on the internet. Mobile-friendly, with no registration or other nonsense.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The fastest Myers-Briggs test on the internet. Mobile-friendly, with no registration or other nonsense.">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" sizes="any">
     <meta charset="utf-8"/>
@@ -128,467 +129,6 @@ image: /img/deathvalley/small.jpg
     </style>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-let q_lo_length = 32;
-let global_where = 0;
-let Q = new Array(q_lo_length).fill(0)
-let num_keyboard = 0;
-
-var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
-
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
-
-        if (sParameterName[0] === sParam) {
-            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-        }
-    }
-    return false;
-};
-
-// function load_from_url(){
-//     answers = getUrlParameter('a') + getUrlParameter('b');
-//     alert(answers);
-//     for(var i=0; i<answers.length; i++){
-//         register_choice(i,Number(answers[i]));
-//     }
-//     //updateprogress();
-//     //getscores();
-//     //$("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-//     //describe_letters(IE,SN,FT,JP);
-// }
-
-function updateprogress(done){
-    // find last unupdated line
-    rownum = find_next_unanswered()
-    // make gray (if not done)
-    if(rownum < q_lo_length){
-        $("#row"+(rownum)).css("background-color","#eeeeee")
-        $("#rowB"+(rownum)).css("background-color","#eeeeee")
-    }
-    
-    // scroll to new position
-    // (don't do this if person has answered a question past the current maximum)
-    if(rownum == find_last_answered()+1){
-        // try to keep a few questions ahead
-        //if(where2scroll<q_lo_length){
-        if(rownum+3<q_lo_length){
-            where2scroll = rownum+3;
-            myid = "row"+where2scroll;
-        } else if(rownum<q_lo_length){
-            myid = "firstgraph";
-        } else{ // if near end, show results
-            // ios bug in scrollintoview?
-            myid = "aftergraph"
-        }
-
-        console.log(myid)
-        document.getElementById(myid).scrollIntoView(false); 
-    }
-
-    done = find_num_answered()
-    //txt = "" + done + "/" + q_lo_length+" "
-    txt = ((done/q_lo_length)*100).toFixed(0)+"% done"
-    $("#progress").html(txt)
-    //$("#progress2").html(txt)
-    //return rownum;
-
-    // if done, show results
-    if(rownum==q_lo_length){
-        getscores();
-        $("#firstgraph").last().html(firstgraph(IE,SN,FT,JP,false));
-        $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-        describe_letters(IE,SN,FT,JP);
-        $("#buttons").hide();
-        $("#goback").hide();
-        $("#copyButton").show();
-        $("#saveButton").show();
-    }
-}
-
-function drawbar(a,size){
-    r = ""
-    needbar=true
-    for(i=0; i<size;i++){
-        b=i/size
-        if(b>a && needbar){
-            r += "|"
-            needbar=false
-        } else{
-            r += "─"
-        }
-    }
-    return r
-}
-
-function miniclick(where,i,clicked){
-    register_choice(where,i,clicked);
-}
-
-function choose_from_range(score,stuff){
-    if(score <= .30)
-        return stuff[0]
-    else if(score < .45)
-        return stuff[1]
-    else if(score < .55)
-        return stuff[2]
-    else if(score < .70)
-        return stuff[3]
-    return stuff[4]
-}
-
-    
-function choose_from_range2(score,stuff){
-    if(score <= .5)
-        return stuff[0]
-    return stuff[1]
-}
-
-function get_you_string(val,startphase3,size){
-    if(startphase3){
-        return ""
-    } else{
-        num_before = Math.floor(val*size)+2
-        num_after = size+8-num_before-9
-        return ""+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + val.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
-    }
-}
-
-function firstgraph(IE,SN,FT,JP,phaze){
-    var size = 25
-    
-    IE_lab = choose_from_range(IE,['𝙸','𝚒','𝚡','𝚎','𝙴'])
-    SN_lab = choose_from_range(SN,['𝚂','𝚜','𝚡','𝚗','𝙽'])
-    FT_lab = choose_from_range(FT,['𝙵','𝚏','𝚡','𝚝','𝚃'])
-    JP_lab = choose_from_range(JP,['𝙹','𝚓','𝚡','𝚙','𝙿'])
-
-    var box = IE_lab + SN_lab + FT_lab + JP_lab;
-    box += "<br>🄸 ";
-    box += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
-    box += " 🄴";
-    box += "<br>🅂 ";
-    box += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
-    box += " 🄽";
-    box += "<br>🄵 ";
-    box += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝙵']);
-    box += " 🅃";
-    box += "<br>🄹 ";
-    box += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
-    box += " 🄿";
-
-    str = IE_lab + SN_lab + FT_lab + JP_lab + "\\n";
-    str += "🄸 ";
-    str += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
-    str += " 🄴\\n";
-    str += "🅂 ";
-    str += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
-    str += " 🄽\\n";
-    str += "🄵 ";
-    str += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝚃']);
-    str += " 🅃\\n";
-    str += "🄹 ";
-    str += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
-    str += " 🄿\\n";
-
-    box += "<br><button class=\"bluebutton\" onclick='copyToC(\"" + str + "\")'>Copy as text</button>"
-
-    return box
-}
-
-
-function resultgraph(IE,SN,FT,JP,phaze){
-    var size = 25
-
-    var box = "<p><tt>"
-
-    box += "<br>𝙸=0 " + drawbar(IE,size) + " 𝙴=1"
-    box += "<br>" + get_you_string(IE,phaze,size)
-
-    box += "<br>𝚂=0 " + drawbar(SN,size) + " 𝙽=1 " //+ SN.toFixed(3);
-    box += "<br>" + get_you_string(SN,phaze,size)
-
-    box += "<br>𝙵=0 " + drawbar(FT,size) + " 𝚃=1 "
-    box += "<br>" + get_you_string(FT,phaze,size)
-
-    box += "<br>𝙹=0 " + drawbar(JP,size) + " 𝙿=1 "
-    box += "<br>" + get_you_string(JP,phaze,size)
-
-    box += "\<\/tt>"
-    //return txt
-
-    return box
-}
-
-
-function getscores(){
-    IE = 30-Q[2]-Q[6]-Q[10]+Q[14]-Q[18]+Q[22]+Q[26]-Q[30]; //8 40
-    SN = 12+Q[3]+Q[7]+Q[11]+Q[15]+Q[19]-Q[23]-Q[27]+Q[31]; //8 40
-    FT = 30-Q[1]+Q[5]+Q[9]-Q[13]-Q[17]+Q[21]-Q[25]-Q[29];
-    JP = 18+Q[0]+Q[4]-Q[8]+Q[12]-Q[16]+Q[20]-Q[24]+Q[28];
-
-    IE = (IE-8)/32
-    SN = (SN-8)/32
-    FT = (FT-8)/32
-    JP = (JP-8)/32
-    
-    IE_lab = choose_from_range(IE,['I','i','x','e','E'])
-    SN_lab = choose_from_range(SN,['S','s','x','n','N'])
-    FT_lab = choose_from_range(FT,['F','f','x','t','T'])
-    JP_lab = choose_from_range(JP,['J','j','x','p','P'])
-
-    //$("#mbtisubtype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);    
-
-    IE_lab = choose_from_range2(IE,['I','E'])
-    SN_lab = choose_from_range2(SN,['S','N'])
-    FT_lab = choose_from_range2(FT,['F','T'])
-    JP_lab = choose_from_range2(JP,['J','P'])
-
-    $("#mbtitype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);
-}
-
-function setup(){
-    $("#resultgraph").last().html(resultgraph(.5,.5,.5,.5,true));
-    updateprogress();
-    //load_from_url();
-}
-
-function clear_row(rownum){
-    // make all letters in this row clear
-    for(choice=1; choice<=5; choice++){
-        $("#"+rownum+'_'+choice).css("color","gray");
-        $("#"+rownum+'_'+choice).html('☐');
-    }
-
-}
-
-function find_next_unanswered(){
-    for(i=0; i<q_lo_length; i++)
-        if(Q[i]==0)
-            return(i)
-    return q_lo_length
-}
-
-function find_last_answered(){
-    for(i=q_lo_length-1; i>=0; i--)
-        if(Q[i]!=0)
-            return i
-    return 0
-}
-
-function find_num_answered(){
-    num = 0;
-    for(i=0; i<q_lo_length; i++)
-        if(Q[i]!=0)
-            num+=1
-    return num
-}
-
-function register_next(choice,clicked){
-    register_choice(find_next_unanswered(),choice,clicked);
-}
-
-function register_choice(rownum,choice,clicked){
-    if(clicked){
-        $('#buttons').show()
-    }
-    
-    //buttons = clicked;
-    if (choice==0){
-        // remove gray from current line
-        rownum = find_next_unanswered()
-        $("#row"+(rownum)).css("background-color","white")
-        $("#rowB"+(rownum)).css("background-color","white")
-        // for(choice=0; choice<5; choice++){
-        //     $("#"+rownum+'_'+choice).html('☐'); // could intelligently just delete marked but but whatever
-        // }
-
-        // delete last answer (if there is one)
-        rownum = find_last_answered();
-        
-        // delete stored answer
-        Q[rownum] = 0;
-        clear_row(rownum);
-
-        //rownum = find_next_unanswered()
-        //$("#row"+(rownum)).css("background-color","#eeeeee")
-        updateprogress();
-    }
-
-    // what to do if a new number is entered
-    else{
-        Q[rownum]=choice
-
-        // remove gray from current line
-        $("#row"+(rownum)).css("background-color","white")
-        $("#rowB"+(rownum)).css("background-color","white")
-    
-        clear_row(rownum)
-        for(i=1; i<=5; i++){
-            $("#"+rownum+'_'+i).css("color","#e5e5e5"); // make extra light gray if done
-            //$("#"+rownum+'_'+i).html('☐');
-        }
-        $("#"+rownum+'_'+choice).css("color","#0000aa");
-        $("#"+rownum+'_'+choice).html('☑');
-        rownum=updateprogress()
-
-        // if done, show results
-        if(rownum==q_lo_length){
-            getscores();
-            $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
-            describe_letters(IE,SN,FT,JP);
-            $("#buttons").hide();
-            $("#goback").hide();
-        }
-    }
-}
-
-function goodkey(e){
-    if(e.which==8) // backspace
-        return true;
-    if(e.which >= 49 && e.which <= 53)
-        return true;
-    return false
-}
-
-$(function(){
-    $(document).on('keydown', function(e){
-        // zero key indicates we want to delete
-        if(goodkey(e) && global_where < q_lo_length){
-            if(e.which==8)
-                choice=0;
-            else
-                choice = e.which-48;
-            register_choice(find_next_unanswered(),choice,false)
-            num_keyboard += 1
-            if(num_keyboard==4){
-                $("#buttons").hide()
-                $("#goback").hide();
-            }
-        }
-    });
-});
-
-function describe_letters(IE,SN,FT,JP){
-    IE_lab = choose_from_range(IE,['I','i','x','e','E']);
-    SN_lab = choose_from_range(SN,['S','s','x','n','N']);
-    FT_lab = choose_from_range(FT,['F','f','x','t','T']);
-    JP_lab = choose_from_range(JP,['J','j','x','p','P']);
-    $('#IE_lab').html(IE_lab);
-    $('#SN_lab').html(SN_lab);
-    $('#FT_lab').html(FT_lab);
-    $('#JP_lab').html(JP_lab);
-    var IE_lookup = {};
-    IE_lookup['I'] = "strong preference for introversion over extroversion";
-    IE_lookup['i'] = "weak preference for introversion over extroversion";
-    IE_lookup['x'] = "balanced between introversion and extroversion";
-    IE_lookup['e'] = "weak preference for extroversion over introversion";
-    IE_lookup['E'] = "strong preference for extroversion over introversion";
-    var SN_lookup = {};
-    SN_lookup['S'] = "strong preference for sensing over intuition";
-    SN_lookup['s'] = "weak preference for sensing over intuition";
-    SN_lookup['x'] = "balanced between sensing and intuition";
-    SN_lookup['n'] = "weak preference for intuition over sensing";
-    SN_lookup['N'] = "strong preference for intuition over sensing";
-    var FT_lookup = {};
-    FT_lookup['F'] = "strong preference for feeling over thinking";
-    FT_lookup['f'] = "weak preference for feeling over thinking";
-    FT_lookup['x'] = "balanced between feeling and thinking";
-    FT_lookup['t'] = "weak preference for thinking over feeling";
-    FT_lookup['T'] = "strong preference for thinking over feeling";
-    var JP_lookup = {};
-    JP_lookup['J'] = "strong preference for judging over perceiving";
-    JP_lookup['j'] = "weak preference for judging over perceiving";
-    JP_lookup['x'] = "balanced between judging and perceiving";
-    JP_lookup['p'] = "weak preference for perceiving over judging";
-    JP_lookup['P'] = "strong preference for perceiving over judging";
-    $('#IE_desc').html(IE_lookup[IE_lab]);
-    $('#SN_desc').html(SN_lookup[SN_lab]);
-    $('#FT_desc').html(FT_lookup[FT_lab]);
-    $('#JP_desc').html(JP_lookup[JP_lab]);
-}
-</script>
-
-<script>
-  window.onload = startCycle();
-
-  function startCycle(){
-    timerID = setInterval(changeText,850);
-  }
-
-  function randElement(list){
-    i = parseInt(Math.random()*list.length);
-    return list[i]
-  }
-
-  function changeText(){
-    e1 = randElement(['𝙸','𝚒','𝚎','𝙴']); //'𝚡',
-    e2 = randElement(['𝚂','𝚜','𝚡','𝚗','𝙽']);
-    e3 = randElement(['𝙵','𝚏','𝚡','𝚝','𝚃']);
-    e4 = randElement(['𝙹','𝚓','𝚙','𝙿']); //'𝚡',
-    // document.getElementById("anim").innerHTML = e1+e2+e3+e4;
-
-
-    text = "<br>"+e1+e2+e3+e4;
-    text += "<br>";
-    if(e1=="𝙸"){
-      text += "🄸 𝙸–––– 🄴";
-    } else if(e1=='𝚒'){
-      text += "🄸 –𝚒––– 🄴";
-    } else if(e1=='𝚡'){
-      text += "🄸 ––𝚡–– 🄴";
-    } else if(e1=='𝚎'){
-      text += "🄸 –––𝚎– 🄴";
-    } else if(e1=='𝙴'){
-      text += "🄸 ––––𝙴 🄴";
-    }
-    
-    text += "<br>";
-    if(e2=="𝚂"){
-      text += "🅂 𝚂–––– 🄽";
-    } else if(e2=='𝚜'){
-      text += "🅂 –𝚜––– 🄽";
-    } else if(e2=='𝚡'){
-      text += "🅂 ––𝚡–– 🄽";
-    } else if(e2=='𝚗'){
-      text += "🅂 –––𝚗– 🄽";
-    } else if(e2=='𝙽'){
-      text += "🅂 ––––𝙽 🄽";
-    }
-
-    text += "<br>";
-    if(e3=="𝙵"){
-      text += "🄵 𝙵–––– 🅃";
-    } else if(e3=='𝚏'){
-      text += "🄵 –𝚏––– 🅃";
-    } else if(e3=='𝚡'){
-      text += "🄵 ––𝚡–– 🅃";
-    } else if(e3=='𝚝'){
-      text += "🄵 –––𝚝– 🅃";
-    } else if(e3=='𝚃'){
-      text += "🄵 ––––𝚃 🅃";
-    }
-
-    text += "<br>";
-    if(e4=="𝙹"){
-      text += "🄹 𝙹–––– 🄿";
-    } else if(e4=='𝚓'){
-      text += "🄹 –𝚓––– 🄿";
-    } else if(e4=='𝚡'){
-      text += "🄹 ––𝚡–– 🄿";
-    } else if(e4=='𝚙'){
-      text += "🄹 –––𝚙– 🄿";
-    } else if(e4=='𝙿'){
-      text += "🄹 ––––𝙿 🄿";
-    }
-
-    document.getElementById("anim").innerHTML = text;
-  }
-
-</script>
 
 
 <script data-goatcounter="https://dynomight.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1348,5 +888,468 @@ Brought to you by <a href="/?utm_source=mbti&utm_medium=mbti&utm_campaign=mbti">
 
 <br>
 </body>
+
+<script>
+  let q_lo_length = 32;
+  let global_where = 0;
+  let Q = new Array(q_lo_length).fill(0)
+  let num_keyboard = 0;
+  
+  var getUrlParameter = function getUrlParameter(sParam) {
+      var sPageURL = window.location.search.substring(1),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+  
+      for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split('=');
+  
+          if (sParameterName[0] === sParam) {
+              return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+          }
+      }
+      return false;
+  };
+  
+  // function load_from_url(){
+  //     answers = getUrlParameter('a') + getUrlParameter('b');
+  //     alert(answers);
+  //     for(var i=0; i<answers.length; i++){
+  //         register_choice(i,Number(answers[i]));
+  //     }
+  //     //updateprogress();
+  //     //getscores();
+  //     //$("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+  //     //describe_letters(IE,SN,FT,JP);
+  // }
+  
+  function updateprogress(done){
+      // find last unupdated line
+      rownum = find_next_unanswered()
+      // make gray (if not done)
+      if(rownum < q_lo_length){
+          $("#row"+(rownum)).css("background-color","#eeeeee")
+          $("#rowB"+(rownum)).css("background-color","#eeeeee")
+      }
+      
+      // scroll to new position
+      // (don't do this if person has answered a question past the current maximum)
+      if(rownum == find_last_answered()+1){
+          // try to keep a few questions ahead
+          //if(where2scroll<q_lo_length){
+          if(rownum+3<q_lo_length){
+              where2scroll = rownum+3;
+              myid = "row"+where2scroll;
+          } else if(rownum<q_lo_length){
+              myid = "firstgraph";
+          } else{ // if near end, show results
+              // ios bug in scrollintoview?
+              myid = "aftergraph"
+          }
+  
+          console.log(myid)
+          document.getElementById(myid).scrollIntoView(false); 
+      }
+  
+      done = find_num_answered()
+      //txt = "" + done + "/" + q_lo_length+" "
+      txt = ((done/q_lo_length)*100).toFixed(0)+"% done"
+      $("#progress").html(txt)
+      //$("#progress2").html(txt)
+      //return rownum;
+  
+      // if done, show results
+      if(rownum==q_lo_length){
+          getscores();
+          $("#firstgraph").last().html(firstgraph(IE,SN,FT,JP,false));
+          $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+          describe_letters(IE,SN,FT,JP);
+          $("#buttons").hide();
+          $("#goback").hide();
+          $("#copyButton").show();
+          $("#saveButton").show();
+      }
+  }
+  
+  function drawbar(a,size){
+      r = ""
+      needbar=true
+      for(i=0; i<size;i++){
+          b=i/size
+          if(b>a && needbar){
+              r += "|"
+              needbar=false
+          } else{
+              r += "─"
+          }
+      }
+      return r
+  }
+  
+  function miniclick(where,i,clicked){
+      register_choice(where,i,clicked);
+  }
+  
+  function choose_from_range(score,stuff){
+      if(score <= .30)
+          return stuff[0]
+      else if(score < .45)
+          return stuff[1]
+      else if(score < .55)
+          return stuff[2]
+      else if(score < .70)
+          return stuff[3]
+      return stuff[4]
+  }
+  
+      
+  function choose_from_range2(score,stuff){
+      if(score <= .5)
+          return stuff[0]
+      return stuff[1]
+  }
+  
+  function get_you_string(val,startphase3,size){
+      if(startphase3){
+          return ""
+      } else{
+          num_before = Math.floor(val*size)+2
+          num_after = size+8-num_before-9
+          return ""+"‎‎‎‏‏‎ ‎".repeat(num_before) + "you=" + val.toFixed(2) + "‏‏‎ ‎".repeat(num_after)
+      }
+  }
+  
+  function firstgraph(IE,SN,FT,JP,phaze){
+      var size = 25
+      
+      IE_lab = choose_from_range(IE,['𝙸','𝚒','𝚡','𝚎','𝙴'])
+      SN_lab = choose_from_range(SN,['𝚂','𝚜','𝚡','𝚗','𝙽'])
+      FT_lab = choose_from_range(FT,['𝙵','𝚏','𝚡','𝚝','𝚃'])
+      JP_lab = choose_from_range(JP,['𝙹','𝚓','𝚡','𝚙','𝙿'])
+  
+      var box = IE_lab + SN_lab + FT_lab + JP_lab;
+      box += "<br>🄸 ";
+      box += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
+      box += " 🄴";
+      box += "<br>🅂 ";
+      box += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
+      box += " 🄽";
+      box += "<br>🄵 ";
+      box += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝙵']);
+      box += " 🅃";
+      box += "<br>🄹 ";
+      box += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
+      box += " 🄿";
+  
+      str = IE_lab + SN_lab + FT_lab + JP_lab + "\\n";
+      str += "🄸 ";
+      str += choose_from_range(IE,['𝙸––––','–𝚒–––','––𝚡––','–––𝚎–','––––𝙴']);
+      str += " 🄴\\n";
+      str += "🅂 ";
+      str += choose_from_range(SN,['𝚂––––','–𝚜–––','––𝚡––','–––𝚗–','––––𝙽']);
+      str += " 🄽\\n";
+      str += "🄵 ";
+      str += choose_from_range(FT,['𝙵––––','–𝚏–––','––𝚡––','–––𝚝–','––––𝚃']);
+      str += " 🅃\\n";
+      str += "🄹 ";
+      str += choose_from_range(JP,['𝙹––––','–𝚓–––','––𝚡––','–––𝚙–','––––𝙿']);
+      str += " 🄿\\n";
+  
+      box += "<br><button class=\"bluebutton\" onclick='copyToC(\"" + str + "\")'>Copy as text</button>"
+  
+      return box
+  }
+  
+  
+  function resultgraph(IE,SN,FT,JP,phaze){
+      var size = 25
+  
+      var box = "<p><tt>"
+  
+      box += "<br>𝙸=0 " + drawbar(IE,size) + " 𝙴=1"
+      box += "<br>" + get_you_string(IE,phaze,size)
+  
+      box += "<br>𝚂=0 " + drawbar(SN,size) + " 𝙽=1 " //+ SN.toFixed(3);
+      box += "<br>" + get_you_string(SN,phaze,size)
+  
+      box += "<br>𝙵=0 " + drawbar(FT,size) + " 𝚃=1 "
+      box += "<br>" + get_you_string(FT,phaze,size)
+  
+      box += "<br>𝙹=0 " + drawbar(JP,size) + " 𝙿=1 "
+      box += "<br>" + get_you_string(JP,phaze,size)
+  
+      box += "\<\/tt>"
+      //return txt
+  
+      return box
+  }
+  
+  
+  function getscores(){
+      IE = 30-Q[2]-Q[6]-Q[10]+Q[14]-Q[18]+Q[22]+Q[26]-Q[30]; //8 40
+      SN = 12+Q[3]+Q[7]+Q[11]+Q[15]+Q[19]-Q[23]-Q[27]+Q[31]; //8 40
+      FT = 30-Q[1]+Q[5]+Q[9]-Q[13]-Q[17]+Q[21]-Q[25]-Q[29];
+      JP = 18+Q[0]+Q[4]-Q[8]+Q[12]-Q[16]+Q[20]-Q[24]+Q[28];
+  
+      IE = (IE-8)/32
+      SN = (SN-8)/32
+      FT = (FT-8)/32
+      JP = (JP-8)/32
+      
+      IE_lab = choose_from_range(IE,['I','i','x','e','E'])
+      SN_lab = choose_from_range(SN,['S','s','x','n','N'])
+      FT_lab = choose_from_range(FT,['F','f','x','t','T'])
+      JP_lab = choose_from_range(JP,['J','j','x','p','P'])
+  
+      //$("#mbtisubtype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);    
+  
+      IE_lab = choose_from_range2(IE,['I','E'])
+      SN_lab = choose_from_range2(SN,['S','N'])
+      FT_lab = choose_from_range2(FT,['F','T'])
+      JP_lab = choose_from_range2(JP,['J','P'])
+  
+      $("#mbtitype").last().html(IE_lab + SN_lab + FT_lab + JP_lab);
+  }
+  
+  function setup(){
+      $("#resultgraph").last().html(resultgraph(.5,.5,.5,.5,true));
+      updateprogress();
+      //load_from_url();
+  }
+  
+  function clear_row(rownum){
+      // make all letters in this row clear
+      for(choice=1; choice<=5; choice++){
+          $("#"+rownum+'_'+choice).css("color","gray");
+          $("#"+rownum+'_'+choice).html('☐');
+      }
+  
+  }
+  
+  function find_next_unanswered(){
+      for(i=0; i<q_lo_length; i++)
+          if(Q[i]==0)
+              return(i)
+      return q_lo_length
+  }
+  
+  function find_last_answered(){
+      for(i=q_lo_length-1; i>=0; i--)
+          if(Q[i]!=0)
+              return i
+      return 0
+  }
+  
+  function find_num_answered(){
+      num = 0;
+      for(i=0; i<q_lo_length; i++)
+          if(Q[i]!=0)
+              num+=1
+      return num
+  }
+  
+  function register_next(choice,clicked){
+      register_choice(find_next_unanswered(),choice,clicked);
+  }
+  
+  function register_choice(rownum,choice,clicked){
+      if(clicked){
+          $('#buttons').show()
+      }
+      
+      //buttons = clicked;
+      if (choice==0){
+          // remove gray from current line
+          rownum = find_next_unanswered()
+          $("#row"+(rownum)).css("background-color","white")
+          $("#rowB"+(rownum)).css("background-color","white")
+          // for(choice=0; choice<5; choice++){
+          //     $("#"+rownum+'_'+choice).html('☐'); // could intelligently just delete marked but but whatever
+          // }
+  
+          // delete last answer (if there is one)
+          rownum = find_last_answered();
+          
+          // delete stored answer
+          Q[rownum] = 0;
+          clear_row(rownum);
+  
+          //rownum = find_next_unanswered()
+          //$("#row"+(rownum)).css("background-color","#eeeeee")
+          updateprogress();
+      }
+  
+      // what to do if a new number is entered
+      else{
+          Q[rownum]=choice
+  
+          // remove gray from current line
+          $("#row"+(rownum)).css("background-color","white")
+          $("#rowB"+(rownum)).css("background-color","white")
+      
+          clear_row(rownum)
+          for(i=1; i<=5; i++){
+              $("#"+rownum+'_'+i).css("color","#e5e5e5"); // make extra light gray if done
+              //$("#"+rownum+'_'+i).html('☐');
+          }
+          $("#"+rownum+'_'+choice).css("color","#0000aa");
+          $("#"+rownum+'_'+choice).html('☑');
+          rownum=updateprogress()
+  
+          // if done, show results
+          if(rownum==q_lo_length){
+              getscores();
+              $("#resultgraph").last().html(resultgraph(IE,SN,FT,JP,false));
+              describe_letters(IE,SN,FT,JP);
+              $("#buttons").hide();
+              $("#goback").hide();
+          }
+      }
+  }
+  
+  function goodkey(e){
+      if(e.which==8) // backspace
+          return true;
+      if(e.which >= 49 && e.which <= 53)
+          return true;
+      return false
+  }
+  
+  $(function(){
+      $(document).on('keydown', function(e){
+          // zero key indicates we want to delete
+          if(goodkey(e) && global_where < q_lo_length){
+              if(e.which==8)
+                  choice=0;
+              else
+                  choice = e.which-48;
+              register_choice(find_next_unanswered(),choice,false)
+              num_keyboard += 1
+              if(num_keyboard==4){
+                  $("#buttons").hide()
+                  $("#goback").hide();
+              }
+          }
+      });
+  });
+  
+  function describe_letters(IE,SN,FT,JP){
+      IE_lab = choose_from_range(IE,['I','i','x','e','E']);
+      SN_lab = choose_from_range(SN,['S','s','x','n','N']);
+      FT_lab = choose_from_range(FT,['F','f','x','t','T']);
+      JP_lab = choose_from_range(JP,['J','j','x','p','P']);
+      $('#IE_lab').html(IE_lab);
+      $('#SN_lab').html(SN_lab);
+      $('#FT_lab').html(FT_lab);
+      $('#JP_lab').html(JP_lab);
+      var IE_lookup = {};
+      IE_lookup['I'] = "strong preference for introversion over extroversion";
+      IE_lookup['i'] = "weak preference for introversion over extroversion";
+      IE_lookup['x'] = "balanced between introversion and extroversion";
+      IE_lookup['e'] = "weak preference for extroversion over introversion";
+      IE_lookup['E'] = "strong preference for extroversion over introversion";
+      var SN_lookup = {};
+      SN_lookup['S'] = "strong preference for sensing over intuition";
+      SN_lookup['s'] = "weak preference for sensing over intuition";
+      SN_lookup['x'] = "balanced between sensing and intuition";
+      SN_lookup['n'] = "weak preference for intuition over sensing";
+      SN_lookup['N'] = "strong preference for intuition over sensing";
+      var FT_lookup = {};
+      FT_lookup['F'] = "strong preference for feeling over thinking";
+      FT_lookup['f'] = "weak preference for feeling over thinking";
+      FT_lookup['x'] = "balanced between feeling and thinking";
+      FT_lookup['t'] = "weak preference for thinking over feeling";
+      FT_lookup['T'] = "strong preference for thinking over feeling";
+      var JP_lookup = {};
+      JP_lookup['J'] = "strong preference for judging over perceiving";
+      JP_lookup['j'] = "weak preference for judging over perceiving";
+      JP_lookup['x'] = "balanced between judging and perceiving";
+      JP_lookup['p'] = "weak preference for perceiving over judging";
+      JP_lookup['P'] = "strong preference for perceiving over judging";
+      $('#IE_desc').html(IE_lookup[IE_lab]);
+      $('#SN_desc').html(SN_lookup[SN_lab]);
+      $('#FT_desc').html(FT_lookup[FT_lab]);
+      $('#JP_desc').html(JP_lookup[JP_lab]);
+  }
+  </script>
+  
+  <script>
+    window.onload = startCycle();
+  
+    function startCycle(){
+      timerID = setInterval(changeText,850);
+    }
+  
+    function randElement(list){
+      i = parseInt(Math.random()*list.length);
+      return list[i]
+    }
+  
+    function changeText(){
+      e1 = randElement(['𝙸','𝚒','𝚎','𝙴']); //'𝚡',
+      e2 = randElement(['𝚂','𝚜','𝚡','𝚗','𝙽']);
+      e3 = randElement(['𝙵','𝚏','𝚡','𝚝','𝚃']);
+      e4 = randElement(['𝙹','𝚓','𝚙','𝙿']); //'𝚡',
+      // document.getElementById("anim").innerHTML = e1+e2+e3+e4;
+  
+  
+      text = "<br>"+e1+e2+e3+e4;
+      text += "<br>";
+      if(e1=="𝙸"){
+        text += "🄸 𝙸–––– 🄴";
+      } else if(e1=='𝚒'){
+        text += "🄸 –𝚒––– 🄴";
+      } else if(e1=='𝚡'){
+        text += "🄸 ––𝚡–– 🄴";
+      } else if(e1=='𝚎'){
+        text += "🄸 –––𝚎– 🄴";
+      } else if(e1=='𝙴'){
+        text += "🄸 ––––𝙴 🄴";
+      }
+      
+      text += "<br>";
+      if(e2=="𝚂"){
+        text += "🅂 𝚂–––– 🄽";
+      } else if(e2=='𝚜'){
+        text += "🅂 –𝚜––– 🄽";
+      } else if(e2=='𝚡'){
+        text += "🅂 ––𝚡–– 🄽";
+      } else if(e2=='𝚗'){
+        text += "🅂 –––𝚗– 🄽";
+      } else if(e2=='𝙽'){
+        text += "🅂 ––––𝙽 🄽";
+      }
+  
+      text += "<br>";
+      if(e3=="𝙵"){
+        text += "🄵 𝙵–––– 🅃";
+      } else if(e3=='𝚏'){
+        text += "🄵 –𝚏––– 🅃";
+      } else if(e3=='𝚡'){
+        text += "🄵 ––𝚡–– 🅃";
+      } else if(e3=='𝚝'){
+        text += "🄵 –––𝚝– 🅃";
+      } else if(e3=='𝚃'){
+        text += "🄵 ––––𝚃 🅃";
+      }
+  
+      text += "<br>";
+      if(e4=="𝙹"){
+        text += "🄹 𝙹–––– 🄿";
+      } else if(e4=='𝚓'){
+        text += "🄹 –𝚓––– 🄿";
+      } else if(e4=='𝚡'){
+        text += "🄹 ––𝚡–– 🄿";
+      } else if(e4=='𝚙'){
+        text += "🄹 –––𝚙– 🄿";
+      } else if(e4=='𝙿'){
+        text += "🄹 ––––𝙿 🄿";
+      }
+  
+      document.getElementById("anim").innerHTML = text;
+    }
+  
+  </script>
+  
 
 </html>
