@@ -169,7 +169,7 @@ This could also explain the current probabilities.
 
 ## 4.
 
-Is this starting to sound familiar? If we had a market, I’m confident investors would assign a vastly higher price for is <var>charming & good-looking</var> when you condition on <var>reads dynomight</var> than when you condition on <var>doesn’t read dynomight</var>.
+Is this starting to sound familiar? If we had a market, I’m confident investors would assign a vastly higher price for <var>is charming & good-looking</var> when you condition on <var>reads dynomight</var> than when you condition on <var>doesn’t read dynomight</var>.
 
 Is that because reading dynomight makes you more charming and good-looking? Sadly, no—it’s because such people are more likely to value prime-grade autodidactism.
 
