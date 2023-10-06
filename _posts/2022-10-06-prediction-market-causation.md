@@ -179,7 +179,7 @@ The problem is:
 
 - Correlation does not imply causation.
 - Conditional probabilities don’t imply causation either.
-- Conditional prediction markets give you conditional probabilities.
+- All conditional prediction markets give you is conditional probabilities.
 
 ## 5.
 
