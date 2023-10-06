@@ -26,11 +26,13 @@ head: "<script>
         'THERE IS NO HANGOVER',
         'KIND OF MORE OR LESS HANG ONTO YOUR LIFE'
     ];
-    var h1 = document.querySelector('h1');
-    var randomString = strings[Math.floor(Math.random() * strings.length)];
-    h1.innerHTML = 'DYNOMIGHT ' + randomString;
-    h1.classList.toggle('mainh1');
-    h1.classList.toggle('mainh1');
+    if(Math.random() < .05){
+        var h1 = document.querySelector('h1');
+        var randomString = strings[Math.floor(Math.random() * strings.length)];
+        h1.innerHTML = randomString;
+        h1.classList.toggle('mainh1');
+        h1.classList.toggle('mainh1');
+    }
 });
 </script>"
 ---
