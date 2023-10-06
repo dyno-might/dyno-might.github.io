@@ -207,12 +207,14 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
       {% include category-related.html category=page.category%}
     {% else if page.category %}
     
+      {% comment %}
       {% for item in site.pages %}
         {% if item.is_category_page == true and item.category==page.category %}
             <div class="headerfont after-content" style="font-size:120%; margin-bottom:0;">Also about <a href="{{item.url}}">{{page.category}}</a></div>
             {% break %}
         {% endif %}
       {% endfor %}
+      {% endcomment %}
 
       {% include category-related.html category=page.category %}
     {% else %}
