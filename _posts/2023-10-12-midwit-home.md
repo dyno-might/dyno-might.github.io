@@ -247,7 +247,7 @@ There are many things that would make midwit life better, and it seems like *cou
   
 2. **Whistle controlled power switches.** Clapping is (mildly) annoying. Couldn't we use other sounds?
   
-3. **PM<sub>2.5</sub> controlled outlets.** The biggest advantage of commercial air purifiers over building DIY versions is that some integrate air quality sensors and turn on automatically when needed. I want a device that samples the air and activate and outlet if PM<sub>2.5</sub> is above a threshold.
+3. **PM<sub>2.5</sub> controlled outlets.** The biggest advantage of commercial air purifiers over DIY versions is that some integrate air quality sensors and turn on automatically when needed. I want a device that samples the air and activates an outlet if PM<sub>2.5</sub> is above a threshold.
 
 4. **Remote-controlled wall-switch pressers.** This is rather cursed, but I'd like a device to physically flip my existing wall switches when activated by a remote, so my lights can be be dumb *and* midwit. (There are "smart" variants now, but seemingly no midwit versions.)
 
