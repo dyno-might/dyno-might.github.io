@@ -56,7 +56,6 @@ Reading a book one night, you decide to turn on the lights. And suddenly it's ob
 - WiFi 6
 - high gain antennas
 - Integrations
-- MQTT
 - ESPHome
 - KNX
 
