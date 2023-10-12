@@ -7,7 +7,7 @@ description: "Less automation and less agony"
 excerpt: ""
 permalink: /midwit-home/
 background_color: rgb(215,216,218)
-category: "uncategorizable"
+category: "self improvement"
 head: "<style>
 .center {
   display: block;
@@ -20,7 +20,8 @@ head: "<style>
 }
 </style>
 "
-
+comment:
+  substack: https://dynomight.substack.com/p/midwit-home
 ---
 
 Reading a book one night, you decide to turn on the lights. And suddenly it's obvious. Hauling your body across the room just to flip a switch is absurd. So you decide to get smart lights. Two hours later, your world is pain:
@@ -119,7 +120,7 @@ I have "no club that would have me" relationship with links for things you can b
 
 <img class="center" src="/img/midwit-home/remote-outlet.jpg" alt="remote controlled outlet">
 
-**Remote-controlled outlets.** These are probably the easiest win for most people. Plug stuff into the cubes, plug the cubes into the wall, and use the remote to control which cubes are active. The buttons work *instantly*, with a range of 30 m (100 ft) even through walls. There is no app or WiFi. One button can control multiple plugs and the same plug can be paired by multiple remotes. (Cost: Around $25 for five plugs and two remotes.)
+**Remote-controlled outlets.** These are probably the easiest win for most people. Plug stuff into the cubes, plug the cubes into the wall, and use the remote to control which cubes are active. The buttons work *instantly*, with a range of 30 m (100 ft) even through walls. There is no app or WiFi. One button can control multiple plugs and the same plug can be paired to multiple remotes. (Cost: Around $25 for five plugs and two remotes.)
 
 The obvious use for these is lights. When your roommate complains about you strobing them (it's irresistible) remind them that LED bulbs' lifespans are not shortened by on/off cycles. They're also great for fans, air purifiers, and humidifiers.
 
@@ -248,7 +249,7 @@ There are many things that would make midwit life better, and it seems like *cou
   
 3. **PM<sub>2.5</sub> controlled outlets.** The biggest advantage of commercial air purifiers over building DIY versions is that some integrate air quality sensors and turn on automatically when needed. I want a device that samples the air and activate and outlet if PM<sub>2.5</sub> is above a threshold.
 
-4. **Remote-controlled wall-switch pressers.** This is rather cursed, but I'd like a device to physically flip my existing wall switches using activated by a remote, so my lights can be be dumb *and* midwit. (There are "smart" variants now, but seemingly no midwit versions.)
+4. **Remote-controlled wall-switch pressers.** This is rather cursed, but I'd like a device to physically flip my existing wall switches when activated by a remote, so my lights can be be dumb *and* midwit. (There are "smart" variants now, but seemingly no midwit versions.)
 
 5. **Power-controlled remote pressers.** This is *utterly* cursed, but hear me out: I want a gadget that I physically attach to a remote. When the gadget gets power, it presses the "on" button on the remote. When it loses power, it presses the "off" button.
    
