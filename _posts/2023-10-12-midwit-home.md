@@ -131,7 +131,7 @@ Or, you can use this for tea. My usual process for making tea is to walk to the 
 
 Or, my printer is cursed. After being on for a few days it refuses to print anything longer than two pages. I know this shouldn't be possible, but I've exhausted every avenue for fixing it. I could get a new printer, but maybe it's a network issue or something?
 
-Restarting the printer fixes it. But the printer has one of those infuriating power buttons where you hold it for ten seconds and then it ignores you. So for a year, I'd walk to the room with the printer and reach deep inside the cabinet to physically unplug and re-plug it. Now I use one of these cubes and remotely power cycle it when necessary. Utterly graceless, but effective.
+Restarting the printer fixes it. But it has one of those infuriating power buttons where you hold it for ten seconds and then it ignores you. So for a year, I'd walk to the room with the printer and reach deep inside the cabinet to physically unplug and re-plug it. Now I use one of these cubes and remotely power cycle it when necessary. Utterly graceless, but effective.
 
 <img class="center" src="/img/midwit-home/remote-socket.jpg" alt="remote controlled light socket">
 
@@ -187,7 +187,7 @@ This! This is the kind of thing I need more of in my life! I *really* think it d
 
 Many use these with light for plants. Or, it can be nice to wake up with light rather than sound. Instead of buying a light alarm clock, you can just plug a lamp into one of these. Or, if you buy into the rationalist trend of *very bright* lights, then you can rig up one of these up and have each day greet you with 100k lumens gently screaming into your face.
 
-Or, in winter, I use a ([non-ultrasonic](/humidifiers/!) humidifier. But it's only really useful for a couple of hours before going to bed, after which humans provide plenty of humidity. Using a timer automates things, saves energy, and avoids humidity getting out of control in the middle of the night. Even better, it reduces how often you need to refill the tank.
+Or, in winter, I use a ([non-ultrasonic](/humidifiers/)! humidifier. But it's only really useful for a couple of hours before going to bed, after which humans provide plenty of humidity. Using a timer automates things, saves energy, and avoids humidity getting out of control in the middle of the night. Even better, it reduces how often you need to refill the tank.
 
 <img class="center" src="/img/midwit-home/24-hour-timer-digital.jpg" alt="digital outlet timer">
 
