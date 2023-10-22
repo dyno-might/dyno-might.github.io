@@ -187,7 +187,7 @@ This! This is the kind of thing I need more of in my life! I *really* think it d
 
 Many use these with light for plants. Or, it can be nice to wake up with light rather than sound. Instead of buying a light alarm clock, you can just plug a lamp into one of these. Or, if you buy into the rationalist trend of *very bright* lights, then you can rig up one of these up and have each day greet you with 100k lumens gently screaming into your face.
 
-Or, in winter, I use a ([non-ultrasonic](/humidifiers/)! humidifier. But it's only really useful for a couple of hours before going to bed, after which humans provide plenty of humidity. Using a timer automates things, saves energy, and avoids humidity getting out of control in the middle of the night. Even better, it reduces how often you need to refill the tank.
+Or, in winter, I use a ([non-ultrasonic](/humidifiers/)!) humidifier. But it's only really useful for a couple of hours before going to bed, after which humans provide plenty of humidity. Using a timer automates things, saves energy, and avoids humidity getting out of control in the middle of the night. Even better, it reduces how often you need to refill the tank.
 
 <img class="center" src="/img/midwit-home/24-hour-timer-digital.jpg" alt="digital outlet timer">
 
