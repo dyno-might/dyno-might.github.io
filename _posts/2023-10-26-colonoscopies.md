@@ -48,11 +48,9 @@ Because of the cost, the lack of direct evidence for efficacy, and the fact that
 
 ## The Trial
 
-That brings us to the star of our show. The Nordic-European Initiative on Colorectal Cancer (NordICC) was a huge randomized trial aimed at rigorously measuring how much colonoscopies reduce cancer and death.
+That brings us to the star of our show. The Nordic-European Initiative on Colorectal Cancer (NordICC) is a huge randomized trial aimed at rigorously measuring how much colonoscopies reduce cancer and death.
 
-Here’s what the researchers did: Between 2009 and 2014, they identified 85,179 subjects mostly in Poland (64.1%), Norway (31.2%), and Sweden (4.3%), drawn at random from population registries of people between 55 and 64 years old.
-
-They invited one-third of them to a one-time screening colonoscopy. Of those contacted, 42% accepted the invitation and underwent a colonoscopy, while 58% refused the invitation. The other two-thirds of people were not contacted and seemingly never knew they were in the trial. The researchers then followed everyone (invited or not, colonoscopy or not) for a median of 10 years and checked government records to see who had been diagnosed with colorectal cancer, died from colorectal cancer, or died from any cause.
+Here’s what the researchers did: Between 2009 and 2014, they identified 85,179 subjects mostly in Poland (64.1%), Norway (31.2%), and Sweden (4.3%), drawn at random from population registries of people between 55 and 64 years old. They invited one-third of them to a one-time screening colonoscopy. Of those contacted, 42% accepted the invitation and underwent a colonoscopy, while 58% refused the invitation. The other two-thirds of people were not contacted and seemingly never knew they were in the trial. The researchers then followed everyone (invited or not, colonoscopy or not) for a median of 10 years and checked government records to see who had been diagnosed with colorectal cancer, died from colorectal cancer, or died from any cause.
 
 This was an “intention-to-screen” analysis. That means that it compared the control group to the whole invited group, including both the 42% of people who agreed to a colonoscopy and the 58% who refused. (If that seems strange, keep reading.)
 
