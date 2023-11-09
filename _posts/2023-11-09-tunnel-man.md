@@ -59,7 +59,7 @@ So far I've failed to get anyone else to share my enthusiasm. But that hasn't st
 
 Is it the good vibes? Everyone seems reasonable and caring, including tunnel man, his girlfriend, and most of the commentators. Still, there are lots of nice stories, so this surely isn't the explanation.
 
-Is it just that tunneling is weird? I guess, partly. But there are lots of weird things things. If he spent all his time playing [Zork](https://en.wikipedia.org/wiki/Zork), no one would care.
+Is it just that tunneling is weird? I guess, partly. But there are lots of weird things. If he spent all his time playing [Zork](https://en.wikipedia.org/wiki/Zork), no one would care.
 
 Is it that he has unusual motivations? No. He explained why he tunnels:
 
