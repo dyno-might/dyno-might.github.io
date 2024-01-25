@@ -3,7 +3,7 @@ layout: post
 title: "What if you just bought everyone air purifiers?"
 image: /img/buy-purifiers/city2.jpg
 tags: 
-description: ""
+description: "amazing or nah"
 excerpt: 
 permalink: /buy-purifiers/
 background_color: rgb(241,241,241)
