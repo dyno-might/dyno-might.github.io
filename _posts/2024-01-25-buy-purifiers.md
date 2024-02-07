@@ -26,7 +26,7 @@ So: If you go buying air purifiers for random Americans, you can extend life exp
 
 Is that good? Well, back in the golden days when GiveWell used to score interventions in terms of dollars per DALY, they found that [artemisinin combination therapy](https://www.givewell.org/international/technical/programs/malaria-treatment) for malaria could extend lifespan at a cost of $150 / DALY. That's... substantially lower.
 
-But maybe air purifiers would work better in other countries? In India, there's more air pollution, electricity is cheaper, and people less living space, all of which help purifiers. There, I estimate a cost of $1.6k / DALY.  Much better, but still 10× higher than malaria drugs.
+But maybe air purifiers would work better in other countries? In India, there's more air pollution, electricity is cheaper, and people have less living space, all of which help purifiers. There, I estimate a cost of $1.6k / DALY.  Much better, but still 10× higher than malaria drugs.
 
 Or maybe you don't want to compare to hyper-efficient interventions like malaria drugs? OK, then how about normal healthcare?
 
