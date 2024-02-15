@@ -53,7 +53,7 @@ According to our theory, the answer is simple: People like sneakers because, in 
 
 Just like fancy sneakers, I've never been a fan of expensive cars or gold jewelry or designer handbags. I guess I figured I was principled or deep or something. But under our theory, my indifference to these things is completely predictable: I don't like them because I have more cultural capital than economic capital.
 
-# The Glass Bead Game
+## The Glass Bead Game
 
 In 1943, Herman Hesse wrote about a group of intellectuals centuries in the future who live an ascetic existence playing something called the [Glass Bead Game](https://www.strangeloopcanon.com/p/these-glass-bead-games-we-play). Exactly how the game works is never fully explained, but it seems to involve a simultaneous mastery of all of literature, art, math, history, and science and building ever-deeper analogies between them.
 
