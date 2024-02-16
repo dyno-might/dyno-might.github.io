@@ -17,10 +17,19 @@
       <body style="margin-left:2em; margin-right: 2em; margin-top: 1em;">
         <main>
           <dk-alert-box type="info">
-            <strong>This is an RSS feed</strong>. Subscribe by copying
-            the URL from the address bar into your newsreader. Visit <a
-            href="https://aboutfeeds.com">About Feeds
-          </a> to learn more and get started. It’s free.
+            <strong>This is an RSS feed</strong>. If you're already on team RSS, you can subscribe by copying the URL into your newsreader. (Or, probably, by just typing in <tt>dynomight.net</tt>)
+            <div style="margin-top:5pt;">
+            <strong>If you have no idea what RSS is</strong>, then you probably need an RSS reader. Here are some good ones:
+            <ul>
+            <li><a href="https://www.newsblur.com/">NewsBlur</a> (Web, iOS, Android, free syncing for up to 64 sites)</li>
+            <li><a href="https://netnewswire.com/">NetNewsWire</a> (Mac, iOS, free and open source)</li>
+            <li><a href="https://www.vienna-rss.com/">Vienna</a> (Mac, free and open source)</li>
+            <li><a href="https://nodetics.com/feedbro/">Feedbro</a> (Extension for <a href="https://addons.mozilla.org/en-US/firefox/addon/feedbroreader/?utm_source=addons.mozilla.org">Firefox</a>, <a href="https://chromewebstore.google.com/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa">Chrome</a>, <a href="https://microsoftedge.microsoft.com/addons/detail/feedbro/pdfbckdfhgaohcfdkcgpggcifmalimfd">Edge</a>)</li>
+            </ul>
+            </div>
+            <div>
+            Here's a <a href="https://www.newsblur.com/site/8157780/dynomight">preview</a>.
+            </div>
           </dk-alert-box>
           <div class="py-7">
             <h1 class="flex items-start">
