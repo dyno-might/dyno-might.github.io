@@ -27,17 +27,22 @@ Wondering what to do with your life? Here's what I suggest:
 
 After that you can do whatever. The game you're playing doesn't have any rules and there's no way to win.
 
----
+<br>
 
-| **email** | <span style="font-family:monospace; font-size:80%;">dynomight@(here are some words to confuse the robots please delete them)tutanota.com</span> | 
+<div style="font-size:80%" markdown="1">
+
+| **email** | <span style="font-family:monospace;">(name of this website)@tutanota.com</span> | 
 | | or use the form at the bottom of this page. | 
-| **RSS feed** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span> |
-| **substack** | <span style="font-family:monospace; font-size:80%;"> <https://dynomight.substack.com> </span> |
-| **twitter** | [@dynomight7](https://twitter.com/dynomight7) |
-| **mastodon** | [@dynomight@mastodon.social](https://mastodon.social/@dynomight) |
+| **RSS** | <span style="font-family:monospace;"> [dynomight.net/feed.xml](https://dynomight.net/feed.xml) </span> |
+| **substack** | <span style="font-family:monospace;"> [dynomight.substack.com](https://dynomight.substack.com) </span> |
+| **mastodon** | <span style="font-family:monospace;"> [@dynomight@mastodon.social](https://mastodon.social/@dynomight) </span> |
+| **bluesky** | <span style="font-family:monospace;"> [@dynomight.net](https://staging.bsky.app/profile/dynomight.net) </span> |
+| **twitter** | <span style="font-family:monospace;"> [@dynomight7](https://twitter.com/dynomight7) </span> |
 {% comment %}| **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
 | **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |{% endcomment %}
+
+</div>
 
 {% comment %}
 Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
@@ -61,7 +66,7 @@ All posts organized by topics: [tags](/tags)
 <button type="submit" class="headerfont">SUBSCRIBE AND DONE</button> 
 </form> -->
 
----
+<br>
 
 {% comment %}
 I post new stuff each Monday and Thursday. You can subscribe here:
@@ -91,16 +96,16 @@ There's just the one step to subscribe, no second form or confirmation link or w
 Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
 {% endcomment %}
 
----
+<br>
 
 
 In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
 
----
+<br>
 
 Not sure where to get started? Try one of these:
 
-* [Underrated reasons to be thankful](/thanks/)
+* [Underrated reasons to be thankful I](/thanks/) / [II](/thanks-2/) / [III](/thanks-3/)
 * [Plans you're not supposed to talk about](/plans/)
 * [Are some personalities just better?](/better-personalities/)
 * [Better air is the easiest way not to die](/air/)
@@ -158,9 +163,9 @@ Most hated (they're wrong I tell you, all wrong):
 * [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->
 {% endcomment %}
 
----
+<br>
 
-Thoughts? Questions? Help with my ever-proliferating collection of typos?
+Thoughts? Help with my ever-proliferating collection of typos?
 
 <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
