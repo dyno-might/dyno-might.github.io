@@ -66,6 +66,7 @@ People with mostly economic capital play the Expensive Cars game. People with mo
 But I think it goes beyond that?
 
 I reckon I could beat Donald Trump in a debate about the hard problem of consciousness. (This is not something I fantasize about, I swear.) But Trump would obliterate me in a "travel between your mansions in your private plane while being fed caviar by models" contest.
+
 Conceivably, Trump and I could decide that there's no conflict between our different status-seeking strategies and leave each other alone. But we don't seem to do that. In practice, people like me sneer at gold-plated toilet seats and insist we *really really really* have no interest in anything like that, the fact that it's not an option for us is totally coincidental, can we go back to talking about the French revolution? Whereas people like Trump, I imagine, think people like me are losers who've invented fake intellectual games in a desperate cope because we couldn't win the *real* game, the only one that really matters, you loser.
 
 I think spending $250 on fancy sneakers is "wasteful" because I don't value fancy sneakers. But "waste" is a value judgement. Consider favorite Glass Bead pastimes like studying category theory or writing monographs on 18th century Peruvian fruit prices. Glass Bead types might defend these things as productive and not consuming resources. But:
