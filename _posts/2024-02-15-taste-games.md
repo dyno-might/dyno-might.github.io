@@ -9,7 +9,7 @@ permalink: /taste-games/
 background_color: rgb(241,241,241)
 category: "psychology"
 comment:
-#    substack: https://dynomight.substack.com/p/buy-purifiers
+    substack: https://dynomight.substack.com/p/taste-games
 ---
 
 I bet you like it when beautiful people laugh at your jokes. And I bet you like the taste of sugar. I sure do.
