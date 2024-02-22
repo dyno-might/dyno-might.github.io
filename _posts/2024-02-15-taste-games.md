@@ -19,7 +19,7 @@ But what about camping or dubstep or chain restaurants or installation art? What
 One interpretation of [Bourdieu](/bourdieu/) is that we like things when it *benefits* us to like them. Tastes are just a matter of:
 1. Understanding the consequences of liking stuff in your social context, and
    
-2. Having the cultural knowledge to know how to like things "correctly".
+2. Having the cultural knowledge of how to like things "correctly".
 
 Basically, your brain does game theory: Do the cool people around you like potatoes? Would you benefit from liking potatoes? Do you understand potato consumption rituals well-enough to blend in at the hot potato salons? Then: Start liking potatoes.
 
@@ -41,13 +41,13 @@ Or, say you had a baby girl tomorrow. Would you rather name her *Pamela*, *Brook
 
 ![name graph](/img/taste-games/names.svg)
 
-A popular theory is that these cycles in name popularity are driven by class: Upper-class people start using unusual names to show their kids are special and the names gradually percolate down the class ladder as people try to imitate those just above them but distinguish themselves from those just below.
+A popular theory is that these cycles in name popularity are driven by class: Upper-class people start using unusual names to show their kids are special and the names gradually move down the class ladder as people try to imitate those just above them but distinguish themselves from those just below.
 
 I've never seen any convincing proof that this class-drives-names theory is actually true. But it seems clear that we *do* tend to find that names start sounding good to us just as they're becoming popular with our peers, even if we don't *realize* they're becoming popular. So it sure seems like Bourdieu was onto something. 
 
 ## The Fancy Cars Game
 
-Over the last few years, I've been dismayed to see some of my younger relatives become obsessed with expensive sneakers. I thought, OK, I guess people naturally find ways to hash out a little social hierarchy. But why compete with each other by buying something that's so expensive? It seems so wasteful.
+Over the last few years, I've been dismayed to see some relatives become obsessed with expensive sneakers. I thought, OK, I guess people naturally find ways to hash out a little social hierarchy. But why compete with each other by buying something that's so expensive? It seems so wasteful.
 
 According to our theory, the answer is simple: People like sneakers because, in their social context, it *benefits* them to like sneakers. It's stupid to ask why they don't compete by knitting their own mittens because there's no person with the power to decide that. People just follow their unconscious taste algorithm and this is the result.
 
