@@ -89,7 +89,7 @@ What do you see people bragging about? For me, it's [travel](/balkans/).
 
 Something about how people talk about travel has long made me uneasy. After all, travel is expensive. No one in my circles would dream of going to a party and showing off their new Rolex. But somehow, travel is this unusual form of conspicuous consumption that isn't subject to conspicuous consumption taboos. Why?
 
-My conspiracy theory is that it's because travel combines Fancy Cars and Glass Beads. Nobody I know brags about flying first class to stay at the Four Seasons in Miami because, that's pure Fancy Cars—you just pay your money and go. To play Travel, you need to go to some unusual corner of the world with an unfamiliar culture and speak the local language and befriend locals and find secret underground parties and sneak into castles at night to sample vinegar made by 18th century monks.
+My conspiracy theory is that it's because travel combines Fancy Cars and Glass Beads. Nobody I know brags about flying first class to stay at the Four Seasons in Miami because that's pure Fancy Cars—you just pay your money and go. To play Travel, you need to go to some unusual corner of the world with an unfamiliar culture and speak the local language and befriend locals and find secret underground parties and sneak into castles at night to sample vinegar made by 18th century monks.
 
 But even when you focus on displaying your immense cultural capital, travel still costs money. A deeper conspiracy theory is that Travel is popular because it allows people who aren't socially permitted to play Fancy Cars a way to do that while *pretending* that they're only playing a normal, respectable game of Glass Beads.
 
