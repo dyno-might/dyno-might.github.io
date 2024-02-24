@@ -103,7 +103,7 @@ I strongly recommend Bourdieu for those seeking new source material for neurotic
    
 Who's right? The third option seems strong. But I noticed something. Nobody *just* says to do what you want. They always first demonstrate that *they* understand the standard arguments for tilting or not tilting, and *then* say to disregard them. That demonstration shows that they are *above* the other groups, not below them. Who's insecure?
 
-The truly humane position is probably to just acknowledge that we're all insecure, so even if you think wine's exalted status is ridiculous, it's OK to want to know the standard arguments. So: Traditionally, wine is poured straight so your butler doesn't have to pick your glass up off the table. And people used to think that straight pours—maybe with some special technique—would preserve more bubbles. But you don't have a butler and tilting turns out to preserve bubbles slightly better. Anyway, the difference is tiny, and who cares. Thus equipped to defend yourself from anyone who might try to nip at your social status, do whatever you want.
+The truly humane position is probably to just acknowledge that we're all insecure, so even if you think wine's exalted status is ridiculous, it's OK to want to know the standard arguments. So: Traditionally, wine is poured straight so your butler doesn't have to pick your glass up off the table. And people used to think that straight pours—maybe with some special technique—would preserve more bubbles. But you don't have a butler and tilting turns out to preserve bubbles slightly better. Anyway, the difference is tiny and who cares. Thus equipped to defend yourself from anyone who might try to nip at your social status, do whatever you want.
 
 Here are some thoughts I had when writing the previous paragraph:
 * Should I explain the standard arguments for tilting or not tilting?
@@ -159,9 +159,11 @@ He's wrong, let's not waste time debating it. But did he really believe that? Wa
 
 ## Then what?
 
-You've probably noticed this theory is hard to falsify: You think you're not playing taste games? You think you "actually like" things because of the properties of those things? That's because you're playing higher-level games! And isn't it rather convenient that this is all supposed to be unconscious?
+You've probably noticed this theory is hard to falsify: You think you're not playing taste games? You think you "actually like" things because of the properties of those things? That's because you're playing higher-level games!
 
-And there's this weird sense of guilt. If you consciously change your tastes so you can fit in, that's bad. If you unconsciously do that, that's worse. If you unconsciously *don't* try to fit in, you're scum.
+And it's rather convenient that this is all supposed to be unconscious.
+
+There's also this weird sense of guilt. If you consciously change your tastes so you can fit in, that's bad. If you unconsciously do that, that's worse. If you unconsciously *don't* try to fit in, you're scum.
 
 At the same time, taste games are supposed to be human nature. Bourdieu himself says (many times) that you *can't* try to escape from these games. If that's right, then what are we feeling guilty about?
 
