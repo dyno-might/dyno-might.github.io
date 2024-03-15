@@ -271,7 +271,7 @@ Now, I'm not sure if the UK's process for giving Sweden permission to re-extradi
 
 ### Technically, Sweden never charged Assange with anything.
 
-In Sweden, you can't charge someone with a crime without arresting them first, and they couldn't arrest Assange inside of a foreign embassy. The statute of limitations to bring most potential charges expired in 2015, and in 2017 the prosecutor dropped the remaining rape investigation, saying that too much time had passed and it was impossible to arrest Assange without assistance from Ecuador. (The rape investigation was briefly resumed and then re-dropped in 2020.)
+In Sweden, you can't charge someone with a crime without arresting them first, and they couldn't arrest Assange inside of a foreign embassy. The statute of limitations to bring most potential charges expired in 2015, and in 2017 the prosecutor dropped the remaining rape investigation, saying that too much time had passed and it was impossible to arrest Assange without assistance from Ecuador. (The rape investigation was briefly resumed and then re-dropped in 2019 and the statute of limitations expired in 2020.)
 
 ### If Assange was so terrified of being sent to the US, then why was he traveling everywhere in the world in 2010?
 
