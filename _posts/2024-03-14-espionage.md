@@ -8,8 +8,8 @@ excerpt: "Who is this Julian Assange guy? Is he good or bad? Did he do espionage
 permalink: /espionage/
 background_color: rgb(147,147,147)
 category: "politics/policy"
-#comment:
-#    substack: https://dynomight.substack.com/p/espionage
+comment:
+   substack: https://dynomight.substack.com/p/espionage
 ---
 
 ##### (espissange? asspionage?)
