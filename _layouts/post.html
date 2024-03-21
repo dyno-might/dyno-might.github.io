@@ -60,7 +60,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
   </div>
 
   <div class="container" style="text-align: center;"> 
-    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+    <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" id="submitForm"> 
       {% comment %}<div class="headerfont" style="font-size:120%; margin-bottom:5px;">dynomiiiiiiiiiight</div>{% endcomment %}
       <div class="headerfont" style="font-size:100%; margin-bottom:0;">new dynomight every thursday</div>
       <div class="headerfont" style="font-size:100%; margin-top:0; margin-bottom:2px;">except when not</div>
@@ -69,7 +69,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
       <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
       <input type="hidden" name="_captcha" value="false" /> 
       <input type="hidden" name="_url" value="https://dynomight.net/" />
-      <button id="type="submit" class="headerfont orangebutton" style="border-width:0px; margin:0; padding:5px; cursor:pointer; font-size:80%;">ok calm down</button> 
+      <button type="submit" id="submitButton" class="headerfont orangebutton" style="border-width:0px; margin:0; padding:5px; cursor:pointer; font-size:80%;">ok calm down</button> 
       <br>
       <span style="display:inline-block">
         <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
@@ -78,6 +78,13 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
       <div class="headerfont" style="margin-bottom:2px; font-size:80%;">(or try <a href="https://dynomight.substack.com/">substack</a> or <a href="/feed.xml">rss</a>)</div>
     </form>
     </div>
+
+    <script>
+      document.getElementById('submitForm').addEventListener('submit', 
+      function(event) {        
+        document.getElementById('submitButton').innerHTML = 'submitting, just a sec...';        
+      });
+      </script>
 
   {% comment %}
   {% comment %} SIGNUP STUFF {% endcomment %}
