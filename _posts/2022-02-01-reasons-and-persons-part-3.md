@@ -68,11 +68,12 @@ Why should we believe there is no further fact? This consumes most of 130 dense 
 
 Some people ask, aren't the previous scenarios really *just* like the ship of Theseus? In a way, yes. But if you replace a ship piece by piece and ask if it's the same ship, I yawn because it's obvious that ships are really just big assemblies of wood. But if you replace *me* piece by piece, you'll have my full attention, because I start with a *much* stronger intuition that I am an indivisible thing!
 
+
 ## Other arguments
 
 **The physics exam**
 
-It's the year 2214. You suffer from severe epilepsy, which has forced doctors to cut the [corpus callosum](split-brain/) that connects the two hemispheres of your cortex. Unlike those primitives back in the [1960s and 1970s](https://en.wikipedia.org/wiki/Split-brain#Case_studies_of_split-brain_patients), however, current practice is to replace the corpus callosum with a small computer. It behaves just like your old corpus callosum, except it shuts down during seizures.
+It's the year 2214. You suffer from severe epilepsy, which has forced doctors to cut the [corpus callosum](/split-brain/) that connects the two hemispheres of your cortex. Unlike those primitives back in the [1960s and 1970s](https://en.wikipedia.org/wiki/Split-brain#Case_studies_of_split-brain_patients), however, current practice is to replace the corpus callosum with a small computer. It behaves just like your old corpus callosum, except it shuts down during seizures.
 
 One day, you're preparing for an important exam but no matter how much you study, you can't do the problems fast enough. So, you come up with a [plan](/plans): You hack into the computer in your brain and change it to be blink-controlled. As soon as the exam starts, you activate it. This allows you to have each hemisphere of your cortex work on different problems in parallel. You terrify your classmates by writing with both hands at the same time.
 
