@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ABOUT DYNOMIGHT
+title: "ABOUT"
 subtitle: 
 image: /img/deathvalley/small.jpg
 hero_image: /img/deathvalley/small.jpg
@@ -171,7 +171,7 @@ Thoughts? Help with my ever-proliferating collection of typos?
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
         <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
-          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:100%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
+          <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:98%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
           <input type="email" name="email" class="headerfont" placeholder="email (optional)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
@@ -185,6 +185,9 @@ Thoughts? Help with my ever-proliferating collection of typos?
           <button type="submit" class="headerfont" style="padding:10px;">SEND</button> 
         </form>
         <!-- <span class="headerfont" style="font-size:60%;">Help with my ever-proliferating collection of typos, please.</span> -->
-        <br>
         <!-- </details> -->
         </div> 
+
+<div class="headerfont" style="text-align:center" markdown="1">
+\{\{🦕,🧗\}\{🤔,💪\},🧨\}
+</div>
