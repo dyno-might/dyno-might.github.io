@@ -54,7 +54,7 @@ This confused me. I'd previously seen a [post](https://www.sensible-med.com/p/us
 
 Then in December 2023 a [paper](https://doi.org/10.1073/pnas.2311556120) came out in the Proceedings of the National Academy of Sciences making the instrumental variables argument again, except with even more math and even more insistence that selection bias has been solved. This *really* confused me.
 
-I mean, was my argument for bias *wrong*? I asked everyone who contacted me what my error was, but I could never get a clear answer—the response was always to return to instrumental variables and how awesome they are. I heard lots about *potential outcomes* and *monotonicity* and *latent treatment effects* and *two-stage least squares*, but never anything about where my poor little logic went wrong.
+I mean, was my argument for bias *wrong*? I asked everyone who contacted me what my error was, but I could never get a clear answer—the response was always to return to instrumental variables and how awesome they are. I heard lots about *potential outcomes* and *monotonicity* and *local treatment effects* and *two-stage least squares*, but never anything about where my poor little logic went wrong.
 
 I'm sure instrumental variables are great! (Did I mention that one of the authors of that paper won a Nobel prize for inventing instrumental variables?) But in this *particular* case, they produce the same number as my [grug](/grug/)-brained logic, via the *same calculation*.
 
@@ -108,7 +108,7 @@ So what's going on with the instrumental variables? Now, I'm no expert and I jus
 
 For each person, imagine two branches of the multiverse where they either get a colonoscopy or they don't. Let Yᶜ indicate if the person gets colorectal cancer in the "colonoscopy" branch of the multiverse (Yᶜ=1 if cancer, and Yᶜ=0 if no cancer.) Similarly, let Yⁿ indicate if they get colorectal cancer in the "no colonoscopy" branch. Finally, let C indicate if they *accepted an invitation* to do a colonoscopy. 
 
-Now, define the Latent Average Treatment Effect to be LATE = 𝔼[C × (Yᶜ - Yⁿ)] / 𝔼[C], where the expectations are over all the different people in the invited group. With some technical assumptions, you can show that the numerator becomes the total difference in colorectal cancer rates between the invited and control groups (0.186%) while the denominator is the fraction of people who agree to screening (0.42). So LATE = 0.186% / 0.42 = -0.443%.
+Now, define the Local Average Treatment Effect to be LATE = 𝔼[C × (Yᶜ - Yⁿ)] / 𝔼[C], where the expectations are over all the different people in the invited group. With some technical assumptions, you can show that the numerator becomes the total difference in colorectal cancer rates between the invited and control groups (0.186%) while the denominator is the fraction of people who agree to screening (0.42). So LATE = 0.186% / 0.42 = -0.443%.
 
 And you can also show, under the same assumptions, that LATE = 𝔼[Yᶜ \| C=1] - 𝔼[Y ⁿ\| C=1]. So 0.443% is how much a colonoscopy reduces your odds of getting colorectal cancer, supposing you are the kind of person who would have agreed to participate in the NordICC trial.
 
