@@ -67,7 +67,7 @@ where **(temp)** is in ºC, **(height)** is in cm, and **(time)** is the number 
 
 For example, say you pour a liter of boiling water from a height of 10 cm at a rate where it takes you 20 seconds to pour the full liter. That's equivalent to 5 seconds per 250 ml, so this formula predicts the final temperature will be around
 
-&nbsp;&nbsp;&nbsp;&nbsp;**98.0 - 0.21 × 10 - 0.37 × 10 ≈ 92.2 ºC.**
+&nbsp;&nbsp;&nbsp;&nbsp;**98.0 - 0.21 × 10 - 0.37 × 5 ≈ 94 ºC.**
 
 ## Conclusion
 
