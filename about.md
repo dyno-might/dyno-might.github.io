@@ -36,7 +36,7 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 | **RSS** | <span style="font-family:monospace;"> [dynomight.net/feed.xml](https://dynomight.net/feed.xml) </span> |
 | **substack** | <span style="font-family:monospace;"> [dynomight.substack.com](https://dynomight.substack.com) </span> |
 | **mastodon** | <span style="font-family:monospace;"> [@dynomight@mastodon.social](https://mastodon.social/@dynomight) </span> |
-| **bluesky** | <span style="font-family:monospace;"> [@dynomight.net](https://staging.bsky.app/profile/dynomight.net) </span> |
+| **bluesky** | <span style="font-family:monospace;"> [@dynomight.net](https://bsky.app/profile/dynomight.net) </span> |
 | **twitter** | <span style="font-family:monospace;"> [@dynomight7](https://twitter.com/dynomight7) </span> |
 {% comment %}| **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
