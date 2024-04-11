@@ -205,4 +205,4 @@ I think that we could also sort of make this work with my suggested notation by 
 
 You don't have to discretize the MBTI axes. The MBTI measures similar stuff as the Big Five with similar repeatability, but it is more appealing and dramatically easier to talk about. Don’t feel guilty about using it.
 
-In theory the Big Five could adopt the advantages of the MBTI by doing two thing. (Not that I’m advising this!) First, create names for the axes that sound more neutral, so that people are happy to discuss them. Second, create different names for different *ends* of the axes, so that an easy optional discretization is possible. But honestly, why bother? If you did that, you'd have basically invented the MBTI.
+In theory the Big Five could adopt the advantages of the MBTI by doing two things. (Not that I’m advising this!) First, create names for the axes that sound more neutral, so that people are happy to discuss them. Second, create different names for different *ends* of the axes, so that an easy optional discretization is possible. But honestly, why bother? If you did that, you'd have basically invented the MBTI.
