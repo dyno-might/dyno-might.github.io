@@ -41,7 +41,7 @@ While the *offsets* vary, the *shapes* of these curves are pretty similar. So we
 * Pouring from 25 cm (10 in) gives an additional 1-2 ºC.
 * Pouring from 60 cm (24 in) gives an additional 5 ºC.
 
-*Also*: If you conscript the people you live with into helping you with this experiment, you may find that proposing to repeat it at 100 cm results in shrieks of dismay ("please don't pour another 10 liters of boiling water onto our counter" etc.) which are not conductive for Important Science.
+*Also*: If you conscript the people you live with into helping you with this experiment, you may find that proposing to repeat it at 100 cm results in shrieks of dismay ("please don't pour another 10 liters of boiling water onto our counter" etc.) which are not conducive for Important Science.
 
 ## Second Attempt
 
