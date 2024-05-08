@@ -34,7 +34,7 @@ And here's the mean, interpreting the answers as numbers (very unlikely=1, almos
 
 So... I declare this theory mostly confirmed.
 
-You can do the same thing for the other axes ([S/N](/img/survey-results/SN.pdf), [F/T](/img/survey-results/FT.pdf), [J/P](/img/survey-results/JP.pdf)), but there doesn't seem to be much signal.
+You can do the same thing for the other axes ([S/N](/img/survey-results/fight_SN.pdf), [F/T](/img/survey-results/fight_FT.pdf), [J/P](/img/survey-results/fight_JP.pdf)), but there doesn't seem to be much signal.
 
 (I would wreck you.)
 
