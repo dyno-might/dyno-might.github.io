@@ -10,7 +10,7 @@ background_color: rgb(94,94,82)
 category: "uncategorizable"
 ---
 
-Thank you to the 966 people who filled out the survey. And thanks also to the strangely numerous people who read all the questions and wrote to me about them but didn't answer them. (Though: why?)
+Thank you to the 966 people who filled out the [survey](/survey/). And thanks also to the strangely numerous people who read all the questions and wrote to me about them but didn't answer them. (Though: why?)
 
 Many asked: Will the survey data be public? Unfortunately no, because I'm a big dumb idiot and didn't *say* it would be public or give a chance to opt-out. So we'll have to make do with summary statistics only.
 
@@ -240,7 +240,7 @@ And I tend to have less faith in:
 
 When the Ukraine war started, I kept seeing journalists talking about how Ukraine supplies 6% of the world's wheat, and with exports shut off, famine around the world was sure to follow. I thought this was quite silly, because people have options. Lots of food is grown and then fed to livestock, losing most of the calories before they get to people. Oats are cheaper than wheat. Lots of crops are turned into alcohol and burned in vehicles. I thought that there seemed to be a lot of slack in the system, and people *really* don't like starving, so surely markets would reallocate things and prevent that? As far as I can tell, that's exactly what happened.
 
-So will the world be able to meet its energy needs? Without endorsing any view about the future of {battery technology, grid upgrades, real-time energy pricing, self-driving vehicles, rare earth minerals, future fossil fuel finds, carbon taxes, nuclear power, etc.} I say: Yes. People are very adaptable! If we *had* to, we cut our energy consumption by an order of magnitude tomorrow—it would just be painful. And it *would* be painful, but in the medium term, I bet it wouldn't be *as bad* as it seems, because people are so good at adapting. But using huge amounts of energy is fun, so people will mostly keep doing that unless they're forced to do otherwise.
+So will the world be able to meet its energy needs? Without endorsing any view about the future of {battery technology, grid upgrades, real-time energy pricing, self-driving vehicles, rare earth minerals, future fossil fuel finds, carbon taxes, nuclear power, etc.} I say: Yes. People are very adaptable! If we *had* to, we cut our energy consumption by an order of magnitude tomorrow—it would just be painful. And it *would* be painful, but in the medium term, I bet it wouldn't be *as bad* as it seems, because people are so good at adapting. But using huge amounts of energy is fun, so people will mostly keep doing that unless they're forced to stop.
 
 (Note that I'm not predicting that humanity actually *will* reduce energy consumption. That's *possible*, but I think it's also entirely possible that we figure out other ways to even larger amounts of energy, or that we just keep using fossil fuels, come what may.)
 
@@ -248,7 +248,7 @@ So will the world be able to meet its energy needs? Without endorsing any view a
 
 Believe me, I know.
 
-I've had a few experiences with "real" (good) editors and there's no denying that they make thing *much* better. It's plausible that if you take me with my current writing skill and an an editor, the results are better than what I could do by myself after practicing writing for the rest of my life.
+I’ve had a few experiences with “real” (good) editors and there’s no denying that they make things *much* better. It’s plausible that (me with my current writing skill) + (an editor) is better than (me afte practicing writing for the rest of my life).
 
 A few people have even volunteered (or were conscripted) and helped edit a few posts (thank you), but proper editing takes a *lot* of time/experience/talent/effort and it just seems preposterous to ask anyone to do that for free.
 
@@ -258,11 +258,11 @@ A few people have even volunteered (or were conscripted) and helped edit a few p
 
 **You should floss more**
 
-Doubtful. But—speaking of ME—I use Italian floss that costs something like 4× normal floss (around $0.34 / meter). This feels insane, but the marginal cost is something like $0.10 extra per floss, and if you haven't used Extreme Luxury floss before, trust me when I say it delivers more than $0.10 of utility. It's pleasant enough that "not flossing enough" becomes almost impossible. And I wonder if it might actually save money in the long term by reducing the need for dental work.
+Doubtful. But—speaking of ME—I use Italian floss that costs 4× normal floss (around $0.34 / meter). This feels insane, but the marginal cost is something like $0.10 extra per floss, and if you haven't used Extreme Luxury floss before, trust me when I say it delivers more than $0.10 of utility. It's so pleasant that "not flossing enough" becomes almost impossible. And I wonder if it might actually save money in the long term by reducing the need for dental work.
 
 **How can you believe that aspartame is harmless when regular aspartame consumers seem to be heavier than non-aspartame consumers?**
 
-Ah, the good-old aspartame debate ([1](https://dynomight.net/cola/#ps) [2](https://dynomight.net/thanks/)  [3](https://dynomight.net/aspartame/)  [4](https://dynomight.net/aspartame-brouhaha/)  [5](https://dynomight.net/grug/)) . I believe this because :
+Ah, the good-old aspartame debate ([1](https://dynomight.net/cola/#ps) [2](https://dynomight.net/thanks/) [3](https://dynomight.net/aspartame/) [4](https://dynomight.net/aspartame-brouhaha/) [5](https://dynomight.net/grug/)). I believe this because :
 
 A) I think that health-conscious people tend to avoid soda, of all types.
 
@@ -302,7 +302,7 @@ I don't know, but I'm flattered you would come to me.
 
 Some people asked that even if there aren't comments on dynomight.net, couldn't there be a designated "other place for comments (that is not Substack)". So, as an experiment, I've created a ["magazine"](https://kbin.social/m/dynomight) on [kbin](https://kbin.social/). This is approximately the same as a subreddit except better.
 
-At least—it's better in every way except that you probably don't already have an account. And why would you go through the effort of making an account if there isn't already an active community? Which there isn't, since other people are thinking the same thing you are.
+At least—it’s better in every way except that you don’t already have an account. And why suffer through 20 seconds of grueling effort to make an account if there isn’t already an active community? Which there isn’t, since other people are thinking the same thing you are.
 
 So, to slightly increase the odds of solving this little collective action problem:
 
