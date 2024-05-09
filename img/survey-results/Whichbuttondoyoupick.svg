@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-05-08T19:38:30.029186</dc:date>
+    <dc:date>2024-05-09T12:57:02.273469</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -20,6 +20,14 @@
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 460.8 345.6 
+L 460.8 0 
+L 0 0 
+z
+" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+  </g>
   <g id="axes_1">
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
@@ -359,58 +367,58 @@ L 35.642125 309.654184
 L 171.303375 309.654184 
 L 171.303375 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 35.642125 309.654184 
 L 35.642125 230.98681 
 L 171.303375 230.98681 
 L 171.303375 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 35.642125 230.98681 
 L 35.642125 230.98681 
 L 171.303375 230.98681 
 L 171.303375 230.98681 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 171.303375 309.654184 
 L 171.303375 175.609119 
 L 306.964625 175.609119 
 L 306.964625 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 171.303375 175.609119 
 L 171.303375 175.609119 
 L 306.964625 175.609119 
 L 306.964625 175.609119 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 171.303375 175.609119 
 L 171.303375 175.609119 
 L 306.964625 175.609119 
 L 306.964625 175.609119 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 306.964625 309.654184 
 L 306.964625 309.654184 
 L 442.625875 309.654184 
 L 442.625875 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 306.964625 309.654184 
 L 306.964625 309.654184 
 L 442.625875 309.654184 
 L 442.625875 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
     <path d="M 306.964625 309.654184 
 L 306.964625 35.353473 
 L 442.625875 35.353473 
 L 442.625875 309.654184 
 z
-" clip-path="url(#p2370f14602)" style="fill: #595959"/>
+" clip-path="url(#pa86ed1f880)" style="fill: #595959"/>
    </g>
    <g id="text_7">
-    <g clip-path="url(#p2370f14602)">
+    <g clip-path="url(#pa86ed1f880)">
      <!-- dynomight.net -->
      <g style="fill: #808080" transform="translate(359.142438 300.393214) scale(0.04 -0.04)">
       <defs>
@@ -987,7 +995,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p2370f14602">
+  <clipPath id="pa86ed1f880">
    <rect x="22.076" y="21.638438" width="434.116" height="301.730782"/>
   </clipPath>
  </defs>
