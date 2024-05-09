@@ -230,6 +230,7 @@ In general, I have a lot of faith in:
 * Technological development.
 
 * People's ability to adapt to changing circumstances when they have incentives to do that.
+
 And I tend to have less faith in:
 
 * The ability of large, diverse, weakly connected groups of people to coordinate without incentives.
