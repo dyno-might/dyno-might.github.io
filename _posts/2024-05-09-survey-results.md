@@ -72,7 +72,7 @@ So if we compare these two questions:
 
 * 34.1% of people switch depending on everything is phrased.
 
-And let's not be too quick to criticize switchers! Remember the old philosophical problem, "Are you supposed to predict other people's actions when you choose your own?" Either answer leads to [serious problems](reasons-and-persons). But if you say yes, then maybe the switchers are right?
+And let's not be too quick to criticize switchers! Remember the old philosophical problem, "Are you supposed to predict other people's actions when you choose your own?" Either answer leads to [serious problems](/reasons-and-persons). But if you say yes, then maybe the switchers are right?
 
 ## On paying to free yourself of biological necessities
 
@@ -215,7 +215,7 @@ I don't know, but maybe best to avoid those with lots of added sugar.
 
 **What are you favorite home air quality monitors and purifiers?**
 
-For purifiers, I personally use a [Cuboid](https://dynomight.net/better-DIY-air-purifier.html) and some [FÖRNUFTIGs](https://dynomight.net/ikea-purifier/). But I'm sure there are many other good options—just choose something that's been independently tested. For monitoring, I just use a [VINDRIKTNING](https://www.ikea.com/gb/en/p/vindriktning-air-quality-sensor-80515910/) in the kitchen. They are [known](https://www.airgradient.com/blog/ikea-vindriktning-accuracy/) to be inaccurate, but the outdoor air is clean where I live, so my main concern is just catching big spikes of particles when cooking so I know when I need to open the windows. Also it's cheap and IKEA is a small struggling company that needs our support.
+For purifiers, I personally use a [Cuboid](/better-DIY-air-purifier.html) and some [FÖRNUFTIGs](https://dynomight.net/ikea-purifier/). But I'm sure there are many other good options—just choose something that's been independently tested. For monitoring, I just use a [VINDRIKTNING](https://www.ikea.com/gb/en/p/vindriktning-air-quality-sensor-80515910/) in the kitchen. They are [known](https://www.airgradient.com/blog/ikea-vindriktning-accuracy/) to be inaccurate, but the outdoor air is clean where I live, so my main concern is just catching big spikes of particles when cooking so I know when I need to open the windows. Also it's cheap and IKEA is a small struggling company that needs our support.
 
 **You don't really take the MBTI seriously, do you?**
 
