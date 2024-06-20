@@ -53,6 +53,28 @@
 //   font-style: italic;
 // }
 
+// @font-face {
+//   font-family: "Fell";
+//   src: url("/assets/fonts/IM_Fell_English/IMFellEnglish-Regular.ttf");
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Caslon";
+//   src: url("/assets/fonts/Libre_Caslon_Text/LibreCaslonText-REgular.ttf");
+//   font-display: swap;
+// }
+
+
+// @font-face {
+//   font-family: "Doves";
+//   src: url("/assets/fonts/Doves/DovesTypeText-Regular.ttf");
+//   src: url("/assets/fonts/Doves/DovesTypeText-Regular.woff2") format('woff2'),
+//        url("/assets/fonts/Doves/DovesTypeText-Regular.woff") format('woff');
+//   font-display: swap;
+// }
+
+
 // set all colors here
 
 $normal-text-color: black;
