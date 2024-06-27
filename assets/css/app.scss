@@ -221,7 +221,8 @@ html{
 // }
 body{
   margin:0;
-  font-size: 1.15em;
+  font-size:calc(max(1.0em,min(3vw,1.1em))); //1.15em;
+  //font-size:1.1em;
   line-height: 1.5;
   word-wrap: break-word; // break long words
 }
@@ -275,7 +276,7 @@ body{
 .maintext {
   //max-width: 75ch;
   max-width: 70ch; // garamond is wider
-  padding-left: .75rem;
+  padding-left: 1rem;
   padding-right: .75rem;
   margin:auto;
 }
