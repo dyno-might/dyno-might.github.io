@@ -24,7 +24,7 @@ I emphasize that the explanation below is a toy, intended to illustrate in the s
 
 ## The Decorative Coconut Model
 
-Say you decide to get into the decorative [coconut]((https://dynomight.net/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)) manufacturing business.
+Say you decide to get into the decorative [coconut](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/) manufacturing business.
 
 You're good at painting coconuts. You find a friend who is good at picking them, and another who's good at making coconut paint. You find a third friend who's a genius with applying finishing lacquer and a fourth who runs a store.
 
