@@ -16,7 +16,7 @@ Here's a sentence from Steven Pinker's [Enlightenment Now](https://en.wikipedia.
 
 > The Enlightenment is conventionally placed in the last two-thirds of the 18th century, though it flowed out of the Scientific Revolution and the Age of Reason in the 17th century and spilled into the heyday of classical liberalism in the first half of the 19th.
 
-Let's try an experiment. I'm going to give you a question, which you should try to answer it as quickly as you can. Ready? OK: Did the American revolution happen *before*, *during*, or *after* the Enlightenment?
+Let's try an experiment. I'm going to give you a question, which you should try to answer as quickly as you can. Ready? OK: Did the American revolution happen *before*, *during*, or *after* the Enlightenment?
 
 [![join or die](/img/centuries/Join-or-Die.svg "Happy 4th of July BTW")](https://en.wikipedia.org/wiki/Join,_or_Die)
 
