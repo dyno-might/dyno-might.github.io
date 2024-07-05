@@ -43,7 +43,7 @@ The start of the 1900s was the beginning of the [Progressive era](https://en.wik
 
 However, after WWI, support for capital punishment rebounded, and all but two of these states reversed their abolition. The 1930s saw the highest absolute number of executions in US history.
 
-From the 1930s to 1950s, culture gradually came to view hanging as barbaric, in part due to the botched execution of [Eva Dugan](https://en.wikipedia.org/wiki/Eva_Dugan). Most states replaced hanging poison gas, electrocution, or lethal injection, which were less disturbing to onlookers.
+From the 1930s to 1950s, culture gradually came to view hanging as barbaric, in part due to the botched execution of [Eva Dugan](https://en.wikipedia.org/wiki/Eva_Dugan). Most states replaced hanging with poison gas, electrocution, or lethal injection, which were less disturbing to onlookers.
 
 After the end of WWII, the number of executions gradually fell, reaching zero in 1967. At this time, the U.S. was even cited as an example of countries moving away from the death penalty in debates in the UK.
 
@@ -106,7 +106,7 @@ https://en.wikipedia.org/wiki/Michael_Dukakis#/media/File:Vice_President_Bush_de
 
 [![dukakis bush debate](/img/death-penalty/dukakis-bush-debate-small.jpg)](/img/death-penalty/dukakis-bush-debate.jpg)
 
-The politics of the death penalty were laid bare in 1988. Michael Dukakis, the Democratic governor of Massachusetts was in a presidential debate when he stated---consistently with his abolitionist position---that he would not support the death penalty for someone what raped and murdered his wife. His poll numbers dropped by 7 points overnight and he went on the [lose the election](https://en.wikipedia.org/wiki/Michael_Dukakis#/media/File:ElectoralCollege1988.svg) by 8 points.
+The politics of the death penalty were laid bare in 1988. Michael Dukakis, the Democratic governor of Massachusetts was in a presidential debate when he stated---consistently with his abolitionist position---that he would not support the death penalty for someone that raped and murdered his wife. His poll numbers dropped by 7 points overnight and he went on the [lose the election](https://en.wikipedia.org/wiki/Michael_Dukakis#/media/File:ElectoralCollege1988.svg) by 8 points.
 
 Dukakis' example was surely on Bill Clinton's mind in the 1992 presidential election campaign, when he specifically flew home to Arkansas to confirm an execution. The man was [Ricky Ray Rector](https://en.wikipedia.org/wiki/Ricky_Ray_Rector), who had essentially lobotomized himself in an attempted suicide after murdering a man and shooting a policeman. Rector had so little understanding of what was happening that he saved the dessert from his last meal "for later".
 
