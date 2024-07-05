@@ -8,8 +8,8 @@ excerpt: "Here's a sentence from Steven Pinker's Enlightenment Now: 'The Enlight
 permalink: /centuries/
 background_color: rgb(155,192,190)
 category: "uncategorizable"
-#comment:
-#  substack: "https://dynomight.substack.com/p/centuries"
+comment:
+  substack: "https://dynomight.substack.com/p/centuries"
 ---
 
 Here's a sentence from Steven Pinker's [Enlightenment Now](https://en.wikipedia.org/wiki/Enlightenment_Now):
