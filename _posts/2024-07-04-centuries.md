@@ -10,6 +10,7 @@ background_color: rgb(155,192,190)
 category: "uncategorizable"
 comment:
   substack: "https://dynomight.substack.com/p/centuries"
+  hacker news: "https://news.ycombinator.com/item?id=40884356"
 ---
 
 Here's a sentence from Steven Pinker's [Enlightenment Now](https://en.wikipedia.org/wiki/Enlightenment_Now):
