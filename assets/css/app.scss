@@ -98,6 +98,7 @@ $family-secondary: $family-sans-serif;
 $title-family: $family-sans-serif;
 h1, h2, h3, h4, h5, h6 {
   font-family: $title-family;
+  line-height: 1;
   //font-weight: lighter;
 }
 h1, h2{
