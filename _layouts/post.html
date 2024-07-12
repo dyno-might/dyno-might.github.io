@@ -96,6 +96,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
         <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:20pt; font-size:60%;" required> 
         <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
         <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_captcha" value="false" /> 
         <input type="hidden" name="_url" value="https://dynomight.net/" />
         <button type="submit"
@@ -124,6 +125,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
         <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; border:0; margin:0; padding-left:3pt; padding-right: 2pt; background-color:#dddddd; height:22pt; font-size:80%;" required> 
         <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
         <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_captcha" value="false" /> 
         <input type="hidden" name="_url" value="https://dynomight.net/" />  
       </span>
