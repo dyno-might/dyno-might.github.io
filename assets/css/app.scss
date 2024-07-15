@@ -149,18 +149,25 @@ h1, h2{
 //   text-align: center;
 // }
 
-hr {
-  border: none;
-  color: black;
-  font-family: $family-sans-serif;
-  font-size: 75%;
-}
-hr::before {
-  content: '— § —';
-  display: block;
-  text-align: center;
-}
+// hr {
+//   border: none;
+//   color: black;
+//   font-family: $family-sans-serif;
+//   font-size: 75%;
+// }
+// hr::before {
+//   content: '— § —';
+//   display: block;
+//   text-align: center;
+// }
 
+
+hr {
+  width: 4ch;
+  border-style: solid none none;
+  border-width: 20%;
+  //border-color: red;
+}
 
 .navbaritem{
     color: $normal-text-color;
