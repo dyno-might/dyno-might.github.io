@@ -332,16 +332,15 @@ table{
     font-family:Montserrat;
     margin-left: auto;
     margin-right: auto;
-    border-spacing: 10px 0px;
-    padding-bottom: 10px;
+    border-spacing: 0.5em 0.75em;
+    line-height: 1;
 }
 table th{
     text-align:left;
 }
-// table tr{
-//     border-style: hidden;
-//     text-align:left;
-// }
+table tr{
+  vertical-align: top;
+}
 
 ol {
   padding-left: 1.5em;
