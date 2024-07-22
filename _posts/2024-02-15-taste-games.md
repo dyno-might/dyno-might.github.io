@@ -174,3 +174,11 @@ In the same spirit, if taste games are human nature, then why don't we accept it
 So, I don't have a great answer. Taste games provide an interesting model for understanding human behavior. But if we really have this unconscious programming that determines all the stuff we like, then we can't overcome that programming and probably shouldn't. 
 
 I mean, viewed objectively, maybe sex and pooping are gross. But healthy people don't fight their urges to do them, because they're part of being human. The best we can do is have a sense of humor about them. Maybe we should treat taste games the same way. (And if you think *that's* just another game—stop that!)
+
+---
+
+This post is part of a series.
+
+* Part 1: [Bourdieu's theory of taste: a grumbling abrégé](/bourdieu/)
+* Part 2: [Your tastes are a point in space](/class/)
+* Part 3: **Taste games**
