@@ -11,6 +11,11 @@
     display:inherit;
 }
 
+.blurb-div{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
 .blurb-title{
     font-weight: bold;
 }
@@ -28,6 +33,23 @@
     text-decoration: none;
     color: inherit;
 }
+
+// but do inside title link
+a .blurb-title{
+    color: #0000EE;
+}
+a:visited .blurb-title{
+    color: #551A8B;
+}
+a:active .blurb-title{
+    color: #FF0000;
+}
+
+// hide left bar
+.leftbar{
+    display:none;
+}
+
 
 img{
     max-width: min(100%,500px);
