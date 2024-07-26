@@ -5,8 +5,8 @@
 {% endif %}
 
 
-<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect" style="background: red;">
-    <div class="blurb-div" data-date="{{post.date | date: '%Y%m%d'}}" data-updated="{{updated}}">
+<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect" style="background: red;" data-date="{{post.date | date: '%Y%m%d'}}" data-updated="{{updated}}">
+    <div class="blurb-div">
         <div class="normalonly hidden-mobile">
             <img src="{{ post.image | prepend: site.baseurl | prepend: '/small'}}" class="blurb-img" style="width:min(360px,30vw); height:calc(min(360px,30vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
         </div>
@@ -30,8 +30,8 @@
                     {%- if excerpt.size < 40 -%}
                         {%- assign excerpt=post.content | markdownify | strip_html -%}
                     {%- endif -%}
-                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 40}}</p>
-                {%- endunless -%}
+                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 40}}</p> 
+                {% endunless %}
             </div>
         </div> 
     </div>
