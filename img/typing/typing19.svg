@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<g>
+<g id="glyph-0-0">
+<path d="M 46.796875 -104.703125 L 162.59375 -104.703125 L 162.59375 -95.703125 L 46.796875 -95.703125 Z M 48.59375 0 L 38.40625 0 L 38.40625 -210 L 176.09375 -210 L 176.09375 -200.703125 L 48.59375 -200.703125 Z M 48.59375 0 "/>
+</g>
+<g id="glyph-0-1">
+<path d="M 38.40625 0 L 38.40625 -210 L 48.59375 -210 L 48.59375 0 Z M 38.40625 0 "/>
+</g>
+<g id="glyph-0-2">
+<path d="M 38.40625 0 L 38.40625 -210 L 46.796875 -210 L 201 -12 L 195.90625 -12 L 195.90625 -210 L 206.09375 -210 L 206.09375 0 L 197.703125 0 L 43.5 -198 L 48.59375 -198 L 48.59375 0 Z M 38.40625 0 "/>
+</g>
+</g>
+</defs>
+<rect x="-192" y="-108" width="2304" height="1296" fill="rgb(100%, 100%, 100%)" fill-opacity="1"/>
+<path fill="none" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="4" d="M 0.001343 0.000625 L 1916.032593 0.000625 L 1916.032593 1075.719375 L 0.001343 1075.719375 Z M 0.001343 0.000625 " transform="matrix(1, 0, 0, 1, 1.983032, 2.14)"/>
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#glyph-0-0" x="700" y="647"/>
+<use xlink:href="#glyph-0-1" x="889" y="647"/>
+<use xlink:href="#glyph-0-2" x="976" y="647"/>
+</g>
+</svg>
