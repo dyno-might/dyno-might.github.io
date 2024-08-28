@@ -301,7 +301,9 @@ I don't know, but I'm flattered you would come to me.
 
 ## On comments
 
-Some people asked that even if there aren't comments on dynomight.net, couldn't there be a designated "other place for comments (that is not Substack)". So, as an experiment, I've created a ["magazine"](https://kbin.social/m/dynomight) on [kbin](https://kbin.social/). This is approximately the same as a subreddit except better.
+(*Update*: kbin is dead, don't go there, use [lemmy](https://lemmy.world/c/dynomight) instead.)
+
+Some people asked that even if there aren't comments on dynomight.net, couldn't there be a designated "other place for comments (that is not Substack)". So, as an experiment, I've created a [~~"magazine"~~](https://kbin.social/m/dynomight) on [~~kbin~~](https://kbin.social/). This is approximately the same as a subreddit except better.
 
 At least—it’s better in every way except that you don’t already have an account. And why suffer through 20 seconds of grueling effort to make an account if there isn’t already an active community? Which there isn’t, since other people are thinking the same thing you are.
 
@@ -315,8 +317,8 @@ So, to slightly increase the odds of solving this little collective action probl
 
 * If you have a blog (Or a project? A job opening?) that you think dynomight internet people might enjoy, you're explicitly invited to self-promote.
 
-* [Making an account](https://kbin.social/register) is easy. If you don't like giving out your email, [disposable email](https://temp-mail.io/en) works fine. The [terms](https://kbin.social/terms) and [privacy policy](https://kbin.social/privacy-policy) are so reasonable you'll feel like *they* are agreeing to *you*.
+* [~~Making an account~~](https://kbin.social/register) is easy. If you don't like giving out your email, [~~disposable email~~](https://temp-mail.io/en) works fine. The [~~terms~~](https://kbin.social/terms) and [~~privacy policy~~](https://kbin.social/privacy-policy) are so reasonable you'll feel like *they* are agreeing to *you*.
 
 ![kbin](/img/survey-results/kbin.png)
 
-So if you want to comment on this post (or whatever) go [here](https://kbin.social/m/dynomight).
+So if you want to comment on this post (or whatever) go [~~here~~](https://kbin.social/m/dynomight).
