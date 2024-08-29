@@ -428,12 +428,8 @@ video {
   position:sticky;
   left:5px;
   top:7em;
-  opacity: 0;
+  color: gray;
   height: 100vh;
-}
-
-.leftbar:hover {
-  opacity: 1;
 }
 
 .leftbar > ul, .leftbar > ul > li, .leftbar > ul > li > ul, .leftbar > ul > li > ul > li  {
@@ -475,10 +471,11 @@ video {
   width: 100%; // make link take up full width
 }
 .toc > a:hover{
-  //font-weight: bold;
+  font-weight: bold;
   color: black;
-  //text-decoration: none;
-  text-decoration: underline;
+  text-decoration: none;
+  letter-spacing: -0.35px;
+  //text-decoration: underline;
 }
 
 #navnav {
