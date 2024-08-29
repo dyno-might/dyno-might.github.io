@@ -27,9 +27,11 @@ const observer = new IntersectionObserver(entries => {
     const id = entry.target.getAttribute('id');
     element = document.querySelector(`a[href="#${id}"]`)
     if (entry.isIntersecting){
-      element.style.color="black";
+      //element.style.color="black";
+      element.style.fontWeight = "bold";
     } else {
-      element.style.color="inherit";
+      //element.style.color="inherit";
+      element.style.fontWeight = "inherit";
     }
   });
 });

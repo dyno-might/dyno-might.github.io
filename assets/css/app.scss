@@ -427,8 +427,15 @@ video {
   float:left;
   position:sticky;
   left:5px;
-  top:7em
+  top:7em;
+  opacity: 0;
+  height: 100vh;
 }
+
+.leftbar:hover {
+  opacity: 1;
+}
+
 .leftbar > ul, .leftbar > ul > li, .leftbar > ul > li > ul, .leftbar > ul > li > ul > li  {
   margin-left: 8px;
   padding-left: 0pt;
