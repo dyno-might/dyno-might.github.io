@@ -113,7 +113,7 @@ I *totally disagree* with that.
 
 Remember, that 4% decrease is not the result of “breastfeeding” instead of “not breastfeeding”. *All* babies in this trial got at least some breastfeeding\! That 4% decrease is the result of a modest increase in *breastfeeding intensity*. **If you ran a trial that compared no breastfeeding to exclusive breastfeeding for 12 months, the impact would surely have been much larger.**
 
-Note: The benefits of breastfeeding may be somewhat lower for the median reader of this blog than the median late 1990s Belarusian. You probably have access to cleaner water, more/better medical care and newer formula that includes things like [DHA](https://en.wikipedia.org/wiki/Docosahexaenoic\_acid\#Use\_as\_a\_food\_additive), [ARA](https://en.wikipedia.org/wiki/Arachidonic\_acid), and more nucleotides.
+Note: The benefits of breastfeeding may be somewhat lower for the median reader of this blog than the median late 1990s Belarusian. You probably have access to cleaner water, more/better medical care and newer formula that includes things like [DHA](https://en.wikipedia.org/wiki/Docosahexaenoic_acid#Use_as_a_food_additive), [ARA](https://en.wikipedia.org/wiki/Arachidonic_acid), and more nucleotides.
 
 ## **Did more breastfeeding lead to better long-term health?**
 
