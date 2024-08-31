@@ -5,7 +5,7 @@
     var currentScrollPos = Math.max(0,window.pageYOffset);
 
     if (Math.abs(currentScrollPos - prevScrollpos) > 10){
-      if (prevScrollpos > currentScrollPos) {
+      if (prevScrollpos > currentScrollPos & prevScrollpos < currentScrollPos + 300) { // up but not by too much
         document.getElementById("navnav").style.top = "0";
       } else {
         document.getElementById("navnav").style.top = "-60px";
