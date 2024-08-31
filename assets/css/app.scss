@@ -27,6 +27,16 @@
   font-display: swap;
 }
 
+
+h2:target::before, h3:target::before {
+  content: "";
+  display: block;
+  height: 20vh; /* Adjust this value to set how much space you want above your target */
+  margin-top: -20vh; /* This should be the negative of the height */
+  visibility: hidden;
+  pointer-events: none;
+}
+
 // @font-face {
 //   font-family: "Garamond";
 //   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf");
@@ -220,6 +230,7 @@ html{
     -webkit-font-smoothing: antialiased;
     font-weight:lighter;
     font-family: $family-serif;
+    scroll-behavior: smooth;
 }
 // body{
 //     margin:0;
