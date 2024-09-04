@@ -11,6 +11,7 @@ category: "obsessive investigation"
 comment:
   substack: "https://dynomight.substack.com/p/breastfeeding/"
   progress forum: "https://progressforum.org/posts/fPkr85ds7XrmNZQ5i/nursing-doubts-is-breastfeeding-good"
+  lesswrong: "https://www.lesswrong.com/posts/p7x3vvPR59WHuoQ2A/nursing-doubts"
 ---
 
 If you ask the internet if breastfeeding is good, you will soon learn that *YOU MUST BREASTFEED* because *BREAST MILK = OPTIMAL FOOD FOR BABY*. But if you look for evidence, you'll discover two disturbing facts.
