@@ -14,7 +14,7 @@ category: "uncategorizable"
 
 An old friend visited me a few weeks ago. And we soon got to chatting about—what else—how long will it be before all human intellectual work is automated.
 
-My position was: *I dunno*, because things are moving fast right now but what if we run out of data or scaling laws break and algorithmic progress stalls? His position was: *Soon*.  
+My position was: *I dunno*, because things are moving fast right now but what if we run out of data or scaling laws break and algorithmic progress stalls? His position was: *Soon*.
 
 Then he started asking about this blog. What were the most popular posts? This was slightly ominous given his regrettable tendency not to consume most Dynomight internet content. But I told him probably [Underrated Reasons to be Thankful](/thanks) and its sequels, and that seemed to be the end of it. 
 
