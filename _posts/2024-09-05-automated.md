@@ -36,7 +36,7 @@ Soon he started sending new AI-generated Reasons. Which weren't great. But then 
     
     I think it's higher. But what is personality, after all? One idea is that as you go through life, you copy behaviors from others that you like, and that combination is "you". Maybe my writing voice is just what you get when you take the different parts of different writers I like and mush them together. So maybe personality isn't a *lot* higher than 4-6 bits.
     
-5. An AI-you is a funhouse mirror for your soul. The most salient feature of AI-me is that it was *dark*. I often (I see now) use a little gambit where I start out with something technical and/or edgy and gradually work my way towards a positive point. The AI seems to run towards the darkness without a clear plan for turning towards the light. It usually resorted to (a) incredibly lame/cringey ideas, (b) making stuff up, or (c) just staying dark and not even attempting to be positive.
+5. An AI-you is a funhouse mirror for your soul. The most salient feature of AI-me is that it was *dark*. I often (I see now) use a little gambit where I start out with something technical or edgy and gradually work my way towards a positive crescendo. The AI seems to run towards the darkness without a clear plan for turning towards the light. It usually resorted to (a) incredibly lame/cringey ideas, (b) making stuff up, or (c) just staying dark and not even attempting to be positive.
     
 6. For example:
     
