@@ -8,8 +8,8 @@ excerpt: ""
 permalink: /automated/
 background_color: rgb(84,100,111)
 category: "uncategorizable"
-#comment:
-#  substack: "https://dynomight.substack.com/p/automated/"
+comment:
+ substack: "https://dynomight.substack.com/p/automated/"
 ---
 
 An old friend visited me a few weeks ago. And we soon got to chatting about—what else—how long will it be before all human intellectual work is automated.
@@ -46,7 +46,7 @@ Soon he started sending new AI-generated Reasons. Which weren't great. But then 
     
 7. At one point, the AI suggested that we should be thankful that it was possible to encode the entire text of the best book ever written (apparently [Harry Potter and the Methods of Rationality](https://hpmor.com/)) into a single drop of water. But it then admitted it wasn't sure if anyone had quite done this yet, and invited anyone who did to email `xy@dynomight.net` where `x` and `y` are the first letters of my (currently non-public) first and last name. Is that information in the training data somewhere? Do LLMs have emergent [stylometry](https://en.wikipedia.org/wiki/Stylometry) abilities? Creepy.
 
-8. As the AI got better and better, so did my own cope. At first I thought, "It's bad." Then, I thought, "OK, it's not bad, but it's not creative." Later, I thought, "OK, it's not bad, and it can be creative, but it's not accurate." By the end of the week, I was at, "OK, it's not bad, and it can be creative, and it can be accurate, and it can be funny, and it sounds almost exactly like me, but in order to do all those things at the same time you can't *completely* rely on the automated AI, but need some human curation and editing."
+8. As the AI got better and better, so did my own cope. At first I thought, "It's bad." Then, I thought, "OK, it's not bad, but it's not creative." Later, I thought, "OK, it's not bad, and it can be creative, but it's not accurate." By the end of the week, I was at, "OK, it's not bad, and it can be creative, and it can be accurate, and it can be funny, and it sounds almost exactly like me, but in order to do all those things at the same time you can't *completely* rely on the automated scoring AI, but need some human curation and editing."
 
 9. Speaking of cope:
     
