@@ -107,7 +107,7 @@ The gap between "what people experience" and "what people say they experience" i
 
 ![](/img/consciousness/cajal4.jpg)
 
-All blog posts on consciousness are required to discuss [split-brain patients](https://en.wikipedia.org/wiki/Split-brain)—people where most of the [direct connections](https://en.wikipedia.org/wiki/Corpus_callosum) between the two hemispheres of the brain have been cut to treat epilepsy. These patients live normal lives and report that everything feels the same as before. Yet—supposedly—if you blindfold them and put an object into their left hand, they can't tell you it is, even though they could sketch it with their left hand.
+All blog posts on consciousness are required to discuss [split-brain patients](https://en.wikipedia.org/wiki/Split-brain)—people where most of the [direct connections](https://en.wikipedia.org/wiki/Corpus_callosum) between the two hemispheres of the brain have been cut to treat epilepsy. These patients live normal lives and report that everything feels the same as before. Yet—supposedly—if you blindfold them and put an object into their left hand, they can't tell you what it is, even though they could sketch it with their left hand.
 
 Mechanistically, what seems to be happening is that the left hand isn’t connected to the side of the brain that controls language, so with the hemispheres cut, there’s no way for that information to get across. But philosophically, people freak out. In [Reasons and Persons](/no-self), celebrated philosopher Derek Parfit wrote, “it is a fact that people with disconnected hemispheres have two separate streams of consciousness—two series of thoughts and experiences”.
 
