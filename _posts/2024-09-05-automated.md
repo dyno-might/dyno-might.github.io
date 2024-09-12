@@ -9,7 +9,7 @@ permalink: /automated/
 background_color: rgb(84,100,111)
 category: "uncategorizable"
 comment:
- substack: "https://dynomight.substack.com/p/automated/"
+  substack: "https://dynomight.substack.com/p/automated/"
 ---
 
 An old friend visited me a few weeks ago. And we soon got to chatting about—what else—how long will it be before all human intellectual work is automated.

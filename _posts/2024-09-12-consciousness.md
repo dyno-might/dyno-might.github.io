@@ -8,8 +8,8 @@ excerpt: ""
 permalink: /consciousness/
 background_color: rgb(160,150,148)
 category: "philosophy"
-#comment:
-# substack: "https://dynomight.substack.com/p/consciousness/"
+comment:
+  substack: "https://dynomight.substack.com/p/consciousness/"
 ---
 
 I guess life makes sense: For some reason there's a universe and that universe has lots of atoms bouncing around and sometimes they bounce into patterns that copy themselves and then those patterns go to war for billions of years and *voilà*—you.
