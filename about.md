@@ -37,44 +37,15 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 | **substack** | <span style="font-family:monospace;"> [dynomight.substack.com](https://dynomight.substack.com) </span> |
 | **mastodon** | <span style="font-family:monospace;"> [@dynomight@mastodon.social](https://mastodon.social/@dynomight) </span> |
 | **bluesky** | <span style="font-family:monospace;"> [@dynomight.net](https://bsky.app/profile/dynomight.net) </span> |
-| **twitter** | <span style="font-family:monospace;"> [@dynomight7](https://twitter.com/dynomight7) </span> |
+{% comment %}| **twitter** | <span style="font-family:monospace;"> [@dynomight7](https://twitter.com/dynomight7) </span> |{% endcomment %}
 {% comment %}| **all posts** | organized by [tags](/tags/) |
 | | or as an [ebook](/ebook/) |
 | **subreddit** | [r/dynomight](https://old.reddit.com/r/dynomight/) |{% endcomment %}
 
 </div>
 
-{% comment %}
-Email: <span style="font-family:monospace; font-size:80%;">dynomight@</span> here are a bunch of words to confuse spammers <span style="font-family:monospace; font-size:80%;">tutanota.com</span>. Or use the form at the bottom of this page.
-
-RSS feed: <span style="font-family:monospace; font-size:80%;"> <https://dynomight.net/feed.xml> </span>
-
-Twitter: [@dynomight7](https://twitter.com/dynomight7)
-
-Subreddit: [r/dynomight](https://old.reddit.com/r/dynomight/) <span style="font-size:100%">(Only vaguely related to this site.)</span>
-
-All posts organized by topics: [tags](/tags)
-
-{% endcomment %}
-
-<!-- <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">Mailing list: 
-<input type="hidden" name="_subject" value="SUBSCRIBE0" /> 
-<input type="text" name="text" placeholder="your@email.com" style="font-family:monospace;" /> 
-<input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_url" value="https://dynomight.net/"> 
-<button type="submit" class="headerfont">SUBSCRIBE AND DONE</button> 
-</form> -->
 
 <br>
-
-{% comment %}
-I post new stuff each Monday and Thursday. You can subscribe here:
-{% endcomment %}
-
-{% comment %}
-You can subscribe here to get new articles. <strike>Owing to the fantastical amount of time they take me to create, there will typically be 2-4 per month. This also gives access to a forum and there's occasionally extra content I don't feel comfortable sharing with the internet.</strike>
-{% endcomment %}
 
 You can subscribe here to get new articles.
 
@@ -110,58 +81,6 @@ Not sure where to get started? Try one of these:
 * [Are some personalities just better?](/better-personalities/)
 * [Better air is the easiest way not to die](/air/)
 * [The big alcohol study that didn't happen: My primal scream of rage](/alcohol-trial/)
-
-{% comment %}
-
-The closest thing I have to a "mission statement" is probably [this analogy](/culture-war-island-hopping/) between culture war debates and attacking highly defended islands in the WWII Pacific theater. But it's probably better to start with something below:
-
-**Air quality**
-* [Better air is the easiest way not to die](/air)
-* [The Cuboid: A DIY air purifier that's better than a box-fan](/better-DIY-air-purifier.html)
-
-**Alcohol**
-* [The big alcohol study that didn't happen: My primal scream of rage](/alcohol-trial/)
-* [Alcohol, health, and the ruthless logic of the Asian flush](/alcohol/)
-
-**Economics**
-* [Why I'm skeptical of universal basic income](/2020/12/03/why-im-skeptical-of-UBI/)
-* [Comparative advantage and when to blow up your island](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
-
-**Psychology**
-* [Are some personalities just better?](/better-personalities)
-* [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
-  * [MBTI quiz](/mbti/)
-
-**Personal improvement**
-* [How to run without all the pesky agonizing pain](/2021/01/25/how-to-run-without-all-the-agonizing-pain/)
-
-**Things to never do**
-* [What happens if you drink acetone?](/2020/09/14/what-happens-if-you-drink-acetone/)
-{% endcomment %}
-
-{% comment %}
-**Made the internet oddly mad** (they're wrong I tell you, all wrong)
-* [Sales tax creates more unnecessary pain than value added tax](/2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/)
-{% endcomment %}
-
-{% comment %}
-Most popular:
-* [Better air is the easiest way not to die](/air)
-* [The Cuboid: A DIY air purifier that's better than a box-fan](/better-DIY-air-purifier.html)
-* [How to run without all the pesky agonizing pain](/2021/01/25/how-to-run-without-all-the-agonizing-pain/)
-* [What happens if you don't fill out that ethnicity form?](/2021/01/15/eeo/)
-* [Experiments on a $50 DIY air purifier you can make in 30s](/2020/12/15/some-real-data-on-a-DIY-box-fan-air-purifier/)
-* [What happens if you drink acetone?](/2020/09/14/what-happens-if-you-drink-acetone/) (please don't)
-* [Comparative advantage and when to blow up your island](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/)
-* [In defense of Myers-Briggs](/in-defense-of-myers-briggs.html)
-
-Not popular, but I wish they were:
-* [What I learned from reading about writing](/2021/02/07/writing-as-a-craft/)
-* [Why I'm skeptical of universal basic income](/2020/12/03/why-im-skeptical-of-UBI/)
-
-Most hated (they're wrong I tell you, all wrong):
-* [Sales tax creates more unnecessary pain than value added tax](2020/12/09/sales-tax-creates-more-unnecessary-pain-than-value-added-tax/) -->
-{% endcomment %}
 
 <br>
 
