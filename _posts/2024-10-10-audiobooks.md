@@ -48,7 +48,7 @@ If angst is bad, then isn't it doing things that reduce angst good?
 
 I think most people believe that. As evidence, I'll point to a weird norm our culture has that most people don't seem to notice. You're not supposed to talk about existential crises. Personally, I think my baseline instinctual angstiness would place me somewhere near the 90th percentile of the population. (I mean, I have a blog...) But don't whine about it because I don't want to be a [lame edgelord](/plans/#5).
 
-It's acceptable to refer to angst, but with *remove*. You can make dark jokes or create existential art. You can recite that "most men live lives of quiet desperation". You can go on the internet and make clinical comments about *other* people's angst'. But you aren't supposed to tell your friends that you're currently having an existential crisis, please help. That crosses a line.
+It's acceptable to refer to angst, but with *remove*. You can make dark jokes or create existential art. You can recite that "most men live lives of quiet desperation". You can go on the internet and make clinical comments about *other* people's angst. But you aren't supposed to tell your friends that you're currently having an existential crisis, please help. That crosses a line.
 
 Of course, "edgelords are lame" is a modern norm. But I doubt proto-edgelording would have gotten you much further centuries in the past. People would probably have told you to go to church, or told you to take care of your family, or just avoided you.
 
