@@ -116,14 +116,14 @@ How are tons related to kilograms? Say it with me: *Not your problem*. Just solv
 
 That's 65× more than just buying a 20 kWh home battery. But let's say you're committed to the bit. How *big* would that block be? Some searching reveals that the density of steel is around 7.85 g/cm³. So if you have a cubic block of volume VOLUME, then 
 
-&nbsp;&nbsp;*MASS = 2.7 g / cm³ × VOLUME*.
+&nbsp;&nbsp;*MASS = 7.85 g / cm³ × VOLUME*.
 
-Solving for *VOLUME*, using the previous value for *MASS*, and not stressing about units, you can [easily find](https://www.google.com/search?q=918367+kg+%2F+(2.7+g+%2F+cm^3)+in+m^3) that *VOLUME* is:
+Solving for *VOLUME*, using the previous value for *MASS*, and not stressing about units, you can [easily find](https://www.google.com/search?q=918367+kg+%2F+(7.85+g+%2F+cm^3)+in+m^3) that *VOLUME* is:
 
 
 <img src="/img/arithmetic/calc3.png" style="max-width:282px;">
 
-A 340 cubic meter block is around 7 meters on all sides. So, roughly speaking, your house will look something like this:
+A 117 cubic meter block is around 4.9 meters on all sides. So, roughly speaking, your house will look something like this:
 
 ![](/img/arithmetic/house.svg)
 
