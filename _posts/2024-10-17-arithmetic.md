@@ -96,7 +96,7 @@ Relax. We have computers. You can just mechanically solve the above the above eq
 
 Look at that—the answer is in kilograms!
 
-It happens to be the case that 1 kWh = 3,600,000 kg/s². You *could* substitute this and cancel units to get the same answer. But don't. Attempting that just gives you the chance to screw things up. Why complicate your life?
+It happens to be the case that 1 kWh = 3,600,000 kg m²/s². You *could* substitute this and cancel units to get the same answer. But don't. Attempting that just gives you the chance to screw things up. Why complicate your life?
 
 And as before, the units give you a sort of "type checking". If your calculation was wrong, you'd have to be very unlucky to get an answer that was in kg anyway.
 
