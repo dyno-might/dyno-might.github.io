@@ -75,7 +75,7 @@ Let's assume you don't know much physics.
 
 To answer this question, you'll need two numbers:
 
-1. How much energy you need to store to power your house?
+1. How much energy do you need to store to power your house?
 2. How much energy can you store by lifting up a giant block?
 
 If you check the internet, you'll learn that the average US household uses around 30 kWh of energy per day. Now, what's a "kWh"? To you, person who doesn't know much physics, it looks scary, but apparently it's some kind of unit of energy, so let's just write it down. Assume you need to store half your daily energy for usage at night, or 15 kWh.
