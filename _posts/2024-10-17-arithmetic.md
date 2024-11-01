@@ -8,8 +8,10 @@ excerpt: ""
 permalink: /arithmetic/
 background_color: rgb(147,131,120)
 category: "math"
-#comment:
-#  substack: "https://dynomight.substack.com/p/arithmetic/"
+comment:
+  substack: "https://dynomight.substack.com/p/arithmetic/"
+  lesswrong: "https://www.lesswrong.com/posts/r2LojHBs3kriafZWi/arithmetic-is-an-underrated-world-modeling-technology"
+  hacker news: "https://news.ycombinator.com/item?id=41871024"
 
 ---
 
