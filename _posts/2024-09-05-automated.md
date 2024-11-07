@@ -32,7 +32,7 @@ Soon he started sending new AI-generated Reasons. Which weren't great. But then 
     
 3. Looking back, perhaps the old science fiction robots were a projection of our fantasies. I want my style and voice to be precious and uncopyable. I want an AI assistant that will tirelessly hunt down facts while I provide creativity and panache and magic. But that's not how it is. So we should remember: In a scenario where AI is useful but humans retain some [comparative advantage](/2020/09/11/comparative-advantage-and-when-to-blow-up-your-island/), we might not like where that comparative advantage lies. 
     
-4. When I complained about the previous points, my friend remarked that this was to be expected because, after all, "personality is just like 4-6 bits".
+4. When I complained about the previous points, my friend remarked that this was to be expected, because "personality is just like 4-6 bits".
     
     I think it's higher. But what is personality, after all? One idea is that as you go through life, you copy behaviors from others that you like, and that combination is "you". Maybe my writing voice is just what you get when you take the different parts of different writers I like and mush them together. So maybe personality isn't a *lot* higher than 4-6 bits.
     
