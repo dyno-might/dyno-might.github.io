@@ -696,14 +696,17 @@ video {
 .list-container {
   display: flex;
   flex-wrap: wrap;  /* Allows the lists to wrap if there's not enough space */
-  gap: 0px;        /* Space between the lists */
-  line-height: 1.0;
+  gap: 30px;        /* Space between the lists */
+  line-height: 1.1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
 }
 
 /* Style for each list item */
 .list-container > div {
-  flex: 1 1 150px;  /* Make each list flexible with a minimum width of 150px */
-  padding: 10px;
+  flex: 1 1 300px;  /* Make each list flexible with a minimum width of 150px */
+  //padding: 30px;
   box-sizing: border-box;
 }
 
@@ -711,24 +714,23 @@ video {
 .list-container > div > label {
   font-weight: bold;
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 /* Style for unordered lists */
 .list-container > div > ul {
   list-style-type: none;
-  padding-left: 20px;
   padding-left: 0;
   margin: 0;
-  font-size: 85%;
+  font-size: 100%;
 }
 
 .list-container > div > ul > li {
-  margin-bottom: 7pt;
+  margin-bottom: 10pt;
 }
 
 .list-container > div > ul > li > a {
-  text-decoration: underline;
+  //text-decoration: none;
   text-decoration-color: rgba(0, 0, 0, 0.5);
-  color: inherit;
+  //color: inherit;
 }
