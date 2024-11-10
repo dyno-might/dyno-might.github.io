@@ -696,7 +696,7 @@ video {
 .list-container {
   display: flex;
   flex-wrap: wrap;  /* Allows the lists to wrap if there's not enough space */
-  gap: 10px;        /* Space between the lists */
+  gap: 0px;        /* Space between the lists */
   line-height: 1.0;
 }
 
@@ -711,7 +711,7 @@ video {
 .list-container > div > label {
   font-weight: bold;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 /* Style for unordered lists */
@@ -720,11 +720,11 @@ video {
   padding-left: 20px;
   padding-left: 0;
   margin: 0;
-  font-size: 80%;
+  font-size: 85%;
 }
 
 .list-container > div > ul > li {
-  margin-bottom: 10pt;
+  margin-bottom: 7pt;
 }
 
 .list-container > div > ul > li > a {
