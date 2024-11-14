@@ -245,7 +245,11 @@ body{
   line-height: 1.5;
   word-wrap: break-word; // break long words
 }
-
+pre, code {
+  font-family: Consolas, Monaco, "DejaVu Sans Mono", monospace;
+  font-size: 80%;
+  line-height: 1;
+}
 
 // // used to make titles turn yellow on hover
 // .changer{
