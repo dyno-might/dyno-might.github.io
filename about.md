@@ -92,7 +92,7 @@ Thoughts? Help with my ever-proliferating collection of typos?
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
           <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:98%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (optional)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          <input type="email" name="email" class="headerfont" placeholder="email (OPTIONAL!)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />
