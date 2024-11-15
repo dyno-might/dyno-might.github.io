@@ -54,7 +54,7 @@ Of course, "edgelords are lame" is a modern norm. But I doubt proto-edgelording 
 
 I bring this up because I think the "edgelords are lame" norm is... good? Baseline angst notwithstanding, my life is quite good and would not be improved at all by more contact with people moaning about their feel-feels. (See that? See how I use humor and derision to demonstrate distance?)
 
-In fact, why don't we invert Ccc's implied criticism? Why don't we take, "prevent your mind from dealing with existential crisis" as a basic life strategy?
+In fact, why don't we invert Ccc's implied criticism? Why don't we take "prevent your mind from dealing with existential crisis" as a basic life strategy?
 
 This would indicate lots of "healthy" stuff. (Travel! Friends! Romance! Hobbies! Meaningful work! Children!) But perhaps it would also indicate "wireheading"—shortcutting your brain's reward architecture to feel good when you aren't "supposed" to.
 
