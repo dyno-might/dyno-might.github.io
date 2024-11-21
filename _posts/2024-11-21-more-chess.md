@@ -152,7 +152,7 @@ If you want LLMs to do something, standard advice is to provide some examples. S
 * **Input B**: `1. e4`
 * **Output B**: `d5`
 * **Input C**: `1. e4 e5 2. Nf3 Nc6 3.`
-* **Output C**: `Nf3`
+* **Output C**: `Bb5`
 
 That's all I used, just those three examples. I provided these in "correctly" using the API, not by jamming them into the user prompt. The results were:
 
@@ -196,7 +196,7 @@ The answer *was* no, but for different reasons:
 
 [![](/img/more-chess/examples-finetune.svg)](/img/more-chess/examples-finetune.pdf)
 
-According to that figure, fine-tuning helps. And examples help. And examples make fine-tuning better. But fine-tuning plus examples is still worse than examples alone.
+According to that figure, fine-tuning helps. And examples help. But it’s *examples* that make *fine-tuning* redundant, not the other way around.
 
 Ohkay.
 
@@ -322,12 +322,14 @@ This... maybe helped a little?
 
 And how about examples? Will they improve regurgitation?
 
-I used just two examples:
+I used the same  three examples:
 
-* **Input A:** `1. d4`
-* **Output A:** `1. d4 d5`
-* **Input B:** `1. e4 e5 2. Nf3 Nc6 3.`
-* **Output B:** `1. e4 e5 2. Nf3 Nc6 3. Nf3`
+* **Input A:** `1.`
+* **Output A:** `1. e4`
+* **Input AB:** `1. d4`
+* **Output B:** `1. d4 d5`
+* **Input C:** `1. e4 e5 2. Nf3 Nc6 3.`
+* **Output C:** `1. e4 e5 2. Nf3 Nc6 3. Nf3`
 
 Like before, these had a remarkable impact given how little information they contain.
 

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-11-19T17:58:49.273809</dc:date>
+    <dc:date>2024-11-21T15:45:17.740338</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -955,7 +955,7 @@ L 334.594286 88.067788
 L 337.782857 88.565459 
 L 433 88.58093 
 L 433 88.58093 
-" clip-path="url(#p36191af07f)" style="fill: none; stroke: #bcbd22; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#pdf9f70d6f0)" style="fill: none; stroke: #bcbd22; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
     <path d="M 54 125.454977 
@@ -1036,7 +1036,7 @@ L 299.52 165.944227
 L 366.48 165.945516 
 L 433 165.945516 
 L 433 165.945516 
-" clip-path="url(#p36191af07f)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #bcbd22; stroke-width: 0.5"/>
+" clip-path="url(#pdf9f70d6f0)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #bcbd22; stroke-width: 0.5"/>
    </g>
    <g id="line2d_16">
     <path d="M 54 125.454977 
@@ -1102,7 +1102,7 @@ L 242.125714 204.207668
 L 293.142857 204.223455 
 L 433 204.223455 
 L 433 204.223455 
-" clip-path="url(#p36191af07f)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #d62728; stroke-width: 0.5"/>
+" clip-path="url(#pdf9f70d6f0)" style="fill: none; stroke-dasharray: 1.85,0.8; stroke-dashoffset: 0; stroke: #d62728; stroke-width: 0.5"/>
    </g>
    <g id="line2d_17">
     <path d="M 54 125.454977 
@@ -1165,7 +1165,7 @@ L 242.125714 222.69029
 L 245.314286 223.915127 
 L 433 223.957674 
 L 433 223.957674 
-" clip-path="url(#p36191af07f)" style="fill: none; stroke: #2ca02c; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#pdf9f70d6f0)" style="fill: none; stroke: #2ca02c; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
     <path d="M 54 224.28 
@@ -2071,7 +2071,7 @@ L 271.8175 75.1625
   </g>
  </g>
  <defs>
-  <clipPath id="p36191af07f">
+  <clipPath id="pdf9f70d6f0">
    <rect x="54" y="30.24" width="334.8" height="194.04"/>
   </clipPath>
  </defs>
