@@ -3,7 +3,7 @@ layout: post
 title: "OK, I can partly explain the LLM chess weirdness now"
 image: /img/more-chess/chess2.jpg
 tags: 
-description: "are they good or bad?" 
+description: '("making LLMs play well with one weird trick")'
 excerpt: ""
 permalink: /more-chess/
 background_color: rgb(176,176,176)
