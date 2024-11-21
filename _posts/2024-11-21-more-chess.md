@@ -13,8 +13,8 @@ substack: "https://dynomight.substack.com/p/chess/"
 #seo:
 #  date_modified: 2024-11-07
 #last_modified_at: 2024-11-07
-#comment:
-#  substack: "https://dynomight.substack.com/p/more-chess/"
+comment:
+ substack: "https://dynomight.substack.com/p/more-chess/"
   
 ---
 
