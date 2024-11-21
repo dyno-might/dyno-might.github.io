@@ -3,7 +3,7 @@ layout: post
 title: "OK, I can partly explain the LLM chess weirdness now"
 image: /img/more-chess/chess2.jpg
 tags: 
-description: '("making LLMs play well with one weird trick")'
+description: '("make LLMs play better with one weird trick")'
 excerpt: ""
 permalink: /more-chess/
 background_color: rgb(176,176,176)
@@ -381,7 +381,7 @@ Meanwhile, in section A.2 of [this paper](https://arxiv.org/pdf/2312.09390#page=
 
 I can't find any details about how much chess data was included when training Llama et al. I'm sure many games made their way in from the open internet. But specifically curating a giant database of high quality games probably just gives better results, and the open models probably just didn't do that.
 
-(Incidentally, I encourage people at all AI companies to leak secrets to me. If you use the [anonymous feedback form](https://dynomight.net/about/), plesse write in sufficient technicality that I can verify your expertise. Secrets will be used only for good, not evil.)
+(Incidentally, I encourage people at all AI companies to leak secrets to me. If you use the [anonymous feedback form](https://dynomight.net/about/), please write with sufficient technicality that I can verify your expertise. Secrets will be used only for good, not evil.)
 
 It's also conceivable that some models are playing worse because they have *too much* chess data. It could be that the open internet has too many games from low-skill players and that if you don't filter these out, then the models *correctly* predict that players would make low-quality moves. But I suspect not, because a smart model would recognize that *if the sequence of moves so far is high skill* then the player isn't a total idiot and probably won't throw away their queen. But the models don't seem to do that.
 
