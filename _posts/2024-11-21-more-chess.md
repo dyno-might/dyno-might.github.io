@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OK, I can partly explain the LLM chess weirdness now"
-image: /img/more-chess/chess2.jpg
+image: /img/more-chess/board2.jpg
 tags: 
 description: '("make LLMs play better with one weird trick")'
 excerpt: ""
@@ -62,7 +62,7 @@ I think this is *extremely* unlikely. Because:
 
 6. I will show (below) that later OpenAI models can also play well if you use the right incantations.
 
-If OpenAI di* cheat, they went to insane lengths to cheat in a way that looks exactly like an LLM is choosing the moves and not at all like calling out to an external chess engine.
+If OpenAI *did* cheat, they went to insane lengths to cheat in a way that looks exactly like an LLM is choosing the moves and not at all like calling out to an external chess engine.
 
 ## Yes, LLMs can play chess
 
