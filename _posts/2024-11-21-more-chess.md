@@ -416,3 +416,6 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 * [Transcendence: Generative Models Can Outperform The Experts That Train Them](https://arxiv.org/pdf/2406.11741) (h/t WTFwhatthehell)
 
 * Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html).
+
+
+*Update* (2024/11/21 18:10 UTC) The last example output is an illegal move! (Why am I so bad?) This makes the benefit of these examples even more mysterious. I am re-running all the experiments with examples now.
