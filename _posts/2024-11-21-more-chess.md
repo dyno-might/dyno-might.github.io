@@ -36,7 +36,7 @@ The internet offered several other theories. The most common were:
 
 * **Theory 6**: LLMs can't actually play chess.
 
-* **Theory 7**: Large enough *base* models are good at chess, but this doesn't persist through instruction tuning to chat models, Dynomight you are so dumb for not suggesting this, how are you so dumb and bad?
+* **Theory 7**: Large enough *base* models are good at chess, but this doesn't persist through instruction tuning to chat models, Dynomight you are so bad for not suggesting this, how are you so dumb and bad?
 
 I've now done new experiments and—good news—everyone is wrong!
 
