@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OK, I can partly explain the LLM chess weirdness now"
-image: /img/more-chess/board2.jpg
+image: /img/more-chess/chess2.jpg
 tags: 
 description: '("make LLMs play better with one weird trick")'
 excerpt: ""
