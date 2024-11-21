@@ -70,7 +70,7 @@ I was also surprised to see so many people suggest that LLMs can't *really* play
 
 This is wrong. LLMs can definitely play chess, and we need to make peace with this.
 
-For one, `gpt-3.5-turbo-instruct` rarely suggests illegal moves, even in the late game. This requires "understanding" chess. If this doesn't convince you, I encourage you to write a program that can take strings like `1. e4 d5 2. exd5 Qxd5 3. Nc3` and then say is the last move was legal.
+For one, `gpt-3.5-turbo-instruct` rarely suggests illegal moves, even in the late game. This requires "understanding" chess. If this doesn't convince you, I encourage you to write a program that can take strings like `1. e4 d5 2. exd5 Qxd5 3. Nc3` and then say if the last move was legal.
 
 And I defy you to maintain that LLMs can't play chess after looking at some actual games. Here are ten: [1](https://lichess.org/iwi02kUm) [2](https://lichess.org/bfaDMlVm) [3](https://lichess.org/lNE5mKPO) [4](https://lichess.org/C3xV1uAz) [5](https://lichess.org/YpzT2KQS) [6](https://lichess.org/dy9m2DsU) [7](https://lichess.org/4YDx633U) [8](https://lichess.org/ZM9ZbDfo) [9](https://lichess.org/59cTZSjs) [10](https://lichess.org/DmeQQx7Y). It plays pretty well even in completely new board states that have never existed in any game before in history.
 
