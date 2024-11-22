@@ -411,7 +411,7 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 
 * Adam Karvonen's [chess gpt eval repo](https://github.com/adamkarvonen/chess_gpt_eval), which does careful tests on how good `gpt-3.5-turbo-instruct` is.
 
-* Adam Karvonen's [chess llm interpretability repo](https://github.com/adamkarvonen/chess_llm_interpretability)  and paper, ["Emergent World Models and Latent Variable Estimation in Chess-Playing Language Models"](https://arxiv.org/pdf/2403.15498v2) which show, among other things, that `gpt-3.5-turbo-instruct` *does* seem to build up some kind of internal representation of board state.
+* Adam Karvonen's [chess llm interpretability repo](https://github.com/adamkarvonen/chess_llm_interpretability)  and paper, ["Emergent World Models and Latent Variable Estimation in Chess-Playing Language Models"](https://arxiv.org/pdf/2403.15498v2) which show, among other things, that ~~`gpt-3.5-turbo-instruct`~~ a small LLM trained on chess data *does* seem to build up some kind of internal representation of board state.
 
 * Matheiu Archer's [estimates of ELO](https://blog.mathieuacher.com/GPTsChessEloRatingLegalMoves/) for `gpt-3.5-turbo-instruct` and `gpt-3.5-turbo` and `gpt-4`. This also experiments with different temperatures.
 
