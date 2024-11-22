@@ -152,7 +152,7 @@ Taken at face value, this says that repeating the system prompt helps a bit but 
 
 <details markdown="1">
 <summary>
-If you want LLMs to do something, standard advice is to provide some examples. So I created three small examples of example boards and legal moves. I provided these in "correctly" using the API, not by jamming them into the user prompt.
+If you want LLMs to do something, standard advice is to provide some examples. So I created three small examples of example boards and legal moves. I provided these "correctly" using the API, not by jamming them into the user prompt.
 </summary>
 
 * **Input A**: `1.`
