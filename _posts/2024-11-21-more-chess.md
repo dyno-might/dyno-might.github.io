@@ -8,11 +8,9 @@ excerpt: ""
 permalink: /more-chess/
 background_color: rgb(176,176,176)
 category: "science"
-comment:
-substack: "https://dynomight.substack.com/p/chess/"
-#seo:
-#  date_modified: 2024-11-07
-#last_modified_at: 2024-11-07
+seo:
+  date_modified: 2024-11-22
+last_modified_at: 2024-11-22
 comment:
  substack: "https://dynomight.substack.com/p/more-chess/"
   
@@ -54,7 +52,7 @@ I think this is *extremely* unlikely. Because:
 
 2. In chess, you can arrive at the same board state via different sequences of moves. Chess engines don't care, but `gpt-3.5-turbo-instruct` *does* care and [plays very differently](https://nicholas.carlini.com/writing/2023/chess-llm.html#:~:text=Language%20Modeling;%20Not%20Winning%20(Part%202)) for different move sequences.
 
-3. While `gpt-3.5-turbo-instruct` is great by the standards of chess amateurs, it's bad by the standards of experts and *pathetic* by the standards of chess engines. If you're going to cheat, why stop at an Elo of 1800?
+3. While `gpt-3.5-turbo-instruct` is great by the standards of chess amateurs, it's bad by the standards of experts and *pathetic* by the standards of chess engines. If you're going to cheat, why stop at an Elo of 1750?
 
 4. If you change the way you prompt `gpt-3.5-turbo-instruct`, this will subtly change how it plays. Is there some neural network that looks at the text and dynamically sets the chess engine skill level?
 
@@ -406,7 +404,7 @@ To compare these more directly, I had `gpt-4o + regurgitate + examples` play 50 
 | tie                   | 5     |
 | loss                  | 35    |
 
-According to [this calculator](https://3dkingdoms.com/chess/elo.htm), that's consistent with an Elo difference of -191. But you need to account for the fact that `gpt-4o` was always white, reportedly worth around [35 Elo](https://en.wikipedia.org/wiki/First-move_advantage_in_chess#Winning_percentages). Since `gpt-3.5-turbo-instruct` has been measured at around 1800 Elo, this suggests `gpt-4o` with regurgitation and examples hits around 1800 - 191 - 35/2 ≈ 1590 Elo, which is still "intermediate amateur" territory.
+According to [this calculator](https://3dkingdoms.com/chess/elo.htm), that's consistent with an Elo difference of -191. But you need to account for the fact that `gpt-4o` was always white, reportedly worth around [35 Elo](https://en.wikipedia.org/wiki/First-move_advantage_in_chess#Winning_percentages). Since `gpt-3.5-turbo-instruct` has been measured at around 1750 Elo, this suggests `gpt-4o` with regurgitation and examples hits around 1750 - 191 - 35/2 ≈ 1540 Elo, which is still "intermediate amateur" territory.
 
 Here are 10 games of `gpt-4o + regurgitate + examples` playing against Stockfish: [1](https://lichess.org/LKrpvc1q) [2](https://lichess.org/Da7HUOz4) [3](https://lichess.org/RAjUpnO7) [4](https://lichess.org/0KRQUITP) [5](https://lichess.org/x3XF9ABJ) [6](https://lichess.org/I2U40v54) [7](https://lichess.org/Kcj7tHZO) [8](https://lichess.org/1CkZjTdP) [9](https://lichess.org/TFfavMTK) [10](https://lichess.org/LmgT8CMY)  
 
@@ -422,7 +420,7 @@ Here's my best guess for what is happening:
 
 I think part 1 is true because all the open models are [terrible](/chess/) at chess, regardless of if they are base models or chat models. I suspect this is *not* some kind of architectural limitation—if you fine-tuned `llama-3.1-70b` on billions of expert chess games, I would be surprised if it could not beat `gpt-3.5-turbo-instruct` (rumored to have only around 20 billion parameters).
 
-Meanwhile, in section A.2 of [this paper](https://arxiv.org/pdf/2312.09390#page=29) (h/t Gwern) some OpenAI authors mention that GPT-4 was trained on chess games in PGN notation, filtered to only include players with Elo at least 1800. I haven't seen any public confirmation that `gpt-3.5-turbo-instruct` used the same data, but it seems plausible. And can it really be a coincidence that `gpt-3.5-turbo-instruct` plays games *in PGN notation with a measured Elo of 1800*?
+Meanwhile, in section A.2 of [this paper](https://arxiv.org/pdf/2312.09390#page=29) (h/t Gwern) some OpenAI authors mention that GPT-4 was trained on chess games in PGN notation, filtered to only include players with Elo at least 1800. I haven't seen any public confirmation that `gpt-3.5-turbo-instruct` used the same data, but it seems plausible. And can it really be a coincidence that `gpt-3.5-turbo-instruct` plays games *in PGN notation with a measured Elo of 1750*?
 
 I can't find any details about how much chess data was included when training Llama et al. I'm sure many games made their way in from the open internet. But specifically curating a giant database of high quality games probably just gives better results, and the open models probably just didn't do that.
 
@@ -460,7 +458,9 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 
 * [Transcendence: Generative Models Can Outperform The Experts That Train Them](https://arxiv.org/pdf/2406.11741) (h/t WTFwhatthehell)
 
-* Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html).
+* Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html). Among other things, this estimates `gpt-3.5-turbo-instruct` to have an Elo of 1750±50.
 
 
 *Update*: Corrected example one output which slightly improved the results.
+
+*Update*: Updated to use a reference of 1750 Elo for `gpt-3.5-turbo-instruct` rather than 1800.
