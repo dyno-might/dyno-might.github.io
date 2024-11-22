@@ -461,6 +461,6 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 * Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html). Among other things, this estimates `gpt-3.5-turbo-instruct` to have an Elo of 1750±50.
 
 
-*Update (2024/11/21)*: Corrected example one output which slightly improved the results.
+*Update (2024/11/21)*: Corrected one example output which slightly improved the results.
 
 *Update (2024/11/22)*: Updated to use a reference of 1750 Elo for `gpt-3.5-turbo-instruct` rather than 1800.
