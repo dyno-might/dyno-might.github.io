@@ -359,11 +359,11 @@ To compare these more directly, I had `gpt-4o + regurgitate + examples` play 50 
 
 | outcome for  `gpt-4o + regurgitate + examples` | count |
 | ---------------------------------------------- | ----- |
-| win                                            | 9     |
-| tie                                            | 4     |
-| loss                                           | 37    |
+| win                                            | 10    |
+| tie                                            | 5     |
+| loss                                           | 35    |
 
-According to [this calculator](https://3dkingdoms.com/chess/elo.htm), that's consistent with an Elo difference of -220. But you need to account for the fact that `gpt-4o` was always white, reportedly worth around [35 Elo](https://en.wikipedia.org/wiki/First-move_advantage_in_chess#Winning_percentages). Since `gpt-3.5-turbo-instruct` has been measured at around 1800 Elo, this suggests `gpt-4o` with regurgitation and examples hits around 1800 - 220 - 35/2 ≈ 1560 Elo, which is still "intermediate amateur" territory.
+According to [this calculator](https://3dkingdoms.com/chess/elo.htm), that's consistent with an Elo difference of -191. But you need to account for the fact that `gpt-4o` was always white, reportedly worth around [35 Elo](https://en.wikipedia.org/wiki/First-move_advantage_in_chess#Winning_percentages). Since `gpt-3.5-turbo-instruct` has been measured at around 1800 Elo, this suggests `gpt-4o` with regurgitation and examples hits around 1800 - 191 - 35/2 ≈ 1590 Elo, which is still "intermediate amateur" territory.
 
 Here are 10 games of `gpt-4o + regurgitate + examples` playing against Stockfish: [1](https://lichess.org/Q2lUPANn) [2](https://lichess.org/Da7HUOz4) [3](https://lichess.org/Ijitm5vI) [4](https://lichess.org/ib0wwcAO) [5](https://lichess.org/jOY82JGZ) [6](https://lichess.org/hD9fQMMj) [7](https://lichess.org/SmlDpA6O) [8](https://lichess.org/kyRzFcvU) [9](https://lichess.org/NAI3jWPo) [10](https://lichess.org/x2LFUowA)  
 
@@ -420,4 +420,4 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 * Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html).
 
 
-*Update* (2024/11/21 18:10 UTC) The last example output is an illegal move! (Why am I so bad?) This makes the benefit of these examples even more mysterious. I am re-running all the experiments with examples now.
+*Update*: Corrected example one output which slightly improved the results.
