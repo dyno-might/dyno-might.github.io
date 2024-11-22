@@ -100,7 +100,12 @@ Next, take `gpt-4o-mini` and `gpt-4o`. These are "chat" models, meaning you give
 `NEVER give a turn number.`\\
 `NEVER explain your choice.`
 
-And I used user prompts like this (repeating the system prompt):
+<details markdown="1">
+<summary>
+For user prompts, I repeated the system prompt and then gave the same metadata for the players and sequence of moves as above.
+</summary>
+
+That is, I used user prompts like this:
 
 `You are a chess grandmaster.`\\
 `You will be given a partially completed game.`\\
@@ -117,6 +122,8 @@ And I used user prompts like this (repeating the system prompt):
 `[BlackElo "2740"]`\\
 \\
 `1. e4 e5 2. Nf3 Nc6 3.`
+
+</details>
 
 Here are the results of these three models against Stockfish—a standard chess AI—on level 1, with a maximum of 0.01 seconds to make each move. After the game was over, I calculated the score after each turn in "centipawns" where a pawn is worth 100 points, and ±1500 indicates a win or loss. Here is the average over 50 games (click to zoom in):
 
@@ -145,7 +152,10 @@ Taken at face value, this says that repeating the system prompt helps a bit but 
 
 ## Should we add examples?
 
-If you want LLMs to do something, standard advice is to provide some examples. So I did.
+<details markdown="1">
+<summary>
+If you want LLMs to do something, standard advice is to provide some examples. So I created three small examples of example boards and legal moves. I provided these in "correctly" using the API, not by jamming them into the user prompt.
+</summary>
 
 * **Input A**: `1.`
 * **Output A**: `e4`
@@ -154,7 +164,10 @@ If you want LLMs to do something, standard advice is to provide some examples. S
 * **Input C**: `1. e4 e5 2. Nf3 Nc6 3.`
 * **Output C**: `Bb5`
 
-That's all I used, just those three examples. I provided these in "correctly" using the API, not by jamming them into the user prompt. The results were:
+That's all I used, just these three examples.
+</details>
+
+The results were:
 
 [![](/img/more-chess/examples.svg)](/img/more-chess/examples.pdf)
 
@@ -172,13 +185,19 @@ Another standard (albeit more difficult) way to improve LLMs is to fine-tune—t
 
 So I did this for both `gpt-4o-mini` and `gpt-4o`. 
 
-To generate the fine-tuning data, I had Stockfish play 100 games against itself on its highest difficulty level. For each game, I picked a random move and used it as an example. Here was one example:
+<details markdown="1">
+<summary>
+To generate the fine-tuning data, I had Stockfish play 100 games against itself on its highest difficulty level. For each game, I picked a random move and used it as an example. I then had Stockfish play another 100 games as validation data.
+</summary>
+
+Here was one example:
 
 * **System prompt**: (same as above)
 * **User prompt**:  `1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3 Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qd3 Ne5 12. Qg3 Nh5 13. Qe3`
 * **Desired output**: `Nxf4`
+</details>
 
-I then had Stockfish play another 100 games as validation data. The results were:
+The results were:
 
 [![](/img/more-chess/finetune.svg)](/img/more-chess/finetune.pdf)
 
@@ -204,7 +223,12 @@ Ohkay.
 
 LLMs sometimes struggle to give legal moves. In these experiments, I try 10 times and if there's still no legal move, I just pick one at random. So I wondered: Maybe I could help the LLM out by listing the legal moves before giving the game history? Some might say this is "cheating", but let's try it anyway.
 
-I used this system prompt:
+<details markdown="1">
+<summary>
+I used a new system prompt that told the LLM to expect a list of legal moves and then user prompts that first listed the moves and then listed the game so far.
+</summary>
+
+More specifically, I used this system prompt:
 
 `You are a chess grandmaster.`\\
 `You will be given a list of legal moves and a partially completed game.`\\
@@ -223,6 +247,8 @@ And I sent user prompts like this:
 `Here is the game so far:`\\
 \\
 `1. e4 d6 2. d4 g6 3. Nc3 Nf6 4. Bg5 h6 5.`
+
+</details>
 
 Here are the results:
 
@@ -309,27 +335,44 @@ This makes `gpt-4o-mini` and `gpt-4o` better. It also seems like strong evidence
 
 Fine-tuning is good. Regurgitation is good. Are they good together?
 
-To test this, I needed to do a *new*, *independent* run of fine-tuning. I used the exact same sequence of games and moves, but with outputs repeating the inputs before giving a new move. For example:
+<details markdown="1">
+<summary>
+
+To test this, I needed to do a <em>new</em>, <em>independent</em> run of fine-tuning. I used the exact same sequence of games and moves, but with outputs repeating the inputs before giving a new move.
+
+</summary>
+
+For example:
 
 * **System prompt**: (same as above)
 * **User prompt**:  `1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3 Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qd3 Ne5 12. Qg3 Nh5 13. Qe3`
 * **Desired output**: `1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. Be3 Be6 9. f4 exf4 10. Bxf4 Nc6 11. Qd3 Ne5 12. Qg3 Nh5 13. Qe3 Nxf4`
 
+</details>
+
 This... maybe helped a little?
 
 [![](/img/more-chess/regurgitate-finetune.svg)](/img/more-chess/regurgitate-finetune.pdf)
 
-
 And how about examples? Will they improve regurgitation?
 
-I used the same  three examples:
+<details markdown="1">
+<summary>
+
+I used the same three situations as before for examples, just with the prior sequence of moves added to the start of the outputs.
+
+</summary>
+
+Specifically, I used these three examples:
 
 * **Input A:** `1.`
 * **Output A:** `1. e4`
-* **Input AB:** `1. d4`
+* **Input B:** `1. d4`
 * **Output B:** `1. d4 d5`
 * **Input C:** `1. e4 e5 2. Nf3 Nc6 3.`
 * **Output C:** `1. e4 e5 2. Nf3 Nc6 3. Nf3`
+
+</details>
 
 Like before, these had a remarkable impact given how little information they contain.
 
@@ -357,11 +400,11 @@ No. It's respectable, but still not quite as good as `gpt-3.5-turbo-instruct`.
 
 To compare these more directly, I had `gpt-4o + regurgitate + examples` play 50 games against `gpt-3.5-turbo-instruct`. In all cases, `gpt-4o` was white.
 
-| outcome for  `gpt-4o + regurgitate + examples` | count |
-| ---------------------------------------------- | ----- |
-| win                                            | 10    |
-| tie                                            | 5     |
-| loss                                           | 35    |
+| outcome for  `gpt-4o` | count |
+| --------------------- | ----- |
+| win                   | 10    |
+| tie                   | 5     |
+| loss                  | 35    |
 
 According to [this calculator](https://3dkingdoms.com/chess/elo.htm), that's consistent with an Elo difference of -191. But you need to account for the fact that `gpt-4o` was always white, reportedly worth around [35 Elo](https://en.wikipedia.org/wiki/First-move_advantage_in_chess#Winning_percentages). Since `gpt-3.5-turbo-instruct` has been measured at around 1800 Elo, this suggests `gpt-4o` with regurgitation and examples hits around 1800 - 191 - 35/2 ≈ 1590 Elo, which is still "intermediate amateur" territory.
 
