@@ -460,6 +460,7 @@ Thanks to the [Automator](/automated/) for crucial guidance and boundless patien
 
 * Nicholas Carlini's [Playing chess with large language models](https://nicholas.carlini.com/writing/2023/chess-llm.html). Among other things, this estimates `gpt-3.5-turbo-instruct` to have an Elo of 1750±50.
 
+* Daniel Paleka's [llm chess proogame](https://github.com/dpaleka/llm-chess-proofgame) repo.
 
 *Update (2024/11/21)*: Corrected one example output, in which I had previously put an *illegal move*. (Why am I so bad?) This only slightly improved the results, which makes the large benefits of the examples even more mysterious.
 
