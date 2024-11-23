@@ -9,8 +9,8 @@ permalink: /more-chess/
 background_color: rgb(176,176,176)
 category: "science"
 seo:
-  date_modified: 2024-11-22
-last_modified_at: 2024-11-22
+  date_modified: 2024-11-23
+last_modified_at: 2024-11-23
 comment:
  substack: "https://dynomight.substack.com/p/more-chess/"
   
@@ -213,7 +213,7 @@ The answer *was* no, but for different reasons:
 
 [![](/img/more-chess/examples-finetune.svg)](/img/more-chess/examples-finetune.pdf)
 
-According to that figure, fine-tuning helps. And examples help. But it’s *examples* that make *fine-tuning* redundant, not the other way around.
+According to that figure, fine-tuning helps. And examples help. But once you have fine-tuning, examples do nothing. And once you have examples, fine-tuning is actually *harmful*?
 
 Ohkay.
 
