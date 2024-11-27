@@ -675,6 +675,10 @@ video {
     color: $dark-quote-color;
   }
 
+  a, a:visited {
+    color: #b86d1b;
+  }
+
   a:hover{
     text-decoration: underline $dark-text-color;
   }
