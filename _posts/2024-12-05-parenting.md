@@ -4,7 +4,7 @@ title: "Tactical parenting"
 image: /img/parenting/dawn.jpg
 tags: 
 description: ft. tactical guy
-excerpt: grow  grow grow  grow grow grow grow grow  grow grow grow grow grow grow
+excerpt: "WHERE TO BUY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
 permalink: /parenting/
 background_color: rgb(151,178,163)
 category: "uncategorizable"
@@ -13,7 +13,7 @@ category: "uncategorizable"
 #last_modified_at: 2024-12-05
 # comment:
 #  substack: "https://dynomight.substack.com/p/parenting/"
-head: "<style>img{max-width:100%; max-height:none;} .maintext{padding-left:0;padding-right:0;}</style>"
+head: "<style>img{max-width:99%; max-height:none;} .maintext{padding-left:0;padding-right:0;}</style>"
 ---
 
 [![1](/img/parenting/parenting1.svg)](/img/parenting/parenting1.svg)
