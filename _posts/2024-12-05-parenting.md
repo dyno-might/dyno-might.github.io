@@ -4,7 +4,7 @@ title: "Tactical parenting"
 image: /img/parenting/dawn.jpg
 tags: 
 description: ft. tactical guy
-excerpt: "WHERE TO BUY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+excerpt: "grow grow grow grow grow grow grow grow grow grow grow grow grow grow"
 permalink: /parenting/
 background_color: rgb(151,178,163)
 category: "uncategorizable"
