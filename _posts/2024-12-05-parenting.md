@@ -63,7 +63,7 @@ head: "<style>img{max-width:99%; max-height:none;} .maintext{padding-left:0;padd
     <p>WE OPEN on TACTICAL GUY’s house. A small tree is visible in a window. We see TACTICAL GUY staring at TACTICAL BABY on the ground.</p>
     <div style="text-align:right;">CUT TO:</div>
     <p>INT DESK - SAME DAY</p>
-    <p>TACTICAL GUY uses keyboard plugged into phone to search for “where to buy tactical keyboard”. Viewer is informed that “this is a real product that actually exists”.</p>
+    <p>TACTICAL GUY uses keyboard plugged into phone to search for “where to buy tactical baby carrier. Viewer is informed that “this is a real product that actually exists”.</p>
     <div style="text-align:right;">CUT TO:</div>
     <p>INT TACTICAL HOME - NEXT DAY</p>
     <p>TACTICAL GUY places TACTICAL BABY in tactical baby carrier</p>
