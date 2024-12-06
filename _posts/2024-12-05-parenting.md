@@ -52,7 +52,7 @@ head: "<style>img{max-width:99%; max-height:none;} .maintext{padding-left:0;padd
 
 <details markdown="0">
 <summary>I'm so confused</summary>
-<div style="font-family: 'Courier New', Courier, monospace; width:95%; margin-left: auto; margin-right: auto;">
+<div style="font-family: Courier, 'Courier New', monospace; font-size:90%; width:95%; margin-left: auto; margin-right: auto;">
     <div style="text-align:center; text-decoration:underline;">TACTICAL PARENTING</div>
     <br/>
     <div style="text-align:center;">Written by</div>
