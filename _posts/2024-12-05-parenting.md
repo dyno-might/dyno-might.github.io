@@ -50,7 +50,7 @@ head: "<style>img{max-width:99%; max-height:none;} .maintext{padding-left:0;padd
 
 [![17](/img/parenting/parenting17.svg)](/img/parenting/parenting17.svg)
 
-<details markdown="0">
+<details markdown="0" id="screenplay">
 <summary>I'm so confused</summary>
 <div style="font-family: Courier, 'Courier New', monospace; font-size:90%; width:95%; margin-left: auto; margin-right: auto;">
     <div style="text-align:center; text-decoration:underline;">TACTICAL PARENTING</div>
