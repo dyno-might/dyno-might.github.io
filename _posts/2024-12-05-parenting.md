@@ -50,3 +50,43 @@ head: "<style>img{max-width:99%; max-height:none;} .maintext{padding-left:0;padd
 
 [![17](/img/parenting/parenting17.svg)](/img/parenting/parenting17.svg)
 
+<details markdown="0">
+<summary>I'm so confused</summary>
+<div style="font-family: 'Courier New', Courier, monospace; width:95%; margin-left: auto; margin-right: auto;">
+    <div style="text-align:center; text-decoration:underline;">TACTICAL PARENTING</div>
+    <br/>
+    <div style="text-align:center;">Written by</div>
+    <div style="text-align:center;">Dynomight</div>
+    <br/>
+    <br/>
+    <p>INT TACTICAL HOME - DAY</p>
+    <p>WE OPEN on TACTICAL GUY’s house. A small tree is visible in a window. We see TACTICAL GUY staring at TACTICAL BABY on the ground.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT DESK - SAME DAY</p>
+    <p>TACTICAL GUY uses keyboard plugged into phone to search for “where to buy tactical keyboard”. Viewer is informed that “this is a real product that actually exists”.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - NEXT DAY</p>
+    <p>TACTICAL GUY places TACTICAL BABY in tactical baby carrier</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - ONE YEAR LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is slightly larger.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - ONE YEAR LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is slightly larger. TACTICAL GUY appears more muscular.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - TWO YEARS LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is slightly larger. TACTICAL GUY appears more muscular.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - TWO YEARS LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is slightly larger. TACTICAL GUY appears more muscular.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - SIX YEARS LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is slightly larger. TACTICAL GUY appears even more muscular.</p>
+    <div style="text-align:right;">CUT TO:</div>
+    <p>INT TACTICAL HOME - TEN YEARS LATER</p>
+    <p>TACTICAL GUY and TACTICAL BABY are in the same position. TACTICAL BABY is now even taller than TACTICAL GUY. TACTICAL GUY is 140 kg of pure muscle.</p>
+    <div style="text-align:center;">TACTICAL GUY</div>
+    <div style="text-align:center;">(smiles)</div>
+    <div style="text-align:right;">FADE TO BLACK:</div>
+ </div>
+ </details>
