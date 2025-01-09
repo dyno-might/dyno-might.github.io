@@ -586,13 +586,13 @@ video {
   text-align:justify;
 }
 .blurb-img{
-  width:min(360px,30vw);
-  height:calc(min(360px,30vw) / 1.6);
+  width:min(240px,30vw);
+  height:calc(min(240px,30vw) / 1.6);
   max-height: none;
   max-width: none;
   float: left;
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 // classes to turn stuff on and off in certain modes
