@@ -5,10 +5,11 @@
 {% endif %}
 
 
-<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect" style="background: red;" data-date="{{post.date | date: '%Y%m%d'}}" data-updated="{{updated}}">
+{% comment %}
+<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect" data-date="{{post.date | date: '%Y%m%d'}}" data-updated="{{updated}}">
     <div class="blurb-div">
         <div class="normalonly hidden-mobile">
-            <img src="{{ post.image | prepend: site.baseurl | prepend: '/small'}}" class="blurb-img" style="width:min(360px,30vw); height:calc(min(360px,30vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
+            <img src="{{ post.image | prepend: site.baseurl | prepend: '/small'}}" class="blurb-img" alt="" loading="lazy">
         </div>
         <div class="blurb-text">
             <span class="headerfont blurb-title">
@@ -19,8 +20,39 @@
             </span>  
             <div class="blurb-words">
                 <div class="normalonly only-mobile" style="float:left; margin-right:5px; margin-top:5px; margin-bottom:-5px;">
-                    <img src="{{ post.image | prepend: site.baseurl | prepend: '/tiny'}}" class="blurb-img" style="width:min(360px,35vw); height:calc(min(360px,35vw) / 1.6); max-height: none; max-width: none;" alt="" loading="lazy">
+                    <img src="{{ post.image | prepend: site.baseurl | prepend: '/tiny'}}" class="blurb-img-mobile" alt="" loading="lazy">
                 </div>
+                <p class="headerfont" style="margin-top: 5px; margin-bottom: 5px;">
+                    <span class="blurb-subtitle">{{ post.description }}</span> 
+                </p>
+                {% unless noexcerpt=='true' %}
+                    {%- assign excerpt=post.excerpt | strip_html -%}    
+                    {%- comment -%} if excerpt too short, get more from content? {%- endcomment -%}
+                    {%- if excerpt.size < 40 -%}
+                        {%- assign excerpt=post.content | markdownify | strip_html -%}
+                    {%- endif -%}
+                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 40}}</p> 
+                {% endunless %}
+            </div>
+        </div> 
+    </div>
+</a>
+{% endcomment %}
+
+
+<a href="{{ site.baseurl }}{{ post.url }}" class="no-link-effect" data-date="{{post.date | date: '%Y%m%d'}}" data-updated="{{updated}}">
+    <div class="blurb-div">
+        <div class="blurb-text">
+            <span class="normalonly">
+                <img src="{{ post.image | prepend: site.baseurl | prepend: '/small'}}" class="blurb-img normalonly" alt="" loading="lazy">
+            </span>
+            <span class="headerfont blurb-title">
+                {{post.title}}
+            </span>  
+            <span class="headerfont blurb-date">
+                {% unless nodate %}{{ post.date | date: "%Y.%m.%d"}}{% if post.last_modified_at %} - {{post.last_modified_at | date: "%Y.%m.%d"}}{% endif %}{% endunless %}
+            </span>  
+            <div class="blurb-words">
                 <p class="headerfont" style="margin-top: 5px; margin-bottom: 5px;">
                     <span class="blurb-subtitle">{{ post.description }}</span> 
                 </p>
