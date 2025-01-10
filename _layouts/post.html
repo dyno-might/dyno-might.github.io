@@ -59,7 +59,8 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
     <p>
   </div>
 
-  <div class="container" style="text-align: center;" id="outerForm"> 
+  <div class="container" style="text-align: center; position:relative; min-height:1em;" id="outerForm"> 
+    <button id="toggleButton" onclick="toggleContent()" style="position: absolute; top: 5px; right: 5px; background: none; border: none; cursor: pointer;">[-]</button>
     <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST" id="sForm"> 
       {% comment %}<div class="headerfont" style="font-size:120%; margin-bottom:5px;">dynomiiiiiiiiiight</div>{% endcomment %}
       <div class="headerfont" style="font-size:100%; margin-bottom:0;">new dynomight every thursday</div>
@@ -76,33 +77,59 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
         <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
         <label for="guide3" class="headerfont" style="margin-top:5px; padding:0px; font-size:80%;">also send guide to life</label>
       </span>
-      <div class="headerfont" style="margin-bottom:2px; font-size:80%;">(or try <a href="https://dynomight.substack.com/">substack</a> or <a href="/feed.xml">rss</a>)
-        <span class="close-button" onclick="hideContent()" style="cursor: pointer; display:block; float:right; color:gray;">&#215;</span>
-      </div>
+      <div class="headerfont" style="margin-bottom:2px; font-size:80%;">(or try <a href="https://dynomight.substack.com/">substack</a> or <a href="/feed.xml">rss</a>)</div>
     </form>
     
     </div>
 
     <script>
-      function setCookie(name, value, days) {
-        var expires = "";
-        if (days) {
-          var date = new Date();
-          date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-          expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "") + expires + "; path=/";
-      }
-  
-      function hideContent() {
-        setCookie('hideForm', 'true', 1);
-        document.getElementById('outerForm').style.display = 'none';
-      }
-
-    // Check if the 'hideContent' cookie is set
-    if (document.cookie.indexOf('hideForm=true') !== -1) {
-      document.getElementById('outerForm').style.display = 'none';
+    // Function to get cookie value by name
+    function getCookie(name) {
+      const value = `; ${document.cookie}`;
+      const parts = value.split(`; ${name}=`);
+      if (parts.length === 2) return parts.pop().split(';').shift();
+      return null;
     }
+
+    // Function to set a cookie with a name, value, and expiration time
+    function setCookie(name, value, days) {
+      const d = new Date();
+      d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000)); // expire in days
+      const expires = "expires=" + d.toUTCString();
+      document.cookie = `${name}=${value}; ${expires}; path=/`;
+    }
+
+    // Toggle content visibility and update the button and cookie
+    function toggleContent() {
+      const content = document.getElementById('sForm');
+      const button = document.getElementById('toggleButton');
+
+      // Toggle visibility of the content
+      if (content.style.display === 'none') {
+        content.style.display = 'block';
+        button.textContent = '[-]';
+        setCookie('contentHidden', 'false', 7); // Store in cookie for 7 days
+      } else {
+        content.style.display = 'none';
+        button.textContent = '[+]';
+        setCookie('contentHidden', 'true', 7); // Store in cookie for 7 days
+      }
+    }
+
+    // Check cookie on page load to determine if the content should be hidden
+    window.onload = () => {
+      const contentHidden = getCookie('contentHidden') === 'true';
+      const content = document.getElementById('sForm');
+      const button = document.getElementById('toggleButton');
+
+      if (contentHidden) {
+        content.style.display = 'none';
+        button.textContent = '[+]';
+      } else {
+        content.style.display = 'block';
+        button.textContent = '[-]';
+      }
+    };
 
       document.getElementById('sForm').addEventListener('submit', 
       function(event) {        
