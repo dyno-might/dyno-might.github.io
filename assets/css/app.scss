@@ -526,6 +526,19 @@ video {
   color: inherit;
 }
 
+.blurb{
+  text-decoration: none;
+}
+.blurb:hover{
+  text-decoration: none;
+}
+.blurb:hover .blurb-div .blurb-text .blurb-title{
+  text-decoration: underline;
+}
+.blurb:hover .blurb-div .blurb-text .blurb-date{
+  text-decoration: underline;
+}
+
 // post-item-blurb stuff
 .blurb-div{
   display:flex;
@@ -545,22 +558,13 @@ video {
 .blurb-words{
   line-height: 1.2;
   font-size:calc(0.042 * min(360px,90vw));
+  color: $normal-text-color;
 }
 .blurb-title{
   margin-top: 0pt;
   //font-size:calc(0.042 * min(360px,90vw));
   font-size:calc(0.048 * min(360px,90vw));
   font-weight: bold;
-  color: inherit;
-  text-decoration: none;
-}
-.blurb-title:visited{
-  color: inherit;
-  text-decoration: none;
-}
-.blurb-title:hover{
-  color: inherit;
-  text-decoration: none;
 }
 .blurb-date{
   margin-top: 0pt;
@@ -568,16 +572,7 @@ video {
   //font-size:calc(0.048 * min(360px,90vw));
   font-size:calc(0.036 * min(360px,90vw));
   font-weight: normal;
-  color: inherit;
-  text-decoration: none;
-}
-.blurb-date:visited{
-  color: inherit;
-  text-decoration: none;
-}
-.blurb-date:hover{
-  color: inherit;
-  text-decoration: none;
+  color: $normal-text-color;
 }
 .blurb-quote{
   color:$blurb-text-color;
