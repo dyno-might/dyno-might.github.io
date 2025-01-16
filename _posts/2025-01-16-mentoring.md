@@ -12,7 +12,7 @@ category: "uncategorizable"
 # date_modified: 2025-01-16
 #last_modified_at: 2025-01-16
 comment:
-  lemmy: "https://lemmy.world/post/24342291"
+  lemmy: "https://old.lemmy.world/post/24342291"
 #  substack: "https://dynomight.substack.com/p/mentoring/"
 
 ---
