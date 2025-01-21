@@ -125,6 +125,6 @@ Rephrasing the same calculation with instrumental variables doesn't change anyth
 
 ---
 
-*Note*: My original calculations were slightly different, because I used published numbers from the NordICC paper—1.2%/0.98% colorectal cancer for the control/invited groups. But the [supporting information](https://www.pnas.org/doi/suppl/10.1073/pnas.2311556120/suppl_file/pnas.2311556120.sapp.pdf) of [Angrist and Hull (2003)](https://doi.org/10.1073/pnas.2311556120) points out that the raw counts in the appendix for the NordICC paper suggest those numbers should be 1.104%/0.918%, which I've used here. (I asked the NordICC authors about this but haven't heard back from them yet.)
+*Note*: My original calculations were slightly different, because I used published numbers from the NordICC paper—1.2%/0.98% colorectal cancer for the control/invited groups. But the [supporting information](https://www.pnas.org/doi/suppl/10.1073/pnas.2311556120/suppl_file/pnas.2311556120.sapp.pdf) of [Angrist and Hull (2023)](https://doi.org/10.1073/pnas.2311556120) points out that the raw counts in the appendix for the NordICC paper suggest those numbers should be 1.104%/0.918%, which I've used here. (I asked the NordICC authors about this but haven't heard back from them yet.)
 
 *Also*: All the economists I've corresponded with about this have been nothing but kind. But in the spirit of [arguing without warning](/arguing/) I'm posting this without getting any feedback. If you're one of them and you'd like me to signal-boost a response, I'd be happy to do that.
