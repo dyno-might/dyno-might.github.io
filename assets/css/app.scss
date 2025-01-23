@@ -30,6 +30,8 @@
 @font-face {
   font-family: "Sorts Mill Goudy";
   src: url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf");
+  src: url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.woff2") format('woff2'),
+       url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.woff") format('woff');
   font-display: swap;
 }
 
