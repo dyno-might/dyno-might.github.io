@@ -27,6 +27,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Sorts Mill Goudy";
+  src: url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf");
+  font-display: swap;
+}
+
 
 h2:target::before, h3:target::before {
   content: "";
@@ -101,7 +107,7 @@ $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 $family-sans-serif: Montserrat, sans-serif;
-$family-serif: "Source Serif", Georgia, serif;
+$family-serif: "Sorts Mill Goudy", "Source Serif", Georgia, serif;
 
 $family-primary: $family-serif;
 $family-secondary: $family-sans-serif;
