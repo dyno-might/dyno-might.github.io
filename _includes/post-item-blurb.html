@@ -59,10 +59,10 @@
                 {% unless noexcerpt=='true' %}
                     {%- assign excerpt=post.excerpt | strip_html -%}    
                     {%- comment -%} if excerpt too short, get more from content? {%- endcomment -%}
-                    {%- if excerpt.size < 40 -%}
+                    {%- if excerpt.size < 35 -%}
                         {%- assign excerpt=post.content | markdownify | strip_html -%}
                     {%- endif -%}
-                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 40}}</p> 
+                <p class="headerfont blurb-quote">{{excerpt | truncatewords: 35}}</p> 
                 {% endunless %}
             </div>
         </div> 
