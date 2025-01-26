@@ -52,7 +52,7 @@ You can subscribe here to get new articles.
 
 <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
-<input type="email" name="text" placeholder="your@email.com" style="padding:4px;" /> 
+<input type="email" name="email" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
 <input type="hidden" name="_captcha" value="false">
 <br><input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
