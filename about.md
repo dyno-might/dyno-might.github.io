@@ -50,7 +50,7 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 You can subscribe here to get new articles.
 
 
-<form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST">
+<form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
 <input type="email" name="text" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
