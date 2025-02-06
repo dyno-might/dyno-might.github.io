@@ -12,7 +12,7 @@ category: "science"
 # date_modified: 2025-02-06
 #last_modified_at: 2025-02-06
 comment:
-#  lemmy: "https://old.lemmy.world/c/dynomight"
+  lemmy: "https://old.lemmy.world/post/25222322"
 #  substack: "https://dynomight.substack.com/p/car-trouble/"
 
 ---
