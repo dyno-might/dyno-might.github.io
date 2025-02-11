@@ -35,7 +35,7 @@ Eventually, the future Dynomight biologist rode in the car, and we had this conv
 
 (In the "Huh", I could sense overtones of, "How interesting that you would choose to live like this.")
 
-Time went by. I kept reminding myself that selfhood doesn't exist and therefore we all have a moral responsibility to be kind to our future selves and that future me wouldn't be any more enthusiastic having this rattle situation dumped on them than I was. So I spent many irreplaceable hours reading about the many, *many* possible causes of rattling.
+Time went by. I kept reminding myself that selfhood doesn't exist and therefore we all have a moral responsibility to be kind to our future selves and that future me wouldn't be any more enthusiastic about having this rattle situation dumped on them than I was. So I spent many irreplaceable hours reading about the many, *many* possible causes of rattling.
 
 Eventually, I came to the conclusion that it *wasn't* rattling, but rather incomplete fuel combustion. I put in high-octane petrol, convinced that would make the sound would go away. But it didn't.
 
