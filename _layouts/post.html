@@ -54,33 +54,50 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
   <section class="maintext" style="margin-top:20pt;">
 
   {%- comment -%} Comments / follow ups {% endcomment %}
-  <div class="headerfont noleftbar" style="font-size:80%; text-align:right;">
+  <div class="headerfont noleftbar" style="font-size:80%; text-align:left;">
     {% include comments-and-replies.html %}
     <p>
   </div>
 
-  <div class="container" style="text-align: center; position:relative; min-height:1em;" id="outerForm"> 
+  <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.1;" id="outerForm"> 
     <button id="toggleButton" onclick="toggleContent()" style="position: absolute; top: 5px; right: 5px; background: none; border: none; cursor: pointer;">[-]</button>
-    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST" id="sForm"> 
-      {% comment %}<div class="headerfont" style="font-size:120%; margin-bottom:5px;">dynomiiiiiiiiiight</div>{% endcomment %}
-      <div class="headerfont" style="font-size:100%; margin-bottom:0;">new dynomight every thursday</div>
-      <div class="headerfont" style="font-size:100%; margin-top:0; margin-bottom:2px;">except when not</div>
-      <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 60%; padding:5px; border:0; background-color:#e0e0e0; font-size:80%;" required> 
-      <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
-      <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-      <input type="hidden" name="_captcha" value="false" /> 
-      <input type="text" name="_honey" style="display:none">
-      <input type="hidden" name="_url" value="https://dynomight.net/" />
-      <button type="submit" id="submitButton" class="headerfont orangebutton" style="border-width:0px; margin:0; padding:5px; cursor:pointer; font-size:80%;">ok calm down</button> 
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST" id="sForm" style="max-width:95%;"> 
+      {% comment %}<div class="headerfont" style="font-size:100%; margin-bottom:5px;">dynomiiiiiiiiiight</div>{% endcomment %}
+      <span class="headerfont" style="font-size:80%; margin-bottom:0;">New dynomight <strike>every</strike> thursday</span>
+      {% comment %}<span style="display:inline-block">
+        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
+        <label for="guide3" class="headerfont" style="margin-top:5px; padding:0px; font-size:80%;">guide to life</label>
+      </span>{% endcomment %}
       <br>
       <span style="display:inline-block">
-        <input type="checkbox" id="guide3" name="guide3" value="guide3" style="transform: scale(1); vertical-align: middle;">
-        <label for="guide3" class="headerfont" style="margin-top:5px; padding:0px; font-size:80%;">also send guide to life</label>
+        <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 15ch; padding:3px; border:1; font-size:80%;" required> 
+        <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="hidden" name="_captcha" value="false" /> 
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/" />
+        <button type="submit" id="submitButton" class="headerfont" style="margin:0; padding:3px; cursor:pointer; font-size:80%;">ok</button> 
       </span>
-      <div class="headerfont" style="margin-bottom:2px; font-size:80%;">(or try <a href="https://dynomight.substack.com/">substack</a> or <a href="/feed.xml">rss</a>)</div>
-    </form>
-    
-    </div>
+      <br>
+      <span class="headerfont" style="margin-bottom:2px; font-size:80%; display:inline-block;">(or try <a href="https://dynomight.substack.com/">substack</a> / <a href="/feed.xml">rss</a>)</span>
+    </form>    
+  </div>
+
+  {% comment %}
+  <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.1;" id="outerForm"> 
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST" id="sForm" style="max-width:100%;"> 
+      <span style="display:inline-block">
+        <input type="text" class="headerfont" placeholder="Errors / typos / feedback" style="width: 30ch; padding:3px; border:1; font-size:80%;" required> 
+        <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
+        <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+        <input type="hidden" name="_captcha" value="false" /> 
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/" />
+        <button type="submit" id="submitButton" class="headerfont" style="margin:0; padding:3px; cursor:pointer; font-size:80%;">send</button> 
+      </span>
+    </form>    
+  </div>
+  {% endcomment %}
 
     <script>
     // Function to get cookie value by name
