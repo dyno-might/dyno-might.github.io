@@ -86,9 +86,11 @@ Not sure where to get started? Try one of these:
 
 Thoughts? Help with my ever-proliferating collection of typos?
 
+*Note*: From ~ Oct 2024 to Mar 7 2025 it seems like my email started silently deleting all these message. Very sorry if I missed something!
+
 <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
-        <form action="https://formsubmit.co/4a18e703496d7ca33c417b1bf528ad9d" method="POST"> 
+        <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST"> 
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
           <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:98%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
