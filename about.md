@@ -86,7 +86,7 @@ Not sure where to get started? Try one of these:
 
 Thoughts? Help with my ever-proliferating collection of typos?
 
-*Note*: From ~ Oct 2024 to Mar 7 2025 it seems like my email started silently deleting all these message. Very sorry if I missed something!
+*Note*: From ~Oct 2024 to Mar 7 2025 it seems like my email started silently deleting all these message. Very sorry if I missed something!
 
 <div style="text-align:left;">
         <!--<details style="border: none 1px #cccccc; width:100%; padding: 5px; border-radius: 5px;"><summary class="headerfont" style="font-size:80%;">say hi</summary>-->
