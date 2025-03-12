@@ -85,7 +85,7 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
           Mistakes?
         </span>
         <span style="display:inline-block">
-          <input type="email" class="headerfont" name="errors" placeholder="you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
+          <input type="text" class="headerfont" name="errors" placeholder="you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
           <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
           <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
           <input type="hidden" name="_captcha" value="false" /> 
