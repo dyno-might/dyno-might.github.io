@@ -10,6 +10,9 @@ description: "What's the history of attempts to abolish the death penalty in the
 permalink: /death-penalty-usa/
 background_color: rgb(42,42,59)
 category: "the death penalty"
+seo:
+  date_modified: 2025-03-13
+  last_modified_at: 2025-03-13
 ---
 
 Early America inherited much of [Britain's](/death-penalty-uk) bloodthirsty but arbitrary approach to the death penalty, with theoretical penalties for things like theft and rebellious children that were rarely carried out. However, executions did happen for crimes short of murder: Death was a common penalty for repeated theft, and in 1644, a couple was executed in Massachusetts for adultery.
@@ -63,7 +66,7 @@ As a glimpse of the boundaries of elite opinion at the time, the four dissenting
 
 Following *Furman*, there was a large jump in public support for the death penalty. I thought that this might be a backlash to Supreme Court overreach, however, ~~a small and highly biased sample of older Americans I happen to know~~ my sources tell me that nobody cared about that and it was more about increases in crime.
 
-*Furman* created a de-facto moratorium. Many suspected that the death penalty was gone for good, but it wasn't entirely clear if reformed systems could pass constitutional muster. Between 1972 and 1976, 37 states created new death penalty laws. Reforms included separate guilt and sentencing phases, and more uniform standards to guide juries and judges. The Supreme Court invalidated laws in North Carolina and Louisiana that imposed the death penalty for all capital crimes.
+*Furman* created a de-facto moratorium. Many suspected that the death penalty was gone for good, but it wasn't entirely clear if reformed systems could pass constitutional muster. Between 1972 and 1976, 37 states created new death penalty laws. Reforms included separate guilt and sentencing phases, and more uniform standards to guide juries and judges. The Supreme Court invalidated laws in North Carolina and Louisiana that imposed the death penalty too broadly.
 
 {% comment %}
 https://www.loc.gov/item/2002721278/
