@@ -44,7 +44,7 @@ The famous [couch to 5k](http://www.myrunningtips.com/couch-to-5k.html) program 
 
 ---
 
-Lots — perhaps most — exercise advice is counterproductive for regular people. It’s oriented towards elite athlete. If that’s you, fine. But the other 99% of the population with modest ambitions can have essentially all of the health benefits with almost none of the suffering.
+Lots — perhaps most — exercise advice is counterproductive for regular people. It’s oriented towards elite athletes. If that’s you, fine. But the other 99% of the population with modest ambitions can have essentially all of the health benefits with almost none of the suffering.
 
 Let's consider two possible failure modes of your running plan.
 
