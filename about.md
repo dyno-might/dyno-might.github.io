@@ -61,7 +61,7 @@ You can subscribe here to get new articles.
 
 </form>
 
-There's just the one step to subscribe, no second form or confirmation link or whatever. (If you don't like handing out your email address, consider using an relay service like [this](https://duckduckgo.com/email/) or [this](https://addy.io/) or [this](https://simplelogin.io/pricing/). Privacy good.)
+There's just the one step to subscribe, no second form or confirmation link or whatever. (If you don't like handing out your email address, consider using a relay service like [this](https://duckduckgo.com/email/) or [this](https://addy.io/) or [this](https://simplelogin.io/pricing/). Privacy good.)
 
 {% comment %}
 Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
