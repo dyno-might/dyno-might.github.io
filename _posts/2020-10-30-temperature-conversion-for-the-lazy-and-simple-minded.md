@@ -25,7 +25,7 @@ If you want even more explanation, here's the system as a diagram:
 
 ![conversion as transposition](/img/convert/transpose.svg)
 
-It's a coincidence that these conversion points exist---I found them by writing a program and searching for all the cases where this happen. It's an very fortunate coincidence that they divide the range of temperatures in a convenient way.
+It's a coincidence that these conversion points exist---I found them by writing a program and searching for all the cases where this happen. It's a very fortunate coincidence that they divide the range of temperatures in a convenient way.
 
 Range in C | Range in F | Description
 -|-|-
