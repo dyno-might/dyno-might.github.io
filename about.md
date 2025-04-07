@@ -45,6 +45,8 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 </div>
 
 
+{% comment %}
+
 <br>
 
 You can subscribe here to get new articles.
@@ -65,6 +67,8 @@ There's just the one step to subscribe, no second form or confirmation link or w
 
 {% comment %}
 Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
+{% endcomment %}
+
 {% endcomment %}
 
 <br>
