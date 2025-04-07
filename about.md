@@ -45,8 +45,6 @@ After that you can do whatever. The game you're playing doesn't have any rules a
 </div>
 
 
-{% comment %}
-
 <br>
 
 You can subscribe here to get new articles.
@@ -56,7 +54,7 @@ You can subscribe here to get new articles.
 <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
 <input type="email" name="email" placeholder="your@email.com" style="padding:4px;" /> 
 <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_captcha" value="true">
 <br><input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
 <br><input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
 <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
@@ -67,8 +65,6 @@ There's just the one step to subscribe, no second form or confirmation link or w
 
 {% comment %}
 Or you can subscribe <a href="https://dynomight.substack.com/">at substack</a> or via [RSS](/feed.xml). Or you can not subscribe at all ಠ_ಠ.
-{% endcomment %}
-
 {% endcomment %}
 
 <br>
