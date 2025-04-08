@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dangerous writing app</title>
+    <style>
+        /* Basic Reset & Body Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+
+        /* Controls Area */
+        .controls {
+            padding: 15px;
+            background-color: #e9e9e9;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .controls label {
+            margin-right: 5px;
+        }
+
+        .controls input[type="number"] {
+            width: 60px;
+            padding: 5px;
+        }
+
+        .controls button {
+            padding: 5px 15px;
+            cursor: pointer;
+            min-width: 70px; /* Prevent button resize jitter */
+            text-align: center;
+        }
+
+        /* Timer Display */
+        #timerDisplay {
+            position: fixed;
+            top: 10px;
+            right: 15px;
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 1.5em;
+            font-weight: bold;
+            z-index: 1000;
+            display: none; /* Hidden initially */
+            min-width: 70px;
+            text-align: center;
+        }
+
+        /* Text Area */
+        #mainTextarea {
+            flex-grow: 1;
+            width: 100%;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            line-height: 1.5;
+            box-sizing: border-box;
+            resize: none;
+            outline: none;
+            /* Transition for background color warning */
+            transition: background-color 0.3s ease-in-out; /* Back to ease-in-out */
+            background-color: #fff;
+        }
+
+        /* Style for disabled elements */
+        .controls input:disabled,
+        .controls button:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <label for="minutesInput">Minutes (N):</label>
+        <input type="number" id="minutesInput" value="5" min="0">
+
+        <label for="secondsInput">Inactivity Seconds (M):</label>
+        <input type="number" id="secondsInput" value="10" min="1">
+
+        <button id="startButton">Start</button>
+    </div>
+
+    <div id="timerDisplay">00:00</div>
+
+    <textarea id="mainTextarea" placeholder="Start typing here... Text area fades to red during the last M/2 seconds of inactivity. This stops after N minutes. Text persists on restart. Nothing you type leaves your device when you use this page."></textarea>
+
+    <script>
+        // DOM Elements
+        const minutesInput = document.getElementById('minutesInput');
+        const secondsInput = document.getElementById('secondsInput');
+        const startButton = document.getElementById('startButton');
+        const timerDisplay = document.getElementById('timerDisplay');
+        const mainTextarea = document.getElementById('mainTextarea');
+
+        // State Variables
+        let countdownInterval = null;
+        let inactivityTimeout = null;
+        let warningInterval = null;
+        let targetTimeN = 0;
+        let inactivityMillisM = 0;
+        let lastKeystrokeTime = 0;
+        let sessionActive = false;
+        let mainTimerExpired = false;
+
+        // --- Functions ---
+
+        function formatTime(totalSeconds) {
+            if (totalSeconds < 0) totalSeconds = 0;
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        function enableControlsForRestart() {
+            minutesInput.disabled = false;
+            secondsInput.disabled = false;
+            startButton.disabled = false;
+            startButton.textContent = 'Restart';
+            console.log("Controls re-enabled for restart.");
+        }
+
+
+        function stopInactivityMonitoring() {
+             console.log("Main timer expired. Stopping inactivity monitoring.");
+             mainTimerExpired = true;
+
+             if (inactivityTimeout) {
+                 clearTimeout(inactivityTimeout);
+                 inactivityTimeout = null;
+             }
+             if (warningInterval) {
+                 clearInterval(warningInterval);
+                 warningInterval = null;
+             }
+             // Ensure textarea background is reset to white only if it wasn't already
+             if (mainTextarea.style.backgroundColor !== 'rgb(255, 255, 255)') {
+                 mainTextarea.style.backgroundColor = '#fff';
+             }
+
+             enableControlsForRestart();
+        }
+
+
+        function updateTimerDisplay() {
+            if (mainTimerExpired) return;
+
+            const now = Date.now();
+            const remainingMillis = targetTimeN - now;
+            const remainingSeconds = Math.ceil(remainingMillis / 1000);
+
+            if (remainingSeconds >= 0) {
+                timerDisplay.textContent = formatTime(remainingSeconds);
+            } else {
+                timerDisplay.textContent = formatTime(0);
+                if (countdownInterval) {
+                    clearInterval(countdownInterval);
+                    countdownInterval = null;
+                }
+                stopInactivityMonitoring();
+            }
+        }
+
+        function deleteText() {
+            if (mainTimerExpired) return;
+
+            mainTextarea.value = '';
+            console.log("Text deleted due to inactivity!");
+
+             mainTextarea.style.backgroundColor = '#ffdddd';
+             setTimeout(() => {
+                 if (!mainTimerExpired && mainTextarea.style.backgroundColor === 'rgb(255, 221, 221)') {
+                     mainTextarea.style.backgroundColor = '#fff';
+                 }
+             }, 300);
+        }
+
+        function resetInactivityTimer() {
+            if (mainTimerExpired || !sessionActive) return;
+
+            if (inactivityTimeout) {
+                clearTimeout(inactivityTimeout);
+            }
+            inactivityTimeout = setTimeout(deleteText, inactivityMillisM);
+            lastKeystrokeTime = Date.now();
+
+            // Reset background immediately only if it's not already white
+            if (mainTextarea.style.backgroundColor !== 'rgb(255, 255, 255)') {
+                mainTextarea.style.backgroundColor = '#fff';
+            }
+        }
+
+        function checkAndWarn() {
+            if (!sessionActive || mainTimerExpired) return;
+
+            const now = Date.now();
+            const elapsedSinceKeystroke = now - lastKeystrokeTime;
+
+            // *** NEW: Warning starts only after M/2 seconds ***
+            const warningThreshold = inactivityMillisM / 2;
+
+            if (elapsedSinceKeystroke >= inactivityMillisM) {
+                // Let timeout handle deletion, ensure fully red right before
+                 if (mainTextarea.style.backgroundColor !== 'rgb(255, 0, 0)') {
+                    mainTextarea.style.backgroundColor = 'rgb(255, 0, 0)';
+                 }
+                return;
+            }
+
+            if (elapsedSinceKeystroke > warningThreshold) {
+                 // Calculate fraction of time elapsed *within the warning period* (second half of M)
+                 const warningDuration = inactivityMillisM - warningThreshold; // This is also M/2
+                 const elapsedInWarning = elapsedSinceKeystroke - warningThreshold;
+                 let warningFraction = elapsedInWarning / warningDuration;
+                 warningFraction = Math.min(1, Math.max(0, warningFraction)); // Clamp 0-1
+
+                 // Interpolate from white to red
+                 const redLevel = 255;
+                 const greenBlueLevel = Math.max(0, Math.round(255 * (1 - warningFraction)));
+                 mainTextarea.style.backgroundColor = `rgb(${redLevel}, ${greenBlueLevel}, ${greenBlueLevel})`;
+
+            } else {
+                // Before warning threshold, ensure background is white
+                if (mainTextarea.style.backgroundColor !== 'rgb(255, 255, 255)') {
+                     mainTextarea.style.backgroundColor = '#fff';
+                 }
+            }
+        }
+
+        function startSession() {
+            console.log("Starting/Restarting session...");
+            sessionActive = false;
+            mainTimerExpired = false;
+            if (countdownInterval) clearInterval(countdownInterval);
+            if (warningInterval) clearInterval(warningInterval);
+            if (inactivityTimeout) clearTimeout(inactivityTimeout);
+            // Ensure textarea background is white at start, regardless of previous state
+            mainTextarea.style.backgroundColor = '#fff';
+            // *** REMOVED: mainTextarea.value = ''; *** // Text is preserved
+
+            const minutesN = parseInt(minutesInput.value, 10);
+            const secondsM = parseInt(secondsInput.value, 10);
+
+            if (isNaN(minutesN) || minutesN < 0 || isNaN(secondsM) || secondsM < 1) {
+                alert("Please enter valid numbers (Minutes >= 0, Inactivity Seconds >= 1).");
+                enableControlsForRestart();
+                return;
+            }
+
+            sessionActive = true;
+            inactivityMillisM = secondsM * 1000;
+            const durationMillisN = minutesN * 60 * 1000;
+            targetTimeN = Date.now() + durationMillisN;
+            lastKeystrokeTime = Date.now();
+
+            minutesInput.disabled = true;
+            secondsInput.disabled = true;
+            startButton.disabled = true;
+            startButton.textContent = 'Start';
+
+            timerDisplay.style.display = 'block';
+
+             if (durationMillisN > 0) {
+                updateTimerDisplay();
+                countdownInterval = setInterval(updateTimerDisplay, 500);
+                resetInactivityTimer(); // Start inactivity timer
+                warningInterval = setInterval(checkAndWarn, 100); // Start warning checks
+            } else {
+                updateTimerDisplay(); // Calls stopInactivityMonitoring -> enableControlsForRestart
+            }
+
+            mainTextarea.focus();
+            console.log(`Session started: ${minutesN} min countdown, ${secondsM} sec inactivity.`);
+        }
+
+        // --- Event Listeners ---
+        startButton.addEventListener('click', startSession);
+
+        mainTextarea.addEventListener('input', () => {
+             resetInactivityTimer();
+        });
+
+    </script>
+
+</body>
+</html>
