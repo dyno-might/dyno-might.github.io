@@ -28,7 +28,7 @@ Of course, a natural question to ask is, did students from independent schools h
 
 What's the deal? Do privileged kids get to go Brighton and *also* get lower admissions standards?
 
-[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later noticed two important facts: First, it's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to classics (45% accepted) rather than medicine (21%). Second, students from independent schools are much more likely to apply to classics. Even if all department admitted students at equal rates, you'd still get an appearance of *overall* bias if state students apply more often to more competitive majors like medicine.
+[The Conversation](https://theconversation.com/hard-evidence-is-oxford-biased-against-state-students-18979) later noticed two important facts: First, it's [much easier](https://www.ox.ac.uk/sites/files/oxford/Annual%20Admissions%20Statistical%20Report%202020.pdf) to get into Oxford if you apply to classics (45% accepted) rather than medicine (21%). Second, students from independent schools are much more likely to apply to classics. Even if all departments admitted students at equal rates, you'd still get an appearance of *overall* bias if state students apply more often to more competitive majors like medicine.
 
 ---
 
