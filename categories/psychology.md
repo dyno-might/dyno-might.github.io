@@ -9,7 +9,7 @@ is_category_page: true
 permalink: /categories/psychology/
 ---
 
-People on the internet are always dunking on the Meyers-Briggs quiz, calling it pseudoscience and meaningless and laughing at anyone that believes in it. Typically, people propose to use the Big-5 test instead. Thing is, those two tests are [almost the same thing](/in-defense-of-myers-briggs.html). The main difference is if/how you discretize the axes.  Thus, I proposed a new system to give Myers-Briggs results with a finer discretization.
+People on the internet are always dunking on the Myers-Briggs quiz, calling it pseudoscience and meaningless and laughing at anyone that believes in it. Typically, people propose to use the Big-5 test instead. Thing is, those two tests are [almost the same thing](/in-defense-of-myers-briggs.html). The main difference is if/how you discretize the axes.  Thus, I proposed a new system to give Myers-Briggs results with a finer discretization.
 
 * To underline this point, I went so far as to create a no-nonsense [MBTI quiz](/mbti/).  Beyond giving a finer discretization, I think this might be the fastest MBTI quiz on the internet, just due to the interface.
 
