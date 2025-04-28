@@ -500,7 +500,7 @@ To answer that, we have to consider two questions: (1) how close the purifier is
 
 In the other situations, it's really not clear. (Let me know if you have a convincing argument.)
 
-* If the smoke is *near both you and the purifier*, the benefit is airflow is unclear. My instinct is that airflow is good because it reduces the peak concentration of particles you breathe. However, it also makes the air purifier less effective. Perhaps it doesn't really matter?
+* If the smoke is *near both you and the purifier*, the benefit of airflow is unclear. My instinct is that airflow is good because it reduces the peak concentration of particles you breathe. However, it also makes the air purifier less effective. Perhaps it doesn't really matter?
 
 * If the smoke is *far from both you and the purifier*, but *you're close to the purifier*, then reducing airflow means the purifier can create a kind of protective bubble around you. This seems good?
 
