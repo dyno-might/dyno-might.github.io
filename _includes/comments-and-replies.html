@@ -10,3 +10,19 @@ Comments at
 <a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
 {% endfor %}
 {% endif %}
+
+<p>
+<form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST" style="max-width:97%;"> 
+  <span>
+    Mistakes?
+  </span>
+  <span style="display:inline-block">
+    <input type="text" class="headerfont" name="errors" placeholder=" you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:90%;" required> 
+    <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
+    <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+    <input type="hidden" name="_captcha" value="false" /> 
+    <input type="text" name="_honey" style="display:none">
+    <input type="hidden" name="_url" value="https://dynomight.net/" />
+    <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:90%;">fix plz</button> 
+  </span>
+</form>
