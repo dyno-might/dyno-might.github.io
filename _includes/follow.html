@@ -1,0 +1,75 @@
+<ul>
+<li>
+  <details id="myIframeDetails" style="margin:0; padding: 0; background-color: inherit;">
+    <summary style="margin:0; padding: 0;">Substack</summary>
+    Go to <a href="https://dynomight.substack.com">dynomight.substack.com</a> or use this magical box:
+    <!-- The iframe will be loaded here when details are opened for the first time -->
+    <div id="iframeContainer" style="padding-top: 10px;">
+      <!-- Optional container for styling or if you want to add other things around the iframe -->
+    </div>
+  </details>
+</li>
+<li>
+  <details style="margin:0; padding: 0; background-color: inherit;">
+    <summary style="margin:0; padding: 0;">Email</summary>
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
+    <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
+    <input type="email" name="email" placeholder="your@email.com" style="padding:4px;" /> 
+    <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer; padding:4px;">subscribe</button>
+    <input type="checkbox" id="guide" name="guide" value="guide" style="transform: scale(1); vertical-align: middle;">
+    <label for="guide" style="margin-top:5px; padding:0px; font-size:70%;">also send guide to life</label>
+    </form>
+    <p>This uses some janky infrastructure of my own design. It results the same Substack emails but doesn't require you to agree to Substack's policies.</p><p>There's just the one step to subscribe, no second form or confirmation link or whatever. If you don't like handing out your email address, consider using a relay service like <a href="https://duckduckgo.com/email/">this</a> or <a href="https://addy.io/">this</a> or <a href="https://simplelogin.io/pricing/">this</a>. That said, I am exceedingly virtuous.</p>
+  </details>
+</li>
+<li>
+  Mastodon: <a href="https://mastodon.social/@dynomight">@dynomight@mastodon.social</a>
+</li>
+<li>
+  Bluesky: <a href="https://bsky.app/profile/dynomight.net">@dynomight.net</a>
+</li>
+<li>
+  RSS: <a href="https://dynomight.net/feed.xml">dynomight.net/feed.xml</a>
+</li>
+<li>
+  Doing nothing ಠ_ಠ
+</li>
+</ul>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const detailsElement = document.getElementById('myIframeDetails');
+      const iframeContainer = document.getElementById('iframeContainer');
+      let iframeLoaded = false; // Flag to track if the iframe has been loaded
+    
+      detailsElement.addEventListener('toggle', function() {
+        if (detailsElement.open && !iframeLoaded) {
+          // If details is opened AND iframe hasn't been loaded yet
+          console.log('Details opened, loading iframe...');
+    
+          var iframe = document.createElement('iframe');
+          iframe.src = 'https://dynomight.substack.com/embed'; // Replace with your desired URL
+    
+          // Set dimensions
+          iframe.width = '480';
+          iframe.height = '320';
+    
+          // Apply provided styles
+          iframe.style.border = '1px solid #EEE';
+          iframe.style.background = 'white';
+          iframe.setAttribute('frameborder', '0');
+          iframe.setAttribute('scrolling', 'no');
+    
+          iframeContainer.appendChild(iframe);
+          iframeLoaded = true; // Set the flag to true so it doesn't load again
+        } else if (detailsElement.open && iframeLoaded) {
+          console.log('Details opened, iframe already loaded.');
+        } else {
+          console.log('Details closed.');
+        }
+      });
+    });
+    </script>
+    

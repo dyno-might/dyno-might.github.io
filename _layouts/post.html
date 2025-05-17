@@ -58,46 +58,78 @@ document.querySelectorAll('h3[id]').forEach((h3) => {
       {% include comments-and-replies.html %}
     </div>
 
-  <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.3;" id="outerForm">     
-    <p>
-    <button id="toggleButton" onclick="toggleContent()" style="position: absolute; top: 5px; right: 5px; background: none; border: none; cursor: pointer;">[-]</button>
-
-    <div id="sForm">      
-      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="subForm" method="POST" style="max-width:97%;"> 
-        <span class="headerfont" style="font-size:80%; margin-bottom:0; display:inline-block;">
-          New dynomight <strike>every</strike> thursday
-        </span>
-        <span class="headerfont" style="margin-bottom:2px; font-size:80%; display:inline-block;">(or try <a href="https://dynomight.substack.com/">substack</a> / <a href="/feed.xml">rss</a>)</span>
-        <span style="display:inline-block">
-          <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
-          <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
-          <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-          <input type="hidden" name="_captcha" value="false" /> 
-          <input type="text" name="_honey" style="display:none">
-          <input type="hidden" name="_url" value="https://dynomight.net/" />
-          <button type="submit" id="submitButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:80%;">ok calm down</button> 
-        </span>
-      </form>
+    <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.3;" id="outerForm">     
       <p>
+      <div>        
+        <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST" style="max-width:97%;"> 
+          <span class="headerfont" style="font-size:80%; margin-bottom:0; display:inline-block;">
+            Mistakes?
+          </span>
+          <span style="display:inline-block">
+            <input type="text" class="headerfont" name="errors" placeholder="you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
+            <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
+            <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+            <input type="hidden" name="_captcha" value="false" /> 
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_url" value="https://dynomight.net/" />
+            <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:80%;">fix plz</button> 
+          </span>
+        </form>
+      </div>    
+    </div>
+    <p>
 
-      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST" style="max-width:97%;"> 
-        <span class="headerfont" style="font-size:80%; margin-bottom:0; display:inline-block;">
-          Mistakes?
-        </span>
-        <span style="display:inline-block">
-          <input type="text" class="headerfont" name="errors" placeholder="you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
-          <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
-          <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
-          <input type="hidden" name="_captcha" value="false" /> 
-          <input type="text" name="_honey" style="display:none">
-          <input type="hidden" name="_url" value="https://dynomight.net/" />
-          <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:80%;">fix plz</button> 
-        </span>
-      </form>
-    </div>    
-  </div>
-  <p>
+    <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.3;" id="outerForm">
+      <span class="headerfont" style="font-size:80%; margin:0; padding: 0;">
+        <details style="background-color: inherit; margin:0; padding: 0;"><summary>If you'd like to follow me, you can do that via...</summary>
+          {% include follow.html %}
+        </details>
+      </span>
+    </div>
 
+    {% comment %}
+    <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.3;" id="outerForm">     
+      <p>
+      <button id="toggleButton" onclick="toggleContent()" style="position: absolute; top: 5px; right: 5px; background: none; border: none; cursor: pointer;">[-]</button>
+
+      <div id="sForm">      
+        <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="subForm" method="POST" style="max-width:97%;"> 
+          <span class="headerfont" style="font-size:80%; margin-bottom:0; display:inline-block;">
+            New dynomight <strike>every</strike> thursday
+          </span>
+          <span class="headerfont" style="margin-bottom:2px; font-size:80%; display:inline-block;">(or try <a href="https://dynomight.substack.com/">substack</a> / <a href="/feed.xml">rss</a>)</span>
+          <span style="display:inline-block">
+            <input type="email" class="headerfont" name="email" placeholder="email@email.com" style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
+            <input type="hidden" name="_subject" value="SUBSCRIBE {{include.id}} {{page.title | slice: 0,20}}" /> 
+            <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+            <input type="hidden" name="_captcha" value="false" /> 
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_url" value="https://dynomight.net/" />
+            <button type="submit" id="submitButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:80%;">ok calm down</button> 
+          </span>
+        </form>
+        <p>
+
+        <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST" style="max-width:97%;"> 
+          <span class="headerfont" style="font-size:80%; margin-bottom:0; display:inline-block;">
+            Mistakes?
+          </span>
+          <span style="display:inline-block">
+            <input type="text" class="headerfont" name="errors" placeholder="you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:80%;" required> 
+            <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
+            <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+            <input type="hidden" name="_captcha" value="false" /> 
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_url" value="https://dynomight.net/" />
+            <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:80%;">fix plz</button> 
+          </span>
+        </form>
+      </div>    
+    </div>
+    <p>
+    {% endcomment %}
+    
+      
   {% comment %}
   <div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.1;" id="outerForm"> 
     <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST" id="sForm" style="max-width:100%;"> 
