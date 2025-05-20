@@ -41,7 +41,7 @@ So what is heritability? It's the ratio of the *genetic variance* of a trait wit
 * How do changes in the environment lead to changes in heritability?
 * Why is heritability often higher for traits that seem less important? For example, why is pig back-fat thickness 14× more heritable than pig litter size?
 * How can a trait still be 100% heritable, even when there are large environmental effects?
-* How, when there are correlations between genes and the environment, can traits can be *more than* 100% heritable?
+* How, when there are correlations between genes and the environment, can traits be *more than* 100% heritable?
 
 The only math we'll use is the concept of [variance](https://en.wikipedia.org/wiki/Variance). If you're not familiar with that, just think of it as "how variable" something is. Humans have high variance in how much we like folk music, but low variance in our number of fingers.
 
