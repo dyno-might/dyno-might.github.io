@@ -21,7 +21,7 @@ You've probably heard some version of this thought experiment before. It origina
 
 ## Spectrum arguments
 
-Let's start with three arguments all reminiscent of the [ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) or the [sorties paradox](https://en.wikipedia.org/wiki/Sorites_paradox).
+Let's start with three arguments all reminiscent of the [ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) or the [sorites paradox](https://en.wikipedia.org/wiki/Sorites_paradox).
 
 **Napoleon's surgery**
 
