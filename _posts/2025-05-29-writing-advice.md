@@ -6,14 +6,14 @@ tags:
 description: "make something you would actually like" 
 excerpt: ""
 permalink: /writing-advice/
-background_color: rgb(138,126,107)
+background_color: rgb(188,182,182)
 category: "writing"
 #seo:
 #  date_modified: 2025-05-29
 #last_modified_at: 2025-05-29
-#comment:
-#  lemmmy: "https://old.lemmy.world/post/30071413"
-#  substack: "https://dynomight.substack.com/p/dumpy/"
+comment:
+  lemmmy: "https://old.lemmy.world/post/30451112"
+  substack: "https://dynomight.substack.com/p/writing-advice"
 head: ""
 
 ---
@@ -184,7 +184,7 @@ It's always tempting to ignore that feeling. Everything else is already in place
 
 In the long-long ago, writing was paragraph after paragraph. At some point, we decided that was boring, and started adding more "formatting", like section titles and lists and tables and figure captions, etc.
 
-I think we've now reached the point, where it's more common to use *too* much formatting. A lot of people crazy and create that's almost *all* formatting. This is disorienting for readers, and I think it often reflects writers being afraid to do the hard work of writing paragraphs that make sense.
+I think we've now reached the point where it's common to use *too* much formatting. Some people go crazy and create writing that's almost *all* formatting. This is disorienting for readers, and I think it often reflects writers being afraid to do the hard work of writing paragraphs that make sense.
 
 If in doubt, I think it's best to start with less formatting, to make sure your paragraphs are the "cake" and the formatting is just "icing".
 
