@@ -58,7 +58,7 @@ Now, why make something you would **actually** like? In short, because your brai
 
 Probably our brains lie to us for good reasons. Probably it's good that we think we're better looking than we are, because that makes us more confident and [effectiveness beats accuracy](https://dynomight.net/beliefs/), etc. But while it's hard to improve your looks, it's easy to improve your writing. At least, it would be if you could see it for what it is.
 
-Your brain also lies to you by telling you your writing is clear. When you write, you take some complex network of ideas that lives in your brain and compile them into a [linear sequence of words](https://dynomight.net/internet-writing/). Other people *only* see those words.
+Your brain also lies to you by telling you your writing is clear. When you write, you take some complex network of ideas that lives in your brain and compile it into a [linear sequence of words](https://dynomight.net/internet-writing/). Other people *only* see those words.
 
 There's no simple formula for avoiding either of these. But try to resist.
 
@@ -68,33 +68,33 @@ I don't know how to explain this, but I think it's very important: You should be
 
 As a simple example, why is the word "consigliere" up there a link? Well, not everyone knows what that means. But I don't like having a link, because it sort of makes me look stupid, like I just learned that word last week. But I'm on your side, goddamnit.
 
-As another example, many people wonder how confident they writing should be. I think your confidence should reflect whatever you actually believe. Lots of people pick a conclusion and dismiss all conflicting evidence. Obviously, that does not treat the reader as an ally. But at the same time, after you've given a fair view of the evidence, *if* you think there's a clear answer, admit it. Your readers want to know! Compare these three styles:
+As another example, many people wonder how confident their tone should be. I think your confidence should reflect whatever you actually believe. Lots of people pick a conclusion and dismiss all conflicting evidence. Obviously, that does not treat the reader as an ally. But at the same time, after you've given a fair view of the evidence, *if* you think there's a clear answer, admit it. Your readers want to know! Compare these three styles:
 
 1. "This is the Truth, only fools disagree."
 2. "Here's what I think and why I think it."
 3. "Here's a bunch of evidence, about which I supposedly have no opinion."
 
-Number 1 is dishonest. But arguably number 3 is *also* dishonest. Treat your reader like an ally, who wants all the information, including your conclusion.
+Number 1 is dishonest. But arguably number 3 is *also* dishonest. Treat your reader like an ally, who wants all the information, including your opinion.
 
 ## Ideas aren't that valuable
 
 I want to write a post called "measles". The idea is to look into why it declined [when it did](https://ourworldindata.org/grapher/measles-cases-and-death), what risks measles vaccines might pose, and what would happen if people stopped getting vaccinated.
 
-That's the whole idea. I have nothing else and don't know the answers. Yet I'm pretty sure this would be good, just because when I tried to find answers to those questions, instead of treating me like an ally, all the scientifically credible sources treated me like a complete idiot who can't be trusted with any information that might lead them to the "wrong" conclusion.
+That's the whole idea. I have nothing else and don't know the answers. Yet I'm pretty sure this would be good, just because when I tried to find answers, none of the scientifically credible sources treated me like an ally. Instead, they seemed to regard me as a complete idiot, who can't be trusted with any information that might lead to the "wrong" conclusion.
 
-If you want that post idea, take it! That would make me happy, because I have hundreds of such ideas, and I won't live long enough to write more than a tiny fraction of them. Almost all the value is in the *execution*.
+If you want that idea, take it! That would make me happy, because I have hundreds of such ideas, and I won't live long enough to write more than a tiny fraction of them. Almost all the value is in the *execution*.
 
 Some people worry about running out of ideas. I swear this is impossible. The more you write, the *easier* ideas are to find.
 
-One reason is that as you write, you learn stuff, which qualifies you to write about more things and sort of reveals ever-more of world's fractal complexity. Also, experience makes it *much* easier to recognize ideas that would translate into good posts, but only makes it *slightly* easier to execute on those ideas. So the ideas pile up faster and faster, at an ever-accelerating pace.
+One reason is that when you write, you learn stuff. This qualifies you to write about more things and reveals more of world's fractal complexity. Also, experience makes it *much* easier to recognize ideas that would translate into good posts, but only makes it *slightly* easier to execute on those ideas. So the ideas pile up, at an ever-accelerating pace.
 
-If you *really* run out, just take one of your old ideas and do it again, better. It's fine, I promise.
+If you *really* run out of ideas, just take one of your old ones and do it again, better. It's fine, I promise.
 
 ## Getting feedback
 
 The obvious antidote for your lying brain is feedback from other people. But this is tricky. For one thing, the people who love you enough to read your drafts may not be in your target audience. If they wouldn't read it voluntarily, you probably don't want to optimize *too* hard for them.
 
-It's also hard to get people to give negative feedback. I sometimes ask people to mark each paragraph according to a modified [CRIBS](https://perell.com/note/cribs-my-writing-feedback-formula/) system as either **C**onfusing, **R**epetitive, **I**nteresting, **B**oring or **S**horten. I also like to ask, "If you *had* to cut 25%, what would you pick?"
+It's also hard to get people to give negative feedback. I sometimes ask people to mark each paragraph according to a modified [CRIBS](https://perell.com/note/cribs-my-writing-feedback-formula/) system as either Confusing, Repetitive, Interesting, Boring or Shorten. I also like to ask, "If you *had* to cut 25%, what would you pick?"
 
 People are better at finding problems than at giving solutions. If they didn't understand you, how could they tell you what to change? It's usually best if you propose a change, and then ask them if that fixes the problem.
 
@@ -106,7 +106,7 @@ Also, remember that people can only read something for the first time once. Also
 
 You should probably edit, a lot. Some people with Godlike Talent don't edit. But the rest of us should.
 
-One way to edit is leave your writing alone for a week or two. This gives you back *some* of the perspective of a new reader, and makes it emotionally easier to delete stuff.
+One way to edit is leave your writing alone for a week or two. This gives you back some of the perspective of a new reader, and makes it emotionally easier to delete stuff.
 
 Here's another exercise: Take your thing and print it out. Then, go through and circle the "good parts". Then, delete everything else. If absolutely necessary, bring back other stuff to connect the good parts. But are you sure you need to do that?
 
@@ -114,11 +114,11 @@ Here's another exercise: Take your thing and print it out. Then, go through and 
 
 I think you fuckers all take yourselves too seriously.
 
-There might be some [Bourdieu](https://dynomight.net/bourdieu/)-esque cultural capital thing with humor. Maybe making jokes while discussing serious ideas is a kind of countersignaling, like a billionaire wearing sneakers. Maybe it's a way of saying, "Look at me, I can act casual and still people take me seriously! Clearly I am a big deal!" If you look at it that way, it seems kind of gross. But I wouldn't worry about it, because Bourdieu-esque countersignaling makes everything seem gross. If you like humor, do humor.
+There might be some [Bourdieu](https://dynomight.net/bourdieu/)-esque cultural capital thing with humor. Maybe making jokes while discussing serious ideas is a kind of countersignaling, like a billionaire wearing sneakers. Maybe it's a way of saying, "Look at me, I can act casual and people still take me seriously! Clearly I am a big deal!" If you look at it that way, it seems kind of gross. But I wouldn't worry about it, because Bourdieu-esque countersignaling makes everything seem gross. If you like humor, do humor.
 
-My one insight is that humor needs to be "worth it". Very short jokes are funny, even when they're not very funny. For example, my use of "fuckers" up there wasn't very funny. But it *was* funny (to me) because it's just a single word. Except it's crude, so maybe it wasn't funny? *Except*, hey look, now I'm using it to illustrate a point, so it wasn't *pointlessly* crude. Thus, it was funny after all. Q.E.D.
+My one insight is that humor needs to be "worth it". Very short jokes are funny, even when they're not very funny. For example, my use of "fuckers" up there wasn't very funny. But it *was* funny (to me) because it's just a single word. Except it's crude, so maybe it wasn't funny? *Except*, hey look, now I'm using it to illustrate a larger idea, so it wasn't *pointlessly* crude. Thus, it was funny after all. Q.E.D.
 
-Behold the Dynomight™️ funniness formula:
+Behold the Dynomight funniness formula:
 
 &nbsp;&nbsp;&nbsp;&nbsp; <code>(Actual funniness) = (Baseline funniness) / (Cost of joke)</code>
 
