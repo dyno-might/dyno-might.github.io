@@ -34,7 +34,7 @@ Actually, let me bold the important words: Make something **you** would **actual
 
 Why make something **you** would like? To be clear, I'm not suggesting you write "for yourself". I assume that your terminal goal is to make something *other* people like.
 
-But try this experiment: Go write a few thousand words and give them to someone who loves you. Now, go through paragraph-by-paragraph and try to predict what was going through their heads. It's impossible! I tell you, it cannot be done!
+But try this experiment: Go write a few thousand words and give them to someone who loves you. Now, go through paragraph-by-paragraph and try to predict what was going through their heads. It's impossible. I tell you, it cannot be done!
 
 Personally, I think this is because nobody really understands anyone else. (I recently discovered that my mother secretly hates tomatoes.) If you try to make something that other people would like, rather than yourself, you'll likely just end up with something no one likes.
 
@@ -80,7 +80,7 @@ Number 1 is dishonest. But arguably number 3 is *also* dishonest. Treat your rea
 
 I want to write a post called "measles". The idea is to look into why it declined [when it did](https://ourworldindata.org/grapher/measles-cases-and-death), what risks measles vaccines might pose, and what would happen if people stopped getting vaccinated.
 
-That's the whole idea. I have nothing else and don't know the answers. Yet I'm pretty sure this would be good, just because when I tried to find answers, none of the scientifically credible sources treated me like an ally. Instead, they seemed to regard me as a complete idiot, who can't be trusted with any information that might lead to the "wrong" conclusion.
+That's the whole idea. I have nothing else and don't know the answers. Yet I'm pretty sure this post would be good, just because when I tried to find answers, none of the scientifically credible sources treated me like an ally. Instead, they seemed to regard me as a complete idiot, who can't be trusted with any information that might lead to the "wrong" conclusion.
 
 If you want that idea, take it! That would make me happy, because I have hundreds of such ideas, and I won't live long enough to write more than a tiny fraction of them. Almost all the value is in the *execution*.
 
