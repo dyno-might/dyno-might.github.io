@@ -8,9 +8,9 @@ excerpt: ""
 permalink: /writing-advice/
 background_color: rgb(188,182,182)
 category: "writing"
-#seo:
-#  date_modified: 2025-05-29
-#last_modified_at: 2025-05-29
+seo:
+  date_modified: 2025-06-05
+last_modified_at: 2025-06-05
 comment:
   lemmmy: "https://old.lemmy.world/post/30451112"
   substack: "https://dynomight.substack.com/p/writing-advice"
@@ -34,7 +34,7 @@ Actually, let me bold the important words: Make something **you** would **actual
 
 Why make something **you** would like? To be clear, I'm not suggesting you write "for yourself". I assume that your terminal goal is to make something *other* people like.
 
-But try this experiment: Go write a few thousand words and give them to someone who loves you. Now, go through paragraph-by-paragraph and try to predict what was going through their head. It's impossible. I tell you, it cannot be done!
+But try this experiment: Go write a few thousand words and give them to someone who loves you. Now, go through paragraph-by-paragraph and try to predict what was going through their head while reading. It's impossible. I tell you, it cannot be done!
 
 Personally, I think this is because nobody really understands anyone else. (I recently discovered that my mother secretly hates tomatoes.) If you try to make something that other people would like, rather than yourself, you'll likely just end up with something no one likes.
 
