@@ -137,7 +137,7 @@ Now let's delete a bunch of people. After the purge, instead of half being short
 
 Leave the food difference fixed at **b=1**. The environment doesn't change during the purge, so the variance of E remains one.
 
-The genetic variance does change. If almost everyone has short genes (**a** is near zero), then almost everyone will have G=2, meaning the variance of G will be small. If **a** is ½, we get the previous model. A bit of math gives the following plot.
+The genetic variance does change. If almost everyone has short genes (**a** is near one), then almost everyone will have G=2, meaning the variance of G will be small. If **a** is ½, we get the previous model. A bit of math gives the following plot.
 
 [![scenario 1 variances](/img/heritability/scenario-1-var.svg)](/img/heritability/scenario-1-var.pdf)
 
