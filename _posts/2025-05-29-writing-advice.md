@@ -38,7 +38,7 @@ But try this experiment: Go write a few thousand words and give them to someone 
 
 Personally, I think this is because nobody really understands anyone else. (I recently discovered that my mother secretly hates tomatoes.) If you try to make something that other people would like, rather than yourself, you'll likely just end up with something no one likes.
 
-The good news is that none of us are that unique. If *you* like it, then I guarantee you that lots of other will too. It's a big internet.
+The good news is that none of us are that unique. If *you* like it, then I guarantee you that lots of others will too. It's a big internet.
 
 Most decisions follow from this principle. Should your thing be long and breezy or short and to the point? Should you start with an attention-grabbing story? Should you put your main conclusion upfront? How formal should you be? Should you tell personal stories? I think the answer is: Do whatever you would like, if you were the reader.
 
