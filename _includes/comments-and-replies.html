@@ -16,7 +16,7 @@ Comments at
   <span>
     Mistakes?
   </span>
-  <span style="display:inline-block">
+  <span style="display:inline-block" id="mistakes">
     <input type="text" class="headerfont" name="errors" placeholder=" you misspelled..." style="max-width: 14ch; padding:1px; border:1; font-size:100%;" required> 
     <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
     <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
@@ -25,4 +25,13 @@ Comments at
     <input type="hidden" name="_url" value="https://dynomight.net/" />
     <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:100%;">fix plz</button> 
   </span>
+  <div class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray;">(Please don't test, it's super annoying. If you just want to see what happens, go <a href="https://dynomight.net/respond_success.html">here</a>.)</div>
 </form>
+
+<style>
+  #mistakes:focus-within ~ .popup-on-focus {
+    visibility: visible !important; /* Use !important to override inline 'display: none;' */
+    pointer-events: auto !important;
+    transition: visibility 0s 0s, pointer-events 0s 0s !important; /* Reset transition for showing */
+  }
+</style>
