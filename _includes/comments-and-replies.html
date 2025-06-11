@@ -25,13 +25,13 @@ Comments at
     <input type="hidden" name="_url" value="https://dynomight.net/" />
     <button type="submit" id="errorButton" class="headerfont" style="margin:0; padding:1px; cursor:pointer; font-size:100%;">fix plz</button> 
   </span>
-  <div class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray;">(Please don't test, it's super annoying. If you just want to see what happens, go <a href="https://dynomight.net/respond_success.html">here</a>.)</div>
+  <div class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray;">(Don't test, it's annoying. If you want to see what happens, go <a href="https://dynomight.net/respond_success.html">here</a>.)</div>
 </form>
 
 <style>
   #mistakes:focus-within ~ .popup-on-focus {
-    visibility: visible !important; /* Use !important to override inline 'display: none;' */
+    visibility: visible !important;
     pointer-events: auto !important;
-    transition: visibility 0s 0s, pointer-events 0s 0s !important; /* Reset transition for showing */
+    transition: visibility 0s 0s, pointer-events 0s 0s !important;
   }
 </style>
