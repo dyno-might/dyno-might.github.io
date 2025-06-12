@@ -32,7 +32,7 @@ First up though—in which of the following scenarios would you be doing espiona
 
 5. You work for the New York Times. You give a friend at the CIA some tips on how to steal some documents that prove the CIA is doing illegal stuff. The documents also contain a list of CIA spies, but whatever, you publish them anyway.
 
-6. You work for the New York Time. Unprompted by you, a friend at the CIA gives you some documents that prove the CIA is doing illegal stuff. There's also a list of CIA spies, but whatever, you publish them anyway.
+6. You work for the New York Times. Unprompted by you, a friend at the CIA gives you some documents that prove the CIA is doing illegal stuff. There's also a list of CIA spies, but whatever, you publish them anyway.
 
 7. You work for the New York Times. Unprompted by you, a friend at the CIA gives you documents that prove the CIA is doing illegal stuff. You redact any sensitive information and publish them.
 
