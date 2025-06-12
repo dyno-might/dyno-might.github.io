@@ -74,7 +74,7 @@ In 2016, it looked like the NIAAA had found an elegant solution:
 * Five alcohol companies would donate money for a trial.
 * The NIH would ask researchers to send proposals for how they'd run a trial.
 * The NIH would choose the scientifically best proposal, just like they do with any government-funded grant. The donors would have no influence on the process.
-* The make the results trustworthy, there would be a "firewall", with no communication between the industry and the research team.
+* To make the results trustworthy, there would be a "firewall", with no communication between the industry and the research team.
 
 Sounds promising. But if we go forward a couple of years, everything suddenly blows up.
 
