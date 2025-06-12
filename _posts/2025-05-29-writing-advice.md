@@ -12,7 +12,7 @@ seo:
   date_modified: 2025-06-05
 last_modified_at: 2025-06-05
 comment:
-  lemmmy: "https://old.lemmy.world/post/30451112"
+  lemmy: "https://old.lemmy.world/post/30451112"
   substack: "https://dynomight.substack.com/p/writing-advice"
 head: ""
 
