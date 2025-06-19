@@ -11,9 +11,9 @@ category: "philosophy"
 #seo:
 #  date_modified: 2025-06-19
 #last_modified_at: 2025-06-19
-#comment:
-#  lemmy: "https://old.lemmy.world/post/31531823"
-#  substack: "https://dynomight.substack.com/p/puzzles-results"
+comment:
+  lemmy: "https://old.lemmy.world/post/31667139"
+  substack: "https://dynomight.substack.com/p/puzzles-results"
 head: ""
 
 ---
