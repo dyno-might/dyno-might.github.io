@@ -34,7 +34,7 @@ Here's the first batch of puzzles.
 
 ![](/img/puzzles-results/chickens.svg)
 
-Here, **Humans** is the mean prediction of readers and **Readers** is the percentage that *personally* agreed. I've plotted personal opinions separately, since dynomight readers are a highly distinct (and more awesome) population from average Western adults.
+Here, **Humans** is the mean prediction of readers and **Readers** is the percentage that *personally* agreed. Note that personal opinions aren't really a prediction of the same thing, since dynomight readers are a highly distinct (and more awesome) population from average Western adults.
 
 **Hydrocephalus**
 
