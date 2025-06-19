@@ -22,7 +22,7 @@ Many people are worried if future AI systems will understand human values. But h
 
 To test this, I created twelve moral puzzles and asked you to answer them. (As I write, 1547 of you answered.) Then I put those same puzzles to a set of eight frontier AI models.
 
-The only change I made for the AI models was adding "Here's an abstract moral question" and "Give a number", in the hope of getting concrete answers. For the sake of rigor or whatever, I kept all the typos and confusing wording you had to endure. Please no more complaints about my typos and confusing wording.
+The only change I made for the AI models was adding "Here's an abstract moral question" and "Give a number", in the hope of getting concrete answers. For the sake of rigor or whatever, I kept all the typos and confusing wording you had to endure. Please no more complaints about my typos and confusing wording, I beg you.
 
 Here's the first batch of puzzles.
 
