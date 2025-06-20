@@ -18,7 +18,9 @@ head: ""
 
 ---
 
-*Update*: I have heard your screams of pain regarding the plots. I've added simple bar charts for each question.
+*Update (2025.06.19)*: I have heard your screams of pain regarding the plots. I've added simple bar charts for each question.
+
+*Update (2025.06.20)*: OK, I added another visualization, courtesy of [wirmgurl](https://x.com/wirmgurl).
 
 Many people are worried if future AI systems will understand human values. But how well do *current* AI systems understand human values?
 
@@ -128,9 +130,13 @@ And here's a summary for this last batch:
 
 ![](/img/puzzles-results/morals_superweird.svg)
 
+Finally, here's another visualization of all the results, courtesy of [wirmgurl](https://x.com/wirmgurl). The dotted line represents the prediction for Western adults from readers.
+
+[![](/img/puzzles-results/man_vs_machine.svg)](/img/puzzles-results/man_vs_machine.svg)
+
 <details markdown="1">
 <summary>
-(Click here for the raw results)
+(Click here for the raw results as tables.)
 </summary>
 **Chickens**
 
@@ -335,7 +341,6 @@ And here's a summary for this last batch:
 | Qwen 3 325B      | 40%      |
 | Gemini 2.5 Flash | Refuses  |
 | (Readers)        | 68.39%   |
-
 
 </details>
 
