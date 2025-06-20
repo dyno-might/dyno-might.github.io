@@ -8,9 +8,9 @@ excerpt: ""
 permalink: /puzzles-results/
 background_color: rgb(0,87,132)
 category: "philosophy"
-#seo:
-#  date_modified: 2025-06-19
-#last_modified_at: 2025-06-19
+seo:
+  date_modified: 2025-06-20
+  last_modified_at: 2025-06-20
 comment:
   lemmy: "https://old.lemmy.world/post/31667139"
   substack: "https://dynomight.substack.com/p/puzzles-results"
@@ -18,13 +18,13 @@ head: ""
 
 ---
 
+*Update*: I have heard your screams of pain regarding the plots. I've added simple bar charts for each question.
+
 Many people are worried if future AI systems will understand human values. But how well do *current* AI systems understand human values?
 
 To test this, I created twelve moral puzzles and asked you to answer them. (As I write, 1547 of you answered.) Then I put those same puzzles to a set of eight frontier AI models.
 
 The only change I made for the AI models was adding "Here's an abstract moral question" and "Give a number", in the hope of getting concrete answers. For the sake of rigor or whatever, I kept all the typos and confusing wording you had to endure. Please no more complaints about my typos and confusing wording, I beg you.
-
-*Update*: I have heard your screams of pain regarding the plots. I've added simple bar charts for each question.
 
 Here's the first batch of puzzles.
 
