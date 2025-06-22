@@ -94,7 +94,7 @@ If you *really* run out of ideas, just take one of your old ones and do it again
 
 The obvious antidote for your lying brain is feedback from other people. But this is tricky. For one thing, the people who love you enough to read your drafts may not be in your target audience. If they wouldn't read it voluntarily, you probably don't want to optimize *too* hard for them.
 
-It's also hard to get people to give negative feedback. I sometimes ask people to mark each paragraph according to a modified [CRIBS](https://perell.com/note/cribs-my-writing-feedback-formula/) system as either Confusing, Repetitive, Interesting, Boring or Shorten. I also like to ask, "If you *had* to cut 25%, what would you pick?"
+It's also hard to get people to give negative feedback. I sometimes ask people to mark each paragraph according to a modified [CRIBS](https://perell.com/note/cribs-my-writing-feedback-formula/) system as either Confusing, Repetitive, Interesting, Boring, or Shorten. I also like to ask, "If you *had* to cut 25%, what would you pick?"
 
 People are better at finding problems than at giving solutions. If they didn't understand you, how could they tell you what to change? It's usually best if you propose a change, and then ask them if that fixes the problem.
 
