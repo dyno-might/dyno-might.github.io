@@ -18,18 +18,16 @@ head: ""
 
 ---
 
-[AI 2027](https://ai-2027.com/) forecasts true AGI could plausibly arrive as early as 2027. I recently spent some time looking at both the [timelines forecast](https://ai-2027.com/research/timelines-forecast) and some critiques \[[1](https://thezvi.wordpress.com/2025/04/08/ai-2027-responses/), [2](https://secondthoughts.ai/p/ai-2027), [3](https://titotal.substack.com/p/a-deep-critique-of-ai-2027s-bad-timeline)\].
+[AI 2027](https://ai-2027.com/) forecasts that AGI could plausibly arrive as early as 2027. I recently spent some time looking at both the [timelines forecast](https://ai-2027.com/research/timelines-forecast) and some critiques \[[1](https://thezvi.wordpress.com/2025/04/08/ai-2027-responses/), [2](https://secondthoughts.ai/p/ai-2027), [3](https://titotal.substack.com/p/a-deep-critique-of-ai-2027s-bad-timeline)\].
 
-Initially, I was interested in technical aspects of the forecast. What's the best super-exponential curve? How much probability should it have? But I found myself drawn to a more basic question. Namely, how much value is the math really contributing?
+Initially, I was interested in technical issues. What's the best super-exponential curve? How much probability should it have? But I found myself drawn to a more basic question. Namely, how much value is the math really contributing?
 
-This provides an excuse for a general rant I've long wanted to make. Say you want to forecast something. It could be when your hair will go gray, or if Taiwan will be self-governing in 2050, whatever. Here's one way to do it:
+This provides an excuse for a general rant. Say you want to forecast something. It could be when your hair will go gray or if Taiwan will be self-governing in 2050. Whatever. Here's one way to do it:
 
 1. Think hard.
 2. Make up some numbers.
 
-Don't laugh—that's the classic method.
-
-Alternatively, you could use math:
+Don't laugh—that's the classic method. Alternatively, you could use math:
 
 1. Think hard.
 2. Make up a formal model / math / simulation.
@@ -40,13 +38,13 @@ People are often skeptical of intuition-based forecasts because, "Those are just
 
 So which is better, intuition or math? In what situations?
 
-Here, I'll look at that question and how it applies to AI 2027. Then I'll build a new AI forecast using my personal favorite method of "plot the data and scribble a bunch of curves on top of it". Then I'll show you a little tool to help you make your own artisanal scribble-based AI forecast.
+Here, I'll look at that question and how it applies to AI 2027. Then I'll build a new AI forecast using my personal favorite method of "plot the data and scribble a bunch of curves on top of it". Then I'll show you a little tool to make your own artisanal scribble-based AI forecast.
 
 ## Two kinds of forecasts
 
 To get a sense of the big picture, let's look at two different forecasting problems.
 
-First, here's a forecast (based on the [IPCC 2023 report](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf)) for the mean change in Earth's temperature up until 2100. There are two curves, corresponding to different assumptions about future greenhouse gas emissions.
+First, here's a forecast (based on the [IPCC 2023 report](https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_FullVolume.pdf)) for Earth's temperature. There are two curves, corresponding to different assumptions about future greenhouse gas emissions.
 
 ![](/img/scribbles/ipcc_big.svg)
 
@@ -54,17 +52,15 @@ Those curves look unassuming. But there are a lot of moving parts behind them. T
 
 That's hard. But we basically understand how all of it works, and we've spent a ludicrous amount of effort carefully building the models. If you want to forecast global surface temperature change, this is how I'd suggest you do it. Your brain can't compete, because it can't grind through all those interactions like a computer can.
 
-OK, but here's something else I'd really like to forecast:
+OK, but here's something else I'd really like to forecast: Where is this blue line going to go?
 
 ![](/img/scribbles/nukes.svg)
 
-I'm very interested in where that blue line is going to go.
+You *could* forecast this using a "mechanistic model" like with climate above. To do that, you'd want to model the probability Iran develops a nuclear weapon and what Saudi Arabia / Turkey / Egypt might do in response. And you'd want to do the same thing for Poland / South Korea / Japan and their neighbors. You'd also want to model future changes in demographics, technology, politics, technology, economics, military conflicts, etc.
 
-You *could* forecast this using a "mechanistic model" like with the climate model above. To do that, you'd want to model the probability Iran develops a nuclear weapon and what Saudi Arabia / Turkey / Egypt might do in response. And you'd want to do the same thing for Poland / South Korea / Japan and their neighbors. You'd also want to model future changes in demographics, technology, politics, technology, economics, military conflicts, etc.
+In *principle*, that would be the best method. As with climate, there are too many plausible futures for your tiny brain to work through. But building that model would be very hard, because it basically requires you to model the whole world. And if there's an error anywhere, it could have serious consequences.
 
-In *principle*, that would be the best method. As with climate, there are too many possible futures for your tiny little brain to work through. But building that model would be very hard, because it basically requires you to model the whole world. And if there's an error anywhere, it could have serious consequences.
-
-In practice, I'd put more trust in intuition. A talented human (or [AI](https://dynomight.net/predictions/)?) forecaster would probably look at the above curve and take some ["outside view"](https://en.wikipedia.org/wiki/Reference_class_forecasting) like, "Over the last 80 years, the number of countries has gone up by 9, so in 2105, it might be around 18." Then, they'd consider adjusting for things like, "Will other countries might learn from the example of North Korea?" or "Will chemical enrichment methods become practical?"
+In practice, I'd put more trust in intuition. A talented human (or [AI](https://dynomight.net/predictions/)?) forecaster would probably take an [outside view](https://en.wikipedia.org/wiki/Reference_class_forecasting) like, "Over the last 80 years, the number of countries has gone up by 9, so in 2105, it might be around 18." Then, they'd consider adjusting for things like, "Will other countries might learn from the example of North Korea?" or "Will chemical enrichment methods become practical?"
 
 Intuition can't churn through possible futures the way a simulation can. But if you don't *have* a reliable simulator, maybe that's OK.
 
@@ -73,9 +69,9 @@ Broadly speaking, math/simulation-based forecasts shine when the phenomena you'r
 1. It evolves according to some well-understood rule-set.
 2. The *behavior* of the ruleset is relatively complex.
 
-You need the first, because if you don't have a good model for the ruleset (or at least your *uncertainty* about the ruleset), how will you build a reliable simulator? You need the second because if the behavior is simple, why do you even need a simulator?
+The first is important because if you don't have a good model for the ruleset (or at least your *uncertainty* about the ruleset), how will you build a reliable simulator? The second is important because if the behavior is simple, why do you even need a simulator?
 
-The ideal thing to forecast with math is something like [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Simple known rules, great emergent complexity. The worst thing to forecast with math is something like the probability that Jesus Christ returns next year. You could make up some math for that, but what would be the point?
+The ideal thing to forecast with math is something like [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Simple known rules, huge emergent complexity. The worst thing to forecast with math is something like the probability that Jesus Christ returns next year. You could make up some math for that, but what would be the point?
 
 ## The AI 2027 forecast
 
