@@ -11,9 +11,9 @@ category: "science"
 #seo:
 #  date_modified: 2025-06-20
 #  last_modified_at: 2025-06-20
-#comment:
-#  lemmy: "https://old.lemmy.world/post/32031381"
-#  substack: "https://dynomight.substack.com/p/wanting"
+comment:
+  lemmy: "https://old.lemmy.world/post/32276475"
+  substack: "https://dynomight.substack.com/p/scribbles"
 head: ""
 
 ---
