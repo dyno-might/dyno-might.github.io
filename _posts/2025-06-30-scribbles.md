@@ -75,15 +75,15 @@ The ideal thing to forecast with math is something like [Conway's game of life](
 
 ## The AI 2027 forecast
 
-This post is (ostensibly) about AI 2027. So how does that forecast work? They actually have several forecasts, but here I'll focus on the [Time horizon extension](https://ai-2027.com/research/timelines-forecast#method-1-time-horizon-extension) forecast.
+This post is (ostensibly) about AI 2027. So how does their forecast work? They actually have several forecasts, but here I'll focus on the [Time horizon extension](https://ai-2027.com/research/timelines-forecast#method-1-time-horizon-extension) model.
 
-That forecast builds on a [recent METR report](https://arxiv.org/pdf/2503.14499). They took a set of AIs released over the past 6 years, and had them try to complete a set of tasks of varying difficulty. They had humans perform those same tasks. Each AI was rated according to the human task length that it could successfully finish 50% of the time. Here's the first figure from that report, which you may have seen already.
+That forecast builds on a [recent METR report](https://arxiv.org/pdf/2503.14499). They took a set of AIs released over the past 6 years, and had them attempt a set of tasks of varying difficulty. They had humans perform those same tasks. Each AI was rated according to the human task length that it could successfully finish 50% of the time.
 
 ![](/img/scribbles/figure1.svg)
 
-The AI 2027 team figured that if an AI could successfully complete long-enough tasks of this type, then the AI would be capable of itself carrying AI research, and general superhuman AI would not be far away. Quantitatively, they suggest that the necessary length is probably tasks that take somewhere between 1 month and 10 years. They also suggest you'd need a success rate of 80% (rather than 50% in the above figure).
+The AI 2027 team figured that if an AI could successfully complete long-enough tasks of this type, then the AI would be capable of itself carrying AI research, and AGI would not be far away. Quantitatively, they suggest that the necessary task length is probably somewhere between 1 month and 10 years. They also suggest you'd need a success rate of 80% (rather than 50% in the above figure).
 
-So, very roughly speaking, the forecast is based on predicting how long it will take these dots to reach up to one of the horizontal lines:
+So, very roughly speaking, the forecast is based on predicting how long it will take these dots to get up to one of the horizontal lines:
 
 ![](/img/scribbles/curves.svg)
 
@@ -92,7 +92,7 @@ So, very roughly speaking, the forecast is based on predicting how long it will 
 (It's a bit more complicated than that, but that's the core idea.)
 </summary>
 
-Technical notes.
+Technical notes:
 
 *  The AI 2027 team raises the success rate to 80%, rather than 50% in the original figure from the METR report. That's why the dots in the above figure are a bit lower.
 *  I made the above graph using the [data](https://github.com/titotal1993/AI2027critique/blob/main/AI2027polished.ipynb) that [titotal](https://titotal.substack.com/p/a-deep-critique-of-ai-2027s-bad-timeline) extracted from the AI 2027 figures.
@@ -101,7 +101,7 @@ Technical notes.
 
 </details>
 
-I think this framing is great. Instead of an abstract discussion about the arrival of AGI, suddenly we're talking about how quickly a particular set of real measurements will increase. You can argue if "80% success at a 1-year task horizon" really means AGI is imminent or not. But that's kind of the point—no matter what you think about broader issues, surely we'd all like to know how fast those dots are going to go up.
+I think this framing is great. Instead of an abstract discussion about the arrival of AGI, suddenly we're talking about how quickly a particular set of real measurements will increase. You can argue if "80% success at a 1-year task horizon" really means AGI is imminent. But that's kind of the point—no matter what you think about broader issues, surely we'd all like to know how fast those dots are going to go up.
 
 So how fast will they go up? You could imagine building a mechanistic model or simulation. To do that, you'd probably want to model things like:
 
@@ -111,13 +111,13 @@ So how fast will they go up? You could imagine building a mechanistic model or s
 * How does data + compute + algorithmic progress translate into improvements on the METR metrics?
 * How long will those trends hold? How do all those things interact with each other? How do they interact with AI progress itself.
 
-In principle, that makes a lot of sense. Some people predict a future where compute keeps getting cheaper [pretty slowly](https://ourworldindata.org/grapher/gpu-price-performance) and we run out of data and new algorithmic ideas and theoretical metrics stop translating to real-world performance and investment drops off and everything slows down. Other people predict a future where GPUs accelerate and we keep finding better algorithms and AI grows the economy so quickly that investment increases and everything spirals into a singularity. In between those extremes are many other scenarios. A formal model could churn through all of them much better than a human brain.
+In principle, that makes a lot of sense. Some people predict a future where compute keeps getting cheaper [pretty slowly](https://ourworldindata.org/grapher/gpu-price-performance) and we run out of data and new algorithmic ideas and loss functions stop translating to real-world performance and investment drops off and everything slows down. Other people predict a future where GPUs accelerate and we keep finding better algorithms and AI grows the economy so quickly that AI investment increases forever and we spiral into a singularity. In between those extremes are many other scenarios. A formal model could churn through all of them much better than a human brain.
 
 But the AI 2027 forecast is not like that. It doesn't have separate variables for compute / money / algorithmic progress. It (basically) just models the best METR score per year.
 
-That's not *bad*, exactly. But I must admit that I don't quite see the point of a formal mathematical model in this case. It's (basically) just forecasting how quickly a single variable goes up on a graph. The model doesn't reflect any firm knowledge about subtle behavior of the variable other than that the curve goes up.
+That's not *bad*, exactly. But I must admit that I don't quite see the point of a formal mathematical model in this case. It's (basically) just forecasting how quickly a single variable goes up on a graph. The model doesn't reflect any firm knowledge about subtle behavior other than that the curve will probably go up.
 
-In a way, I think this makes the AI 2027 forecast seem *weaker* than it actually is. Math is hard. There are lots of technicalities to argue with. But their broader point doesn't *need* any math. Say you accept their argument that 80% success on the METR measurement at tasks that take humans 1 month / 1 year / 10 years means that AGI is imminent. Then you should believe AGI is around the corner *unless those dots slow down*. An argument that their math is flawed doesn't imply that the dots are going to stop going up!
+In a way, I think this makes the AI 2027 forecast seem *weaker* than it actually is. Math is hard. There are lots of technicalities to argue with. But their broader point doesn't need math. Say you accept their premise that 80% success on tasks that take humans 1 year means that AGI is imminent. Then you should believe AGI is around the corner *unless those dots slow down*. An argument that their math is flawed doesn't imply that the dots are going to stop going up.
 
 ## Scribble-based forecasting
 
@@ -125,7 +125,7 @@ So, what's going to happen with those dots? The ultimate outside view is probabl
 
 ![](/img/scribbles/curves_with_lines.svg)
 
-I guess that's not terrible. But personally, I feel like it's plausible that the recent acceleration continues. I also think it's plausible that in a couple of years we stop spending ever-larger amounts on training AI models and things slow down. A lot of things seem possible. For a *forecast*, I want a probability that a certain threshold is reached by a given year.
+I guess that's not terrible. But personally, I feel like it's plausible that the recent acceleration continues. I also think it's plausible that in a couple of years we stop spending ever-larger sums on training AI models and things slow down. And for a *forecast*, I want probabilities.
 
 So I took the above dots and I scribbled 50 different curves on top, corresponding to what I felt were 50 plausible futures:
 
