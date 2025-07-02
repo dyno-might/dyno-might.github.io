@@ -195,7 +195,7 @@ Often, people want to make some argument, and they find themselves mired in endl
 1. You have good reasons; or
 2. You don't.
 
-If it's the former, you don't need to do new research. Just mentally switch from trying to explain "why it is true" to explaining [*why* you already believe it](https://www.lesswrong.com/posts/Psr9tnQFuEXiuqGcR/how-to-write-quickly-while-maintaining-epistemic-rigor). Give your ally you true level of confidence. If it's the latter, stop believing stuff without good reasons!
+If it's the former, you don't need to do new research. Just mentally switch from trying to explain "why it is true" to explaining [why you already believe it](https://www.lesswrong.com/posts/Psr9tnQFuEXiuqGcR/how-to-write-quickly-while-maintaining-epistemic-rigor). Give your ally your true level of confidence. If it's the latter, stop believing stuff without good reasons!
 
 **How to write.**
 
