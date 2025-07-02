@@ -14,6 +14,8 @@ category: "science"
 comment:
   lemmy: "https://old.lemmy.world/post/32276475"
   substack: "https://dynomight.substack.com/p/scribbles"
+replies:
+  casey milkweed: https://caseymilkweed.substack.com/p/response-to-dynomight-on-scribble
 head: ""
 
 ---
@@ -131,12 +133,11 @@ So I took the above dots and I scribbled 50 different curves on top, correspondi
 
 ![](/img/scribbles/50lines.png)
 
-Then I treated those lines as a probability distribution over possible futures. For each of the 1 month, 1 year, and 10 year task-horizon thresholds, I calculated what percentage of the lines had crossed over that threshold by a given year.
+Then I treated those lines as a probability distribution over possible futures. For each of three task-horizon thresholds, I calculated what percentage of the lines had reached them in a given year.
 
 ![](/img/scribbles/cdf.png)
 
-
-Or, here's a summary as a table:
+Here's a summary as a table:
 
 | Threshold | 10th Percentile | 50th Percentile | 90th Percentile | % Reached  <br>by 2050 |
 | --------- | --------------------------- | ---------------------------------- | --------------------------- | ---------------------- |
@@ -144,11 +145,11 @@ Or, here's a summary as a table:
 | 1 year    | 2029.5                      | 2034.8                             | 2041.4                      | 88%                    |
 | 10 year   | 2029.2                      | 2037.7                             | 2045.0                      | 54%                    |
 
-My scribbles may or may not be good. But I think the *exercise* of drawing the scribbles is great, because it forces you to be completely explicit about what you're predicting.
+My scribbles may or may not be good. But I think the *exercise* of drawing the scribbles is great, because it forces you to be completely explicit, and your assumptions are completely legible.
 
 I recommend it. In fact, I recommend it so strongly that I've created a little tool that you can use to [do your own scribbling](https://dynomight.net/img/scribbles/tool.html). It will automatically generate a plot and table like you see above. You can import or export your scribbles in CSV format. (Mine are [here](https://dynomight.net/img/scribbles/50lines.csv) if you want to use them as a starting point.)
 
-Here's a little video:
+Here's a video demo:
 
 <video controls>
   <source src="/img/scribbles/cast.mp4" type="video/mp4">
