@@ -11,9 +11,9 @@ category: "obsessive investigation"
 #seo:
 #  date_modified: 2025-06-20
 #  last_modified_at: 2025-06-20
-# comment:
-#   lemmy: "https://old.lemmy.world/post/32276475"
-#   substack: "https://dynomight.substack.com/p/blue-light"
+comment:
+  lemmy: "https://old.lemmy.world/post/32419596"
+  substack: "https://dynomight.substack.com/p/blue-light"
 head: ""
 
 ---
