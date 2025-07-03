@@ -54,7 +54,7 @@ Why did this fall happen? One cause was an increased number of states abolishing
 
 There were no executions in the United States between 1967 and 1977.
 
-Along with this decline in executions, the death penalty was also quickly becoming less popular. In 1966, a Gallup poll found for the first time (and only time, to this day) found that more Americans opposed the death penalty than supported it.
+Along with this decline in executions, the death penalty was also quickly becoming less popular. In 1966, a Gallup poll found for the first time (and only time, to this day) that more Americans opposed the death penalty than supported it.
 
 In 1958 in [*Trop v. Dulles*](https://en.wikipedia.org/wiki/Trop_v._Dulles), the Supreme Court held that the [Eighth Amendment's](https://en.wikipedia.org/wiki/Eighth_Amendment_to_the_United_States_Constitution) prohibition of cruel and unusual punishments held for "evolving standards of decency". This led to a suspicion that the death penalty might be unconstitutional.
 
