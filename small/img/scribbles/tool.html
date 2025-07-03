@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribble-based AI forecasting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: inline-block;
+            width: 150px;
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #imageContainer {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #ddd;
+            margin-top: 20px;
+            cursor: crosshair;
+        }
+
+        #imageContainer svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .point {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .calibration-point {
+            width: 20px;
+            height: 20px;
+            background: transparent;
+            transform: translate(-50%, -50%);
+        }
+
+        .calibration-point::before,
+        .calibration-point::after {
+            content: '';
+            position: absolute;
+            background-color: red;
+        }
+
+        .calibration-point::before {
+            width: 20px;
+            height: 2px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+        }
+
+        .calibration-point::after {
+            width: 2px;
+            height: 20px;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        .line-point {
+            background-color: blue;
+            border: 2px solid white;
+            box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        }
+
+        .line-svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 5;
+        }
+
+        .line-svg path {
+            transition: stroke 0.2s ease, stroke-width 0.2s ease;
+        }
+
+        #status {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e3f2fd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        #linesList {
+            margin-top: 20px;
+        }
+
+        #linesList h3 {
+            margin-bottom: 10px;
+        }
+
+        .lines-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .line-item {
+            padding: 4px 8px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: bold;
+            font-size: 12px;
+            border: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .line-item:hover {
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+
+        .line-item.hover-active {
+            border-color: #000;
+            background-color: #ddd;
+        }
+
+        .delete-line {
+            background-color: #f44336;
+            padding: 2px 6px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
+        .delete-line:hover {
+            background-color: #d32f2f;
+        }
+
+        #csvOutput {
+            width: 100%;
+            height: 200px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .finish-line {
+            background-color: #2196F3;
+        }
+
+        .finish-line:hover {
+            background-color: #1976D2;
+        }
+
+        .toggle-lines {
+            background-color: #9C27B0;
+        }
+
+        .toggle-lines:hover {
+            background-color: #7B1FA2;
+        }
+
+        .toggle-lines.active {
+            background-color: #E91E63;
+        }
+
+        .toggle-lines.active:hover {
+            background-color: #C2185B;
+        }
+
+        .import-csv {
+            background-color: #FF5722;
+        }
+
+        .import-csv:hover {
+            background-color: #E64A19;
+        }
+
+        #csvImportModal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+        }
+
+        #csvImportText {
+            width: 100%;
+            height: 200px;
+            font-family: monospace;
+            font-size: 12px;
+            margin: 10px 0;
+        }
+
+        .import-warning {
+            background-color: #FFF3CD;
+            border: 1px solid #FFEAA7;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* New styles for plot and table */
+        #plotContainer {
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background-color: #fafafa;
+        }
+
+        #tableContainer {
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+
+        .placeholder {
+            text-align: center;
+            color: #999;
+            padding: 40px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <h1>Scribble-based AI forecasting</h1>
+
+      See <a href="https://dynomight.net/scribbles">this page</a> for
+      the context for this tool.
+      <p>
+      
+        <div class="control-group">
+            <button id="startDrawingBtn" disabled>Start New Line</button>
+            <button id="finishLineBtn" disabled class="finish-line">Finish Current Line</button>
+            <button id="toggleLinesBtn" class="toggle-lines" disabled>Show All Lines</button>
+            <button id="importCsvBtn" class="import-csv">Import CSV</button>
+            <button id="exportBtn" disabled>Export to CSV</button>
+            <button id="clearLinesBtn">Clear All Lines</button>
+        </div>
+
+        <div id="status">Loading image...</div>
+
+        <div id="imageContainer">
+            <div class="loading">Loading curves.svg...</div>
+        </div>
+
+	<div id="linesList"></div>
+
+    </div>
+
+    <div class="container" id="csvContainer" style="display: none;">
+        <h2>CSV Output</h2>
+        <textarea id="csvOutput" readonly></textarea>
+        <button onclick="copyCsv()">Copy to Clipboard</button>
+    </div>
+
+    <div class="container" id="analysisContainer" style="display: none;">
+        <h2>Data Analysis</h2>
+
+        <h3>Plot</h3>
+        <div id="plotContainer">
+            <div class="placeholder">Plot will appear here when lines are drawn</div>
+        </div>
+
+        <h3>Data Table</h3>
+        <div id="tableContainer">
+            <div class="placeholder">Table will appear here when lines are drawn</div>
+        </div>
+    </div>
+
+    <div id="csvImportModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Import CSV Data</h2>
+            <div class="import-warning" id="importWarning" style="display: none;">
+                Warning: This will replace any existing lines!
+            </div>
+            <p>Paste CSV data exported from this tool:</p>
+            <textarea id="csvImportText" placeholder="# Calibration Data
+# BottomLeft: ...
+# TopRight: ...
+# Data
+Line,Point,PixelX,PixelY,PlotX,PlotY
+..."></textarea>
+            <button onclick="processCsvImport()">Import</button>
+            <button onclick="closeCsvModal()">Cancel</button>
+        </div>
+    </div>
+
+    <script>
+        // Global variables that can be accessed by external scripts
+        window.PlotTracer = {
+            imageElement: null,
+            drawingMode: false,
+            calibrationPoints: { 
+                bottomLeft: { x: 125, y: 363.45001220703125, element: null },
+                topRight: { x: 733, y: 19.45001220703125, element: null }
+            },
+            plotCoordinates: { 
+                bottomLeft: { x: 2020, y: 0 }, 
+                topRight: { x: 2050, y: 8.5 } 
+            },
+            currentLine: [],
+            currentLineSvg: null,
+            allLines: [],
+            showAllLines: false,
+            lineColors: [
+                '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#DDA0DD',
+                '#F4A460', '#98D8C8', '#6C5CE7', '#FD79A8', '#74B9FF',
+                '#A29BFE', '#FFEAA7', '#FF7675', '#00B894', '#00CEC9',
+                '#6C5CE7', '#E17055', '#FDCB6E', '#00B8D4', '#C44569'
+            ]
+        };
+
+        // Shorthand references for internal use
+        let imageElement = window.PlotTracer.imageElement;
+        let drawingMode = window.PlotTracer.drawingMode;
+        let calibrationPoints = window.PlotTracer.calibrationPoints;
+        let plotCoordinates = window.PlotTracer.plotCoordinates;
+        let currentLine = window.PlotTracer.currentLine;
+        let currentLineSvg = window.PlotTracer.currentLineSvg;
+        let allLines = window.PlotTracer.allLines;
+        let showAllLines = window.PlotTracer.showAllLines;
+        let lineColors = window.PlotTracer.lineColors;
+
+        const startDrawingBtn = document.getElementById('startDrawingBtn');
+        const finishLineBtn = document.getElementById('finishLineBtn');
+        const toggleLinesBtn = document.getElementById('toggleLinesBtn');
+        const importCsvBtn = document.getElementById('importCsvBtn');
+        const exportBtn = document.getElementById('exportBtn');
+        const clearLinesBtn = document.getElementById('clearLinesBtn');
+        const imageContainer = document.getElementById('imageContainer');
+        const status = document.getElementById('status');
+        const linesList = document.getElementById('linesList');
+        const csvContainer = document.getElementById('csvContainer');
+        const csvOutput = document.getElementById('csvOutput');
+        const csvImportModal = document.getElementById('csvImportModal');
+        const csvImportText = document.getElementById('csvImportText');
+        const importWarning = document.getElementById('importWarning');
+        const analysisContainer = document.getElementById('analysisContainer');
+
+        startDrawingBtn.addEventListener('click', startDrawing);
+        finishLineBtn.addEventListener('click', handleFinishLineClick);
+        toggleLinesBtn.addEventListener('click', toggleAllLines);
+        importCsvBtn.addEventListener('click', openCsvModal);
+        exportBtn.addEventListener('click', exportToCsv);
+        clearLinesBtn.addEventListener('click', clearAllLines);
+        imageContainer.addEventListener('click', handleClick);
+
+        // Modal close button
+        document.querySelector('.close').addEventListener('click', closeCsvModal);
+
+        // Auto-load the SVG on page load
+        window.addEventListener('load', function() {
+            loadSvgFile();
+        });
+
+        function loadSvgFile() {
+            updateStatus('Loading curves.svg...');
+
+            fetch('curves.svg')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load curves.svg');
+                    }
+                    return response.text();
+                })
+                .then(svgContent => {
+                    imageContainer.innerHTML = svgContent;
+                    imageElement = imageContainer.querySelector('svg');
+                    window.PlotTracer.imageElement = imageElement;
+
+                    if (imageElement) {
+                        // Add calibration points
+                        addCalibrationPoints();
+
+                        updateStatus('Image loaded. Click "Start New Line" to begin drawing.');
+                        startDrawingBtn.disabled = false;
+                    } else {
+                        updateStatus('Error: Invalid SVG file');
+                    }
+                })
+                .catch(error => {
+                    imageContainer.innerHTML = '<div class="loading">Error loading curves.svg</div>';
+                    updateStatus('Error: ' + error.message);
+                });
+        }
+
+        function addCalibrationPoints() {
+            // Add calibration point markers
+            const blPoint = createPoint(calibrationPoints.bottomLeft.x, calibrationPoints.bottomLeft.y, 'calibration-point');
+            const trPoint = createPoint(calibrationPoints.topRight.x, calibrationPoints.topRight.y, 'calibration-point');
+
+            calibrationPoints.bottomLeft.element = blPoint;
+            calibrationPoints.topRight.element = trPoint;
+
+            // Hide them initially unless showing all lines
+            if (!showAllLines) {
+                blPoint.style.display = 'none';
+                trPoint.style.display = 'none';
+            }
+        }
+
+        function getLineColor(index) {
+            return lineColors[index % lineColors.length];
+        }
+
+        function startDrawing() {
+            drawingMode = true;
+            window.PlotTracer.drawingMode = true;
+            currentLine = [];
+            window.PlotTracer.currentLine = currentLine;
+
+            // Hide all previous lines unless toggle is on
+            if (!showAllLines) {
+                hideAllLines();
+            }
+
+            // Clear current drawing points and lines
+            clearCurrentDrawing();
+
+            updateStatus(`Drawing new line. Click points to create the line. Press Enter to finish and start next line.`);
+            startDrawingBtn.disabled = true;
+            finishLineBtn.disabled = false;
+            finishLineBtn.textContent = 'Finish Current Line';
+        }
+
+        function handleFinishLineClick() {
+            if (drawingMode && currentLine.length > 0) {
+                finishCurrentLine(false);
+            } else if (!drawingMode) {
+                startDrawing();
+            }
+        }
+
+        function handleClick(e) {
+            if (!imageElement || !drawingMode) return;
+
+            const rect = imageContainer.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            handleDrawingClick(x, y);
+        }
+
+        function handleDrawingClick(x, y) {
+            const point = createPoint(x, y, 'line-point');
+            const plotCoords = pixelToPlot(x, y);
+            currentLine.push({ x, y, plotX: plotCoords.x, plotY: plotCoords.y, element: point });
+
+            if (currentLine.length > 1) {
+                drawLineBetweenPoints();
+            }
+
+            updateStatus(`Current line: ${currentLine.length} points. Press Enter to finish and start next line.`);
+        }
+
+        function createPoint(x, y, className) {
+            const point = document.createElement('div');
+            point.className = `point ${className}`;
+            point.style.left = x + 'px';
+            point.style.top = y + 'px';
+            imageContainer.appendChild(point);
+            return point;
+        }
+
+        function drawLineBetweenPoints(color = 'blue') {
+            // Remove existing line SVG if any
+            if (currentLineSvg) {
+                currentLineSvg.remove();
+            }
+
+            // Get container dimensions
+            const rect = imageContainer.getBoundingClientRect();
+
+            // Create new SVG element
+            currentLineSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            currentLineSvg.classList.add('line-svg');
+            currentLineSvg.setAttribute('viewBox', `0 0 ${rect.width} ${rect.height}`);
+
+            // Create path
+            let pathData = `M ${currentLine[0].x} ${currentLine[0].y}`;
+            for (let i = 1; i < currentLine.length; i++) {
+                pathData += ` L ${currentLine[i].x} ${currentLine[i].y}`;
+            }
+
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', pathData);
+            path.setAttribute('stroke', color);
+            path.setAttribute('stroke-width', '2');
+            path.setAttribute('fill', 'none');
+
+            currentLineSvg.appendChild(path);
+            imageContainer.appendChild(currentLineSvg);
+            window.PlotTracer.currentLineSvg = currentLineSvg;
+        }
+
+        function drawLineFromPoints(points, color) {
+            const rect = imageContainer.getBoundingClientRect();
+            const lineSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            lineSvg.classList.add('line-svg');
+            lineSvg.setAttribute('viewBox', `0 0 ${rect.width} ${rect.height}`);
+
+            let pathData = `M ${points[0].x} ${points[0].y}`;
+            for (let i = 1; i < points.length; i++) {
+                pathData += ` L ${points[i].x} ${points[i].y}`;
+            }
+
+            const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            path.setAttribute('d', pathData);
+            path.setAttribute('stroke', color);
+            path.setAttribute('stroke-width', '2');
+            path.setAttribute('fill', 'none');
+
+            lineSvg.appendChild(path);
+            imageContainer.appendChild(lineSvg);
+
+            return lineSvg;
+        }
+
+        function pixelToPlot(pixelX, pixelY) {
+            const bl = calibrationPoints.bottomLeft;
+            const tr = calibrationPoints.topRight;
+            const blCoord = plotCoordinates.bottomLeft;
+            const trCoord = plotCoordinates.topRight;
+
+            // Linear mapping to actual plot coordinates
+            const xRatio = (pixelX - bl.x) / (tr.x - bl.x);
+            const yRatio = 1 - (pixelY - tr.y) / (bl.y - tr.y); // Invert Y axis
+
+            const plotX = blCoord.x + xRatio * (trCoord.x - blCoord.x);
+            const plotY = blCoord.y + yRatio * (trCoord.y - blCoord.y);
+
+            return { x: plotX, y: plotY };
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                if (drawingMode && currentLine.length > 0) {
+                    finishCurrentLine(true); // true = start new line automatically
+                } else if (!drawingMode) {
+                    startDrawing();
+                }
+            }
+        });
+
+        function finishCurrentLine(startNew = false) {
+            if (currentLine.length === 0) return;
+
+            const lineColor = getLineColor(allLines.length);
+
+            // Update the current line color
+            if (currentLineSvg) {
+                const path = currentLineSvg.querySelector('path');
+                if (path) {
+                    path.setAttribute('stroke', lineColor);
+                }
+            }
+
+            // Hide all current line points
+            currentLine.forEach(point => {
+                if (point.element) {
+                    point.element.style.display = 'none';
+                }
+            });
+
+            // Store the line with its SVG element and color
+            allLines.push({
+                points: [...currentLine],
+                svgElement: currentLineSvg,
+                visible: showAllLines,
+                color: lineColor,
+                originalColor: lineColor
+            });
+
+            currentLine = [];
+            window.PlotTracer.currentLine = currentLine;
+            currentLineSvg = null;
+            window.PlotTracer.currentLineSvg = null;
+
+            if (allLines.length > 0) {
+                exportBtn.disabled = false;
+                toggleLinesBtn.disabled = false;
+                analysisContainer.style.display = 'block';
+            }
+
+            updateLinesList();
+            onLinesChanged();
+
+            if (startNew) {
+                // Immediately start a new line
+                startDrawing();
+            } else {
+                drawingMode = false;
+                window.PlotTracer.drawingMode = false;
+                startDrawingBtn.disabled = false;
+                finishLineBtn.disabled = true;
+                finishLineBtn.textContent = 'Start New Line';
+                updateStatus(`Line saved! Total lines: ${allLines.length}. Press Enter or click "Start New Line" to draw another.`);
+            }
+        }
+
+        function toggleAllLines() {
+            showAllLines = !showAllLines;
+            window.PlotTracer.showAllLines = showAllLines;
+            toggleLinesBtn.textContent = showAllLines ? 'Hide All Lines' : 'Show All Lines';
+            toggleLinesBtn.classList.toggle('active', showAllLines);
+
+            // Toggle lines
+            allLines.forEach((line) => {
+                if (line.svgElement) {
+                    line.svgElement.style.display = showAllLines ? 'block' : 'none';
+                }
+                line.visible = showAllLines;
+            });
+
+            // Toggle calibration points
+            if (calibrationPoints.bottomLeft && calibrationPoints.bottomLeft.element) {
+                calibrationPoints.bottomLeft.element.style.display = showAllLines ? 'block' : 'none';
+            }
+            if (calibrationPoints.topRight && calibrationPoints.topRight.element) {
+                calibrationPoints.topRight.element.style.display = showAllLines ? 'block' : 'none';
+            }
+        }
+
+        function hideAllLines() {
+            allLines.forEach(line => {
+                if (line.svgElement) {
+                    line.svgElement.style.display = 'none';
+                }
+                line.points.forEach(point => {
+                    if (point.element) {
+                        point.element.style.display = 'none';
+                    }
+                });
+                line.visible = false;
+            });
+        }
+
+        function clearCurrentDrawing() {
+            // Remove current line points
+            const linePoints = imageContainer.querySelectorAll('.line-point');
+            linePoints.forEach(point => {
+                if (!allLines.some(line => line.points.some(p => p.element === point))) {
+                    point.remove();
+                }
+            });
+
+            // Remove current line SVG
+            if (currentLineSvg) {
+                currentLineSvg.remove();
+                currentLineSvg = null;
+                window.PlotTracer.currentLineSvg = null;
+            }
+        }
+
+        function onLineHover(index, isHovering) {
+            const line = allLines[index];
+            if (!line || !line.svgElement) return;
+
+            const path = line.svgElement.querySelector('path');
+            if (path) {
+                path.setAttribute('stroke', isHovering ? '#000000' : line.originalColor);
+                path.setAttribute('stroke-width', isHovering ? '4' : '2');
+            }
+
+            // Update the line item visual
+            const lineItems = document.querySelectorAll('.line-item');
+            if (lineItems[index]) {
+                if (isHovering) {
+                    lineItems[index].classList.add('hover-active');
+                } else {
+                    lineItems[index].classList.remove('hover-active');
+                }
+            }
+        }
+
+        function updateLinesList() {
+            linesList.innerHTML = '<h3>Drawn Lines:</h3>';
+            const container = document.createElement('div');
+            container.className = 'lines-container';
+
+            allLines.forEach((line, index) => {
+                const item = document.createElement('div');
+                item.className = 'line-item';
+                item.style.color = line.color;
+                item.innerHTML = `
+                    <span>Line ${index + 1}: ${line.points.length}pts</span>
+                    <button class="delete-line" onclick="deleteLine(${index})">×</button>
+                `;
+
+                item.addEventListener('mouseenter', () => onLineHover(index, true));
+                item.addEventListener('mouseleave', () => onLineHover(index, false));
+
+                container.appendChild(item);
+            });
+
+            linesList.appendChild(container);
+        }
+
+        function deleteLine(index) {
+            const line = allLines[index];
+            if (line.svgElement) {
+                line.svgElement.remove();
+            }
+            line.points.forEach(point => {
+                if (point.element) {
+                    point.element.remove();
+                }
+            });
+
+            allLines.splice(index, 1);
+
+            updateLinesList();
+            if (allLines.length === 0) {
+                exportBtn.disabled = true;
+                toggleLinesBtn.disabled = true;
+                analysisContainer.style.display = 'none';
+            }
+
+            onLinesChanged();
+        }
+
+        function clearAllLines() {
+            drawingMode = false;
+            window.PlotTracer.drawingMode = false;
+            currentLine = [];
+            window.PlotTracer.currentLine = currentLine;
+            currentLineSvg = null;
+            window.PlotTracer.currentLineSvg = null;
+            allLines = [];
+            window.PlotTracer.allLines = allLines;
+            showAllLines = false;
+            window.PlotTracer.showAllLines = false;
+
+            // Clear points and lines but not the image
+            clearPoints();
+
+            // Reset UI elements
+            startDrawingBtn.disabled = false;
+            finishLineBtn.disabled = true;
+            finishLineBtn.textContent = 'Finish Current Line';
+            toggleLinesBtn.disabled = true;
+            toggleLinesBtn.textContent = 'Show All Lines';
+            toggleLinesBtn.classList.remove('active');
+            exportBtn.disabled = true;
+
+            csvContainer.style.display = 'none';
+            analysisContainer.style.display = 'none';
+            linesList.innerHTML = '';
+
+            updateStatus('All lines cleared. Click "Start New Line" to begin drawing.');
+            onLinesChanged();
+        }
+
+        function openCsvModal() {
+            // Show warning if there's existing data
+            if (allLines.length > 0) {
+                importWarning.style.display = 'block';
+            } else {
+                importWarning.style.display = 'none';
+            }
+
+            csvImportModal.style.display = 'block';
+            csvImportText.value = '';
+        }
+
+        function closeCsvModal() {
+            csvImportModal.style.display = 'none';
+        }
+
+        function processCsvImport() {
+            const csvText = csvImportText.value.trim();
+            if (!csvText) {
+                alert('Please paste CSV data');
+                return;
+            }
+
+            try {
+                const lines = csvText.split('\n');
+                const dataLines = {};
+                let inDataSection = false;
+
+                // Parse CSV
+                lines.forEach(line => {
+                    line = line.trim();
+
+                    if (line === '# Data') {
+                        inDataSection = true;
+                    } else if (inDataSection && !line.startsWith('#') && line.includes(',')) {
+                        // Skip header line
+                        if (line.toLowerCase().includes('line,point')) return;
+
+                        const parts = line.split(',');
+                        if (parts.length >= 6) {
+                            const lineNum = parseInt(parts[0]);
+                            const pointNum = parseInt(parts[1]);
+                            const pixelX = parseFloat(parts[2]);
+                            const pixelY = parseFloat(parts[3]);
+                            const plotX = parseFloat(parts[4]);
+                            const plotY = parseFloat(parts[5]);
+
+                            if (!dataLines[lineNum]) {
+                                dataLines[lineNum] = [];
+                            }
+                            dataLines[lineNum].push({ pixelX, pixelY, plotX, plotY, pointNum });
+                        }
+                    }
+                });
+
+                // Clear existing lines
+                clearAllLines();
+
+                // Create lines
+                Object.keys(dataLines).forEach(lineNum => {
+                    const points = dataLines[lineNum].sort((a, b) => a.pointNum - b.pointNum);
+                    const lineColor = getLineColor(allLines.length);
+                    const linePoints = [];
+
+                    points.forEach(point => {
+                        linePoints.push({
+                            x: point.pixelX,
+                            y: point.pixelY,
+                            plotX: point.plotX,
+                            plotY: point.plotY,
+                            element: null
+                        });
+                    });
+
+                    if (imageElement) {
+                        const lineSvg = drawLineFromPoints(linePoints, lineColor);
+
+                        allLines.push({
+                            points: linePoints,
+                            svgElement: lineSvg,
+                            visible: showAllLines,
+                            color: lineColor,
+                            originalColor: lineColor
+                        });
+
+                        if (!showAllLines) {
+                            lineSvg.style.display = 'none';
+                        }
+                    }
+                });
+
+                updateLinesList();
+                if (allLines.length > 0) {
+                    exportBtn.disabled = false;
+                    toggleLinesBtn.disabled = false;
+                    analysisContainer.style.display = 'block';
+                }
+
+                closeCsvModal();
+                updateStatus(`Imported ${Object.keys(dataLines).length} lines`);
+                onLinesChanged();
+
+            } catch (error) {
+                alert('Error parsing CSV: ' + error.message);
+            }
+        }
+
+        function exportToCsv() {
+            let csv = '# Plot Line Tracer Export\n';
+            csv += '# Calibration Data\n';
+            csv += `# BottomLeft: PixelX=${calibrationPoints.bottomLeft.x}, PixelY=${calibrationPoints.bottomLeft.y}, PlotX=${plotCoordinates.bottomLeft.x}, PlotY=${plotCoordinates.bottomLeft.y}\n`;
+            csv += `# TopRight: PixelX=${calibrationPoints.topRight.x}, PixelY=${calibrationPoints.topRight.y}, PlotX=${plotCoordinates.topRight.x}, PlotY=${plotCoordinates.topRight.y}\n`;
+            csv += '# Data\n';
+            csv += 'Line,Point,PixelX,PixelY,PlotX,PlotY\n';
+
+            allLines.forEach((line, lineIndex) => {
+                line.points.forEach((point, pointIndex) => {
+                    csv += `${lineIndex + 1},${pointIndex + 1},${point.x.toFixed(2)},${point.y.toFixed(2)},${point.plotX.toFixed(6)},${point.plotY.toFixed(6)}\n`;
+                });
+            });
+
+            csvOutput.value = csv;
+            csvContainer.style.display = 'block';
+            csvContainer.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function copyCsv() {
+            csvOutput.select();
+            document.execCommand('copy');
+            alert('CSV copied to clipboard!');
+        }
+
+        function clearPoints() {
+            const points = imageContainer.querySelectorAll('.point:not(.calibration-point)');
+            points.forEach(point => point.remove());
+
+            const lines = imageContainer.querySelectorAll('.line-svg');
+            lines.forEach(line => line.remove());
+        }
+
+        function updateStatus(message) {
+            status.textContent = message;
+        }
+
+        // Close modal when clicking outside of it
+        window.onclick = function(event) {
+            if (event.target == csvImportModal) {
+                closeCsvModal();
+            }
+        }
+
+        // Function called when lines change - can be overridden by external script
+        function onLinesChanged() {
+            if (window.PlotTracer.onLinesChanged) {
+                window.PlotTracer.onLinesChanged();
+            }
+        }
+    </script>
+
+    <!-- External analysis script -->
+    <script src="plot-analysis.js"></script>
+</body>
+</html>
