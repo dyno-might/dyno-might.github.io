@@ -176,7 +176,7 @@ I rate this as *weak* evidence for a *moderate* improvement in sleep quality.
 
 ### Esaki (again)
 
-Esaki et al. (2020) followed up on their 2017 experiment from above. This time, they gathered 43 depressed patients with insomnia. Again, they first recorded their sleep quality for a week as a baseline, then were given either blue-blocking glasses or placebo glasses and told to wear them for another week starting at 8pm.
+[Esaki et al. (2020)](https://doi.org/10.1111/bdi.12912) followed up on their 2017 experiment from above. This time, they gathered 43 depressed patients with insomnia. Again, they first recorded their sleep quality for a week as a baseline, then were given either blue-blocking glasses or placebo glasses and told to wear them for another week starting at 8pm.
 
 The results were that subjective sleep quality seemed to improve more in the blue-blocking group. Total sleep time went down by 12.6 minutes in the placebo group, but increased by 1.1 minutes in the blue-blocking group. None of this was statistically significant, and all the other measurements are confusing. Here are the main results. I've added little arrows to show the "good" direction, if there is one.
 
