@@ -182,7 +182,7 @@ The results were that subjective sleep quality seemed to improve more in the blu
 
 ![](/img/blue-light/esaki-again.svg)
 
-These confidence intervals don't make any sense to me. Are they blue-blocking minus placebo or the reverse? When the blue-blocking number is higher than placebo, sometimes the confidence interval in centered above zero (VAS), and sometimes it's centered below zero (TST). What the hell?
+These confidence intervals don't make any sense to me. Are they blue-blocking minus placebo or the reverse? When the blue-blocking number is higher than placebo, sometimes the confidence interval is centered above zero (VAS), and sometimes it's centered below zero (TST). What the hell?
 
 Anyway, they also had a doctor estimate the [clinical global impression](https://en.wikipedia.org/wiki/Clinical_global_impression) for each patient, and this looked a bit better for the blue-blocking group. The doctor seemingly *was* blinded to the type of glasses the patients were wearing.
 
