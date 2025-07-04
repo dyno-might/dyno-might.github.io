@@ -245,7 +245,7 @@ For a synthesis, I scored each of the measured effects according to this rubric:
 | --- | ----------------- |
 | ↑↑↑ | large increase    |
 | ↑↑  | moderate increase |
-| ↔   | small increase    |
+| ↑   | small increase    |
 | ↔   | no effect         |
 | ↓   | small decrease    |
 | ↓↓  | moderate decrease |
