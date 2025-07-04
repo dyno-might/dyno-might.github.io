@@ -267,7 +267,7 @@ Here are the results for the three papers that measured melatonin:
 | -------------------------- | ------------------- | ------------------- |
 | Kayumov                    | ↑↑↑                 | ★★★★☆               |
 | Van der Lely               | ↑↑                  | ★★★☆☆               |
-| Gabel                      | ↑↑                  | ★★★☆☆               |
+| Gabel                      | ↑                   | ★★★☆☆               |
 
 And here are the results for the papers that measured sleep quality:
 
