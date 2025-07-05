@@ -1,4 +1,4 @@
----
+it's---
 layout: post
 title: "My advice on (internet) writing, for what it's worth"
 image: /img/writing-advice/bark.jpg
@@ -172,7 +172,7 @@ Finally, there are whole communities devoted to sneering at other people. They j
 
 I think you should not. If you secretly use AI, you are not treating the reader as your ally. If you openly use AI, nobody will read it. The end.
 
-Also, I think AI is currently still quite bad at writing compared to a skilled human. (*Currently*.) It's is great at explaining well-understood facts. But for subjects that are "hard", with sprawling / tangled / contradictory evidence, it still mostly just regurgitates the abstracts with a confident tone and minimal skepticism. You can do better.
+Also, I think AI is currently still quite bad at writing compared to a skilled human. (*Currently*.) It's great at explaining well-understood facts. But for subjects that are "hard", with sprawling / tangled / contradictory evidence, it still mostly just regurgitates the abstracts with a confident tone and minimal skepticism. You can do better.
 
 **That nagging feeling.**
 
