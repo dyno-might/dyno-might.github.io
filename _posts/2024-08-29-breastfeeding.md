@@ -99,7 +99,7 @@ For gastrointestinal infections and rashes, probably. For respiratory infections
 | Gastrointestinal infection                                 | 9.1%         | 13.2%   | ✓            |
 | Hospitalization for gastrointestinal infection             | 3.2%         | 3.6%    | ×            |
 | Any rash                                                   | 12.3%        | 18.3%   | ✓            |
-| [Eczema](https://en.wikipedia.org/wiki/Atopic\_dermatitis) | 3.3%         | 6.3%    | ✓            |
+| [Eczema](https://en.wikipedia.org/wiki/Atopic_dermatitis)  | 3.3%         | 6.3%    | ✓            |
 | Non-eczema rash                                            | 9.9%         | 13.5%   | ✓            |
 | ≥2 Respiratory tract infections                            | 39.2%        | 39.4%   | ×            |
 | ≥2 Upper respiratory tract infections                      | 36.1%        | 36.2%   | ×            |
