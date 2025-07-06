@@ -25,9 +25,9 @@ I thought this sounded delightfully absurd so I tried it for a few weeks. Here a
 
 ## 1. It's not totally insane
 
-Say you've had a huge meal and couldn't eat another bite. But then---someone offers you iced cream.
+Say you've had a huge meal and couldn't eat another bite. But then---someone offers you ice cream.
 
-You might think: Can I exploit this phenomenon in reverse to lose weight? The obvious thing would be to ban iced cream. But if that helps, maybe you should ban more stuff. If you went *really* ban-crazy, you'd eventually get to a single food, hopefully something filling and healthy. Voilà: Potato diet.
+You might think: Can I exploit this phenomenon in reverse to lose weight? The obvious thing would be to ban ice cream. But if that helps, maybe you should ban more stuff. If you went *really* ban-crazy, you'd eventually get to a single food, hopefully something filling and healthy. Voilà: Potato diet.
 
 ## 2. Hunger is complicated
 
@@ -70,7 +70,7 @@ In this model, diets with more variety:
 
 Hunger is essentially the desire to move to the right on this graph. I always ate as many potatoes as I wanted, so I never felt "hunger".
 
-But I felt *something*---I wanted to eat other foods, to jump onto a higher curve on the above graph. I don't think this feeling has a good name, but it's basically what you feel when you have trouble turning down that after-meal iced cream.
+But I felt *something*---I wanted to eat other foods, to jump onto a higher curve on the above graph. I don't think this feeling has a good name, but it's basically what you feel when you have trouble turning down that after-meal ice cream.
 
 ## 4. It's a pain to cook a lot of potatoes
 
