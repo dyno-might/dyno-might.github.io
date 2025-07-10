@@ -139,7 +139,7 @@ Another possibility is that unprocessed food just doesn't have much impact on bl
 
 **Weight.** Why did I seem to lose weight in the second diet period, but not the first? Well, I think I did something stupid. A few weeks before this experiment, I started taking a small dose of creatine each day, which is well-known to cause an increase in water weight. I assumed that my creatine levels had plateaued before this experiment started, but after reading about [creatine pharmacokinetics](https://doi.org/10.1152/jappl.1996.81.1.232) I'm not so sure.
 
-I suspect that during the first diet period, I *was* losing dry body mass, but my creatine levels were still increasing and so that decrease in mass was masked by s similar increase in water weight. By the second diet period, my creatine levels had finally stabilized, so the decrease in dry body mass was finally visible. But there's also a good chance that water weight has nothing to do with it and for some reason I simply didn't have an energy deficit during the first period.
+I suspect that during the first diet period, I *was* losing dry body mass, but my creatine levels were still increasing and so that decrease in mass was masked by a similar increase in water weight. By the second diet period, my creatine levels had finally stabilized, so the decrease in dry body mass was finally visible. But there's also a good chance that water weight has nothing to do with it and for some reason I simply didn't have an energy deficit during the first period.
 
 ## TLDR
 
