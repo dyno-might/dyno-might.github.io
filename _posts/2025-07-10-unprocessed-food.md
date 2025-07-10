@@ -6,7 +6,7 @@ tags:
 description: "What I really want to know is: What benefit would I get from making my diet better?"
 excerpt: ""
 permalink: /unprocessed-food/
-background_color: rgb(161,104,105)
+background_color: rgb(141,175,80)
 category: "science"
 #seo:
 #  date_modified: 2025-06-20
