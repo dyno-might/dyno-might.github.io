@@ -44,7 +44,7 @@ On the other hand, what even *is* processing? The USDA—uhh—may have deleted 
 
 > washing, cleaning, milling, cutting, chopping, heating, pasteurizing, blanching, cooking, canning, freezing, drying, dehydrating, mixing, or other procedures that alter the food from its natural state. This may include the addition of other ingredients to the food, such as preservatives, flavors, nutrients and other food additives or substances approved for use in food products, such as salt, sugars and fats.
 
-It seems crazy to try to avoid a category of things so large that it includes *washing*, and *chopping*, and *flavors*.
+It seems crazy to try to avoid a category of things so large that it includes *washing*, *chopping*, and *flavors*.
 
 Ultimately, "processing" *can't* be the right way to think about diet. It's just too many unrelated things. Some of them are probably bad and others are probably fine. When we finally figure out how nutrition works, surely we will use more fine-grained concepts.
 
