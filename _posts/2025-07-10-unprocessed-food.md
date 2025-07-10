@@ -40,7 +40,7 @@ There is also some experimental evidence. [Hall et al. (2019)](https://doi.org/1
 
 ## The case against that case
 
-On the other hand, what even *is* processing? The USDA—uhh—may have deleted their page on the topic. But they *used* to be define it as:
+On the other hand, what even *is* processing? The USDA—uhh—may have deleted their page on the topic. But they *used* to define it as:
 
 > washing, cleaning, milling, cutting, chopping, heating, pasteurizing, blanching, cooking, canning, freezing, drying, dehydrating, mixing, or other procedures that alter the food from its natural state. This may include the addition of other ingredients to the food, such as preservatives, flavors, nutrients and other food additives or substances approved for use in food products, such as salt, sugars and fats.
 
@@ -131,7 +131,7 @@ Urf.
 
 I also exercise on most days. On the other hand, [Barnard et al. (2006)](https://doi.org/10.2337/dc06-0606) had a group of people with diabetes follow a low-fat vegan (and thus "unprocessed"?) diet and *did* see [large reductions](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) in blood glucose (-49 mg/dl). But they only give data after 22 weeks, and my baseline levels are already lower than the mean of that group even after the diet.
 
-**Blood pressure.** Why was there no change in blood pressure? I'm not sure. In the [DASH trial](https://doi.org/10.1056/NEJM199704173361601), subjects with high blood pressure and ate a diet rich in fruits and vegetables saw large decreases in blood pressure, almost all within [two weeks](https://www.nejm.org/doi/full/10.1056/NEJM199704173361601#:~:text=Figure%201,-Mean). One possibility is that my baseline blood pressure isn't that high. Another is that in this same trial, they got much bigger reductions by limiting fat, which I did not do.
+**Blood pressure.** Why was there no change in blood pressure? I'm not sure. In the [DASH trial](https://doi.org/10.1056/NEJM199704173361601), subjects with high blood pressure ate a diet rich in fruits and vegetables saw large decreases in blood pressure, almost all within [two weeks](https://www.nejm.org/doi/full/10.1056/NEJM199704173361601#:~:text=Figure%201,-Mean). One possibility is that my baseline blood pressure isn't that high. Another is that in this same trial, they got much bigger reductions by limiting fat, which I did not do.
 
 Another possibility is that unprocessed food just doesn't have much impact on blood pressure. The above study from Barnard et al. only saw [small](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) decreases in blood sugar (3-5 mm Hg), even after 22 weeks.
 
