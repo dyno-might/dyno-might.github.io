@@ -13,7 +13,7 @@ category: "science"
 #  last_modified_at: 2025-06-20
 comment:
   lemmy: "https://old.lemmy.world/post/32762054"
-#  substack: "https://dynomight.substack.com/p/unprocessed-food"
+  substack: "https://dynomight.substack.com/p/unprocessed-food"
 head: ""
 
 ---
