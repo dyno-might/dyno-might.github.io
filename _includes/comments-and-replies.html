@@ -1,17 +1,3 @@
-{% if page.comment %}
-Comments at 
-{% for k in page.comment %}
-  <a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
-{% endfor %}
-{% endif %}
-{% if page.replies %}
-<br>Follow-ups at 
-{% for k in page.replies %}
-<a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
-{% endfor %}
-{% endif %}
-
-<p>
 <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST" style="max-width:97%;"> 
   <span>
     Mistakes?
@@ -27,6 +13,18 @@ Comments at
   </span>
   <div class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray;">(If you just want to see what happens, go <a href="https://dynomight.net/respond_success.html">here</a>.)</div>
 </form>
+{% if page.comment %}
+Comments at 
+{% for k in page.comment %}
+  <a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
+{% endfor %}
+{% endif %}
+{% if page.replies %}
+<br>Follow-ups at 
+{% for k in page.replies %}
+<a href="{{k[1]}}">{{k[0]}}</a>{% if forloop.last %}.{% else %}, {% endif %}
+{% endfor %}
+{% endif %}
 
 <style>
   #mistakes:focus-within ~ .popup-on-focus {
