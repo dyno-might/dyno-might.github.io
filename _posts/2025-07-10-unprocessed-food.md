@@ -104,7 +104,7 @@ I also measured my pulse twice a day.
 
 [![pulse graph](/img/unprocessed-food/pulse.svg)](/img/unprocessed-food/pulse.pdf)
 
-(Cardio.) Apparently it's common to have a higher pulse at night.
+([Cardio](https://dynomight.net/2021/01/25/how-to-run-without-all-the-agonizing-pain/).) Apparently it's common to have a higher pulse at night.
 
 Finally, I also measured my weight twice a day. To preserve a small measure of dignity, I guess I'll show this as a difference from my long-term baseline.
 
