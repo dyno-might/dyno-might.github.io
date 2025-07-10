@@ -6,13 +6,13 @@ tags:
 description: "What I really want to know is: What benefit would I get from making my diet better?"
 excerpt: ""
 permalink: /unprocessed-food/
-background_color: rgb(127,167,167)
+background_color: rgb(161,104,105)
 category: "science"
 #seo:
 #  date_modified: 2025-06-20
 #  last_modified_at: 2025-06-20
-#comment:
-#  lemmy: "https://old.lemmy.world/post/32662348"
+comment:
+  lemmy: "https://old.lemmy.world/post/32762054"
 #  substack: "https://dynomight.substack.com/p/unprocessed-food"
 head: ""
 
@@ -129,7 +129,7 @@ Urf.
 
 > Another possible explanation is that exercise can prevent changes in insulin sensitivity and glucose tolerance during overfeeding (Walhin et al., 2013). Our subjects performed daily cycle ergometry exercise in three 20-min bouts [...] It is intriguing to speculate that perhaps even this modest dose of exercise prevented any differences in glucose tolerance or insulin sensitivity between the ultra-processed and unprocessed diets.
 
-I also exercise on most days. On the other hand, [Barnard et al. (2006)](https://doi.org/10.2337/dc06-0606) had a group of people with diabetes follow a low-fat vegan (and thus "unprocessed"?) diet and *did* see [large reductions](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) in blood glucose (-49 md/dl). But they only give data after 22 weeks, and my baseline levels are already lower than the mean of that group even after the diet.
+I also exercise on most days. On the other hand, [Barnard et al. (2006)](https://doi.org/10.2337/dc06-0606) had a group of people with diabetes follow a low-fat vegan (and thus "unprocessed"?) diet and *did* see [large reductions](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) in blood glucose (-49 mg/dl). But they only give data after 22 weeks, and my baseline levels are already lower than the mean of that group even after the diet.
 
 **Blood pressure.** Why was there no change in blood pressure? I'm not sure. In the [DASH trial](https://doi.org/10.1056/NEJM199704173361601), subjects with high blood pressure and ate a diet rich in fruits and vegetables saw large decreases in blood pressure, almost all within [two weeks](https://www.nejm.org/doi/full/10.1056/NEJM199704173361601#:~:text=Figure%201,-Mean). One possibility is that my baseline blood pressure isn't that high. Another is that in this same trial, they got much bigger reductions by limiting fat, which I did not do.
 
