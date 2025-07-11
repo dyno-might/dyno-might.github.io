@@ -76,7 +76,7 @@ This diet was hard. In theory, I could eat almost anything. But after two weeks 
 
 I guess you can interpret that as evidence in favor of the diet (bread is addictive) or against it (life sucks without bread).
 
-The struggle was starches. For breakfast, I'd usually eat fruit and steel-cut oats, which was fine. For the rest of the day, I basically replaced white rice and flour with barley, faro, potatoes, and brown basmati rice, which has the lowest [GI](https://en.wikipedia.org/wiki/Basmati#Glycemic_index) of all rice. I'd eat these and tell myself they were good. But after this experiment was over, guess how much barley I've eaten voluntarily?
+The struggle was starches. For breakfast, I'd usually eat fruit and steel-cut oats, which was fine. For the rest of the day, I basically replaced white rice and flour with barley, farro, potatoes, and brown basmati rice, which has the lowest [GI](https://en.wikipedia.org/wiki/Basmati#Glycemic_index) of all rice. I'd eat these and tell myself they were good. But after this experiment was over, guess how much barley I've eaten voluntarily?
 
 Aside from starches, it wasn't bad. I had to cook a lot and I ate a lot of salads and olive oil and nuts. My options were *very* limited at restaurants.
 
