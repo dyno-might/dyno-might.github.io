@@ -115,7 +115,7 @@ Finally, I also measured my weight twice a day. To preserve a small measure of d
 
 Here's how I score that:
 
-| Measure | Effect |
+| Outcome | Effect |
 | ------- | ------ |
 | Blood sugar | Nothing |
 | Systolic blood pressure | Nothing? | 
@@ -133,7 +133,7 @@ I also exercise on most days. On the other hand, [Barnard et al. (2006)](https:/
 
 **Blood pressure.** Why was there no change in blood pressure? I'm not sure. In the [DASH trial](https://doi.org/10.1056/NEJM199704173361601), subjects with high blood pressure ate a diet rich in fruits and vegetables saw large decreases in blood pressure, almost all within [two weeks](https://www.nejm.org/doi/full/10.1056/NEJM199704173361601#:~:text=Figure%201,-Mean). One possibility is that my baseline blood pressure isn't that high. Another is that in this same trial, they got much bigger reductions by limiting fat, which I did not do.
 
-Another possibility is that unprocessed food just doesn't have much impact on blood pressure. The above study from Barnard et al. only saw [small](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) decreases in blood sugar (3-5 mm Hg), even after 22 weeks.
+Another possibility is that unprocessed food just doesn't have much impact on blood pressure. The above study from Barnard et al. only saw [small](https://diabetesjournals.org/care/article-pdf/29/8/1777/594017/zdc00806001777.pdf#page=4) decreases in blood pressure (3-5 mm Hg), even after 22 weeks.
 
 **Pulse.** As far as I know, there's zero reason to think that unprocessed food would change your pulse. I only included it because my blood pressure monitor did it automatically.
 
