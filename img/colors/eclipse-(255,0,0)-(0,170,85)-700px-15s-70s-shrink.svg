@@ -1,0 +1,11 @@
+<svg viewBox="0 0 1600 1600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+  <rect x="0" y="0" width="1600" height="1600" fill="rgb(0, 170, 85)" />
+  <circle cx="800" cy="800" r="700" fill="rgb(255, 0, 0)" id="mainCircle"><animate attributeName="r" from="700" to="0" begin="15s" dur="70s" fill="freeze" /></circle>
+  <rect x="798" y="798" width="4" height="4" fill="white" />
+  
+  <rect x="0" y="0" width="20" height="1600" fill="black">
+    <animate attributeName="y" from="0" to="800" begin="0s" dur="15s" fill="freeze" />
+    <animate attributeName="height" from="1600" to="0" begin="0s" dur="15s" fill="freeze" />
+  </rect>
+  <text x="1580" y="1580" font-family="monospace" font-weight="lighter" font-size="20" fill="#FFFFFFAA" text-anchor="end" alignment-baseline="baseline">dynomight.com/colors</text>
+</svg>
