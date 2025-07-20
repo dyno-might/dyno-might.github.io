@@ -269,7 +269,7 @@ The trend is pretty clear: Larger studies find smaller effects. And here's a fun
 
 In a funnel plot, each marker is a study. The ones with positive effects go to the right, while the ones with larger samples and less noise go to the top. If there were no publication bias, the markers should form a symmetric funnel. But above the points tilt strongly to the right at the bottom, suggesting significant publication bias. The curved grey line tries to account for this and suggests that controlling for publication bias should cut the mean effect size in half.
 
-<details markdown="1"><summary>The above plots are an attempt to estimate the amount of publication bias in an earlier meta-analysis by <a href="https://doi.org/10.1002/jclp.20593">Sin and Lyubomirsky (2009)</a>. They do a similar analysis for an earlier meta-analysis by <a href="https://doi.org/10.1186/1471-2458-13-119">Bolier et al. (2013)</a> and find that adjusting for publication bias reduces the mean effect almost to <em>zero</em>.
+<details markdown="1"><summary>The above plots are an attempt to estimate the amount of publication bias in an earlier meta-analysis by <a href="https://doi.org/10.1002/jclp.20593">Sin and Lyubomirsky (2009)</a>. They do a similar analysis for a later meta-analysis by <a href="https://doi.org/10.1186/1471-2458-13-119">Bolier et al. (2013)</a> and find that adjusting for publication bias reduces the mean effect almost to <em>zero</em>.
 </summary>
 
 Here's the plot of study size vs effect size:

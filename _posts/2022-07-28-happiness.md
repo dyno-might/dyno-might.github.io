@@ -78,7 +78,7 @@ How does this work? My guess is it's something like this:
 
 To reap the rewards of running, you need to suffer a fairly large short-term decrease. This seems to be true of lots of things, like eating better, taking better care of your appearance, keeping your home well-decorated and orderly, and even maintaining relationships.
 
-So maybe happiness improvement *is* possible, but we don't have the willpower to leave our leaving local optima.
+So maybe happiness improvement *is* possible, but we don't have the willpower to leave our local optima.
 
 Is this plausible? Well, if local optima were a central challenge for happiness, then we'd expect that people with more self-control would be happier. Are they? Actually... maybe yes [(Cheung et al. 2014)](https://doi.org/10.3389%2Ffpsyg.2014.00722).
 
