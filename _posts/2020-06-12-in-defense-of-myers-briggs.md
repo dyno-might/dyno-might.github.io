@@ -95,7 +95,7 @@ For example: eNxJ is:
 
 This gives five bins for each axis. You can still sort of say it out loud by making the strong preferences louder. This gives 5⁴=625 possible results. Of course, there aren’t 625 discrete types of people either. Our goal isn’t to split people into groups, it’s to give a convenient summary of how they answered a bunch of questions.
 
-To underline this point, I even created a [Myers-Briggs quiz you can take in 2 minutes](https://dynomight.net/mbti/) that gives results in this form.
+To underline this point, I even created a [quiz you can take in 2 minutes](https://dynomight.net/mbti/) that gives results in this form.
 
 To claim it’s never useful to discretize denies human nature. You might as well claim we shouldn’t say “hot” or “cold” but must always give a number of degrees.
 
