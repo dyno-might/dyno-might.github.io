@@ -98,7 +98,7 @@ I measured my systolic and diastolic blood pressure twice each day, once right a
 
 [![diastolic pressure graph](/img/unprocessed-food/diastolic.svg)](/img/unprocessed-food/diastolic.pdf)
 
-Oddly, it looks my systolic—but not diastolic—pressure was slightly higher in the evening.
+Oddly, it looks like my systolic—but not diastolic—pressure was slightly higher in the evening.
 
 I also measured my pulse twice a day.
 
