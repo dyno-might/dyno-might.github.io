@@ -283,7 +283,7 @@ But heritability is *something*. I think of it as saying how much hope we have t
 |-|-|-|
 | High | Yes | No | 
 |-|-|-|
-| High | No | Maybe | 
+| Low | No | Maybe | 
 
 But be careful. Just because heritability is high doesn't mean that changing genes is easy. And just because heritability is low doesn't mean that changing the environment is easy, or even possible. Heritability *could* be low because things are just random.
 
