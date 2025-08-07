@@ -6,14 +6,14 @@ tags:
 description: "What heritability actually means"
 excerpt: ""
 permalink: /heritable/
-background_color: rgb(69,71,50)
+background_color: rgb(29,19,17)
 category: "science"
 #seo:
 #  date_modified: 2025-06-20
 #  last_modified_at: 2025-06-20
-#comment:
-#  lemmy: "https://old.lemmy.world/post/33101766"
-#  substack: "https://dynomight.substack.com/p/colors"
+comment:
+  lemmy: "https://old.lemmy.world/post/34097041"
+  substack: "https://dynomight.substack.com/p/heritable"
 #head: ""
 
 ---
@@ -285,7 +285,7 @@ But heritability is *something*. I think of it as saying how much hope we have t
 |-|-|-|
 | High | No | Maybe | 
 
-But be careful! Just because heritability is high doesn't mean that changing genes is easy. And just because heritability is low doesn't mean that changing the environment is easy, or even possible. Heritability *could* be low because things are just random.
+But be careful. Just because heritability is high doesn't mean that changing genes is easy. And just because heritability is low doesn't mean that changing the environment is easy, or even possible. Heritability *could* be low because things are just random.
 
 But heritability doesn't say anything about *non-typical* environments or *non-typical* genes. If an evil despot is giving all the red-haired people cancer pills, perhaps we could solve that by intervening on the despot. And if you want your kid to speak Turkish, it's possible that there's some crazy genetic modifications that would turn them into unstoppable Turkish learning machine.
 
