@@ -271,7 +271,7 @@ Similarly, for humans, I think what we really care about is interventions. If we
 
 But heritability is *something*. I think of it as saying how much hope we have to find an intervention by looking at changes in *current* genes or *current* environments.
 
-1. If heritability is high, then given **current typical genes**, you can't influence the trait much through **current typical environmental changes**. If you only knew that eye color was 100% heritable, that means you're not to change your kid's eye color by reading to them, or putting them on a vegetarian diet, or moving to higher altitude. But it's conceivable you could do it by putting electromagnets under their bed or forcing them to communicate in interpretive dance.
+1. If heritability is high, then given **current typical genes**, you can't influence the trait much through **current typical environmental changes**. If you only knew that eye color was 100% heritable, that means you won't change your kid's eye color by reading to them, or putting them on a vegetarian diet, or moving to higher altitude. But it's conceivable you could do it by putting electromagnets under their bed or forcing them to communicate in interpretive dance.
 
 2. If heritability is high, that also means that given **current typical environments** you *can* influence the trait through **current typical genes**. If the world was ruled by an evil despot who forced red-haired people to take pancreatic cancer pills, then pancreatic cancer would be highly heritable. And you could change the odds someone gets pancreatic cancer by swapping in existing genes for black hair from other people.
 
