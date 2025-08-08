@@ -175,7 +175,7 @@ In this case, everyone has exactly the same phenotypic and genotypic height, nam
 
 0%.
 
-On this island, everyone has a genotypic height is 165 cm. So genotypic variance is zero, but phenotypic variance is positive, due to the ± 5 cm random variation. So heritability is zero divided by some positive number.
+On this island, everyone has a genotypic height of 165 cm. So genotypic variance is zero, but phenotypic variance is positive, due to the ± 5 cm random variation. So heritability is zero divided by some positive number.
 
 **Say there's an island where some people have genes that predispose them to be tall and some have genes that predispose them to be short. But, the same genes that make you tall also make you semi-starve your children, so in practice everyone is exactly 165 cm tall. How heritable is height?**
 
