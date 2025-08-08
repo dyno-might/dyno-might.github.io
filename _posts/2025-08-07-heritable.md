@@ -192,7 +192,7 @@ To see why, note that if babies with short/tall genes are adopted by parents wit
 
 If a baby with short genes is adopted into random families, they will be shorter on average than if a baby with tall genes. So genotypic height varies. However, in reality, everyone is the same height, so *phenotypic* height is constant. So genotypic variance is positive while phenotypic variance is zero. Thus, heritability is some positive number divided by zero, i.e. infinity.
 
-(Are you worried that humans are "diploid", with two genes (alleles) at each locus, one from each biological parent? Or that when there are multiple parents, they all tend to have thoughts on the merits of semi-starvation? If so, please pretend people on this island reproduce asexually. Or, if you like, pretend that there's strong assortative mating so that everyone in the population either has all-short or all-tall genes and only breeds with other people with the same genes. Also, don't fight the hypothetical.)
+(Are you worried that humans are "diploid", with two genes (alleles) at each locus, one from each biological parent? Or that when there are multiple parents, they all tend to have thoughts on the merits of semi-starvation? If so, please pretend people on this island reproduce asexually. Or, if you like, pretend that there's strong assortative mating so that everyone either has all-short or all-tall genes and only breeds with similar people. Also, don't fight the hypothetical.)
 
 **Say there are two islands. They all live the same way and have the same gene pool, except people on island A have some gene that makes them grow to be 150 ± 5 cm tall, while on island B they have a gene that makes them grow to be 160 ± 5 cm tall. How heritable is height?**
 
