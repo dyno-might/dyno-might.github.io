@@ -142,7 +142,7 @@ That's right. Turkish isn't heritable but English is. *Yes it is*. If you ask an
 
 Why? Let me first acknowledge that Turkish is a *little* bit heritable. For one thing, some people have genes that make them non-verbal. And there's surely some genetic basis for being a crazy polyglot that learns many languages for fun. But speaking Turkish as a second language is [quite rare](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers), meaning that the genotypic value of speaking Turkish is *close* to 0.011 for *almost* everyone.
 
-English is different. While only 1 in 20 people in the world speak English as a first language, one in seven learn it as a second language. And who does that? Educated people.
+English is different. While only 1 in 20 people in the world speak English as a first language, 1 in 7 learn it as a second language. And who does that? Educated people.
 
 <details markdown="1">
 <summary>
