@@ -194,12 +194,6 @@ If a baby with short genes is adopted into random families, they will be shorter
 
 (Are you worried that humans are "diploid", with two genes (alleles) at each locus, one from each biological parent? Or are you worried that when multiple people raise a kid they all tend to have thoughts on the merits of semi-starvation? If so, please pretend people on this island reproduce asexually. Or, if you like, pretend that there's strong assortative mating so that everyone in the population either has all-short or all-tall genes and only breeds with other people with the same genes. Also, don't find the hypothetical.)
 
-**Say there's an island where neither genes nor the environment influence height. Except, some people have a gene that makes them inject their babies with human growth hormone, which makes them 5 cm taller. How heritable is height?**
-
-0%.
-
-True, people with that gene will tend be taller. And the gene is *causing* them to be taller. But if babies are adopted into random families, it's the genes of the *parents* that determine if they get injected or not. So everyone has the same genotypic height, genotypic variance is zero, and heritability is zero.
-
 **Say there are two islands. They all live the same way and have the same gene pool, except people on island A have some gene that makes them grow to be 150 ± 5 cm tall, while on island B they have a gene that makes them grow to be 160 ± 5 cm tall. How heritable is height?**
 
 It's 0% for island A and 0% for island B, and 50% for the two islands together.
