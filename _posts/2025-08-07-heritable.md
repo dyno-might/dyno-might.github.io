@@ -146,7 +146,7 @@ English is different. While only 1 in 20 people in the world speak English as a 
 
 <details markdown="1">
 <summary>
-Most people say educational attainment is around 40% heritable (though we'll return to this later). My guess is that speaking English as a second language is similar. But since there's a minority of native speakers (where genes don't really matter), I'm dropping my estimate to 30%.
+Most people say educational attainment is around 40% heritable. My guess is that speaking English as a second language is similar. But since there's a minority of native speakers (where genes don't really matter), I'm dropping my estimate to 30%.
 </summary>
 
 Some [argue](https://theinfinitesimal.substack.com/p/no-intelligence-is-not-like-height) the heritability of educational attainment is much lower. I'd like to avoid debating the exact numbers, but note that these lower numbers are usually estimates of "narrow-sense" heritability rather than "broad-sense" heritability as we're talking about. So they *should* be lower. (I'll explain the difference later.) It's entirely possible that broad-sense heritability is lower than 40%, but everyone agrees it's much larger than zero. So the heritability of English is surely much larger than zero, too.
@@ -190,9 +190,9 @@ To see why, note that if babies with short/tall genes are adopted by parents wit
 | Tall       | Short        | Lots            | More than 165 cm |
 | Tall       | Tall         | Semi-starvation | 165 cm           |
 
-If a baby with short genes is adopted into random families, they will be shorter on average than if a baby with tall genes is adopted into random families. So genotypic height varies. However, in reality, everyone is the same height, so *phenotypic* height is constant. So genotypic variance is positive while phenotypic variance is zero. Thus, heritability is some positive number divided by zero, i.e. infinity.
+If a baby with short genes is adopted into random families, they will be shorter on average than if a baby with tall genes. So genotypic height varies. However, in reality, everyone is the same height, so *phenotypic* height is constant. So genotypic variance is positive while phenotypic variance is zero. Thus, heritability is some positive number divided by zero, i.e. infinity.
 
-(Are you worried that humans are "diploid", with two genes (alleles) at each locus, one from each biological parent? Or are you worried that when multiple people raise a kid they all tend to have thoughts on the merits of semi-starvation? If so, please pretend people on this island reproduce asexually. Or, if you like, pretend that there's strong assortative mating so that everyone in the population either has all-short or all-tall genes and only breeds with other people with the same genes. Also, don't fight the hypothetical.)
+(Are you worried that humans are "diploid", with two genes (alleles) at each locus, one from each biological parent? Or that when there are multiple parents, they all tend to have thoughts on the merits of semi-starvation? If so, please pretend people on this island reproduce asexually. Or, if you like, pretend that there's strong assortative mating so that everyone in the population either has all-short or all-tall genes and only breeds with other people with the same genes. Also, don't fight the hypothetical.)
 
 **Say there are two islands. They all live the same way and have the same gene pool, except people on island A have some gene that makes them grow to be 150 ± 5 cm tall, while on island B they have a gene that makes them grow to be 160 ± 5 cm tall. How heritable is height?**
 
@@ -249,17 +249,17 @@ Babies with DNA for blue eyes get injected. Babies without DNA for blue eyes don
 
 Note that if the crabs were seeking out *parents* with blue eyes and then injecting their babies, then height would be 0% heritable.
 
-It doesn't matter that human growth hormone is weird thing that's coming from outside the baby. It doesn't matter if we think human growth hormone should be semantically classified as part of "the environment". It doesn't matter that heritability would drop to zero if you killed all the crabs, or that the direct causal effect of the relevant genes has nothing to do with hight. Heritability is a ratio and doesn't care.
+It doesn't matter that human growth hormone is weird thing that's coming from outside the baby. It doesn't matter if we think crabs should be semantically classified as part of "the environment". It doesn't matter that heritability would drop to zero if you killed all the crabs, or that the direct causal effect of the relevant genes has nothing to do with height. Heritability is a ratio and doesn't care.
 
 ## What good is heritability?
 
-Heritability can be high even when genes have no *direct* causal effect. It can be low even when there is a strong direct effect. It changes when the environment changes. It even changes based on how you group people together. It can be larger than 100% or even undefined.
+So heritability can be high even when genes have no direct causal effect on the trait in question. It can be low even when there is a strong direct effect. It changes when the environment changes. It even changes based on how you group people together. It can be larger than 100% or even undefined.
 
 Even so, I'm worried people might interpret this post as a long way of saying *heritability is dumb and bad, trolololol*. So I thought I'd mention that this is not my view.
 
 Say a bunch of companies create different LLMs and train them on different datasets. Some the resulting the LLMs are better at writing fiction than others. Now I ask you, "What percentage of the difference in fiction writing performance is due to the base model code, rather than the datasets or the GPUs or the learning rate schedules?"
 
-That's a natural question. But if you put it to an AI expert, I bet you get a funny look. You need code *and* data *and* GPUs to make an LLM. None of those things can write fiction by themselves. Experts would prefer to think about one change at a time: Given *this* model, changing the dataset in *this* way changes fiction writing performance *this* much.
+That's a natural question. But if you put it to an AI expert, I bet you'll get a funny look. You need code *and* data *and* GPUs to make an LLM. None of those things can write fiction by themselves. Experts would prefer to think about one change at a time: Given *this* model, changing the dataset in *this* way changes fiction writing performance *this* much.
 
 Similarly, for humans, I think what we really care about is interventions. If we changed this gene, could we eliminate a disease? If we educate children differently, can we make them healthier and happier? No single number can possibly contain all that information.
 
@@ -267,11 +267,11 @@ But heritability is *something*. I think of it as saying how much hope we have t
 
 1. If heritability is high, then given **current typical genes**, you can't influence the trait much through **current typical environmental changes**. If you only knew that eye color was 100% heritable, that means you won't change your kid's eye color by reading to them, or putting them on a vegetarian diet, or moving to higher altitude. But it's conceivable you could do it by putting electromagnets under their bed or forcing them to communicate in interpretive dance.
 
-2. If heritability is high, that also means that given **current typical environments** you *can* influence the trait through **current typical genes**. If the world was ruled by an evil despot who forced red-haired people to take pancreatic cancer pills, then pancreatic cancer would be highly heritable. And you could change the odds someone gets pancreatic cancer by swapping in existing genes for black hair from other people.
+2. If heritability is high, that also means that given **current typical environments** you *can* influence the trait through **current typical genes**. If the world was ruled by an evil despot who forced red-haired people to take pancreatic cancer pills, then pancreatic cancer would be highly heritable. And you could change the odds someone gets pancreatic cancer by swapping in existing genes for black hair.
 
 3. If heritability is low, that means that given **current typical environments**, you can't cause much difference through **current typical genetic changes**. If we only knew that speaking Turkish was ~0% heritable, that means that doing embryo selection won't much change the odds that your kid speaks Turkish.
 
-4. If heritability is low, that also means that given **current typical genes**, you *might* be able change the trait through **current typical environmental changes**. If we only know that speaking Turkish was 0% heritable, then that means there might be something you could do to change the odds your kid speaks Turkish, e.g. moving to Turkey.
+4. If heritability is low, that also means that given **current typical genes**, you *might* be able change the trait through **current typical environmental changes**. If we only know that speaking Turkish was 0% heritable, then that means there might be something you could do to change the odds your kid speaks Turkish, e.g. moving to Turkey. Or, it's conceivable that it's just random and moving to Turkey wouldn't do anything.
 
 | Heritability | Influenced by typical genes? | Influenced by typical environments? |
 |-|-|-|
@@ -279,9 +279,11 @@ But heritability is *something*. I think of it as saying how much hope we have t
 |-|-|-|
 | Low | No | Maybe | 
 
-But be careful. Just because heritability is high doesn't mean that changing genes is easy. And just because heritability is low doesn't mean that changing the environment is easy, or even possible. Heritability *could* be low because things are just random.
+But be careful. Just because heritability is high doesn't mean that changing genes is easy. And just because heritability is low doesn't mean that changing the environment is easy.
 
-But heritability doesn't say anything about *non-typical* environments or *non-typical* genes. If an evil despot is giving all the red-haired people cancer pills, perhaps we could solve that by intervening on the despot. And if you want your kid to speak Turkish, it's possible that there's some crazy genetic modifications that would turn them into unstoppable Turkish learning machine.
+And heritability doesn't say anything about *non-typical* environments or *non-typical* genes.
+
+If an evil despot is giving all the red-haired people cancer pills, perhaps we could solve that by intervening on the despot. And if you want your kid to speak Turkish, it's possible that there's some crazy genetic modifications that would turn them into unstoppable Turkish learning machine.
 
 Heritability has no idea about any of that, because it's just an observational statistic based on the world as it exists today.
 
@@ -298,7 +300,7 @@ Heritability has no idea about any of that, because it's just an observational s
 The other heritability
 </summary>
 
-## Narrow heritability
+## Appendix: Narrow heritability
 
 This post focused on "broad-sense" heritability.  But there a second heritability out there, called "narrow-sense". Like broad-sense heritability, we can define the narrow-sense heritability of height as a ratio:
 
@@ -319,7 +321,7 @@ Note: This terminology of "additive height" is non-standard. People usually defi
 
 Honestly, I don't think the distinction between "broad-sense" and "narrow-sense" heritability is *that* important. We've already seen that broad-sense heritability is weird, and narrow-sense heritability is similar but different. So it won't surprise you to learn that narrow-sense heritability is *differently*-weird.
 
-## Narrow heritability puzzles
+## Appendix: Narrow heritability puzzles
 
 But if you really want to understand the difference, I can offer you some more puzzles.
 
@@ -354,7 +356,7 @@ You know the story for broad-sense heritability by now. For narrow-sense heritab
 
 So everyone has an additive height of 150 cm, no matter their genes. That's constant, so narrow-sense heritability is zero.
 
-## Why are there two heritabilities?
+## Appendix: Why are there two heritabilities?
 
 I think basically for two reasons:
 
