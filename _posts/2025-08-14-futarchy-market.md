@@ -11,10 +11,10 @@ category: "science"
 #seo:
 #  date_modified: 2025-06-20
 #  last_modified_at: 2025-06-20
-#comment:
-#  lemmy: "https://old.lemmy.world/post/34097041"
-#  substack: "https://dynomight.substack.com/p/futarchy-market"
-#head: ""
+comment:
+  lemmy: "https://old.lemmy.world/post/34433950"
+  substack: "https://dynomight.substack.com/p/futarchy-market"
+head: ""
 
 ---
 
