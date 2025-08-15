@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "So you think you can heritable?"
+title: "Heritability puzzlers"
 image: /img/heritable/baby.jpg
 tags: 
 description: "What heritability actually means"
@@ -17,7 +17,6 @@ comment:
 #head: ""
 
 ---
-
 
 The heritability wars have been a-raging. Watching these, I couldn't help but notice that there's near-universal confusion about what "heritable" means. Partly, that's because it's a subtle concept. But it also seems relevant that almost all explanations of heritability are very, *very* confusing. For example, here's [Wikipedia's definition](https://en.wikipedia.org/wiki/Heritability#Definition):
 
