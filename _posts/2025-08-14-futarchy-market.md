@@ -8,9 +8,9 @@ excerpt: ""
 permalink: /futarchy-market/
 background_color: rgb(143,144,146)
 category: "science"
-#seo:
-#  date_modified: 2025-06-20
-#  last_modified_at: 2025-06-20
+seo:
+  date_modified: 2025-08-17
+  last_modified_at: 2025-08-17
 comment:
   lemmy: "https://old.lemmy.world/post/34433950"
   substack: "https://dynomight.substack.com/p/futarchy-market"
@@ -217,15 +217,17 @@ P[market cancelled | all-tails]
 
 I'll now open the floor for questions.
 
-### Isn't this market unrealistic?
+## Questions
+
+**Isn't this market unrealistic?**
 
 Yes, but that's kind of the point. I created the thought experiment because I wanted to make the problem maximally obvious, because it's subtle and everyone is determined to deny that it exists.
 
-### Isn't this just a weird probability thing? Why does this show futarchy is flawed?
+**Isn't this just a weird probability thing? Why does this show futarchy is flawed?**
 
 The fact that this is *possible* is concerning. If this *can* happen, then futarchy does not work *in general*. If you want to claim that futarchy works, then you need to spell out exactly what extra assumptions you're adding to guarantee that this kind of thing won't happen.
 
-### But prices *did* reflect causality when the market closed! Doesn't that mean this isn't a valid test?
+**But prices *did* reflect causality when the market closed! Doesn't that mean this isn't a valid test?**
 
 No. That's just a quirk of the implementation. You can easily create situations that would have the same issue all the way through market close. Here's one way you could do that:
 
@@ -238,7 +240,7 @@ No. That's just a quirk of the implementation. You can easily create situations 
 
 On average, this market will run for 30 days. (The length follows a [geometric distribution](https://en.wikipedia.org/wiki/Geometric_distribution)). Half the time, the market will close without the nature of coin B being revealed. Even when that happens, I claim the price for coin B will still be above coin A.
 
-### If futarchy is flawed, shouldn't you be able to show that without this weird step of "revealing" coin B?
+**If futarchy is flawed, shouldn't you be able to show that without this weird step of "revealing" coin B?**
 
 Yes. You should be able to do that, and I think you can. Here's one way:
 
@@ -291,13 +293,12 @@ Of course, after the markets open, people will see each other's bids and... some
 
 Except, *everyone knows* that there's less time for information to spread. So while you are waiting till the last minute to reveal your true beliefs, everyone else will do the same thing. So maybe people sort of rush in at the last second? (It would be easier to think about this if implemented with [batched auctions](https://www.lesswrong.com/posts/rS6tKxSWkYBgxmsma/many-prediction-markets-would-be-better-off-as-batched) rather than a real-time market.)
 
-Anyway, while the game theory is vexing, I think there's a mix of (1) people bidding higher than their true beliefs due to correlations between the final price and the true bias of coin B and (2) people "racing" to make the final bid before the markets close. Both of these seem in conflict with the idea of prediction markets making people share information and measure collective beliefs.
+Anyway, while the game theory is vexing, I think there's a mix of (1) people bidding higher than their true beliefs due to correlations between the final price and the true bias of coin B and (2) people "racing" to make the final bid before the markets close. Both of these seem in conflict with the idea of prediction markets making people share information and measuring collective beliefs.
 
-
-### Why do you hate futarchy?
+**Why do you hate futarchy?**
 
 I like futarchy. I think society doesn't make decisions very well, and I think we should give much more attention to new ideas like futarchy that might help us do better. I just think we should be aware of its imperfections and consider variants (e.g. [commiting to randomization](https://dynomight.net/prediction-market-causation/#commit-to-randomization)) that would resolve them.
 
-### If I claim futarchy *does* reflect causal effects, and I reject this experiment as invalid, should I specify what restrictions I want to place on "valid" experiments (and thus make explicit the assumptions under which I claim futarchy works) since otherwise my claims are unfalsifiable?
+**If I claim futarchy *does* reflect causal effects, and I reject this experiment as invalid, should I specify what restrictions I want to place on "valid" experiments (and thus make explicit the assumptions under which I claim futarchy works) since otherwise my claims are unfalsifiable?**
 
 Possibly?
