@@ -11,9 +11,9 @@ category: "science"
 seo:
   date_modified: 2025-08-17
   last_modified_at: 2025-08-17
-#comment:
-#  lemmy: "https://old.lemmy.world/post/34433950"
-#  substack: "https://dynomight.substack.com/p/futarchy-market"
+comment:
+  lemmy: "https://old.lemmy.world/post/34784065"
+  substack: "https://dynomight.substack.com/p/persuasion"
 head: ""
 
 ---
