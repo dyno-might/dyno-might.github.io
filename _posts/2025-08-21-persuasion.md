@@ -122,4 +122,4 @@ Why might large-scale persuasion *not* happen? I can think of a few reasons:
 
 1. Maybe we develop AI that doesn't *want* to persuade. Maybe it doesn't want anything at all.
 2. Maybe several AIs emerge at the same time. They have contradictory goals and compete in a way that sort of cancel each other out.
-3. Maybe we're ants trying to predict the movements of jets in the sky.
+3. Maybe we're mice trying to predict the movements of jets in the sky.
