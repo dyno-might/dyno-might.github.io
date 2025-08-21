@@ -54,7 +54,7 @@ I'm switching positions because of an argument I found very *persuasive*. Here a
 
 As a way of signal-boosting these arguments, I'll list the biggest points I was missing.
 
-Instead of explicitly talking about AI, I'll again imagine that we're in our current world and suddenly a single person shows up with an IQ 30 who can also think (and type) at 10,000× speed. This is surely not a good model for how super-intelligent AI will arrive, but it's close enough to be interesting, and lets us avoid all the combinatorial uncertainty of timelines and capabilities and so on.
+Instead of explicitly talking about AI, I'll again imagine that we're in our current world and suddenly a single person shows up with an IQ 300 who can also think (and type) at 10,000× speed. This is surely not a good model for how super-intelligent AI will arrive, but it's close enough to be interesting, and lets us avoid all the combinatorial uncertainty of timelines and capabilities and so on.
 
 ## Mistake #1: Actually we're very persuadable
 
