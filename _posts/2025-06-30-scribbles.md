@@ -62,7 +62,7 @@ You *could* forecast this using a "mechanistic model" like with climate above. T
 
 In *principle*, that would be the best method. As with climate, there are too many plausible futures for your tiny brain to work through. But building that model would be very hard, because it basically requires you to model the whole world. And if there's an error anywhere, it could have serious consequences.
 
-In practice, I'd put more trust in intuition. A talented human (or [AI](https://dynomight.net/predictions/)?) forecaster would probably take an [outside view](https://en.wikipedia.org/wiki/Reference_class_forecasting) like, "Over the last 80 years, the number of countries has gone up by 9, so in 2105, it might be around 18." Then, they'd consider adjusting for things like, "Will other countries might learn from the example of North Korea?" or "Will chemical enrichment methods become practical?"
+In practice, I'd put more trust in intuition. A talented human (or [AI](https://dynomight.net/predictions/)?) forecaster would probably take an [outside view](https://en.wikipedia.org/wiki/Reference_class_forecasting) like, "Over the last 80 years, the number of countries has gone up by 9, so in 2105, it might be around 18." Then, they'd consider adjusting for things like, "Will other countries learn from the example of North Korea?" or "Will chemical enrichment methods become practical?"
 
 Intuition can't churn through possible futures the way a simulation can. But if you don't *have* a reliable simulator, maybe that's OK.
 

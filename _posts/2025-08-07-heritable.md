@@ -40,7 +40,7 @@ Do you find that helpful? I hope not, because it's a mishmash of undefined termi
 2. Genotype (*G*) is never defined. This is a *huge* issue, since it's very tricky and heritability makes no sense without it.
 3. Environment (*E*) is never defined. This is worse than it seems, since in heritability, different people use "environment" and *E* to refer to different things.
 4. When we write *P* = *G* + *E*, are we assuming some kind of linear interaction? The text implies not, but why? What does this equation mean? If this equation is always true, then why do people often add other stuff like *G* × *E* on the right?
-5. The text states that *if* do a planned experiment (how?) and make Cov(*G*, *E*) = 0, *then* heritability is Var(*G*) / Var(*P*). But in fact, heritability is *always* defined that way. You don't need a planned experiment and it's fine if Cov(*G*, *E*) ≠ 0.
+5. The text states that *if* you do a planned experiment (how?) and make Cov(*G*, *E*) = 0, *then* heritability is Var(*G*) / Var(*P*). But in fact, heritability is *always* defined that way. You don't need a planned experiment and it's fine if Cov(*G*, *E*) ≠ 0.
 6. And—wait a second—that definition doesn't refer to environmental effects at all. So what was the point of introducing them? What was the point of writing *P* = *G* + *E*? What are we doing?
 
 Reading this almost does more harm than good. While the final definition is correct, it never even attempts to explain what *G* and *P* are, it gives an incorrect condition for when the definition applies, and instead mostly devotes itself to an unnecessary digression about environmental effects. The rest of the page doesn't get much better. Despite being 6700 words long, I think it would be *impossible* to understand heritability simply by reading it.
@@ -256,7 +256,7 @@ So heritability can be high even when genes have no direct causal effect on the 
 
 Even so, I'm worried people might interpret this post as a long way of saying *heritability is dumb and bad, trolololol*. So I thought I'd mention that this is not my view.
 
-Say a bunch of companies create different LLMs and train them on different datasets. Some the resulting the LLMs are better at writing fiction than others. Now I ask you, "What percentage of the difference in fiction writing performance is due to the base model code, rather than the datasets or the GPUs or the learning rate schedules?"
+Say a bunch of companies create different LLMs and train them on different datasets. Some of the resulting LLMs are better at writing fiction than others. Now I ask you, "What percentage of the difference in fiction writing performance is due to the base model code, rather than the datasets or the GPUs or the learning rate schedules?"
 
 That's a natural question. But if you put it to an AI expert, I bet you'll get a funny look. You need code *and* data *and* GPUs to make an LLM. None of those things can write fiction by themselves. Experts would prefer to think about one change at a time: Given *this* model, changing the dataset in *this* way changes fiction writing performance *this* much.
 
