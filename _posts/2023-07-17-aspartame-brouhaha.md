@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "WHO aspartame brouhaha"
+title: WHO aspartame brouhaha
 image: /img/aspartame-brouhaha/parakeet.jpg
-tags: 
+tags:
+  - science
 description: the territory under dispute
 excerpt: 
 permalink: /aspartame-brouhaha/
 background_color: rgb(33,35,24)
-category: "obsessive investigation"
-excerpt: 
+category: obsessive investigation
 comment:
   substack: https://dynomight.substack.com/p/aspartame-brouhaha
 ---

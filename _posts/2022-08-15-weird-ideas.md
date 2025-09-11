@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Rules for weird ideas"
+title: Rules for weird ideas
 image: /img/weird-ideas/2001b.jpg
-tags: 
-description: "On asking people to consider stuff that sounds crazy"
+tags:
+  - discourse
+description: On asking people to consider stuff that sounds crazy
 permalink: /weird-ideas/
 background_color: rgb(189,196,220)
-category: "communication"
+category: communication
 comment:
-    reddit: https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/
-    substack: https://dynomight.substack.com/p/weird-ideas
+  reddit: https://old.reddit.com/r/dynomight/comments/wp3vw1/rules_for_weird_ideas/
+  substack: https://dynomight.substack.com/p/weird-ideas
 ---
 
 It's frustrating to propose an idea and have people dismiss it just because it's weird. You've surely seen people ridicule ideas like worrying about wild animal suffering or computers becoming sentient or comets crashing into the planet. I've encountered some of this for claiming [aspartame is likely harmless](/aspartame) but [ultrasonic humidifiers might not be](/humidifiers).

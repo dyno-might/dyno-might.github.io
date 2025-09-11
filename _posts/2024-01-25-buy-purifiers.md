@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "What if you just bought everyone air purifiers?"
+title: What if you just bought everyone air purifiers?
 image: /img/buy-purifiers/city2.jpg
-tags: 
-description: "amazing or nah"
+tags:
+  - air
+  - conspiracy
+description: amazing or nah
 excerpt: 
 permalink: /buy-purifiers/
 background_color: rgb(241,241,241)
-category: "air quality"
+category: air quality
 comment:
-#    substack: https://dynomight.substack.com/p/buy-purifiers
 ---
 
 I haven't written about air quality in a while. Ominously, sometimes people ask me if I still care about it. So, lest anyone think I have some kind of dreadful healthy mental balance, I thought I should do some Fermi estimates.

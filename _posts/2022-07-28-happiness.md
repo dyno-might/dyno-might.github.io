@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Nobody optimizes happiness"
+title: Nobody optimizes happiness
 image: /img/happiness/fire.jpg
-tags: 
-description: "People don't seem to try very hard to make themselves happier. Why not?"
+tags:
+  - life
+description: People don't seem to try very hard to make themselves happier. Why not?
 excerpt: "Everyone I know is scheming for the future. They've got big goals and get up every day and work like mad to try to achieve them. I've always found something odd about that: Despite all this effort, people don't seem to think too much about the specifics of what would happen after their goal is achieved. Like---say your startup goes public and you become a billionaire. What now? What will you buy, where will you live, what will you eat for lunch? Don't worry, I won't tell you to abandon your goals and detach yourself from desire. I'm just observing that even if you achieved your goals, you'd need to make a huge number of decisions to convert them into a \"life\" and then (hopefully) happiness. And people don't seem to think much about those decisions."
 permalink: /happiness/
 background_color: rgb(179,207,230)
-category: "self improvement"
+category: self improvement
 comment:
-   reddit: https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/
-   substack: https://dynomight.substack.com/p/happiness
-   hacker news: https://news.ycombinator.com/item?id=32266897
+  reddit: https://old.reddit.com/r/dynomight/comments/waeuq7/nobody_optimizes_happiness/
+  substack: https://dynomight.substack.com/p/happiness
+  hacker news: https://news.ycombinator.com/item?id=32266897
 ---
 
 Everyone I know is scheming for the future. They've got big goals and get up every day and work like mad to try to achieve them.

@@ -2,14 +2,17 @@
 layout: post
 title: "Aspartame: Once more unto the breach"
 image: /img/aspartame/diet.jpg
-tags: science
-description: "Like it or not, there's a clear scientific consensus"
+tags:
+  - science
+  - health
+  - effort
+description: Like it or not, there's a clear scientific consensus
 permalink: /aspartame/
 background_color: rgb(102,102,102)
 seo:
   date_modified: 2023-06-29
 last_modified_at: 2023-06-29
-category: "obsessive investigation"
+category: obsessive investigation
 comment:
   reddit: https://old.reddit.com/r/dynomight/comments/vds0pe/the_safety_of_aspartame_once_more_unto_the_breach/
   substack: https://dynomight.substack.com/p/aspartame

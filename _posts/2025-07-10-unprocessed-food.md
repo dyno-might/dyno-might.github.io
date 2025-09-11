@@ -2,7 +2,7 @@
 layout: post
 title: "My 9-week unprocessed food self-experiment"
 image: /img/unprocessed-food/lemur1.jpg
-tags: 
+tags: experiment science
 description: "What I really want to know is: What benefit would I get from making my diet better?"
 excerpt: ""
 permalink: /unprocessed-food/

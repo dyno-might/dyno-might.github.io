@@ -1,20 +1,17 @@
 ---
 layout: post
-title: "Car trouble"
+title: Car trouble
 image: /img/car-trouble/car.jpg
-tags: 
+tags:
+  - life
 description: And how not to fix it
 excerpt: "Some time ago—I'm not sure when exactly—my car started rattling. It would only rattle: 1. When the engine was on, sitting idle, or 2. When accelerating with just the right amount of throttle. This rattle, I did not like it. It sounded like a tiny spoon in a garbage disposal. Which can't be good, can it? But I exist only in the world of ideas and couldn't summon the executive function to do anything about it."
 permalink: /car-trouble/
 background_color: rgb(169,156,114)
-category: "science"
-#seo:
-# date_modified: 2025-02-06
-#last_modified_at: 2025-02-06
+category: science
 comment:
-  lemmy: "https://old.lemmy.world/post/25222322"
-  substack: "https://dynomight.substack.com/p/car-trouble/"
-
+  lemmy: https://old.lemmy.world/post/25222322
+  substack: https://dynomight.substack.com/p/car-trouble/
 ---
 
 Some time ago—I'm not sure when exactly—my car started rattling. It would only rattle:

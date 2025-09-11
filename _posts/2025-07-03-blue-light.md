@@ -2,7 +2,7 @@
 layout: post
 title: "Do blue-blocking glasses improve sleep?"
 image: /img/blue-light/beach_at_trouville.jpg
-tags: 
+tags: science life
 description: "(are they worth looking like a huge dork?)"
 excerpt: ""
 permalink: /blue-light/

@@ -2,12 +2,13 @@
 layout: post
 title: What's so great about tunnel man?
 image: /img/tunnel-man/tunnel.jpg
-tags: 
-description: "insensitivity to evolution and engineering?"
+tags:
+  - life
+description: insensitivity to evolution and engineering?
 excerpt: ""
 permalink: /tunnel-man/
 background_color: rgb(12,15,17)
-category: "rants"
+category: rants
 ---
 
 We all have our peculiarities. One of mine is an obsession with tunnel man.

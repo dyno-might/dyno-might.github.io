@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Fahren-height"
+title: Fahren-height
 image: /img/fahren-height/pouring.jpg
-tags: 
+tags:
+  - experiment
 description: (celsi-pour?)
 excerpt: 
 permalink: /fahren-height/
 background_color: rgb(166,132,84)
-category: "science"
-#comment:
-#   substack: https://dynomight.substack.com/p/fahren-height
+category: science
 ---
 
 The Internet is well into middle-age, and yet doesn't seem to have answered humanity's most pressing question: If you pour boiling hot water from various heights, how much does it cool in flight?

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "358 games of puzzle storm"
+title: 358 games of puzzle storm
 image: /img/puzzle-storm/storm2.jpg
-tags: 
-description: "Tracking my cognitive performance for a year"
+tags:
+  - experiment
+description: Tracking my cognitive performance for a year
 permalink: /puzzle-storm/
 background_color: rgb(66,73,85)
-category: "self improvement"
-comment: 
-    reddit: https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/
-    substack: https://dynomight.substack.com/p/puzzle-storm
-
+category: self improvement
+comment:
+  reddit: https://old.reddit.com/r/dynomight/comments/wuup4c/358_games_of_puzzle_storm/
+  substack: https://dynomight.substack.com/p/puzzle-storm
 ---
 
 A year ago, I started playing [puzzle storm](https://lichess.org/storm). This is a short game where you try to rapidly solve as many chess puzzles as you can in a few minutes.

@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Making the Monty Hall problem weirder but obvious"
+title: Making the Monty Hall problem weirder but obvious
 image: /img/monty-hall/monty.jpg
 description: "It's this simple: Do you want what's behind one door or the other nine?"
-tags: explainer statistics math
+tags:
+  - math
 seo:
   date_modified: 2021-12-16
 last_modified_at: 2021-12-16
 permalink: /:year/:month/:day/:title/
-category: "math"
+category: math
 ---
 
 <head>

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Warby Parker multiverse"
+title: Warby Parker multiverse
 image: /img/warby-parker/warby3.jpg
-tags: philosophy
-description: "Meanwhile, in the multiverse..."
+tags: []
+description: Meanwhile, in the multiverse...
 permalink: /warby-parker/
 background_color: rgb(8,16,27)
-category: "uncategorizable"
+category: uncategorizable
 ---
 
 In your particular branch of spacetime, you may see things like this:

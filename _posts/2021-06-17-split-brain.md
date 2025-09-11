@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "A review of early split-brain experiments"
+title: A review of early split-brain experiments
 image: /img/split-brain/cat.jpg
-tags: science
+tags: science data conspiracy
 hero_light: false
 dark_title: false
-background_color: black
-description: "What happens if you cut your brain in half?"
-permalink: /split-brain/
 background_color: rgb(199, 198, 229)
-category: "obsessive investigation"
+description: What happens if you cut your brain in half?
+permalink: /split-brain/
+category: obsessive investigation
 ---
 
 What happens if you cut your cortex in half? When this was first tried on animals, the answer seemed to be *not much*. But starting in the late 1950s, a series of experiments found that very weird things happen under careful testing. These experiments are fascinating for their implications into the mind, consciousness, and selfhood.

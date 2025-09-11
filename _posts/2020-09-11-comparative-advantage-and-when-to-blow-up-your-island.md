@@ -3,7 +3,7 @@ layout: post
 title: "Comparative advantage and when to blow up your island"
 image: /img/comparative-advantage/island.jpg
 description: Explains comparative advantage through trades of coconuts and bananas. Also, why it might be smart to blow up your island.
-tags: explainer economics gameTheory
+tags: economics
 permalink: /:year/:month/:day/:title/
 background-color: "#1f00cc"
 category: "economics"

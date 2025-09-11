@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "Diet Coke probably isn't a cognitive performance enhancer"
+title: Diet Coke probably isn't a cognitive performance enhancer
 image: /img/diet-coke-nootropic/coke4.jpg
-tags: philosophy
-description: "Investigating the (aspartame → phenylalanine → dopamine) theory"
-excerpt: "\"Very ambitious and successful and competitive and rich person loves Diet Coke\" has been in the news recently, and friend of the blog Aaron Bergman proposes a theory as to why. Spelled out in more detail, it goes like this: 1. There are nine essential amino acids, one of which is phenylalanine (C₉H₁₁NO₂). 2. Weird, that formula looks kind of like amphetamine (C₉H₁₃N). 3. In fact, phenylalanine is a precursor for lots of exciting stuff: 4. The sweetener in Diet Coke is aspartame (C₁₄H₁₈N₂O₅). 5. The body metabolizes aspartame into phenylalanine, plus methanol and aspartic acid."
+tags:
+  - conspiracy
+  - science
+description: Investigating the (aspartame → phenylalanine → dopamine) theory
+excerpt: '"Very ambitious and successful and competitive and rich person loves Diet Coke" has been in the news recently, and friend of the blog Aaron Bergman proposes a theory as to why. Spelled out in more detail, it goes like this: 1. There are nine essential amino acids, one of which is phenylalanine (C₉H₁₁NO₂). 2. Weird, that formula looks kind of like amphetamine (C₉H₁₃N). 3. In fact, phenylalanine is a precursor for lots of exciting stuff: 4. The sweetener in Diet Coke is aspartame (C₁₄H₁₈N₂O₅). 5. The body metabolizes aspartame into phenylalanine, plus methanol and aspartic acid.'
 permalink: /diet-coke-nootropic/
 background_color: rgb(108,63,66)
-category: "obsessive investigation"
+category: obsessive investigation
 comment:
-   substack: https://dynomight.substack.com/p/diet-coke-nootropic
-   hacker news: https://news.ycombinator.com/item?id=31727687
+  substack: https://dynomight.substack.com/p/diet-coke-nootropic
+  hacker news: https://news.ycombinator.com/item?id=31727687
 replies:
-    Aaron Bergman: https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also
+  Aaron Bergman: https://www.aaronbergman.net/p/contra-dynomight-contra-me-but-also
 ---
 
 Except for the caffeine of course, and maybe that it's so delicious?

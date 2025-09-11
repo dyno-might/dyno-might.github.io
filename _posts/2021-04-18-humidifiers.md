@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "The case against ultrasonic humidifiers"
+title: The case against ultrasonic humidifiers
 image: /img/humidifiers/hum1.jpg
 image_srcset: /img/humidifiers/hum1.jpg 1440w, /img/humidifiers/hum1_med.jpg 1080w,  /img/humidifiers/hum1_small.jpg 720w
-tags: cleanAir
+tags: air conspiracy
 seo:
   date_modified: 2021-12-22
 last_modified_at: 2021-12-22
-background_color: black
-description: "Why it's better not to use an ultrasonic humidifier"
-permalink: /humidifiers/
 background_color: rgb(10, 10, 10)
-category: "air quality"
+description: Why it's better not to use an ultrasonic humidifier
+permalink: /humidifiers/
+category: air quality
 ---
 
 Let me state two things upfront:

@@ -2,7 +2,9 @@
 layout: post
 title: "The Cuboid: A DIY air purifier that's better than a box-fan"
 image: /img/cuboid_purifier/smoke3b.jpg
-tags: cleanAir science
+tags:
+  - air
+  - experiment
 hero_light: false
 dark_title: false
 background_color: black
@@ -11,9 +13,9 @@ seo:
   date_modified: 2021-03-02
 last_modified_at: 2021-03-02
 permalink: /better-DIY-air-purifier.html
-category: "air quality"
+category: air quality
 comment:
-    hacker news: https://news.ycombinator.com/item?id=26275091
+  hacker news: https://news.ycombinator.com/item?id=26275091
 ---
 
 

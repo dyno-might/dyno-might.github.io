@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Arithmetic is an underrated world-modeling technology"
+title: Arithmetic is an underrated world-modeling technology
 image: /img/arithmetic/hippos2.jpg
-tags: 
-description: "if you keep units" 
+tags:
+  - math
+description: if you keep units
 excerpt: ""
 permalink: /arithmetic/
 background_color: rgb(147,131,120)
-category: "math"
+category: math
 comment:
-  substack: "https://dynomight.substack.com/p/arithmetic/"
-  lesswrong: "https://www.lesswrong.com/posts/r2LojHBs3kriafZWi/arithmetic-is-an-underrated-world-modeling-technology"
-  hacker news: "https://news.ycombinator.com/item?id=41871024"
-
+  substack: https://dynomight.substack.com/p/arithmetic/
+  lesswrong: https://www.lesswrong.com/posts/r2LojHBs3kriafZWi/arithmetic-is-an-underrated-world-modeling-technology
+  hacker news: https://news.ycombinator.com/item?id=41871024
 ---
 
 Of all the cognitive tools our ancestors left us, what's best? Society seems to think pretty highly of arithmetic. It's one of the first things we learn as children. So I think it's weird that only a tiny percentage of people seem to know how to actually *use* arithmetic. Or maybe even understand what arithmetic is for. Why?

@@ -2,12 +2,14 @@
 layout: post
 title: You’re Invited to a Colonoscopy!
 image: /img/colonoscopies/hose.jpg
-tags: 
-description: "thoughts on tubes"
-excerpt: "Colonoscopies are the first-line method for preventing colorectal cancer in America —and almost nowhere else. But do they work? We finally have a comprehensive trial, but it’s left gastroenterologists with more questions than answers."
+tags:
+  - health
+  - effort
+description: thoughts on tubes
+excerpt: Colonoscopies are the first-line method for preventing colorectal cancer in America —and almost nowhere else. But do they work? We finally have a comprehensive trial, but it’s left gastroenterologists with more questions than answers.
 permalink: /colonoscopies/
 background_color: rgb(215,216,218)
-category: "self improvement"
+category: self improvement
 ---
 
 This is the first part of an article that just appeared in [Asterisk magazine](https://asteriskmag.com/). You can read the whole thing [here](https://asteriskmag.com/issues/04/you-re-invited-to-a-colonoscopy).

@@ -1,21 +1,19 @@
 ---
 layout: post
-title: "Heritability puzzlers"
+title: Heritability puzzlers
 image: /img/heritable/baby.jpg
-tags: 
-description: "What heritability actually means"
+tags:
+  - science
+  - math
+  - effort
+description: What heritability actually means
 excerpt: ""
 permalink: /heritable/
 background_color: rgb(29,19,17)
-category: "science"
-#seo:
-#  date_modified: 2025-06-20
-#  last_modified_at: 2025-06-20
+category: science
 comment:
-  lemmy: "https://old.lemmy.world/post/34097041"
-  substack: "https://dynomight.substack.com/p/heritable"
-#head: ""
-
+  lemmy: https://old.lemmy.world/post/34097041
+  substack: https://dynomight.substack.com/p/heritable
 ---
 
 The heritability wars have been a-raging. Watching these, I couldn't help but notice that there's near-universal confusion about what "heritable" means. Partly, that's because it's a subtle concept. But it also seems relevant that almost all explanations of heritability are very, *very* confusing. For example, here's [Wikipedia's definition](https://en.wikipedia.org/wiki/Heritability#Definition):

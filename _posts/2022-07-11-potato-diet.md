@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Thoughts on the potato diet"
+title: Thoughts on the potato diet
 image: /img/potato-diet/potato.jpg
-tags: 
-description: "Nine observations about what happens when you eat only potatoes"
+tags:
+  - health
+description: Nine observations about what happens when you eat only potatoes
 excerpt: "You've probably heard about the potato diet. If not, here it is: 1. Eat potatoes. 2. As many as you want. 3. Oil and salt are OK. 4. Don't eat other stuff. I thought this sounded delightfully absurd so I tried it for a few weeks. Here are some observations."
 permalink: /potato-diet/
 background_color: rgb(180,183,188)
-category: "self improvement"
-comment: 
-    reddit: https://old.reddit.com/r/dynomight/comments/vwmdmr/thoughts_on_the_potato_diet/
-    substack: https://dynomight.substack.com/p/potato-diet
-    hacker news: https://news.ycombinator.com/item?id=32058674
+category: self improvement
+comment:
+  reddit: https://old.reddit.com/r/dynomight/comments/vwmdmr/thoughts_on_the_potato_diet/
+  substack: https://dynomight.substack.com/p/potato-diet
+  hacker news: https://news.ycombinator.com/item?id=32058674
 ---
 
 You've probably heard about the [potato diet](https://slimemoldtimemold.com/2022/04/29/potato-diet-community-trial-sign-up-now-lol/). If not, here it is:

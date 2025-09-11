@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "How to use analogies for good not evil"
+title: How to use analogies for good not evil
 image: /img/analogies/owl.jpg
-tags: communication philosophy
-description: "Five proposed rules to make sure you're using analogies for good"
+tags:
+  - discourse
+description: Five proposed rules to make sure you're using analogies for good
 permalink: /analogies/
 background_color: rgb(17,96,85)
 excerpt: To fix the analogy, you'd need some bizarre scenario where during the party America had lots of fun and created lots of dirty dishes but also, like, discovered new partying methodology and new ways to use dishes so they are easier to wash?
-category: "communication"
+category: communication
 ---
 
 To start, here's a bunch of analogies, some good, some not so good:

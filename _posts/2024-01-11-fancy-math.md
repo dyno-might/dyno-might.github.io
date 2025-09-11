@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Fancy math doesn't make simple math stop being true"
+title: Fancy math doesn't make simple math stop being true
 image: /img/fancy-math/davinci.jpg
-tags: 
-description: "on butts and instrumental variables"
+tags:
+  - math
+  - science
+  - health
+description: on butts and instrumental variables
 excerpt: 
 permalink: /fancy-math/
 background_color: rgb(179,167,151)
-category: "science"
+category: science
 comment:
-#    substack: https://dynomight.substack.com/p/fancy-math
 ---
 
 ![](/img/fancy-math/venn.svg)

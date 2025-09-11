@@ -2,7 +2,7 @@
 layout: post
 title: "Winner take all science"
 image: /img/wta-science/beagle.jpg
-tags: science, economics
+tags: science economics
 description: "Is it helpful for things to work this way?"
 excerpt: ""
 permalink: /wta-science/

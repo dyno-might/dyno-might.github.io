@@ -2,7 +2,7 @@
 layout: post
 title: "Fighting me and other survey results"
 image: /img/survey-results/gloves.jpg
-tags: 
+tags: data
 description: Do extroverts have more martial confidence?
 excerpt: 
 permalink: /survey-results/

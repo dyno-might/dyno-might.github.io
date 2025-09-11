@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Consciousness will slip through our fingers"
+title: Consciousness will slip through our fingers
 image: /img/consciousness/foot2.jpg
-tags: 
-description: "Can technology explain subjective experience?" 
+tags:
+  - philosophy
+  - science
+description: Can technology explain subjective experience?
 excerpt: ""
 permalink: /consciousness/
 background_color: rgb(160,150,148)
-category: "philosophy"
+category: philosophy
 comment:
-  substack: "https://dynomight.substack.com/p/consciousness/"
+  substack: https://dynomight.substack.com/p/consciousness/
 ---
 
 I guess life makes sense: For some reason there's a universe and that universe has lots of atoms bouncing around and sometimes they bounce into patterns that copy themselves and then those patterns go to war for billions of years and *voilà*—you.

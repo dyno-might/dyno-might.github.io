@@ -1,16 +1,16 @@
 ---
-
 layout: post
-title: "Why I'm skeptical of universal basic income"
+title: Why I'm skeptical of universal basic income
 image: /img/skeptical_ubi/dog.jpg
-tags: economics
+tags:
+  - economics
+  - policy
 description: Common arguments for universal basic income are about liberty or automation of jobs. The "real" argument is much more mundane.
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-11-28
 last_modified_at: 2021-11-28
-category: "economics"
-
+category: economics
 ---
 
 Universal basic income (UBI) is an odd duck. Proponents range from futurists to libertarians to social democrats. Why this weird range of people?

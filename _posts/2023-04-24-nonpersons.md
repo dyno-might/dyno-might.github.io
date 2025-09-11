@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Reasons after nonpersons"
+title: Reasons after nonpersons
 image: /img/nonpersons/sat.jpg
-tags: philosophy, science
-description: "AI will make some old-school philosophical thought experiments seem much more relevant"
+tags:
+  - philosophy
+description: AI will make some old-school philosophical thought experiments seem much more relevant
 excerpt: ""
 permalink: /nonpersons/
 background_color: rgb(91,122,156)
-category: "philosophy"
+category: philosophy
 ---
 
 The year is 2029 and you've finally done it. You've written the first AI program that is so good—so damn good—that *no one* can deny that it thinks and has subjective experiences.

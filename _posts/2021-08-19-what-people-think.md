@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Political polarization is partly a sample bias illusion"
+title: Political polarization is partly a sample bias illusion
 image: /img/what-people-think/demand.jpg
-tags: statistics policy
+tags:
+  - policy
 hero_light: false
 dark_title: false
-background_color: black
-description: "How polarized are we? An overview of what people of different political parties, education levels, races, and political engagement think about politics."
-permalink: /polarization-sample-bias/
 background_color: rgb(143,177,189)
-category: "politics/policy"
+description: How polarized are we? An overview of what people of different political parties, education levels, races, and political engagement think about politics.
+permalink: /polarization-sample-bias/
+category: politics/policy
 ---
 
 We're here on Earth for such a short time. So, I often wonder---what do people spend their days thinking about? Judging from the ever-increasing amount of screaming everywhere, the answer would seem to be politics. But is that right? What opinions do normal people really have?

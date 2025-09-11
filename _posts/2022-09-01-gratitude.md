@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Does gratitude increase happiness?"
+title: Does gratitude increase happiness?
 image: /img/gratitude/car3.jpg
-tags: 
-description: "After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?"
-excerpt: "I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming we should be thankful because: \"Hokey, unfashionable techniques like practicing gratitude turn out to have strong scientific evidence behind them.\" Sorry about that. In my defense, the internet is rife with articles from seemingly credible places that say things like this: \"Is it true that you can become healthier and happier by practicing gratitude? The short answer is yes.\""
+tags:
+  - science
+  - conspiracy
+description: After decades of research, we now have a huge body of studies and meta-reviews to summarize it. What do they say?
+excerpt: 'I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming we should be thankful because: "Hokey, unfashionable techniques like practicing gratitude turn out to have strong scientific evidence behind them." Sorry about that. In my defense, the internet is rife with articles from seemingly credible places that say things like this: "Is it true that you can become healthier and happier by practicing gratitude? The short answer is yes."'
 permalink: /gratitude/
 background_color: rgb(66,73,85)
-category: "self improvement"
+category: self improvement
 comment:
-    substack: https://dynomight.substack.com/p/gratitude
+  substack: https://dynomight.substack.com/p/gratitude
 ---
 
 I was wrong about gratitude. I thought it was a guaranteed way to become happier and went around proclaiming [we should be thankful](/thanks/) because:

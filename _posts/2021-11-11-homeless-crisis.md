@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "A breakdown of the data on the homeless crisis across the U.S."
+title: A breakdown of the data on the homeless crisis across the U.S.
 image: /img/homeless-crisis/no.jpg
-tags: policy statistics
+tags:
+  - policy
+  - effort
 hero_light: false
 dark_title: false
-background_color: black
-description: "Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues."
-excerpt: "Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say? At a glance, this doesn't look very crisisy. Since 2015, things have gone up by less than three percent. Still, I think there is a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that."
-permalink: /homeless-crisis/
 background_color: rgb(190,190,190)
-category: "obsessive investigation"
+description: Many people see a homelessness crisis, but what does the data say? We examine different locations, rates of change, types of homelessness, and mental health and substance abuse issues.
+excerpt: Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say? At a glance, this doesn't look very crisisy. Since 2015, things have gone up by less than three percent. Still, I think there is a crisis, we just have to work harder to see it. We need to look at different locations, rates of change, different types of homelessness, and mental health and substance abuse issues. Let's do that.
+permalink: /homeless-crisis/
+category: obsessive investigation
 comment:
-    hacker news: https://news.ycombinator.com/item?id=29192550
+  hacker news: https://news.ycombinator.com/item?id=29192550
 ---
 
 Is the US in the midst of a homelessness crisis? Many people think so, but that's largely based on based on anecdotes. What does the data say?

@@ -2,16 +2,18 @@
 layout: post
 title: "Nursing doubts: Is breastfeeding good?"
 image: /img/breastfeeding/bear4.jpg
-tags: 
+tags:
+  - health
+  - effort
 description: (how good? how do we know?)
 excerpt: "If you ask the internet if breastfeeding is good, you will soon learn that YOU MUST BREASTFEED because BREAST MILK = OPTIMAL FOOD FOR BABY. But if you look for evidence, you'll discover two disturbing facts. First, there's no consensus about *why* breastfeeding is good. I've seen experts suggest at least eight possible mechanisms: 1. Formula can't fully reproduce the complex blend of fats, proteins and sugars in breast milk. 2. Formula lacks various bio-active things in breast milk, like antibodies, white blood cells, oligosaccharides."
 permalink: /breastfeeding/
 background_color: rgb(144,99,71)
-category: "obsessive investigation"
+category: obsessive investigation
 comment:
-  substack: "https://dynomight.substack.com/p/breastfeeding/"
-  progress forum: "https://progressforum.org/posts/fPkr85ds7XrmNZQ5i/nursing-doubts-is-breastfeeding-good"
-  lesswrong: "https://www.lesswrong.com/posts/p7x3vvPR59WHuoQ2A/nursing-doubts"
+  substack: https://dynomight.substack.com/p/breastfeeding/
+  progress forum: https://progressforum.org/posts/fPkr85ds7XrmNZQ5i/nursing-doubts-is-breastfeeding-good
+  lesswrong: https://www.lesswrong.com/posts/p7x3vvPR59WHuoQ2A/nursing-doubts
 ---
 
 If you ask the internet if breastfeeding is good, you will soon learn that *YOU MUST BREASTFEED* because *BREAST MILK = OPTIMAL FOOD FOR BABY*. But if you look for evidence, you'll discover two disturbing facts.

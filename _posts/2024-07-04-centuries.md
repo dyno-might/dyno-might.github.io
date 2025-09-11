@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Let's stop counting centuries"
+title: Let's stop counting centuries
 image: /img/centuries/allies_day.jpg
-tags: 
-description: "One-indexing problems in everyday life"
+tags:
+  - discourse
+description: One-indexing problems in everyday life
 excerpt: "Here's a sentence from Steven Pinker's Enlightenment Now: 'The Enlightenment is conventionally placed in the last two-thirds of the 18th century, though it flowed out of the Scientific Revolution and the Age of Reason in the 17th century and spilled into the heyday of classical liberalism in the first half of the 19th.'"
 permalink: /centuries/
 background_color: rgb(155,192,190)
-category: "uncategorizable"
+category: uncategorizable
 comment:
-  substack: "https://dynomight.substack.com/p/centuries"
-  hacker news: "https://news.ycombinator.com/item?id=40884356"
+  substack: https://dynomight.substack.com/p/centuries
+  hacker news: https://news.ycombinator.com/item?id=40884356
 ---
 
 Here's a sentence from Steven Pinker's [Enlightenment Now](https://en.wikipedia.org/wiki/Enlightenment_Now):

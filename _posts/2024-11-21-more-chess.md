@@ -1,19 +1,18 @@
 ---
 layout: post
-title: "OK, I can partly explain the LLM chess weirdness now"
+title: OK, I can partly explain the LLM chess weirdness now
 image: /img/more-chess/chess2.jpg
-tags: 
-description: '("make LLMs play better with one weird trick")'
+tags: computer AI data
+description: ("make LLMs play better with one weird trick")
 excerpt: ""
 permalink: /more-chess/
 background_color: rgb(176,176,176)
-category: "science"
+category: science
 seo:
   date_modified: 2024-11-23
 last_modified_at: 2024-11-23
 comment:
- substack: "https://dynomight.substack.com/p/more-chess/"
-  
+  substack: https://dynomight.substack.com/p/more-chess/
 ---
 
 We recently talked about a [mystery](/chess/): All large language models (LLMs) are terrible at chess. All, that is, except for `gpt-3.5-turbo-instruct`, which for some reason can play at an advanced amateur level. This is despite the fact that this model is more than a year old and much smaller than recent models. What's going on?

@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Against dystopian views of high-speed audiobook listening"
+title: Against dystopian views of high-speed audiobook listening
 image: /img/audiobooks/shepherd.jpg
-tags: 
-description: "The sound and the worry" 
+tags:
+  - discourse
+description: The sound and the worry
 excerpt: ""
 permalink: /audiobooks/
 background_color: rgb(126,133,140)
-category: "uncategorizable"
-#comment:
-#  substack: "https://dynomight.substack.com/p/audiobooks/"
+category: uncategorizable
 ---
 
 There was recently a thread on r/slatestarcodex about ["What life hacks are actually life changing"](https://old.reddit.com/r/slatestarcodex/comments/1fthckt/what_life_hacks_are_actually_life_changing/). One of the examples given was:

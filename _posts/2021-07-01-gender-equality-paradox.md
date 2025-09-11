@@ -1,18 +1,17 @@
 ---
 layout: post
-title: "Does the gender-equality paradox actually exist?"
+title: Does the gender-equality paradox actually exist?
 image: /img/gender-equality-paradox/sign3.jpg
-tags: policy statistics personality
+tags: policy data conspiracy
 hero_light: false
 dark_title: false
-background_color: black
-description: "Some claim that more feminist countries have fewer women in STEM. Others say this is nonsense. Who is right?"
-permalink: /gender-equality-paradox/
 background_color: rgb(189, 161, 154)
+description: Some claim that more feminist countries have fewer women in STEM. Others say this is nonsense. Who is right?
+permalink: /gender-equality-paradox/
 seo:
   date_modified: 2021-12-06
 last_modified_at: 2021-12-06
-category: "psychology"
+category: psychology
 ---
 
 The gender-equality paradox is the (disputed) idea that countries with more gender equality have fewer women in STEM careers. While there's lots of debate in the scientific literature about the *causal implications* of this paradox, there's no agreement about a more basic question: Does the paradox even *exist*, or is it just an illusion caused by a contrived data analysis?

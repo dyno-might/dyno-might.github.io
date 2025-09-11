@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "It’s perfectly valid for a trait to be more than 100% heritable"
+title: It’s perfectly valid for a trait to be more than 100% heritable
 image: /img/heritability/birds.jpg
-tags: statistics personality
+tags:
+  - science
+  - math
 hero_light: false
 dark_title: false
-background_color: black
-description: "What heritability really is: A fluid statistic that changes whenever society changes."
-excerpt: "All psychological traits are heritable. This is the best replicated finding in all of behavioral genetics. Some recent numbers include: Religiosity: 44% Schizophrenia: 79% Big five personality traits: ~40% But what, exactly, does \"heritability\" mean? I used to have a mental model something like this: Each person has some number of \"religiosity points\" that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured there being 10 total points, 4 of which come from genes and 6 of which come from the environment:"
-permalink: /heritability/
 background_color: rgb(60,64,50)
+description: "What heritability really is: A fluid statistic that changes whenever society changes."
+excerpt: 'All psychological traits are heritable. This is the best replicated finding in all of behavioral genetics. Some recent numbers include: Religiosity: 44% Schizophrenia: 79% Big five personality traits: ~40% But what, exactly, does "heritability" mean? I used to have a mental model something like this: Each person has some number of "religiosity points" that come from genes and some number that come from the environment. If religiosity was 40% genetic, I pictured there being 10 total points, 4 of which come from genes and 6 of which come from the environment:'
+permalink: /heritability/
 seo:
   date_modified: 2022-08-20
 last_modified_at: 2022-08-20
-category: "math"
+category: math
 ---
 
 All psychological traits are heritable. This is the [best replicated](https://dx.doi.org/10.1177%2F1745691615617439) finding in all of behavioral genetics. Some recent numbers include:

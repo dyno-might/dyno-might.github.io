@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "General factors of intelligence and physical fitness"
+title: General factors of intelligence and physical fitness
 image: /img/g/cigar.jpg
-tags: statistics personality
+tags: psychology data math
 hero_light: false
 dark_title: false
-background_color: black
-description: "A review of correlations between human performance on physical and mental tasks, plus a description of how factor analysis is like a cigar"
-permalink: /general-intelligence/
 background_color: rgb(148,134,121)
-category: "psychology"
+description: A review of correlations between human performance on physical and mental tasks, plus a description of how factor analysis is like a cigar
+permalink: /general-intelligence/
+category: psychology
 comment:
-    hacker news: https://news.ycombinator.com/item?id=30791424
+  hacker news: https://news.ycombinator.com/item?id=30791424
 ---
 
 Is there a general factor of intelligence?

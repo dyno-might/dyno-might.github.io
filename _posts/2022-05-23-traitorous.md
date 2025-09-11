@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Why is it traitorous to understand the people you disagree with? Six models"
+title: Why is it traitorous to understand the people you disagree with? Six models
 image: /img/traitorous/paris.jpg
-tags: policy communication
-description: "Reflections on a phenomena that's unique to culture-war topics"
+tags:
+  - policy
+  - discourse
+description: Reflections on a phenomena that's unique to culture-war topics
 excerpt: "There's a certain phenomenon I often wonder about, one that only seems to occur with culture war topics. I usually try to avoid culture war, but it's impossible to discuss this phenomenon without an example and I don't see the point of tiptoeing around. So, abortion. For better or for worse, the vast majority of people I know favor Roe v. Wade. Still, I think I understand the view of people on the other side. The question before the court in Roe v. Wade was not \"Would the world be better if abortion were legal?\" The question was, \"Does the US Constitution prohibit states from making abortion illegal?\" The decision basically goes like this:"
 permalink: /traitorous/
 background_color: rgb(69,100,120)
-category: "communication"
+category: communication
 comment:
-    substack: https://dynomight.substack.com/p/why-is-it-traitorous-to-understand
-    hacker news: https://news.ycombinator.com/item?id=31481347
+  substack: https://dynomight.substack.com/p/why-is-it-traitorous-to-understand
+  hacker news: https://news.ycombinator.com/item?id=31481347
 ---
 
 There's a certain phenomenon I often wonder about, one that only seems to occur with culture war topics. I usually try to [avoid](/culture-war-island-hopping/) culture war, but it's impossible to discuss this phenomenon without an example and I don't see the point of tiptoeing around.

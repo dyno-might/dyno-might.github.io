@@ -3,12 +3,13 @@ layout: post
 title: "Doing discourse better: Stuff I wish I knew"
 image: /img/discourse/forum_romanum.jpg
 description: What do we know about how to communicate effectively and find the truth?
-tags: policy communication
+tags:
+  - discourse
 permalink: /:year/:month/:day/:title/
-category: "communication"
+category: communication
 ---
 
-# Talking about sugar
+## Talking about sugar
 
 Nick and Maria want to talk about sugar. Does it reduce lifespan? They disagree, but are honest and principled. They want to find the truth and agree on it.
 
@@ -18,19 +19,19 @@ Or maybe Nick and Maria want to talk about tax-exemption for churches. It might 
 
 Do conversations have known best practices? How much do they improve the odds of landing on the truth?
 
-# Truth vs fitness
+## Truth vs fitness
 
 In East Africa 70,000 years ago, humans made their first steps towards language. This didn't happen for *truth*, it happened to *increase reproductive fitness*. Overly open-minded people were probably easy to manipulate. Scrupulously honest people were probably bad at manipulating. Many false beliefs still *enhanced reproductive fitness* (typically by [improving cooperation](https://dynomight.home.blog/2020/05/27/sapiens-part-1-the-cognitive-revolution/)).
 
 So, one might argue, *of course* we are terrible at finding truth via conversation! Why are we surprised that our instincts are bad at something we never evolved to be good at?
 
-# Cialdini
+## Cialdini
 
 Doing some research, Maria finds the work of Robert Cialdini, who says we are persuaded by reciprocity, scarcity, authority, consistency, liking, and consensus. But these don't seems useful to Maria. They are mostly "dark patterns" of persuasion, that work for anything regardless of its truth.
 
 Instead, are there "non-dark" patterns of persuasion, that work well *for true stuff* but not for false stuff?
 
-# Reverse Cialdini
+## Reverse Cialdini
 
 Over a few months, Nick and Maria have a dozen of these conversations. The results are exactly what you'd expect: No one ever changes their mind about anything. Maria has a feeling she can't be right about *everything*. But try as she might, she can't find a case where Nick's arguments convince her.
 
@@ -38,7 +39,7 @@ Eventually, she has a strange idea. Maybe she should fight fire with fire, cogni
 
 By temporarily brainwashing themselves a little bit, can they can actually give the other position a fair chance?
 
-# Skepticism
+## Skepticism
 
 It's reasonable to be skeptical about the above ideas. Humans have been talking for 70,000 years. If there was a trick to talking better, wouldn't we have found it already? I showed some of the above thoughts to a friend, who responded, "LOLOLOLOLOL, dynomight, you sweet wide-eyed gazelle. The rare Nicks and Marias of the world do great already. The problem is *dishonest*, *unprincipled* people."
 
@@ -46,7 +47,7 @@ So perhaps better conversation can't save the world. Still, I think a different 
 
 Just think about it. The world is a complex place. Want to understand the effects of the minimum wage? The long-term trajectory of population growth? The effects of vitamin C? No one human brain can process all the relevant information for such questions. But shouldn't *groups* of brains, if we could "network" them properly, have much greater capabilities?
 
-# Dimensions of forums
+## Dimensions of forums
 
  <img src="https://dyno-might.github.io/img/discourse/conversational_graphs.png">
 
@@ -61,8 +62,7 @@ It's hard to understand the influence of most of these choices, since popular fo
 
 I don't think it's possible to sit around and figure out what effects a given forum design will have. Human beings and social behavior are too complex. We need to systematically test the different designs, and see what actually happens empirically. Is anyone doing that?
 
-
-# Ideas for forums
+## Ideas for forums
 
 Here are some ideas:
 
@@ -76,7 +76,7 @@ These ideas are all probably terrible. I'm just trying to say that there's a *lo
 
 Suppose we could look 30 years into the future. Forums will no doubt look very different. Probably some of the differences rely on exogenous technological innovation. But surely *some* differences could be "back-ported" to today, if only we knew what they were. What are they, and why is the pace of innovation in online forums so slow right now?
 
-# Journals as steampunk forums
+## Journals as steampunk forums
 
 If we want a historical example of "public forum with rules and norms carefully derived to find truth" I think the best we can do is the system of journal publications. For all their imperfections, these have done a decent job of uncovering truth for several hundred years. What lessons do these offer?
 
@@ -90,7 +90,7 @@ Third, there are extremely strong **external incentives** for people to appear i
 
 There other differences (e.g. journals are slow and cost money) but I think the three above are the most significant. What would happen if we added these to online forums today? Unfortunately, it's a bit hard to say. These wouldn't be easy to copy. The first is laborious, and the others are as much properties of the society the journal is embedded in as the journal system itself.
 
-# Failure modes
+## Failure modes
 
 Maybe figuring out how to improve forums is hard. As a first step, maybe we can at least understand where things go wrong? Here's some proposed failure modes.
 

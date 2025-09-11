@@ -1,21 +1,22 @@
 ---
 layout: post
-title: "Futarchy's fundamental flaw — the market — the blog post"
+title: Futarchy's fundamental flaw — the market — the blog post
 image: /img/futarchy-market/bike.jpg
-tags: 
-description: "(a blog post based on a market based on a blog post based on an earlier blog post)"
+tags:
+  - math
+  - forecasting
+description: (a blog post based on a market based on a blog post based on an earlier blog post)
 excerpt: ""
 permalink: /futarchy-market/
 background_color: rgb(143,144,146)
-category: "science"
+category: science
 seo:
   date_modified: 2025-08-17
   last_modified_at: 2025-08-17
 comment:
-  lemmy: "https://old.lemmy.world/post/34433950"
-  substack: "https://dynomight.substack.com/p/futarchy-market"
+  lemmy: https://old.lemmy.world/post/34433950
+  substack: https://dynomight.substack.com/p/futarchy-market
 head: ""
-
 ---
 
 Here's our story so far:

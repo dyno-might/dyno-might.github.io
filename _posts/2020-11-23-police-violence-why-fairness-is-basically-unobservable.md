@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Why fairness is basically unobservable"
+title: Why fairness is basically unobservable
 image: /img/police/court_light_cropped.jpg
 description: Why it's basically impossible to determine fairness from observational data.
-tags: statistics policy
+tags:
+  - policy
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-03-14
 last_modified_at: 2021-03-14
-category: "politics/policy"
+category: politics/policy
 ---
 
 We want to know if things are fair. Do some groups of people tend to get a raw deal in company hiring or university admissions or court sentences?

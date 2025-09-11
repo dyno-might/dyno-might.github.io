@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "A model for journalistic copypasta"
+title: A model for journalistic copypasta
 image: /img/copypasta/quixote.jpg
-tags: 
-description: "Why are prestigious outlets often so mediocre, and why do we read them anyway?"
+tags:
+  - discourse
+description: Why are prestigious outlets often so mediocre, and why do we read them anyway?
 permalink: /copypasta/
 background_color: rgb(193,140,72)
-category: "writing"
+category: writing
 comment:
-    substack: https://dynomight.substack.com/p/copypasta
-    hacker news: https://news.ycombinator.com/item?id=32429067
+  substack: https://dynomight.substack.com/p/copypasta
+  hacker news: https://news.ycombinator.com/item?id=32429067
 seo:
   date_modified: 2023-05-14
 last_modified_at: 2023-05-14

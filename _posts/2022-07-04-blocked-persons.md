@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "Blocked persons and letters of marque"
+title: Blocked persons and letters of marque
 image: /img/blocked-persons/flag1.jpg
-tags: 
-description: "What are letters of marque and reprisal, and who is on the US's list of Block Persons?"
-excerpt: "Article I, Section 8, Clause 11 of the US Constitution reads: \"The Congress shall have Power to declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water;\" What are these Letters of Marque and Reprisal? Essentially: Permission for private citizens to carry out acts of war. If you could convince the government to write one for you, then you were a \"privateer\" and you could go searching the seas for plunder."
+tags:
+  - conspiracy
+description: What are letters of marque and reprisal, and who is on the US's list of Block Persons?
+excerpt: 'Article I, Section 8, Clause 11 of the US Constitution reads: "The Congress shall have Power to declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water;" What are these Letters of Marque and Reprisal? Essentially: Permission for private citizens to carry out acts of war. If you could convince the government to write one for you, then you were a "privateer" and you could go searching the seas for plunder.'
 permalink: /blocked-persons/
 background_color: rgb(188,193,203)
-category: "obsessive investigation"
+category: obsessive investigation
 comment:
-    reddit: https://old.reddit.com/r/dynomight/comments/vr77vm/blocked_persons_and_letters_of_marque/
-    substack: https://dynomight.substack.com/p/blocked-persons
+  reddit: https://old.reddit.com/r/dynomight/comments/vr77vm/blocked_persons_and_letters_of_marque/
+  substack: https://dynomight.substack.com/p/blocked-persons
 ---
 
 Article I, Section 8, Clause 11 of the US Constitution reads:

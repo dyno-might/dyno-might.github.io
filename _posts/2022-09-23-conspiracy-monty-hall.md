@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "The conspiratorial Monty Hall problem"
+title: The conspiratorial Monty Hall problem
 image: /img/monty-hall/goat2.jpg
-tags: explainer statistics math
-description: "What if you and Monty decide to cheat?"
+tags:
+  - math
+description: What if you and Monty decide to cheat?
 permalink: /conspiratorial-monty-hall/
 background_color: rgb(97,97,97)
-category: "math"
+category: math
 comment:
-    #reddit: https://old.reddit.com/r/dynomight/comments/xm1x2o/the_conspiratorial_monty_hall_problem_with_proofs/
-    #substack: https://dynomight.substack.com/p/conspiratorial-monty-hall
 ---
 
 The Monty Hall problem has now been a pox on humanity for two generations, diverting perfectly good brains away from productive uses. Hoping to exacerbate this problem, some time ago I announced a new and more pernicious variant: What if you and Monty try to *cheat*?

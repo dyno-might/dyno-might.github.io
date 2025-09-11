@@ -2,7 +2,7 @@
 layout: post
 title: "Why nuclear weapons aren't getting bigger"
 image: /img/bigger-nukes/ivy-mike-sausage.jpg
-tags: science
+tags: science conspiracy
 description: "Nations could build nuclear warheads much more powerful than they have now. But they have no interest in doing so. Why is that?"
 permalink: /bigger-nukes/
 background_color: rgb(169,169,169)

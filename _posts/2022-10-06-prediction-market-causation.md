@@ -2,7 +2,7 @@
 layout: post
 title: "Prediction market does not imply causation"
 image: /img/prediction-market-causation/arrows1.jpg
-tags: 
+tags: forecasting math
 description: "Unless you're careful, conditional prediction markets have all the same problems as observational studies."
 excerpt: "We all want to make good decisions. But it’s hard because we aren’t sure what’s going to happen. Like, say you want to know if CO₂ emissions will go up in 10 years. One of our best ideas is to have people bet. For example, I might wager my $4 that emissions will go up against your $1 that they will go down. If lots of people bet in a market, the final prices combine everyone’s wisdom and information. If bets were to stabilize at a 4:1 ratio, that suggests that the odds of emissions going up are 4 times larger than the odds of emissions going down"
 permalink: /prediction-market-causation/

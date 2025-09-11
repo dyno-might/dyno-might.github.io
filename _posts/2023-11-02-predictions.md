@@ -2,12 +2,12 @@
 layout: post
 title: Are language models good at making predictions?
 image: /img/predictions/time.jpg
-tags: 
-description: "politics more than science"
+tags: AI data forecasting
+description: politics more than science
 excerpt: ""
 permalink: /predictions/
 background_color: rgb(215,216,218)
-category: "science"
+category: science
 head: "<style>table {border-spacing: 10px;}</style>"
 ---
 

@@ -1,17 +1,20 @@
 ---
 layout: post
-title: "Contra Wirecutter on the IKEA air purifier"
+title: Contra Wirecutter on the IKEA air purifier
 image: /img/ikea-purifier/wires-prog.jpg
-tags: science
-description: "The Wirecutter's review of the IKEA air purifier is a mishmash of scientific errors, shoddy testing, and self-contradictory logic."
-excerpt: "IKEA has recently made some moves into the air purifier space. The Wirecutter is not impressed. They allow that this purifier is inexpensive and pretty. But still, it's terrible and you should instead buy a different purifier that totally coincidentally happens to pay affiliate marketing commissions.  When reading this review, I couldn't help but notice that it's rife with factual errors, misleading statements, and self-contradictory experiments. I also noticed that this stems from an ignorance of basic science, air filtration standards, IKEA's public specs, and the same common-sense logic the Wirecutter uses elsewhere for other purifiers."
+tags:
+  - air
+  - science
+  - conspiracy
+description: The Wirecutter's review of the IKEA air purifier is a mishmash of scientific errors, shoddy testing, and self-contradictory logic.
+excerpt: IKEA has recently made some moves into the air purifier space. The Wirecutter is not impressed. They allow that this purifier is inexpensive and pretty. But still, it's terrible and you should instead buy a different purifier that totally coincidentally happens to pay affiliate marketing commissions.  When reading this review, I couldn't help but notice that it's rife with factual errors, misleading statements, and self-contradictory experiments. I also noticed that this stems from an ignorance of basic science, air filtration standards, IKEA's public specs, and the same common-sense logic the Wirecutter uses elsewhere for other purifiers.
 permalink: /ikea-purifier/
 background_color: rgb(0,0,0)
-category: "air quality"
+category: air quality
 comment:
-    reddit: https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/
-    substack: https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air
-    hacker news: https://news.ycombinator.com/item?id=31812259
+  reddit: https://old.reddit.com/r/dynomight/comments/vgpgbe/contra_wirecutter_on_the_ikea_air_purifier/
+  substack: https://dynomight.substack.com/p/contra-wirecutter-on-the-ikea-air
+  hacker news: https://news.ycombinator.com/item?id=31812259
 ---
 
 <span style="font-size:80%" markdown="1">

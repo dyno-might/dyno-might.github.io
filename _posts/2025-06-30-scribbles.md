@@ -1,23 +1,21 @@
 ---
 layout: post
-title: "Scribble-based forecasting and AI 2027"
+title: Scribble-based forecasting and AI 2027
 image: /img/scribbles/scribbles.jpg
-tags: 
-description: "math or intuition?"
+tags:
+  - forecasting
+  - AI
+description: math or intuition?
 excerpt: ""
 permalink: /scribbles/
 background_color: rgb(157,157,157)
-category: "science"
-#seo:
-#  date_modified: 2025-06-20
-#  last_modified_at: 2025-06-20
+category: science
 comment:
-  lemmy: "https://old.lemmy.world/post/32276475"
-  substack: "https://dynomight.substack.com/p/scribbles"
+  lemmy: https://old.lemmy.world/post/32276475
+  substack: https://dynomight.substack.com/p/scribbles
 replies:
   casey milkweed: https://caseymilkweed.substack.com/p/response-to-dynomight-on-scribble
 head: ""
-
 ---
 
 [AI 2027](https://ai-2027.com/) forecasts that AGI could plausibly arrive as early as 2027. I recently spent some time looking at both the [timelines forecast](https://ai-2027.com/research/timelines-forecast) and some critiques \[[1](https://thezvi.wordpress.com/2025/04/08/ai-2027-responses/), [2](https://secondthoughts.ai/p/ai-2027), [3](https://titotal.substack.com/p/a-deep-critique-of-ai-2027s-bad-timeline)\].

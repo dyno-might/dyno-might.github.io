@@ -2,7 +2,7 @@
 layout: post
 title: "I guess I was wrong about AI persuasion"
 image: /img/persuasion/mouse.jpg
-tags: 
+tags: [AI]
 description: "I was persuaded"
 excerpt: ""
 permalink: /persuasion/

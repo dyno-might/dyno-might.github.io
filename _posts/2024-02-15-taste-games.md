@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Taste games"
+title: Taste games
 image: /img/taste-games/games.jpg
-tags: 
-description: "or why I avoid midrange beer"
+tags:
+  - bourdieu
+description: or why I avoid midrange beer
 excerpt: I bet you like it when beautiful people laugh at your jokes. And I bet you like the taste of sugar. I sure do. But what about camping or dubstep or chain restaurants or installation art? What about blue cheese or pick-up trucks or reality TV? Me, I like some and loathe others. And it *feels* like free will. But if you tried to guess which ones I like, I think you'd do extremely well. (I don't like dubstep; all your other guesses are right.) Why should you be able to do that?
 permalink: /taste-games/
 background_color: rgb(241,241,241)
-category: "psychology"
+category: psychology
 comment:
-    substack: https://dynomight.substack.com/p/taste-games
+  substack: https://dynomight.substack.com/p/taste-games
 ---
 
 I bet you like it when beautiful people laugh at your jokes. And I bet you like the taste of sugar. I sure do.

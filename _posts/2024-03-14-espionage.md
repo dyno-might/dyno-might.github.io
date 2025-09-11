@@ -2,14 +2,16 @@
 layout: post
 title: "Everything is espionage: Things I learned researching Assange"
 image: /img/espionage/leak2.jpg
-tags: 
+tags:
+  - policy
+  - effort
 description: (espissange? asspionage?)
-excerpt: "Who is this Julian Assange guy? Is he good or bad? Did he do espionage? Why is the US so obsessed with getting its hands on him? At dynomight.net we don't like to answer questions. Instead, we prefer to replace them with more abstract questions that we *also* don't answer."
+excerpt: Who is this Julian Assange guy? Is he good or bad? Did he do espionage? Why is the US so obsessed with getting its hands on him? At dynomight.net we don't like to answer questions. Instead, we prefer to replace them with more abstract questions that we *also* don't answer.
 permalink: /espionage/
 background_color: rgb(147,147,147)
-category: "politics/policy"
+category: politics/policy
 comment:
-   substack: https://dynomight.substack.com/p/espionage
+  substack: https://dynomight.substack.com/p/espionage
 ---
 
 ##### (espissange? asspionage?)

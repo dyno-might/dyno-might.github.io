@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Experiments on a $50 DIY air purifier you can make in 30s"
+title: Experiments on a $50 DIY air purifier you can make in 30s
 image: /img/purifier/smoke.jpg
 description: You can make a DIY air purifier in 30s. To test if it works, I generated smoke, and measured how well it removes tiny particles.
 background_color: black
-tags: cleanAir science
+tags:
+  - air
+  - experiment
 permalink: /:year/:month/:day/:title/
 seo:
   date_modified: 2021-09-03
 last_modified_at: 2021-09-03
-category: "air quality"
+category: air quality
 comment:
   hacker news: https://news.ycombinator.com/item?id=28394752
 ---

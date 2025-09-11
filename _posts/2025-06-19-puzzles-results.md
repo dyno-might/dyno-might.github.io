@@ -2,7 +2,7 @@
 layout: post
 title: "Moral puzzles: Man vs. machine"
 image: /img/puzzles-results/bunker.jpg
-tags: 
+tags: philosophy AI data
 description: "does AI know what we want?"
 excerpt: ""
 permalink: /puzzles-results/

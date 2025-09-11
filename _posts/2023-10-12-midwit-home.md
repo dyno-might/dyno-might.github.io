@@ -2,7 +2,7 @@
 layout: post
 title: The midwit home
 image: /img/midwit-home/home.jpg
-tags: 
+tags: life
 description: "Less automation and less agony"
 excerpt: ""
 permalink: /midwit-home/

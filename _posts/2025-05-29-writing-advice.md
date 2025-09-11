@@ -2,7 +2,7 @@
 layout: post
 title: "My advice on (internet) writing, for what it's worth"
 image: /img/writing-advice/bark.jpg
-tags: 
+tags: writing
 description: "make something you would actually like" 
 excerpt: ""
 permalink: /writing-advice/

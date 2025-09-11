@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "No soap radio"
+title: No soap radio
 image: /img/no-soap-radio/radio2.jpg
-tags: 
-description: "A potent anti-humor technology"
+tags:
+  - lists
+description: A potent anti-humor technology
 excerpt: "No soap, radio is a sort of prank where you tell a \"joke\" with a meaningless punchline. The hope is that your victim will laugh despite not understanding it, thereby enabling you to ridicule them. Apparently, this works best if you do it with an accomplice who will pretend to laugh. Now, the obvious question is: What the hell? What kind of cruel, broken, mean-spirited people conspire to humiliate their friends like this? But never mind. If you're aware that the jokes don't make any sense, many of them genuinely are funny in a sort of inexplicable, dreamlike way:"
 permalink: /no-soap-radio/
 background_color: rgb(134,133,129)
-category: "uncategorizable"
+category: uncategorizable
 comment:
-    reddit: https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/
-    substack: https://dynomight.substack.com/p/no-soap-radio
+  reddit: https://old.reddit.com/r/dynomight/comments/wdhnob/no_soap_radio/
+  substack: https://dynomight.substack.com/p/no-soap-radio
 ---
 
 <span style="font-size:80%" markdown="1">

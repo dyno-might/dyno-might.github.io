@@ -2,7 +2,7 @@
 layout: post
 title: "Statistical nihilism and culture-war island hopping"
 image: /img/culture-war-island-hopping/saratoga.jpg
-tags: statistics policy
+tags: policy discourse
 hero_light: false
 dark_title: false
 background_color: black

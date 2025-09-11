@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Your friend the language model"
+title: Your friend the language model
 image: /img/llm-friend/llama.jpg
-tags: science
-description: "The world is running out of khakis"
+tags:
+  - AI
+description: The world is running out of khakis
 excerpt: ""
 permalink: /llm-friend/
 background_color: rgb(238,237,235)
-category: "science"
+category: science
 ---
 
 I originally wrote this as part of a [much longer post on LLM scaling laws and possible barriers/trajectories for progress](/scaling/). The idea was to provide the minimal background necessary to understand all that stuff. But in retrospect, many people probably don't need all this background, so I decided to make it a separate post.

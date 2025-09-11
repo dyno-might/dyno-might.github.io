@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "What I learned from reading about writing"
+title: What I learned from reading about writing
 image: /img/writing/typewriter.jpg
-tags: writing communication
+tags:
+  - writing
 background_color: rgb(57, 61, 70)
 permalink: /:year/:month/:day/:title/
-category: "writing"
+category: writing
 ---
 
 Have a consistent ruleset. Titles are a black art. Have empathy for the brain's parser. It's impossible to follow all the conventions. Write a thesis statement even if you hate it

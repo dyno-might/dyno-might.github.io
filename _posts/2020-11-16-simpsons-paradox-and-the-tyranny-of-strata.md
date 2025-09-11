@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Simpson's paradox all the way down"
+title: Simpson's paradox all the way down
 image: /img/simpson/statue.jpg
 description: Visualizes Simpson's paradox, and shows how it's a deeper problem than many people realize.
-tags: statistics math
+tags:
+  - math
 background_color: black
 permalink: /simpsons-paradox/
-category: "math"
+category: math
 seo:
   date_modified: 2022-12-11
 last_modified_at: 2022-12-11

@@ -2,7 +2,7 @@
 layout: post
 title: "Effective selfishness"
 image: /img/effective-selfishness/orangutan.jpg
-tags: communication selfImprovement
+tags: life
 hero_light: false
 dark_title: false
 background_color: black

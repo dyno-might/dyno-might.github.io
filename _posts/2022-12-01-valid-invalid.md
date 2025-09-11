@@ -2,7 +2,7 @@
 layout: post
 title: "Valid arguments with invalid conclusions"
 image: /img/valid-invalid/blueberries.jpg
-tags: policy
+tags: lists
 description: "subterfuge, berries, Bayes, billboards, stop signs"
 excerpt: "Some time ago, I was driving somewhere with a friend and I claimed that someone was operating with subterfuge. There was an odd silence, after which my friend quietly asked, 'What was that?' Something was wrong. Was she offended? I said, '...subterfuge?' She gave me a brief and somewhat pitying glance, but said nothing."
 permalink: /valid-invalid/

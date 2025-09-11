@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Thoughts while watching myself be automated"
+title: Thoughts while watching myself be automated
 image: /img/automated/colloseum.jpg
-tags: 
-description: '(Excluding "please stop")'
+tags:
+  - AI
+  - writing
+description: (Excluding "please stop")
 excerpt: ""
 permalink: /automated/
 background_color: rgb(84,100,111)
-category: "uncategorizable"
+category: uncategorizable
 comment:
-  substack: "https://dynomight.substack.com/p/automated/"
+  substack: https://dynomight.substack.com/p/automated/
 ---
 
 An old friend visited me a few weeks ago. And we soon got to chatting about—what else—how long will it be before all human intellectual work is automated.

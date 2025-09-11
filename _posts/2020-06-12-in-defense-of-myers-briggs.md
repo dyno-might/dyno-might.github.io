@@ -1,16 +1,17 @@
 ---
 layout: post
-title: "In defense of Myers-Briggs"
+title: In defense of Myers-Briggs
 image: /img/mbti/myers-briggs.jpg
-tags: personality statistics
+tags:
+  - psychology
 hero_light: true
 seo:
   date_modified: 2021-03-01
 last_modified_at: 2021-03-01
 permalink: /in-defense-of-myers-briggs.html
-description: "examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator"
-category: "psychology"
-excerpt: "The Myers-Briggs Personality Indicator (MBTI) gets a lot of scorn. It would seem that the the MBTI is nonsense, but the Big Five is a real, scientifically valid test. To be sure, there's nothing wrong with the Big Five. But these haughty claims that it's dramatically better than the MBTI have got to end."
+description: examines claims that the big five personality traits is more scientifically valid than the myers briggs personality indicator
+category: psychology
+excerpt: The Myers-Briggs Personality Indicator (MBTI) gets a lot of scorn. It would seem that the the MBTI is nonsense, but the Big Five is a real, scientifically valid test. To be sure, there's nothing wrong with the Big Five. But these haughty claims that it's dramatically better than the MBTI have got to end.
 ---
 
 The Myers-Briggs Personality Indicator (MBTI) gets a lot of scorn:
