@@ -381,10 +381,11 @@ table{
   font-size: 75%;
   color: $accent-color;
   font-weight: 100;
-  width:16ch;
+  width:15ch;
   border: none;
   font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-weight: normal;
+  padding-left: 0;
 }
 
 .textinput::placeholder{
