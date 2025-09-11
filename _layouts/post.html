@@ -2,100 +2,108 @@
 layout: default
 ---
 
-{% comment %} WHEN PUBLISHED {% endcomment %}
-{% assign today = site.time | date: '%s' %}
-{% assign start = page.date | date: '%s' %}
-{% assign secondsSince = today | minus: start %}
-{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
-{% assign daysSince = hoursSince | divided_by: 24  %}
-<p style="text-align:right; font-size:.7em; margin-top:0.1em; margin-right:0.25em;" class="headerfont">
-  {% if page.seo.date_modified %}
-    <span title='First published: {{ page.date | date: "%b %d %Y" }}&#013;Last updated: {{ page.seo.date_modified | date: "%b %d %Y" }}' style="cursor:pointer; font-weight:bold;">
-    Updated {{page.seo.date_modified | date : "%b %Y" }}
-    </span>
-  {% else %}
-    <span title='Published: {{ page.date | date: "%b %d %Y" }}' style="cursor:pointer; font-weight:bold;">
-    {{ page.date | date: "%b %Y" }}
-    </span>
-  {% endif %}
-</p>
+<article>  <!-- style="margin-left: 10px; margin-right: 10px;" -->
+  <header>
+    {% include hero.html %}
+    <h1>{{page.title}}</h1>
 
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    const id = entry.target.getAttribute('id');
-    element = document.querySelector(`a[href="#${id}"]`)
-    if (entry.isIntersecting){
-      element.style.color="black";
-    } else {
-      element.style.color="inherit";
-    }
-  });
-});
-document.querySelectorAll('h2[id]').forEach((h2) => {
-  observer.observe(h2);
-});
-document.querySelectorAll('h3[id]').forEach((h3) => {
-  observer.observe(h3);
-});
-});
-</script>
+  </header>  
 
-<div>
-  <div class="headerfont leftbar">
-      {% include toc.html html=content sanitize=true class="inline_toc" id="my_toc" h_min=2 h_max=2 item_class="toc" %}
-      {% include follow-simple.html %}
-      <p>
-      {% include comments-and-replies.html %}
-      <p>
-    </div>
-    
-  <section class="maintext">
+  <section>
+    <div style="text-align:right; font-size: 80%;"><a href="/">dynomight</a> ·
+    {%- if page.seo.date_modified -%}
+      <time title='First published: {{ page.date | date: "%b %d %Y" }}&#013;Last updated: {{ page.seo.date_modified | date: "%b %d %Y" }}'>
+        updated {{page.seo.date_modified | date : "%b %Y" }}
+      </time>
+    {% else %}
+      <time title='Published: {{ page.date | date: "%b %d %Y" }}'>{{ page.date | date: "%b %Y" }}</time>
+    {% endif %}
+    ·
+    {% for tag in page.tags %}
+        <a href="/#{{tag | downcase}}">{{tag}}</a> 
+    {% endfor %}
+
+  </div>
+
     {{ content }}
+
   </section>
-  <section class="maintext" style="margin-top:0pt;">
-    {% comment %}<div class="container" style="text-align: left; position:relative; min-height:1em; line-height:1.3;" id="outerForm">
-      <div class="headerfont" style="font-size:90%; margin:0; padding: 0;">
-        <details style="background-color: inherit; margin:0; padding: 0;"><summary>dynomight follow instructions</summary>
-          {% include follow.html %}
-        </details>
-      </div>
-    </div>  {% endcomment %}
-    <div class="headerfont noleftbar" style="font-size:90%; text-align:left; padding-top: 0.5em;">
-      {% include follow-simple.html %}
-      <p>
-      {% include comments-and-replies.html %}
-      <p>
+
+<hr>
+
+  <section class="forms" style="display:flex; gap: 0.50rem 0.5rem;">
+    <div style="flex: 46;">
+      <span style="display:inline-block;">please alert me</span>
+      <span style="display:inline-block;">of mistakes to fix</span>
+      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST"> 
+        <input type="text" name="errors" placeholder="you misspelled..." class="textinput" required> 
+        <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
+        <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+        <input type="hidden" name="_captcha" value="false" /> 
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/" /><button type="submit" id="errorButton" class="button">fix</button> 
+      </form>
+      <span class="popup-on-focus" style="display: inline-block; visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray; font-size:75%;">(Just want to see <a href="https://dynomight.net/respond_success.html">what happens</a>?)</span>
     </div>
-  
-</section>
-</div>
+    <div style="flex: 54; text-align: right;">
+      <span style="display:inline-block;">weekly-ish posts</span>
+      <span style="display:inline-block;">or try <a href="https://dynomight.net/feed.xml">RSS</a> or <a href="https://dynomight.substack.com">substack</a></span>
+      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
+          <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
+          <input type="email" name="email" placeholder="email@email.com" class="textinput" required /> 
+          <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_url" value="https://dynomight.net/">
+          <button type="submit" class="button">OK</button>   
+      </form>
+    </div>
+  </section>
+
+
+
+<style>
+  #errorForm:focus-within ~ .popup-on-focus {
+    visibility: visible !important;
+    pointer-events: auto !important;
+    transition: visibility 0.25s 0.75s, pointer-events 0s 0s !important;
+  }
+</style>
+
+
+  <section>
+    {% if page.comment %}
+    <span style="font-weight: bold;">Comments</span>
+    {% for k in page.comment %}
+      <br><a href="{{k[1]}}">{{k[0]}}</a>
+    {% endfor %}
+    </span>
+    {% endif %}
+    {% if page.replies %}
+    <p><span style="font-weight: bold;">Follow-ups</span>
+    {% for k in page.replies %}
+      <br><a href="{{k[1]}}">{{k[0]}}</a>
+    {% endfor %}
+    </br>
+    {% else %}
+    <p>
+    {% endif %}
+  </section>
+
+  <section>
+
+    {% include related.html %}
+
+  </section>
+
+</article>
+
+<hr>
 
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
 
-{% comment %} SHOW RELATED CARDS {% endcomment %}
-    {% if page.is_category_page %}
-      <p>
-      <div class="headerfont after-content" style="font-size:120%; margin-bottom:10pt;">All <a href="/categories/">categories</a></div>
-      <div class="headerfont after-content" style="font-size:120%; margin-bottom:10pt;">All posts on {{page.category}}</div>
-      {% include category-related.html category=page.category%}
-    {% else if page.category %}
-    
-      {% comment %}
-      {% for item in site.pages %}
-        {% if item.is_category_page == true and item.category==page.category %}
-            <div class="headerfont after-content" style="font-size:120%; margin-bottom:0;">Also about <a href="{{item.url}}">{{page.category}}</a></div>
-            {% break %}
-        {% endif %}
-      {% endfor %}
-      {% endcomment %}
-
-      {% include category-related.html category=page.category %}
-    {% else %}
-      {% include related.html %}
-    {% endif %}
-
-{% comment %}
-<iframe src="https://js4.red/r/math" style="width:100%; height:500px;"></iframe>
-{% endcomment %}
+<!-- <div>
+{% include comments-and-replies.html %}
+</div> -->
+      
+  

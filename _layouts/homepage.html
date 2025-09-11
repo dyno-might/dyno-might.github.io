@@ -2,245 +2,103 @@
 layout: default
 ---
 
-<div style="position: relative; min-height:1em;">
-    <button id="listButton" onclick="toggleContent()" style="position: absolute; top: 10px; right: 10px; background: none; border: none; cursor: pointer;">[+]</button>
+{% include hero.html %}
+
+<h1 style="margin-bottom: .1em;"><span style="letter-spacing: .37em;">DYNOMIGHT</span><br>INTERNET WEBSITE&nbsp;</h1>
+
+{% assign all_tags_raw = "" %}
+{% for post in site.posts %}
+  {% if post.tags %}
+    {% assign current_post_tags_joined = post.tags | join: " " %}
+    {% assign all_tags_raw = all_tags_raw | append: current_post_tags_joined | append: " " %}
+  {% endif %}
+{% endfor %}
+{% assign unique_sorted_tags = all_tags_raw | split: " " | compact | uniq | sort %}
+
+
+<div style="max-width: 80ch; margin-left: auto; margin-right: auto; padding-left: 10px; padding-right: 10px;">
+<div class="tag-selector-container">
+    <select id="tag-filter">
+        <option value="all">all</option>
+        {% for tag in unique_sorted_tags %}
+            <option value="{{ tag | slugify }}">{{tag}}</option>
+        {% endfor %}
+    </select>
+    <button id="clear-filter-btn" class="clear-filter-btn">&times;</button>
 </div>
-
-<div class="list-container headerfont" id="list">
-    <div>
-        <label>LISTS</label>
-        <ul>
-            <li><a href="/thanks">Underrated reasons to be thankful</a>, <a href="/thanks-2">II</a>, <a href="/thanks-3">III</a>, <a href="/thanks-4">IV</a> </li>
-            <li><a href="/arguments">Things to argue about over the holidays instead of politics</a>, <a href="/arguments-2">II</a>, <a href="/arguments-3">III</a></li>
-            <li><a href="/things">Things that don't work</a></li>
-            <li><a href="/plans">Plans you're not supposed to talk about</a></li>
-            <li><a href="/lists">How I learned to stop worrying and structure all writing as a list</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <label>LIFE</label>
-        <ul>
-            <li><a href="/advice/">Why doesn't advice work?</a></li>
-            <li><a href="/procrastination/">Taxonomy of procrastination</a></li>
-            <li><a href="/happiness/">Nobody optimizes happiness</a></li>
-            <li><a href="/potato-diet/">Thoughts on the potato diet</a></li>
-            <li><a href="/midwit-home/">The midwit home</a></li>
-            <li><a href="/2021/01/25/how-to-run-without-all-the-agonizing-pain/">How to run without all the pesky agonizing pain</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <label>SCIENCE</label>
-        <ul>
-            <li><a href="/seed-oil/">Thoughts on seed oil</a></li>
-            <li><a href="/breastfeeding/">Nursing doubts: Is breastfeeding good?</a></li>
-            <li><a href="/alcohol/">Alcohol, health, and the ruthless logic of the Asian flush</a></li>
-            <li><a href="/alcohol-trial/">The big alcohol study that didn't happen: My primal scream of rage</a></li>
-            <li><a href="/aspartame/">Aspartame: Once more unto the breach</a></li>
-            <li><a href="/p2p-meth/">The main thing about P2P meth is that there's so much of it</a></li>
-            {% comment %}<li><a href="/2020/09/14/what-happens-if-you-drink-acetone/">What happens if you drink acetone?</a></li>{% endcomment %}
-        </ul>
-    </div>
-
-    <div>
-        <label>HUMANS</label>
-        <ul>
-            <li><a href="/better-personalities/">Are some personalities just better?</a></li>
-            <li><a href="/bourdieu/">Bourdieu's theory of taste: a grumbling abrégé</a>, <a href="/class">II</a>, <a href="/taste-games/">III</a></li>
-            <li><a href="/reasons-and-persons/">Reasons and Persons: Watch theories eat themselves</a>, <a href="/no-self/">II</a></li>
-            <li><a href="/general-intelligence/">General factors of intelligence and physical fitness</a></li>
-            <li><a href="/split-brain/">A review of early split-brain experiments</a></li>
-            <li><a href="/in-defense-of-myers-briggs.html">In defense of Myers-Briggs</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <label>AI</label>
-        <ul>
-            <li><a href="/data-wall/">The real data wall is billions of years of evolution</a></li>
-            <li><a href="/automated/">Thoughts while watching myself be automated</a></li>
-            <li><a href="/ducks/">Can I take ducks home from the park?</a></li>
-            <li><a href="/gpt-2/">Why didn't we get GPT-2 in 2005?</a></li>
-            <li><a href="/scaling/">First-principles on AI scaling</a></li>
-            <li><a href="/llms/">Historical analogies for large language models</a></li>        
-        </ul>
-    </div>
-
-    <div>
-        <label>MATH</label>
-        <ul>
-            <li><a href="/control/">Why ‟controlling for a variable” doesn't (usually) work</a></li>
-            <li><a href="/prediction-market-causation/">Prediction market does not imply causation</a></li>
-            <li><a href="/simpsons-paradox/">Simpson's paradox all the way down</a></li>
-            <li><a href="/conspiratorial-monty-hall/">The conspiratorial Monty Hall problem</a></li>
-            <li><a href="/2020/09/17/making-the-monty-hall-problem-weirder-but-obvious/">Making the Monty Hall problem weirder but obvious</a></li>
-        </ul>
-    </div>
-
-    <div>
-        <label>AIR</label>
-        <ul>
-            <li><a href="/air/">Better air quality is the easiest way not to die</a></li>
-            <li><a href="/humidifiers/">The case against ultrasonic humidifiers</a></li>
-            <li><a href="/ikea-purifier/">Contra Wirecutter on the IKEA air purifier</a></li>
-            <li><a href="/better-DIY-air-purifier.html">The Cuboid: A DIY air purifier that's better than a box-fan</a></li>
-            <li><a href="/stoves/">A summary of the research on gas stoves and health</a></li>
-        </ul>
-    </div>
-
-
-    <div>
-        <label>ALSO</label>
-        <ul>
-            <li><a href="/fahren-height/">Fahren-height</a></li>
-            <li><a href="/grug/">Grug on diet soda and autism</a></li>            
-            <li><a href="/death-penalty/">The death penalty as a lens on democracy</a>, <a href="/death-penalty-germany/">II</a>, <a href="/death-penalty-uk/">III</a>, <a href="/death-penalty-france/">IV</a>, <a href="/death-penalty-usa/">V</a></li>
-            <li><a href="/ethylene/">Ethylene for fun and profit and produce</a>, <a href="/ethylene-supply-chain/">II</a>, <a href="/tomatoes//">III</a>, <a href="/ethylene/">IV</a></li>
-            <li><a href="/nukes/">So you want to invent a nuclear weapon</a></li>
-        </ul>
-    </div>
 </div>
-
-<script>
-    // Function to get cookie value by name
-    function getCookie(name) {
-      const value = `; ${document.cookie}`;
-      const parts = value.split(`; ${name}=`);
-      if (parts.length === 2) return parts.pop().split(';').shift();
-      return null;
-    }
-
-    // Function to set a cookie with a name, value, and expiration time
-    function setCookie(name, value, days) {
-      const d = new Date();
-      d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000)); // expire in days
-      const expires = "expires=" + d.toUTCString();
-      document.cookie = `${name}=${value}; ${expires}; path=/`;
-    }
-
-    // Toggle content visibility and update the button and cookie
-    function toggleContent() {
-      const content = document.getElementById('list');
-      const button = document.getElementById('listButton');
-
-      // Toggle visibility of the content
-      if (content.style.display === 'none') {
-        content.style.display = 'grid';
-        button.textContent = '[-]';
-        setCookie('listHidden', 'false', 365); // Store in cookie for 365 days
-      } else {
-        content.style.display = 'none';
-        button.textContent = '[+]';
-        setCookie('listHidden', 'true', 365); // Store in cookie for 365 days
-      }
-    }
-
-    // Check cookie on page load to determine if the content should be hidden
-    window.onload = () => {
-      const contentHidden = getCookie('listHidden') === 'true';
-      const content = document.getElementById('list');
-      const button = document.getElementById('listButton');
-
-      if (contentHidden) {
-        content.style.display = 'none';
-        button.textContent = '[+]';
-      } else {
-        content.style.display = 'grid';
-        button.textContent = '[-]';
-      }
-    };
-</script>
-
-{% comment %}
-<h2>ALL DYNOMIGHT INTERNET CONTENT CONSUMPTION OPPORTUNITIES</h2>
-{% endcomment %}
-
-<script src="/assets/js/app.js" type="text/javascript"></script>
-<script>
-    function toggleAll(checkbox,classname){
-        state = document.getElementById(checkbox).checked;
-        var ims = document.getElementsByClassName(classname);
-        for (var i = 0; i < ims.length; ++i) {
-            var item = ims[i];
-            if(state){
-                item.style.display="unset";
-            } else{
-                item.style.display="none";
-            }
-        }
-    }
-    function sortChildren(containerSelector, reverse, field) {
-      const container = document.getElementById(containerSelector);
-      const order = reverse ? -1 : 1;
-      
-      Array.from(container.children)
-        .sort((a, b) => order * parseInt(a.dataset[field], 10) - order * parseInt(b.dataset[field], 10))
-        .forEach(element => container.appendChild(element));
-        
-    }
-
-    function updateOrder() {
-        var zone = document.getElementById("sort-select");
-        if (zone.value == "newest"){
-            sortChildren('blurbs', true, 'date');
-        } else if (zone.value == "oldest"){
-            sortChildren('blurbs', false, 'date');
-        } else if (zone.value = "updated"){
-            sortChildren('blurbs', true, 'updated');
-        }
-    }
-    
-</script>
-    
-<div class="headerfont theme-div" style="justify-content: center;">
-<select id="sort-select" class="brutalism-selector" onchange="updateOrder();">
-    <option disabled selected>sort by</option>
-    <option value="updated">updated</option>
-    <option value="newest">newest</option>
-    <option value="oldest">oldest</option>
-</select> 
-<select id="theme-select" class="brutalism-selector" onchange="updateTheme();">
-    <option value="none" disabled selected>theme</option>
-    <option value="normal">tryhard</option>
-    <option value="brutalism">brutalism</option>
-</select>
-<input type="checkbox" class="normalonly theme-boxes" id="images-checkbox" onchange="toggleAll('images-checkbox','blurb-img')" checked><label class="normalonly" id="images-checkbox-label" for="images-checkbox">ims</label>
-<!-- <input type="checkbox" id="titles-checkbox" onchange="toggleAll('titles-checkbox','blurb-title')" checked><label for="titles-checkbox">titles</label> -->
-<input type="checkbox" class="theme-boxes" id="dates-checkbox" onchange="toggleAll('dates-checkbox','blurb-date')" checked><label for="dates-checkbox">dates</label>
-<input type="checkbox" class="theme-boxes" id="subtitles-checkbox" onchange="toggleAll('subtitles-checkbox','blurb-subtitle')" ><label for="subtitles-checkbox">subtitles</label>
-<input type="checkbox" class="theme-boxes" id="quotes-checkbox" onchange="toggleAll('quotes-checkbox','blurb-quote')" checked><label for="quotes-checkbox">blurbs</label>
-<script>
-window.addEventListener('load', (event) => {
-    toggleAll('images-checkbox','blurb-img');
-    // toggleAll('titles-checkbox','blurb-title');
-    toggleAll('subtitles-checkbox','blurb-subtitle');
-    toggleAll('dates-checkbox','blurb-date');
-    toggleAll('quotes-checkbox','blurb-quote');
-});
-function updateTheme() {
-    var zone = document.getElementById("theme-select");
-    if (zone.value == "normal"){
-        swapStyleSheet('/assets/css/app.css');
-    }
-    if (zone.value == "brutalism"){
-        swapStyleSheet('/assets/css/luu.css');
-    }
-}
-</script>
-</div>
-
-{% comment %}
-<div class="headerfont" style="margin-left:5pt; margin-right:5pt; font-size:65%;">acetone ✓ alcohol ✗ analogies ✓ arguing ✓ aspartame ✓ bluetooth ✗ copies ✓ correlations ✗ diagnostics ✓ ENFJs ✓ ethylene ✓ factors ✓ gratitude ✗ hotness ✓ humidifiers ✗ kill-grandma ✗ lists ✓ litter ✗ mbti ✓ nukes ✗ p2p-meth ✓ pain ✗ pm2.5 ✗ potatoes ✓ running ✓ sales-tax ✗ selfhood ✗ split-brain ✗ statins ✓ ubi ✗ wirecutter ✗</div>
-{% endcomment %}
-
-<!-- <div style="display:flex; gap: 20px; flex-wrap:wrap; justify-content: center; margin-top: 20px;"> -->
 
 {% assign posts_by_updated = site.posts | sort: "last_modified_at" %}
-<div class="blurbs" id="blurbs">
-    {% for post in posts_by_updated %}{% include post-item-blurb.html %}{% endfor %}
-</div>
+{% assign posts_by_updated = site.posts %}
+{%- for post in posts_by_updated -%}
+    {% include post-item-blurb.html %}
+{% endfor %}
 
 <script>
-    sortChildren('blurbs', true, 'updated');
+
+document.addEventListener('DOMContentLoaded', () => {
+    const articles = document.querySelectorAll('main article');
+    const tagFilterSelect = document.getElementById('tag-filter');
+    const clearFilterBtn = document.getElementById('clear-filter-btn');
+
+    const getTagFromHash = () => {
+        const hash = window.location.hash.substring(1);
+        return hash || 'all';
+    };
+
+    const applyFilter = (tag) => {
+        articles.forEach(article => {
+            const articleTags = article.dataset.tags ? article.dataset.tags.split(' ') : [];
+            if (tag === 'all' || articleTags.includes(tag)) {
+                article.classList.remove('hidden');
+            } else {
+                article.classList.add('hidden');
+            }
+        });
+    };
+
+    const updateDropdownSelection = (activeTag) => {
+        if (tagFilterSelect) {
+            tagFilterSelect.value = activeTag;
+        }
+        if (clearFilterBtn) {
+            if (activeTag === 'all') {
+                clearFilterBtn.style.opacity = '0';
+                clearFilterBtn.style.pointerEvents = 'none';
+            } else {
+                clearFilterBtn.style.opacity = '1';
+                clearFilterBtn.style.pointerEvents = 'auto';
+            }
+        }
+    };
+
+    const filterAndSyncUI = () => {
+        const currentTag = getTagFromHash();
+        applyFilter(currentTag);
+        updateDropdownSelection(currentTag);
+    };
+
+    filterAndSyncUI();
+    window.addEventListener('hashchange', filterAndSyncUI);
+
+    if (tagFilterSelect) {
+        tagFilterSelect.addEventListener('change', (event) => {
+            const selectedTag = event.target.value;
+            if (selectedTag === 'all') {
+                history.pushState(null, '', window.location.pathname + window.location.search);
+                filterAndSyncUI();
+            } else {
+                window.location.hash = selectedTag;
+            }
+        });
+    }
+
+    if (clearFilterBtn) {
+        clearFilterBtn.addEventListener('click', () => {
+            history.pushState(null, '', window.location.pathname + window.location.search);
+            filterAndSyncUI();
+        });
+    }
+});
+
 </script>

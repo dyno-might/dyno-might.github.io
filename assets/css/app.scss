@@ -1,347 +1,210 @@
 ---
 ---
 
-@charset "utf-8";
+$title-color: #161616;
+$subtitle-color: #498f71; // 346751
+$accent-color: #C84B31;
+$content-margin: 15px;
+$text-color: black;
+$quote-color: #222222;
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/Montserrat/Montserrat-Regular.ttf");
-  src: url("/assets/fonts/Montserrat/Montserrat-Regular.woff2") format('woff2'),
-       url("/assets/fonts/Montserrat/Montserrat-Regular.woff") format('woff');
-  font-display: swap;
-}
+// for dark
 
-// @font-face {
-//   font-family: "Garamond";
-//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
-//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff2") format('woff2'),
-//        url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Medium.woff") format('woff');
-//   font-display: swap;
-// }
-
-@font-face {
-  font-family: "Source Serif";
-  src: url("/assets/fonts/SourceSerif4-Regular.ttf");
-  src: url("/assets/fonts/SourceSerif4-Regular.woff2") format('woff2'),
-       url("/assets/fonts/SourceSerif4-Regular.woff") format('woff');
-  font-display: swap;
-}
-
-// @font-face {
-//   font-family: "Sorts Mill Goudy";
-//   src: url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.ttf");
-//   src: url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.woff2") format('woff2'),
-//        url("/assets/fonts/Sorts_Mill_Goudy/SortsMillGoudy-Regular.woff") format('woff');
-//   font-display: swap;
-// }
-
-
-h2:target::before, h3:target::before {
-  content: "";
-  display: block;
-  height: 20vh; /* Adjust this value to set how much space you want above your target */
-  margin-top: -20vh; /* This should be the negative of the height */
-  visibility: hidden;
-  pointer-events: none;
-}
-
-// @font-face {
-//   font-family: "Garamond";
-//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.ttf");
-//   src: url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff2") format('woff2'),
-//        url("/assets/fonts/Cormorant_Garamond/CormorantGaramond-Italic.woff") format('woff');
-//   font-display: swap;
-//   font-style: italic;
-// }
-
-// @font-face {
-//   font-family: "Garamond";
-//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.ttf");
-//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff2") format('woff2'),
-//        url("/assets/fonts/EB_Garamond/static/EBGaramond-Regular.woff") format('woff');
-//   font-display: swap;
-// }
-
-// @font-face {
-//   font-family: "Garamond";
-//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.ttf");
-//   src: url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff2") format('woff2'),
-//        url("/assets/fonts/EB_Garamond/static/EBGaramond-Italic.woff") format('woff');
-//   font-display: swap;
-//   font-style: italic;
-// }
-
-// @font-face {
-//   font-family: "Fell";
-//   src: url("/assets/fonts/IM_Fell_English/IMFellEnglish-Regular.ttf");
-//   font-display: swap;
-// }
-
-// @font-face {
-//   font-family: "Caslon";
-//   src: url("/assets/fonts/Libre_Caslon_Text/LibreCaslonText-REgular.ttf");
-//   font-display: swap;
-// }
-
-
-// @font-face {
-//   font-family: "Doves";
-//   src: url("/assets/fonts/Doves/DovesTypeText-Regular.ttf");
-//   src: url("/assets/fonts/Doves/DovesTypeText-Regular.woff2") format('woff2'),
-//        url("/assets/fonts/Doves/DovesTypeText-Regular.woff") format('woff');
-//   font-display: swap;
-// }
-
-
-// set all colors here
-
-$normal-text-color: black;
-$blurb-text-color: rgb(90,90,90);
-$normal-quote-color: rgb(75,75,75);
-$normal-bg-color: white;
-$normal-details-bg-color: #eeeeee;
-$normal-navbar-bg-color: rgba(255,255,255,0.75);
-
-$dark-text-color: white;
+//$dark-accent-color: #b86d1b;
+$dark-title-color: #26426B;
+$dark-subtitle-color: #346751;
+$dark-accent-color: #b78a5b;
+$dark-text-color: #F0F0F0; // white ?
 $dark-quote-color: rgb(180,180,180);
-$dark-bg-color: black;
+$dark-bg-color: #1A1A1A; // black?
 $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
-$family-sans-serif: Montserrat, sans-serif;
-$family-serif: "Source Serif", Georgia, serif;
 
-$family-primary: $family-serif;
-$family-secondary: $family-sans-serif;
-$title-family: $family-sans-serif;
-h1, h2, h3, h4, h5, h6 {
-  font-family: $title-family;
-  line-height: 1;
-  //font-weight: lighter;
-}
-h1, h2{
-  text-align: center;
-}
-
-.posttitle{
-  font-family: $title-family;
-  font-weight: lighter;
-  line-height: 1;
-}
-.headerfont{
-  font-family: $title-family;
-  font-weight: lighter;
-}
-.orangebutton:not(:hover){
-  /* border: 2px orange solid; */
-  background-color: #cc5a25bf;
-}
-.orangebutton:hover{
-  /* color:white; */
-  /* border: 2px rgb(47,124,246) solid; */
-  background-color: #cc5a25e8;
-}
-
-.nolinkstyle{
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
-}
-
-// hr {
-//   width: 4ch;
-//   border-style: dotted none none;
-//   border-width: 4px;
-//   //border-color: red;
-// }
-
-// arrogant textual D
-// hr {
-//   border: none;
-//   color: black;
-//   font-family: $family-sans-serif;
-//   font-size: 75%;
-// }
-// hr::before {
-//   content: '—D—';
-//   display: block;
-//   text-align: center;
-// }
-
-// hr {
-//   border: none;
-//   color: black;
-//   font-family: $family-sans-serif;
-//   font-size: 75%;
-// }
-// hr::before {
-//   content: '— § —';
-//   display: block;
-//   text-align: center;
-// }
-
-
-hr {
-  width: 4ch;
-  border-style: solid none none;
-  border-width: 20%;
-  //border-color: red;
-}
-
-.navbaritem{
-    color: $normal-text-color;
-    text-decoration: none;
-    margin-left:4px;
-    height:100%;
-    align-items:center;
-    display:flex;
-}
-// .navbaritem:hover{
-//     text-decoration:underline;
-// }
-.navbaritem:visited{
-    color: $normal-text-color;
-}
-// gets rid of visible scrollbar but still allows scrolling
-.noscrollbar{
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-}
-.noscrollbar::-webkit-scrollbar{
-    display: none;  /* Safari and Chrome */
-}
-
-#sub{
-  display:none;
-}
-#sub:target {
-  display: block;
-}
-
-a{
-    color: #3273dc;
-    text-decoration: none;
-}
-a:visited:hover{
-    color: inherit;
-}
-a:hover{
-  color: inherit;
-  text-decoration: underline $normal-text-color;
-}
-a:visited { 
-    //color:#5f32dc;
-    //color: #a0a0a0;
-    color:rgb(67,54,220);
-}
+// GENERAL RULES
 
 html{
     -webkit-font-smoothing: antialiased;
     font-weight:lighter;
-    font-family: $family-serif;
     scroll-behavior: smooth;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
+    overflow-y: scroll; /* Forces the vertical scrollbar to always be visible */
+    color: $text-color;
 }
-// body{
-//     margin:0;
-//     font-size: 1.15em;
-//     line-height: 1.4;
-//     word-wrap: break-word; // break long words
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size:calc(max(1.0em,min(3vw,1.1em)));
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+a:hover{
+  color: $text-color;
+  text-decoration: underline;
+}
+a:active{
+  color: $text-color;
+  text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: min(9vw, 5rem);
+    font-weight: 100;
+    margin-bottom: .4em;
+    margin-top: .125em;
+    color: $title-color;
+}
+
+h1, h2, h3{
+  line-height: 1.1;
+}
+
+// hr {
+//   border: 0.5px solid gray;
 // }
-body{
-  margin:0;
-  font-size:calc(max(1.0em,min(3vw,1.1em))); //1.15em;
-  //font-size:1.1em;
+
+hr {
+  border: none;
+  height: 6px;
+  background: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="6" viewBox="0 0 1000 6">\
+      <path d="M0 3 C100 0 150 6 250 3 C350 0 400 6 500 4 C600 1 650 6 750 4 C850 1 900 6 1000 3"\
+            stroke="%23000" stroke-width="2" fill="none"/>\
+    </svg>') repeat-x;
+  margin: 2rem 0;
+}
+
+// reduce list space
+ol, ul {
+  padding-left: 1.5em;
+}
+
+// line for quotes
+blockquote {
+  color: $quote-color;
+  padding-left: 1em;
+  border-left: 2px solid;
+  margin-inline-start: 0.25em;
+  margin-inline-end: 0.25em;
+}
+
+
+article section, .post-item {
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $content-margin;
+  padding-right: $content-margin;
   line-height: 1.53;
-  word-wrap: break-word; // break long words
-}
-code {
-  font-family: Consolas, Monaco, "DejaVu Sans Mono", monospace;
-  font-size: calc(.72*max(1.0em,min(3vw,1.1em)));
-  line-height: 1.3;
-}
-pre{
-  line-height: 1
-}
-// code {
-//   font-family: Consolas, Monaco, "DejaVu Sans Mono", monospace;
-//   font-size: 80%;
-//   line-height: 1;
-// }
-
-
-// // used to make titles turn yellow on hover
-// .changer{
-//     color:white;
-//     text-align:center;
-//     text-shadow:0 0 5px rgba(0,0,0,1.0);
-//     text-decoration: none;
-//   }
-// .changer:hover{
-//   color: rgba(255,255,190,1.0);
-//   text-decoration: none;
-// }
-
-// .dark-on-hover:hover {
-//   filter: brightness(0.5);
-// }
-// .light-on-hover:hover{
-//   filter: brightness(2.0);
-// }
-
-// .visible-on-hover p {
-//   visibility: hidden;
-// }
-// .visible-on-hover:hover p {
-//   visibility: visible;
-// }
-
-#theme-select{
-  font-size: 90%;
-  margin-right: 0;
-  margin-left: 0;
-}
-#sort-select{
-  font-size: 90%;
-  margin-right: 0;
-  margin-left: 0;
 }
 
-.theme-div{
-  padding-left: .5rem;
-  font-size: 60%;
-  display: flex;
-  align-items: center;
-  height:2rem;
+// FOR TIMES
+
+time {
+  cursor:pointer;
+  // font-weight:bold;
 }
 
-.maintext {
-  //max-width: 75ch;
-  max-width: 70ch; // garamond is wider
-  padding-left: 1rem;
-  padding-right: .75rem;
-  margin:auto;
+// FOR POSTS
+
+article section img {
+    max-width: 90%; // not too wide
+    max-height: 75vh; // not too tall
+    width: auto; // but keep aspect ratio
+    height: auto; // but keep aspect ratio
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.blurbs{
-  margin:10pt;
+article section video {
+  max-width: 90%; // not too wide
+  max-height: 75vh; // not too tall
+  width: auto; // but keep aspect ratio
+  height: auto; // but keep aspect ratio
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.after-content{
-  padding: .5rem;
+// FILTERING
+
+.hidden {
+    display: none !important;
+}
+
+#filters a {
+    margin-right: 10px; /* Just a little space between links */
+    cursor: pointer;     /* Indicates it's clickable */
+}
+
+#filters a.active {
+    font-weight: bold; /* Make the active link bold */
+    color: black;       /* Change color for active link */
+}
+
+.tag-selector-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: fit-content;
+    margin-left: auto;
+}
+
+#tag-filter {
+    outline: none;
+    border: none;
+    text-align: right;
+    background-color: inherit;
+    color: $accent-color;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#tag-filter:hover {
+    color: $text-color;
+}
+
+.clear-filter-btn {
+    background: none;
+    border: none;
+    color: $accent-color;
+    cursor: pointer;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+.clear-filter-btn:hover {
+    color: $text-color;
 }
 
 
-// stuff to make details look different
+// DETAILS
 
 details{
     margin-bottom: 10pt;
-    background: $normal-details-bg-color;
+    
 }
 details > summary{
   padding-bottom: 0pt;
   cursor: pointer;
-  background: $normal-bg-color;
   padding-bottom: 5pt;
   list-style: none;
+  background: white;
 }
 details > *:not(summary){
   margin-top: 5pt;
@@ -352,6 +215,9 @@ details > *:not(summary){
   summary::-webkit-details-marker {
     display: none
   }
+  details[open] {
+    background: lightgray;
+  }
   summary::after {
     content: ' ▸';
   }
@@ -359,7 +225,8 @@ details > *:not(summary){
     content: ' ▾';
   }
 
-// stuff to make tables look different
+// TABLES
+
 table{
     font-family:Montserrat;
     margin-left: auto;
@@ -374,13 +241,7 @@ table tr{
   vertical-align: top;
 }
 
-ol {
-  padding-left: 1.5em;
-}
-
-ul {
-  padding-left: 1.5em;
-}
+// font-size
 
 @media (min-width:501px){
 table{
@@ -402,273 +263,187 @@ table{
   max-width:100%;
   font-size: 0.5em;
 }
-// .fixed{
-//     max-width:100;
-//     max-width:100%;
-//     overflow:scroll;
-// }
 }
 
-strong{
-    font-weight: bold;
+// FOR BLURBS
+
+.post-item {
+    display: grid;
+    grid-template-columns: 10ch 1fr;
+    gap: 0 10px;
+    margin-bottom: 20px;
+    align-items: baseline;
 }
 
-blockquote {
-    color: $normal-quote-color;
-    padding-left: 15px;
-    border-left: 3px solid $normal-quote-color;
-    margin-inline-start: 15px;
-    margin-inline-end: 15px;
+// control links unless otherwise instructed
+.post-item a {
+    text-decoration: inherit;
+    color: inherit;
 }
 
-img {
-    max-width: 90%; // not too wide
-    max-height: 75vh; // not too tall
-    width: auto; // but keep aspect ratio
-    height: auto; // but keep aspect ratio
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.post-item h2{
+  color: $subtitle-color;
 }
 
-// figure{
-//   width: 95%;
-// }
 
-// video{
-//     display: block;
-//     margin: 0 auto;
-// }
-
-video {
-  max-width: 90%; // not too wide
-  max-height: 75vh; // not too tall
-  width: auto; // but keep aspect ratio
-  height: auto; // but keep aspect ratio
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+// time in upper left
+.article-time {
+    grid-column: 1;
+    grid-row: 1;
+    color: #666;
+    text-align: right;
+    font-size: 85%;
 }
 
-.leftbar {
-  margin-bottom:3em;
-  width:calc(min( (100vw - 80ch ) / 2 - 5px, 30ch));
-  display:inline-block;
-  line-height: 1;
-  font-size:75%;
-  float:left;
-  position:sticky;
-  left:5px;
-  top:7em;
-  color: gray;
-  height: 100vh;
+// title in upper right
+.article-title {
+    grid-column: 2;
+    grid-row: 1;
+    margin-bottom: 5px;
+    color: $subtitle-color;
 }
 
-.leftbar > ul, .leftbar > ul > li, .leftbar > ul > li > ul, .leftbar > ul > li > ul > li  {
-  margin-left: 8px;
-  padding-left: 0pt;
-  list-style-type: none;
-}
-.leftbar > ul, .leftbar > ul > li{
-  margin-left: 0px;
-  padding-left: 0px;
-  margin-bottom: 1ch;
-}
-.leftbar > ul > li > a, .leftbar > ul > li > ul > li > a{
-  color: $normal-quote-color;
+// make title bigger
+.article-title h2 {
+    text-decoration: inherit;
+    color: inherit;
+    margin: 0 0 5px 0;
+    font-size: 130%;
+    // line-height: 1;
 }
 
-//@media(min-width: 1101px){
-@media(min-width: 1051px){
-  // invisible when leftbar visible
-  .noleftbar{
-    display: none;
-  }
+// tags lower left
+.article-tags {
+    grid-column: 1;
+    grid-row: 2;
+    color: $accent-color;
+    font-size: 85%;
+    text-align: right;
+    line-height: 1.0;
+    align-items: top;
+}
+.article-tags a:hover {
+    color: $text-color;
+    text-decoration: underline;
 }
 
-//@media (max-width: 1100px) {
-@media (max-width: 1050px) {
-  .leftbar {
-    display: none;
-  }
+// description lower-right
+.article-description {
+    grid-column: 2;
+    grid-row: 2;
+    color: #555;
+    overflow: hidden;
+    line-height: 1.3;
+    max-height: 3.9em; // 3x line-height
 }
 
-// class for the TOC on left
-.toc {
-  margin-bottom:5px;
-  color:gray;
+// wraps title and description
+.article-content {
+    display: contents;
 }
-.toc > a{
-  display: inline-block; // make link take up full width
-  width: 100%; // make link take up full width
+.article-content:hover .article-description {
+    color: $text-color;
 }
-.toc > a:hover{
-  font-weight: bold;
+.article-content:hover .article-title {
+    // text-decoration: underline;
+    color: $text-color;
+}
+
+.related-link {
+  color: $subtitle-color;
+}
+
+// BUTTONS AND FORMS
+
+.forms {
+  margin-top: 1em;
+  // color: dark;
+}
+
+.button{
+  background-color: inherit;
+  color: $accent-color;
+  margin:0;
+  cursor:pointer;
+  font-size:100%;
+  border: none;
+  text-decoration: underline;
+}
+
+
+.button:hover,
+.button:focus {
   color: black;
-  text-decoration: none;
-  letter-spacing: -0.35px;
-  //text-decoration: underline;
 }
 
-#navnav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.25s;
-  opacity: 100%;
-  background-color: $normal-navbar-bg-color;
-}
-
-// make links not look like links
-.no-link-effect{
-  text-decoration: inherit;
-  color: inherit;
-}
-.no-link-effect:hover{
-  text-decoration: inherit;
-  color: inherit;
-}
-.no-link-effect:visited{
-  text-decoration: inherit;
-  color: inherit;
-}
-
-.blurb{
-  text-decoration: none;
-}
-.blurb:hover{
-  text-decoration: none;
-}
-.blurb:hover .blurb-div .blurb-text .blurb-title{
-  text-decoration: underline;
-}
-.blurb:hover .blurb-div .blurb-text .blurb-date{
-  text-decoration: underline;
-}
-
-// post-item-blurb stuff
-.blurb-div{
-  display:flex;
-  justify-content: center;
-  gap:10pt;
-  margin-top:10px;
-}
-.blurb-text{
-  max-width:90ch;
-  flex:1;
-  line-height: 1.0;
-}
-.blurb-subtitle{
-  display:none;
-  font-style:italic;
-}
-.blurb-words{
-  line-height: 1.2;
-  font-size:calc(0.042 * min(360px,90vw));
-  color: $normal-text-color;
-}
-.blurb-title{
-  margin-top: 0pt;
-  //font-size:calc(0.042 * min(360px,90vw));
-  font-size:calc(0.048 * min(360px,90vw));
-  font-weight: bold;
-}
-.blurb-date{
-  margin-top: 0pt;
-  //font-size:calc(0.042 * min(360px,90vw));
-  //font-size:calc(0.048 * min(360px,90vw));
-  font-size:calc(0.036 * min(360px,90vw));
+.textinput{
+  outline: none;
+  font-size: 75%;
+  color: $accent-color;
+  font-weight: 100;
+  width:16ch;
+  border: none;
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
   font-weight: normal;
-  color: $normal-text-color;
-}
-.blurb-quote{
-  color:$blurb-text-color;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  text-align:justify;
-}
-.blurb-img{
-  width:min(240px,30vw);
-  height:calc(min(240px,30vw) / 1.6);
-  max-height: none;
-  max-width: none;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 2px;
 }
 
-// classes to turn stuff on and off in certain modes
-.normalonly{
-  display:unset;
-}
-.luuonly{
-  display:none;
+.textinput::placeholder{
+  color: $accent-color;
 }
 
-@media (max-width: 500px) {
-  .hidden-mobile {
-    display: none;
-  }
-  .hidden-mobile .normalonly{
-    display: none;
-  }
-  .hidden-mobile .luulonly{
-    display: none;
-  }
+// CODE
+
+code {
+  font-size: 75%;
 }
 
-@media (min-width: 501px) {
-  .only-mobile{
-    display: none;
-  }
-  .only-mobile .normalonly{
-    display: none;
-  }
-  .only-mobile .luulonly{
-    display: none;
-  }
-}
-
-.theme-boxes{
-  transform:scale(.7);
-  margin-right: 0;
-}
-
-.brutalism-selector{
-  font-family: $family-sans-serif;
-  width: fit-content;
-}
-
-#default-button{
-  color:red;
-  cursor: pointer;
-}
-#luu-button{
-  color:inherit;
-  cursor: pointer;
-}
-
-// DARK MODE OVERRIDES
+// DARK MODE
 
 @media (prefers-color-scheme: dark) {
   html{
     color:$dark-text-color;
-    background-color: black;
+    background-color: $dark-bg-color;
   }
+
+  a, .button, .article-tags, #tag-filter, .clear-filter-btn, .textinput, .textinput::placeholder{
+    color: $dark-accent-color;
+  }
+
+  .textinput{
+    background-color: $dark-bg-color;
+  }
+
+  h1{
+    color: $dark-text-color;
+  }
+
+  .post-item h2{
+    color: $dark-subtitle-color;
+  }
+
 
   blockquote {
     color:  $dark-quote-color;
     border-left-color: $dark-quote-color;
   }
 
-  details{
+  details > summary{
+    background: $dark-bg-color;
+  }
+  details[open] {
     background: $dark-details-bg-color;
   }
-  details > summary{
-    background:$dark-bg-color;
+
+
+  // just chane stroke to white
+  hr {
+    background: url('data:image/svg+xml,\
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="6" viewBox="0 0 1000 6">\
+        <path d="M0 3 C100 0 150 6 250 3 C350 0 400 6 500 4 C600 1 650 6 750 4 C850 1 900 6 1000 3"\
+              stroke="%23fff" stroke-width="2" fill="none"/>\
+      </svg>') repeat-x;
   }
-  // change images
+
   img{
     background: white; // transparent -> white
     opacity: 0.75; // transparent
@@ -678,117 +453,48 @@ video {
     opacity: 1;
   }
 
-  // this would flip colors; but I'm worried that text prefers specific colors (e.g. "all blues")
-  // img[src$='.svg'] {
-  //   filter: invert(100%); // flip colors
-  // }
-
-  .leftbar > ul > li > a, .leftbar > ul > li > ul > li > a{
-    color: $dark-quote-color;
-  }
-
-  a, a:visited {
-    color: #b86d1b;
-  }
-
   a:hover{
+    color: $dark-text-color;
     text-decoration: underline $dark-text-color;
   }
-  
-  .blurb-date{
-    color:$dark-text-color;
+
+
+  .article-tags a:hover {
+      color: $dark-text-color;
+      text-decoration: underline;
   }
 
-  .blurb-subtitle{
-    color:$dark-text-color;
-  }
-  #listButton{
-    color:$dark-text-color;
-  }
-  #toggleButton{
-    color:$dark-text-color;
+  .post-item a {
+    text-decoration: inherit;
+    color: inherit;
   }
 
-  .blurb-quote{
-    color:$dark-quote-color;
-  }
-  
-  .navbaritem{
-      color: inherit;
-  }
-  .navbaritem:hover{
-      text-decoration:underline;
-  }
-  .navbaritem:visited{
-      color: inherit;
+  .article-description, .article-time {
+    color: #aaa;
   }
 
-  #navnav {
-    background-color: $dark-navbar-bg-color;
+
+  #tag-filter:hover, .clear-filter-btn:hover {
+    color: $dark-text-color;
   }
-  
+
+  .article-content:hover .article-description {
+    color: $dark-text-color;
+  }
+  .article-content:hover .article-title {
+    color: $dark-text-color;
+  }
+
+   .article-content:hover h2{
+    color: $dark-text-color;
+  }
+
+
 }
 
 @media print {
   .noprint {
     visibility: hidden;
   }
-}
-
-
-.list-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  flex-wrap: wrap;  /* Allows the lists to wrap if there's not enough space */
-  gap: 10px 20px;        /* Space between the lists */
-  line-height: 1.1;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-@media (max-width: 1200px) {
-  .list-container {
-    grid-template-columns: repeat(3, 1fr); /* 3 items per row on medium screens */
-  }
-}
-
-@media (max-width: 800px) {
-  .list-container {
-    grid-template-columns: repeat(2, 1fr); /* 2 items per row on small screens */
-  }
-}
-
-// /* Style for each list item */
-// .list-container > div {
-//   flex: 1 1 300px;  /* Make each list flexible with a minimum width of 150px */
-//   //padding: 30px;
-//   box-sizing: border-box;
-// }
-
-/* Style for the labels */
-.list-container > div > label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 10px;
-}
-
-/* Style for unordered lists */
-.list-container > div > ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-  font-size: 100%;
-}
-
-.list-container > div > ul > li {
-  margin-bottom: 10pt;
-}
-
-.list-container > div > ul > li > a {
-  //text-decoration: none;
-  text-decoration-color: rgba(0, 0, 0, 0.5);
-  //color: inherit;
 }
 

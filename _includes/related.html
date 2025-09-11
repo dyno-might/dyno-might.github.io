@@ -1,7 +1,7 @@
+<!-- <h3>related internet content opportunities</h3> -->
+
+<span style="font-weight: bold;">Related</span>
 {% comment %} RELATED BLOCK {% endcomment %}
-<div class="container">
-<center>
-<div class="headerfont" ><span style="font-size:130%;">related</span>
 {%- assign maxRelated = 4 -%}
 {%- assign numPrinted = 0 -%}
 {% assign maxRelatedCounter = 0 %}
@@ -20,8 +20,14 @@
       {%- endif -%}
     {%- endfor -%}
     {%- if sameTagCount == minCommonTags -%}
-      <p style="margin-top:8px;">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
+    <p style="line-height: 1; margin-top: 0.6em; margin-bottom: 0.6em;">
+    <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a> · 
+    {% for tag in post.tags %}
+          <a href="{{ site.baseurl }}/#{{tag | downcase}}" style="font-size: 80%;">{{tag}}</a>
+    {% endfor %}
+    </p>
+
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {%- if maxRelatedCounter >= maxRelated -%}
         {% break %}
@@ -29,6 +35,3 @@
     {%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
-</div>
-    </center>
-    </div>
