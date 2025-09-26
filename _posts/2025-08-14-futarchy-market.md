@@ -16,6 +16,8 @@ seo:
 comment:
   lemmy: https://old.lemmy.world/post/34433950
   substack: https://dynomight.substack.com/p/futarchy-market
+replies:
+  manifold: https://news.manifold.markets/p/experiments-with-futarchy
 head: ""
 ---
 
