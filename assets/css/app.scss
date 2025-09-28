@@ -380,6 +380,7 @@ table{
   outline: none;
   font-size: 75%;
   color: $accent-color;
+  background-color: lightgray;
   font-weight: 100;
   width:15ch;
   border: none;
@@ -389,7 +390,8 @@ table{
 }
 
 .textinput::placeholder{
-  color: $accent-color;
+  //color: $accent-color;
+  color: lighten(desaturate($accent-color, 15%), 15%);
 }
 
 // CODE
@@ -406,12 +408,17 @@ code {
     background-color: $dark-bg-color;
   }
 
-  a, .button, .article-tags, #tag-filter, .clear-filter-btn, .textinput, .textinput::placeholder{
+  a, .button, .article-tags, #tag-filter, .clear-filter-btn, .textinput{
     color: $dark-accent-color;
   }
 
   .textinput{
-    background-color: $dark-bg-color;
+    //background-color: $dark-bg-color;
+    background-color: #303030;
+  }
+
+  .textinput::placeholder{
+    color: darken(desaturate($dark-accent-color, 15%), 15%);
   }
 
   h1{
