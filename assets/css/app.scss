@@ -377,10 +377,10 @@ table{
 }
 
 .textinput{
-  outline: none;
+  outline: 1px solid;
   font-size: 75%;
   color: $accent-color;
-  background-color: lightgray;
+  //background-color: lightgray;
   font-weight: 100;
   width:15ch;
   border: none;
