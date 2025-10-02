@@ -18,6 +18,7 @@ comment:
   substack: https://dynomight.substack.com/p/futarchy-market
 replies:
   manifold: https://news.manifold.markets/p/experiments-with-futarchy
+  overcoming bias: https://www.overcomingbias.com/p/futarchys-minor-flaw
 head: ""
 ---
 
