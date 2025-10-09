@@ -10,7 +10,7 @@ permalink: /explainers/
 #  date_modified: 2025-08-17
 #  last_modified_at: 2025-08-17
 comment:
-  lemmy: "https://old.https://lemmy.world/post/37116690"
+  lemmy: "https://old.lemmy.world/post/37116690"
   substack: "https://dynomight.substack.com/p/explainers"
 head: ""
 
