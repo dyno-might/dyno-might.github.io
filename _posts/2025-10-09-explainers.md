@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Prospects for survival of the explainer post"
+title: "Will the explainer post go extinct?"
 image: /img/explainers/parthenon.jpg
 tags: [writing, AI]
-description: "yeah, probably"
+description: "yeah probably"
 excerpt: ""
 permalink: /explainers/
 #seo:
