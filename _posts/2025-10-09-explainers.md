@@ -16,7 +16,7 @@ head: ""
 
 ---
 
-Will short-form non-fiction internet writing go extinct? This may seem like a strange question to ask. After all, short-form non-fiction internet writing is currently, if anything on the ascent—at least for politics, money, and culture war—driven by the shocking discovery that many people will pay the cost equivalent of four hardback books each year to support their favorite internet writers.
+Will short-form non-fiction internet writing go extinct? This may seem like a strange question to ask. After all, short-form non-fiction internet writing is currently, if anything, on the ascent—at least for politics, money, and culture war—driven by the shocking discovery that many people will pay the cost equivalent of four hardback books each year to support their favorite internet writers.
 
 But, particularly for "explainer" posts, the long-term prospects seem dim. I write about random stuff and then send it to you. If you just want to understand something, why would you read my rambling if AI could explain it equally well, in a style customized for your tastes, and then patiently answer your questions forever?
 
