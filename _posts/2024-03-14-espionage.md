@@ -129,7 +129,7 @@ Assange said he wasn't worried about the allegations, but he feared that going t
 
 ### Eventually, Ecuador soured on Assange.
 
-Assange seems to have been an annoying guest. He damaged the halls by skateboarding, didn't always cleaning up after his cat, and maybe compromised the embassy's internal systems. Either because of all that, because of US pressure, because Ecuador got a new president, or because Assange leaked a photo of that president [in bed with lobster](https://nypost.com/2019/04/14/this-photo-got-julian-assange-kicked-out-of-ecuadorian-embassy/) as an attempt at counter-pressure, he eventually became unwelcome.
+Assange seems to have been an annoying guest. He damaged the halls by skateboarding, didn't always clean up after his cat, and maybe compromised the embassy's internal systems. Either because of all that, because of US pressure, because Ecuador got a new president, or because Assange leaked a photo of that president [in bed with lobster](https://nypost.com/2019/04/14/this-photo-got-julian-assange-kicked-out-of-ecuadorian-embassy/) as an attempt at counter-pressure, he eventually became unwelcome.
 
 ### Since 2019, Assange has been fighting extradition to the US.
 

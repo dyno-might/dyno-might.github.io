@@ -104,7 +104,7 @@ The physics of air purifiers seem simple. If you create some material with small
 
 ![physics.002](/img/ikea-purifier/physics2-comp.svg){: loading="lazy"}
 
-This is strainers and sieves work in your kitchen. It's how the Wirecutter seems to think air filters work. But it's not how air filters work.
+This is how strainers and sieves work in your kitchen. It's how the Wirecutter seems to think air filters work. But it's not how air filters work.
 
 Would you believe me if I told you they work like *this*?
 

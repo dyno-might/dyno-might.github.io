@@ -57,7 +57,7 @@ The same basic story holds for horses, the telegraph, card catalogs, slide rules
 
 Western civilization began with [the Iliad](https://en.wikipedia.org/wiki/Iliad). Or, at least, we've decided to pretend it did. If you read the Iliad, then you can brag about reading the Iliad (good) and you have more context to engage with everyone else who read it (very good). So people keep reading the Iliad. I think this will continue indefinitely.
 
-But so what? The Iliad is in that position because people have been reading/listening to it for thousands of years. But if you write something new and there's no "normal" reason to read it, then it has to way to establish that kind of self-sustaining legacy.
+But so what? The Iliad is in that position because people have been reading/listening to it for thousands of years. But if you write something new and there's no "normal" reason to read it, then it has no way to establish that kind of self-sustaining legacy.
 
 Non-fiction in general has a very short half-life. And even when coordination points exist, people often rely on secondary sources anyway. Personally, I've tried to read Wittgenstein, but I found it incomprehensible. Yet I think I've absorbed his [most useful idea](https://plato.stanford.edu/entries/wittgenstein/#MeanUse) by reading other people's descriptions. I wonder how much "Wittgenstein" is really a source at this point as opposed to a label.
 

@@ -39,9 +39,9 @@ Here are two examples of how things I've written have failed:
 
    This was... puzzling, because I had dozens of citations starting very early in the article. But many people in different forums independently said things like this.
 
-2. I wrote an article about [gas stoves and nitrogen dioxide](/stoves) where I stated in the overview that a typical range hood might fix things. A top comment was that a *high-quality* hood would obviously solve the problem and the fact that I claimed wouldn't showed I was biased and bad (so bad).
+2. I wrote an article about [gas stoves and nitrogen dioxide](/stoves) where I stated in the overview that a typical range hood might fix things. A top comment was that a *high-quality* hood would obviously solve the problem and the fact that I claimed otherwise showed I was biased and bad (so bad).
 
-   That's fair, although right after the overview there was a link to the ["Can a range hood fix this?"](/stoves/#can-a-range-hood-fix-this) section where I discuss an paper that tested hoods in various houses and found that some worked well but most of them reduced nitrogen dioxide by 30% or less and wait did I say that was fair?
+   That's fair, although right after the overview there was a link to the ["Can a range hood fix this?"](/stoves/#can-a-range-hood-fix-this) section where I discuss a paper that tested hoods in various houses and found that some worked well but most of them reduced nitrogen dioxide by 30% or less and wait did I say that was fair?
 
 Holster your [tiny violin](https://www.youtube.com/watch?v=6TPMEoM-cjc&t=1m48s), I know this is all normal. Many people get fed up with stuff like this and resolve to ignore all comments. That's not my position. My position is that I failed  and when I fail I'd like to know about it.
 

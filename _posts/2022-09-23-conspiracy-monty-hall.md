@@ -142,7 +142,7 @@ Similarly,
 &nbsp;&nbsp;&nbsp;&nbsp;≥ ½.
 </div>
 
-Thus it is optimal for the player to always switch. But if you always switch, then it's you get the car <span class="eeq">⅔</span> of the time regardless of what Monty does. So you can't do better than <span class="eeq">⅔</span>.
+Thus it is optimal for the player to always switch. But if you always switch, then you get the car <span class="eeq">⅔</span> of the time regardless of what Monty does. So you can't do better than <span class="eeq">⅔</span>.
 
 **Why you might not like this argument:** Maybe this feels too "Bayesian" for you? (Personally, I like this argument a lot.)
 
