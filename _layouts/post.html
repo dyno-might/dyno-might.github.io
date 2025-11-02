@@ -29,81 +29,68 @@ layout: default
 
   </section>
 
-<hr>
+  <hr>
 
-  <section class="forms" style="display:flex; gap: 0.50rem 0.0rem;">
-    <div style="flex: 48.5;">
-      <span style="display:inline-block;">please alert me</span>
-      <span style="display:inline-block;">of mistakes to fix</span>
-      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST"> 
-        <input type="text" name="errors" placeholder="you spelled..." class="textinput" required> 
-        <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
-        <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
-        <input type="hidden" name="_captcha" value="false" /> 
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_url" value="https://dynomight.net/" /><button type="submit" id="errorButton" class="button">fix</button> 
-      </form>
-      <span class="popup-on-focus" style="display: inline-block; visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray; font-size:75%;">(Just want to see <a href="https://dynomight.net/respond_success.html">what happens</a>?)</span>
-    </div>
-    <div style="flex: 51.5; text-align: right;">
-      <span style="display:inline-block;">weekly-ish posts</span>
-      <span style="display:inline-block;">or try <a href="https://dynomight.net/feed.xml">RSS</a> or <a href="https://dynomight.substack.com">substack</a></span>
-      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
-          <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
-          <input type="email" name="email" placeholder="email@email.com" class="textinput" required /> 
-          <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
-          <input type="hidden" name="_captcha" value="false">
-          <input type="text" name="_honey" style="display:none">
-          <input type="hidden" name="_url" value="https://dynomight.net/">
-          <button type="submit" class="button">OK</button>   
-      </form>
-    </div>
-  </section>
-
-
-
-<style>
-  #errorForm:focus-within ~ .popup-on-focus {
-    visibility: visible !important;
-    pointer-events: auto !important;
-    transition: visibility 0.25s 0.75s, pointer-events 0s 0s !important;
-  }
-</style>
-
+  <style>
+    #errorForm:focus-within ~ .popup-on-focus {
+      visibility: visible !important;
+      pointer-events: auto !important;
+      transition: visibility 0.25s 0.75s, pointer-events 0s 0s !important;
+    }
+  </style>
 
   <section>
-    {% if page.comment %}
-    <span style="font-weight: bold;">Comments</span>
-    {% for k in page.comment %}
-      <br><a href="{{k[1]}}">{{k[0]}}</a>
-    {% endfor %}
-    </span>
-    {% endif %}
-    {% if page.replies %}
-    <p><span style="font-weight: bold;">Follow-ups</span>
-    {% for k in page.replies %}
-      <br><a href="{{k[1]}}">{{k[0]}}</a>
-    {% endfor %}
-    </br>
-    {% else %}
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
+      Please support me by subscribing for weekly-ish posts:
+        <input type="hidden" name="_subject" value="SUBSCRIBE SUB" />
+        <input type="email" name="email" placeholder="email@email.com" class="textinput" required />
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" />
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/">
+        <button type="submit" class="button">ok</button>
+        (Or try <a href="https://dynomight.substack.com">substack</a> or <a href="https://dynomight.net/feed.xml">RSS</a>)
+    </form>
+    
     <p>
-    {% endif %}
-  </section>
 
+    {% if page.comment %}
+      <p>Comments at
+      {% for k in page.comment %}
+        <a href="{{k[1]}}">{{k[0]}}</a>
+        {%- if forloop.last -%}{{"."}}{%- else -%}{{" or "}}{%- endif -%}
+      {% endfor %}
+      {% endif %}
+      {% if page.replies %}
+      Replies at
+      {% for k in page.replies %}
+        <a href="{{k[1]}}">{{k[0]}}</a>
+        {%- if forloop.last -%}{{"."}}{%- else -%}{{" or "}}{%- endif -%}
+      {% endfor %}
+    {% endif %}
+
+  </section>
+  <hr>
   <section>
 
     {% include related.html %}
 
   </section>
+  <hr>
+  <section>
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST"> 
+      Mistakes?
+      <input type="text" name="errors" placeholder="you misspelled..." class="textinput" required> 
+      <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
+      <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
+      <input type="hidden" name="_captcha" value="false" /> 
+      <input type="text" name="_honey" style="display:none">
+      <input type="hidden" name="_url" value="https://dynomight.net/" /><button type="submit" id="errorButton" class="button">fix</button> 
+    </form>
+    <span class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray; font-size:75%;">(Just want to see <a href="https://dynomight.net/respond_success.html">what happens</a>?)</span>
+
+  </section>
 
 </article>
 
-<hr>
-
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
-
-<!-- <div>
-{% include comments-and-replies.html %}
-</div> -->
-      
-  
