@@ -80,7 +80,7 @@ layout: default
   <section>
     <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST"> 
       Mistakes?
-      <input type="text" name="errors" placeholder="you misspelled..." class="textinput" required> 
+      <input type="text" name="errors" placeholder="you misspelled..." class="textinput" style="width:max(17ch, calc(100% - 15ch))" required> 
       <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
       <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
       <input type="hidden" name="_captcha" value="false" /> 
