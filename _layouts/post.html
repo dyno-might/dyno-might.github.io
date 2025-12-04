@@ -32,7 +32,7 @@ layout: default
   <hr>
 
   <style>
-    #errorForm:focus-within ~ .popup-on-focus {
+    .form-with-popup:focus-within ~ .popup-on-focus {
       visibility: visible !important;
       pointer-events: auto !important;
       transition: visibility 0.25s 0.75s, pointer-events 0s 0s !important;
@@ -40,20 +40,6 @@ layout: default
   </style>
 
   <section>
-    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" method="POST">
-      Please support me by subscribing for weekly-ish posts:
-        <input type="hidden" name="_subject" value="SUBSCRIBE SUB" />
-        <input type="email" name="email" placeholder="email@email.com" class="textinput" required />
-        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" />
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_url" value="https://dynomight.net/">
-        <button type="submit" class="button">ok</button>
-        (Or try <a href="https://dynomight.substack.com">substack</a> or <a href="https://dynomight.net/feed.xml">RSS</a>)
-    </form>
-    
-    <p>
-
     {% if page.comment %}
       <p>Comments at
       {% for k in page.comment %}
@@ -69,6 +55,19 @@ layout: default
       {% endfor %}
     {% endif %}
 
+
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" class="form-with-popup" method="POST">
+      Please support me by subscribing for weekly-ish posts:
+        <input type="hidden" name="_subject" value="SUBSCRIBE SUB" />
+        <input type="email" name="email" placeholder="email@email.com" class="textinput" required />
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" />
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/">
+        <button type="submit" class="button">ok</button>
+        (Or try <a href="https://dynomight.substack.com">substack</a> or <a href="https://dynomight.net/feed.xml">RSS</a>)
+    </form>
+    <div class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.1s; line-height: -0.15; color:gray; font-size:75%; margin-bottom:-0.5cm; padding-bottom: 0;">(Adds you to the substack email list, but is 100% done after you click OK, so you aren't asked to make an account, agree to terms of use, etc.)</div>
   </section>
   <hr>
   <section>
@@ -78,7 +77,7 @@ layout: default
   </section>
   <hr>
   <section>
-    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" id="errorForm" method="POST"> 
+    <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" class="form-with-popup" method="POST"> 
       Mistakes?
       <input type="text" name="errors" placeholder="you misspelled..." class="textinput" style="width:max(17ch, calc(100% - 15ch))" required> 
       <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
