@@ -38,15 +38,17 @@ layout: default
   </style>
 
   <section>
-
+    <br>
     <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" class="form-with-popup" method="POST">
       <span style="min-width:13ch; display:inline-block;">dynomiiiiiiiiiight</span>
+        <br>
         <input type="hidden" name="_subject" value="SUBSCRIBE SUB" />
         <input type="email" name="email" placeholder="email@email.com" class="textinput" required />
         <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" />
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_url" value="https://dynomight.net/">
+        <br>
         <button type="submit" class="button">ok</button>
         <span class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.1s; line-height: -0.15; color:gray; font-size:75%;">(Or try <a href="https://dynomight.substack.com">substack</a> or <a href="https://dynomight.net/feed.xml">RSS</a>.)</span>
 
@@ -56,11 +58,13 @@ layout: default
     <section>
     <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" class="form-with-popup" method="POST"> 
       <span style="min-width:13ch; display:inline-block;">mistakes</span>
+      <br>
       <input type="text" name="errors" placeholder="you misspelled..." class="textinput" required> 
       <input type="hidden" name="_subject" value="ERROR {{include.id}} {{page.title | slice: 0,20}}" /> 
       <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
       <input type="hidden" name="_captcha" value="false" /> 
       <input type="text" name="_honey" style="display:none">
+      <br>
       <input type="hidden" name="_url" value="https://dynomight.net/" /><button type="submit" id="errorButton" class="button">fix</button> 
       <span class="popup-on-focus" style="visibility: hidden; transition: visibility 0s 0.3s, pointer-events 0s 0.3s; line-height: 1; color:gray; font-size:75%;">(Need to see <a href="https://dynomight.net/respond_success.html">what happens</a>?)</span>
     </form>
@@ -70,6 +74,7 @@ layout: default
   <section>
       {% if page.comment %}
       <span style="min-width:13ch; display:inline-block;">comments</span>
+      <br>
       {% for k in page.comment %}
         <a href="{{k[1]}}">{{k[0]}}</a>
         {%- if forloop.last -%}{{""}}{%- else -%}{{" / "}}{%- endif -%}
