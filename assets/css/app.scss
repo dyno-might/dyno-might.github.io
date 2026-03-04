@@ -21,13 +21,31 @@ $dark-details-bg-color: #222222;
 $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("/assets/fonts/Montserrat/Montserrat-Regular.woff2") format('woff2'),
+       url("/assets/fonts/Montserrat/Montserrat-Regular.woff") format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif";
+  src: url("/assets/fonts/SourceSerif4-Regular.ttf");
+  src: url("/assets/fonts/SourceSerif4-Regular.woff2") format('woff2'),
+       url("/assets/fonts/SourceSerif4-Regular.woff") format('woff');
+  font-display: swap;
+}
+
+
 // GENERAL RULES
 
 html{
     -webkit-font-smoothing: antialiased;
     font-weight:lighter;
     scroll-behavior: smooth;
-    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    /* font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; */
+    font-family: 'Source Serif';
     font-weight: normal;
     overflow-y: scroll; /* Forces the vertical scrollbar to always be visible */
     color: $text-color;
@@ -64,10 +82,12 @@ h1 {
     margin-bottom: .4em;
     margin-top: .125em;
     color: $title-color;
+    font-family: Montserrat;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
   line-height: 1.1;
+  font-family: Montserrat;
 }
 
 
@@ -98,12 +118,14 @@ blockquote {
 
 
 article section, .post-item {
-  max-width: 70ch;
+  /* max-width: 70ch; */
+  max-width: 80ch;
   margin-left: auto;
   margin-right: auto;
   padding-left: $content-margin;
   padding-right: $content-margin;
-  line-height: 1.53;
+  /* line-height: 1.53; */
+  line-height: 1.6;
 }
 
 // FOR TIMES
