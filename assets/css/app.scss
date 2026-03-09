@@ -417,7 +417,8 @@ table{
 
 nav {
   display: flex;
-  font-size: min(100%, 3vw);
+  font-size: min(100%, 3.5vw);
+  line-height: 1.75;
 }
 
 nav > a{
@@ -427,16 +428,22 @@ nav > a{
   text-align: center;
   padding: 0.0rem 0;
   color: $text-color;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 nav details {
-  margin: 0;
+  margin: 0.25rem;
   flex: 1;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 nav details summary {
   text-align: center;
-  padding: 0.0rem 0;
+  margin: 0;
 }
 
 /* Dynamically assign the anchor ONLY to the currently open menu */
