@@ -458,7 +458,7 @@ nav details div, nav details div ul {
   margin: 0;
   backdrop-filter: blur(4px); 
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.65);
   z-index: 1;
 
   padding-left: 1rem;
@@ -577,13 +577,18 @@ code {
     color: $dark-text-color;
   }
 
+  nav > a{
+    color: $dark-text-color;
+  }
+
+
   nav details {
-    background: $dark-bg-color;
+    background-color: rgba(0, 0, 0, 0.65);
   }
 
 
   nav details div {
-    background: $dark-bg-color;
+    background-color: rgba(0, 0, 0, 0.65);
   }
 
 
