@@ -50,8 +50,6 @@ layout: default
 
   <a href="/">DYNOMIGHT</a>
 
-  <a href="/about">about</a>
-
   <details name="nav">
     <summary>best</summary>
     <div>
@@ -97,14 +95,20 @@ layout: default
         <input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer;">subscribe + guide to life</button>
       </form>
     </div>
+  </details>
+
+  <a href="/about">about</a>
+
+
 </nav>
 
 <script>
-  // Automatically open/close the details elements on mouse hover
-  document.querySelectorAll('nav details').forEach(menu => {
-    menu.addEventListener('mouseenter', () => menu.open = true);
-    menu.addEventListener('mouseleave', () => menu.open = false);
-  });
+if (screen.width > 768){
+    document.querySelectorAll('nav details').forEach(menu => {
+      menu.addEventListener('mouseenter', () => menu.open = true);
+      menu.addEventListener('mouseleave', () => menu.open = false);
+    });
+}
 </script>
 
 

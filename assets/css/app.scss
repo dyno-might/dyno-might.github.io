@@ -417,6 +417,7 @@ table{
 
 nav {
   display: flex;
+  font-size: min(100%, 3vw);
 }
 
 nav > a{
@@ -454,7 +455,7 @@ nav details div, nav details div ul {
   position-area: bottom;
   position-try-fallbacks: bottom span-right, bottom span-left;
   // width: 300px;
-  max-width: min(500px, 100vw);
+  max-width: min(500px, 100%);
   margin: 0;
   backdrop-filter: blur(4px); 
   text-align: center;
