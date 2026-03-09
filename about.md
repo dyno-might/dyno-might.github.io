@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "ABOUT"
 subtitle: 
 image: /img/deathvalley/small.jpg
@@ -41,7 +41,7 @@ In general I'm very open to the idea that I got stuff wrong, I think all feedbac
 <br>
 Not sure where to get started? Try one of these:
 
-* [Underrated reasons to be thankful I](/thanks/) / [II](/thanks-2/) / [III](/thanks-3/)
+* [Underrated reasons to be thankful I](/thanks/) / [II](/thanks-2/) / [III](/thanks-3/) / [IV](/thanks-4/) / [V](/thanks-5/)
 * [Plans you're not supposed to talk about](/plans/)
 * [Are some personalities just better?](/better-personalities/)
 * [Better air is the easiest way not to die](/air/)
@@ -55,7 +55,7 @@ Thoughts? Help with my ever-proliferating collection of typos?
           <input type="hidden" name="_subject" value="RESPONSE {{page.title | slice: 0,20}}" /> 
           <textarea type="text" name="text" class="headerfont" placeholder="Dear Dynomight..." style="margin-bottom:10px; padding:5px; width:98%; height:10em; word-wrap: break-word; word-break: break-all;"></textarea>
           <!-- <span class="headerfont" style="font-size:70%; ">(optional)</span> -->
-          <input type="email" name="email" class="headerfont" placeholder="email (OPTIONAL!)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
+          <input type="email" name="email" class="headerfont" placeholder="email (optional unless you want a response)" style="margin-bottom:10px; padding:10px; min-width:28ch;"/> 
           {% comment %}
           <span class="headerfont" style="font-size:70%; ">subscribe?</span>
           <input type="checkbox" value="1" name="subscribebox" style="padding:10pt;" />

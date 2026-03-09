@@ -413,6 +413,62 @@ table{
   color: lighten(desaturate($accent-color, 15%), 15%);
 }
 
+// NAV
+
+nav {
+  display: flex;
+}
+
+nav > a{
+  display: block;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+  padding: 0.0rem 0;
+  color: $text-color;
+}
+
+nav details {
+  margin: 0;
+  flex: 1;
+}
+
+nav details summary {
+  text-align: center;
+  padding: 0.0rem 0;
+}
+
+/* Dynamically assign the anchor ONLY to the currently open menu */
+nav details[open] summary {
+  anchor-name: --active-menu;
+}
+
+nav > details > div > a{
+  display: inline-block;
+  width: 100%;
+}
+
+nav details div, nav details div ul {
+  position: absolute;
+  position-anchor: --active-menu;
+  position-area: bottom;
+  position-try-fallbacks: bottom span-right, bottom span-left;
+  // width: 300px;
+  max-width: min(500px, 100vw);
+  margin: 0;
+  backdrop-filter: blur(4px); 
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+
+}
+
 // CODE
 
 code {
@@ -514,6 +570,20 @@ code {
 
    .article-content:hover h2{
     color: $dark-text-color;
+  }
+
+  .button:hover,
+  .button:focus {
+    color: $dark-text-color;
+  }
+
+  nav details {
+    background: $dark-bg-color;
+  }
+
+
+  nav details div {
+    background: $dark-bg-color;
   }
 
 

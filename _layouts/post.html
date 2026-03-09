@@ -4,6 +4,109 @@ layout: default
 
 <article>
   <header>
+
+
+    <!-- <nav style="width: 100%; display: flex; flex-wrap: wrap; font-size: 13px;">
+
+  <a href="/" style="flex: 1 1 auto; text-align: center; padding: 6px 4px;"><b>dynomight</b></a>
+
+  <details name="nav" style="flex: 1 1 auto; text-align: center; position: relative;">
+    <summary style="padding: 6px 4px; cursor: pointer; list-style: none;">best</summary>
+    <div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 200px; max-width: 90vw; width: fit-content; background: Canvas; padding: 8px; z-index: 100; text-align: left; border: 1px solid; overflow-wrap: break-word;">
+      <a href="/best-of">See all best posts →</a><br>
+      <a href="/air-quality">Air quality myths</a><br>
+      <a href="/sleep">Sleep optimization</a>
+    </div>
+  </details>
+
+  <details name="nav" style="flex: 1 1 auto; text-align: center; position: relative;">
+    <summary style="padding: 6px 4px; cursor: pointer; list-style: none;">topics</summary>
+    <div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 200px; max-width: 90vw; width: fit-content; background: Canvas; padding: 8px; z-index: 100; text-align: left; border: 1px solid; overflow-wrap: break-word;">
+      <a href="/topics">All topics</a><br>
+      <a href="/health">Health & science</a><br>
+      <a href="/thinking">How to think</a>
+    </div>
+  </details>
+
+  <details name="nav" style="flex: 1 1 auto; text-align: center; position: relative;">
+    <summary style="padding: 6px 4px; cursor: pointer; list-style: none;">about</summary>
+    <div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 200px; max-width: 90vw; width: fit-content; background: Canvas; padding: 8px; z-index: 100; text-align: left; border: 1px solid; overflow-wrap: break-word;">
+      <a href="/about">About dynomight</a>
+    </div>
+  </details>
+
+  <details name="nav" style="flex: 1 1 auto; text-align: center; position: relative;">
+    <summary style="padding: 6px 4px; cursor: pointer; list-style: none;">get</summary>
+    <div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); min-width: 200px; max-width: 90vw; width: fit-content; background: Canvas; padding: 8px; z-index: 100; text-align: left; border: 1px solid; overflow-wrap: break-word;">
+      <a href="/subscribe">Get guide to life + weekly posts</a>
+    </div>
+  </details>
+
+</nav> -->
+
+
+
+<nav>
+
+  <a href="/">DYNOMIGHT</a>
+
+  <a href="/about">about</a>
+
+  <details name="nav">
+    <summary>best</summary>
+    <div>
+      <a href="/thanks">Underrated reasons to be thankful</a></br>
+      <a href="/plans">Plans you're not supposed to talk about</a><br>
+      <a href="/air">Better air is the easiest way not to die</a><br>
+      <a href="/grug">Grug on diet soda and autism</a>
+      <a href="/numpy">I don't like NumPy</a>
+    </div>
+  </details>
+
+  <details name="nav">
+    <summary>topics</summary>
+    <div>
+      {% assign all_tags_raw = "" %}
+      {% for post in site.posts %}
+        {% if post.tags %}
+          {% assign current_post_tags_joined = post.tags | join: " " %}
+          {% assign all_tags_raw = all_tags_raw | append: current_post_tags_joined | append: " " %}
+        {% endif %}
+      {% endfor %}
+      {% assign unique_sorted_tags = all_tags_raw | split: " " | compact | uniq | sort %}
+      {% for tag in unique_sorted_tags %}
+          <a href="/#{{ tag | slugify }}" style="display:inline; padding-left:1ch; padding-right:1ch;">{{tag}}</a>
+      {% endfor %}
+    </div>
+  </details>
+
+  <details name="nav">
+    <summary>follow</summary>
+    <div>
+      <a href="https://dynomight.net/feed.xml">RSS</a><br>
+      <a href="https://mastodon.social/@dynomight">mastodon</a><br>
+      <a href="https://bsky.app/profile/dynomight.net">bluesky</a><br>
+      <a href="https://dynomight.substack.com">substack</a><br>
+      <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" style="padding:0; margin:0;" method="POST">
+        <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
+        <input type="email" name="email" placeholder="a@b.com" style="max-width: 8ch;" /> 
+        <input type="hidden" name="_next" value="https://dynomight.net/subscribe_success.html" /> 
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer;">subscribe + guide to life</button>
+      </form>
+    </div>
+</nav>
+
+<script>
+  // Automatically open/close the details elements on mouse hover
+  document.querySelectorAll('nav details').forEach(menu => {
+    menu.addEventListener('mouseenter', () => menu.open = true);
+    menu.addEventListener('mouseleave', () => menu.open = false);
+  });
+</script>
+
+
     {% include hero.html %}
     <h1 style="font-size: min(5rem, 9vw, calc(600vw / {{ page.title | size }}));">{{page.title}}</h1>
 
