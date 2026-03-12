@@ -155,7 +155,7 @@ But imagine you're an AI. You're being trained to respond in ways that make huma
 
 That's not bad. Arguably, you (you're still an AI) are responding in the way that's most useful, given your capabilities. But you are also responding in a way that gives a misleading impression that you've figured out how everything fits together, even if you haven't.
 
-I suspect something similar happens with humans. Say you have a bunch of ideas, but you haven't yet really boiled them down to your core message. If you write paragraphs, people will probably view them as confused babbling. Whereas if you write with lots of formatting, people might still be at least somewhat positive. Just like AIs, we all respond to our rewards.
+I suspect something similar happens with humans. Say you have a bunch of ideas, but you haven't yet sewn them together into a clear story. If you write paragraphs, people will probably view them as confused babbling. Whereas if you write with lots of formatting, people might still be at least somewhat positive. Just like AIs, we all respond to our rewards.
 
 More importantly, if you've written something that's 70% formatting, it's easy to delude *yourself* that there's a clear set of ideas underneath, even when there isn't.
 
