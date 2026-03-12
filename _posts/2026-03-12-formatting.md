@@ -107,7 +107,7 @@ So our mystery is still alive. Most writers aspire not to write content slop, bu
 
 ## 3. Maybe quality is hard to verify
 
-There's something odd about that previous example. When I search for "why human gastric juice more acidic than other animals" into a computer, *why* am I not looking for something to "read"? After all, I like reading. If one of my favorite bloggers wrote an essay on the mystery of human gastric juice, I would devour it.
+There's something odd about that previous example. When I search for "why human gastric juice more acidic than other animals", *why* am I not looking for something to "read"? After all, I like reading. If one of my favorite bloggers wrote an essay on the mystery of human gastric juice, I would devour it.
 
 So if I want a good essay, why don't I look for one? I guess it's because I instinctively rate my odds of finding one on any random topic as quite low.
 
