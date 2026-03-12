@@ -11,7 +11,7 @@ permalink: /formatting/
 # last_modified_at: 2025-11-21
 comment:
   lemmy: "https://lemmy.world/post/44159858"
-#  substack: "https://dynomight.substack.com/p/formatting"
+  substack: "https://dynomight.substack.com/p/formatting"
 head: ""
 
 ---
