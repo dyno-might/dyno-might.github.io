@@ -115,7 +115,7 @@ Mechanistically, what seems to be happening is that the left hand isn’t connec
 
 Do octopuses, with their [distributed nervous system](https://en.wikipedia.org/wiki/Octopus#Nervous_system_and_senses), have different streams of consciousness in each of their tentacles? Do all of us, as implied by the [conscious subsystems hypothesis](https://rethinkpriorities.org/publications/do-brains-contain-many-conscious-subsystems)? Does it even make sense to count?
 
-I have no idea. But I’m pretty sure that brain scanners will not reveal the answer. Because brain scanners will show why the brain *does* what it does, not but not what it experiences. And the closer we look, the more that distinction will matter.
+I have no idea. But I’m pretty sure that brain scanners will not reveal the answer. Because brain scanners will show why the brain *does* what it does, but not what it experiences. And the closer we look, the more that distinction will matter.
 
 ## Consciousness will slip through our fingers
 
