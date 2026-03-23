@@ -43,17 +43,18 @@ $dark-navbar-bg-color: rgba(0,0,0,0.75);
   display: flex;
   width: 100%;
   overflow: hidden;
+  justify-content: center; /* THIS is the magic line that anchors the middle image */
 }
 
 .hero-img {
-  max-width: 100%;   /* Forces the image to scale down fully on narrow screens */
-  max-height: 400px; /* Set your preferred max-height for wide screens */
-  width: auto;       /* Ensures the aspect ratio is perfectly maintained */
-  height: auto;      /* Ensures the aspect ratio is perfectly maintained */
-  flex-shrink: 0;    /* Prevents the repeating images from squishing */
+  max-width: 100%;   /* Ensures the center image never gets wider than the screen */
+  max-height: 450px; /* Caps the height on ultrawide monitors */
+  width: auto;       
+  height: auto;      
+  flex-shrink: 0;    /* Prevents the images from squishing */
 }
 
-/* Flips every second image horizontally for a seamless repeat */
+/* Flips the 2nd and 4th images horizontally to create perfect seamless edges */
 .hero-img:nth-child(even) {
   transform: scaleX(-1);
 }
