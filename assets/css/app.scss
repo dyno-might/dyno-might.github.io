@@ -37,6 +37,27 @@ $dark-navbar-bg-color: rgba(0,0,0,0.75);
   font-display: swap;
 }
 
+// HERO
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-img {
+  max-width: 100%;   /* Forces the image to scale down fully on narrow screens */
+  max-height: 400px; /* Set your preferred max-height for wide screens */
+  width: auto;       /* Ensures the aspect ratio is perfectly maintained */
+  height: auto;      /* Ensures the aspect ratio is perfectly maintained */
+  flex-shrink: 0;    /* Prevents the repeating images from squishing */
+}
+
+/* Flips every second image horizontally for a seamless repeat */
+.hero-img:nth-child(even) {
+  transform: scaleX(-1);
+}
+
 
 // GENERAL RULES
 
