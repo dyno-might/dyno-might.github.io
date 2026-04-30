@@ -272,14 +272,32 @@ table{
     font-family:Montserrat;
     margin-left: auto;
     margin-right: auto;
-    border-spacing: 0.5em 0.75em;
+    border-spacing: 0.5em 0.5em;
     line-height: 1;
 }
 table th{
     text-align:left;
+    border-bottom: 1px solid currentColor;
+    padding: 1px;
 }
 table tr{
   vertical-align: top;
+}
+
+// FOOTNOTES
+
+// smaller
+.footnotes {
+  font-size: 85%;
+  max-width: 75ch;
+  padding-top: 20px;
+  line-height: 1.4;
+}
+
+.footnotes li:target {
+  /* Takes the current text color and makes it 15% solid, 85% transparent */
+  background-color: color-mix(in srgb, currentColor 15%, transparent);
+  transition: background-color 0.3s ease;
 }
 
 // font-size
