@@ -9,9 +9,9 @@ permalink: /painkillers/
 #seo:
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
-# comment:
-#   substack: "https://dynomight.substack.com/p/painkillers"
-#   lemmy: "https://lemmy.world/post/45379989"
+comment:
+  substack: "https://dynomight.substack.com/p/painkillers"
+  lemmy: "https://lemmy.world/post/46337838"
 head: ""
 
 ---
