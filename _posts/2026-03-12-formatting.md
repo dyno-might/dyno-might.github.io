@@ -81,7 +81,7 @@ People sometimes give me something they wrote and ask for comments. Half the tim
 
 This always gives me a strange feeling. It's like all the formatting is based on some ontology. And that ontology is what I really need to understand. But it's never actually explained. Instead, I guess I'm supposed to figure it out as things jerk between different topics? It's disorienting, like a movie that cuts between different scenes every three seconds.
 
-But maybe that's just my opinion? Maybe, but sometimes I'll ask people who write like this to show me some writing they admire. And inevitably, its's not 70% formatting, but mostly paragraphs and normal human language. So I feel that people who write this way are violating the central tenet of making stuff, which is to [make something you would actually like](https://dynomight.net/writing-advice/).
+But maybe that's just my opinion? Maybe, but sometimes I'll ask people who write like this to show me some writing they admire. And inevitably, it's not 70% formatting, but mostly paragraphs and normal human language. So I feel that people who write this way are violating the central tenet of making stuff, which is to [make something you would actually like](https://dynomight.net/writing-advice/).
 
 So then why write like that? Why do I, despite my griping, often find *myself* writing [like that](https://dynomight.net/aliens/)? I've wondered this for years. But I told myself that I was right and that too much formatting is bad.
 
