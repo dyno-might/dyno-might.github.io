@@ -2,7 +2,7 @@
 layout: post
 title: "You're probably taking the wrong painkiller"
 image: /img/painkillers/nonchaloir_repose.jpg
-tags: [life]
+tags: [science, health]
 description: "acetaminophen vs. ibuprofen"
 excerpt: ""
 permalink: /painkillers/
