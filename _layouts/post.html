@@ -83,9 +83,11 @@ layout: default
     <summary>follow</summary>
     <div>
       <a href="https://dynomight.net/feed.xml">RSS</a><br>
+      <a href="https://cryptpad.fr/form/#/2/form/edit/NS3Ve38+JsWdGALMWXuazMd0/">email</a>
+      <a href="https://dynomight.substack.com">substack</a><br>
       <a href="https://mastodon.social/@dynomight">mastodon</a><br>
       <a href="https://bsky.app/profile/dynomight.net">bluesky</a><br>
-      <a href="https://dynomight.substack.com">substack</a><br>
+      {% comment %}
       <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" style="padding:0; margin:0;" method="POST">
         <input type="hidden" name="_subject" value="SUBSCRIBE SUB" /> 
         <input type="email" name="email" placeholder="a@b.com" style="max-width: 8ch;" /> 
@@ -94,6 +96,7 @@ layout: default
         <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_url" value="https://dynomight.net/"> <button type="submit" style="cursor:pointer;">go</button>
       </form>
+      {% endcomment %}
     </div>
   </details>
 
@@ -145,6 +148,7 @@ if (screen.width > 768){
     }
   </style>
 
+  {% comment %}
   <section>
     <br>
     <form action="https://formsubmit.co/928b923b668e10a176706a09a48958d5" class="form-with-popup" method="POST">
@@ -181,6 +185,7 @@ if (screen.width > 768){
     </form>
 
   </section>
+  {% endcomment %}
 
   <section>
       {% if page.comment %}
