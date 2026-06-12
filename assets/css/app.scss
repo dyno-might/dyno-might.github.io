@@ -93,8 +93,8 @@ html{
 body {
   margin: 0;
   padding: 0;
-  // font-size:calc(max(1.0em,min(3vw,1.1em)));
-  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  font-size:calc(max(1.0em,min(3vw,1.3em)));
+  //font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 }
 
 main {
@@ -172,11 +172,11 @@ article section, .post-item {
   line-height: 1.6;
 }
 
-@media (min-width: 600px){
-  article section, .post-item {
-    line-height: 1.7;
-  } 
-}
+// @media (min-width: 600px){
+//   article section, .post-item {
+//     line-height: 1.7;
+//   } 
+// }
 
 
 // FOR TIMES
