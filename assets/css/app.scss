@@ -4,7 +4,7 @@
 $title-color: #161616;
 $subtitle-color: #498f71; // 346751
 $accent-color: #C84B31;
-$content-margin: 15px;
+$content-margin: 20px;
 $text-color: black;
 $quote-color: #222222;
 
@@ -29,13 +29,29 @@ $dark-navbar-bg-color: rgba(0,0,0,0.75);
   font-display: swap;
 }
 
+// @font-face {
+//   font-family: "Source Serif";
+//   src: url("/assets/fonts/SourceSerif4-Regular.ttf");
+//   src: url("/assets/fonts/SourceSerif4-Regular.woff2") format('woff2'),
+//        url("/assets/fonts/SourceSerif4-Regular.woff") format('woff');
+//   font-display: swap;
+// }
+
 @font-face {
-  font-family: "Source Serif";
-  src: url("/assets/fonts/SourceSerif4-Regular.ttf");
-  src: url("/assets/fonts/SourceSerif4-Regular.woff2") format('woff2'),
-       url("/assets/fonts/SourceSerif4-Regular.woff") format('woff');
-  font-display: swap;
+  font-family: 'Lora';
+  src: url('/assets/fonts/Lora/Lora-VariableFont_wght.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
 }
+
+/* 2. Load the Italic Variable Font */
+@font-face {
+  font-family: 'Lora';
+  src: url('/assets/fonts/Lora/Lora-Italic-VariableFont_wght.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: italic; /* This tells the browser to use this file for italics */
+}
+
 
 // HERO
 
@@ -67,7 +83,8 @@ html{
     font-weight:lighter;
     scroll-behavior: smooth;
     /* font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif; */
-    font-family: 'Source Serif';
+    // font-family: 'Source Serif';
+    font-family: 'Lora', Georgia, Garamond, "Palatino Linotype", Palatino, "Times New Roman", serif;
     font-weight: normal;
     overflow-y: scroll; /* Forces the vertical scrollbar to always be visible */
     color: $text-color;
@@ -76,7 +93,8 @@ html{
 body {
   margin: 0;
   padding: 0;
-  font-size:calc(max(1.0em,min(3vw,1.1em)));
+  // font-size:calc(max(1.0em,min(3vw,1.1em)));
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
 }
 
 main {
@@ -140,15 +158,26 @@ blockquote {
 
 
 article section, .post-item {
-  /* max-width: 70ch; */
-  max-width: 75ch;
+  max-width: 65ch;
+  // max-width: 70ch;
+  // max-width: 75ch;
   margin-left: auto;
   margin-right: auto;
   padding-left: $content-margin;
   padding-right: $content-margin;
-  /* line-height: 1.53; */
+  //line-height: 1.53;
+  // line-height: 1.6;
+  //line-height: clamp(1.6, 1.4rem + 0.5vw, 1.8);
+  // line-height: clamp(0, 1.4rem + 0.5vw, 2);
   line-height: 1.6;
 }
+
+@media (min-width: 600px){
+  article section, .post-item {
+    line-height: 1.7;
+  } 
+}
+
 
 // FOR TIMES
 
