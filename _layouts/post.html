@@ -233,4 +233,15 @@ if (screen.width > 768){
 
 </article>
 
+<link rel="stylesheet" href="https://townsquare.cauenapier.com/widget.css" />
+<div id="townsquare-root"></div>
+<script type="module">
+  import { mountTownSquare } from "https://townsquare.cauenapier.com/townsquare.mjs";
+
+  mountTownSquare(document.getElementById("townsquare-root"), {
+    serverOrigin: "https://townsquare.cauenapier.com",
+    siteKey: "site_6HbJMIPdxjN_L5Ym"
+  });
+</script>
+
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>
