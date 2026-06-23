@@ -112,6 +112,65 @@ if (screen.width > 768){
 }
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Target only forward links (#fn:1), not backlinks (#fnref:1) inside .footnotes
+  document.querySelectorAll('a[href^="#fn:"]:not(.footnotes a)').forEach(function(ref) {
+    const href = ref.getAttribute('href');      // e.g., "#fn:1"
+    const id = href.substring(1);               // "fn:1"
+    const note = document.getElementById(id);
+    if (!note) return;
+
+    // Clone the footnote, strip the ↩ backlink
+    const clone = note.cloneNode(true);
+    clone.querySelectorAll('a[href^="#fnref"]').forEach(function(el) { el.remove(); });
+
+    const tip = document.createElement('span');
+    tip.className = 'footnote-preview';
+    tip.innerHTML = clone.innerHTML;
+
+    const wrapper = document.createElement('span');
+    wrapper.className = 'footnote-wrapper';
+    wrapper.style.position = 'relative';
+    wrapper.style.display = 'inline-block';
+
+    ref.parentNode.insertBefore(wrapper, ref);
+    wrapper.appendChild(ref);
+    wrapper.appendChild(tip);
+
+    // Position on hover so it stays inside the viewport
+    wrapper.addEventListener('mouseenter', function() {
+      tip.style.visibility = 'visible';
+      tip.style.opacity = '0';
+
+      const wrapperRect = wrapper.getBoundingClientRect();
+      const tipRect = tip.getBoundingClientRect();
+      const margin = 8;
+
+      let left = wrapperRect.left + wrapperRect.width / 2 - tipRect.width / 2;
+
+      if (left < margin) {
+        left = margin;
+      } else if (left + tipRect.width > window.innerWidth - margin) {
+        left = window.innerWidth - margin - tipRect.width;
+      }
+
+      tip.style.left = (left - wrapperRect.left) + 'px';
+      tip.style.transform = 'translateX(0)';
+
+      tip.style.opacity = '1';
+    });
+
+    wrapper.addEventListener('mouseleave', function() {
+      tip.style.opacity = '0';
+      tip.style.visibility = 'hidden';
+    });
+  });
+});
+</script>
+
+
+
 
     {% include hero.html %}
     <h1 style="font-size: min(5rem, 9vw, calc(600vw / {{ page.title | size }}));">{{page.title}}</h1>
@@ -232,16 +291,5 @@ if (screen.width > 768){
 <hr>
 
 </article>
-
-<link rel="stylesheet" href="https://townsquare.cauenapier.com/widget.css" />
-<div id="townsquare-root"></div>
-<script type="module">
-  import { mountTownSquare } from "https://townsquare.cauenapier.com/townsquare.mjs";
-
-  mountTownSquare(document.getElementById("townsquare-root"), {
-    serverOrigin: "https://townsquare.cauenapier.com",
-    siteKey: "site_6HbJMIPdxjN_L5Ym"
-  });
-</script>
 
 <script src="{{ site.baseurl }}/assets/js/app.js" type="text/javascript"></script>

@@ -55,25 +55,68 @@ $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 // HERO
 
+// .hero-container {
+//   display: flex;
+//   width: 100%;
+//   overflow: hidden;
+//   justify-content: center; /* THIS is the magic line that anchors the middle image */
+// }
+
+// .hero-img {
+//   max-width: 100%;   /* Ensures the center image never gets wider than the screen */
+//   max-height: 450px; /* Caps the height on ultrawide monitors */
+//   width: auto;       
+//   height: auto;      
+//   flex-shrink: 0;    /* Prevents the images from squishing */
+// }
+
+// /* Flips the 2nd and 4th images horizontally to create perfect seamless edges */
+// .hero-img:nth-child(even) {
+//   transform: scaleX(-1);
+// }
+
 .hero-container {
   display: flex;
   width: 100%;
   overflow: hidden;
-  justify-content: center; /* THIS is the magic line that anchors the middle image */
+  justify-content: center;
+  background: gray;
 }
 
 .hero-img {
-  max-width: 100%;   /* Ensures the center image never gets wider than the screen */
-  max-height: 450px; /* Caps the height on ultrawide monitors */
-  width: auto;       
-  height: auto;      
-  flex-shrink: 0;    /* Prevents the images from squishing */
+  max-width: 100%;
+  max-height: 450px;
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
 }
 
 /* Flips the 2nd and 4th images horizontally to create perfect seamless edges */
 .hero-img:nth-child(even) {
   transform: scaleX(-1);
 }
+
+// /* ── Continuous fade: opacity values match at every image boundary ── */
+
+// .hero-img:nth-child(1) {
+//   mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.5) 100%);
+//   -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.5) 100%);
+// }
+
+// .hero-img:nth-child(2) {
+//   mask-image: linear-gradient(to left, rgba(0,0,0,0.5) 0%, black 100%);
+//   -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.5) 0%, black 100%);
+// }
+
+// .hero-img:nth-child(4) {
+//   mask-image: linear-gradient(to left, black 0%, rgba(0,0,0,0.5) 100%);
+//   -webkit-mask-image: linear-gradient(to left, black 0%, rgba(0,0,0,0.5) 100%);
+// }
+
+// .hero-img:nth-child(5) {
+//   mask-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, transparent 100%);
+//   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, transparent 100%);
+// }
 
 
 // GENERAL RULES
@@ -158,7 +201,7 @@ blockquote {
 
 
 article section, .post-item {
-  max-width: 65ch;
+  max-width: 60ch;
   // max-width: 70ch;
   // max-width: 75ch;
   margin-left: auto;
@@ -329,6 +372,58 @@ table tr{
   transition: background-color 0.3s ease;
 }
 
+.footnote-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+// hover footnotes
+
+.footnote-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.footnote-preview {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  //margin-bottom: 8px;
+  width: max-content;
+  max-width: min(400px, 90vw);
+  padding: 0.2em 0.6em;
+  font-size: 90%;
+  //line-height: 1.4;
+  //color: #333;
+  background: #fff;
+  border: 1px solid #ccc;
+  //border-radius: 4px;
+  //box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s ease, visibility 0.1s ease;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.footnote-wrapper:hover .footnote-preview {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Optional arrow */
+.footnote-preview::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #ccc;
+}
+
+
 // font-size
 
 @media (min-width:501px){
@@ -352,6 +447,7 @@ table{
   font-size: 0.5em;
 }
 }
+
 
 // FOR BLURBS
 
