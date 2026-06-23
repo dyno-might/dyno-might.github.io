@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vitamin D Trial Simulator</title>
+<style>
+  :root {
+    --bg: #f5f5f5;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #666;
+    --border: #ddd;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --danger: #dc2626;
+    --radius: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 24px;
+  }
+  .container { max-width: 960px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .card h2 { font-size: 1.1rem; margin-bottom: 16px; }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--muted);
+  }
+  input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    transition: border-color 0.15s;
+  }
+  input[type="number"]:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+  }
+
+  .level-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  .level-table th, .level-table td {
+    padding: 8px 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+  .level-table th {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: #fafafa;
+  }
+  .level-table td:first-child, .level-table th:first-child { text-align: left; }
+  .level-table input {
+    width: 80px;
+    text-align: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 28px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .btn:hover { background: var(--accent-hover); }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  .error {
+    color: var(--danger);
+    font-size: 0.85rem;
+    margin-top: 8px;
+    display: none;
+  }
+
+  .mono {
+    font-family: "SF Mono", "Fira Code", "Consolas", monospace;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    background: #fafafa;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    line-height: 1.7;
+  }
+  #summary {
+    max-height: none;
+    margin-bottom: 16px;
+  }
+  #raw-results {
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  #raw-results .trial { color: var(--text); }
+  #raw-results .significant { color: #059669; font-weight: 600; }
+  #raw-results .ns { color: var(--muted); }
+  #raw-results .error-line { color: var(--danger); }
+
+  #histogram {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #fff;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 12px;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .legend-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Vitamin D Trial Simulator</h1>
+  <p class="subtitle">Simulates randomized controlled trials and reports per-trial relative risk with 95% confidence intervals.</p>
+
+  <div class="card">
+    <h2>Trial Parameters</h2>
+    <div class="form-grid">
+      <div>
+        <label for="sampleSize">Sample Size</label>
+        <input type="number" id="sampleSize" value="26000" min="100" step="1">
+      </div>
+      <div>
+        <label for="trialLength">Trial Length (years)</label>
+        <input type="number" id="trialLength" value="5" min="0.5" step="0.5">
+      </div>
+      <div>
+        <label for="baselineMortality">Baseline Annual Mortality (%)</label>
+        <input type="number" id="baselineMortality" value="0.7" min="0.01" max="100" step="0.01">
+      </div>
+      <div>
+        <label for="numTrials">Number of Trials</label>
+        <input type="number" id="numTrials" value="10000" min="1000" max="100000" step="1000">
+      </div>
+    </div>
+
+    <h2 style="margin-top:20px;">Vitamin D Level Categories</h2>
+    <table class="level-table">
+      <thead>
+        <tr>
+          <th>Level (nmol/L)</th>
+          <th>&lt;30</th>
+          <th>30–49</th>
+          <th>50–125</th>
+          <th>&gt;125</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Population %</td>
+          <td><input type="number" id="pct0" value="5" min="0" max="100" step="0.1"></td>
+          <td><input type="number" id="pct1" value="15" min="0" max="100" step="0.1"></td>
+          <td><input type="number" id="pct2" value="72.5" min="0" max="100" step="0.1"></td>
+          <td><input type="number" id="pct3" value="7.5" min="0" max="100" step="0.1"></td>
+        </tr>
+        <tr>
+          <td>Relative Risk</td>
+          <td><input type="number" id="rr0" value="0.75" min="0.01" max="10" step="0.01"></td>
+          <td><input type="number" id="rr1" value="0.92" min="0.01" max="10" step="0.01"></td>
+          <td><input type="number" id="rr2" value="0.98" min="0.01" max="10" step="0.01"></td>
+          <td><input type="number" id="rr3" value="1" min="0.01" max="10" step="0.01"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="margin-top:20px;">
+      <button class="btn" id="runBtn">Run Simulation</button>
+      <span id="status" style="margin-left:12px;font-size:0.85rem;color:var(--muted);"></span>
+    </div>
+    <div class="error" id="error"></div>
+  </div>
+
+  <div class="card">
+    <h2>Summary</h2>
+    <div class="mono" id="summary">Click "Run Simulation" to begin.</div>
+  </div>
+
+  <div class="card">
+    <h2>Histogram of Estimated Relative Risks</h2>
+    <canvas id="histogram" width="900" height="350"></canvas>
+    <div class="legend" id="legend"></div>
+  </div>
+
+  <div class="card">
+    <h2>Raw Trial Results</h2>
+    <div class="mono" id="raw-results">—</div>
+  </div>
+</div>
+
+<script>
+(function() {
+  const sampleSizeEl     = document.getElementById('sampleSize');
+  const trialLengthEl    = document.getElementById('trialLength');
+  const baselineMortEl   = document.getElementById('baselineMortality');
+  const numTrialsEl      = document.getElementById('numTrials');
+  const pctEls = [0,1,2,3].map(i => document.getElementById('pct'+i));
+  const rrEls  = [0,1,2,3].map(i => document.getElementById('rr'+i));
+  const runBtn       = document.getElementById('runBtn');
+  const statusEl     = document.getElementById('status');
+  const errorEl      = document.getElementById('error');
+  const summaryEl    = document.getElementById('summary');
+  const histogramEl  = document.getElementById('histogram');
+  const legendEl     = document.getElementById('legend');
+  const rawResultsEl = document.getElementById('raw-results');
+
+  const MAX_RAW_DISPLAY = 200;
+
+  function parseFloatVal(el) { return parseFloat(el.value); }
+
+  function rbinom(n, p) {
+    if (p <= 0) return 0;
+    if (p >= 1) return n;
+    if (n * p > 100 && n * (1 - p) > 100) {
+      const mean = n * p;
+      const sd = Math.sqrt(n * p * (1 - p));
+      let u = 0, v = 0;
+      while (u === 0) u = Math.random();
+      while (v === 0) v = Math.random();
+      const z = Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
+      return Math.max(0, Math.round(mean + z * sd));
+    }
+    let count = 0;
+    for (let i = 0; i < n; i++) {
+      if (Math.random() < p) count++;
+    }
+    return count;
+  }
+
+  function runTrial(N, baselineMortAnnual, trialYears, pcts, rrs) {
+    const nVit  = Math.round(N / 2);
+    const nPlac = N - nVit;
+    const baselineMortCumulative = 1 - Math.pow(1 - baselineMortAnnual, trialYears);
+
+    let deathsVit = 0, deathsPlac = 0;
+
+    for (let i = 0; i < 4; i++) {
+      const nVitI  = Math.round(nVit  * pcts[i] / 100);
+      const nPlacI = Math.round(nPlac * pcts[i] / 100);
+      const pVit  = baselineMortCumulative * rrs[i];
+      const pPlac = baselineMortCumulative;
+      deathsVit  += rbinom(nVitI,  pVit);
+      deathsPlac += rbinom(nPlacI, pPlac);
+    }
+
+    if (deathsVit === 0 || deathsPlac === 0) return null;
+
+    const rateVit  = deathsVit  / nVit;
+    const ratePlac = deathsPlac / nPlac;
+    const rr = rateVit / ratePlac;
+
+    const seLogRR = Math.sqrt(
+      (1 / deathsVit)  - (1 / nVit) +
+      (1 / deathsPlac) - (1 / nPlac)
+    );
+
+    const z = 1.96;
+    const ciLow  = Math.exp(Math.log(rr) - z * seLogRR);
+    const ciHigh = Math.exp(Math.log(rr) + z * seLogRR);
+
+    return { rr, ciLow, ciHigh, deathsVit, deathsPlac, nVit, nPlac };
+  }
+
+  const CAT_COLORS = [
+    '#059669',
+    '#6ee7b7',
+    '#fca5a5',
+    '#dc2626',
+  ];
+  const CAT_LABELS = [
+    'Significant benefit (CI < 1)',
+    'Non-sig benefit (CI crosses 1, RR < 1)',
+    'Non-sig harm (CI crosses 1, RR > 1)',
+    'Significant harm (CI > 1)',
+  ];
+
+  function classifyTrial(rr, ciLow, ciHigh) {
+    if (ciHigh < 1) return 0;
+    if (ciLow > 1) return 3;
+    if (rr < 1) return 1;
+    return 2;
+  }
+
+  function drawHistogram(trialData, trueRR) {
+    const canvas = histogramEl;
+    const dpr = window.devicePixelRatio || 1;
+    const rect = canvas.getBoundingClientRect();
+    const W = rect.width * dpr;
+    const H = 350 * dpr;
+    canvas.width = W;
+    canvas.height = H;
+    const ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+
+    const w = rect.width;
+    const h = 350;
+    ctx.clearRect(0, 0, w, h);
+
+    if (trialData.length === 0) {
+      ctx.fillStyle = '#999';
+      ctx.font = '14px -apple-system, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('No valid trials to plot.', w / 2, h / 2);
+      legendEl.innerHTML = '';
+      return;
+    }
+
+    const n = trialData.length;
+    const rrValues = trialData.map(d => d.rr).sort((a, b) => a - b);
+
+    // Display range: always show 0.5–1.5, extended if data falls outside
+    const DISPLAY_LO = 0.5;
+    const DISPLAY_HI = 1.5;
+    const dataMin = rrValues[0];
+    const dataMax = rrValues[rrValues.length - 1];
+    const displayLo = Math.min(DISPLAY_LO, dataMin);
+    const displayHi = Math.max(DISPLAY_HI, dataMax);
+
+    // Bin range: span the actual data, with a tiny pad to avoid edge effects
+    const pad = (dataMax - dataMin) * 0.02 || 0.001;
+    const binLo = dataMin - pad;
+    const binHi = dataMax + pad;
+
+    // Freedman–Diaconis: bin width = 2 * IQR / n^(1/3)
+    const q1Idx = Math.floor(n * 0.25);
+    const q3Idx = Math.floor(n * 0.75);
+    const iqr = rrValues[q3Idx] - rrValues[q1Idx];
+    const fdWidth = (2 * iqr) / Math.cbrt(n);
+    // Fallback if IQR is zero (all values identical)
+    const binWidth = fdWidth > 0 ? fdWidth : (dataMax - dataMin) / 10 || 0.01;
+    const nBins = Math.min(50, Math.max(5, Math.ceil((binHi - binLo) / binWidth)));
+
+    const bins = Array.from({length: nBins}, () => [0, 0, 0, 0]);
+    const actualBinWidth = (binHi - binLo) / nBins;
+    for (const d of trialData) {
+      const idx = Math.min(nBins - 1, Math.floor((d.rr - binLo) / actualBinWidth));
+      bins[idx][d.category]++;
+    }
+
+    const binTotals = bins.map(b => b.reduce((a, c) => a + c, 0));
+    const maxTotal = Math.max(...binTotals);
+
+    const margins = { top: 30, right: 30, bottom: 50, left: 60 };
+    const plotW = w - margins.left - margins.right;
+    const plotH = h - margins.top - margins.bottom;
+
+    // Map display range to pixel space
+    const toX = (val) => margins.left + ((val - displayLo) / (displayHi - displayLo)) * plotW;
+
+    // Axes
+    ctx.strokeStyle = '#333';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(margins.left, margins.top);
+    ctx.lineTo(margins.left, margins.top + plotH);
+    ctx.lineTo(margins.left + plotW, margins.top + plotH);
+    ctx.stroke();
+
+    // Y-axis ticks
+    ctx.fillStyle = '#333';
+    ctx.font = '11px -apple-system, sans-serif';
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'middle';
+    const yTicks = 5;
+    for (let i = 0; i <= yTicks; i++) {
+      const y = margins.top + plotH - (i / yTicks) * plotH;
+      const val = Math.round((i / yTicks) * maxTotal);
+      ctx.fillText(val, margins.left - 8, y);
+      ctx.strokeStyle = '#e0e0e0';
+      ctx.beginPath();
+      ctx.moveTo(margins.left, y);
+      ctx.lineTo(margins.left + plotW, y);
+      ctx.stroke();
+    }
+
+    // X-axis ticks (on display range)
+    ctx.fillStyle = '#333';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    const xTicks = 10;
+    for (let i = 0; i <= xTicks; i++) {
+      const frac = i / xTicks;
+      const val = displayLo + frac * (displayHi - displayLo);
+      const x = toX(val);
+      ctx.fillText(val.toFixed(2), x, margins.top + plotH + 8);
+    }
+
+    // Stacked bars — each bin occupies its pixel span in display coordinates
+    for (let i = 0; i < nBins; i++) {
+      const binStart = binLo + i * actualBinWidth;
+      const binEnd = binStart + actualBinWidth;
+      const x0 = Math.max(margins.left, toX(binStart));
+      const x1 = Math.min(margins.left + plotW, toX(binEnd));
+      const barW = x1 - x0;
+      if (barW <= 0) continue;
+
+      let yOffset = margins.top + plotH;
+      for (let cat = 0; cat < 4; cat++) {
+        const count = bins[i][cat];
+        if (count === 0) continue;
+        const barH = (count / maxTotal) * plotH;
+        yOffset -= barH;
+        ctx.fillStyle = CAT_COLORS[cat];
+        ctx.fillRect(x0, yOffset, barW, barH);
+      }
+    }
+
+    // True RR line
+    const trueX = toX(trueRR);
+    if (trueX >= margins.left && trueX <= margins.left + plotW) {
+      ctx.strokeStyle = '#2563eb';
+      ctx.lineWidth = 2;
+      ctx.setLineDash([6, 3]);
+      ctx.beginPath();
+      ctx.moveTo(trueX, margins.top);
+      ctx.lineTo(trueX, margins.top + plotH);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      ctx.fillStyle = '#2563eb';
+      ctx.font = 'bold 11px -apple-system, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'bottom';
+      ctx.fillText('True RR = ' + trueRR.toFixed(4), trueX, margins.top - 4);
+    }
+
+    ctx.fillStyle = '#333';
+    ctx.font = '12px -apple-system, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'bottom';
+    ctx.fillText('Estimated Relative Risk', margins.left + plotW / 2, h - 4);
+
+    ctx.save();
+    ctx.translate(12, margins.top + plotH / 2);
+    ctx.rotate(-Math.PI / 2);
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.fillText('Number of Trials', 0, 0);
+    ctx.restore();
+
+    legendEl.innerHTML = CAT_LABELS.map((label, i) =>
+      '<div class="legend-item">' +
+      '<div class="legend-swatch" style="background:' + CAT_COLORS[i] + '"></div>' +
+      '<span>' + label + '</span>' +
+      '</div>'
+    ).join('');
+  }
+
+  runBtn.addEventListener('click', () => {
+    errorEl.style.display = 'none';
+    errorEl.textContent = '';
+
+    const N              = parseInt(sampleSizeEl.value, 10);
+    const trialYears     = parseFloatVal(trialLengthEl);
+    const baselineMortAnnual = parseFloatVal(baselineMortEl) / 100;
+    const numTrials      = parseInt(numTrialsEl.value, 10);
+    const pcts = pctEls.map(parseFloatVal);
+    const rrs  = rrEls.map(parseFloatVal);
+
+    const pctSum = pcts.reduce((a,b) => a+b, 0);
+    if (Math.abs(pctSum - 100) > 0.01) {
+      errorEl.textContent = 'Population percentages must sum to 100% (current sum: ' + pctSum.toFixed(1) + '%).';
+      errorEl.style.display = 'block';
+      return;
+    }
+    if (isNaN(N) || N < 2) {
+      errorEl.textContent = 'Sample size must be at least 2.';
+      errorEl.style.display = 'block';
+      return;
+    }
+    if (isNaN(numTrials) || numTrials < 1) {
+      errorEl.textContent = 'Number of trials must be at least 1.';
+      errorEl.style.display = 'block';
+      return;
+    }
+    if (isNaN(baselineMortAnnual) || baselineMortAnnual <= 0) {
+      errorEl.textContent = 'Baseline mortality must be positive.';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    const trueRR = pcts.reduce((sum, pct, i) => sum + pct * rrs[i], 0) / 100;
+    const baselineMortCumulative = 1 - Math.pow(1 - baselineMortAnnual, trialYears);
+
+    runBtn.disabled = true;
+    statusEl.textContent = 'Running ' + numTrials.toLocaleString() + ' trials…';
+
+    setTimeout(() => {
+      const rawLines = [];
+      const trialData = [];
+      let skipped = 0;
+
+      let countRRlt1 = 0;
+      let countRRgt1 = 0;
+      let countRRltTrue = 0;
+      let countRRgtTrue = 0;
+      let countCIbelow1 = 0;
+      let countCInonsigBenefit = 0;
+      let countCInonsigHarm = 0;
+      let countCIabove1 = 0;
+
+      const start = performance.now();
+
+      for (let t = 1; t <= numTrials; t++) {
+        const result = runTrial(N, baselineMortAnnual, trialYears, pcts, rrs);
+
+        if (result === null) {
+          skipped++;
+          if (rawLines.length < MAX_RAW_DISPLAY) {
+            rawLines.push(
+              '<span class="error-line">Trial ' + String(t).padStart(String(numTrials).length, ' ') + ':  SKIPPED — zero deaths in one or both arms</span>'
+            );
+          }
+          continue;
+        }
+
+        const { rr, ciLow, ciHigh, deathsVit, deathsPlac, nVit, nPlac } = result;
+        const category = classifyTrial(rr, ciLow, ciHigh);
+        trialData.push({ rr, category });
+
+        if (rr < 1) countRRlt1++;
+        if (rr > 1) countRRgt1++;
+        if (rr < trueRR) countRRltTrue++;
+        if (rr > trueRR) countRRgtTrue++;
+
+        if (category === 0) countCIbelow1++;
+        else if (category === 1) countCInonsigBenefit++;
+        else if (category === 2) countCInonsigHarm++;
+        else countCIabove1++;
+
+        if (rawLines.length < MAX_RAW_DISPLAY) {
+          const sig = (category === 0 || category === 3) ? 'significant' : 'ns';
+          rawLines.push(
+            '<span class="trial ' + sig + '">' +
+            'Trial ' + String(t).padStart(String(numTrials).length, ' ') + ':  ' +
+            'RR = ' + rr.toFixed(4) +
+            '  (95% CI: ' + ciLow.toFixed(4) + ' – ' + ciHigh.toFixed(4) + ')' +
+            '  [deaths: vitD=' + deathsVit + '/' + nVit + ', plac=' + deathsPlac + '/' + nPlac + ']' +
+            (sig === 'significant' ? '  ★' : '') +
+            '</span>'
+          );
+        }
+      }
+
+      const elapsed = ((performance.now() - start) / 1000).toFixed(2);
+      const validTrials = numTrials - skipped;
+      const pct = (n) => validTrials > 0 ? (n / validTrials * 100).toFixed(1) : '—';
+
+      const summaryLines = [
+        '(1) TRUE RR (weighted avg of inputs):  ' + trueRR.toFixed(4),
+        '',
+        '(2) RR < 1 (point estimate):           ' + countRRlt1 + '  (' + pct(countRRlt1) + '%)',
+        '(3) RR > 1 (point estimate):           ' + countRRgt1 + '  (' + pct(countRRgt1) + '%)',
+        '(4) RR < TRUE RR:                      ' + countRRltTrue + '  (' + pct(countRRltTrue) + '%)',
+        '(5) RR > TRUE RR:                      ' + countRRgtTrue + '  (' + pct(countRRgtTrue) + '%)',
+        '',
+        '(6) CI entirely below 1  (significant benefit):  ' + countCIbelow1 + '  (' + pct(countCIbelow1) + '%)',
+        '(7) CI crosses 1, RR<1   (non-sig benefit):      ' + countCInonsigBenefit + '  (' + pct(countCInonsigBenefit) + '%)',
+        '(8) CI crosses 1, RR>1   (non-sig harm):         ' + countCInonsigHarm + '  (' + pct(countCInonsigHarm) + '%)',
+        '(9) CI entirely above 1  (significant harm):     ' + countCIabove1 + '  (' + pct(countCIabove1) + '%)',
+        '',
+        'Completed in ' + elapsed + ' s.',
+      ];
+
+      summaryEl.innerHTML = summaryLines.join('\n');
+
+      const rawHeader = [
+        'Parameters:  N=' + N.toLocaleString() +
+        '  |  annual mortality=' + (baselineMortAnnual*100).toFixed(1) + '%' +
+        '  |  trial length=' + trialYears + ' yr' +
+        '  |  cumulative mortality (placebo)=' + (baselineMortCumulative*100).toFixed(2) + '%' +
+        '  |  trials=' + numTrials.toLocaleString(),
+        'RR by level:  <30=' + rrs[0] + '  30-49=' + rrs[1] + '  50-125=' + rrs[2] + '  >125=' + rrs[3],
+        'Pop %:        <30=' + pcts[0] + '%  30-49=' + pcts[1] + '%  50-125=' + pcts[2] + '%  >125=' + pcts[3] + '%',
+        (skipped > 0 ? '⚠ ' + skipped + ' trial(s) skipped (zero deaths in an arm).' : ''),
+        (numTrials > MAX_RAW_DISPLAY ? '⚠ Showing first ' + MAX_RAW_DISPLAY + ' of ' + numTrials.toLocaleString() + ' trials (summary & histogram use all).' : ''),
+        '══════════════════════════════════════════════════════════════════════════',
+        '  ★ = statistically significant (95% CI excludes 1)',
+        '══════════════════════════════════════════════════════════════════════════',
+        '',
+      ];
+
+      rawResultsEl.innerHTML = rawHeader.join('\n') + rawLines.join('\n');
+
+      drawHistogram(trialData, trueRR);
+
+      runBtn.disabled = false;
+      statusEl.textContent = 'Done.';
+    }, 50);
+  });
+})();
+</script>
+</body>
+</html>
+
