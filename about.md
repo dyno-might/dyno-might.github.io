@@ -69,7 +69,7 @@ Thoughts? Help with my ever-proliferating collection of typos?
           {% endcomment %}
           <input type="text" name="_honey" style="display:none"> 
           <input type="hidden" name="_next" value="https://dynomight.net/respond_success.html" /> 
-          <input type="hidden" name="_captcha" value="false"> 
+          {% comment %}<input type="hidden" name="_captcha" value="false"> {% endcomment %}
           <input type="hidden" name="_url" value="https://dynomight.net/">
           <button type="submit" class="headerfont" style="padding:10px;">SEND</button> 
         </form>
