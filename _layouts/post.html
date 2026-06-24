@@ -197,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   </section>
 
+  {% comment %}
   <style>
     .form-with-popup:focus-within .popup-on-focus {
       visibility: visible !important;
@@ -224,10 +225,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     </form>  
   </section>
+  {% endcomment %}
 
   <section>
-    <br>
-    <a href="https://cryptpad.fr/form/#/2/form/view/dOcEnIT853syGD9D9K94eE1+SA6xyabixeVwSQkxW1k/embed/">mistakes</a>
+    Subscribe using <a href="https://cryptpad.fr/form/#/2/form/view/2zj2ZI5uv9BYrDp3C6zGGRckUdkQ-OszrKcxz0V2Nco/embed/">this form</a> or <a href="https://dynomight.substack.com">substack</a> or <a href="https://dynomight.net/feed.xml">RSS</a>.
+  </section>
+
+  <section>
+    Correct mistakes with <a href="https://cryptpad.fr/form/#/2/form/view/dOcEnIT853syGD9D9K94eE1+SA6xyabixeVwSQkxW1k/embed/">this form</a>.
   </section>
 
   {% comment %}
@@ -248,6 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   </section>
   {% endcomment %}
 
+  {% comment %}
   <section>
       {% if page.comment %}
       <br>
@@ -267,7 +273,28 @@ document.addEventListener('DOMContentLoaded', function() {
     {% endif %}
   
   </section>
+  {% endcomment %}
+  
+  {% if page.comment %}
+  <section>
+      Comment at
+      {% for k in page.comment %}
+        <a href="{{k[1]}}">{{k[0]}}</a>
+        {%- if forloop.last -%}{{"."}}{%- else -%}{{" or "}}{%- endif -%}
+      {% endfor %}
+    </section>
+    {% endif %}
 
+    {% if page.replies %}
+    <section>
+      Replies at
+      {% for k in page.replies %}
+        <a href="{{k[1]}}">{{k[0]}}</a>
+        {%- if forloop.last -%}{{"."}}{%- else -%}{{" and "}}{%- endif -%}
+      {% endfor %}
+      {% endif %}
+  </section>
+  
 
 
   <!-- <section>
