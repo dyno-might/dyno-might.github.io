@@ -165,7 +165,7 @@ I see no reason to doubt his sincerity. He decided he wanted leaking to be espio
 
 The Obama administration spent a long time considering if Assange was guilty of computer hacking or conspiracy. The investigation was mostly secret, but some glimpses suggest it bordered on obsession—e.g. [in 2011](https://www.nytimes.com/2013/06/25/world/europe/wikileaks-back-in-news-never-left-us-radar.html), the FBI lied to Iceland about a fake imminent cyberattack so they could get information on Assange.
 
-Conspiracy charges seem to have been a close thing. Apparently, Manning asked Assange if he had any experience cracking hashes, and Assange pointed out that [rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) were useful. At another point, Manning said that he had nothing else to share and Assange replied, "curious eyes never run dry in my experience.” (I assume he wrote that because he feared that saying "No—go steal more classified documents and give them to me" might get him into trouble.)
+Conspiracy charges seem to have been a close thing. Apparently, Manning asked Assange if he had any experience cracking hashes, and Assange pointed out that [rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) were useful. At another point, Manning said there was nothing else to share and Assange replied, "curious eyes never run dry in my experience.” (I assume he wrote that because he feared that saying "No—go steal more classified documents and give them to me" might get him into trouble.)
 
 Does that count as conspiracy? If so, it would be kind of a weird technicality. They decided not to pursue it.
 
