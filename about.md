@@ -34,13 +34,8 @@ You can email me at <span style="font-family:monospace;">(name of this website)@
 If you'd like to follow me, you can do that via...
 {% include follow.html %}
 
-
 <br>
-AI usage: Unless clearly labeled as an [LLM output](/automated/), I write all the words myself, by pressing keys with my fingers. That said, I do often use AI for the following purposes:
-
-1. For research, e.g. "Who discovered vitamin D?".
-2. For editing ideas, e.g. "I wrote this paragraph, but it seems too long. What would you cut?" I almost never use the suggestions as given, but I like to look at them. If I make any changes as a result, I make them by hitting keys on the keyboard, never copy-pasting.
-3. For fact checking, e.g. "Here is a blogpost on vitamin D. Please check for accuracy." (The "mistakes" this turns up are not actually mistakes >50% of the time, but the hit rate is high enough that it's worth doing.)
+Like most people, I use AI "for research", but I impose fairly strict [limits](/ai/) to make sure I don't use AI "for writing".
 
 <br>
 In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
