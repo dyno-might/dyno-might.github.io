@@ -9,9 +9,9 @@ permalink: /hazard-ratios/
 #seo:
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
-#comment:
-#  substack: "https://dynomight.substack.com/p/hazard-ratios"
-#  lemmy: "https://lemmy.world/post/48678173"
+comment:
+ substack: "https://dynomight.substack.com/p/hazard-ratios"
+ lemmy: "https://lemmy.world/post/49111128"
 # head: ""
 
 ---
