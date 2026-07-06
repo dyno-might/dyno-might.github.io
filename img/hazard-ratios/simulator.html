@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HR → Life Expectancy</title>
+<style>
+  body { font-family: Montserrat, sans-serif; max-width: 1150px; margin: 20px auto; padding: 0 10px; background: #fff; color: #222; }
+  .plot-container { margin-bottom: 20px; }
+  .plot-title { font-size: 14px; font-weight: bold; margin-bottom: 2px; }
+  .plot-subtitle { font-size: 12px; color: #666; margin-bottom: 6px; }
+  canvas { display: block; border: 1px solid #ddd; }
+  #hrCanvas { cursor: crosshair; }
+  .btn-row { margin-top: 6px; margin-bottom: 4px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+  .btn-row button { font-family: Montserrat, sans-serif; font-size: 11px; padding: 4px 10px; cursor: pointer; border: 1px solid #aaa; background: #f5f5f5; border-radius: 3px; white-space: nowrap; }
+  .btn-row button:hover { background: #e8e8e8; }
+  .btn-row .sep { width: 12px; }
+  .btn-row .grp-label { font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.5px; margin: 0 2px; min-width: 60px; }
+  .export-row { margin-top: 4px; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+  .export-row button { font-family: Montserrat, sans-serif; font-size: 11px; padding: 4px 12px; cursor: pointer; border: 1px solid #888; background: #fff; border-radius: 3px; }
+  .export-row button:hover { background: #f0f0f0; }
+  .export-row .export-label { font-size: 11px; color: #888; }
+  .results { background: #f8f8f8; border: 1px solid #ddd; padding: 20px 24px; margin: 20px 0; font-size: 14px; line-height: 1.8; }
+  .results table { border-collapse: collapse; width: 100%; margin-top: 14px; }
+  .results th, .results td { border: 1px solid #ccc; padding: 8px 12px; text-align: center; font-size: 13px; }
+  .results th { background: #eee; }
+  .results td:nth-child(1) { text-align: left; font-size: 12px; }
+  .results .group-end td { border-bottom: 2px solid #bbb; }
+  .results .avg-row { font-size: 12px; color: #666; margin-top: 10px; }
+  .err-pct-good { color: #080; }
+  .err-pct-ok { color: #e80; }
+  .err-pct-bad { color: #c00; }
+  table.raw { border-collapse: collapse; width: 100%; font-size: 12px; margin-top: 20px; }
+  table.raw th, table.raw td { border: 1px solid #ccc; padding: 3px 6px; text-align: right; }
+  table.raw th { background: #eee; position: sticky; top: 0; }
+  table.raw td:first-child, table.raw th:first-child { text-align: center; }
+  table.raw .sum-row td { font-weight: bold; background: #f0f0f0; border-top: 2px solid #999; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
+
+  .res-slider-wrap { display: flex; align-items: center; gap: 8px; margin-left: 4px; }
+  .res-slider-wrap .res-label { font-size: 12px; color: #555; white-space: nowrap; }
+  .res-slider-outer { position: relative; width: 220px; height: 28px; cursor: pointer; }
+  .res-slider-track { position: absolute; top: 50%; left: 0; right: 0; height: 4px; background: #ddd; border-radius: 2px; transform: translateY(-50%); }
+  .res-slider-fill { position: absolute; top: 50%; left: 0; height: 4px; background: #c00; border-radius: 2px; transform: translateY(-50%); }
+  .res-slider-ticks { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+  .res-slider-tick { position: absolute; top: 50%; width: 2px; height: 8px; background: #bbb; transform: translate(-50%, -50%); }
+  .res-slider-labels { position: absolute; top: 100%; left: 0; right: 0; height: 16px; margin-top: 2px; }
+  .res-slider-lbl { position: absolute; font-size: 10px; color: #888; transform: translateX(-50%); text-align: center; cursor: pointer; user-select: none; }
+  .res-slider-lbl.active { color: #c00; font-weight: bold; }
+  .res-slider-thumb { position: absolute; top: 50%; width: 14px; height: 14px; background: #c00; border: 2px solid #fff; border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 1px 3px rgba(0,0,0,0.3); pointer-events: none; }
+  .res-slider-val { font-size: 12px; font-weight: bold; color: #c00; min-width: 36px; text-align: right; }
+</style>
+</head>
+<body>
+
+<h2>HR Curve → Life Expectancy Change</h2>
+<p style="color:#666; font-size:13px; margin-top:-8px;">SSA 2023 Male period life table, ages 0–99. Draw a hazard ratio curve to see how it translates to life expectancy.</p>
+
+<div class="plot-container">
+  <div class="plot-title">μ(t) — Baseline Hazard Rate</div>
+  <div class="plot-subtitle">The instantaneous risk of death at age t, conditional on surviving to that age.</div>
+  <canvas id="plotMu" width="1100" height="260"></canvas>
+  <div class="export-row">
+    <span class="export-label">Export:</span>
+    <button id="exportMuPngBtn">PNG</button>
+    <button id="exportMuSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="plot-container">
+  <div class="plot-title">S(t) — Survival Function</div>
+  <div class="plot-subtitle">The probability of surviving from birth to age t.</div>
+  <canvas id="plotS" width="1100" height="260"></canvas>
+  <div class="export-row">
+    <span class="export-label">Export:</span>
+    <button id="exportSPngBtn">PNG</button>
+    <button id="exportSSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="plot-container">
+  <div class="plot-title">P(t) = μ(t) · S(t) — Death Density</div>
+  <div class="plot-subtitle">The unconditional probability density of dying at age t. Peaks where hazard is high <i>and</i> enough people are still alive.</div>
+  <canvas id="plotP" width="1100" height="260"></canvas>
+  <div class="export-row">
+    <span class="export-label">Export:</span>
+    <button id="exportPPngBtn">PNG</button>
+    <button id="exportPSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="plot-container">
+  <div class="plot-title">L(t) — Conditional Life Expectancy</div>
+  <div class="plot-subtitle">Expected remaining years of life at age t.</div>
+  <canvas id="plotL" width="1100" height="260"></canvas>
+  <div class="export-row">
+    <span class="export-label">Export:</span>
+    <button id="exportLPngBtn">PNG</button>
+    <button id="exportLSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="plot-container">
+  <div class="plot-title">P(t) × L(t) — Sensitivity of Life Expectancy to Hazard Changes</div>
+  <div class="plot-subtitle">The product of death density and remaining life expectancy. This is the weight function in the ΔL integral.</div>
+  <canvas id="plotPL" width="1100" height="260"></canvas>
+  <div class="export-row">
+    <span class="export-label">Export:</span>
+    <button id="exportPLPngBtn">PNG</button>
+    <button id="exportPLSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="plot-container">
+  <div class="plot-title">HR(t) — Draw Your Hazard Ratio Curve</div>
+  <div class="plot-subtitle">Click and drag to draw. HR = 1 means no change. HR &lt; 1 reduces mortality, HR &gt; 1 increases it.</div>
+
+  <div class="btn-row">
+    <span class="grp-label">Flat</span>
+    <button id="resetBtn">Reset (HR = 1)</button>
+    <button id="flat09Btn">HR = 0.9</button>
+    <button id="flat12Btn">HR = 1.2</button>
+    <button id="flat05Btn">HR = 0.5</button>
+    <button id="flat15Btn">HR = 1.5</button>
+  </div>
+  <div class="btn-row">
+    <span class="grp-label">Age-targeted</span>
+    <button id="youngBtn">Young (0–49, HR = 0.75)</button>
+    <button id="midBtn">Middle (40–65, HR = 0.75)</button>
+    <button id="oldBtn">Old (50+, HR = 0.75)</button>
+    <button id="veryOldBtn">Very old (85–95, HR = 0.75)</button>
+  </div>
+  <div class="btn-row">
+    <span class="grp-label">Gradients</span>
+    <button id="linUpBtn">Linear up (0.75→1.0)</button>
+    <button id="linDownBtn">Linear down (1.0→0.75)</button>
+    <button id="uShapeBtn">U-shape (0.75–1.0)</button>
+    <button id="invUShapeBtn">Inverted U (0.75–1.0)</button>
+  </div>
+  <div class="btn-row">
+    <span class="grp-label">Sinusoids</span>
+    <button id="sin075_10Btn">Sin 0.75–1.0 (~5 periods)</button>
+    <button id="sin10_125Btn">Sin 1.0–1.25 (~5 periods)</button>
+    <button id="sin05_10Btn">Sin 0.5–1.0 (~5 periods)</button>
+    <button id="sin075_125Btn">Sin 0.75–1.25 (~5 periods)</button>
+  </div>
+  <div class="btn-row">
+    <span class="grp-label">Cox bias</span>
+    <button id="opposingBtn">Opposing (0.75/1.25)</button>
+    <button id="opposingStrongBtn">Opposing (0.5/1.5)</button>
+  </div>
+  <div class="btn-row">
+    <span class="grp-label">Random</span>
+    <button id="randWeakBtn">Randomize (weak, 0.75–1.0)</button>
+    <button id="randStrongBtn">Randomize (strong, 0.5–1.0)</button>
+    <span class="sep"></span>
+    <div class="res-slider-wrap">
+      <span class="res-label">Drawing resolution:</span>
+      <div class="res-slider-outer" id="resSlider">
+        <div class="res-slider-track"></div>
+        <div class="res-slider-fill" id="resFill"></div>
+        <div class="res-slider-ticks" id="resTicks"></div>
+        <div class="res-slider-labels" id="resLabels"></div>
+        <div class="res-slider-thumb" id="resThumb"></div>
+      </div>
+      <span class="res-slider-val" id="resVal">1yr</span>
+    </div>
+  </div>
+
+  <canvas id="hrCanvas" width="1100" height="300"></canvas>
+
+  <div class="export-row">
+    <span class="export-label">Export HR plot:</span>
+    <button id="exportPngBtn">PNG</button>
+    <button id="exportSvgBtn">SVG</button>
+  </div>
+</div>
+
+<div class="results" id="results">
+  <div>Baseline L(0) = <span id="L0disp">0.0000</span> years &nbsp;|&nbsp; Modified L'(0) = <span id="L0modDisp">0.0000</span> years</div>
+  <div style="font-size:12px; color:#666; margin-top:4px;">L̄ = Σ P(t)·L(t) = <span id="LbarDisp">0.00</span> years &nbsp;|&nbsp; Keyfitz entropy = L̄ / L(0) = <span id="keyfitzEntropy">0.0000</span></div>
+
+  <table>
+    <thead>
+      <tr><th>Method</th><th>ΔHR</th><th>ΔL (years)</th><th>Error</th></tr>
+    </thead>
+    <tbody>
+      <tr class="group-end">
+        <td><b>True ΔL</b> — ΔL = L'(0) − L(0), computed directly from life tables with HR(t) applied</td>
+        <td style="color:#999;">—</td>
+        <td id="cell1">—</td>
+        <td id="cell1err" style="color:#999;">—</td>
+      </tr>
+      <tr>
+        <td><b>Approximation (log):</b> avg(ΔHR) · L̄ &nbsp;where&nbsp; ΔHR(t) = ln(1/HR(t)), weighted by P(t)·L(t)</td>
+        <td id="cell2dhr">—</td>
+        <td id="cell2">—</td>
+        <td id="cell2err">—</td>
+      </tr>
+      <tr class="group-end">
+        <td><b>Approximation (linear):</b> avg(ΔHR) · L̄ &nbsp;where&nbsp; ΔHR(t) = 1−HR(t), weighted by P(t)·L(t)</td>
+        <td id="cell3dhr">—</td>
+        <td id="cell3">—</td>
+        <td id="cell3err">—</td>
+      </tr>
+      <tr>
+        <td><b>Cox fitted:</b> est(ΔHR) · L̄ &nbsp;where&nbsp; est(ΔHR) = ln(1/HR̂), HR̂ from Cox PH model</td>
+        <td id="cell4dhr">—</td>
+        <td id="cell4">—</td>
+        <td id="cell4err">—</td>
+      </tr>
+      <tr>
+        <td><b>Cox approx (log):</b> est(ΔHR) · L̄ &nbsp;where&nbsp; est(ΔHR) = Σ P(t)·ln(1/HR(t))</td>
+        <td id="cell5dhr">—</td>
+        <td id="cell5">—</td>
+        <td id="cell5err">—</td>
+      </tr>
+      <tr>
+        <td><b>Cox approx (linear):</b> est(ΔHR) · L̄ &nbsp;where&nbsp; est(ΔHR) = Σ P(t)·(1−HR(t))</td>
+        <td id="cell6dhr">—</td>
+        <td id="cell6">—</td>
+        <td id="cell6err">—</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="avg-row">
+    Cox HR̂ = <span id="coxHRdisp">1.0000</span>
+  </div>
+</div>
+
+<hr>
+
+<h3>Raw Life Table</h3>
+<table class="raw">
+  <thead>
+    <tr>
+      <th>t</th><th>μ(t)</th><th>S(t)</th><th>P(t)=μ(t)S(t)</th><th>L(t)</th><th>P(t)×L(t)</th>
+      <th>HR(t)</th><th>μ'(t)</th><th>S'(t)</th><th>L'(t)</th>
+    </tr>
+  </thead>
+  <tbody id="rawBody"></tbody>
+</table>
+
+<script>
+const MU = [
+  0.006015,0.000479,0.000320,0.000249,0.000194,0.000159,0.000137,0.000125,0.000120,0.000120,
+  0.000125,0.000140,0.000173,0.000233,0.000327,0.000463,0.000634,0.000819,0.000999,0.001138,
+  0.001235,0.001315,0.001378,0.001439,0.001509,0.001595,0.001685,0.001783,0.001876,0.001970,
+  0.002085,0.002202,0.002308,0.002407,0.002490,0.002577,0.002665,0.002764,0.002864,0.002987,
+  0.003115,0.003253,0.003419,0.003600,0.003777,0.003931,0.004073,0.004245,0.004477,0.004795,
+  0.005126,0.005496,0.005917,0.006404,0.006923,0.007491,0.008173,0.008938,0.009714,0.010494,
+  0.011337,0.012232,0.013196,0.014229,0.015316,0.016455,0.017574,0.018735,0.019981,0.021366,
+  0.022903,0.024615,0.026504,0.028648,0.031071,0.033802,0.037010,0.041158,0.045461,0.050346,
+  0.055633,0.061757,0.068358,0.075420,0.083364,0.092680,0.103459,0.115502,0.129018,0.143810,
+  0.159458,0.176551,0.195360,0.216286,0.238799,0.262268,0.286291,0.310944,0.332325,0.349036
+];
+
+const N = MU.length;
+const MAX_AGE = N;
+const HR_MIN = 0.5;
+const HR_MAX = 1.5;
+
+const FONT = '15px Montserrat, sans-serif';
+const C_HR = '#c00', C_MU = '#c00', C_S = '#06c', C_P = '#e80', C_L = '#2a0', C_PL = '#80e', C_REF = '#999';
+
+let hrCurve = new Float64Array(N).fill(1.0);
+let baseline = null;
+let modified = null;
+let isDrawing = false;
+let lastDrawAge = 0;
+let lastDrawHR = 1.0;
+let resolution = 1;
+
+function lifeTable(mu) {
+  const S = new Float64Array(N + 2);
+  S[0] = 1;
+  for (let t = 0; t < N; t++) S[t + 1] = S[t] * (1 - Math.min(1, mu[t]));
+  S[N + 1] = 0;
+  const Lx = new Float64Array(N + 1);
+  for (let t = 0; t < N; t++) Lx[t] = S[t] - 0.5 * S[t] * Math.min(1, mu[t]);
+  Lx[N] = S[N] * 0.5;
+  const T = new Float64Array(N + 1);
+  T[N] = Lx[N];
+  for (let t = N - 1; t >= 0; t--) T[t] = T[t + 1] + Lx[t];
+  const L = new Float64Array(N + 1);
+  for (let t = 0; t <= N; t++) L[t] = S[t] > 0 ? T[t] / S[t] : 0;
+  return { S, Lx, T, L };
+}
+
+baseline = lifeTable(MU);
+
+const P = new Float64Array(N);
+const PL = new Float64Array(N);
+let Lbar = 0;
+for (let t = 0; t < N; t++) {
+  P[t] = MU[t] * baseline.S[t];
+  PL[t] = P[t] * baseline.L[t];
+  Lbar += PL[t];
+}
+
+// ── Drawing helpers (use resolution) ──
+function blockForAge(age) {
+  const start = Math.floor(age / resolution) * resolution;
+  const end = Math.min(N, start + resolution);
+  return { start, end };
+}
+
+function setBlock(age, hr) {
+  const { start, end } = blockForAge(age);
+  const clamped = Math.max(HR_MIN, Math.min(HR_MAX, hr));
+  for (let i = start; i < end; i++) hrCurve[i] = clamped;
+}
+
+// ── Preset helpers (always per-year, ignore resolution) ──
+function fillRange(lo, hi, hr) {
+  for (let i = Math.max(0, lo); i < Math.min(N, hi); i++) hrCurve[i] = hr;
+}
+
+function applyPreset(fn) {
+  fn();
+  update();
+}
+
+// ── Cox PH model ──
+function computeCoxHR() {
+  const S0 = baseline.S;
+  const S1 = modified.S;
+
+  function score(beta) {
+    const eBeta = Math.exp(beta);
+    let observed = 0;
+    let expected = 0;
+    for (let t = 0; t < N; t++) {
+      const s0 = S0[t], s1 = S1[t];
+      const denom = s0 + s1 * eBeta;
+      if (denom <= 0) continue;
+      const pi = s1 * eBeta / denom;
+      const p1 = hrCurve[t] * MU[t] * s1;
+      const p0 = MU[t] * s0;
+      observed += p1;
+      expected += (p1 + p0) * pi;
+    }
+    return observed - expected;
+  }
+
+  let lo = Math.log(0.1), hi = Math.log(10.0);
+  const uLo = score(lo), uHi = score(hi);
+  if (uLo <= 0) return Math.exp(lo);
+  if (uHi >= 0) return Math.exp(hi);
+
+  for (let iter = 0; iter < 60; iter++) {
+    const mid = (lo + hi) / 2;
+    const uMid = score(mid);
+    if (Math.abs(uMid) < 1e-12) { lo = hi = mid; break; }
+    if (uMid > 0) { lo = mid; } else { hi = mid; }
+  }
+  return Math.exp((lo + hi) / 2);
+}
+
+function update() {
+  const muMod = new Float64Array(N);
+  for (let i = 0; i < N; i++) muMod[i] = Math.min(1, MU[i] * hrCurve[i]);
+  modified = lifeTable(muMod);
+
+  const L0 = baseline.L[0];
+  const L0mod = modified.L[0];
+  const trueDL = L0mod - L0;
+  const keyfitzEntropy = Lbar / L0;
+
+  // (2) Approximation (log): Σ ln(1/HR(t)) · P(t) · L(t)
+  let directLogSum = 0;
+  for (let i = 0; i < N; i++) {
+    directLogSum += Math.log(1 / hrCurve[i]) * PL[i];
+  }
+  const directLogDHR = directLogSum / Lbar;
+  const directLogDL = directLogSum;
+
+  // (3) Approximation (linear): Σ (1−HR(t)) · P(t) · L(t)
+  let directLinSum = 0;
+  for (let i = 0; i < N; i++) {
+    directLinSum += (1 - hrCurve[i]) * PL[i];
+  }
+  const directLinDHR = directLinSum / Lbar;
+  const directLinDL = directLinSum;
+
+  // (4) Cox fitted: ln(1/HR̂) · L̄
+  const coxHR = computeCoxHR();
+  const coxFittedDHR = Math.log(1 / coxHR);
+  const coxFittedDL = coxFittedDHR * Lbar;
+
+  // (5) Cox approx (log): [Σ P(t)·ln(1/HR(t))] · L̄
+  let coxApproxLogSum = 0;
+  for (let i = 0; i < N; i++) {
+    coxApproxLogSum += P[i] * Math.log(1 / hrCurve[i]);
+  }
+  const coxApproxLogDHR = coxApproxLogSum;
+  const coxApproxLogDL = coxApproxLogSum * Lbar;
+
+  // (6) Cox approx (linear): [Σ P(t)·(1−HR(t))] · L̄
+  let coxApproxLinSum = 0;
+  for (let i = 0; i < N; i++) {
+    coxApproxLinSum += P[i] * (1 - hrCurve[i]);
+  }
+  const coxApproxLinDHR = coxApproxLinSum;
+  const coxApproxLinDL = coxApproxLinSum * Lbar;
+
+  // ── Display ──
+  document.getElementById('L0disp').textContent = L0.toFixed(4);
+  document.getElementById('L0modDisp').textContent = L0mod.toFixed(4);
+  document.getElementById('keyfitzEntropy').textContent = keyfitzEntropy.toFixed(4);
+  document.getElementById('LbarDisp').textContent = Lbar.toFixed(2);
+  document.getElementById('coxHRdisp').textContent = coxHR.toFixed(4);
+
+  function fmtDL(val) {
+    return (val >= 0 ? '+' : '') + val.toFixed(4);
+  }
+
+  function fmtDHR(val) {
+    return (val >= 0 ? '+' : '') + val.toFixed(4);
+  }
+
+  function fmtErr(val, trueVal) {
+    const absErr = val - trueVal;
+    const pctErr = trueVal !== 0 ? (absErr / Math.abs(trueVal)) * 100 : (val !== 0 ? Infinity : 0);
+    const sign = absErr >= 0 ? '+' : '';
+
+    let pctCls;
+    if (!isFinite(pctErr)) {
+      pctCls = 'err-pct-bad';
+    } else if (Math.abs(pctErr) < 5) {
+      pctCls = 'err-pct-good';
+    } else if (Math.abs(pctErr) < 20) {
+      pctCls = 'err-pct-ok';
+    } else {
+      pctCls = 'err-pct-bad';
+    }
+
+    const absStr = `${sign}${absErr.toFixed(4)}`;
+    let pctStr;
+    if (!isFinite(pctErr)) {
+      pctStr = '∞%';
+    } else {
+      pctStr = `${sign}${pctErr.toFixed(1)}%`;
+    }
+
+    return `<span style="color:#222;">${absStr}</span> <span class="${pctCls}">(${pctStr})</span>`;
+  }
+
+  // Row 1: True ΔL
+  document.getElementById('cell1').textContent = fmtDL(trueDL);
+  document.getElementById('cell1err').innerHTML = '<span style="color:#999;">—</span>';
+
+  // Row 2: Approximation (log)
+  document.getElementById('cell2dhr').textContent = fmtDHR(directLogDHR);
+  document.getElementById('cell2').textContent = fmtDL(directLogDL);
+  document.getElementById('cell2err').innerHTML = fmtErr(directLogDL, trueDL);
+
+  // Row 3: Approximation (linear)
+  document.getElementById('cell3dhr').textContent = fmtDHR(directLinDHR);
+  document.getElementById('cell3').textContent = fmtDL(directLinDL);
+  document.getElementById('cell3err').innerHTML = fmtErr(directLinDL, trueDL);
+
+  // Row 4: Cox fitted
+  document.getElementById('cell4dhr').textContent = fmtDHR(coxFittedDHR);
+  document.getElementById('cell4').textContent = fmtDL(coxFittedDL);
+  document.getElementById('cell4err').innerHTML = fmtErr(coxFittedDL, trueDL);
+
+  // Row 5: Cox approx (log)
+  document.getElementById('cell5dhr').textContent = fmtDHR(coxApproxLogDHR);
+  document.getElementById('cell5').textContent = fmtDL(coxApproxLogDL);
+  document.getElementById('cell5err').innerHTML = fmtErr(coxApproxLogDL, trueDL);
+
+  // Row 6: Cox approx (linear)
+  document.getElementById('cell6dhr').textContent = fmtDHR(coxApproxLinDHR);
+  document.getElementById('cell6').textContent = fmtDL(coxApproxLinDL);
+  document.getElementById('cell6err').innerHTML = fmtErr(coxApproxLinDL, trueDL);
+
+  drawHRCanvas();
+  updateRawTable(muMod);
+}
+
+// ── Plotting ──
+function drawPlot(canvasId, drawFn) {
+  const canvas = document.getElementById(canvasId);
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const m = { top: 20, right: 50, bottom: 36, left: 64 };
+  const pw = W - m.left - m.right, ph = H - m.top - m.bottom;
+  ctx.clearRect(0, 0, W, H);
+  function xs(age) { return m.left + (age / MAX_AGE) * pw; }
+  function ys(val, yMin, yMax) { return m.top + ph - ((val - yMin) / (yMax - yMin)) * ph; }
+  drawFn(ctx, xs, ys, m, pw, ph, W, H);
+}
+
+function axesOnly(ctx, xs, ys, m, pw, ph, W, H, yMin, yMax, yStep, yFmt, xLabel) {
+  ctx.strokeStyle = '#333'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(m.left, m.top); ctx.lineTo(m.left, m.top + ph); ctx.lineTo(W - m.right, m.top + ph); ctx.stroke();
+  ctx.fillStyle = '#333'; ctx.font = FONT; ctx.textAlign = 'right';
+  for (let v = yMin; v <= yMax + 1e-9; v += yStep) {
+    ctx.fillText(yFmt(v), m.left - 8, ys(v, yMin, yMax) + 5);
+  }
+  ctx.textAlign = 'center'; ctx.fillText(xLabel || 'Age t', W / 2, H - 4);
+  for (let a = 0; a <= MAX_AGE; a += 20) ctx.fillText(a, xs(a), m.top + ph + 18);
+}
+
+// ── HR canvas margins (used by both draw and export) ──
+const HR_MARGINS = { top: 30, right: 30, bottom: 40, left: 70 };
+const HR_W = 1100, HR_H = 300;
+
+function hrXs(age) { return HR_MARGINS.left + (age / MAX_AGE) * (HR_W - HR_MARGINS.left - HR_MARGINS.right); }
+function hrYs(hr) { return HR_MARGINS.top + (HR_H - HR_MARGINS.top - HR_MARGINS.bottom) - ((hr - HR_MIN) / (HR_MAX - HR_MIN)) * (HR_H - HR_MARGINS.top - HR_MARGINS.bottom); }
+
+function drawHRCanvas() {
+  const canvas = document.getElementById('hrCanvas');
+  const ctx = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+  const m = HR_MARGINS;
+  const pw = W - m.left - m.right, ph = H - m.top - m.bottom;
+  ctx.clearRect(0, 0, W, H);
+
+  // Grid
+  ctx.strokeStyle = '#e8e8e8'; ctx.lineWidth = 0.5;
+  for (let hr = HR_MIN; hr <= HR_MAX + 1e-9; hr += 0.25) {
+    const y = hrYs(hr);
+    ctx.beginPath(); ctx.moveTo(m.left, y); ctx.lineTo(W - m.right, y); ctx.stroke();
+  }
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    const x = hrXs(a);
+    ctx.beginPath(); ctx.moveTo(x, m.top); ctx.lineTo(x, m.top + ph); ctx.stroke();
+  }
+  // Show resolution block boundaries
+  if (resolution > 1) {
+    ctx.strokeStyle = 'rgba(0,0,0,0.15)'; ctx.lineWidth = 1;
+    for (let a = resolution; a < MAX_AGE; a += resolution) {
+      const x = hrXs(a);
+      ctx.beginPath(); ctx.moveTo(x, m.top); ctx.lineTo(x, m.top + ph); ctx.stroke();
+    }
+  }
+  // HR = 1 reference line
+  ctx.strokeStyle = C_REF; ctx.lineWidth = 1; ctx.setLineDash([6, 4]);
+  ctx.beginPath(); ctx.moveTo(m.left, hrYs(1)); ctx.lineTo(W - m.right, hrYs(1)); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Axes
+  ctx.strokeStyle = '#333'; ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(m.left, m.top); ctx.lineTo(m.left, m.top + ph); ctx.lineTo(W - m.right, m.top + ph); ctx.stroke();
+  ctx.fillStyle = '#333'; ctx.font = FONT; ctx.textAlign = 'right';
+  for (let hr = HR_MIN; hr <= HR_MAX + 1e-9; hr += 0.25) {
+    ctx.fillText(hr.toFixed(2), m.left - 8, hrYs(hr) + 5);
+  }
+  ctx.save();
+  ctx.translate(14, m.top + ph / 2);
+  ctx.rotate(-Math.PI / 2);
+  ctx.textAlign = 'center';
+  ctx.fillText('HR', 0, 0);
+  ctx.restore();
+  ctx.textAlign = 'center'; ctx.fillText('Age', W / 2, H - 4);
+  for (let a = 0; a <= MAX_AGE; a += 20) ctx.fillText(a, hrXs(a), m.top + ph + 18);
+
+  // Draw HR curve as staircase
+  ctx.strokeStyle = C_HR; ctx.lineWidth = 2; ctx.lineCap = 'butt'; ctx.lineJoin = 'miter';
+  ctx.beginPath();
+  ctx.moveTo(hrXs(0), hrYs(hrCurve[0]));
+  for (let a = 0; a < N; a++) {
+    const xNext = hrXs(Math.min(N, a + 1));
+    const y = hrYs(hrCurve[a]);
+    ctx.lineTo(xNext, y);
+    if (a < N - 1) {
+      ctx.lineTo(xNext, hrYs(hrCurve[a + 1]));
+    }
+  }
+  ctx.stroke();
+
+  const allOne = hrCurve.every(v => Math.abs(v - 1) < 0.001);
+  if (allOne) {
+    ctx.fillStyle = '#bbb'; ctx.font = '14px Montserrat, sans-serif'; ctx.textAlign = 'center';
+    ctx.fillText('Click and drag here to draw', W / 2, m.top + ph / 2);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  GENERIC SVG EXPORT FOR STATIC PLOTS
+// ═══════════════════════════════════════════════════════════════
+
+const PLOT_W = 1100, PLOT_H = 260;
+const PLOT_M = { top: 20, right: 50, bottom: 36, left: 64 };
+const PLOT_PW = PLOT_W - PLOT_M.left - PLOT_M.right;
+const PLOT_PH = PLOT_H - PLOT_M.top - PLOT_M.bottom;
+
+function plotXs(age) { return PLOT_M.left + (age / MAX_AGE) * PLOT_PW; }
+function plotYs(val, yMin, yMax) { return PLOT_M.top + PLOT_PH - ((val - yMin) / (yMax - yMin)) * PLOT_PH; }
+
+function svgHeader() {
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" width="${PLOT_W}" height="${PLOT_H}" viewBox="0 0 ${PLOT_W} ${PLOT_H}">\n<rect width="${PLOT_W}" height="${PLOT_H}" fill="#fff"/>\n<style>
+    .axis { stroke: #333; fill: none; stroke-width: 1; }
+    .grid { stroke: #e8e8e8; fill: none; stroke-width: 0.5; }
+    .label { font-family: Montserrat, sans-serif; font-size: 15px; fill: #333; }
+    .curve { fill: none; stroke-width: 1.5; }
+  </style>\n`;
+}
+
+function svgFooter() { return '</svg>'; }
+
+function svgAxes(yMin, yMax, yStep, yFmt, xLabel) {
+  let s = '';
+  // Grid lines
+  for (let v = yMin; v <= yMax + 1e-9; v += yStep) {
+    const y = plotYs(v, yMin, yMax);
+    s += `<line class="grid" x1="${PLOT_M.left}" y1="${y}" x2="${PLOT_W - PLOT_M.right}" y2="${y}"/>\n`;
+  }
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    const x = plotXs(a);
+    s += `<line class="grid" x1="${x}" y1="${PLOT_M.top}" x2="${x}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  }
+  // Axes
+  s += `<line class="axis" x1="${PLOT_M.left}" y1="${PLOT_M.top}" x2="${PLOT_M.left}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  s += `<line class="axis" x1="${PLOT_M.left}" y1="${PLOT_M.top + PLOT_PH}" x2="${PLOT_W - PLOT_M.right}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  // Y labels
+  for (let v = yMin; v <= yMax + 1e-9; v += yStep) {
+    s += `<text class="label" text-anchor="end" x="${PLOT_M.left - 8}" y="${plotYs(v, yMin, yMax) + 5}">${yFmt(v)}</text>\n`;
+  }
+  // X label
+  s += `<text class="label" text-anchor="middle" x="${PLOT_W / 2}" y="${PLOT_H - 4}">${xLabel || 'Age t'}</text>\n`;
+  // X ticks
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    s += `<text class="label" text-anchor="middle" x="${plotXs(a)}" y="${PLOT_M.top + PLOT_PH + 18}">${a}</text>\n`;
+  }
+  return s;
+}
+
+function svgCurvePath(data, yMin, yMax) {
+  let d = '';
+  for (let t = 0; t < N; t++) {
+    const x = plotXs(t), y = plotYs(data[t], yMin, yMax);
+    d += (t === 0 ? 'M' : 'L') + ` ${x} ${y}`;
+  }
+  return d;
+}
+
+// ── Specific SVG generators for each plot ──
+
+function exportMuSVG() {
+  const muMin = 0.0001, muMax = 0.4;
+  function ysLog(v) { return PLOT_M.top + PLOT_PH - (Math.log(v / muMin) / Math.log(muMax / muMin)) * PLOT_PH; }
+  const logTicks = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.2, 0.35];
+
+  let svg = svgHeader();
+  // Grid
+  for (const v of logTicks) {
+    const y = ysLog(v);
+    svg += `<line class="grid" x1="${PLOT_M.left}" y1="${y}" x2="${PLOT_W - PLOT_M.right}" y2="${y}"/>\n`;
+  }
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    const x = plotXs(a);
+    svg += `<line class="grid" x1="${x}" y1="${PLOT_M.top}" x2="${x}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  }
+  // Axes
+  svg += `<line class="axis" x1="${PLOT_M.left}" y1="${PLOT_M.top}" x2="${PLOT_M.left}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  svg += `<line class="axis" x1="${PLOT_M.left}" y1="${PLOT_M.top + PLOT_PH}" x2="${PLOT_W - PLOT_M.right}" y2="${PLOT_M.top + PLOT_PH}"/>\n`;
+  // Y labels
+  for (const v of logTicks) {
+    svg += `<text class="label" text-anchor="end" x="${PLOT_M.left - 8}" y="${ysLog(v) + 5}">${v >= 0.01 ? v.toFixed(2) : v.toFixed(4)}</text>\n`;
+  }
+  // X label & ticks
+  svg += `<text class="label" text-anchor="middle" x="${PLOT_W / 2}" y="${PLOT_H - 4}">Age t</text>\n`;
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    svg += `<text class="label" text-anchor="middle" x="${plotXs(a)}" y="${PLOT_M.top + PLOT_PH + 18}">${a}</text>\n`;
+  }
+  // Curve
+  let d = '';
+  for (let t = 0; t < N; t++) {
+    const x = plotXs(t), y = ysLog(Math.max(muMin, MU[t]));
+    d += (t === 0 ? 'M' : 'L') + ` ${x} ${y}`;
+  }
+  svg += `<path class="curve" style="stroke:#c00;" d="${d}"/>\n`;
+  svg += svgFooter();
+  downloadSVG(svg, 'mu_plot.svg');
+}
+
+function exportSSVG() {
+  let svg = svgHeader();
+  svg += svgAxes(0, 1, 0.2, v => v.toFixed(1), 'Age t');
+  svg += `<path class="curve" style="stroke:#06c;" d="${svgCurvePath(baseline.S, 0, 1)}"/>\n`;
+  svg += svgFooter();
+  downloadSVG(svg, 'survival_plot.svg');
+}
+
+function exportPSVG() {
+  let maxP = 0;
+  for (let t = 0; t < N; t++) if (P[t] > maxP) maxP = P[t];
+  maxP = Math.ceil(maxP * 200) / 200;
+  let svg = svgHeader();
+  svg += svgAxes(0, maxP, maxP / 5, v => v.toFixed(3), 'Age t');
+  svg += `<path class="curve" style="stroke:#e80;" d="${svgCurvePath(P, 0, maxP)}"/>\n`;
+  svg += svgFooter();
+  downloadSVG(svg, 'death_density_plot.svg');
+}
+
+function exportLSVG() {
+  let svg = svgHeader();
+  svg += svgAxes(0, 80, 10, v => v.toString(), 'Age t');
+  svg += `<path class="curve" style="stroke:#2a0;" d="${svgCurvePath(baseline.L, 0, 80)}"/>\n`;
+  svg += svgFooter();
+  downloadSVG(svg, 'life_expectancy_plot.svg');
+}
+
+function exportPLSVG() {
+  let maxPL = 0;
+  for (let t = 0; t < N; t++) if (PL[t] > maxPL) maxPL = PL[t];
+  maxPL = Math.ceil(maxPL * 20) / 20;
+  let svg = svgHeader();
+  svg += svgAxes(0, maxPL, maxPL / 5, v => v.toFixed(2), 'Age t');
+  svg += `<path class="curve" style="stroke:#80e; stroke-width:2;" d="${svgCurvePath(PL, 0, maxPL)}"/>\n`;
+  svg += svgFooter();
+  downloadSVG(svg, 'sensitivity_plot.svg');
+}
+
+function downloadSVG(svgText, filename) {
+  const blob = new Blob([svgText], { type: 'image/svg+xml' });
+  const link = document.createElement('a');
+  link.download = filename;
+  link.href = URL.createObjectURL(blob);
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+function exportCanvasPNG(canvasId, filename) {
+  const canvas = document.getElementById(canvasId);
+  const link = document.createElement('a');
+  link.download = filename;
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+// ── Static plot export button wiring ──
+document.getElementById('exportMuPngBtn').addEventListener('click', () => exportCanvasPNG('plotMu', 'mu_plot.png'));
+document.getElementById('exportMuSvgBtn').addEventListener('click', exportMuSVG);
+document.getElementById('exportSPngBtn').addEventListener('click', () => exportCanvasPNG('plotS', 'survival_plot.png'));
+document.getElementById('exportSSvgBtn').addEventListener('click', exportSSVG);
+document.getElementById('exportPPngBtn').addEventListener('click', () => exportCanvasPNG('plotP', 'death_density_plot.png'));
+document.getElementById('exportPSvgBtn').addEventListener('click', exportPSVG);
+document.getElementById('exportLPngBtn').addEventListener('click', () => exportCanvasPNG('plotL', 'life_expectancy_plot.png'));
+document.getElementById('exportLSvgBtn').addEventListener('click', exportLSVG);
+document.getElementById('exportPLPngBtn').addEventListener('click', () => exportCanvasPNG('plotPL', 'sensitivity_plot.png'));
+document.getElementById('exportPLSvgBtn').addEventListener('click', exportPLSVG);
+
+// ── HR plot export ──
+function exportHRPNG() {
+  const canvas = document.getElementById('hrCanvas');
+  const link = document.createElement('a');
+  link.download = 'hr_curve.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
+function exportHRSVG() {
+  const m = HR_MARGINS;
+  const W = HR_W, H = HR_H;
+  const pw = W - m.left - m.right;
+  const ph = H - m.top - m.bottom;
+
+  function xs(age) { return m.left + (age / MAX_AGE) * pw; }
+  function ys(hr) { return m.top + ph - ((hr - HR_MIN) / (HR_MAX - HR_MIN)) * ph; }
+
+  let svg = '';
+  svg += `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  svg += `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">\n`;
+  svg += `<rect width="${W}" height="${H}" fill="#fff"/>\n`;
+
+  svg += `<style>
+    .axis { stroke: #333; fill: none; stroke-width: 1; }
+    .grid { stroke: #e8e8e8; fill: none; stroke-width: 0.5; }
+    .grid-res { stroke: rgba(0,0,0,0.15); fill: none; stroke-width: 1; }
+    .ref-line { stroke: #999; fill: none; stroke-width: 1; stroke-dasharray: 6,4; }
+    .hr-curve { stroke: #c00; fill: none; stroke-width: 2; stroke-linecap: butt; stroke-linejoin: miter; }
+    .label { font-family: Montserrat, sans-serif; font-size: 15px; fill: #333; }
+    .label-sm { font-family: Montserrat, sans-serif; font-size: 14px; fill: #bbb; }
+  </style>\n`;
+
+  for (let hr = HR_MIN; hr <= HR_MAX + 1e-9; hr += 0.25) {
+    const y = ys(hr);
+    svg += `<line class="grid" x1="${m.left}" y1="${y}" x2="${W - m.right}" y2="${y}"/>\n`;
+  }
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    const x = xs(a);
+    svg += `<line class="grid" x1="${x}" y1="${m.top}" x2="${x}" y2="${m.top + ph}"/>\n`;
+  }
+  if (resolution > 1) {
+    for (let a = resolution; a < MAX_AGE; a += resolution) {
+      const x = xs(a);
+      svg += `<line class="grid-res" x1="${x}" y1="${m.top}" x2="${x}" y2="${m.top + ph}"/>\n`;
+    }
+  }
+  svg += `<line class="ref-line" x1="${m.left}" y1="${ys(1)}" x2="${W - m.right}" y2="${ys(1)}"/>\n`;
+
+  svg += `<line class="axis" x1="${m.left}" y1="${m.top}" x2="${m.left}" y2="${m.top + ph}"/>\n`;
+  svg += `<line class="axis" x1="${m.left}" y1="${m.top + ph}" x2="${W - m.right}" y2="${m.top + ph}"/>\n`;
+
+  for (let hr = HR_MIN; hr <= HR_MAX + 1e-9; hr += 0.25) {
+    svg += `<text class="label" text-anchor="end" x="${m.left - 8}" y="${ys(hr) + 5}">${hr.toFixed(2)}</text>\n`;
+  }
+  svg += `<text class="label" text-anchor="middle" transform="translate(14,${m.top + ph / 2}) rotate(-90)">HR</text>\n`;
+  svg += `<text class="label" text-anchor="middle" x="${W / 2}" y="${H - 4}">Age</text>\n`;
+  for (let a = 0; a <= MAX_AGE; a += 20) {
+    svg += `<text class="label" text-anchor="middle" x="${xs(a)}" y="${m.top + ph + 18}">${a}</text>\n`;
+  }
+
+  let pathD = `M ${xs(0)} ${ys(hrCurve[0])}`;
+  for (let a = 0; a < N; a++) {
+    const xNext = xs(Math.min(N, a + 1));
+    const y = ys(hrCurve[a]);
+    pathD += ` L ${xNext} ${y}`;
+    if (a < N - 1) {
+      pathD += ` L ${xNext} ${ys(hrCurve[a + 1])}`;
+    }
+  }
+  svg += `<path class="hr-curve" d="${pathD}"/>\n`;
+
+  const allOne = hrCurve.every(v => Math.abs(v - 1) < 0.001);
+  if (allOne) {
+    svg += `<text class="label-sm" text-anchor="middle" x="${W / 2}" y="${m.top + ph / 2}">Click and drag here to draw</text>\n`;
+  }
+
+  svg += `</svg>`;
+
+  const blob = new Blob([svg], { type: 'image/svg+xml' });
+  const link = document.createElement('a');
+  link.download = 'hr_curve.svg';
+  link.href = URL.createObjectURL(blob);
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+document.getElementById('exportPngBtn').addEventListener('click', exportHRPNG);
+document.getElementById('exportSvgBtn').addEventListener('click', exportHRSVG);
+
+// ── Static plots ──
+(function() {
+  drawPlot('plotMu', (ctx, xs, ys, m, pw, ph, W, H) => {
+    const muMin = 0.0001, muMax = 0.4;
+    function ysLog(v) { return m.top + ph - (Math.log(v / muMin) / Math.log(muMax / muMin)) * ph; }
+    ctx.strokeStyle = '#e8e8e8'; ctx.lineWidth = 0.5;
+    const logTicks = [0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05, 0.1, 0.2, 0.35];
+    for (const v of logTicks) {
+      const y = ysLog(v);
+      ctx.beginPath(); ctx.moveTo(m.left, y); ctx.lineTo(W - m.right, y); ctx.stroke();
+    }
+    for (let a = 0; a <= MAX_AGE; a += 20) {
+      const x = xs(a);
+      ctx.beginPath(); ctx.moveTo(x, m.top); ctx.lineTo(x, m.top + ph); ctx.stroke();
+    }
+    ctx.strokeStyle = '#333'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(m.left, m.top); ctx.lineTo(m.left, m.top + ph); ctx.lineTo(W - m.right, m.top + ph); ctx.stroke();
+    ctx.fillStyle = '#333'; ctx.font = FONT; ctx.textAlign = 'right';
+    for (const v of logTicks) {
+      ctx.fillText(v >= 0.01 ? v.toFixed(2) : v.toFixed(4), m.left - 8, ysLog(v) + 5);
+    }
+    ctx.textAlign = 'center'; ctx.fillText('Age t', W / 2, H - 4);
+    for (let a = 0; a <= MAX_AGE; a += 20) ctx.fillText(a, xs(a), m.top + ph + 18);
+    ctx.strokeStyle = C_MU; ctx.lineWidth = 1.5; ctx.beginPath();
+    for (let t = 0; t < N; t++) {
+      const x = xs(t), y = ysLog(Math.max(muMin, MU[t]));
+      t === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+
+  drawPlot('plotS', (ctx, xs, ys, m, pw, ph, W, H) => {
+    axesOnly(ctx, xs, ys, m, pw, ph, W, H, 0, 1, 0.2, v => v.toFixed(1), 'Age t');
+    ctx.strokeStyle = C_S; ctx.lineWidth = 1.5; ctx.beginPath();
+    for (let t = 0; t < N; t++) {
+      const x = xs(t), y = ys(baseline.S[t], 0, 1);
+      t === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+
+  let maxP = 0;
+  for (let t = 0; t < N; t++) if (P[t] > maxP) maxP = P[t];
+  maxP = Math.ceil(maxP * 200) / 200;
+  drawPlot('plotP', (ctx, xs, ys, m, pw, ph, W, H) => {
+    axesOnly(ctx, xs, ys, m, pw, ph, W, H, 0, maxP, maxP / 5, v => v.toFixed(3), 'Age t');
+    ctx.strokeStyle = C_P; ctx.lineWidth = 1.5; ctx.beginPath();
+    for (let t = 0; t < N; t++) {
+      const x = xs(t), y = ys(P[t], 0, maxP);
+      t === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+
+  drawPlot('plotL', (ctx, xs, ys, m, pw, ph, W, H) => {
+    axesOnly(ctx, xs, ys, m, pw, ph, W, H, 0, 80, 10, v => v.toString(), 'Age t');
+    ctx.strokeStyle = C_L; ctx.lineWidth = 1.5; ctx.beginPath();
+    for (let t = 0; t < N; t++) {
+      const x = xs(t), y = ys(baseline.L[t], 0, 80);
+      t === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+
+  let maxPL = 0;
+  for (let t = 0; t < N; t++) if (PL[t] > maxPL) maxPL = PL[t];
+  maxPL = Math.ceil(maxPL * 20) / 20;
+  drawPlot('plotPL', (ctx, xs, ys, m, pw, ph, W, H) => {
+    axesOnly(ctx, xs, ys, m, pw, ph, W, H, 0, maxPL, maxPL / 5, v => v.toFixed(2), 'Age t');
+    ctx.strokeStyle = C_PL; ctx.lineWidth = 2; ctx.beginPath();
+    for (let t = 0; t < N; t++) {
+      const x = xs(t), y = ys(PL[t], 0, maxPL);
+      t === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.stroke();
+  });
+})();
+
+// ── Raw table ──
+function updateRawTable(muMod) {
+  const tbody = document.getElementById('rawBody');
+  let html = '';
+  for (let t = 0; t < N; t++) {
+    html += `<tr>
+      <td>${t}</td><td>${MU[t].toFixed(6)}</td><td>${baseline.S[t].toFixed(6)}</td>
+      <td>${P[t].toFixed(6)}</td><td>${baseline.L[t].toFixed(6)}</td><td>${PL[t].toFixed(6)}</td>
+      <td>${hrCurve[t].toFixed(4)}</td><td>${muMod[t].toFixed(6)}</td>
+      <td>${modified.S[t].toFixed(6)}</td><td>${modified.L[t].toFixed(6)}</td>
+    </tr>`;
+  }
+  html += `<tr class="sum-row"><td colspan="5">L̄ = Σ P(t)L(t)</td><td>${Lbar.toFixed(6)}</td><td colspan="4"></td></tr>`;
+  tbody.innerHTML = html;
+}
+
+// ── HR Canvas Interaction (uses resolution for block painting) ──
+const hrCanvas = document.getElementById('hrCanvas');
+
+function getHRFromEvent(e) {
+  const rect = hrCanvas.getBoundingClientRect();
+  const scaleX = hrCanvas.width / rect.width;
+  const scaleY = hrCanvas.height / rect.height;
+  const mx = (e.clientX - rect.left) * scaleX;
+  const my = (e.clientY - rect.top) * scaleY;
+  const m = HR_MARGINS;
+  const pw = hrCanvas.width - m.left - m.right;
+  const ph = hrCanvas.height - m.top - m.bottom;
+  let age = ((mx - m.left) / pw) * MAX_AGE;
+  let hr = HR_MAX - ((my - m.top) / ph) * (HR_MAX - HR_MIN);
+  age = Math.max(0, Math.min(MAX_AGE - 1, age));
+  hr = Math.max(HR_MIN, Math.min(HR_MAX, hr));
+  return { age, hr };
+}
+
+function applyStroke(fromAge, fromHR, toAge, toHR) {
+  const done = new Set();
+  const steps = Math.max(1, Math.abs(toAge - fromAge) * 2);
+  for (let i = 0; i <= steps; i++) {
+    const t = i / steps;
+    const age = Math.round(fromAge + t * (toAge - fromAge));
+    const hr = fromHR + t * (toHR - fromHR);
+    const { start } = blockForAge(Math.max(0, Math.min(N - 1, age)));
+    if (!done.has(start)) { done.add(start); setBlock(age, hr); }
+  }
+}
+
+hrCanvas.addEventListener('mousedown', (e) => {
+  isDrawing = true;
+  const { age, hr } = getHRFromEvent(e);
+  lastDrawAge = age; lastDrawHR = hr;
+  setBlock(age, hr); update();
+});
+hrCanvas.addEventListener('mousemove', (e) => {
+  if (!isDrawing) return;
+  const { age, hr } = getHRFromEvent(e);
+  applyStroke(lastDrawAge, lastDrawHR, age, hr);
+  lastDrawAge = age; lastDrawHR = hr;
+  update();
+});
+hrCanvas.addEventListener('mouseup', () => { isDrawing = false; });
+hrCanvas.addEventListener('mouseleave', () => { isDrawing = false; });
+hrCanvas.addEventListener('touchstart', (e) => {
+  e.preventDefault(); isDrawing = true;
+  const { age, hr } = getHRFromEvent(e.touches[0]);
+  lastDrawAge = age; lastDrawHR = hr;
+  setBlock(age, hr); update();
+}, { passive: false });
+hrCanvas.addEventListener('touchmove', (e) => {
+  e.preventDefault();
+  if (!isDrawing) return;
+  const { age, hr } = getHRFromEvent(e.touches[0]);
+  applyStroke(lastDrawAge, lastDrawHR, age, hr);
+  lastDrawAge = age; lastDrawHR = hr;
+  update();
+}, { passive: false });
+hrCanvas.addEventListener('touchend', () => { isDrawing = false; });
+
+// ── Resolution slider ──
+const RES_VALUES = [1, 2, 5, 10, 20, 50, 100];
+const resSlider = document.getElementById('resSlider');
+const resFill = document.getElementById('resFill');
+const resThumb = document.getElementById('resThumb');
+const resVal = document.getElementById('resVal');
+const resTicks = document.getElementById('resTicks');
+const resLabels = document.getElementById('resLabels');
+
+function buildSliderUI() {
+  let tickHTML = '', lblHTML = '';
+  for (let i = 0; i < RES_VALUES.length; i++) {
+    const pct = (i / (RES_VALUES.length - 1)) * 100;
+    tickHTML += `<div class="res-slider-tick" style="left:${pct}%;"></div>`;
+    lblHTML += `<div class="res-slider-lbl" style="left:${pct}%;" data-idx="${i}">${RES_VALUES[i]}yr</div>`;
+  }
+  resTicks.innerHTML = tickHTML;
+  resLabels.innerHTML = lblHTML;
+  resLabels.querySelectorAll('.res-slider-lbl').forEach(lbl => {
+    lbl.addEventListener('click', (e) => { e.stopPropagation(); setResolution(parseInt(lbl.dataset.idx)); });
+  });
+}
+
+function setResolution(idx) {
+  resolution = RES_VALUES[idx];
+  const pct = (idx / (RES_VALUES.length - 1)) * 100;
+  resFill.style.width = pct + '%';
+  resThumb.style.left = pct + '%';
+  resVal.textContent = resolution + 'yr';
+  resLabels.querySelectorAll('.res-slider-lbl').forEach((l, i) => l.classList.toggle('active', i === idx));
+  drawHRCanvas();
+}
+
+function getSliderIndex(clientX) {
+  const rect = resSlider.getBoundingClientRect();
+  const frac = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+  return Math.round(frac * (RES_VALUES.length - 1));
+}
+
+resSlider.addEventListener('mousedown', (e) => { setResolution(getSliderIndex(e.clientX)); });
+resSlider.addEventListener('mousemove', (e) => { if (e.buttons === 1) setResolution(getSliderIndex(e.clientX)); });
+resSlider.addEventListener('touchstart', (e) => { e.preventDefault(); setResolution(getSliderIndex(e.touches[0].clientX)); }, { passive: false });
+resSlider.addEventListener('touchmove', (e) => { e.preventDefault(); setResolution(getSliderIndex(e.touches[0].clientX)); }, { passive: false });
+
+buildSliderUI();
+setResolution(0);
+
+// ── Preset buttons ──
+
+// Flat
+document.getElementById('resetBtn').addEventListener('click', () => applyPreset(() => hrCurve.fill(1.0)));
+document.getElementById('flat09Btn').addEventListener('click', () => applyPreset(() => hrCurve.fill(0.9)));
+document.getElementById('flat12Btn').addEventListener('click', () => applyPreset(() => hrCurve.fill(1.2)));
+document.getElementById('flat05Btn').addEventListener('click', () => applyPreset(() => hrCurve.fill(0.5)));
+document.getElementById('flat15Btn').addEventListener('click', () => applyPreset(() => hrCurve.fill(1.5)));
+
+// Age-targeted (all HR = 0.75 in target zone, else 1.0)
+document.getElementById('youngBtn').addEventListener('click', () => applyPreset(() => {
+  hrCurve.fill(1.0); fillRange(0, 50, 0.75);
+}));
+document.getElementById('midBtn').addEventListener('click', () => applyPreset(() => {
+  hrCurve.fill(1.0); fillRange(40, 66, 0.75);
+}));
+document.getElementById('oldBtn').addEventListener('click', () => applyPreset(() => {
+  hrCurve.fill(1.0); fillRange(50, N, 0.75);
+}));
+document.getElementById('veryOldBtn').addEventListener('click', () => applyPreset(() => {
+  hrCurve.fill(1.0); fillRange(85, 96, 0.75);
+}));
+
+// Gradients — updated ranges
+document.getElementById('linUpBtn').addEventListener('click', () => applyPreset(() => {
+  for (let t = 0; t < N; t++) hrCurve[t] = 0.75 + (t / (N - 1)) * 0.25;   // 0.75 → 1.0
+}));
+document.getElementById('linDownBtn').addEventListener('click', () => applyPreset(() => {
+  for (let t = 0; t < N; t++) hrCurve[t] = 1.0 - (t / (N - 1)) * 0.25;    // 1.0 → 0.75
+}));
+document.getElementById('uShapeBtn').addEventListener('click', () => applyPreset(() => {
+  for (let t = 0; t < N; t++) {
+    const z = (t - 50) / 50;
+    hrCurve[t] = 0.75 + 0.25 * z * z;   // 0.75 to 1.0
+  }
+}));
+document.getElementById('invUShapeBtn').addEventListener('click', () => applyPreset(() => {
+  for (let t = 0; t < N; t++) {
+    const z = (t - 50) / 50;
+    hrCurve[t] = 1.0 - 0.25 * z * z;    // 1.0 to 0.75
+  }
+}));
+
+// Sinusoids — ~5 periods
+function sinusoidPreset(lo, hi, periods) {
+  applyPreset(() => {
+    for (let t = 0; t < N; t++) {
+      hrCurve[t] = (lo + hi) / 2 + (hi - lo) / 2 * Math.sin(2 * Math.PI * periods * t / N);
+    }
+  });
+}
+document.getElementById('sin075_10Btn').addEventListener('click', () => sinusoidPreset(0.75, 1.0, 5));
+document.getElementById('sin10_125Btn').addEventListener('click', () => sinusoidPreset(1.0, 1.25, 5));
+document.getElementById('sin05_10Btn').addEventListener('click', () => sinusoidPreset(0.5, 1.0, 5));
+document.getElementById('sin075_125Btn').addEventListener('click', () => sinusoidPreset(0.75, 1.25, 5));
+
+// Cox bias demonstrations
+document.getElementById('opposingBtn').addEventListener('click', () => applyPreset(() => {
+  fillRange(0, 50, 0.75);
+  fillRange(50, N, 1.25);
+}));
+document.getElementById('opposingStrongBtn').addEventListener('click', () => applyPreset(() => {
+  fillRange(0, 50, 0.5);
+  fillRange(50, N, 1.5);
+}));
+
+// Randomize — updated ranges
+function randomizePreset(lo, hi) {
+  applyPreset(() => {
+    for (let b = 0; b < N; b += resolution) {
+      const hr = lo + Math.random() * (hi - lo);
+      const end = Math.min(N, b + resolution);
+      for (let i = b; i < end; i++) hrCurve[i] = hr;
+    }
+  });
+}
+document.getElementById('randWeakBtn').addEventListener('click', () => randomizePreset(0.75, 1.0));
+document.getElementById('randStrongBtn').addEventListener('click', () => randomizePreset(0.5, 1.0));
+
+update();
+</script>
+</body>
+</html>
+

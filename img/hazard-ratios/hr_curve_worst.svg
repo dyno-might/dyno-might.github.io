@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300">
+<rect width="1100" height="300" fill="#fff"/>
+<style>
+    .axis { stroke: #333; fill: none; stroke-width: 1; }
+    .grid { stroke: #e8e8e8; fill: none; stroke-width: 0.5; }
+    .grid-res { stroke: rgba(0,0,0,0.15); fill: none; stroke-width: 1; }
+    .ref-line { stroke: #999; fill: none; stroke-width: 1; stroke-dasharray: 6,4; }
+    .hr-curve { stroke: #c00; fill: none; stroke-width: 2; stroke-linecap: butt; stroke-linejoin: miter; }
+    .label { font-family: Montserrat, sans-serif; font-size: 15px; fill: #333; }
+    .label-sm { font-family: Montserrat, sans-serif; font-size: 14px; fill: #bbb; }
+  </style>
+<line class="grid" x1="70" y1="260" x2="1070" y2="260"/>
+<line class="grid" x1="70" y1="202.5" x2="1070" y2="202.5"/>
+<line class="grid" x1="70" y1="145" x2="1070" y2="145"/>
+<line class="grid" x1="70" y1="87.5" x2="1070" y2="87.5"/>
+<line class="grid" x1="70" y1="30" x2="1070" y2="30"/>
+<line class="grid" x1="70" y1="30" x2="70" y2="260"/>
+<line class="grid" x1="270" y1="30" x2="270" y2="260"/>
+<line class="grid" x1="470" y1="30" x2="470" y2="260"/>
+<line class="grid" x1="670" y1="30" x2="670" y2="260"/>
+<line class="grid" x1="870" y1="30" x2="870" y2="260"/>
+<line class="grid" x1="1070" y1="30" x2="1070" y2="260"/>
+<line class="grid-res" x1="270" y1="30" x2="270" y2="260"/>
+<line class="grid-res" x1="470" y1="30" x2="470" y2="260"/>
+<line class="grid-res" x1="670" y1="30" x2="670" y2="260"/>
+<line class="grid-res" x1="870" y1="30" x2="870" y2="260"/>
+<line class="ref-line" x1="70" y1="145" x2="1070" y2="145"/>
+<line class="axis" x1="70" y1="30" x2="70" y2="260"/>
+<line class="axis" x1="70" y1="260" x2="1070" y2="260"/>
+<text class="label" text-anchor="end" x="62" y="265">0.50</text>
+<text class="label" text-anchor="end" x="62" y="207.5">0.75</text>
+<text class="label" text-anchor="end" x="62" y="150">1.00</text>
+<text class="label" text-anchor="end" x="62" y="92.5">1.25</text>
+<text class="label" text-anchor="end" x="62" y="35">1.50</text>
+<text class="label" text-anchor="middle" transform="translate(14,145) rotate(-90)">HR</text>
+<text class="label" text-anchor="middle" x="550" y="296">Age</text>
+<text class="label" text-anchor="middle" x="70" y="278">0</text>
+<text class="label" text-anchor="middle" x="270" y="278">20</text>
+<text class="label" text-anchor="middle" x="470" y="278">40</text>
+<text class="label" text-anchor="middle" x="670" y="278">60</text>
+<text class="label" text-anchor="middle" x="870" y="278">80</text>
+<text class="label" text-anchor="middle" x="1070" y="278">100</text>
+<path class="hr-curve" d="M 70 145 L 80 145 L 80 145 L 90 145 L 90 145 L 100 145 L 100 145 L 110 145 L 110 145 L 120 145 L 120 145 L 130 145 L 130 145 L 140 145 L 140 145 L 150 145 L 150 145 L 160 145 L 160 145 L 170 145 L 170 145 L 180 145 L 180 145 L 190 145 L 190 145 L 200 145 L 200 145 L 210 145 L 210 145 L 220 145 L 220 145 L 230 145 L 230 145 L 240 145 L 240 145 L 250 145 L 250 145 L 260 145 L 260 145 L 270 145 L 270 145 L 280 145 L 280 145 L 290 145 L 290 145 L 300 145 L 300 145 L 310 145 L 310 145 L 320 145 L 320 145 L 330 145 L 330 145 L 340 145 L 340 145 L 350 145 L 350 145 L 360 145 L 360 145 L 370 145 L 370 145 L 380 145 L 380 145 L 390 145 L 390 145 L 400 145 L 400 145 L 410 145 L 410 145 L 420 145 L 420 145 L 430 145 L 430 145 L 440 145 L 440 145 L 450 145 L 450 145 L 460 145 L 460 145 L 470 145 L 470 145 L 480 145 L 480 145 L 490 145 L 490 145 L 500 145 L 500 145 L 510 145 L 510 145 L 520 145 L 520 145 L 530 145 L 530 145 L 540 145 L 540 145 L 550 145 L 550 145 L 560 145 L 560 145 L 570 145 L 570 145 L 580 145 L 580 145 L 590 145 L 590 145 L 600 145 L 600 145 L 610 145 L 610 145 L 620 145 L 620 145 L 630 145 L 630 145 L 640 145 L 640 145 L 650 145 L 650 145 L 660 145 L 660 145 L 670 145 L 670 145 L 680 145 L 680 145 L 690 145 L 690 145 L 700 145 L 700 145 L 710 145 L 710 145 L 720 145 L 720 145 L 730 145 L 730 145 L 740 145 L 740 145 L 750 145 L 750 145 L 760 145 L 760 145 L 770 145 L 770 145 L 780 145 L 780 145 L 790 145 L 790 145 L 800 145 L 800 145 L 810 145 L 810 145 L 820 145 L 820 145 L 830 145 L 830 145 L 840 145 L 840 145 L 850 145 L 850 145 L 860 145 L 860 145 L 870 145 L 870 145 L 880 145 L 880 145 L 890 145 L 890 145 L 900 145 L 900 145 L 910 145 L 910 145 L 920 145 L 920 202.5 L 930 202.5 L 930 202.5 L 940 202.5 L 940 202.5 L 950 202.5 L 950 202.5 L 960 202.5 L 960 202.5 L 970 202.5 L 970 202.5 L 980 202.5 L 980 202.5 L 990 202.5 L 990 202.5 L 1000 202.5 L 1000 202.5 L 1010 202.5 L 1010 202.5 L 1020 202.5 L 1020 202.5 L 1030 202.5 L 1030 145 L 1040 145 L 1040 145 L 1050 145 L 1050 145 L 1060 145 L 1060 145 L 1070 145"/>
+</svg>

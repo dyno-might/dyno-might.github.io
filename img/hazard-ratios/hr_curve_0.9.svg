@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300">
+<rect width="1100" height="300" fill="#fff"/>
+<style>
+    .axis { stroke: #333; fill: none; stroke-width: 1; }
+    .grid { stroke: #e8e8e8; fill: none; stroke-width: 0.5; }
+    .grid-res { stroke: rgba(0,0,0,0.15); fill: none; stroke-width: 1; }
+    .ref-line { stroke: #999; fill: none; stroke-width: 1; stroke-dasharray: 6,4; }
+    .hr-curve { stroke: #c00; fill: none; stroke-width: 2; stroke-linecap: butt; stroke-linejoin: miter; }
+    .label { font-family: Montserrat, sans-serif; font-size: 15px; fill: #333; }
+    .label-sm { font-family: Montserrat, sans-serif; font-size: 14px; fill: #bbb; }
+  </style>
+<line class="grid" x1="70" y1="260" x2="1070" y2="260"/>
+<line class="grid" x1="70" y1="202.5" x2="1070" y2="202.5"/>
+<line class="grid" x1="70" y1="145" x2="1070" y2="145"/>
+<line class="grid" x1="70" y1="87.5" x2="1070" y2="87.5"/>
+<line class="grid" x1="70" y1="30" x2="1070" y2="30"/>
+<line class="grid" x1="70" y1="30" x2="70" y2="260"/>
+<line class="grid" x1="270" y1="30" x2="270" y2="260"/>
+<line class="grid" x1="470" y1="30" x2="470" y2="260"/>
+<line class="grid" x1="670" y1="30" x2="670" y2="260"/>
+<line class="grid" x1="870" y1="30" x2="870" y2="260"/>
+<line class="grid" x1="1070" y1="30" x2="1070" y2="260"/>
+<line class="ref-line" x1="70" y1="145" x2="1070" y2="145"/>
+<line class="axis" x1="70" y1="30" x2="70" y2="260"/>
+<line class="axis" x1="70" y1="260" x2="1070" y2="260"/>
+<text class="label" text-anchor="end" x="62" y="265">0.50</text>
+<text class="label" text-anchor="end" x="62" y="207.5">0.75</text>
+<text class="label" text-anchor="end" x="62" y="150">1.00</text>
+<text class="label" text-anchor="end" x="62" y="92.5">1.25</text>
+<text class="label" text-anchor="end" x="62" y="35">1.50</text>
+<text class="label" text-anchor="middle" transform="translate(14,145) rotate(-90)">HR</text>
+<text class="label" text-anchor="middle" x="550" y="296">Age</text>
+<text class="label" text-anchor="middle" x="70" y="278">0</text>
+<text class="label" text-anchor="middle" x="270" y="278">20</text>
+<text class="label" text-anchor="middle" x="470" y="278">40</text>
+<text class="label" text-anchor="middle" x="670" y="278">60</text>
+<text class="label" text-anchor="middle" x="870" y="278">80</text>
+<text class="label" text-anchor="middle" x="1070" y="278">100</text>
+<path class="hr-curve" d="M 70 168 L 80 168 L 80 168 L 90 168 L 90 168 L 100 168 L 100 168 L 110 168 L 110 168 L 120 168 L 120 168 L 130 168 L 130 168 L 140 168 L 140 168 L 150 168 L 150 168 L 160 168 L 160 168 L 170 168 L 170 168 L 180 168 L 180 168 L 190 168 L 190 168 L 200 168 L 200 168 L 210 168 L 210 168 L 220 168 L 220 168 L 230 168 L 230 168 L 240 168 L 240 168 L 250 168 L 250 168 L 260 168 L 260 168 L 270 168 L 270 168 L 280 168 L 280 168 L 290 168 L 290 168 L 300 168 L 300 168 L 310 168 L 310 168 L 320 168 L 320 168 L 330 168 L 330 168 L 340 168 L 340 168 L 350 168 L 350 168 L 360 168 L 360 168 L 370 168 L 370 168 L 380 168 L 380 168 L 390 168 L 390 168 L 400 168 L 400 168 L 410 168 L 410 168 L 420 168 L 420 168 L 430 168 L 430 168 L 440 168 L 440 168 L 450 168 L 450 168 L 460 168 L 460 168 L 470 168 L 470 168 L 480 168 L 480 168 L 490 168 L 490 168 L 500 168 L 500 168 L 510 168 L 510 168 L 520 168 L 520 168 L 530 168 L 530 168 L 540 168 L 540 168 L 550 168 L 550 168 L 560 168 L 560 168 L 570 168 L 570 168 L 580 168 L 580 168 L 590 168 L 590 168 L 600 168 L 600 168 L 610 168 L 610 168 L 620 168 L 620 168 L 630 168 L 630 168 L 640 168 L 640 168 L 650 168 L 650 168 L 660 168 L 660 168 L 670 168 L 670 168 L 680 168 L 680 168 L 690 168 L 690 168 L 700 168 L 700 168 L 710 168 L 710 168 L 720 168 L 720 168 L 730 168 L 730 168 L 740 168 L 740 168 L 750 168 L 750 168 L 760 168 L 760 168 L 770 168 L 770 168 L 780 168 L 780 168 L 790 168 L 790 168 L 800 168 L 800 168 L 810 168 L 810 168 L 820 168 L 820 168 L 830 168 L 830 168 L 840 168 L 840 168 L 850 168 L 850 168 L 860 168 L 860 168 L 870 168 L 870 168 L 880 168 L 880 168 L 890 168 L 890 168 L 900 168 L 900 168 L 910 168 L 910 168 L 920 168 L 920 168 L 930 168 L 930 168 L 940 168 L 940 168 L 950 168 L 950 168 L 960 168 L 960 168 L 970 168 L 970 168 L 980 168 L 980 168 L 990 168 L 990 168 L 1000 168 L 1000 168 L 1010 168 L 1010 168 L 1020 168 L 1020 168 L 1030 168 L 1030 168 L 1040 168 L 1040 168 L 1050 168 L 1050 168 L 1060 168 L 1060 168 L 1070 168"/>
+</svg>
