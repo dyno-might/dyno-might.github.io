@@ -3,7 +3,7 @@ layout: post
 title: "Life with hazard ratios"
 image: /img/hazard-ratios/shooting-the-rapids.jpg
 tags: [science, health, math]
-description: "Or human-ish"
+description: "How to discount your expectations"
 excerpt: ""
 permalink: /hazard-ratios/
 #seo:
@@ -20,19 +20,13 @@ If you read anything about health or longevity, you'll soon find yourself in a w
 
 But how much should you care about that? Is HR = 0.90 or HR = 1.30 a lot? What if you don't *want* to eat more fiber? What if you *like* smoking?
 
-Instead of staring at a ratio[^1], a more sensible thing to do is think about life expectancy.[^2] But is it possible to convert a hazard ratio to a change in life expectancy?
+Instead of staring at a ratio[^1], a more sensible thing to do is think about life expectancy.[^2] But is it possible to convert a hazard ratio to a change in life expectancy? You might reason as follows: Baseline life expectancy is around 75 years. And HR = 0.90 corresponds to a 10% decrease in mortality. So perhaps that hazard ratio corresponds to something like 7.5 extra years of life expectancy?
 
-You might reason as follows: Baseline life expectancy is around 75 years. And HR = 0.90 corresponds to a 10% decrease in mortality. So perhaps that hazard ratio corresponds to something like 7.5 extra years of life expectancy?
-
-Unfortunately, that's completely wrong.
-
-To see why, imagine that humans only die by playing Russian roulette. They start playing this once per day at the age of 75, with a revolver containing two bullets and six chambers. If you were to remove one of those two bullets, that would drop the person's risk of death by HR = 0.5. (One bullet versus two.) But life expectancy would barely change, because even with just one bullet, almost nobody would survive for any significant amount of time past 75.
+Unfortunately, that's completely wrong. To see why, imagine that humans only die by playing Russian roulette. They start playing this once per day at the age of 75, with a revolver containing two bullets and six chambers. If you were to remove one of those two bullets, that would drop the person's risk of death by HR = 0.5. (One bullet versus two.) But life expectancy would barely change, because even with just one bullet, almost nobody would survive for any significant amount of time past 75.
 
 For contrast, imagine again that humans only die via Russian roulette, but now they do this once per day from birth with a revolver with 2 bullets and 54,786 chambers. (Newborns emerge and instinctively reach for this gigantic gun.) You can show that these people also live 75 years on average. But now, if you remove one of the bullets, life expectancy doubles, because when someone is spared, it takes a long time before they get unlucky again.[^3]
 
-Neither of those is a good model for humans. We're somewhere between the two, with heart disease and so on instead of revolvers and risks slowly rising as we age instead of suddenly starting at age 75 or staying constant throughout life.
-
-But you get the point: If you want to convert a hazard ratio for some intervention to a change in life expectancy, the impact depends on how "spread out" baseline mortality risk is over time. Baseline life expectancy is simply not enough information.
+Neither of those is a good model for humans. We're somewhere between the two, with heart disease and so on instead of revolvers and risks slowly rising as we age instead of suddenly starting at age 75 or staying constant throughout life. But you get the point: If you want to convert a hazard ratio for some intervention to a change in life expectancy, the impact depends on how "spread out" baseline mortality risk is over time. Baseline life expectancy is simply not enough information.
 
 That's one problem. Here's another: What even is a hazard ratio? The technical definition is something like:
 
@@ -150,7 +144,7 @@ Well, how do people actually estimate those scalar hazard ratio numbers in paper
 
 &nbsp;&nbsp;*est(HR) ≈ Πₜ HR(t)ᵖ⁽ᵗ⁾.*
 
-That is, the estimated hazard ratio is the geometric average of age-dependent hazard ratios, weighted by the probability of dying at each age. It follows[^12] that the estimated *change* in hazard is approximately
+(Pardon the hideous typsetting.) That is, the estimated hazard ratio is the geometric average of age-dependent hazard ratios, weighted by the probability of dying at each age. It follows[^12] that the estimated *change* in hazard is approximately
 
 &nbsp;&nbsp;*est(ΔHR) ≈ ∑ₜ P(t) ΔHR(t)*.
 
@@ -216,7 +210,7 @@ Then the approximations are even better:
 
 What causes trouble is if the hazard ratio varies systematically between the young and the old. For example, suppose the intervention is useless for newborns, but gradually becomes more helpful as you get older:
 
-![](/img/hazard-ratios/hr_curve_random.svg)
+![](/img/hazard-ratios/hr_curve_down.svg)
 
 My "ideal approximation" would still be pretty accurate, if you could compute it. (Which you can't, in the real world.) But using a number from a paper leads to an overestimate:
 
