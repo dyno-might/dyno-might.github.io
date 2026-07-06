@@ -396,7 +396,7 @@ table tr{
   font-size: 90%;
   //line-height: 1.4;
   //color: #333;
-  background: #fff;
+  background: white;
   border: 1px solid #ccc;
   //border-radius: 4px;
   //box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -655,6 +655,12 @@ code {
     color:$dark-text-color;
     background-color: $dark-bg-color;
   }
+
+
+  .footnote-preview {
+    background: $dark-bg-color;
+  }
+
 
   a, .button, .article-tags, #tag-filter, .clear-filter-btn, .textinput{
     color: $dark-accent-color;
