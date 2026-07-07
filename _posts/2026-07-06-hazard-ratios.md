@@ -52,7 +52,7 @@ So, I will argue, even if the true intervention has a varying effect, it's sorta
 
 If a paper showed that eating more fiber produces a hazard ratio of HR = 0.75, that corresponds to an increase of around 3.7 years. If a paper says that occasional smoking produces a hazard ratio of HR = 1.25, that corresponds to a decrease of around 2.9 years.
 
-This isn't exact. If the intervention is better (or less bad) for older people this will tends to overestimate the increase (or underestimate the decrease) in life expectancy. If the intervention is worse (or less good) for older people, it will tend to underestimate the increase (or overestimate the decrease) in life expectancy. But as long as the hazard ratio doesn't vary *too* much by age, it's probably not off my more than around 30% in either direction.
+This isn't exact. If the intervention is better (or less bad) for older people this will tends to overestimate the increase (or underestimate the decrease) in life expectancy. If the intervention is worse (or less good) for older people, it will tend to underestimate the increase (or overestimate the decrease) in life expectancy. But as long as the hazard ratio doesn't vary *too* much by age, it's probably not off by more than around 30% in either direction.
 
 ## The easy case
 
