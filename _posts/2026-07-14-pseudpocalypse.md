@@ -3,15 +3,15 @@ layout: post
 title: "Pseudpocalypse"
 image: /img/pseudpocalypse/the_beach_at_villerville.jpg
 tags: [math, writing, effort]
-description: "How to discount your expectations"
+description: "Here’s a conjecture: If you put any significant amount of text on the internet under different names, those identities can be linked using only the text itself."
 excerpt: ""
 permalink: /pseudpocalypse/
 #seo:
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
-#comment:
-# substack: "https://dynomight.substack.com/p/pseudpocalypse"
-# lemmy: "https://lemmy.world/post/49111128"
+comment:
+substack: "https://dynomight.substack.com/p/pseudpocalypse"
+lemmy: "https://lemmy.world/post/49440260"
 # head: ""
 
 ---
