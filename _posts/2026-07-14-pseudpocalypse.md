@@ -149,7 +149,7 @@ What features does personality have? The [HEXACO model](https://en.wikipedia.org
 
 If you think about specific people, I think you can convince yourself that these 24 represent real things, and that it's plausible to guess them from text. (Your favorite existential angst + science blogger, for example, might score lower on "modesty" than the other honesty-humility facets.) The different sub-factors are surely correlated, but not perfectly correlated.
 
-Of course, the biggest thing you learn from people's writing is *how they write*. Do they pointlessly split infinitives? Do they use hyphen-connected words? Do they, incorrectly, position their adverbial clauses?
+Of course, the biggest thing you learn from people's writing is *how they write*. Do they tend to pointlessly split infinitives? Do they use hyphen-connected words? Do they, incorrectly, position their adverbial clauses?
 
 The idea of attributing authorship using writing style features goes back to at least 1440, when Lorenzo Valla demonstrated that the [Donation of Constantine](https://en.wikipedia.org/wiki/Donation_of_Constantine)—in which Emperor Constantine supposedly donated the Roman Empire to the Catholic Church—used a vernacular that came from 400 years after Constantine's death and was therefore a forgery. In 1851, Augustus De Morgan observed that average word length tends to be stable for the same author. The first "modern" attempt seemingly came in 1964, when Mosteller and Wallace published [*Inference in an Authorship Problem*](https://doi.org/10.2307/2283270):
 
@@ -651,7 +651,7 @@ Some writers might leak more information (higher **D(s)**) and some writers migh
 
 	Age: It's hard for me to imagine you could guess age from text with accuracy higher than 5 years. If you assume an age between 0 and 100, that would be 20 categories and log2(20)=4.32 bits. These are [mildly non-uniform](https://en.wikipedia.org/wiki/Demographics_of_the_United_States) so I'll reduce to 3.9. 
 
-	Education: I'm assuming 6 categories: less than high school, high school, some college, finished college, master's degree, doctorate. That would be log2(6)=2.58 bits, but fairly uneven, so I'll reduce by 20% to 
+	Education: I'm assuming 6 categories: less than high school, high school, some college, finished college, master's degree, doctorate. That would be log2(6)=2.58 bits, but fairly uneven, so I'll reduce by 20% to reflect that.
 
 	Ethnicity: Assuming 62% white, 11% black, 16% latino, 6% asian, 1.5% indigenous, 3.5% mixed/other, and actually using the entropy formula.
 
