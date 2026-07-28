@@ -9,9 +9,9 @@ permalink: /betteridge/
 #seo:
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
-#comment:
-#  substack: "https://dynomight.substack.com/p/betteridge"
-#  lemmy: "https://lemmy.world/post/50007493"
+comment:
+ substack: "https://dynomight.substack.com/p/betteridge"
+ lemmy: "https://lemmy.world/post/50007493"
 #head: ""
 
 ---
