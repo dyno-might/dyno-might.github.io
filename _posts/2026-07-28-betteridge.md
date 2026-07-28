@@ -10,8 +10,8 @@ permalink: /betteridge/
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
 #comment:
-#  substack: "https://dynomight.substack.com/p/creatine"
-#  lemmy: "https://lemmy.world/post/49763212"
+#  substack: "https://dynomight.substack.com/p/betteridge"
+#  lemmy: "https://lemmy.world/post/50007493"
 #head: ""
 
 ---
@@ -22,7 +22,7 @@ Still, there's one particular species of dunking that puzzles me. For context, [
 
 > Any headline that ends in a question mark can be answered by the word *no*.
 
-This is often employed as a sick burn. As in, *"You titled your article 'Is this the world's first gay caveman?' because it's *not* the world's first caveman but you wanted it to be, because you want attention, you are so bad, har-har." 
+This is often employed as a sick burn, as in, *You titled your article 'Is this the world's first gay caveman?' because it's* not *the world's first gay caveman but you wanted it to be, because you want attention, you are so bad, har-har.*
 
 But I don't quite understand the rules. Can someone explain the rules?
 
