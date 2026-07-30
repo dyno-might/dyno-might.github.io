@@ -755,7 +755,7 @@ Some writers might leak more information (higher **D(s)**) and some writers migh
 
 [^14]: Also, arguably, stylometry is about language. This means that large *language* models probably have much of what they need baked in. That might explain why they're pretty good at it just "by accident". But to do this optimally I think they'd need self-reflection (e.g. access to probabilities of text given different contexts) that current LLMs aren't typically capable of, and wouldn't know how to manipulate correctly without task-specific training.
 
-[^15]: You could conjecture that near-optimal stylometry abilities are some kind of "emergent property". But the general lesson so far is that LLMs mostly don't have emergent properties but are just good at what they're trained at.
+[^15]: You could conjecture that near-optimal stylometry abilities are some kind of "emergent property". ~~But the general lesson so far is that LLMs mostly don't have emergent properties but are just good at what they're trained at.~~ (Edit: I withdraw this sentence.)
 
 [^16]: (Meta-joke about you—person who works at an AI company—thinking, "maybe we should do that", coming to this footnote, and seeing this meta-joke.)
 
