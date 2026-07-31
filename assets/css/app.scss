@@ -121,6 +121,11 @@ $dark-navbar-bg-color: rgba(0,0,0,0.75);
 
 // GENERAL RULES
 
+// html, body{
+//   // no extra space!
+//   overflow-x: clip;
+// }
+
 html{
     -webkit-font-smoothing: antialiased;
     font-weight:lighter;
@@ -372,11 +377,6 @@ table tr{
   transition: background-color 0.3s ease;
 }
 
-.footnote-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
 // hover footnotes
 
 .footnote-wrapper {
@@ -392,7 +392,8 @@ table tr{
   //margin-bottom: 8px;
   width: max-content;
   max-width: min(400px, 90vw);
-  padding: 0.2em 0.6em;
+  padding: 0em 0.6em;
+  margin: 0;
   font-size: 90%;
   //line-height: 1.4;
   //color: #333;
@@ -401,16 +402,27 @@ table tr{
   //border-radius: 4px;
   //box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.1s ease, visibility 0.1s ease;
+  //visibility: hidden;
+  display: none;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  transition-behavior: allow-discrete;
   z-index: 100;
   pointer-events: none;
 }
 
 .footnote-wrapper:hover .footnote-preview {
   opacity: 1;
-  visibility: visible;
+  //visibility: visible;
+  display: block;
 }
+
+/* lets the fade-in start from opacity: 0 when display flips */
+@starting-style {
+  .footnote-wrapper:hover .footnote-preview {
+    opacity: 0;
+  }
+}
+
 
 /* Optional arrow */
 .footnote-preview::after {
