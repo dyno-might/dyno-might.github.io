@@ -38,7 +38,7 @@ If you'd like to follow me, you can do that via...
 Like most people, I use AI "for research", but I impose fairly strict [limits](/ai/) to make sure I don't use AI "for writing".
 
 <br>
-In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
+In general I'm very open to the idea that I got stuff wrong, I think all feedback is a gift, and I change things based on feedback from people all the time. (See the [log of mistakes](/mistakes).) But fans of [methamphetamines](/p2p-meth/) should be forewarned I am not super open-minded about theories in which I am an agent of the Mexican cartels.
 
 <br>
 Not sure where to get started? Try one of these:
