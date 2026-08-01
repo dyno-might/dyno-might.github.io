@@ -14,7 +14,7 @@ All words are written by me (a human) by physically pressing keys with my finger
 I do often use AI for the following purposes:
 
 1. For research, e.g. "Who discovered vitamin D?"
-2. For fact checking, e.g. "Here is a blogposts on vitamin D. Please check for errors."
+2. For fact checking, e.g. "Here is a blogpost on vitamin D. Please check for errors."
 3. To check for low-level spelling and grammar errors.
 
 For research and fact-checking, I treat AI as a not-very-reliable source. I typically ask for references and verify them. And empirically, I find that AI *is in fact wrong* a huge percentage of the time. That said, for specific factual questions about very well-understood domains (e.g. "What organelle makes ATP in eukaryotes?") I do sometimes judge the answers to be reliable enough to trust. Any mistakes should be considered my mistakes.
