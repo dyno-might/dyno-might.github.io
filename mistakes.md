@@ -7,9 +7,9 @@ hero_image: /img/deathvalley/small.jpg
 permalink: /mistakes/
 ---
 
-Like many humans, I often make mistakes. When people point them out, I edit the text to fix them. But I feel like this doesn't give the mistakes the attention they deserve. So I've tried to keep a log of significant factual mistakes here.
+Like many humans, I often make mistakes. When people point them out, I edit the text to fix them. But I feel like this doesn't give the mistakes the attention they deserve. So I've tried to start keeping a log of significant factual mistakes/correction.
 
-If you are listed here and for some reason don't want to be acknowledged, let me know.
+If you are listed here and for some reason don't want to be acknowledged, just let me know.
 
 **2026-07-31** My post on [plants and CO₂](/plants) incorrectly stated as a fact that CO₂ levels are known to cause cognitive problems. But it's not at all clear this is true. (thanks: [papetoast](https://www.lesswrong.com/posts/YfKgyuc8s9BcAMpEp/so-you-want-to-use-plants-to-reduce-indoor-co?commentId=pujoupG5sjDCXtWFx#pujoupG5sjDCXtWFx))
 
