@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {% endif %}
     ·
     {% for tag in page.tags %}
-        <a href="/#{{tag | downcase}}">{{tag}}</a> 
+        <a href="/#{{tag | downcase}}">#{{tag}}</a> 
     {% endfor %}
 
   </div>
