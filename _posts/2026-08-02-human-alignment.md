@@ -9,9 +9,9 @@ permalink: /human-alignment/
 #seo:
 # date_modified: 2025-11-21
 # last_modified_at: 2025-11-21
-#comment:
-#  substack: "https://dynomight.substack.com/p/plants"
-#  lemmy: "https://lemmy.world/post/50100461"
+comment:
+ substack: "https://dynomight.substack.com/p/human-alignment"
+ lemmy: "https://lemmy.world/post/50257322"
 #head: ""
 
 ---
@@ -108,7 +108,7 @@ The counterargument is that no, it is the subgoals. Sure, there's the theoretica
 
 The second conclusion you could draw is that maybe evolution *didn't* fail. Sure, we aren't perfectly aligned. But you could imagine a world where we invented birth control and then that's it, no more babies. Our reality is very far from that. Not only do we still have babies, we do so very intentionally, even manipulating the laws of nature to do so. With embryo selection, some people even consciously choose the genes for their children to (in effect) increase their reproductive fitness. All considered, that is a remarkable generalization success.
 
-The counterargument to the claim that evolution didn't fail is: Yes it did. You can't dismiss gamete donation as an edge case because it is a *monumental* miss—it's the best reproductive strategy since "build an army of 100,000 horse archers and ravage most of Eurasia", just sitting there. And it's exactly the kind of miss that AI safety people worry about. Evolution gave us a reward function that "overfit" to proxies that that did not generalize. And consider that humans build factories to make sex toys, and now dig up rare earth minerals, use alien technology to make GPUs, and then use those GPUs to do linear algebra and generate weird pornography. From evolution's perspective, that is *really* strange.
+The counterargument to the claim that evolution didn't fail is: Yes it did. You can't dismiss gamete donation as an edge case because it is a *monumental* miss—it's the best reproductive strategy since "build an army of 100,000 horse archers and ravage Eurasia", just sitting there. And it's exactly the kind of miss that AI safety people worry about. Evolution gave us a reward function that "overfit" to proxies that that did not generalize. And consider that humans build factories to make sex toys, and now dig up rare earth minerals, use alien technology to make GPUs, and then use those GPUs to do linear algebra and generate weird pornography. From evolution's perspective, that is *really* strange.
 
 Another counterargument to the idea that evolution didn't fail is that humans get the benefit of cultural evolution. Many of us were born to parents who raised us to have values that cause us to have children and instill the same values in them. If that wasn't happening, birth rates would surely be even lower. Perhaps genetic evolution deserves credit for programming us to undergo cultural evolution. But it's not very reassuring, because if you build a new system and align it to some goal, there's no obvious analogy to cultural evolution keeping it on track.
 
