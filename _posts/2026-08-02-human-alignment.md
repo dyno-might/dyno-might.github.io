@@ -3,7 +3,7 @@ layout: post
 title: "Indirect lessons from human alignment"
 image: /img/human-alignment/the_square_of_saint_marks.jpg
 tags: [AI, psychology]
-description: "You face certain challenges"
+description: "On doing what evolution wants us to do"
 excerpt: ""
 permalink: /human-alignment/
 #seo:
