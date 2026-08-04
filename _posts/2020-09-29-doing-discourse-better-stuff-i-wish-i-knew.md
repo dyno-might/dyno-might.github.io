@@ -3,6 +3,9 @@ layout: post
 title: "Doing discourse better: Stuff I wish I knew"
 image: /img/discourse/forum_romanum.jpg
 description: What do we know about how to communicate effectively and find the truth?
+seo:
+  date_modified: 2026-08-04
+  last_modified_at: 2026-08-04
 tags:
   - discourse
 permalink: /:year/:month/:day/:title/
@@ -37,7 +40,7 @@ Over a few months, Nick and Maria have a dozen of these conversations. The resul
 
 Eventually, she has a strange idea. Maybe she should fight fire with fire, cognitive-bias wise. She decides that in each discussion they should both *intentionally* subject themselves to as much dark-pattern manipulation as possible. Her theory is that there is an "energy barrier" that prevents them from getting into a mind-space where it's even possible to appreciate the other position fairly.
 
-By temporarily brainwashing themselves a little bit, can they can actually give the other position a fair chance?
+By temporarily brainwashing themselves a little bit, can they actually give the other position a fair chance?
 
 ## Skepticism
 
