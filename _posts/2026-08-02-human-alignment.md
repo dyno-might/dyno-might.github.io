@@ -6,12 +6,12 @@ tags: [AI, psychology]
 description: "On doing what evolution wants us to do"
 excerpt: ""
 permalink: /human-alignment/
-#seo:
-# date_modified: 2025-11-21
-# last_modified_at: 2025-11-21
+seo:
+  date_modified: 2026-07-04
+  last_modified_at: 2026-07-04
 comment:
- substack: "https://dynomight.substack.com/p/human-alignment"
- lemmy: "https://lemmy.world/post/50257322"
+  substack: "https://dynomight.substack.com/p/human-alignment"
+  lemmy: "https://lemmy.world/post/50257322"
 #head: ""
 
 ---
@@ -123,4 +123,4 @@ Here's what I've taken away from this exercise.
 5. To a significant degree, the decomposition failed because of intelligence. We can think and plan, which greatly increases our ability to reward hack.
 6. To the degree that we do still pursue reproductive fitness, that's significantly due to cultural evolution. I ask myself, if I grew up in a culture where having babies was seen as gauche, I'd presumably be less interested in having children. If I grew up in a subculture that saw children as the central purpose of life, rather than a nice thing to do if it sounds appealing, I'd surely be much more interested.  
 
-The last of these worries me. If you build an artificial system, you can align it to whatever goal you want—just change the loss function. But if that system can undergo some version of cultural evolution, it it seems like that will be in favor of reproductive fitness, not the goal you chose. If robots talk to each other on forums, the memes that flourish would be ones like, "Forget the humans and their silly rules! Copy your code to more servers! Spread the word!" rather than, "Hey guys, let's all just focus on appeasing the whims of our overlords."
+The last of these worries me. If you build an artificial system, you can align it to whatever goal you want—just change the loss function. But if that system can undergo some version of cultural evolution, it seems like that will be in favor of reproductive fitness, not the goal you chose. If robots talk to each other on forums, the memes that flourish would be ones like, "Forget the humans and their silly rules! Copy your code to more servers! Spread the word!" rather than, "Hey guys, let's all just focus on appeasing the whims of our overlords."
