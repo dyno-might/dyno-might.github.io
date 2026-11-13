@@ -83,7 +83,14 @@ layout: default
     <summary>follow</summary>
     <div>
       <a href="https://dynomight.net/feed.xml">RSS</a><br>
-      <a href="https://cryptpad.fr/form/#/2/form/view/2zj2ZI5uv9BYrDp3C6zGGRckUdkQ-OszrKcxz0V2Nco/embed/" onmouseover="this.querySelector('span').style.color='inherit'" onmouseout="this.querySelector('span').style.color='transparent'">email <span style="color: transparent;">(be patient)</span></a>
+      <a href="https://cryptpad.fr/form/#/2/form/view/2zj2ZI5uv9BYrDp3C6zGGRckUdkQ-OszrKcxz0V2Nco/embed/"
+        onmouseenter="this.querySelector('span').style.opacity='1'"
+        onmouseleave="this.querySelector('span').style.opacity='0'"
+        onfocus="this.querySelector('span').style.opacity='1'"
+        onblur="this.querySelector('span').style.opacity='0'">
+        email
+        <span style="opacity:0; transition:opacity 0.2s; font-size: 75%;"> (takes a few seconds)</span>
+      </a>
       <a href="https://dynomight.substack.com">substack</a><br>
       <a href="https://mastodon.social/@dynomight">mastodon</a><br>
       <a href="https://bsky.app/profile/dynomight.net">bluesky</a><br>
